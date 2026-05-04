@@ -6,6 +6,32 @@ const projectRoot = process.cwd();
 const intakeFilePath = path.join(projectRoot, "data", "deckSourceIntake.json");
 const registryFilePath = path.join(projectRoot, "data", "deckSourceRegistry.json");
 
+const validStatuses = new Set([
+  "manual-existing",
+  "source-registered",
+  "imported",
+  "needs-review",
+]);
+
+const validSourceTypes = new Set([
+  "manual",
+  "blog",
+  "event-archive",
+  "official-event-coverage",
+  "format-reference",
+  "deck-database",
+  "video",
+  "other",
+]);
+
+const validParseStatuses = new Set([
+  "parseable",
+  "reference-only",
+  "blocked-or-empty",
+  "fetch-failed",
+  "unknown",
+]);
+
 function normalizeText(value) {
   return String(value ?? "")
     .toLowerCase()
@@ -49,12 +75,38 @@ function validateSource(source, index) {
     errors.push(`Source ${index + 1}: status is required.`);
   }
 
+  if (source.status && !validStatuses.has(source.status)) {
+    errors.push(
+      `Source ${index + 1}: status must be one of ${Array.from(validStatuses).join(", ")}.`
+    );
+  }
+
   if (!source.sourceType) {
     errors.push(`Source ${index + 1}: sourceType is required.`);
   }
 
+  if (source.sourceType && !validSourceTypes.has(source.sourceType)) {
+    errors.push(
+      `Source ${index + 1}: sourceType must be one of ${Array.from(validSourceTypes).join(", ")}.`
+    );
+  }
+
+  if (!source.parseStatus) {
+    errors.push(`Source ${index + 1}: parseStatus is required.`);
+  }
+
+  if (source.parseStatus && !validParseStatuses.has(source.parseStatus)) {
+    errors.push(
+      `Source ${index + 1}: parseStatus must be one of ${Array.from(validParseStatuses).join(", ")}.`
+    );
+  }
+
   if (!source.label) {
     errors.push(`Source ${index + 1}: label is required.`);
+  }
+
+  if (source.sourceType !== "manual" && !source.url) {
+    errors.push(`Source ${index + 1}: url is required unless sourceType is manual.`);
   }
 
   return errors;
@@ -112,6 +164,17 @@ function main() {
   console.log(`Intake sources: ${intakeSources.length}`);
   console.log(`Added sources: ${newSources.length}`);
   console.log(`Skipped duplicate sources: ${skippedSources.length}`);
+
+  if (newSources.length > 0) {
+    console.log("");
+    console.log("Added:");
+    newSources.forEach((source) => {
+      console.log(
+        `- ${source.year} ${source.target}: ${source.label} (${source.parseStatus})`
+      );
+    });
+  }
+
   console.log("");
   console.log("Updated data/deckSourceRegistry.json");
   console.log("Reset data/deckSourceIntake.json");
