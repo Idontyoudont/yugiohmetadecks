@@ -1,0 +1,2268 @@
+[
+  {
+    "id": "2005-burn",
+    "year": 2005,
+    "targetName": "Burn",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2005 Burn yugioh decklist",
+      "2005 Burn YCS deck profile",
+      "2005 Burn yugioh top deck",
+      "Burn 2005 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2005%20Burn%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2005%20Burn%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Burn"
+    }
+  },
+  {
+    "id": "2005-chaos-turbo",
+    "year": 2005,
+    "targetName": "Chaos Turbo",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2005 Chaos Turbo yugioh decklist",
+      "2005 Chaos Turbo YCS deck profile",
+      "2005 Chaos Turbo yugioh top deck",
+      "Chaos Turbo 2005 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Chaos%20Turbo"
+    }
+  },
+  {
+    "id": "2005-reasoning-gate",
+    "year": 2005,
+    "targetName": "Reasoning Gate",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2005 Reasoning Gate yugioh decklist",
+      "2005 Reasoning Gate YCS deck profile",
+      "2005 Reasoning Gate yugioh top deck",
+      "Reasoning Gate 2005 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Reasoning%20Gate"
+    }
+  },
+  {
+    "id": "2005-warrior-toolbox",
+    "year": 2005,
+    "targetName": "Warrior Toolbox",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2005 Warrior Toolbox yugioh decklist",
+      "2005 Warrior Toolbox YCS deck profile",
+      "2005 Warrior Toolbox yugioh top deck",
+      "Warrior Toolbox 2005 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Warrior%20Toolbox"
+    }
+  },
+  {
+    "id": "2006-bazoo-return",
+    "year": 2006,
+    "targetName": "Bazoo Return",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2006 Bazoo Return yugioh decklist",
+      "2006 Bazoo Return YCS deck profile",
+      "2006 Bazoo Return yugioh top deck",
+      "Bazoo Return 2006 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Bazoo%20Return"
+    }
+  },
+  {
+    "id": "2006-chaos-return",
+    "year": 2006,
+    "targetName": "Chaos Return",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2006 Chaos Return yugioh decklist",
+      "2006 Chaos Return YCS deck profile",
+      "2006 Chaos Return yugioh top deck",
+      "Chaos Return 2006 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Chaos%20Return"
+    }
+  },
+  {
+    "id": "2006-gadget",
+    "year": 2006,
+    "targetName": "Gadget",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2006 Gadget yugioh decklist",
+      "2006 Gadget YCS deck profile",
+      "2006 Gadget yugioh top deck",
+      "Gadget 2006 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2006%20Gadget%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Gadget"
+    }
+  },
+  {
+    "id": "2006-monarch",
+    "year": 2006,
+    "targetName": "Monarch",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2006 Monarch yugioh decklist",
+      "2006 Monarch YCS deck profile",
+      "2006 Monarch yugioh top deck",
+      "Monarch 2006 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2006%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Monarch"
+    }
+  },
+  {
+    "id": "2006-recruiter-chaos",
+    "year": 2006,
+    "targetName": "Recruiter Chaos",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2006 Recruiter Chaos yugioh decklist",
+      "2006 Recruiter Chaos YCS deck profile",
+      "2006 Recruiter Chaos yugioh top deck",
+      "Recruiter Chaos 2006 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Recruiter%20Chaos"
+    }
+  },
+  {
+    "id": "2007-crystal-beast",
+    "year": 2007,
+    "targetName": "Crystal Beast",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Crystal Beast yugioh decklist",
+      "2007 Crystal Beast YCS deck profile",
+      "2007 Crystal Beast yugioh top deck",
+      "Crystal Beast 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Crystal%20Beast"
+    }
+  },
+  {
+    "id": "2007-demise-otk",
+    "year": 2007,
+    "targetName": "Demise OTK",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Demise OTK yugioh decklist",
+      "2007 Demise OTK YCS deck profile",
+      "2007 Demise OTK yugioh top deck",
+      "Demise OTK 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Demise%20OTK"
+    }
+  },
+  {
+    "id": "2007-gadget",
+    "year": 2007,
+    "targetName": "Gadget",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Gadget yugioh decklist",
+      "2007 Gadget YCS deck profile",
+      "2007 Gadget yugioh top deck",
+      "Gadget 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Gadget%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Gadget"
+    }
+  },
+  {
+    "id": "2007-perfect-circle-monarch",
+    "year": 2007,
+    "targetName": "Perfect Circle Monarch",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Perfect Circle Monarch yugioh decklist",
+      "2007 Perfect Circle Monarch YCS deck profile",
+      "2007 Perfect Circle Monarch yugioh top deck",
+      "Perfect Circle Monarch 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Perfect%20Circle%20Monarch"
+    }
+  },
+  {
+    "id": "2007-zombie",
+    "year": 2007,
+    "targetName": "Zombie",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Zombie yugioh decklist",
+      "2007 Zombie YCS deck profile",
+      "2007 Zombie yugioh top deck",
+      "Zombie 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Zombie%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Zombie"
+    }
+  },
+  {
+    "id": "2008-dark-armed-return",
+    "year": 2008,
+    "targetName": "Dark Armed Return",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Dark Armed Return yugioh decklist",
+      "2008 Dark Armed Return YCS deck profile",
+      "2008 Dark Armed Return yugioh top deck",
+      "Dark Armed Return 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Dark%20Armed%20Return"
+    }
+  },
+  {
+    "id": "2008-gladiator-beast",
+    "year": 2008,
+    "targetName": "Gladiator Beast",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Gladiator Beast yugioh decklist",
+      "2008 Gladiator Beast YCS deck profile",
+      "2008 Gladiator Beast yugioh top deck",
+      "Gladiator Beast 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Gladiator%20Beast"
+    }
+  },
+  {
+    "id": "2008-lightsworn",
+    "year": 2008,
+    "targetName": "Lightsworn",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Lightsworn yugioh decklist",
+      "2008 Lightsworn YCS deck profile",
+      "2008 Lightsworn yugioh top deck",
+      "Lightsworn 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Lightsworn%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Lightsworn"
+    }
+  },
+  {
+    "id": "2008-teledad",
+    "year": 2008,
+    "targetName": "TeleDAD",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 TeleDAD yugioh decklist",
+      "2008 TeleDAD YCS deck profile",
+      "2008 TeleDAD yugioh top deck",
+      "TeleDAD 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20TeleDAD%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20TeleDAD"
+    }
+  },
+  {
+    "id": "2008-zombie-synchro",
+    "year": 2008,
+    "targetName": "Zombie Synchro",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Zombie Synchro yugioh decklist",
+      "2008 Zombie Synchro YCS deck profile",
+      "2008 Zombie Synchro yugioh top deck",
+      "Zombie Synchro 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Zombie%20Synchro"
+    }
+  },
+  {
+    "id": "2009-blackwing",
+    "year": 2009,
+    "targetName": "Blackwing",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Blackwing yugioh decklist",
+      "2009 Blackwing YCS deck profile",
+      "2009 Blackwing yugioh top deck",
+      "Blackwing 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Blackwing%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Blackwing"
+    }
+  },
+  {
+    "id": "2009-cat-synchro",
+    "year": 2009,
+    "targetName": "Cat Synchro",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Cat Synchro yugioh decklist",
+      "2009 Cat Synchro YCS deck profile",
+      "2009 Cat Synchro yugioh top deck",
+      "Cat Synchro 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Cat%20Synchro"
+    }
+  },
+  {
+    "id": "2009-gladiator-beast",
+    "year": 2009,
+    "targetName": "Gladiator Beast",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Gladiator Beast yugioh decklist",
+      "2009 Gladiator Beast YCS deck profile",
+      "2009 Gladiator Beast yugioh top deck",
+      "Gladiator Beast 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Gladiator%20Beast"
+    }
+  },
+  {
+    "id": "2009-lightsworn",
+    "year": 2009,
+    "targetName": "Lightsworn",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Lightsworn yugioh decklist",
+      "2009 Lightsworn YCS deck profile",
+      "2009 Lightsworn yugioh top deck",
+      "Lightsworn 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Lightsworn%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Lightsworn"
+    }
+  },
+  {
+    "id": "2009-twilight",
+    "year": 2009,
+    "targetName": "Twilight",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Twilight yugioh decklist",
+      "2009 Twilight YCS deck profile",
+      "2009 Twilight yugioh top deck",
+      "Twilight 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Twilight%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Twilight"
+    }
+  },
+  {
+    "id": "2010-blackwing",
+    "year": 2010,
+    "targetName": "Blackwing",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 Blackwing yugioh decklist",
+      "2010 Blackwing YCS deck profile",
+      "2010 Blackwing yugioh top deck",
+      "Blackwing 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20Blackwing%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Blackwing"
+    }
+  },
+  {
+    "id": "2010-frog-monarch",
+    "year": 2010,
+    "targetName": "Frog Monarch",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 Frog Monarch yugioh decklist",
+      "2010 Frog Monarch YCS deck profile",
+      "2010 Frog Monarch yugioh top deck",
+      "Frog Monarch 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Frog%20Monarch"
+    }
+  },
+  {
+    "id": "2010-infernity",
+    "year": 2010,
+    "targetName": "Infernity",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 Infernity yugioh decklist",
+      "2010 Infernity YCS deck profile",
+      "2010 Infernity yugioh top deck",
+      "Infernity 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20Infernity%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Infernity"
+    }
+  },
+  {
+    "id": "2010-quickdraw-dandywarrior",
+    "year": 2010,
+    "targetName": "Quickdraw Dandywarrior",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 Quickdraw Dandywarrior yugioh decklist",
+      "2010 Quickdraw Dandywarrior YCS deck profile",
+      "2010 Quickdraw Dandywarrior yugioh top deck",
+      "Quickdraw Dandywarrior 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Quickdraw%20Dandywarrior"
+    }
+  },
+  {
+    "id": "2010-x-saber",
+    "year": 2010,
+    "targetName": "X-Saber",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 X-Saber yugioh decklist",
+      "2010 X-Saber YCS deck profile",
+      "2010 X-Saber yugioh top deck",
+      "X-Saber 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20X-Saber%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
+    }
+  },
+  {
+    "id": "2011-agents",
+    "year": 2011,
+    "targetName": "Agents",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Agents yugioh decklist",
+      "2011 Agents YCS deck profile",
+      "2011 Agents yugioh top deck",
+      "Agents 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Agents%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Agents%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Agents"
+    }
+  },
+  {
+    "id": "2011-gravekeeper",
+    "year": 2011,
+    "targetName": "Gravekeeper",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Gravekeeper yugioh decklist",
+      "2011 Gravekeeper YCS deck profile",
+      "2011 Gravekeeper yugioh top deck",
+      "Gravekeeper 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Gravekeeper"
+    }
+  },
+  {
+    "id": "2011-plant-synchro",
+    "year": 2011,
+    "targetName": "Plant Synchro",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Plant Synchro yugioh decklist",
+      "2011 Plant Synchro YCS deck profile",
+      "2011 Plant Synchro yugioh top deck",
+      "Plant Synchro 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Plant%20Synchro"
+    }
+  },
+  {
+    "id": "2011-six-samurai",
+    "year": 2011,
+    "targetName": "Six Samurai",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Six Samurai yugioh decklist",
+      "2011 Six Samurai YCS deck profile",
+      "2011 Six Samurai yugioh top deck",
+      "Six Samurai 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Six%20Samurai"
+    }
+  },
+  {
+    "id": "2011-tengu-plant",
+    "year": 2011,
+    "targetName": "Tengu Plant",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Tengu Plant yugioh decklist",
+      "2011 Tengu Plant YCS deck profile",
+      "2011 Tengu Plant yugioh top deck",
+      "Tengu Plant 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Tengu%20Plant"
+    }
+  },
+  {
+    "id": "2012-chaos-dragon",
+    "year": 2012,
+    "targetName": "Chaos Dragon",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Chaos Dragon yugioh decklist",
+      "2012 Chaos Dragon YCS deck profile",
+      "2012 Chaos Dragon yugioh top deck",
+      "Chaos Dragon 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Chaos%20Dragon"
+    }
+  },
+  {
+    "id": "2012-dino-rabbit",
+    "year": 2012,
+    "targetName": "Dino Rabbit",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Dino Rabbit yugioh decklist",
+      "2012 Dino Rabbit YCS deck profile",
+      "2012 Dino Rabbit yugioh top deck",
+      "Dino Rabbit 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Dino%20Rabbit"
+    }
+  },
+  {
+    "id": "2012-hero-beat",
+    "year": 2012,
+    "targetName": "Hero Beat",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Hero Beat yugioh decklist",
+      "2012 Hero Beat YCS deck profile",
+      "2012 Hero Beat yugioh top deck",
+      "Hero Beat 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Hero%20Beat"
+    }
+  },
+  {
+    "id": "2012-inzektor",
+    "year": 2012,
+    "targetName": "Inzektor",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Inzektor yugioh decklist",
+      "2012 Inzektor YCS deck profile",
+      "2012 Inzektor yugioh top deck",
+      "Inzektor 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Inzektor%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Inzektor"
+    }
+  },
+  {
+    "id": "2012-wind-up",
+    "year": 2012,
+    "targetName": "Wind-Up",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Wind-Up yugioh decklist",
+      "2012 Wind-Up YCS deck profile",
+      "2012 Wind-Up yugioh top deck",
+      "Wind-Up 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Wind-Up%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Wind-Up"
+    }
+  },
+  {
+    "id": "2013-evilswarm",
+    "year": 2013,
+    "targetName": "Evilswarm",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2013 Evilswarm yugioh decklist",
+      "2013 Evilswarm YCS deck profile",
+      "2013 Evilswarm yugioh top deck",
+      "Evilswarm 2013 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2013%20Evilswarm%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Evilswarm"
+    }
+  },
+  {
+    "id": "2013-fire-fist",
+    "year": 2013,
+    "targetName": "Fire Fist",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2013 Fire Fist yugioh decklist",
+      "2013 Fire Fist YCS deck profile",
+      "2013 Fire Fist yugioh top deck",
+      "Fire Fist 2013 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Fire%20Fist"
+    }
+  },
+  {
+    "id": "2013-mermail",
+    "year": 2013,
+    "targetName": "Mermail",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2013 Mermail yugioh decklist",
+      "2013 Mermail YCS deck profile",
+      "2013 Mermail yugioh top deck",
+      "Mermail 2013 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2013%20Mermail%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Mermail"
+    }
+  },
+  {
+    "id": "2013-spellbook",
+    "year": 2013,
+    "targetName": "Spellbook",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2013 Spellbook yugioh decklist",
+      "2013 Spellbook YCS deck profile",
+      "2013 Spellbook yugioh top deck",
+      "Spellbook 2013 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2013%20Spellbook%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Spellbook"
+    }
+  },
+  {
+    "id": "2014-bujin",
+    "year": 2014,
+    "targetName": "Bujin",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 Bujin yugioh decklist",
+      "2014 Bujin YCS deck profile",
+      "2014 Bujin yugioh top deck",
+      "Bujin 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20Bujin%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Bujin"
+    }
+  },
+  {
+    "id": "2014-fire-fist",
+    "year": 2014,
+    "targetName": "Fire Fist",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 Fire Fist yugioh decklist",
+      "2014 Fire Fist YCS deck profile",
+      "2014 Fire Fist yugioh top deck",
+      "Fire Fist 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Fire%20Fist"
+    }
+  },
+  {
+    "id": "2014-geargia",
+    "year": 2014,
+    "targetName": "Geargia",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 Geargia yugioh decklist",
+      "2014 Geargia YCS deck profile",
+      "2014 Geargia yugioh top deck",
+      "Geargia 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20Geargia%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Geargia"
+    }
+  },
+  {
+    "id": "2014-hat",
+    "year": 2014,
+    "targetName": "HAT",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 HAT yugioh decklist",
+      "2014 HAT YCS deck profile",
+      "2014 HAT yugioh top deck",
+      "HAT 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20HAT%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20HAT%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20HAT"
+    }
+  },
+  {
+    "id": "2014-mermail",
+    "year": 2014,
+    "targetName": "Mermail",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 Mermail yugioh decklist",
+      "2014 Mermail YCS deck profile",
+      "2014 Mermail yugioh top deck",
+      "Mermail 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20Mermail%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Mermail"
+    }
+  },
+  {
+    "id": "2015-burning-abyss",
+    "year": 2015,
+    "targetName": "Burning Abyss",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2015 Burning Abyss yugioh decklist",
+      "2015 Burning Abyss YCS deck profile",
+      "2015 Burning Abyss yugioh top deck",
+      "Burning Abyss 2015 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Burning%20Abyss"
+    }
+  },
+  {
+    "id": "2015-nekroz",
+    "year": 2015,
+    "targetName": "Nekroz",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2015 Nekroz yugioh decklist",
+      "2015 Nekroz YCS deck profile",
+      "2015 Nekroz yugioh top deck",
+      "Nekroz 2015 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2015%20Nekroz%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Nekroz"
+    }
+  },
+  {
+    "id": "2015-qliphort",
+    "year": 2015,
+    "targetName": "Qliphort",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2015 Qliphort yugioh decklist",
+      "2015 Qliphort YCS deck profile",
+      "2015 Qliphort yugioh top deck",
+      "Qliphort 2015 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2015%20Qliphort%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Qliphort"
+    }
+  },
+  {
+    "id": "2015-satellarknight",
+    "year": 2015,
+    "targetName": "Satellarknight",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2015 Satellarknight yugioh decklist",
+      "2015 Satellarknight YCS deck profile",
+      "2015 Satellarknight yugioh top deck",
+      "Satellarknight 2015 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2015%20Satellarknight%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Satellarknight"
+    }
+  },
+  {
+    "id": "2015-shaddoll",
+    "year": 2015,
+    "targetName": "Shaddoll",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2015 Shaddoll yugioh decklist",
+      "2015 Shaddoll YCS deck profile",
+      "2015 Shaddoll yugioh top deck",
+      "Shaddoll 2015 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2015%20Shaddoll%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Shaddoll"
+    }
+  },
+  {
+    "id": "2016-blue-eyes",
+    "year": 2016,
+    "targetName": "Blue-Eyes",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2016 Blue-Eyes yugioh decklist",
+      "2016 Blue-Eyes YCS deck profile",
+      "2016 Blue-Eyes yugioh top deck",
+      "Blue-Eyes 2016 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Blue-Eyes"
+    }
+  },
+  {
+    "id": "2016-burning-abyss",
+    "year": 2016,
+    "targetName": "Burning Abyss",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2016 Burning Abyss yugioh decklist",
+      "2016 Burning Abyss YCS deck profile",
+      "2016 Burning Abyss yugioh top deck",
+      "Burning Abyss 2016 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Burning%20Abyss"
+    }
+  },
+  {
+    "id": "2016-kozmo",
+    "year": 2016,
+    "targetName": "Kozmo",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2016 Kozmo yugioh decklist",
+      "2016 Kozmo YCS deck profile",
+      "2016 Kozmo yugioh top deck",
+      "Kozmo 2016 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2016%20Kozmo%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Kozmo%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Kozmo%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Kozmo%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Kozmo"
+    }
+  },
+  {
+    "id": "2016-monarch",
+    "year": 2016,
+    "targetName": "Monarch",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2016 Monarch yugioh decklist",
+      "2016 Monarch YCS deck profile",
+      "2016 Monarch yugioh top deck",
+      "Monarch 2016 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2016%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Monarch"
+    }
+  },
+  {
+    "id": "2016-performapal-performage",
+    "year": 2016,
+    "targetName": "Performapal Performage",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2016 Performapal Performage yugioh decklist",
+      "2016 Performapal Performage YCS deck profile",
+      "2016 Performapal Performage yugioh top deck",
+      "Performapal Performage 2016 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Performapal%20Performage"
+    }
+  },
+  {
+    "id": "2017-dinosaur",
+    "year": 2017,
+    "targetName": "Dinosaur",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 Dinosaur yugioh decklist",
+      "2017 Dinosaur YCS deck profile",
+      "2017 Dinosaur yugioh top deck",
+      "Dinosaur 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20Dinosaur%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20Dinosaur%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Dinosaur%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20Dinosaur%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Dinosaur"
+    }
+  },
+  {
+    "id": "2017-pendulum-magician",
+    "year": 2017,
+    "targetName": "Pendulum Magician",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 Pendulum Magician yugioh decklist",
+      "2017 Pendulum Magician YCS deck profile",
+      "2017 Pendulum Magician yugioh top deck",
+      "Pendulum Magician 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Pendulum%20Magician"
+    }
+  },
+  {
+    "id": "2017-spyral",
+    "year": 2017,
+    "targetName": "SPYRAL",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 SPYRAL yugioh decklist",
+      "2017 SPYRAL YCS deck profile",
+      "2017 SPYRAL yugioh top deck",
+      "SPYRAL 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20SPYRAL%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20SPYRAL%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20SPYRAL%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20SPYRAL%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20SPYRAL"
+    }
+  },
+  {
+    "id": "2017-true-draco",
+    "year": 2017,
+    "targetName": "True Draco",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 True Draco yugioh decklist",
+      "2017 True Draco YCS deck profile",
+      "2017 True Draco yugioh top deck",
+      "True Draco 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20True%20Draco%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20True%20Draco%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20True%20Draco%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20True%20Draco%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20True%20Draco"
+    }
+  },
+  {
+    "id": "2017-zoodiac",
+    "year": 2017,
+    "targetName": "Zoodiac",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 Zoodiac yugioh decklist",
+      "2017 Zoodiac YCS deck profile",
+      "2017 Zoodiac yugioh top deck",
+      "Zoodiac 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20Zoodiac%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20Zoodiac%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Zoodiac%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20Zoodiac%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Zoodiac"
+    }
+  },
+  {
+    "id": "2018-altergeist",
+    "year": 2018,
+    "targetName": "Altergeist",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Altergeist yugioh decklist",
+      "2018 Altergeist YCS deck profile",
+      "2018 Altergeist yugioh top deck",
+      "Altergeist 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Altergeist%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Altergeist%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Altergeist%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Altergeist%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Altergeist"
+    }
+  },
+  {
+    "id": "2018-gouki",
+    "year": 2018,
+    "targetName": "Gouki",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Gouki yugioh decklist",
+      "2018 Gouki YCS deck profile",
+      "2018 Gouki yugioh top deck",
+      "Gouki 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Gouki%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Gouki%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Gouki%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Gouki%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Gouki"
+    }
+  },
+  {
+    "id": "2018-sky-striker",
+    "year": 2018,
+    "targetName": "Sky Striker",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Sky Striker yugioh decklist",
+      "2018 Sky Striker YCS deck profile",
+      "2018 Sky Striker yugioh top deck",
+      "Sky Striker 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Sky%20Striker"
+    }
+  },
+  {
+    "id": "2018-thunder-dragon",
+    "year": 2018,
+    "targetName": "Thunder Dragon",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Thunder Dragon yugioh decklist",
+      "2018 Thunder Dragon YCS deck profile",
+      "2018 Thunder Dragon yugioh top deck",
+      "Thunder Dragon 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Thunder%20Dragon"
+    }
+  },
+  {
+    "id": "2018-trickstar",
+    "year": 2018,
+    "targetName": "Trickstar",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Trickstar yugioh decklist",
+      "2018 Trickstar YCS deck profile",
+      "2018 Trickstar yugioh top deck",
+      "Trickstar 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Trickstar%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Trickstar%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Trickstar%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Trickstar%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Trickstar"
+    }
+  },
+  {
+    "id": "2019-orcust",
+    "year": 2019,
+    "targetName": "Orcust",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Orcust yugioh decklist",
+      "2019 Orcust YCS deck profile",
+      "2019 Orcust yugioh top deck",
+      "Orcust 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Orcust%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Orcust%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Orcust%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Orcust%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Orcust"
+    }
+  },
+  {
+    "id": "2019-salamangreat",
+    "year": 2019,
+    "targetName": "Salamangreat",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Salamangreat yugioh decklist",
+      "2019 Salamangreat YCS deck profile",
+      "2019 Salamangreat yugioh top deck",
+      "Salamangreat 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Salamangreat%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Salamangreat%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Salamangreat%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Salamangreat%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Salamangreat"
+    }
+  },
+  {
+    "id": "2019-sky-striker",
+    "year": 2019,
+    "targetName": "Sky Striker",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Sky Striker yugioh decklist",
+      "2019 Sky Striker YCS deck profile",
+      "2019 Sky Striker yugioh top deck",
+      "Sky Striker 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Sky%20Striker%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Sky%20Striker%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Sky%20Striker%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Sky%20Striker%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Sky%20Striker"
+    }
+  },
+  {
+    "id": "2019-subterror",
+    "year": 2019,
+    "targetName": "Subterror",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Subterror yugioh decklist",
+      "2019 Subterror YCS deck profile",
+      "2019 Subterror yugioh top deck",
+      "Subterror 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Subterror%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Subterror%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Subterror%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Subterror%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Subterror"
+    }
+  },
+  {
+    "id": "2019-thunder-dragon",
+    "year": 2019,
+    "targetName": "Thunder Dragon",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Thunder Dragon yugioh decklist",
+      "2019 Thunder Dragon YCS deck profile",
+      "2019 Thunder Dragon yugioh top deck",
+      "Thunder Dragon 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Thunder%20Dragon"
+    }
+  },
+  {
+    "id": "2020-adamancipator",
+    "year": 2020,
+    "targetName": "Adamancipator",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2020 Adamancipator yugioh decklist",
+      "2020 Adamancipator YCS deck profile",
+      "2020 Adamancipator yugioh top deck",
+      "Adamancipator 2020 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2020%20Adamancipator%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2020%20Adamancipator%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2020%20Adamancipator%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2020%20Adamancipator%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2020%20Adamancipator"
+    }
+  },
+  {
+    "id": "2020-dogmatika-invoked",
+    "year": 2020,
+    "targetName": "Dogmatika Invoked",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2020 Dogmatika Invoked yugioh decklist",
+      "2020 Dogmatika Invoked YCS deck profile",
+      "2020 Dogmatika Invoked yugioh top deck",
+      "Dogmatika Invoked 2020 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2020%20Dogmatika%20Invoked%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2020%20Dogmatika%20Invoked%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2020%20Dogmatika%20Invoked%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2020%20Dogmatika%20Invoked%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2020%20Dogmatika%20Invoked"
+    }
+  },
+  {
+    "id": "2020-dragon-link",
+    "year": 2020,
+    "targetName": "Dragon Link",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2020 Dragon Link yugioh decklist",
+      "2020 Dragon Link YCS deck profile",
+      "2020 Dragon Link yugioh top deck",
+      "Dragon Link 2020 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2020%20Dragon%20Link%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2020%20Dragon%20Link%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2020%20Dragon%20Link%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2020%20Dragon%20Link%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2020%20Dragon%20Link"
+    }
+  },
+  {
+    "id": "2020-eldlich",
+    "year": 2020,
+    "targetName": "Eldlich",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2020 Eldlich yugioh decklist",
+      "2020 Eldlich YCS deck profile",
+      "2020 Eldlich yugioh top deck",
+      "Eldlich 2020 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2020%20Eldlich%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2020%20Eldlich%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2020%20Eldlich%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2020%20Eldlich%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2020%20Eldlich"
+    }
+  },
+  {
+    "id": "2020-virtual-world",
+    "year": 2020,
+    "targetName": "Virtual World",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2020 Virtual World yugioh decklist",
+      "2020 Virtual World YCS deck profile",
+      "2020 Virtual World yugioh top deck",
+      "Virtual World 2020 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2020%20Virtual%20World%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2020%20Virtual%20World%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2020%20Virtual%20World%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2020%20Virtual%20World%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2020%20Virtual%20World"
+    }
+  },
+  {
+    "id": "2021-dragon-link",
+    "year": 2021,
+    "targetName": "Dragon Link",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2021 Dragon Link yugioh decklist",
+      "2021 Dragon Link YCS deck profile",
+      "2021 Dragon Link yugioh top deck",
+      "Dragon Link 2021 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2021%20Dragon%20Link%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2021%20Dragon%20Link%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2021%20Dragon%20Link%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2021%20Dragon%20Link%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2021%20Dragon%20Link"
+    }
+  },
+  {
+    "id": "2021-drytron",
+    "year": 2021,
+    "targetName": "Drytron",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2021 Drytron yugioh decklist",
+      "2021 Drytron YCS deck profile",
+      "2021 Drytron yugioh top deck",
+      "Drytron 2021 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2021%20Drytron%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2021%20Drytron%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2021%20Drytron%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2021%20Drytron%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2021%20Drytron"
+    }
+  },
+  {
+    "id": "2021-prank-kids",
+    "year": 2021,
+    "targetName": "Prank-Kids",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2021 Prank-Kids yugioh decklist",
+      "2021 Prank-Kids YCS deck profile",
+      "2021 Prank-Kids yugioh top deck",
+      "Prank-Kids 2021 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2021%20Prank-Kids%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2021%20Prank-Kids%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2021%20Prank-Kids%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2021%20Prank-Kids%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2021%20Prank-Kids"
+    }
+  },
+  {
+    "id": "2021-tri-brigade",
+    "year": 2021,
+    "targetName": "Tri-Brigade",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2021 Tri-Brigade yugioh decklist",
+      "2021 Tri-Brigade YCS deck profile",
+      "2021 Tri-Brigade yugioh top deck",
+      "Tri-Brigade 2021 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2021%20Tri-Brigade%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2021%20Tri-Brigade%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2021%20Tri-Brigade%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2021%20Tri-Brigade%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2021%20Tri-Brigade"
+    }
+  },
+  {
+    "id": "2021-virtual-world",
+    "year": 2021,
+    "targetName": "Virtual World",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2021 Virtual World yugioh decklist",
+      "2021 Virtual World YCS deck profile",
+      "2021 Virtual World yugioh top deck",
+      "Virtual World 2021 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2021%20Virtual%20World%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2021%20Virtual%20World%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2021%20Virtual%20World%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2021%20Virtual%20World%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2021%20Virtual%20World"
+    }
+  },
+  {
+    "id": "2022-branded-despia",
+    "year": 2022,
+    "targetName": "Branded Despia",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2022 Branded Despia yugioh decklist",
+      "2022 Branded Despia YCS deck profile",
+      "2022 Branded Despia yugioh top deck",
+      "Branded Despia 2022 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2022%20Branded%20Despia%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2022%20Branded%20Despia%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2022%20Branded%20Despia%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2022%20Branded%20Despia%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2022%20Branded%20Despia"
+    }
+  },
+  {
+    "id": "2022-floowandereeze",
+    "year": 2022,
+    "targetName": "Floowandereeze",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2022 Floowandereeze yugioh decklist",
+      "2022 Floowandereeze YCS deck profile",
+      "2022 Floowandereeze yugioh top deck",
+      "Floowandereeze 2022 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2022%20Floowandereeze%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2022%20Floowandereeze%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2022%20Floowandereeze%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2022%20Floowandereeze%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2022%20Floowandereeze"
+    }
+  },
+  {
+    "id": "2022-spright",
+    "year": 2022,
+    "targetName": "Spright",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2022 Spright yugioh decklist",
+      "2022 Spright YCS deck profile",
+      "2022 Spright yugioh top deck",
+      "Spright 2022 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2022%20Spright%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2022%20Spright%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2022%20Spright%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2022%20Spright%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2022%20Spright"
+    }
+  },
+  {
+    "id": "2022-swordsoul",
+    "year": 2022,
+    "targetName": "Swordsoul",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2022 Swordsoul yugioh decklist",
+      "2022 Swordsoul YCS deck profile",
+      "2022 Swordsoul yugioh top deck",
+      "Swordsoul 2022 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2022%20Swordsoul%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2022%20Swordsoul%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2022%20Swordsoul%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2022%20Swordsoul%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2022%20Swordsoul"
+    }
+  },
+  {
+    "id": "2022-tearlaments",
+    "year": 2022,
+    "targetName": "Tearlaments",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2022 Tearlaments yugioh decklist",
+      "2022 Tearlaments YCS deck profile",
+      "2022 Tearlaments yugioh top deck",
+      "Tearlaments 2022 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2022%20Tearlaments%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2022%20Tearlaments%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2022%20Tearlaments%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2022%20Tearlaments%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2022%20Tearlaments"
+    }
+  },
+  {
+    "id": "2023-branded",
+    "year": 2023,
+    "targetName": "Branded",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2023 Branded yugioh decklist",
+      "2023 Branded YCS deck profile",
+      "2023 Branded yugioh top deck",
+      "Branded 2023 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2023%20Branded%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2023%20Branded%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2023%20Branded%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2023%20Branded%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2023%20Branded"
+    }
+  },
+  {
+    "id": "2023-kashtira",
+    "year": 2023,
+    "targetName": "Kashtira",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2023 Kashtira yugioh decklist",
+      "2023 Kashtira YCS deck profile",
+      "2023 Kashtira yugioh top deck",
+      "Kashtira 2023 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2023%20Kashtira%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2023%20Kashtira%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2023%20Kashtira%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2023%20Kashtira%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2023%20Kashtira"
+    }
+  },
+  {
+    "id": "2023-labrynth",
+    "year": 2023,
+    "targetName": "Labrynth",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2023 Labrynth yugioh decklist",
+      "2023 Labrynth YCS deck profile",
+      "2023 Labrynth yugioh top deck",
+      "Labrynth 2023 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2023%20Labrynth%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2023%20Labrynth%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2023%20Labrynth%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2023%20Labrynth%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2023%20Labrynth"
+    }
+  },
+  {
+    "id": "2023-mathmech",
+    "year": 2023,
+    "targetName": "Mathmech",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2023 Mathmech yugioh decklist",
+      "2023 Mathmech YCS deck profile",
+      "2023 Mathmech yugioh top deck",
+      "Mathmech 2023 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2023%20Mathmech%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2023%20Mathmech%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2023%20Mathmech%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2023%20Mathmech%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2023%20Mathmech"
+    }
+  },
+  {
+    "id": "2023-purrely",
+    "year": 2023,
+    "targetName": "Purrely",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2023 Purrely yugioh decklist",
+      "2023 Purrely YCS deck profile",
+      "2023 Purrely yugioh top deck",
+      "Purrely 2023 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2023%20Purrely%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2023%20Purrely%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2023%20Purrely%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2023%20Purrely%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2023%20Purrely"
+    }
+  },
+  {
+    "id": "2024-labrynth",
+    "year": 2024,
+    "targetName": "Labrynth",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2024 Labrynth yugioh decklist",
+      "2024 Labrynth YCS deck profile",
+      "2024 Labrynth yugioh top deck",
+      "Labrynth 2024 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2024%20Labrynth%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2024%20Labrynth%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2024%20Labrynth%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2024%20Labrynth%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2024%20Labrynth"
+    }
+  },
+  {
+    "id": "2024-snake-eye",
+    "year": 2024,
+    "targetName": "Snake-Eye",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2024 Snake-Eye yugioh decklist",
+      "2024 Snake-Eye YCS deck profile",
+      "2024 Snake-Eye yugioh top deck",
+      "Snake-Eye 2024 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2024%20Snake-Eye%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2024%20Snake-Eye%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2024%20Snake-Eye%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2024%20Snake-Eye%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2024%20Snake-Eye"
+    }
+  },
+  {
+    "id": "2024-tenpai-dragon",
+    "year": 2024,
+    "targetName": "Tenpai Dragon",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2024 Tenpai Dragon yugioh decklist",
+      "2024 Tenpai Dragon YCS deck profile",
+      "2024 Tenpai Dragon yugioh top deck",
+      "Tenpai Dragon 2024 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2024%20Tenpai%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2024%20Tenpai%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2024%20Tenpai%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2024%20Tenpai%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2024%20Tenpai%20Dragon"
+    }
+  },
+  {
+    "id": "2024-voiceless-voice",
+    "year": 2024,
+    "targetName": "Voiceless Voice",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2024 Voiceless Voice yugioh decklist",
+      "2024 Voiceless Voice YCS deck profile",
+      "2024 Voiceless Voice yugioh top deck",
+      "Voiceless Voice 2024 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2024%20Voiceless%20Voice%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2024%20Voiceless%20Voice%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2024%20Voiceless%20Voice%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2024%20Voiceless%20Voice%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2024%20Voiceless%20Voice"
+    }
+  },
+  {
+    "id": "2024-yubel",
+    "year": 2024,
+    "targetName": "Yubel",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2024 Yubel yugioh decklist",
+      "2024 Yubel YCS deck profile",
+      "2024 Yubel yugioh top deck",
+      "Yubel 2024 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2024%20Yubel%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2024%20Yubel%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2024%20Yubel%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2024%20Yubel%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2024%20Yubel"
+    }
+  },
+  {
+    "id": "2025-fiendsmith",
+    "year": 2025,
+    "targetName": "Fiendsmith",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2025 Fiendsmith yugioh decklist",
+      "2025 Fiendsmith YCS deck profile",
+      "2025 Fiendsmith yugioh top deck",
+      "Fiendsmith 2025 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2025%20Fiendsmith%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2025%20Fiendsmith%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Fiendsmith%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2025%20Fiendsmith%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Fiendsmith"
+    }
+  },
+  {
+    "id": "2025-maliss",
+    "year": 2025,
+    "targetName": "Maliss",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2025 Maliss yugioh decklist",
+      "2025 Maliss YCS deck profile",
+      "2025 Maliss yugioh top deck",
+      "Maliss 2025 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2025%20Maliss%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2025%20Maliss%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Maliss%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2025%20Maliss%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Maliss"
+    }
+  },
+  {
+    "id": "2025-memento",
+    "year": 2025,
+    "targetName": "Memento",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2025 Memento yugioh decklist",
+      "2025 Memento YCS deck profile",
+      "2025 Memento yugioh top deck",
+      "Memento 2025 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2025%20Memento%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2025%20Memento%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Memento%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2025%20Memento%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Memento"
+    }
+  },
+  {
+    "id": "2025-ryzeal",
+    "year": 2025,
+    "targetName": "Ryzeal",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2025 Ryzeal yugioh decklist",
+      "2025 Ryzeal YCS deck profile",
+      "2025 Ryzeal yugioh top deck",
+      "Ryzeal 2025 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2025%20Ryzeal%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2025%20Ryzeal%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Ryzeal%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2025%20Ryzeal%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Ryzeal"
+    }
+  },
+  {
+    "id": "2025-snake-eye",
+    "year": 2025,
+    "targetName": "Snake-Eye",
+    "populationStatus": "missing-source-and-deck",
+    "priority": 1,
+    "sourceCount": 0,
+    "deckCount": 0,
+    "searchQueries": [
+      "2025 Snake-Eye yugioh decklist",
+      "2025 Snake-Eye YCS deck profile",
+      "2025 Snake-Eye yugioh top deck",
+      "Snake-Eye 2025 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2025%20Snake-Eye%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2025%20Snake-Eye%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Snake-Eye%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2025%20Snake-Eye%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Snake-Eye"
+    }
+  }
+]
