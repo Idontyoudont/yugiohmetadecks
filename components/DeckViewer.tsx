@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
+import { DeckFilters } from "./DeckFilters";
 import { DeckSidebar } from "./DeckSidebar";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
 import type { Deck, EnrichedDeckCard } from "../types/deck";
@@ -16,6 +17,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
     null
   );
+  const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   const selectedDeck =
     decks.find((deck) => deck.id === selectedDeckId) ?? decks[0];
@@ -24,8 +26,37 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const enrichedExtraDeck = selectedDeck.extraDeck.map(enrichDeckCard);
   const enrichedSideDeck = selectedDeck.sideDeck.map(enrichDeckCard);
 
+  const allCards = [
+    ...enrichedMainDeck,
+    ...enrichedExtraDeck,
+    ...enrichedSideDeck,
+  ];
+
+  const availableTags = useMemo(() => {
+    const tags = allCards.flatMap((card) => card.tags ?? []);
+    return Array.from(new Set(tags)).sort();
+  }, [allCards]);
+
+  function filterCards(cards: EnrichedDeckCard[]) {
+    if (!selectedTag) {
+      return cards;
+    }
+
+    return cards.filter((card) => card.tags?.includes(selectedTag));
+  }
+
+  const filteredMainDeck = filterCards(enrichedMainDeck);
+  const filteredExtraDeck = filterCards(enrichedExtraDeck);
+  const filteredSideDeck = filterCards(enrichedSideDeck);
+
   function handleSelectDeck(deckId: string) {
     setSelectedDeckId(deckId);
+    setSelectedCard(null);
+    setSelectedTag(null);
+  }
+
+  function handleSelectTag(tag: string | null) {
+    setSelectedTag(tag);
     setSelectedCard(null);
   }
 
@@ -50,27 +81,32 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           </p>
           <p className="mt-5 max-w-3xl text-slate-400">
             This is the first interactive layout test for the Yu-Gi-Oh meta deck
-            viewer. Card details are now stored separately from deck lists, so
-            the app is easier to maintain and later connect to an API.
+            viewer. You can now filter cards by custom role tags.
           </p>
         </div>
+
+        <DeckFilters
+          availableTags={availableTags}
+          selectedTag={selectedTag}
+          onSelectTag={handleSelectTag}
+        />
 
         <div className="space-y-6">
           <CardGrid
             title="Main Deck"
-            cards={enrichedMainDeck}
+            cards={filteredMainDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
           <CardGrid
             title="Extra Deck"
-            cards={enrichedExtraDeck}
+            cards={filteredExtraDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
           <CardGrid
             title="Side Deck"
-            cards={enrichedSideDeck}
+            cards={filteredSideDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
