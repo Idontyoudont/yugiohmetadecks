@@ -4,7 +4,8 @@ import { useState } from "react";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckSidebar } from "./DeckSidebar";
-import type { Deck, DeckCard } from "../types/deck";
+import { enrichDeckCard } from "../lib/enrichDeckCard";
+import type { Deck, EnrichedDeckCard } from "../types/deck";
 
 type DeckViewerProps = {
   decks: Deck[];
@@ -12,10 +13,16 @@ type DeckViewerProps = {
 
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
-  const [selectedCard, setSelectedCard] = useState<DeckCard | null>(null);
+  const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
+    null
+  );
 
   const selectedDeck =
     decks.find((deck) => deck.id === selectedDeckId) ?? decks[0];
+
+  const enrichedMainDeck = selectedDeck.mainDeck.map(enrichDeckCard);
+  const enrichedExtraDeck = selectedDeck.extraDeck.map(enrichDeckCard);
+  const enrichedSideDeck = selectedDeck.sideDeck.map(enrichDeckCard);
 
   function handleSelectDeck(deckId: string) {
     setSelectedDeckId(deckId);
@@ -43,28 +50,27 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           </p>
           <p className="mt-5 max-w-3xl text-slate-400">
             This is the first interactive layout test for the Yu-Gi-Oh meta deck
-            viewer. You can switch decks and click cards to preview details.
-            Later, each card can show its real image, effect text, attributes,
-            sets, and custom role tags.
+            viewer. Card details are now stored separately from deck lists, so
+            the app is easier to maintain and later connect to an API.
           </p>
         </div>
 
         <div className="space-y-6">
           <CardGrid
             title="Main Deck"
-            cards={selectedDeck.mainDeck}
+            cards={enrichedMainDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
           <CardGrid
             title="Extra Deck"
-            cards={selectedDeck.extraDeck}
+            cards={enrichedExtraDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
           <CardGrid
             title="Side Deck"
-            cards={selectedDeck.sideDeck}
+            cards={enrichedSideDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />

@@ -1,7 +1,7 @@
-import type { DeckCard } from "../types/deck";
+import type { EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
-  card: DeckCard | null;
+  card: EnrichedDeckCard | null;
 };
 
 export function CardPreviewPanel({ card }: CardPreviewPanelProps) {

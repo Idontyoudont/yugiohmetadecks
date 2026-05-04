@@ -1,10 +1,10 @@
-import type { DeckCard } from "../types/deck";
+import type { EnrichedDeckCard } from "../types/deck";
 
 type CardGridProps = {
   title: string;
-  cards: DeckCard[];
-  selectedCard?: DeckCard | null;
-  onSelectCard: (card: DeckCard) => void;
+  cards: EnrichedDeckCard[];
+  selectedCard?: EnrichedDeckCard | null;
+  onSelectCard: (card: EnrichedDeckCard) => void;
 };
 
 export function CardGrid({
@@ -42,7 +42,15 @@ export function CardGrid({
                 x{card.quantity}
               </span>
 
-              <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
+              {card.imageUrl ? (
+                <img
+                  src={card.imageUrl}
+                  alt={card.name}
+                  className="mb-3 aspect-[3/4] w-full rounded-lg object-cover"
+                />
+              ) : (
+                <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
+              )}
 
               <p className="font-medium leading-snug">{card.name}</p>
 
