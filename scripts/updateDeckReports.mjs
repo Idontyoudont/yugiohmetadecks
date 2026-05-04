@@ -12,6 +12,11 @@ const reportCommands = [
     args: ["scripts/reportDeckSourceCoverage.mjs"],
   },
   {
+    label: "Deck source health report",
+    command: "node",
+    args: ["scripts/checkDeckSourceHealth.mjs"],
+  },
+  {
     label: "Deck population report",
     command: "node",
     args: ["scripts/reportDeckPopulation.mjs"],
@@ -53,6 +58,7 @@ function main() {
   console.log("Updated files:");
   console.log("- data/deckCoverageReport.json");
   console.log("- data/deckSourceCoverageReport.json");
+  console.log("- data/deckSourceHealthReport.json");
   console.log("- data/deckPopulationReport.json");
   console.log("- data/deckPopulationReport.csv");
   console.log("- data/deckResearchQueue.json");
