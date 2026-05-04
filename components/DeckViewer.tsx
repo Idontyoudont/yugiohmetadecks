@@ -13,6 +13,7 @@ import { DeckSidebar } from "./DeckSidebar";
 import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
 import { DeckValidation } from "./DeckValidation";
+import { DeckVariantChanges } from "./DeckVariantChanges";
 import { DeckVariantSelector } from "./DeckVariantSelector";
 import { MissingSourceChecklist } from "./MissingSourceChecklist";
 import type { CardGameSourceInfo, Deck, EnrichedDeckCard } from "../types/deck";
@@ -237,6 +238,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
               onSelectVariant={handleSelectVariant}
             />
           ) : null}
+
+          <DeckVariantChanges variant={selectedVariant} />
 
           <DeckStats
             mainDeck={filteredMainDeck}
