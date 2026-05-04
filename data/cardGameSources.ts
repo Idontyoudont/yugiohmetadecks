@@ -35,10 +35,31 @@ function notInGame(name: string, notes?: string): CardGameSourceInfo {
   };
 }
 
+function unknown(name: string, notes?: string): CardGameSourceInfo {
+  return {
+    name,
+    status: "unknown",
+    notes:
+      notes ??
+      "No reliable in-game pack source has been added for this card yet.",
+  };
+}
+
 export const cardGameSources: Record<string, CardGameSourceInfo> = {
   "Black Luster Soldier - Envoy of the Beginning": notInGame(
     "Black Luster Soldier - Envoy of the Beginning",
     "This exact Envoy version was not found in the Steam community card pack breakdown during the current source pass. Keep it in historical decklists, but mark it as unavailable for this game."
+  ),
+
+  "Chaos Sorcerer": unknown(
+    "Chaos Sorcerer",
+    "This card was not found by exact search in the Steam community card pack breakdown during the current source pass. Keep this as unknown until manually verified."
+  ),
+
+  "Dark Magician of Chaos": available(
+    "Dark Magician of Chaos",
+    "Yugi Muto/Yami",
+    "Effect Monsters"
   ),
 
   "Airknight Parshath": available(
