@@ -11,6 +11,24 @@ export const cardDetails: CardDetails[] = [
       "A powerful Chaos boss monster that can be Special Summoned by banishing 1 LIGHT and 1 DARK monster from the Graveyard. It can either banish a monster or make a second attack after destroying a monster by battle.",
   },
   {
+    name: "Chaos Sorcerer",
+    imageUrl: "https://images.ygoprodeck.com/images/cards/9596126.jpg",
+    cardType: "Effect Monster",
+    attribute: "DARK",
+    level: 6,
+    description:
+      "A Chaos monster that can be Special Summoned by banishing 1 LIGHT and 1 DARK monster from the Graveyard. It can banish a face-up monster, making it a natural replacement option for Chaos-style decks.",
+  },
+  {
+    name: "Dark Magician of Chaos",
+    imageUrl: "https://images.ygoprodeck.com/images/cards/40737112.jpg",
+    cardType: "Effect Monster",
+    attribute: "DARK",
+    level: 8,
+    description:
+      "A powerful late-game monster that can recover a Spell Card when Summoned and banish monsters it destroys by battle.",
+  },
+  {
     name: "Airknight Parshath",
     imageUrl: "https://images.ygoprodeck.com/images/cards/18036057.jpg",
     cardType: "Effect Monster",
