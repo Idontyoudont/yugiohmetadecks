@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-04T19:19:29.752Z",
+  "generatedAt": "2026-05-04T19:29:21.342Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "sourcedTargetSlots": 25,
-  "missingSourceSlots": 80,
-  "registeredSourceCount": 61,
+  "sourcedTargetSlots": 36,
+  "missingSourceSlots": 69,
+  "registeredSourceCount": 111,
   "sourceStatusCounts": {
-    "source-registered": 59,
+    "source-registered": 109,
     "manual-existing": 1,
     "imported": 1
   },
   "sourceTypeCounts": {
-    "deck-database": 55,
+    "deck-database": 105,
     "manual": 1,
     "format-reference": 1,
     "event-archive": 1,
@@ -240,8 +240,8 @@
       "year": 2009,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "Blackwing",
@@ -263,8 +263,201 @@
         },
         {
           "targetName": "Lightsworn",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+              "player": "Jake Maddox",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/111",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 117 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+              "player": "Jeremy Hopper",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/117",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 118 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+              "player": "Andrew Nguyen",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/118",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 121 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+              "player": "Dalton Patterson",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/121",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 122 - YGO State Championship Minnesota (Jul 2014) - Jul 2014",
+              "player": "Noah Sharpe",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/122",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 124 - YGO State Championship Minnesota (Jul 2014) - Jul 2014",
+              "player": "Chan Vang",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/124",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 137 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
+              "player": "Matthew Sheldon",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/137",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 141 - YGO State Championship Maine (Jul 2014) - Jul 2014",
+              "player": "Jeff Colpitts",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/141",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 142 - YGO State Championship Maine (Jul 2014) - Jul 2014",
+              "player": "Kyle Ames",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/142",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 148 - YGO State Championship Idaho (Jul 2014) - Jul 2014",
+              "player": "Zlatko Novakovic",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/148",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 157 - YGO State Championship Florida (Jul 2014) - Jul 2014",
+              "player": "Donny Nguyen",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/157",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 163 - YGO State Championship Connecticut (Jul 2014) - Jul 2014",
+              "player": "Stephen Bryan",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/163",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 194 - YGO State Championship Oregon (Aug 2014) - Aug 2014",
+              "player": "Noah Richards",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/194",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 208 - YGO State Championship North Dakota (Aug 2014) - Aug 2014",
+              "player": "Brandon Carpenter",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/208",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 69 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
+              "player": "Tyler Rosenbaum",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/69",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2009,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 86 - YGO State Championship New York (Jul 2014) - Jul 2014",
+              "player": "Cecilio Duran",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/86",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Cat Synchro",
@@ -323,6 +516,30 @@
               "status": "source-registered",
               "sourceType": "deck-database",
               "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 159 - YGO State Championship Florida (Jul 2014) - Jul 2014",
+              "player": "Bobby Kenny",
+              "deckType": "Frog",
+              "url": "https://www.yugiohtopdecks.org/deck/159",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014",
+              "player": "Kevin J. Jiles",
+              "deckType": "Monarch",
+              "url": "https://www.yugiohtopdecks.org/deck/166",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
               "label": "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
               "player": "Jeremy Hayes",
               "deckType": "Frog",
@@ -360,8 +577,8 @@
       "year": 2011,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 2,
-      "missingSourceCount": 3,
+      "sourcedTargetCount": 3,
+      "missingSourceCount": 2,
       "targets": [
         {
           "targetName": "Plant Synchro",
@@ -423,8 +640,33 @@
         },
         {
           "targetName": "Gravekeeper",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2011,
+              "target": "Gravekeeper",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+              "player": "Bryant Grimminger",
+              "deckType": "Gravekeeper",
+              "url": "https://www.yugiohtopdecks.org/deck/110",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2011,
+              "target": "Gravekeeper",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 150 - YGO State Championship Idaho (Jul 2014) - Jul 2014",
+              "player": "John Skogsberg",
+              "deckType": "Gravekeeper",
+              "url": "https://www.yugiohtopdecks.org/deck/150",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -432,8 +674,8 @@
       "year": 2012,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 3,
-      "missingSourceCount": 2,
+      "sourcedTargetCount": 5,
+      "missingSourceCount": 0,
       "targets": [
         {
           "targetName": "Wind-Up",
@@ -599,13 +841,39 @@
         },
         {
           "targetName": "Chaos Dragon",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+              "player": "Chris Waters",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/119",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Hero Beat",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2012,
+              "target": "Hero Beat",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
+              "player": "Cameron Macdonald",
+              "deckType": "HERO",
+              "url": "https://www.yugiohtopdecks.org/deck/187",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -613,8 +881,8 @@
       "year": 2013,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 4,
-      "missingSourceCount": 1,
+      "sourcedTargetCount": 5,
+      "missingSourceCount": 0,
       "targets": [
         {
           "targetName": "Dragon Ruler",
@@ -636,8 +904,45 @@
         },
         {
           "targetName": "Spellbook",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Spellbook",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
+              "player": "Travis Hilliard",
+              "deckType": "Spellbook",
+              "url": "https://www.yugiohtopdecks.org/deck/132",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Spellbook",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 68 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
+              "player": "Patrick Trevett",
+              "deckType": "Spellbook",
+              "url": "https://www.yugiohtopdecks.org/deck/68",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Spellbook",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 97 - YGO State Championship New Hampshire (Jul 2014) - Jul 2014",
+              "player": "Nicholas Holmes",
+              "deckType": "Spellbook",
+              "url": "https://www.yugiohtopdecks.org/deck/97",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Mermail",
@@ -975,18 +1280,200 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 3,
-      "missingSourceCount": 2,
+      "sourcedTargetCount": 5,
+      "missingSourceCount": 0,
       "targets": [
         {
           "targetName": "HAT",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014",
+              "player": "Matthew Hattershide",
+              "deckType": "Traptrix",
+              "url": "https://www.yugiohtopdecks.org/deck/199",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 210 - YGO State Championship North Carolina (Aug 2014) - Aug 2014",
+              "player": "Joshua Spontak",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/210",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 221 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
+              "player": "Michael Romero",
+              "deckType": "Traptrix",
+              "url": "https://www.yugiohtopdecks.org/deck/221",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
+              "player": "Stephan Reiter",
+              "deckType": "Artifact",
+              "url": "https://www.yugiohtopdecks.org/deck/72",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 73 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
+              "player": "Andres Flores",
+              "deckType": "Artifact",
+              "url": "https://www.yugiohtopdecks.org/deck/73",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Geargia",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014",
+              "player": "David Knauff",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/173",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 190 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
+              "player": "Bevan Dunlevy",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/190",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 191 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
+              "player": "Nicholas Andreoli",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/191",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 217 - YGO State Championship North Carolina (Aug 2014) - Aug 2014",
+              "player": "Joshua Spontak",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/217",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 244 - YGO Open Orlando (May 2014) - May 2014",
+              "player": "Norlhey Simon",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/244",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 255 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Peter Hong",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/255",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 80 - YGO State Championship Ohio (Jul 2014) - Jul 2014",
+              "player": "Andrew Paller",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/80",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 88 - YGO State Championship New York (Jul 2014) - Jul 2014",
+              "player": "Giovanni Del Moral",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/88",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 94 - YGO State Championship New Hampshire (Jul 2014) - Jul 2014",
+              "player": "Kyle Sims",
+              "deckType": "Geargia",
+              "url": "https://www.yugiohtopdecks.org/deck/94",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Geargia",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014",
+              "player": "Mikhail Martinez",
+              "deckType": "Karakuri",
+              "url": "https://www.yugiohtopdecks.org/deck/99",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Mermail",
@@ -1072,8 +1559,8 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 2,
-      "missingSourceCount": 3,
+      "sourcedTargetCount": 4,
+      "missingSourceCount": 1,
       "targets": [
         {
           "targetName": "Nekroz",
@@ -1113,8 +1600,69 @@
         },
         {
           "targetName": "Shaddoll",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Shaddoll",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Michael Glowacki",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/250",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Shaddoll",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 251 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Adam Opatrny",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/251",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Shaddoll",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 253 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Spencer Freeman",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/253",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Shaddoll",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 257 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Erik Garcia",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/257",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Shaddoll",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 259 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Shawn Tuttle",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/259",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Qliphort",
@@ -1123,8 +1671,33 @@
         },
         {
           "targetName": "Satellarknight",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Satellarknight",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Hector Candelaria",
+              "deckType": "Satellarknight",
+              "url": "https://www.yugiohtopdecks.org/deck/254",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Satellarknight",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 258 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Derrick Bender",
+              "deckType": "Satellarknight",
+              "url": "https://www.yugiohtopdecks.org/deck/258",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -1132,8 +1705,8 @@
       "year": 2016,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "Performapal Performage",
@@ -1165,8 +1738,33 @@
         },
         {
           "targetName": "Burning Abyss",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2016,
+              "target": "Burning Abyss",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Scott Sheahan",
+              "deckType": "Burning Abyss",
+              "url": "https://www.yugiohtopdecks.org/deck/252",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2016,
+              "target": "Burning Abyss",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 256 - YGO Open Chicago (Sep 2014) - Sep 2014",
+              "player": "Marcus Hayden",
+              "deckType": "Burning Abyss",
+              "url": "https://www.yugiohtopdecks.org/deck/256",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Blue-Eyes",
@@ -1213,8 +1811,8 @@
       "year": 2018,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
       "targets": [
         {
           "targetName": "Sky Striker",
@@ -1238,8 +1836,21 @@
         },
         {
           "targetName": "Thunder Dragon",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2018,
+              "target": "Thunder Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
+              "player": "Shane Loftis",
+              "deckType": "Hunder",
+              "url": "https://www.yugiohtopdecks.org/deck/222",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },

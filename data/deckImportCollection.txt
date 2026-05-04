@@ -942,7 +942,6 @@ Side Deck
 1 Dimensional Prison
 1 Dust Tornado
 
-
 ---
 
 Deck: Fire Fist 2013
@@ -1188,3 +1187,900 @@ Side Deck
 2 Xyz Encore
 2 Light-Imprisoning Mirror
 2 Xyz Universe
+
+---
+
+Deck: Lightsworn 2009
+Year: 2009
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014
+Player: Jake Maddox
+Deck Type: Lightsworn
+Source URL: https://www.yugiohtopdecks.org/deck/111
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+3 Eclipse Wyvern
+1 Ehren, Lightsworn Monk
+1 Garoth, Lightsworn Warrior
+1 Honest
+1 Jain, Lightsworn Paladin
+3 Judgment Dragon
+1 Lightray Diabolos
+3 Lumina, Lightsworn Summoner
+2 Lyla, Lightsworn Sorceress
+2 Maxx "C"
+3 Necro Gardna
+2 Raiden, Hand of the Lightsworn
+1 Redox, Dragon Ruler of Boulders
+1 Tempest, Dragon Ruler of Storms
+1 Wulf, Lightsworn Beast
+1 Charge of the Light Brigade
+1 Foolish Burial
+2 Forbidden Lance
+1 Reinforcement of the Army
+3 Solar Recharge
+2 Soul Charge
+1 Breakthrough Skill
+2 Needlebug Nest
+
+Extra Deck
+1 Abyss Dweller
+1 Black Rose Dragon
+1 Crimson Blader
+1 Divine Dragon Knight Felgrand
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Goyo Guardian
+1 Mecha Phantom Beast Dracossack
+1 Michael, the Arch-Lightsworn
+1 Number 101: Silent Honor ARK
+1 Number 11: Big Eye
+1 Number 49: Fortune Tune
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Minerva, Lightsworn Maiden
+1 Ryko, Lightsworn Hunter
+1 Tidal, Dragon Ruler of Waterfalls
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Beckoning Light
+1 Eradicator Epidemic Virus
+2 Light-Imprisoning Mirror
+3 Royal Royal Decree
+
+---
+
+Deck: Monarch 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014
+Player: Kevin J. Jiles
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/166
+
+Main Deck
+3 Battle Fader
+3 Caius the Shadow Monarch
+2 Fire Hand
+1 Gorz the Emissary of Darkness
+2 Ice Hand
+1 Light and Darkness Dragon
+2 Majesty's Fiend
+1 Mathematician
+1 Maxx "C"
+1 Mobius the Mega Monarch
+2 Raiza the Storm Monarch
+1 Ronintoadin
+3 Swap Frog
+3 Treeborn Frog
+2 Creature Swap
+1 Dark Hole
+3 Enemy Controller
+1 Foolish Burial
+2 Pot of Duality
+1 Soul Charge
+3 Soul Exchange
+1 Treacherous Trap Hole
+
+Extra Deck
+1 Black Rose Dragon
+1 Cairngorgon, Antiluminescent Knight
+2 Gachi Gachi Gantetsu
+2 Ghostrick Dullahan
+1 Goyo Guardian
+1 Herald of Pure Light
+1 Number 50: Blackship of Corn
+1 Number 96: Dark Mist
+1 Shining Elf
+1 Slacker Magician
+
+Side Deck
+1 Dark Dust Spirit
+2 D.D. Crow
+1 Effect Veiler
+1 Jinzo
+1 Light and Darkness Dragon
+1 Mobius the Mega Monarch
+1 Mind Control
+3 Mystical Space Typhoon
+1 Ceasefire
+2 Malevolent Catastrophe
+1 Spiritual Water Art - Aoi
+
+---
+
+Deck: Gravekeeper 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014
+Player: Bryant Grimminger
+Deck Type: Gravekeeper
+Source URL: https://www.yugiohtopdecks.org/deck/110
+
+Main Deck
+3 Gravekeeper's Commandant
+2 Gravekeeper's Descendant
+1 Gravekeeper's Nobleman
+3 Gravekeeper's Recruiter
+1 Gravekeeper's Shaman
+3 Gravekeeper's Spy
+1 Allure of Darkness
+2 Book of Moon
+2 Gravekeeper's Stele
+2 Necrovalley
+3 Pot of Duality
+1 Royal Tribute
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+3 Fiendish Chain
+3 Imperial Tombs of Necrovalley
+2 Mirror Force
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+2 Cyber End Dragon
+1 Diamond Dire Wolf
+1 Gagaga Cowboy
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 20: Giga-Brilliant
+1 Number 30: Acid Golem of Destruction
+1 Number 66: Master Key Beetle
+1 Photon Papilloperative
+1 Stardust Dragon
+1 Steelswarm Roach
+1 Wind-Up Zenmaines
+1 Gem-Knight Pearl
+
+Side Deck
+2 Fossil Dyna Pachycephalo
+2 Malefic Cyber End Dragon
+1 Meklord Emperor Wisel
+1 Thunder King Rai-Oh
+3 Mystical Space Typhoon
+1 Necrovalley
+2 Deck Devastation Virus
+1 Eradicator Epidemic Virus
+2 Rivalry of Warlords
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014
+Player: Chris Waters
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/119
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+1 Debris Dragon
+1 Delta Flyer
+1 Eclipse Wyvern
+2 Exploder Dragon
+1 Flamvell Guard
+3 Koa'ki Meiru Drago
+2 Light and Darkness Dragon
+3 Masked Dragon
+1 Red-Eyes Darkness Metal Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Tempest, Dragon Ruler of Storms
+1 Tidal, Dragon Ruler of Waterfalls
+1 Totem Dragon
+1 Burial from a Different Dimension
+1 Dark Hole
+3 Dragon Shrine
+1 Foolish Burial
+1 Gold Sarcophagus
+3 Mystical Space Typhoon
+2 Pot of Duality
+1 Soul Charge
+2 Black Horn of Heaven
+1 Bottomless Trap Hole
+2 Phoenix Wing Wind Blast
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Black Rose Dragon
+1 Crimson Blader
+1 Exploder Dragonwing
+1 Goyo Guardian
+1 Leo, the Keeper of the Sacred Tree
+1 Leviair the Sea Dragon
+1 Lightning Chidori
+2 Mecha Phantom Beast Dracossack
+2 Number 11: Big Eye
+1 Number 82: Heartlandraco
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+2 Fossil Dyna Pachycephalo
+2 Maxx "C"
+2 Swift Scarecrow
+1 Diamond Core of Koa'ki Meiru
+2 Stamping Destruction
+2 Light-Imprisoning Mirror
+2 Vanity's Emptiness
+
+---
+
+Deck: HERO 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014
+Player: Cameron Macdonald
+Deck Type: HERO
+Source URL: https://www.yugiohtopdecks.org/deck/187
+
+Main Deck
+3 Battle Fader
+3 Cardcar D
+2 Lava Golem
+2 Maxx "C"
+2 Chain Strike
+1 One Day of Peace
+3 Pot of Duality
+3 Accumulated Fortune
+1 Ceasefire
+1 Fairy Wind
+3 Just Desserts
+3 Magic Cylinder
+2 Ojama Trio
+3 Reckless Greed
+3 Secret Barrel
+3 Threatening Roar
+2 Waboku
+
+Extra Deck
+1 Chimeratech Fortress Dragon
+1 Cyber End Dragon
+1 Dragon Knight Draco-Equiste
+1 Elemental HERO Electrum
+1 Elemental HERO Mudballman
+1 Evil HERO Lightning Golem
+1 Five-Headed Dragon
+1 Naturia Exterio
+1 Rainbow Neos
+1 Flame Swordsman
+1 Sanwitch
+
+Side Deck
+2 Cyber Dragon
+1 Gorz the Emissary of Darkness
+1 Maxx "C"
+3 Wattcobra
+1 Dark Hole
+2 Messenger of Peace
+3 Mystical Space Typhoon
+2 Tri-and-Guess
+
+---
+
+Deck: Evilswarm 2013
+Year: 2013
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013
+Player: Mike Seligson
+Deck Type: Evilswarm
+Source URL: https://www.yugiohtopdecks.org/deck/5
+
+Main Deck
+2 Cardcar D
+2 Rescue Rabbit
+2 Tour Guide From the Underworld
+1 Dark Hole
+2 Forbidden Dress
+1 Heavy Storm
+1 Monster Reborn
+1 Reinforcement of the Army
+2 Bottomless Trap Hole
+3 Fiendish Chain
+2 Macro Cosmos
+2 Mirror Force
+1 Safe Zone
+1 Solemn Judgment
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 39: Utopia
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+1 Gem-Knight Pearl
+
+Side Deck
+2 Jurrac Guaiba
+1 Neo-Spacian Grand Mole
+3 Mystical Space Typhoon
+1 Black Horn of Heaven
+1 Deck Devastation Virus
+2 Eradicator Epidemic Virus
+1 Macro Cosmos
+2 Safe Zone
+1 Torrential Tribute
+
+---
+
+Deck: Spellbook 2013
+Year: 2013
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014
+Player: Travis Hilliard
+Deck Type: Spellbook
+Source URL: https://www.yugiohtopdecks.org/deck/132
+
+Main Deck
+3 High Priestess of Prophecy
+3 Justice of Prophecy
+1 Kycoo the Ghost Destroyer
+3 Spellbook Magician of Prophecy
+1 Book of Moon
+1 Dark Hole
+3 Spellbook Library of the Crescent
+2 Spellbook of Eternity
+1 Spellbook of Fate
+1 Spellbook of Life
+2 Spellbook of Power
+3 Spellbook of Secrets
+2 Spellbook of the Master
+3 Spellbook of Wisdom
+2 The Grand Spellbook Tower
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+3 Fiendish Chain
+1 Solemn Warning
+1 Torrential Tribute
+2 Traptrix Trap Hole Nightmare
+
+Extra Deck
+1 Abyss Dweller
+1 Armored Kappa
+1 Daigusto Phoenix
+1 Diamond Dire Wolf
+1 Downerd Magician
+1 Gachi Gachi Gantetsu
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Ghostrick Socuteboss
+1 Herald of Pure Light
+1 Hierophant of Prophecy
+1 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Number 30: Acid Golem of Destruction
+1 Shining Elf
+
+Side Deck
+2 D.D. Crow
+1 Kycoo the Ghost Destroyer
+3 Maxx "C"
+2 Mystical Space Typhoon
+1 Nobleman of Crossout
+2 Black Horn of Heaven
+2 Malevolent Catastrophe
+1 Rivalry of Warlords
+1 Traptrix Trap Hole Nightmare
+
+---
+
+Deck: Geargia 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014
+Player: David Knauff
+Deck Type: Geargia
+Source URL: https://www.yugiohtopdecks.org/deck/173
+
+Main Deck
+2 Fire Hand
+3 Geargiaccelerator
+1 Geargiano
+3 Geargiano Mk-II
+3 Geargiarmor
+2 Geargiarsenal
+1 Genex Ally Birdman
+2 Ice Hand
+1 Book of Moon
+1 Mind Control
+2 Mystical Space Typhoon
+2 Soul Charge
+2 Black Horn of Heaven
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+2 Fiendish Chain
+1 Geargiagear
+1 Mirror Force
+1 Needle Ceiling
+1 Solemn Warning
+1 Torrential Tribute
+2 Vanity's Emptiness
+2 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+1 Ally of Justice Decisive Armor
+1 Black Rose Dragon
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+3 Gear Gigant X
+1 Ghostrick Alucard
+1 Goyo Guardian
+1 Leviair the Sea Dragon
+2 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Soul of Silvermountain
+
+Side Deck
+1 Fire Hand
+1 Ice Hand
+2 Maxx "C"
+1 Swift Scarecrow
+1 Thunder King Rai-Oh
+1 Nobleman of Crossout
+1 Soul Release
+2 Full House
+1 Macro Cosmos
+1 Needle Ceiling
+2 Rivalry of Warlords
+1 Soul Drain
+
+---
+
+Deck: Karakuri 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014
+Player: Mikhail Martinez
+Deck Type: Karakuri
+Source URL: https://www.yugiohtopdecks.org/deck/99
+
+Main Deck
+3 Geargiaccelerator
+3 Geargiarmor
+3 Geargiarsenal
+1 Genex Ally Birdman
+1 Karakuri Strategist mdl 248 "Nishipachi"
+2 Karakuri Watchdog mdl 313 "Saizan"
+1 Traptrix Myrmeleo
+1 Book of Moon
+1 Mind Control
+2 Mystical Space Typhoon
+2 Soul Charge
+2 Supply Squad
+3 Upstart Goblin
+1 Black Horn of Heaven
+1 Bottomless Trap Hole
+2 Breakthrough Skill
+1 Compulsory Evacuation Device
+1 Dimensional Prison
+2 Fiendish Chain
+1 Macro Cosmos
+1 Solemn Warning
+1 Torrential Tribute
+2 Trap Stun
+1 Traptrix Trap Hole Nightmare
+1 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+1 Black Rose Dragon
+1 Cairngorgon, Antiluminescent Knight
+1 Evilswarm Exciton Knight
+3 Gear Gigant X
+2 Karakuri Shogun mdl 00 "Burei"
+1 Karakuri Steel Shogun mdl 00X "Bureido"
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Number 80: Rhapsody in Berserk
+1 Scrap Dragon
+1 Stardust Dragon
+
+Side Deck
+1 Ally of Justice Cycle Reader
+1 D.D. Crow
+3 Maxx "C"
+1 Dark Hole
+1 Dimensional Fissure
+1 Mystical Space Typhoon
+2 Nobleman of Crossout
+2 Soul Release
+1 Black Horn of Heaven
+1 Debunk
+1 Wiretap
+
+---
+
+Deck: Traptrix 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014
+Player: Matthew Hattershide
+Deck Type: Traptrix
+Source URL: https://www.yugiohtopdecks.org/deck/199
+
+Main Deck
+3 Artifact Moralltach
+1 Cardcar D
+3 Fire Hand
+3 Ice Hand
+2 Maxx "C"
+2 Traptrix Dionaea
+3 Traptrix Myrmeleo
+1 Mind Control
+2 Mystical Space Typhoon
+1 Pot of Dichotomy
+3 Pot of Duality
+1 Soul Charge
+3 Artifact Sanctum
+1 Bottomless Trap Hole
+1 Breakthrough Skill
+2 Call of the Haunted
+2 Dimensional Prison
+1 Fiendish Chain
+1 Solemn Warning
+1 Torrential Tribute
+2 Traptrix Trap Hole Nightmare
+1 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+1 Constellar Pleiades
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gaia Dragon, the Thunder Charger
+1 Lavalval Chain
+1 Maestroke the Symphony Djinn
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Number 80: Rhapsody in Berserk
+1 Steelswarm Roach
+1 Tiras, Keeper of Genesis
+
+Side Deck
+2 Ally of Justice Cycle Reader
+1 Mystical Space Typhoon
+1 Big Burn
+2 Black Horn of Heaven
+1 Different Dimension Ground
+2 Light-Imprisoning Mirror
+2 Mind Crush
+1 Vanity's Emptiness
+
+---
+
+Deck: Artifact 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014
+Player: Stephan Reiter
+Deck Type: Artifact
+Source URL: https://www.yugiohtopdecks.org/deck/72
+
+Main Deck
+1 Artifact Beagalltach
+3 Artifact Moralltach
+1 Brotherhood of the Fire Fist - Bear
+1 Coach Soldier Wolfbark
+3 Fire Hand
+3 Ice Hand
+1 Traptrix Dionaea
+3 Traptrix Myrmeleo
+3 Artifact Ignition
+1 Book of Moon
+3 Fire Formation - Tenki
+3 Pot of Duality
+1 Soul Charge
+3 Artifact Sanctum
+2 Black Horn of Heaven
+1 Bottomless Trap Hole
+1 Call of the Haunted
+1 Compulsory Evacuation Device
+1 Solemn Warning
+1 Torrential Tribute
+2 Trap Hole
+1 Traptrix Trap Hole Nightmare
+2 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+1 Brotherhood of the Fire Fist - Tiger King
+1 Cairngorgon, Antiluminescent Knight
+1 Diamond Dire Wolf
+1 Gagaga Cowboy
+2 Maestroke the Symphony Djinn
+1 Number 103: Ragnazero
+2 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Number 80: Rhapsody in Berserk
+1 Photon Papilloperative
+2 Steelswarm Roach
+1 Gem-Knight Pearl
+
+Side Deck
+1 Brotherhood of the Fire Fist - Gorilla
+1 Kuribandit
+1 Dimensional Fissure
+2 Forbidden Lance
+3 Mystical Space Typhoon
+2 Necrovalley
+1 Soul Charge
+2 Phoenix Wing Wind Blast
+2 Royal Royal Decree
+
+---
+
+Deck: Satellarknight 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014
+Player: Hector Candelaria
+Deck Type: Satellarknight
+Source URL: https://www.yugiohtopdecks.org/deck/254
+
+Main Deck
+3 Satellarknight Altair
+3 Satellarknight Deneb
+3 Satellarknight Unukalhai
+3 Satellarknight Vega
+2 Mystical Space Typhoon
+3 Pot of Duality
+2 Reinforcement of the Army
+3 Soul Charge
+3 Upstart Goblin
+2 Breakthrough Skill
+3 Call of the Haunted
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+1 Solemn Warning
+1 Soul Drain
+3 Stellarnova Alpha
+2 Vanity's Emptiness
+2 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+2 Castel, the Skyblaster Musketeer
+1 Constellar Omega
+2 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Heroic Champion - Excalibur
+1 Heroic Champion - Gandiva
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Number 80: Rhapsody in Berserk
+1 Stellarknight Delteros
+
+Side Deck
+1 D.D. Crow
+2 Flying "C"
+2 Maxx "C"
+1 Dimensional Fissure
+1 Mystical Space Typhoon
+2 Nobleman of Crossout
+1 Different Dimension Ground
+1 Dust Tornado
+1 Memory of an Adversary
+3 Stygian Dirge
+
+---
+
+Deck: Shaddoll 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014
+Player: Michael Glowacki
+Deck Type: Shaddoll
+Source URL: https://www.yugiohtopdecks.org/deck/250
+
+Main Deck
+3 Armageddon Knight
+1 Black Luster Soldier - Envoy of the Beginning
+3 Effect Veiler
+3 Shaddoll Beast
+2 Shaddoll Dragon
+3 Shaddoll Falco
+3 Shaddoll Hedgehog
+2 Shaddoll Squamata
+1 Foolish Burial
+3 Shaddoll Fusion
+3 Soul Charge
+3 Super Polymerization
+3 Breakthrough Skill
+3 Sinister Shadow Games
+1 Solemn Warning
+1 Torrential Tribute
+3 Vanity's Emptiness
+
+Extra Deck
+1 Arcanite Magician
+1 Armades, Keeper of Boundaries
+1 Black Rose Dragon
+1 Castel, the Skyblaster Musketeer
+1 Daigusto Emeral
+3 El Shaddoll Construct
+2 El Shaddoll Winda
+1 Lavalval Chain
+1 Leo, the Keeper of the Sacred Tree
+1 Number 106: Giant Hand
+1 Number 61: Volcasaurus
+1 Tempest Magician
+
+Side Deck
+2 Koa'ki Meiru Drago
+2 Raiza the Storm Monarch
+2 Diamond Core of Koa'ki Meiru
+3 Mystical Space Typhoon
+2 The Monarchs Stormforth
+2 Chain Disappearance
+2 Royal Royal Decree
+
+---
+
+Deck: Burning Abyss 2016
+Year: 2016
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014
+Player: Scott Sheahan
+Deck Type: Burning Abyss
+Source URL: https://www.yugiohtopdecks.org/deck/252
+
+Main Deck
+1 Black Luster Soldier - Envoy of the Beginning
+1 Caius the Shadow Monarch
+1 Chaos Sorcerer
+3 Cir, Malebranche of the Burning Abyss
+2 Effect Veiler
+3 Graff, Malebranche of the Burning Abyss
+2 Mathematician
+3 Scarm, Malebranche of the Burning Abyss
+3 Tour Guide From the Underworld
+1 Dark Hole
+1 Foolish Burial
+2 Mystical Space Typhoon
+2 Rank-Up-Magic Astral Force
+3 Upstart Goblin
+2 Breakthrough Skill
+1 Compulsory Evacuation Device
+1 Karma Cut
+3 Phoenix Wing Wind Blast
+1 Raigeki Break
+1 Solemn Warning
+1 Torrential Tribute
+2 Vanity's Emptiness
+
+Extra Deck
+2 Constellar Pleiades
+1 Crimson Knight Vampire Bram
+2 Dante, Traveler of the Burning Abyss
+1 Downerd Magician
+1 Gaia Dragon, the Thunder Charger
+2 Ghostrick Alucard
+1 Grenosaurus
+1 Mechquipped Angineer
+1 Number 47: Nightmare Shark
+1 Number 61: Volcasaurus
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+
+Side Deck
+2 D.D. Crow
+2 Maxx "C"
+1 Raiza the Storm Monarch
+2 Skull Meister
+1 Mind Control
+1 Mystical Space Typhoon
+2 Fairy Wind
+2 Light-Imprisoning Mirror
+2 Mind Crush
+
+---
+
+Deck: Hunder 2018
+Year: 2018
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014
+Player: Shane Loftis
+Deck Type: Hunder
+Source URL: https://www.yugiohtopdecks.org/deck/222
+
+Main Deck
+3 Batteryman AAA
+3 Mahunder
+3 Pahunder
+3 Thunder Sea Horse
+2 Tin Goldfish
+2 Tragoedia
+3 Vylon Prism
+2 Wattgiraffe
+1 Book of Moon
+1 Dimensional Fissure
+3 Mystical Space Typhoon
+3 Pot of Duality
+2 Recycling Batteries
+1 Bottomless Trap Hole
+3 Breakthrough Skill
+1 Compulsory Evacuation Device
+1 Macro Cosmos
+1 Solemn Warning
+1 Soul Drain
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Bujintei Tsukuyomi
+2 Constellar Omega
+1 Constellar Ptolemy M7
+1 Evilswarm Exciton Knight
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 80: Rhapsody in Berserk
+1 Scrap Dragon
+1 Stardust Dragon
+1 Stardust Spark Dragon
+1 Starliege Paladynamo
+1 Thought Ruler Archfiend
+
+Side Deck
+3 Effect Veiler
+1 Honest
+3 Forbidden Chalice
+3 Forbidden Lance
+2 Dimensional Prison
+3 Trap Stun

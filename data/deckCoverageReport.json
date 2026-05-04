@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T19:19:29.659Z",
+  "generatedAt": "2026-05-04T19:29:21.223Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 18,
-  "missingTargetSlots": 87,
-  "totalKnownDecks": 23,
+  "filledTargetSlots": 25,
+  "missingTargetSlots": 80,
+  "totalKnownDecks": 37,
   "years": [
     {
       "year": 2005,
@@ -249,11 +249,11 @@
       "year": 2009,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -263,8 +263,17 @@
         },
         {
           "targetName": "Lightsworn",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "lightsworn-2009",
+              "name": "Lightsworn 2009",
+              "year": 2009,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Cat Synchro",
@@ -282,7 +291,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "lightsworn-2009",
+          "name": "Lightsworn 2009",
+          "year": 2009,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2010,
@@ -290,9 +308,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
-      "knownDeckCount": 2,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 2,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -346,6 +364,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "monarch-2010",
+          "name": "Monarch 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -353,11 +379,11 @@
       "year": 2011,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 2,
+      "filledTargetCount": 2,
+      "missingTargetCount": 3,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 2,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -391,8 +417,17 @@
         },
         {
           "targetName": "Gravekeeper",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "gravekeeper-2011",
+              "name": "Gravekeeper 2011",
+              "year": 2011,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
@@ -411,6 +446,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "gravekeeper-2011",
+          "name": "Gravekeeper 2011",
+          "year": 2011,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -420,9 +463,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 3,
       "missingTargetCount": 2,
-      "knownDeckCount": 3,
+      "knownDeckCount": 5,
       "completeDeckCount": 0,
-      "draftDeckCount": 3,
+      "draftDeckCount": 5,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -502,6 +545,22 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "dragon-2012",
+          "name": "Dragon 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "hero-2012",
+          "name": "HERO 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -509,11 +568,11 @@
       "year": 2013,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 4,
-      "missingTargetCount": 1,
-      "knownDeckCount": 5,
+      "filledTargetCount": 5,
+      "missingTargetCount": 0,
+      "knownDeckCount": 6,
       "completeDeckCount": 1,
-      "draftDeckCount": 3,
+      "draftDeckCount": 4,
       "sampleDeckCount": 1,
       "targets": [
         {
@@ -540,8 +599,17 @@
         },
         {
           "targetName": "Spellbook",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "spellbook-2013",
+              "name": "Spellbook 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Mermail",
@@ -604,14 +672,6 @@
           "sourceType": "imported"
         },
         {
-          "id": "evilswarm-2013",
-          "name": "Evilswarm 2013",
-          "year": 2013,
-          "format": "Imported Format",
-          "status": "draft",
-          "sourceType": "imported"
-        },
-        {
           "id": "fire-fist-2013",
           "name": "Fire Fist 2013",
           "year": 2013,
@@ -626,6 +686,22 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "evilswarm-2013",
+          "name": "Evilswarm 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "spellbook-2013",
+          "name": "Spellbook 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -633,11 +709,11 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 3,
-      "missingTargetCount": 2,
-      "knownDeckCount": 3,
+      "filledTargetCount": 4,
+      "missingTargetCount": 1,
+      "knownDeckCount": 7,
       "completeDeckCount": 0,
-      "draftDeckCount": 3,
+      "draftDeckCount": 7,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -647,8 +723,17 @@
         },
         {
           "targetName": "Geargia",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "geargia-2014",
+              "name": "Geargia 2014",
+              "year": 2014,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Mermail",
@@ -717,6 +802,38 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "geargia-2014",
+          "name": "Geargia 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "karakuri-2014",
+          "name": "Karakuri 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "traptrix-2014",
+          "name": "Traptrix 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "artifact-2014",
+          "name": "Artifact 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -724,11 +841,11 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 2,
-      "missingTargetCount": 3,
-      "knownDeckCount": 2,
+      "filledTargetCount": 4,
+      "missingTargetCount": 1,
+      "knownDeckCount": 4,
       "completeDeckCount": 0,
-      "draftDeckCount": 2,
+      "draftDeckCount": 4,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -761,8 +878,17 @@
         },
         {
           "targetName": "Shaddoll",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "shaddoll-2015",
+              "name": "Shaddoll 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Qliphort",
@@ -771,8 +897,17 @@
         },
         {
           "targetName": "Satellarknight",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "satellarknight-2015",
+              "name": "Satellarknight 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
@@ -791,6 +926,22 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "satellarknight-2015",
+          "name": "Satellarknight 2015",
+          "year": 2015,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "shaddoll-2015",
+          "name": "Shaddoll 2015",
+          "year": 2015,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -798,11 +949,11 @@
       "year": 2016,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 1,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -822,8 +973,17 @@
         },
         {
           "targetName": "Burning Abyss",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "burning-abyss-2016",
+              "name": "Burning Abyss 2016",
+              "year": 2016,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Blue-Eyes",
@@ -835,6 +995,14 @@
         {
           "id": "performapal-2016",
           "name": "Performapal 2016",
+          "year": 2016,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "burning-abyss-2016",
+          "name": "Burning Abyss 2016",
           "year": 2016,
           "format": "Imported Format",
           "status": "draft",
@@ -887,9 +1055,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -918,7 +1086,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "hunder-2018",
+          "name": "Hunder 2018",
+          "year": 2018,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2019,

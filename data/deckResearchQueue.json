@@ -352,28 +352,6 @@
     }
   },
   {
-    "id": "2009-lightsworn",
-    "year": 2009,
-    "targetName": "Lightsworn",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2009 Lightsworn yugioh decklist",
-      "2009 Lightsworn YCS deck profile",
-      "2009 Lightsworn yugioh top deck",
-      "Lightsworn 2009 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2009%20Lightsworn%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Lightsworn"
-    }
-  },
-  {
     "id": "2009-twilight",
     "year": 2009,
     "targetName": "Twilight",
@@ -440,28 +418,6 @@
     }
   },
   {
-    "id": "2011-gravekeeper",
-    "year": 2011,
-    "targetName": "Gravekeeper",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2011 Gravekeeper yugioh decklist",
-      "2011 Gravekeeper YCS deck profile",
-      "2011 Gravekeeper yugioh top deck",
-      "Gravekeeper 2011 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Gravekeeper%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Gravekeeper"
-    }
-  },
-  {
     "id": "2011-plant-synchro",
     "year": 2011,
     "targetName": "Plant Synchro",
@@ -506,116 +462,6 @@
     }
   },
   {
-    "id": "2012-chaos-dragon",
-    "year": 2012,
-    "targetName": "Chaos Dragon",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2012 Chaos Dragon yugioh decklist",
-      "2012 Chaos Dragon YCS deck profile",
-      "2012 Chaos Dragon yugioh top deck",
-      "Chaos Dragon 2012 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Chaos%20Dragon"
-    }
-  },
-  {
-    "id": "2012-hero-beat",
-    "year": 2012,
-    "targetName": "Hero Beat",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2012 Hero Beat yugioh decklist",
-      "2012 Hero Beat YCS deck profile",
-      "2012 Hero Beat yugioh top deck",
-      "Hero Beat 2012 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Hero%20Beat"
-    }
-  },
-  {
-    "id": "2013-spellbook",
-    "year": 2013,
-    "targetName": "Spellbook",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2013 Spellbook yugioh decklist",
-      "2013 Spellbook YCS deck profile",
-      "2013 Spellbook yugioh top deck",
-      "Spellbook 2013 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2013%20Spellbook%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Spellbook"
-    }
-  },
-  {
-    "id": "2014-geargia",
-    "year": 2014,
-    "targetName": "Geargia",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2014 Geargia yugioh decklist",
-      "2014 Geargia YCS deck profile",
-      "2014 Geargia yugioh top deck",
-      "Geargia 2014 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2014%20Geargia%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Geargia%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Geargia"
-    }
-  },
-  {
-    "id": "2014-hat",
-    "year": 2014,
-    "targetName": "HAT",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2014 HAT yugioh decklist",
-      "2014 HAT YCS deck profile",
-      "2014 HAT yugioh top deck",
-      "HAT 2014 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2014%20HAT%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2014%20HAT%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20HAT"
-    }
-  },
-  {
     "id": "2015-qliphort",
     "year": 2015,
     "targetName": "Qliphort",
@@ -638,50 +484,6 @@
     }
   },
   {
-    "id": "2015-satellarknight",
-    "year": 2015,
-    "targetName": "Satellarknight",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2015 Satellarknight yugioh decklist",
-      "2015 Satellarknight YCS deck profile",
-      "2015 Satellarknight yugioh top deck",
-      "Satellarknight 2015 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2015%20Satellarknight%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Satellarknight%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Satellarknight"
-    }
-  },
-  {
-    "id": "2015-shaddoll",
-    "year": 2015,
-    "targetName": "Shaddoll",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2015 Shaddoll yugioh decklist",
-      "2015 Shaddoll YCS deck profile",
-      "2015 Shaddoll yugioh top deck",
-      "Shaddoll 2015 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2015%20Shaddoll%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Shaddoll%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Shaddoll"
-    }
-  },
-  {
     "id": "2016-blue-eyes",
     "year": 2016,
     "targetName": "Blue-Eyes",
@@ -701,28 +503,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Blue-Eyes"
-    }
-  },
-  {
-    "id": "2016-burning-abyss",
-    "year": 2016,
-    "targetName": "Burning Abyss",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2016 Burning Abyss yugioh decklist",
-      "2016 Burning Abyss YCS deck profile",
-      "2016 Burning Abyss yugioh top deck",
-      "Burning Abyss 2016 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Burning%20Abyss%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Burning%20Abyss"
     }
   },
   {
@@ -943,28 +723,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2018%20Sky%20Striker%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Sky%20Striker"
-    }
-  },
-  {
-    "id": "2018-thunder-dragon",
-    "year": 2018,
-    "targetName": "Thunder Dragon",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2018 Thunder Dragon yugioh decklist",
-      "2018 Thunder Dragon YCS deck profile",
-      "2018 Thunder Dragon yugioh top deck",
-      "Thunder Dragon 2018 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Thunder%20Dragon"
     }
   },
   {
@@ -1831,7 +1589,7 @@
     "targetName": "Frog Monarch",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 3,
     "deckCount": 0,
     "searchQueries": [
       "2010 Frog Monarch yugioh decklist",
@@ -1892,6 +1650,72 @@
     }
   },
   {
+    "id": "2012-chaos-dragon",
+    "year": 2012,
+    "targetName": "Chaos Dragon",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Chaos Dragon yugioh decklist",
+      "2012 Chaos Dragon YCS deck profile",
+      "2012 Chaos Dragon yugioh top deck",
+      "Chaos Dragon 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Chaos%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Chaos%20Dragon"
+    }
+  },
+  {
+    "id": "2012-hero-beat",
+    "year": 2012,
+    "targetName": "Hero Beat",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2012 Hero Beat yugioh decklist",
+      "2012 Hero Beat YCS deck profile",
+      "2012 Hero Beat yugioh top deck",
+      "Hero Beat 2012 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Hero%20Beat%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Hero%20Beat"
+    }
+  },
+  {
+    "id": "2014-hat",
+    "year": 2014,
+    "targetName": "HAT",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 5,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 HAT yugioh decklist",
+      "2014 HAT YCS deck profile",
+      "2014 HAT yugioh top deck",
+      "HAT 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20HAT%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20HAT%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20HAT"
+    }
+  },
+  {
     "id": "2016-performapal-performage",
     "year": 2016,
     "targetName": "Performapal Performage",
@@ -1911,6 +1735,28 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2016%20Performapal%20Performage%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Performapal%20Performage"
+    }
+  },
+  {
+    "id": "2018-thunder-dragon",
+    "year": 2018,
+    "targetName": "Thunder Dragon",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2018 Thunder Dragon yugioh decklist",
+      "2018 Thunder Dragon YCS deck profile",
+      "2018 Thunder Dragon yugioh top deck",
+      "Thunder Dragon 2018 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Thunder%20Dragon"
     }
   }
 ]

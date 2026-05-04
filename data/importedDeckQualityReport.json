@@ -1,14 +1,289 @@
 {
-  "generatedAt": "2026-05-04T19:28:02.451Z",
+  "generatedAt": "2026-05-04T19:30:14.349Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 20,
-  "importerWarningCount": 0,
-  "cleanDeckCount": 20,
-  "issueDeckCount": 0,
-  "errorDeckCount": 0,
-  "warningDeckCount": 0,
-  "infoDeckCount": 0,
-  "issueDecks": [],
+  "importedDeckCount": 35,
+  "importerWarningCount": 4,
+  "cleanDeckCount": 31,
+  "issueDeckCount": 4,
+  "errorDeckCount": 2,
+  "warningDeckCount": 1,
+  "infoDeckCount": 1,
+  "issueDecks": [
+    {
+      "deck": {
+        "id": "evilswarm-2013",
+        "originalId": "evilswarm-2013",
+        "name": "Evilswarm 2013",
+        "year": 2013,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+          "player": "Mike Seligson",
+          "deckType": "Evilswarm",
+          "url": "https://www.yugiohtopdecks.org/deck/5"
+        },
+        "mainDeckCount": 25,
+        "extraDeckCount": 8,
+        "sideDeckCount": 14,
+        "totalCount": 47,
+        "taggedCardCount": 7,
+        "automaticTaggedCardCount": 7,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "power spell",
+          "quick-play",
+          "removal",
+          "trap"
+        ],
+        "warningCount": 2,
+        "warnings": [
+          {
+            "type": "main-deck-too-small",
+            "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
+          },
+          {
+            "type": "side-deck-invalid-size",
+            "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+          }
+        ],
+        "ignoredLines": []
+      },
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Evilswarm",
+        "normalizedTargetName": "evilswarm"
+      },
+      "issueCount": 3,
+      "highestSeverity": "error",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 25 cards. Expected 40 to 60."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "karakuri-2014",
+        "originalId": "karakuri-2014",
+        "name": "Karakuri 2014",
+        "year": 2014,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014",
+          "player": "Mikhail Martinez",
+          "deckType": "Karakuri",
+          "url": "https://www.yugiohtopdecks.org/deck/99"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 14,
+        "automaticTaggedCardCount": 14,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "anti-flip",
+          "backrow removal",
+          "banish",
+          "board clear",
+          "control",
+          "disruption",
+          "draw",
+          "flip support",
+          "graveyard control",
+          "hand trap",
+          "level 7",
+          "level 8",
+          "protection",
+          "quick-play",
+          "removal",
+          "side deck",
+          "synchro",
+          "trap"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "traptrix-2014",
+        "originalId": "traptrix-2014",
+        "name": "Traptrix 2014",
+        "year": 2014,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014",
+          "player": "Matthew Hattershide",
+          "deckType": "Traptrix",
+          "url": "https://www.yugiohtopdecks.org/deck/199"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 14,
+        "sideDeckCount": 12,
+        "totalCount": 66,
+        "taggedCardCount": 8,
+        "automaticTaggedCardCount": 8,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "control",
+          "disruption",
+          "draw",
+          "hand trap",
+          "piercing",
+          "quick-play",
+          "rank 7",
+          "removal",
+          "revival",
+          "trap",
+          "xyz"
+        ],
+        "warningCount": 1,
+        "warnings": [
+          {
+            "type": "side-deck-invalid-size",
+            "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
+          }
+        ],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 3,
+      "highestSeverity": "warning",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 12 cards. Expected 0 or 15."
+        },
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "artifact-2014",
+        "originalId": "artifact-2014",
+        "name": "Artifact 2014",
+        "year": 2014,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
+          "player": "Stephan Reiter",
+          "deckType": "Artifact",
+          "url": "https://www.yugiohtopdecks.org/deck/72"
+        },
+        "mainDeckCount": 42,
+        "extraDeckCount": 16,
+        "sideDeckCount": 15,
+        "totalCount": 73,
+        "taggedCardCount": 7,
+        "automaticTaggedCardCount": 7,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "discard outlet",
+          "disruption",
+          "flip support",
+          "quick-play",
+          "removal",
+          "revival",
+          "trap"
+        ],
+        "warningCount": 1,
+        "warnings": [
+          {
+            "type": "extra-deck-too-large",
+            "message": "Extra Deck has 16 cards. Standard maximum is 15."
+          }
+        ],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 3,
+      "highestSeverity": "error",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "extra-deck-too-large",
+              "message": "Extra Deck has 16 cards. Standard maximum is 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "extra-deck-size",
+          "message": "Extra Deck has 16 cards. Expected 15 or fewer."
+        },
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    }
+  ],
   "cleanDecks": [
     {
       "id": "monarch-2007",
@@ -388,6 +663,215 @@
         "year": 2014,
         "targetName": "Mermail",
         "normalizedTargetName": "mermail"
+      }
+    },
+    {
+      "id": "lightsworn-2009",
+      "name": "Lightsworn 2009",
+      "year": 2009,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+        "player": "Jake Maddox",
+        "deckType": "Lightsworn",
+        "url": "https://www.yugiohtopdecks.org/deck/111"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2009,
+        "targetName": "Lightsworn",
+        "normalizedTargetName": "lightsworn"
+      }
+    },
+    {
+      "id": "monarch-2010",
+      "name": "Monarch 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014",
+        "player": "Kevin J. Jiles",
+        "deckType": "Monarch",
+        "url": "https://www.yugiohtopdecks.org/deck/166"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 12,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Frog Monarch",
+        "normalizedTargetName": "frog monarch"
+      }
+    },
+    {
+      "id": "gravekeeper-2011",
+      "name": "Gravekeeper 2011",
+      "year": 2011,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+        "player": "Bryant Grimminger",
+        "deckType": "Gravekeeper",
+        "url": "https://www.yugiohtopdecks.org/deck/110"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2011,
+        "targetName": "Gravekeeper",
+        "normalizedTargetName": "gravekeeper"
+      }
+    },
+    {
+      "id": "dragon-2012",
+      "name": "Dragon 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+        "player": "Chris Waters",
+        "deckType": "Dragon",
+        "url": "https://www.yugiohtopdecks.org/deck/119"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Chaos Dragon",
+        "normalizedTargetName": "chaos dragon"
+      }
+    },
+    {
+      "id": "hero-2012",
+      "name": "HERO 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
+        "player": "Cameron Macdonald",
+        "deckType": "HERO",
+        "url": "https://www.yugiohtopdecks.org/deck/187"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 11,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Hero Beat",
+        "normalizedTargetName": "hero beat"
+      }
+    },
+    {
+      "id": "spellbook-2013",
+      "name": "Spellbook 2013",
+      "year": 2013,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
+        "player": "Travis Hilliard",
+        "deckType": "Spellbook",
+        "url": "https://www.yugiohtopdecks.org/deck/132"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Spellbook",
+        "normalizedTargetName": "spellbook"
+      }
+    },
+    {
+      "id": "geargia-2014",
+      "name": "Geargia 2014",
+      "year": 2014,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014",
+        "player": "David Knauff",
+        "deckType": "Geargia",
+        "url": "https://www.yugiohtopdecks.org/deck/173"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2014,
+        "targetName": "Geargia",
+        "normalizedTargetName": "geargia"
+      }
+    },
+    {
+      "id": "satellarknight-2015",
+      "name": "Satellarknight 2015",
+      "year": 2015,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014",
+        "player": "Hector Candelaria",
+        "deckType": "Satellarknight",
+        "url": "https://www.yugiohtopdecks.org/deck/254"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2015,
+        "targetName": "Satellarknight",
+        "normalizedTargetName": "satellarknight"
+      }
+    },
+    {
+      "id": "shaddoll-2015",
+      "name": "Shaddoll 2015",
+      "year": 2015,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014",
+        "player": "Michael Glowacki",
+        "deckType": "Shaddoll",
+        "url": "https://www.yugiohtopdecks.org/deck/250"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2015,
+        "targetName": "Shaddoll",
+        "normalizedTargetName": "shaddoll"
+      }
+    },
+    {
+      "id": "burning-abyss-2016",
+      "name": "Burning Abyss 2016",
+      "year": 2016,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014",
+        "player": "Scott Sheahan",
+        "deckType": "Burning Abyss",
+        "url": "https://www.yugiohtopdecks.org/deck/252"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2016,
+        "targetName": "Burning Abyss",
+        "normalizedTargetName": "burning abyss"
+      }
+    },
+    {
+      "id": "hunder-2018",
+      "name": "Hunder 2018",
+      "year": 2018,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
+        "player": "Shane Loftis",
+        "deckType": "Hunder",
+        "url": "https://www.yugiohtopdecks.org/deck/222"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2018,
+        "targetName": "Thunder Dragon",
+        "normalizedTargetName": "thunder dragon"
       }
     }
   ]

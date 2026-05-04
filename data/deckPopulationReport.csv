@@ -20,44 +20,44 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2008,Dark Armed Return,missing-source-and-deck,false,false,0,0,,
 2008,Zombie Synchro,missing-source-and-deck,false,false,0,0,,
 2009,Blackwing,source-registered,true,false,1,0,SJC Orlando 2009 Top 16 Decklists,
-2009,Lightsworn,missing-source-and-deck,false,false,0,0,,
+2009,Lightsworn,imported,true,true,16,1,Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 117 - YGO State Championship Mississippi (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 118 - YGO State Championship Mississippi (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 121 - YGO State Championship Mississippi (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 122 - YGO State Championship Minnesota (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 124 - YGO State Championship Minnesota (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 137 - YGO State Championship Michigan (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 141 - YGO State Championship Maine (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 142 - YGO State Championship Maine (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 148 - YGO State Championship Idaho (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 157 - YGO State Championship Florida (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 163 - YGO State Championship Connecticut (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 194 - YGO State Championship Oregon (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 208 - YGO State Championship North Dakota (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 69 - YGO State Championship South Dakota (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 86 - YGO State Championship New York (Jul 2014) - Jul 2014,Lightsworn 2009
 2009,Cat Synchro,missing-source-and-deck,false,false,0,0,,
 2009,Gladiator Beast,missing-source-and-deck,false,false,0,0,,
 2009,Twilight,missing-source-and-deck,false,false,0,0,,
 2010,Blackwing,missing-source-and-deck,false,false,0,0,,
 2010,X-Saber,source-registered,true,false,1,0,Konami YCS X-Saber Deck Profile,
-2010,Frog Monarch,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014,
+2010,Frog Monarch,source-registered,true,false,3,0,Yu-Gi-Oh! Top Decks - deck 159 - YGO State Championship Florida (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014,
 2010,Quickdraw Dandywarrior,missing-source-and-deck,false,false,0,0,,
 2010,Infernity,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013,Infernity 2010
 2011,Plant Synchro,missing-source-and-deck,false,false,0,0,,
 2011,Tengu Plant,missing-source-and-deck,false,false,0,0,,
 2011,Agents,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013,
 2011,Six Samurai,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 22 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013,Six Samurai 2011
-2011,Gravekeeper,missing-source-and-deck,false,false,0,0,,
+2011,Gravekeeper,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 150 - YGO State Championship Idaho (Jul 2014) - Jul 2014,Gravekeeper 2011
 2012,Wind-Up,imported,true,true,9,1,Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 12 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 14 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 23 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 25 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 26 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 32 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 33 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 41 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013,Wind-Up 2012
 2012,Dino Rabbit,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 35 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013,Dino Rabbit 2012
 2012,Inzektor,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013,Inzektor 2012
-2012,Chaos Dragon,missing-source-and-deck,false,false,0,0,,
-2012,Hero Beat,missing-source-and-deck,false,false,0,0,,
+2012,Chaos Dragon,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014,
+2012,Hero Beat,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014,
 2013,Dragon Ruler,imported,true,true,1,2,Top 16 YCS Turin 2013,Dragon Ruler | Dragon Ruler 2013
-2013,Spellbook,missing-source-and-deck,false,false,0,0,,
+2013,Spellbook,imported,true,true,3,1,Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 68 - YGO State Championship South Dakota (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 97 - YGO State Championship New Hampshire (Jul 2014) - Jul 2014,Spellbook 2013
 2013,Mermail,imported,true,true,9,1,Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 18 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 34 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 37 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 38 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 42 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 45 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 48 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 9 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013,Mermail 2013
 2013,Evilswarm,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 51 - YGO State Championship Utah (Jul 2014) - Jul 2014,Evilswarm 2013
 2013,Fire Fist,imported,true,true,15,1,Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 19 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 2 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 20 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 24 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 27 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 30 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 31 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 36 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 4 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 44 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 46 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 47 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 7 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 8 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013,Fire Fist 2013
-2014,HAT,missing-source-and-deck,false,false,0,0,,
-2014,Geargia,missing-source-and-deck,false,false,0,0,,
+2014,HAT,source-registered,true,false,5,0,Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 210 - YGO State Championship North Carolina (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 221 - YGO State Championship New Mexico (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 73 - YGO State Championship South Dakota (Jul 2014) - Jul 2014,
+2014,Geargia,imported,true,true,10,1,Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 190 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 191 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 217 - YGO State Championship North Carolina (Aug 2014) - Aug 2014 | Yu-Gi-Oh! Top Decks - deck 244 - YGO Open Orlando (May 2014) - May 2014 | Yu-Gi-Oh! Top Decks - deck 255 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 80 - YGO State Championship Ohio (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 88 - YGO State Championship New York (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 94 - YGO State Championship New Hampshire (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014,Geargia 2014
 2014,Mermail,imported,true,true,3,1,Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 57 - YGO State Championship Utah (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 63 - YGO State Championship Tennessee (Jul 2014) - Jul 2014,Mermail 2014
 2014,Fire Fist,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 1168,Fire Fist 2014
 2014,Bujin,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014,Bujin 2014
 2015,Nekroz,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4520,Nekroz 2015
 2015,Burning Abyss,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4319,Burning Abyss 2015
-2015,Shaddoll,missing-source-and-deck,false,false,0,0,,
+2015,Shaddoll,imported,true,true,5,1,Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 251 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 253 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 257 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 259 - YGO Open Chicago (Sep 2014) - Sep 2014,Shaddoll 2015
 2015,Qliphort,missing-source-and-deck,false,false,0,0,,
-2015,Satellarknight,missing-source-and-deck,false,false,0,0,,
+2015,Satellarknight,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 258 - YGO Open Chicago (Sep 2014) - Sep 2014,Satellarknight 2015
 2016,Performapal Performage,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks deck 4843,
 2016,Monarch,missing-source-and-deck,false,false,0,0,,
 2016,Kozmo,missing-source-and-deck,false,false,0,0,,
-2016,Burning Abyss,missing-source-and-deck,false,false,0,0,,
+2016,Burning Abyss,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014 | Yu-Gi-Oh! Top Decks - deck 256 - YGO Open Chicago (Sep 2014) - Sep 2014,Burning Abyss 2016
 2016,Blue-Eyes,missing-source-and-deck,false,false,0,0,,
 2017,Zoodiac,missing-source-and-deck,false,false,0,0,,
 2017,True Draco,missing-source-and-deck,false,false,0,0,,
@@ -68,7 +68,7 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2018,Gouki,missing-source-and-deck,false,false,0,0,,
 2018,Trickstar,missing-source-and-deck,false,false,0,0,,
 2018,Altergeist,missing-source-and-deck,false,false,0,0,,
-2018,Thunder Dragon,missing-source-and-deck,false,false,0,0,,
+2018,Thunder Dragon,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014,
 2019,Sky Striker,missing-source-and-deck,false,false,0,0,,
 2019,Orcust,missing-source-and-deck,false,false,0,0,,
 2019,Salamangreat,missing-source-and-deck,false,false,0,0,,
