@@ -9,11 +9,13 @@ import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
 import { DeckValidation } from "./DeckValidation";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
-import type { Deck, EnrichedDeckCard } from "../types/deck";
+import type { CardGameSourceInfo, Deck, EnrichedDeckCard } from "../types/deck";
 
 type DeckViewerProps = {
   decks: Deck[];
 };
+
+type SourceStatusFilter = CardGameSourceInfo["status"] | "missing" | null;
 
 function getDeckStatusLabel(status: Deck["status"]) {
   if (status === "complete") {
@@ -39,12 +41,29 @@ function getDeckStatusClassName(status: Deck["status"]) {
   return "border-slate-600 bg-slate-800 text-slate-300";
 }
 
+function matchesSourceStatus(
+  card: EnrichedDeckCard,
+  selectedSourceStatus: SourceStatusFilter
+) {
+  if (!selectedSourceStatus) {
+    return true;
+  }
+
+  if (selectedSourceStatus === "missing") {
+    return !card.gameSourceInfo;
+  }
+
+  return card.gameSourceInfo?.status === selectedSourceStatus;
+}
+
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
     null
   );
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [selectedSourceStatus, setSelectedSourceStatus] =
+    useState<SourceStatusFilter>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
   const selectedDeck =
@@ -73,8 +92,9 @@ export function DeckViewer({ decks }: DeckViewerProps) {
       const matchesSearch = normalizedSearchQuery
         ? card.name.toLowerCase().includes(normalizedSearchQuery)
         : true;
+      const matchesSource = matchesSourceStatus(card, selectedSourceStatus);
 
-      return matchesTag && matchesSearch;
+      return matchesTag && matchesSearch && matchesSource;
     });
   }
 
@@ -86,11 +106,17 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedDeckId(deckId);
     setSelectedCard(null);
     setSelectedTag(null);
+    setSelectedSourceStatus(null);
     setSearchQuery("");
   }
 
   function handleSelectTag(tag: string | null) {
     setSelectedTag(tag);
+    setSelectedCard(null);
+  }
+
+  function handleSelectSourceStatus(status: SourceStatusFilter) {
+    setSelectedSourceStatus(status);
     setSelectedCard(null);
   }
 
@@ -132,7 +158,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           </p>
 
           <p className="mt-5 max-w-3xl text-slate-400">
-            Search within the selected deck or filter cards by custom role tags.
+            Search within the selected deck, filter by custom role tags, or
+            inspect in-game source coverage.
           </p>
 
           <DeckStats
@@ -157,8 +184,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         <DeckFilters
           availableTags={availableTags}
           selectedTag={selectedTag}
+          selectedSourceStatus={selectedSourceStatus}
           searchQuery={searchQuery}
           onSelectTag={handleSelectTag}
+          onSelectSourceStatus={handleSelectSourceStatus}
           onSearchChange={handleSearchChange}
         />
 
