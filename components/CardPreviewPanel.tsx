@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { enrichCardByName } from "../lib/enrichDeckCard";
-import { fetchCardDetails } from "../lib/fetchCardDetails";
+import {
+  fetchCardDetails,
+  getCachedCardDetails,
+} from "../lib/fetchCardDetails";
 import type { CardDetails, EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
@@ -43,6 +46,13 @@ function CardPreviewContent({
     async function loadCardDetails() {
       if (!card) {
         setApiDetails(null);
+        return;
+      }
+
+      const cachedDetails = getCachedCardDetails(card.name);
+
+      if (cachedDetails) {
+        setApiDetails(cachedDetails);
         return;
       }
 

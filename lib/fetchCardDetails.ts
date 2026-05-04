@@ -21,11 +21,23 @@ type YgoProDeckResponse = {
   error?: string;
 };
 
+const cardDetailsCache = new Map<string, CardDetails | null>();
+const pendingRequests = new Map<string, Promise<CardDetails | null>>();
+
+function normalizeCardName(name: string) {
+  return name
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function getDisplayLevel(card: YgoProDeckCard) {
   return card.level ?? card.rank ?? card.linkval;
 }
 
-export async function fetchCardDetails(
+async function fetchCardDetailsFromApi(
   cardName: string
 ): Promise<CardDetails | null> {
   const endpoint = `https://db.ygoprodeck.com/api/v7/cardinfo.php?name=${encodeURIComponent(
@@ -57,4 +69,40 @@ export async function fetchCardDetails(
   } catch {
     return null;
   }
+}
+
+export async function fetchCardDetails(
+  cardName: string
+): Promise<CardDetails | null> {
+  const cacheKey = normalizeCardName(cardName);
+
+  if (cardDetailsCache.has(cacheKey)) {
+    return cardDetailsCache.get(cacheKey) ?? null;
+  }
+
+  const pendingRequest = pendingRequests.get(cacheKey);
+
+  if (pendingRequest) {
+    return pendingRequest;
+  }
+
+  const request = fetchCardDetailsFromApi(cardName).then((details) => {
+    cardDetailsCache.set(cacheKey, details);
+    pendingRequests.delete(cacheKey);
+    return details;
+  });
+
+  pendingRequests.set(cacheKey, request);
+
+  return request;
+}
+
+export function getCachedCardDetails(cardName: string) {
+  return cardDetailsCache.get(normalizeCardName(cardName)) ?? null;
+}
+
+export function preloadCardDetails(cardNames: string[]) {
+  cardNames.forEach((cardName) => {
+    void fetchCardDetails(cardName);
+  });
 }

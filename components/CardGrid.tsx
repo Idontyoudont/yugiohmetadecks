@@ -1,7 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { fetchCardDetails } from "../lib/fetchCardDetails";
+import {
+  fetchCardDetails,
+  getCachedCardDetails,
+} from "../lib/fetchCardDetails";
 import type { EnrichedDeckCard } from "../types/deck";
 
 type CardGridProps = {
@@ -10,8 +13,6 @@ type CardGridProps = {
   selectedCard?: EnrichedDeckCard | null;
   onSelectCard: (card: EnrichedDeckCard) => void;
 };
-
-const imageCache = new Map<string, string | null>();
 
 function getSourceBadge(card: EnrichedDeckCard) {
   if (!card.gameSourceInfo) {
@@ -42,8 +43,9 @@ function getSourceBadge(card: EnrichedDeckCard) {
 }
 
 function ApiCardImage({ card }: { card: EnrichedDeckCard }) {
-  const [apiImageUrl, setApiImageUrl] = useState<string | null>(
-    card.imageUrl ?? imageCache.get(card.name) ?? null
+  const cachedDetails = getCachedCardDetails(card.name);
+  const [imageUrl, setImageUrl] = useState<string | null>(
+    card.imageUrl ?? cachedDetails?.imageUrl ?? null
   );
   const [isLoading, setIsLoading] = useState(false);
 
@@ -52,24 +54,22 @@ function ApiCardImage({ card }: { card: EnrichedDeckCard }) {
 
     async function loadImage() {
       if (card.imageUrl) {
-        setApiImageUrl(card.imageUrl);
-        imageCache.set(card.name, card.imageUrl);
+        setImageUrl(card.imageUrl);
         return;
       }
 
-      if (imageCache.has(card.name)) {
-        setApiImageUrl(imageCache.get(card.name) ?? null);
+      const existingDetails = getCachedCardDetails(card.name);
+
+      if (existingDetails?.imageUrl) {
+        setImageUrl(existingDetails.imageUrl);
         return;
       }
 
       setIsLoading(true);
       const details = await fetchCardDetails(card.name);
-      const imageUrl = details?.imageUrl ?? null;
-
-      imageCache.set(card.name, imageUrl);
 
       if (isActive) {
-        setApiImageUrl(imageUrl);
+        setImageUrl(details?.imageUrl ?? null);
         setIsLoading(false);
       }
     }
@@ -81,10 +81,10 @@ function ApiCardImage({ card }: { card: EnrichedDeckCard }) {
     };
   }, [card.name, card.imageUrl]);
 
-  if (apiImageUrl) {
+  if (imageUrl) {
     return (
       <img
-        src={apiImageUrl}
+        src={imageUrl}
         alt={card.name}
         className="mb-3 aspect-[3/4] w-full rounded-lg object-cover"
       />
