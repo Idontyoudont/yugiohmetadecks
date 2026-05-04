@@ -15,6 +15,12 @@ const rawOutputFilePath = path.join(
   "legacyOfDuelistGuideRaw.txt"
 );
 
+const reportOutputFilePath = path.join(
+  projectRoot,
+  "data",
+  "cardGameSources.importReport.json"
+);
+
 const steamGuideUrl =
   "https://steamcommunity.com/sharedfiles/filedetails/?id=814689673";
 
@@ -335,6 +341,89 @@ ${entries}
 `;
 }
 
+function buildImportReport(cardSources) {
+  const packCounts = new Map();
+  const categoryCounts = new Map();
+  let multiSourceCardCount = 0;
+
+  for (const entry of cardSources.values()) {
+    if (entry.sources.length > 1) {
+      multiSourceCardCount += 1;
+    }
+
+    entry.sources.forEach((source) => {
+      packCounts.set(source.packName, (packCounts.get(source.packName) ?? 0) + 1);
+      categoryCounts.set(
+        source.cardCategory,
+        (categoryCounts.get(source.cardCategory) ?? 0) + 1
+      );
+    });
+  }
+
+  const packs = Array.from(packCounts.entries())
+    .map(([packName, count]) => ({ packName, count }))
+    .sort((a, b) => b.count - a.count || a.packName.localeCompare(b.packName));
+
+  const categories = Array.from(categoryCounts.entries())
+    .map(([categoryName, count]) => ({ categoryName, count }))
+    .sort(
+      (a, b) => b.count - a.count || a.categoryName.localeCompare(b.categoryName)
+    );
+
+  const cardsWithMultipleSources = Array.from(cardSources.values())
+    .filter((entry) => entry.sources.length > 1)
+    .map((entry) => ({
+      name: entry.displayName,
+      sourceCount: entry.sources.length,
+      sources: entry.sources.map((source) => ({
+        packName: source.packName,
+        cardCategory: source.cardCategory,
+      })),
+    }))
+    .sort((a, b) => b.sourceCount - a.sourceCount || a.name.localeCompare(b.name));
+
+  return {
+    generatedAt: new Date().toISOString(),
+    sourceUrl: steamGuideUrl,
+    totalUniqueCards: cardSources.size,
+    detectedPackCount: packs.length,
+    detectedCategoryCount: categories.length,
+    cardsWithMultipleSourcesCount: multiSourceCardCount,
+    packs,
+    categories,
+    cardsWithMultipleSources,
+  };
+}
+
+function printImportReport(report) {
+  console.log("");
+  console.log("Import report");
+  console.log("-------------");
+  console.log(`Generated unique cards: ${report.totalUniqueCards}`);
+  console.log(`Detected packs: ${report.detectedPackCount}`);
+  console.log(`Detected categories: ${report.detectedCategoryCount}`);
+  console.log(
+    `Cards with multiple sources: ${report.cardsWithMultipleSourcesCount}`
+  );
+
+  console.log("");
+  console.log("Top packs:");
+  report.packs.slice(0, 10).forEach((pack, index) => {
+    console.log(`${index + 1}. ${pack.packName}: ${pack.count} cards`);
+  });
+
+  console.log("");
+  console.log("Top categories:");
+  report.categories.slice(0, 10).forEach((category, index) => {
+    console.log(`${index + 1}. ${category.categoryName}: ${category.count} cards`);
+  });
+
+  console.log("");
+  console.log(
+    "Full report saved at data/cardGameSources.importReport.json"
+  );
+}
+
 async function fetchSteamGuideText() {
   console.log(`Fetching Steam guide: ${steamGuideUrl}`);
 
@@ -361,8 +450,10 @@ async function main() {
   const rawText = await fetchSteamGuideText();
   const cardSources = parseGuideText(rawText);
   const output = generateTypeScript(cardSources);
+  const report = buildImportReport(cardSources);
 
   fs.writeFileSync(outputFilePath, output, "utf8");
+  fs.writeFileSync(reportOutputFilePath, JSON.stringify(report, null, 2), "utf8");
 
   console.log(
     `Generated ${cardSources.size} card source mappings at data/cardGameSources.generated.ts`
@@ -371,6 +462,8 @@ async function main() {
   console.log(
     `Saved fetched guide text at data/legacyOfDuelistGuideRaw.txt for debugging`
   );
+
+  printImportReport(report);
 
   if (cardSources.size === 0) {
     console.log("");
