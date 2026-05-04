@@ -15,6 +15,7 @@ The app supports:
 - Missing source checks
 - Replacement suggestions for unavailable cards
 - Name-based decklist importing
+- Inline and automatic card tagging for imported decklists
 - Hidden sample decks for development
 
 ## Live app
@@ -225,6 +226,97 @@ Main Deck
 1 Card D
 ```
 
+### Inline tags
+
+You can optionally add tags directly after a card name using `|`.
+
+Example:
+
+```text
+1 Pot of Greed | draw
+2 Book of Moon | disruption, quick-play
+1 Jinzo | tribute, trap control
+```
+
+The importer will generate:
+
+```ts
+{
+  name: "Book of Moon",
+  quantity: 2,
+  tags: ["disruption", "quick-play"],
+}
+```
+
+### Automatic tags
+
+The deck importer also applies automatic tags from:
+
+```text
+data/cardTagRules.ts
+```
+
+For example, if `data/cardTagRules.ts` contains:
+
+```ts
+export const cardTagRules: Record<string, string[]> = {
+  "Pot of Greed": ["draw", "power spell"],
+  "Book of Moon": ["disruption", "quick-play", "flip support"],
+};
+```
+
+Then this deck import line:
+
+```text
+1 Pot of Greed
+```
+
+automatically receives:
+
+```ts
+tags: ["draw", "power spell"]
+```
+
+Inline tags and automatic tags are merged. For example:
+
+```text
+1 Pot of Greed | staple
+```
+
+generates tags like:
+
+```text
+draw
+power spell
+staple
+```
+
+### Duplicate deck IDs
+
+Deck IDs are generated from deck names.
+
+For example:
+
+```text
+Deck: Goat Control
+```
+
+generates:
+
+```text
+goat-control
+```
+
+If multiple imported decks have the same name, the importer automatically renames later IDs:
+
+```text
+goat-control
+goat-control-2
+goat-control-3
+```
+
+The import report will mention any automatically renamed duplicate IDs.
+
 ### Running the deck importer
 
 Run:
@@ -240,11 +332,15 @@ Deck import report
 ------------------
 Imported decks: 2
 Total warnings: 4
+Automatic tag rules: 38
 
 1. Test Imported Goat Variant
    Main Deck: 17 cards
    Extra Deck: 3 cards
    Side Deck: 3 cards
+   Tagged cards: 10
+   Automatic tagged cards: 8
+   Inline tagged cards: 2
    Warnings:
    - Main Deck has 17 cards. Standard valid range is 40 to 60.
    - Side Deck has 3 cards. Standard valid sizes are 0 or 15.
