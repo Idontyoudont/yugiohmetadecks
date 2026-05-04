@@ -56,3 +56,17 @@ export type Deck = {
   extraDeck: DeckCard[];
   sideDeck: DeckCard[];
 };
+
+export type DeckCardReplacement = {
+  from: string;
+  to: DeckCard;
+  reason: string;
+};
+
+export type DeckVariant = {
+  id: string;
+  deckId: string;
+  name: string;
+  description: string;
+  replacements: DeckCardReplacement[];
+};

@@ -1,6 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { deckVariants } from "../data/deckVariants";
+import { applyDeckVariant } from "../lib/applyDeckVariant";
+import { enrichDeckCard } from "../lib/enrichDeckCard";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckFilters } from "./DeckFilters";
@@ -10,8 +13,8 @@ import { DeckSidebar } from "./DeckSidebar";
 import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
 import { DeckValidation } from "./DeckValidation";
+import { DeckVariantSelector } from "./DeckVariantSelector";
 import { MissingSourceChecklist } from "./MissingSourceChecklist";
-import { enrichDeckCard } from "../lib/enrichDeckCard";
 import type { CardGameSourceInfo, Deck, EnrichedDeckCard } from "../types/deck";
 
 type DeckViewerProps = {
@@ -77,6 +80,9 @@ function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
 
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
+  const [selectedVariantId, setSelectedVariantId] = useState<string | null>(
+    null
+  );
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
     null
   );
@@ -89,9 +95,19 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const selectedDeck =
     decks.find((deck) => deck.id === selectedDeckId) ?? decks[0];
 
-  const enrichedMainDeck = selectedDeck.mainDeck.map(enrichDeckCard);
-  const enrichedExtraDeck = selectedDeck.extraDeck.map(enrichDeckCard);
-  const enrichedSideDeck = selectedDeck.sideDeck.map(enrichDeckCard);
+  const availableVariants = deckVariants.filter(
+    (variant) => variant.deckId === selectedDeck.id
+  );
+
+  const selectedVariant =
+    availableVariants.find((variant) => variant.id === selectedVariantId) ??
+    null;
+
+  const activeDeckCards = applyDeckVariant(selectedDeck, selectedVariant);
+
+  const enrichedMainDeck = activeDeckCards.mainDeck.map(enrichDeckCard);
+  const enrichedExtraDeck = activeDeckCards.extraDeck.map(enrichDeckCard);
+  const enrichedSideDeck = activeDeckCards.sideDeck.map(enrichDeckCard);
 
   const allCards = [
     ...enrichedMainDeck,
@@ -128,13 +144,23 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const filteredExtraDeck = filterCards(enrichedExtraDeck);
   const filteredSideDeck = filterCards(enrichedSideDeck);
 
-  function handleSelectDeck(deckId: string) {
-    setSelectedDeckId(deckId);
+  function resetFiltersAndSelection() {
     setSelectedCard(null);
     setSelectedTag(null);
     setSelectedSourceStatus(null);
     setSelectedPack(null);
     setSearchQuery("");
+  }
+
+  function handleSelectDeck(deckId: string) {
+    setSelectedDeckId(deckId);
+    setSelectedVariantId(null);
+    resetFiltersAndSelection();
+  }
+
+  function handleSelectVariant(variantId: string | null) {
+    setSelectedVariantId(variantId);
+    resetFiltersAndSelection();
   }
 
   function handleSelectTag(tag: string | null) {
@@ -187,6 +213,12 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             >
               {getDeckStatusLabel(selectedDeck.status)}
             </span>
+
+            {selectedVariant ? (
+              <span className="rounded-full border border-blue-500/40 bg-blue-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-blue-300">
+                {selectedVariant.name}
+              </span>
+            ) : null}
           </div>
 
           <p className="mt-3 text-slate-300">
@@ -197,6 +229,14 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             Search within the selected deck, filter by custom role tags, or
             inspect in-game source coverage.
           </p>
+
+          {availableVariants.length > 0 ? (
+            <DeckVariantSelector
+              variants={availableVariants}
+              selectedVariantId={selectedVariantId}
+              onSelectVariant={handleSelectVariant}
+            />
+          ) : null}
 
           <DeckStats
             mainDeck={filteredMainDeck}
