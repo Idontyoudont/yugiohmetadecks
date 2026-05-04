@@ -1,0 +1,473 @@
+{
+  "generatedAt": "2026-05-04T19:24:29.816Z",
+  "inputFile": "data/deckImportCollection.txt",
+  "importedDeckCount": 21,
+  "importerWarningCount": 2,
+  "cleanDeckCount": 20,
+  "issueDeckCount": 1,
+  "errorDeckCount": 1,
+  "warningDeckCount": 0,
+  "infoDeckCount": 0,
+  "issueDecks": [
+    {
+      "deck": {
+        "id": "evilswarm-2013",
+        "originalId": "evilswarm-2013",
+        "name": "Evilswarm 2013",
+        "year": 2013,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+          "player": "Mike Seligson",
+          "deckType": "Evilswarm",
+          "url": "https://www.yugiohtopdecks.org/deck/5"
+        },
+        "mainDeckCount": 25,
+        "extraDeckCount": 8,
+        "sideDeckCount": 14,
+        "totalCount": 47,
+        "taggedCardCount": 7,
+        "automaticTaggedCardCount": 7,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "power spell",
+          "quick-play",
+          "removal",
+          "trap"
+        ],
+        "warningCount": 2,
+        "warnings": [
+          {
+            "type": "main-deck-too-small",
+            "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
+          },
+          {
+            "type": "side-deck-invalid-size",
+            "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+          }
+        ],
+        "ignoredLines": []
+      },
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Evilswarm",
+        "normalizedTargetName": "evilswarm"
+      },
+      "issueCount": 3,
+      "highestSeverity": "error",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 25 cards. Expected 40 to 60."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    }
+  ],
+  "cleanDecks": [
+    {
+      "id": "monarch-2007",
+      "name": "Monarch 2007",
+      "year": 2007,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks deck 2785",
+        "player": "Charley La",
+        "deckType": "Monarch",
+        "url": "https://www.yugiohtopdecks.org/deck/2785"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 0,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2007,
+        "targetName": "Perfect Circle Monarch",
+        "normalizedTargetName": "perfect circle monarch"
+      }
+    },
+    {
+      "id": "dragon-ruler-2013",
+      "name": "Dragon Ruler 2013",
+      "year": 2013,
+      "source": {
+        "label": "Top 16 YCS Turin 2013",
+        "player": "Michele Bergamasco",
+        "deckType": "Dragon Ruler",
+        "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Dragon Ruler",
+        "normalizedTargetName": "dragon ruler"
+      }
+    },
+    {
+      "id": "fire-fist-2014",
+      "name": "Fire Fist 2014",
+      "year": 2014,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks deck 1168",
+        "player": "Charlie Kip",
+        "deckType": "Fire Fist",
+        "url": "https://www.yugiohtopdecks.org/deck/1168"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2014,
+        "targetName": "Fire Fist",
+        "normalizedTargetName": "fire fist"
+      }
+    },
+    {
+      "id": "burning-abyss-2015",
+      "name": "Burning Abyss 2015",
+      "year": 2015,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks deck 4319",
+        "player": "Calvin Tahan",
+        "deckType": "Burning Abyss",
+        "url": "https://www.yugiohtopdecks.org/deck/4319"
+      },
+      "mainDeckCount": 48,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2015,
+        "targetName": "Burning Abyss",
+        "normalizedTargetName": "burning abyss"
+      }
+    },
+    {
+      "id": "nekroz-2015",
+      "name": "Nekroz 2015",
+      "year": 2015,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks deck 4520",
+        "player": "Ryan Levine",
+        "deckType": "Nekroz",
+        "url": "https://www.yugiohtopdecks.org/deck/4520"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2015,
+        "targetName": "Nekroz",
+        "normalizedTargetName": "nekroz"
+      }
+    },
+    {
+      "id": "performapal-2016",
+      "name": "Performapal 2016",
+      "year": 2016,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks deck 4843",
+        "player": "Rotorato Simone",
+        "deckType": "Performapal",
+        "url": "https://www.yugiohtopdecks.org/deck/4843"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2016,
+        "targetName": "Performapal Performage",
+        "normalizedTargetName": "performapal performage"
+      }
+    },
+    {
+      "id": "chain-burn-2005",
+      "name": "Chain Burn 2005",
+      "year": 2005,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+        "player": "Bryant Tran",
+        "deckType": "Chain Burn",
+        "url": "https://www.yugiohtopdecks.org/deck/15"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2005,
+        "targetName": "Burn",
+        "normalizedTargetName": "burn"
+      }
+    },
+    {
+      "id": "gadget-2006",
+      "name": "Gadget 2006",
+      "year": 2006,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013",
+        "player": "Elijah Gersten",
+        "deckType": "Gadget",
+        "url": "https://www.yugiohtopdecks.org/deck/43"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2006,
+        "targetName": "Gadget",
+        "normalizedTargetName": "gadget"
+      }
+    },
+    {
+      "id": "lightsworn-2008",
+      "name": "Lightsworn 2008",
+      "year": 2008,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+        "player": "Anthony Chiechi",
+        "deckType": "Lightsworn",
+        "url": "https://www.yugiohtopdecks.org/deck/55"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 0,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2008,
+        "targetName": "Lightsworn",
+        "normalizedTargetName": "lightsworn"
+      }
+    },
+    {
+      "id": "frog-2010",
+      "name": "Frog 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
+        "player": "Jeremy Hayes",
+        "deckType": "Frog",
+        "url": "https://www.yugiohtopdecks.org/deck/64"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Frog Monarch",
+        "normalizedTargetName": "frog monarch"
+      }
+    },
+    {
+      "id": "infernity-2010",
+      "name": "Infernity 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+        "player": "Chancy Wigglestove",
+        "deckType": "Infernity",
+        "url": "https://www.yugiohtopdecks.org/deck/1"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 13,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Infernity",
+        "normalizedTargetName": "infernity"
+      }
+    },
+    {
+      "id": "agent-2011",
+      "name": "Agent 2011",
+      "year": 2011,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
+        "player": "Robert Jordan",
+        "deckType": "Agent",
+        "url": "https://www.yugiohtopdecks.org/deck/40"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2011,
+        "targetName": "Agents",
+        "normalizedTargetName": "agents"
+      }
+    },
+    {
+      "id": "six-samurai-2011",
+      "name": "Six Samurai 2011",
+      "year": 2011,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+        "player": "Kumar Dave",
+        "deckType": "Six Samurai",
+        "url": "https://www.yugiohtopdecks.org/deck/16"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2011,
+        "targetName": "Six Samurai",
+        "normalizedTargetName": "six samurai"
+      }
+    },
+    {
+      "id": "dino-rabbit-2012",
+      "name": "Dino Rabbit 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+        "player": "Isaac Canales",
+        "deckType": "Dino Rabbit",
+        "url": "https://www.yugiohtopdecks.org/deck/29"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Dino Rabbit",
+        "normalizedTargetName": "dino rabbit"
+      }
+    },
+    {
+      "id": "inzektor-2012",
+      "name": "Inzektor 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+        "player": "Mikael Ibsen",
+        "deckType": "Inzektor",
+        "url": "https://www.yugiohtopdecks.org/deck/28"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Inzektor",
+        "normalizedTargetName": "inzektor"
+      }
+    },
+    {
+      "id": "wind-up-2012",
+      "name": "Wind-Up 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+        "player": "Jeremy Thibeau",
+        "deckType": "Wind-Up",
+        "url": "https://www.yugiohtopdecks.org/deck/11"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Wind-Up",
+        "normalizedTargetName": "wind up"
+      }
+    },
+    {
+      "id": "fire-fist-2013",
+      "name": "Fire Fist 2013",
+      "year": 2013,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+        "player": "Mike Steinman",
+        "deckType": "Fire Fist",
+        "url": "https://www.yugiohtopdecks.org/deck/17"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Fire Fist",
+        "normalizedTargetName": "fire fist"
+      }
+    },
+    {
+      "id": "mermail-2013",
+      "name": "Mermail 2013",
+      "year": 2013,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+        "player": "Steffon Bizzell",
+        "deckType": "Mermail",
+        "url": "https://www.yugiohtopdecks.org/deck/10"
+      },
+      "mainDeckCount": 44,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2013,
+        "targetName": "Mermail",
+        "normalizedTargetName": "mermail"
+      }
+    },
+    {
+      "id": "bujin-2014",
+      "name": "Bujin 2014",
+      "year": 2014,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+        "player": "DJ Katter",
+        "deckType": "Bujin",
+        "url": "https://www.yugiohtopdecks.org/deck/52"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2014,
+        "targetName": "Bujin",
+        "normalizedTargetName": "bujin"
+      }
+    },
+    {
+      "id": "mermail-2014",
+      "name": "Mermail 2014",
+      "year": 2014,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+        "player": "Chrispother Quinones- Ortega",
+        "deckType": "Mermail",
+        "url": "https://www.yugiohtopdecks.org/deck/53"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2014,
+        "targetName": "Mermail",
+        "normalizedTargetName": "mermail"
+      }
+    }
+  ]
+}

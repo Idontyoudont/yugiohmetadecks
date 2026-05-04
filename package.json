@@ -11,6 +11,7 @@
     "packs:import": "node scripts/importPackSources.mjs",
 
     "decks:import": "node scripts/importDecklist.mjs",
+    "decks:quality": "node scripts/reportImportedDeckQuality.mjs",
 
     "sources:discover-topdecks": "node scripts/discoverTopDeckSources.mjs",
     "sources:template": "node scripts/generateDeckSourceIntakeTemplate.mjs",
