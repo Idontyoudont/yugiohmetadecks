@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:38:23.031Z",
+  "generatedAt": "2026-05-04T18:44:15.391Z",
   "sourceCount": 7,
   "okCount": 4,
   "failedCount": 2,
@@ -149,20 +149,20 @@
         "target": "Fire Fist",
         "status": "source-registered",
         "sourceType": "deck-database",
-        "parseStatus": "unknown",
+        "parseStatus": "parseable",
         "label": "Yu-Gi-Oh! Top Decks deck 1168",
-        "player": null,
+        "player": "Charlie Kip",
         "deckType": "Fire Fist",
         "url": "https://www.yugiohtopdecks.org/deck/1168",
-        "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+        "notes": "Yu-Gi-Oh! Top Decks source with explicit Main Deck, Extra Deck, and Side Deck sections. Parser successfully extracts a 40-card Main Deck, 15-card Extra Deck, and 15-card Side Deck."
       },
       "fetched": true,
       "ok": true,
       "status": 200,
       "statusText": "OK",
-      "htmlFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.html",
-      "textFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.txt",
-      "htmlBytes": 26656,
+      "htmlFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.html",
+      "textFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.txt",
+      "htmlBytes": 26680,
       "textBytes": 11676,
       "error": null
     }

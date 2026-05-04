@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:36:09.174Z",
+  "generatedAt": "2026-05-04T18:44:10.430Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
@@ -437,12 +437,12 @@
               "target": "Fire Fist",
               "status": "source-registered",
               "sourceType": "deck-database",
-              "parseStatus": "unknown",
+              "parseStatus": "parseable",
               "label": "Yu-Gi-Oh! Top Decks deck 1168",
-              "player": null,
+              "player": "Charlie Kip",
               "deckType": "Fire Fist",
               "url": "https://www.yugiohtopdecks.org/deck/1168",
-              "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+              "notes": "Yu-Gi-Oh! Top Decks source with explicit Main Deck, Extra Deck, and Side Deck sections. Parser successfully extracts a 40-card Main Deck, 15-card Extra Deck, and 15-card Side Deck."
             }
           ]
         },

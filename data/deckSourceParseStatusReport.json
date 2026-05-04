@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-05-04T18:36:09.267Z",
+  "generatedAt": "2026-05-04T18:44:10.531Z",
   "totalSources": 7,
   "statusCounts": {
     "reference-only": 1,
     "blocked-or-empty": 2,
     "fetch-failed": 2,
-    "parseable": 1,
-    "unknown": 1
+    "parseable": 2
   },
   "statuses": {
     "reference-only": [
@@ -87,20 +86,18 @@
         "deckType": "Dragon Ruler",
         "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
         "notes": "Already imported as Dragon Ruler YCS Turin 2013. Cached page parser can extract a valid candidate decklist from this source."
-      }
-    ],
-    "unknown": [
+      },
       {
         "year": 2014,
         "target": "Fire Fist",
         "status": "source-registered",
         "sourceType": "deck-database",
-        "parseStatus": "unknown",
+        "parseStatus": "parseable",
         "label": "Yu-Gi-Oh! Top Decks deck 1168",
-        "player": null,
+        "player": "Charlie Kip",
         "deckType": "Fire Fist",
         "url": "https://www.yugiohtopdecks.org/deck/1168",
-        "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+        "notes": "Yu-Gi-Oh! Top Decks source with explicit Main Deck, Extra Deck, and Side Deck sections. Parser successfully extracts a 40-card Main Deck, 15-card Extra Deck, and 15-card Side Deck."
       }
     ]
   }
