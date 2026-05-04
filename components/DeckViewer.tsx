@@ -196,7 +196,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         onSelectDeck={handleSelectDeck}
       />
 
-      <section className="flex-1 overflow-y-auto bg-slate-950 p-8">
+      <main className="min-h-screen flex-1 bg-slate-950 p-8">
         <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-8">
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
             Selected deck
@@ -316,7 +316,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             onSelectCard={setSelectedCard}
           />
         </div>
-      </section>
+      </main>
 
       <CardPreviewPanel
         card={selectedCard}
