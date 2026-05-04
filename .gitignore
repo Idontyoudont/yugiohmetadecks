@@ -33,6 +33,10 @@ yarn-error.log*
 # generated importer debug output
 data/legacyOfDuelistGuideRaw.txt
 
+# cached deck source pages
+data/deckSourcePages/*
+!data/deckSourcePages/.gitkeep
+
 # env files (can opt-in for committing if needed)
 .env*
 
