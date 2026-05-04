@@ -214,6 +214,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             mainDeck={enrichedMainDeck}
             extraDeck={enrichedExtraDeck}
             sideDeck={enrichedSideDeck}
+            selectedPack={selectedPack}
+            onSelectPack={handleSelectPack}
           />
         </div>
 

@@ -4,6 +4,8 @@ type DeckPackSummaryProps = {
   mainDeck: EnrichedDeckCard[];
   extraDeck: EnrichedDeckCard[];
   sideDeck: EnrichedDeckCard[];
+  selectedPack: string | null;
+  onSelectPack: (packName: string) => void;
 };
 
 type PackCount = {
@@ -41,6 +43,8 @@ export function DeckPackSummary({
   mainDeck,
   extraDeck,
   sideDeck,
+  selectedPack,
+  onSelectPack,
 }: DeckPackSummaryProps) {
   const allCards = [...mainDeck, ...extraDeck, ...sideDeck];
   const packCounts = getPackCounts(allCards);
@@ -50,8 +54,7 @@ export function DeckPackSummary({
       <div className="mb-4">
         <h3 className="text-lg font-semibold text-white">Pack summary</h3>
         <p className="mt-1 text-sm text-slate-400">
-          Shows which in-game character packs currently contribute the most
-          cards to this deck.
+          Click a pack to filter the deck by that in-game source.
         </p>
       </div>
 
@@ -66,18 +69,36 @@ export function DeckPackSummary({
         </div>
       ) : (
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-          {packCounts.map((pack) => (
-            <div
-              key={pack.packName}
-              className="rounded-2xl border border-slate-800 bg-slate-900 p-4"
-            >
-              <p className="font-semibold text-white">{pack.packName}</p>
-              <p className="mt-2 text-3xl font-bold text-blue-300">
-                {pack.count}
-              </p>
-              <p className="mt-1 text-sm text-slate-400">card copies</p>
-            </div>
-          ))}
+          {packCounts.map((pack) => {
+            const isSelected = selectedPack === pack.packName;
+
+            return (
+              <button
+                key={pack.packName}
+                onClick={() => onSelectPack(pack.packName)}
+                className={`rounded-2xl border p-4 text-left transition hover:-translate-y-1 hover:border-blue-400 ${
+                  isSelected
+                    ? "border-blue-400 bg-blue-500/10"
+                    : "border-slate-800 bg-slate-900"
+                }`}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <p className="font-semibold text-white">{pack.packName}</p>
+
+                  {isSelected ? (
+                    <span className="rounded-full bg-blue-500 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-white">
+                      Active
+                    </span>
+                  ) : null}
+                </div>
+
+                <p className="mt-2 text-3xl font-bold text-blue-300">
+                  {pack.count}
+                </p>
+                <p className="mt-1 text-sm text-slate-400">card copies</p>
+              </button>
+            );
+          })}
         </div>
       )}
     </div>
