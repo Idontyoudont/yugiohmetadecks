@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:17:50.945Z",
+  "generatedAt": "2026-05-04T18:21:00.916Z",
   "sourceCount": 6,
   "okCount": 3,
   "failedCount": 2,
@@ -80,12 +80,12 @@
         "target": "Blackwing",
         "status": "source-registered",
         "sourceType": "official-event-coverage",
-        "parseStatus": "unknown",
+        "parseStatus": "fetch-failed",
         "label": "SJC Orlando 2009 Top 16 Decklists",
         "player": null,
         "deckType": "Blackwing",
         "url": "https://yugiohblog.konami.com/2009/sjc/top-16-decklists/",
-        "notes": "Official Konami event coverage with Top 16 decklists. Use one Blackwing list from this page for the 2009 Blackwing target."
+        "notes": "Official Konami event coverage with Top 16 decklists. Current fetch failed from the local source page fetcher, so this needs retry, alternate fetch handling, or manual fallback."
       },
       "fetched": true,
       "ok": false,
@@ -103,12 +103,12 @@
         "target": "X-Saber",
         "status": "source-registered",
         "sourceType": "official-event-coverage",
-        "parseStatus": "unknown",
+        "parseStatus": "fetch-failed",
         "label": "Konami YCS X-Saber Deck Profile",
         "player": "Devin Clark",
         "deckType": "X-Saber",
         "url": "https://yugiohblog.konami.com/2010/ycs/deck-profile-devin-clarks-x-saber-deck/",
-        "notes": "Official Konami YCS coverage deck profile. Candidate source for the 2010 X-Saber target."
+        "notes": "Official Konami YCS coverage deck profile. Current fetch failed from the local source page fetcher, so this needs retry, alternate fetch handling, or manual fallback."
       },
       "fetched": true,
       "ok": false,
