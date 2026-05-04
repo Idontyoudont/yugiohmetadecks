@@ -6,6 +6,7 @@ export const decks: Deck[] = [
     name: "Goat Control",
     year: 2005,
     format: "Goat Format",
+    status: "complete",
     mainDeck: [
       {
         name: "Black Luster Soldier - Envoy of the Beginning",
@@ -248,6 +249,7 @@ export const decks: Deck[] = [
     name: "Dragon Ruler",
     year: 2013,
     format: "TCG Advanced",
+    status: "sample",
     mainDeck: [
       {
         name: "Blaster, Dragon Ruler of Infernos",

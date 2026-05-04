@@ -15,11 +15,14 @@ export type CardDetails = {
 
 export type EnrichedDeckCard = DeckCard & CardDetails;
 
+export type DeckStatus = "complete" | "sample" | "draft";
+
 export type Deck = {
   id: string;
   name: string;
   year: number;
   format: string;
+  status: DeckStatus;
   mainDeck: DeckCard[];
   extraDeck: DeckCard[];
   sideDeck: DeckCard[];

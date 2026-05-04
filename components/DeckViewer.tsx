@@ -14,6 +14,30 @@ type DeckViewerProps = {
   decks: Deck[];
 };
 
+function getDeckStatusLabel(status: Deck["status"]) {
+  if (status === "complete") {
+    return "Complete deck";
+  }
+
+  if (status === "sample") {
+    return "Sample deck";
+  }
+
+  return "Draft deck";
+}
+
+function getDeckStatusClassName(status: Deck["status"]) {
+  if (status === "complete") {
+    return "border-emerald-500/40 bg-emerald-500/10 text-emerald-300";
+  }
+
+  if (status === "sample") {
+    return "border-amber-500/40 bg-amber-500/10 text-amber-300";
+  }
+
+  return "border-slate-600 bg-slate-800 text-slate-300";
+}
+
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
@@ -88,9 +112,19 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             Selected deck
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-white">
-            {selectedDeck.name}
-          </h2>
+          <div className="mt-3 flex flex-wrap items-center gap-3">
+            <h2 className="text-4xl font-bold text-white">
+              {selectedDeck.name}
+            </h2>
+
+            <span
+              className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide ${getDeckStatusClassName(
+                selectedDeck.status
+              )}`}
+            >
+              {getDeckStatusLabel(selectedDeck.status)}
+            </span>
+          </div>
 
           <p className="mt-3 text-slate-300">
             {selectedDeck.year} · {selectedDeck.format}
