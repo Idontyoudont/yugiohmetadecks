@@ -187,6 +187,32 @@ function splitRawTextIntoDeckBlocks(rawText) {
     .filter(Boolean);
 }
 
+function cleanSource(source) {
+  const cleanedSource = {};
+
+  if (source.label) {
+    cleanedSource.label = source.label;
+  }
+
+  if (source.player) {
+    cleanedSource.player = source.player;
+  }
+
+  if (source.deckType) {
+    cleanedSource.deckType = source.deckType;
+  }
+
+  if (source.url) {
+    cleanedSource.url = source.url;
+  }
+
+  if (source.notes) {
+    cleanedSource.notes = source.notes;
+  }
+
+  return Object.keys(cleanedSource).length > 0 ? cleanedSource : undefined;
+}
+
 function parseDeckBlock(rawText, index) {
   const lines = rawText
     .split("\n")
@@ -197,6 +223,14 @@ function parseDeckBlock(rawText, index) {
   let year = new Date().getFullYear();
   let format = "Imported Format";
   let status = "draft";
+
+  const source = {
+    label: "",
+    player: "",
+    deckType: "",
+    url: "",
+    notes: "",
+  };
 
   let currentSection = null;
 
@@ -213,6 +247,11 @@ function parseDeckBlock(rawText, index) {
     const deckYear = parseMetaLine(line, "Year");
     const deckFormat = parseMetaLine(line, "Format");
     const deckStatus = parseMetaLine(line, "Status");
+    const sourceLabel = parseMetaLine(line, "Source");
+    const sourcePlayer = parseMetaLine(line, "Player");
+    const sourceDeckType = parseMetaLine(line, "Deck Type");
+    const sourceUrl = parseMetaLine(line, "Source URL");
+    const sourceNotes = parseMetaLine(line, "Source Notes");
 
     if (deckName) {
       name = deckName;
@@ -254,6 +293,31 @@ function parseDeckBlock(rawText, index) {
       return;
     }
 
+    if (sourceLabel) {
+      source.label = sourceLabel;
+      return;
+    }
+
+    if (sourcePlayer) {
+      source.player = sourcePlayer;
+      return;
+    }
+
+    if (sourceDeckType) {
+      source.deckType = sourceDeckType;
+      return;
+    }
+
+    if (sourceUrl) {
+      source.url = sourceUrl;
+      return;
+    }
+
+    if (sourceNotes) {
+      source.notes = sourceNotes;
+      return;
+    }
+
     const sectionName = getSectionName(line);
 
     if (sectionName) {
@@ -290,6 +354,7 @@ function parseDeckBlock(rawText, index) {
     year,
     format,
     status,
+    source: cleanSource(source),
     mainDeck: deck.mainDeck,
     extraDeck: deck.extraDeck,
     sideDeck: deck.sideDeck,
@@ -349,13 +414,43 @@ ${cards.map(formatCard).join(",\n")}
   ]`;
 }
 
+function formatSource(source) {
+  if (!source) {
+    return "";
+  }
+
+  const lines = [];
+
+  if (source.label) {
+    lines.push(`      label: ${escapeString(source.label)},`);
+  }
+
+  if (source.player) {
+    lines.push(`      player: ${escapeString(source.player)},`);
+  }
+
+  if (source.deckType) {
+    lines.push(`      deckType: ${escapeString(source.deckType)},`);
+  }
+
+  if (source.url) {
+    lines.push(`      url: ${escapeString(source.url)},`);
+  }
+
+  if (source.notes) {
+    lines.push(`      notes: ${escapeString(source.notes)},`);
+  }
+
+  return `\n    source: {\n${lines.join("\n")}\n    },`;
+}
+
 function formatDeck(deck) {
   return `  {
     id: ${escapeString(deck.id)},
     name: ${escapeString(deck.name)},
     year: ${deck.year},
     format: ${escapeString(deck.format)},
-    status: ${escapeString(deck.status)},
+    status: ${escapeString(deck.status)},${formatSource(deck.source)}
     mainDeck: ${formatCardArray(deck.mainDeck)},
     extraDeck: ${formatCardArray(deck.extraDeck)},
     sideDeck: ${formatCardArray(deck.sideDeck)},
@@ -498,6 +593,7 @@ function buildReport(decks) {
       year: deck.year,
       format: deck.format,
       status: deck.status,
+      source: deck.source ?? null,
       mainDeckCount,
       extraDeckCount,
       sideDeckCount,
@@ -556,6 +652,19 @@ function printReport(report) {
     console.log(`   Year: ${deck.year}`);
     console.log(`   Format: ${deck.format}`);
     console.log(`   Status: ${deck.status}`);
+
+    if (deck.source) {
+      console.log(`   Source: ${deck.source.label}`);
+
+      if (deck.source.player) {
+        console.log(`   Player: ${deck.source.player}`);
+      }
+
+      if (deck.source.deckType) {
+        console.log(`   Deck Type: ${deck.source.deckType}`);
+      }
+    }
+
     console.log(`   Main Deck: ${deck.mainDeckCount} cards`);
     console.log(`   Extra Deck: ${deck.extraDeckCount} cards`);
     console.log(`   Side Deck: ${deck.sideDeckCount} cards`);

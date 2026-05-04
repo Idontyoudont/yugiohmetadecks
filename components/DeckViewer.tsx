@@ -87,6 +87,73 @@ function getVisibleDecks(decks: Deck[], showSampleDecks: boolean) {
   return decks.filter((deck) => deck.status !== "sample");
 }
 
+function DeckSourceBox({ deck }: { deck: Deck }) {
+  if (!deck.source) {
+    return null;
+  }
+
+  return (
+    <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-950/70 p-5">
+      <p className="text-xs uppercase tracking-[0.25em] text-blue-400">
+        Deck source
+      </p>
+
+      <div className="mt-3 grid gap-3 md:grid-cols-2">
+        <div className="rounded-xl bg-slate-900 p-3">
+          <p className="text-xs uppercase tracking-wide text-slate-500">
+            Event / source
+          </p>
+          <p className="mt-1 font-semibold text-slate-200">
+            {deck.source.label}
+          </p>
+        </div>
+
+        {deck.source.player ? (
+          <div className="rounded-xl bg-slate-900 p-3">
+            <p className="text-xs uppercase tracking-wide text-slate-500">
+              Player
+            </p>
+            <p className="mt-1 font-semibold text-slate-200">
+              {deck.source.player}
+            </p>
+          </div>
+        ) : null}
+
+        {deck.source.deckType ? (
+          <div className="rounded-xl bg-slate-900 p-3">
+            <p className="text-xs uppercase tracking-wide text-slate-500">
+              Deck type
+            </p>
+            <p className="mt-1 font-semibold text-slate-200">
+              {deck.source.deckType}
+            </p>
+          </div>
+        ) : null}
+
+        {deck.source.url ? (
+          <div className="rounded-xl bg-slate-900 p-3">
+            <p className="text-xs uppercase tracking-wide text-slate-500">
+              URL
+            </p>
+            <a
+              href={deck.source.url}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 block break-words text-sm font-semibold text-blue-300 hover:text-blue-200"
+            >
+              Open source page
+            </a>
+          </div>
+        ) : null}
+      </div>
+
+      {deck.source.notes ? (
+        <p className="mt-3 text-sm text-slate-400">{deck.source.notes}</p>
+      ) : null}
+    </div>
+  );
+}
+
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [showSampleDecks, setShowSampleDecks] = useState(false);
 
@@ -263,6 +330,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             Search within the selected deck, filter by custom role tags, or
             inspect in-game source coverage.
           </p>
+
+          <DeckSourceBox deck={selectedDeck} />
 
           {availableVariants.length > 0 ? (
             <DeckVariantSelector

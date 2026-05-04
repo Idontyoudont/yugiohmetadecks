@@ -2,6 +2,10 @@ Deck: Dragon Ruler YCS Turin 2013
 Year: 2013
 Format: TCG Advanced
 Status: complete
+Source: Top 16 YCS Turin 2013
+Player: Michele Bergamasco
+Deck Type: Dragon Ruler
+Source URL: https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html
 
 Main Deck
 3 Blaster, Dragon Ruler of Infernos

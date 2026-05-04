@@ -46,12 +46,21 @@ export type EnrichedDeckCard = DeckCard &
 
 export type DeckStatus = "complete" | "sample" | "draft";
 
+export type DeckSource = {
+  label: string;
+  player?: string;
+  deckType?: string;
+  url?: string;
+  notes?: string;
+};
+
 export type Deck = {
   id: string;
   name: string;
   year: number;
   format: string;
   status: DeckStatus;
+  source?: DeckSource;
   mainDeck: DeckCard[];
   extraDeck: DeckCard[];
   sideDeck: DeckCard[];

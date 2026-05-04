@@ -7,6 +7,12 @@ export const importedDecks: Deck[] = [
     year: 2013,
     format: "TCG Advanced",
     status: "complete",
+    source: {
+      label: "Top 16 YCS Turin 2013",
+      player: "Michele Bergamasco",
+      deckType: "Dragon Ruler",
+      url: "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
+    },
     mainDeck: [
     {
       name: "Blaster, Dragon Ruler of Infernos",
