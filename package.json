@@ -12,6 +12,7 @@
 
     "decks:import": "node scripts/importDecklist.mjs",
 
+    "sources:discover-topdecks": "node scripts/discoverTopDeckSources.mjs",
     "sources:template": "node scripts/generateDeckSourceIntakeTemplate.mjs",
     "sources:apply": "node scripts/applyDeckSourceIntakeTemplate.mjs",
     "sources:merge": "node scripts/mergeDeckSourceIntake.mjs",

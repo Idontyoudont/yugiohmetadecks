@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:03:20.818Z",
+  "generatedAt": "2026-05-04T19:12:31.540Z",
   "sourceCount": 11,
   "okCount": 8,
   "failedCount": 2,
@@ -47,7 +47,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2007-monarch-charley-la.html",
       "textFile": "data\\deckSourcePages\\2007-monarch-charley-la.txt",
-      "htmlBytes": 26055,
+      "htmlBytes": 26067,
       "textBytes": 11169,
       "error": null
     },
@@ -185,7 +185,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.html",
       "textFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.txt",
-      "htmlBytes": 26677,
+      "htmlBytes": 26668,
       "textBytes": 11676,
       "error": null
     },
@@ -208,7 +208,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2015-burning-abyss-calvin-tahan.html",
       "textFile": "data\\deckSourcePages\\2015-burning-abyss-calvin-tahan.txt",
-      "htmlBytes": 26974,
+      "htmlBytes": 26984,
       "textBytes": 11952,
       "error": null
     },
@@ -231,7 +231,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2015-nekroz-ryan-levine.html",
       "textFile": "data\\deckSourcePages\\2015-nekroz-ryan-levine.txt",
-      "htmlBytes": 26078,
+      "htmlBytes": 26081,
       "textBytes": 11168,
       "error": null
     },
@@ -254,7 +254,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2016-performapal-performage-rotorato-simone.html",
       "textFile": "data\\deckSourcePages\\2016-performapal-performage-rotorato-simone.txt",
-      "htmlBytes": 26417,
+      "htmlBytes": 26434,
       "textBytes": 11469,
       "error": null
     }

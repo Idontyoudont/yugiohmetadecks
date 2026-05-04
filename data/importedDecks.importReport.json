@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:03:13.421Z",
+  "generatedAt": "2026-05-04T19:12:23.981Z",
   "inputFile": "data/deckImportCollection.txt",
   "fallbackInputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",

@@ -1,0 +1,2711 @@
+{
+  "generatedAt": "2026-05-04T19:12:09.715Z",
+  "targetLimit": 50,
+  "maxPagesPerTarget": 3,
+  "maxSources": 50,
+  "checkedTargetCount": 50,
+  "discoveredSourceCount": 0,
+  "discoveredSources": [],
+  "targets": [
+    {
+      "year": 2005,
+      "targetName": "Burn",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Burn 2005",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn+2005",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burn 2005",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn+2005&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burn 2005",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn+2005&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burn",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burn",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burn",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burn&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2005,
+      "targetName": "Chaos Turbo",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Chaos Turbo 2005",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo+2005",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Turbo 2005",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo+2005&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Turbo 2005",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo+2005&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Turbo",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Turbo",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Turbo",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Turbo&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2005,
+      "targetName": "Reasoning Gate",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Reasoning Gate 2005",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate+2005",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Reasoning Gate 2005",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate+2005&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Reasoning Gate 2005",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate+2005&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Reasoning Gate",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Reasoning Gate",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Reasoning Gate",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Reasoning+Gate&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2005,
+      "targetName": "Warrior Toolbox",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Warrior Toolbox 2005",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox+2005",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Warrior Toolbox 2005",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox+2005&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Warrior Toolbox 2005",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox+2005&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Warrior Toolbox",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Warrior Toolbox",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Warrior Toolbox",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Warrior+Toolbox&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2006,
+      "targetName": "Bazoo Return",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Bazoo Return 2006",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return+2006",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bazoo Return 2006",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return+2006&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bazoo Return 2006",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return+2006&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bazoo Return",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bazoo Return",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bazoo Return",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bazoo+Return&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2006,
+      "targetName": "Chaos Return",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Chaos Return 2006",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return+2006",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Return 2006",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return+2006&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Return 2006",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return+2006&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Return",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Return",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Return",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Return&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2006,
+      "targetName": "Gadget",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Gadget 2006",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2006",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget 2006",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2006&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget 2006",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2006&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2006,
+      "targetName": "Monarch",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Monarch 2006",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2006",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch 2006",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2006&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch 2006",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2006&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2006,
+      "targetName": "Recruiter Chaos",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Recruiter Chaos 2006",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos+2006",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Recruiter Chaos 2006",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos+2006&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Recruiter Chaos 2006",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos+2006&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Recruiter Chaos",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Recruiter Chaos",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Recruiter Chaos",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Recruiter+Chaos&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2007,
+      "targetName": "Crystal Beast",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Crystal Beast 2007",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast+2007",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Crystal Beast 2007",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast+2007&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Crystal Beast 2007",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast+2007&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Crystal Beast",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Crystal Beast",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Crystal Beast",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Crystal+Beast&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2007,
+      "targetName": "Demise OTK",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Demise OTK 2007",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK+2007",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Demise OTK 2007",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK+2007&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Demise OTK 2007",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK+2007&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Demise OTK",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Demise OTK",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Demise OTK",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Demise+OTK&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2007,
+      "targetName": "Gadget",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Gadget 2007",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2007",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget 2007",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2007&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget 2007",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget+2007&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gadget",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gadget&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2007,
+      "targetName": "Zombie",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Zombie 2007",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+2007",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie 2007",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+2007&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie 2007",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+2007&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2008,
+      "targetName": "Dark Armed Return",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Dark Armed Return 2008",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return+2008",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dark Armed Return 2008",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return+2008&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dark Armed Return 2008",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return+2008&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dark Armed Return",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dark Armed Return",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dark Armed Return",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dark+Armed+Return&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2008,
+      "targetName": "Gladiator Beast",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Gladiator Beast 2008",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2008",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast 2008",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2008&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast 2008",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2008&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2008,
+      "targetName": "Lightsworn",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Lightsworn 2008",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2008",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn 2008",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2008&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn 2008",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2008&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2008,
+      "targetName": "Zombie Synchro",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Zombie Synchro 2008",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro+2008",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie Synchro 2008",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro+2008&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie Synchro 2008",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro+2008&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie Synchro",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie Synchro",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Zombie Synchro",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Zombie+Synchro&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2009,
+      "targetName": "Cat Synchro",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Cat Synchro 2009",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro+2009",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Cat Synchro 2009",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro+2009&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Cat Synchro 2009",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro+2009&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Cat Synchro",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Cat Synchro",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Cat Synchro",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Cat+Synchro&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2009,
+      "targetName": "Gladiator Beast",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Gladiator Beast 2009",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2009",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast 2009",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2009&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast 2009",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast+2009&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gladiator Beast",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gladiator+Beast&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2009,
+      "targetName": "Lightsworn",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Lightsworn 2009",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2009",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn 2009",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2009&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn 2009",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn+2009&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Lightsworn",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Lightsworn&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2009,
+      "targetName": "Twilight",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Twilight 2009",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight+2009",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Twilight 2009",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight+2009&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Twilight 2009",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight+2009&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Twilight",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Twilight",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Twilight",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Twilight&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2010,
+      "targetName": "Blackwing",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Blackwing 2010",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing+2010",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blackwing 2010",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing+2010&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blackwing 2010",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing+2010&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blackwing",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blackwing",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blackwing",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blackwing&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2010,
+      "targetName": "Frog Monarch",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Frog Monarch 2010",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch+2010",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Frog Monarch 2010",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch+2010&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Frog Monarch 2010",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch+2010&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Frog Monarch",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Frog Monarch",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Frog Monarch",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Frog+Monarch&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2010,
+      "targetName": "Infernity",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Infernity 2010",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity+2010",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Infernity 2010",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity+2010&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Infernity 2010",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity+2010&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Infernity",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Infernity",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Infernity",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Infernity&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2010,
+      "targetName": "Quickdraw Dandywarrior",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Quickdraw Dandywarrior 2010",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior+2010",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Quickdraw Dandywarrior 2010",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior+2010&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Quickdraw Dandywarrior 2010",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior+2010&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Quickdraw Dandywarrior",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Quickdraw Dandywarrior",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Quickdraw Dandywarrior",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Quickdraw+Dandywarrior&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2011,
+      "targetName": "Agents",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Agents 2011",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents+2011",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Agents 2011",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents+2011&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Agents 2011",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents+2011&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Agents",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Agents",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Agents",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Agents&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2011,
+      "targetName": "Gravekeeper",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Gravekeeper 2011",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper+2011",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gravekeeper 2011",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper+2011&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gravekeeper 2011",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper+2011&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gravekeeper",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gravekeeper",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Gravekeeper",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Gravekeeper&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2011,
+      "targetName": "Plant Synchro",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Plant Synchro 2011",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro+2011",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Plant Synchro 2011",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro+2011&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Plant Synchro 2011",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro+2011&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Plant Synchro",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Plant Synchro",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Plant Synchro",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Plant+Synchro&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2011,
+      "targetName": "Six Samurai",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Six Samurai 2011",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai+2011",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Six Samurai 2011",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai+2011&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Six Samurai 2011",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai+2011&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Six Samurai",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Six Samurai",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Six Samurai",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Six+Samurai&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2011,
+      "targetName": "Tengu Plant",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Tengu Plant 2011",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant+2011",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Tengu Plant 2011",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant+2011&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Tengu Plant 2011",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant+2011&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Tengu Plant",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Tengu Plant",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Tengu Plant",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Tengu+Plant&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2012,
+      "targetName": "Chaos Dragon",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Chaos Dragon 2012",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon+2012",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Dragon 2012",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon+2012&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Dragon 2012",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon+2012&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Dragon",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Dragon",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Chaos Dragon",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Chaos+Dragon&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2012,
+      "targetName": "Dino Rabbit",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Dino Rabbit 2012",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit+2012",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dino Rabbit 2012",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit+2012&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dino Rabbit 2012",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit+2012&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dino Rabbit",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dino Rabbit",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Dino Rabbit",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Dino+Rabbit&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2012,
+      "targetName": "Hero Beat",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Hero Beat 2012",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat+2012",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Hero Beat 2012",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat+2012&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Hero Beat 2012",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat+2012&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Hero Beat",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Hero Beat",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Hero Beat",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Hero+Beat&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2012,
+      "targetName": "Inzektor",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Inzektor 2012",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor+2012",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Inzektor 2012",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor+2012&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Inzektor 2012",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor+2012&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Inzektor",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Inzektor",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Inzektor",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Inzektor&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2012,
+      "targetName": "Wind-Up",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Wind-Up 2012",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up+2012",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Wind-Up 2012",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up+2012&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Wind-Up 2012",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up+2012&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Wind-Up",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Wind-Up",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Wind-Up",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Wind-Up&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2013,
+      "targetName": "Evilswarm",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Evilswarm 2013",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm+2013",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Evilswarm 2013",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm+2013&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Evilswarm 2013",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm+2013&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Evilswarm",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Evilswarm",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Evilswarm",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Evilswarm&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2013,
+      "targetName": "Fire Fist",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Fire Fist 2013",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist+2013",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Fire Fist 2013",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist+2013&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Fire Fist 2013",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist+2013&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Fire Fist",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Fire Fist",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Fire Fist",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Fire+Fist&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2013,
+      "targetName": "Mermail",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Mermail 2013",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2013",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail 2013",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2013&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail 2013",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2013&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2013,
+      "targetName": "Spellbook",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Spellbook 2013",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook+2013",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Spellbook 2013",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook+2013&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Spellbook 2013",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook+2013&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Spellbook",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Spellbook",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Spellbook",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Spellbook&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2014,
+      "targetName": "Bujin",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Bujin 2014",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin+2014",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bujin 2014",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin+2014&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bujin 2014",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin+2014&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bujin",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bujin",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Bujin",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Bujin&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2014,
+      "targetName": "Geargia",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Geargia 2014",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia+2014",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Geargia 2014",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia+2014&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Geargia 2014",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia+2014&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Geargia",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Geargia",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Geargia",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Geargia&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2014,
+      "targetName": "HAT",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "HAT 2014",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT+2014",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "HAT 2014",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT+2014&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "HAT 2014",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT+2014&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "HAT",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "HAT",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "HAT",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=HAT&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2014,
+      "targetName": "Mermail",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Mermail 2014",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2014",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail 2014",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2014&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail 2014",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail+2014&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Mermail",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Mermail&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2015,
+      "targetName": "Qliphort",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Qliphort 2015",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort+2015",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Qliphort 2015",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort+2015&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Qliphort 2015",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort+2015&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Qliphort",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Qliphort",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Qliphort",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Qliphort&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2015,
+      "targetName": "Satellarknight",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Satellarknight 2015",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight+2015",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Satellarknight 2015",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight+2015&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Satellarknight 2015",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight+2015&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Satellarknight",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Satellarknight",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Satellarknight",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Satellarknight&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2015,
+      "targetName": "Shaddoll",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Shaddoll 2015",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll+2015",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Shaddoll 2015",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll+2015&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Shaddoll 2015",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll+2015&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Shaddoll",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Shaddoll",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Shaddoll",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Shaddoll&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2016,
+      "targetName": "Blue-Eyes",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Blue-Eyes 2016",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes+2016",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blue-Eyes 2016",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes+2016&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blue-Eyes 2016",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes+2016&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blue-Eyes",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blue-Eyes",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Blue-Eyes",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Blue-Eyes&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2016,
+      "targetName": "Burning Abyss",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Burning Abyss 2016",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss+2016",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burning Abyss 2016",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss+2016&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burning Abyss 2016",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss+2016&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burning Abyss",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burning Abyss",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Burning Abyss",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Burning+Abyss&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2016,
+      "targetName": "Kozmo",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Kozmo 2016",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo+2016",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Kozmo 2016",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo+2016&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Kozmo 2016",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo+2016&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Kozmo",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Kozmo",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Kozmo",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Kozmo&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    },
+    {
+      "year": 2016,
+      "targetName": "Monarch",
+      "fetchCount": 6,
+      "candidateCount": 0,
+      "relevantCandidateCount": 0,
+      "addedSourceCount": 0,
+      "addedSources": [],
+      "fetches": [
+        {
+          "query": "Monarch 2016",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2016",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch 2016",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2016&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch 2016",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch+2016&page=3",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 1,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 2,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch&page=2",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "query": "Monarch",
+          "page": 3,
+          "url": "https://www.yugiohtopdecks.org/decks/search?q=Monarch&page=3",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "topCandidates": []
+    }
+  ]
+}
