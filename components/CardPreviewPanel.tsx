@@ -1,9 +1,28 @@
+import { cardGameSources } from "../data/cardGameSources";
 import type { EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
   card: EnrichedDeckCard | null;
   onClose?: () => void;
 };
+
+function normalizeCardName(name: string) {
+  return name
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getReplacementSource(cardName: string) {
+  const sourceEntry = Object.entries(cardGameSources).find(
+    ([sourceCardName]) =>
+      normalizeCardName(sourceCardName) === normalizeCardName(cardName)
+  );
+
+  return sourceEntry?.[1];
+}
 
 function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
   if (!card) {
@@ -171,19 +190,53 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
               </p>
 
               <div className="mt-3 space-y-3">
-                {replacementInfo.suggestions.map((suggestion) => (
-                  <div
-                    key={suggestion.cardName}
-                    className="rounded-xl border border-slate-800 bg-slate-900 p-3"
-                  >
-                    <p className="font-semibold text-slate-200">
-                      {suggestion.cardName}
-                    </p>
-                    <p className="mt-2 text-sm text-slate-500">
-                      {suggestion.reason}
-                    </p>
-                  </div>
-                ))}
+                {replacementInfo.suggestions.map((suggestion) => {
+                  const sourceInfo = getReplacementSource(suggestion.cardName);
+                  const firstSource = sourceInfo?.sources?.[0];
+
+                  return (
+                    <div
+                      key={suggestion.cardName}
+                      className="rounded-xl border border-slate-800 bg-slate-900 p-3"
+                    >
+                      <p className="font-semibold text-slate-200">
+                        {suggestion.cardName}
+                      </p>
+
+                      {sourceInfo?.status === "available" && firstSource ? (
+                        <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
+                          <span className="rounded-full bg-emerald-500/10 px-2 py-1 text-emerald-300">
+                            Available
+                          </span>
+                          <span className="rounded-full bg-slate-800 px-2 py-1">
+                            {firstSource.packName}
+                          </span>
+                          {firstSource.cardCategory ? (
+                            <span className="rounded-full bg-slate-800 px-2 py-1">
+                              {firstSource.cardCategory}
+                            </span>
+                          ) : null}
+                        </div>
+                      ) : null}
+
+                      {sourceInfo?.status === "not-in-game" ? (
+                        <div className="mt-2 inline-flex rounded-full bg-amber-500/10 px-2 py-1 text-xs text-amber-300">
+                          Not in game
+                        </div>
+                      ) : null}
+
+                      {!sourceInfo ? (
+                        <div className="mt-2 inline-flex rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
+                          Source not mapped yet
+                        </div>
+                      ) : null}
+
+                      <p className="mt-2 text-sm text-slate-500">
+                        {suggestion.reason}
+                      </p>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           ) : null}
