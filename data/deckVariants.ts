@@ -11,12 +11,12 @@ export const deckVariants: DeckVariant[] = [
       {
         from: "Black Luster Soldier - Envoy of the Beginning",
         to: {
-          name: "Chaos Sorcerer",
+          name: "Dark Magician of Chaos",
           quantity: 1,
-          tags: ["boss monster", "banish", "light/dark payoff", "replacement"],
+          tags: ["boss monster", "spell recovery", "replacement"],
         },
         reason:
-          "Black Luster Soldier - Envoy of the Beginning is not available in this game. Chaos Sorcerer keeps the LIGHT/DARK Chaos theme and provides similar removal pressure.",
+          "Black Luster Soldier - Envoy of the Beginning is not available in this game. Dark Magician of Chaos keeps the role of a powerful late-game boss monster and is confirmed in the Yugi Muto/Yami pack.",
       },
     ],
   },
