@@ -21,6 +21,8 @@ const reportOutputFilePath = path.join(
   "deckSourceParsedCandidatesReport.json"
 );
 
+const parseableStatuses = new Set(["parseable", "unknown"]);
+
 const stopLinePatterns = [
   /^this is the deck/i,
   /^more$/i,
@@ -59,6 +61,11 @@ function isCardQuantityLine(line) {
 
 function isLikelyStopLine(line) {
   return stopLinePatterns.some((pattern) => pattern.test(line));
+}
+
+function shouldAttemptParse(source) {
+  const parseStatus = source.parseStatus ?? "unknown";
+  return parseableStatuses.has(parseStatus);
 }
 
 function normalizeCardNameForImport(cardName) {
@@ -216,12 +223,28 @@ function inferSections(candidateLines) {
   };
 }
 
+function formatDeckName(source) {
+  if (source.player && source.label) {
+    return `${source.deckType ?? source.target} ${source.label.replace(/^Top \d+\s+/i, "")}`;
+  }
+
+  return `${source.target} Candidate ${source.year}`;
+}
+
+function formatDeckStatus(source) {
+  if (source.status === "imported") {
+    return "complete";
+  }
+
+  return "draft";
+}
+
 function formatDeckBlock(source, sections) {
   const lines = [
-    `Deck: ${source.target} Candidate ${source.year}`,
+    `Deck: ${formatDeckName(source)}`,
     `Year: ${source.year}`,
     "Format: Imported Format",
-    "Status: draft",
+    `Status: ${formatDeckStatus(source)}`,
   ];
 
   if (source.label) {
@@ -279,6 +302,28 @@ function main() {
   const deckBlocks = [];
 
   successfulResults.forEach((result) => {
+    const parseStatus = result.source.parseStatus ?? "unknown";
+
+    if (!shouldAttemptParse(result.source)) {
+      candidateReports.push({
+        source: result.source,
+        textFile: result.textFile,
+        parseStatus,
+        skipped: true,
+        skipReason: `Source parseStatus is ${parseStatus}. Parser only attempts parseable or unknown sources.`,
+        candidateLineCount: 0,
+        totalCardCount: 0,
+        mainDeckCount: 0,
+        extraDeckCount: 0,
+        sideDeckCount: 0,
+        confidence: "skipped",
+        notes: "Source skipped before parsing.",
+        candidateLines: [],
+      });
+
+      return;
+    }
+
     const text = readTextFile(result.textFile);
     const candidateLines = extractCandidateLines(text);
     const sections = inferSections(candidateLines);
@@ -290,6 +335,9 @@ function main() {
     candidateReports.push({
       source: result.source,
       textFile: result.textFile,
+      parseStatus,
+      skipped: false,
+      skipReason: null,
       candidateLineCount: candidateLines.length,
       totalCardCount: countCards(candidateLines),
       mainDeckCount: countCards(sections.mainDeck),
@@ -310,6 +358,12 @@ function main() {
       {
         generatedAt: new Date().toISOString(),
         parsedSourceCount: candidateReports.length,
+        attemptedSourceCount: candidateReports.filter(
+          (candidate) => !candidate.skipped
+        ).length,
+        skippedSourceCount: candidateReports.filter(
+          (candidate) => candidate.skipped
+        ).length,
         candidateDeckCount: deckBlocks.length,
         candidates: candidateReports,
       },
@@ -323,12 +377,25 @@ function main() {
   console.log("Deck source candidate parser");
   console.log("----------------------------");
   console.log(`Parsed sources: ${candidateReports.length}`);
+  console.log(
+    `Attempted sources: ${candidateReports.filter((candidate) => !candidate.skipped).length}`
+  );
+  console.log(
+    `Skipped sources: ${candidateReports.filter((candidate) => candidate.skipped).length}`
+  );
   console.log(`Candidate decks found: ${deckBlocks.length}`);
 
   candidateReports.forEach((candidate, index) => {
     console.log("");
     console.log(`${index + 1}. ${candidate.source.year} ${candidate.source.target}`);
     console.log(`   Source: ${candidate.source.label}`);
+    console.log(`   Parse status: ${candidate.parseStatus}`);
+
+    if (candidate.skipped) {
+      console.log(`   Skipped: ${candidate.skipReason}`);
+      return;
+    }
+
     console.log(`   Candidate lines: ${candidate.candidateLineCount}`);
     console.log(`   Total cards: ${candidate.totalCardCount}`);
     console.log(`   Main Deck: ${candidate.mainDeckCount}`);

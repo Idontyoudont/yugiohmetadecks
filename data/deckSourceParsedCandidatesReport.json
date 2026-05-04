@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-05-04T18:12:00.955Z",
+  "generatedAt": "2026-05-04T18:17:54.286Z",
   "parsedSourceCount": 3,
+  "attemptedSourceCount": 1,
+  "skippedSourceCount": 2,
   "candidateDeckCount": 1,
   "candidates": [
     {
@@ -9,20 +11,24 @@
         "target": "Perfect Circle Monarch",
         "status": "source-registered",
         "sourceType": "format-reference",
+        "parseStatus": "blocked-or-empty",
         "label": "Format Library Perfect Circle Format",
         "player": null,
         "deckType": "Perfect Circle Monarch",
         "url": "https://formatlibrary.com/formats/perfect-circle",
-        "notes": "Format reference source. Useful for identifying the archetype and format context. May need a separate exact tournament decklist source before importing."
+        "notes": "Format reference source. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
       },
       "textFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
+      "parseStatus": "blocked-or-empty",
+      "skipped": true,
+      "skipReason": "Source parseStatus is blocked-or-empty. Parser only attempts parseable or unknown sources.",
       "candidateLineCount": 0,
       "totalCardCount": 0,
       "mainDeckCount": 0,
       "extraDeckCount": 0,
       "sideDeckCount": 0,
-      "confidence": "low",
-      "notes": "Fewer than 40 total cards were found, so all parsed lines were placed in Main Deck.",
+      "confidence": "skipped",
+      "notes": "Source skipped before parsing.",
       "candidateLines": []
     },
     {
@@ -31,20 +37,24 @@
         "target": "TeleDAD",
         "status": "source-registered",
         "sourceType": "event-archive",
+        "parseStatus": "blocked-or-empty",
         "label": "SJC Detroit 2008 Top 16",
         "player": "Steven Harris",
         "deckType": "TeleDAD",
         "url": "https://www.formatlibrary.com/events/SJCDET08",
-        "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Use as candidate source for importing a representative 2008 TeleDAD list."
+        "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
       },
       "textFile": "data\\deckSourcePages\\2008-teledad-steven-harris.txt",
+      "parseStatus": "blocked-or-empty",
+      "skipped": true,
+      "skipReason": "Source parseStatus is blocked-or-empty. Parser only attempts parseable or unknown sources.",
       "candidateLineCount": 0,
       "totalCardCount": 0,
       "mainDeckCount": 0,
       "extraDeckCount": 0,
       "sideDeckCount": 0,
-      "confidence": "low",
-      "notes": "Fewer than 40 total cards were found, so all parsed lines were placed in Main Deck.",
+      "confidence": "skipped",
+      "notes": "Source skipped before parsing.",
       "candidateLines": []
     },
     {
@@ -53,13 +63,17 @@
         "target": "Dragon Ruler",
         "status": "imported",
         "sourceType": "blog",
+        "parseStatus": "parseable",
         "label": "Top 16 YCS Turin 2013",
         "player": "Michele Bergamasco",
         "deckType": "Dragon Ruler",
         "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
-        "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+        "notes": "Already imported as Dragon Ruler YCS Turin 2013. Cached page parser can extract a valid candidate decklist from this source."
       },
       "textFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.txt",
+      "parseStatus": "parseable",
+      "skipped": false,
+      "skipReason": null,
       "candidateLineCount": 41,
       "totalCardCount": 71,
       "mainDeckCount": 41,

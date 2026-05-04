@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:06:52.285Z",
+  "generatedAt": "2026-05-04T18:17:50.945Z",
   "sourceCount": 6,
   "okCount": 3,
   "failedCount": 2,
@@ -11,6 +11,7 @@
         "target": "Goat Control",
         "status": "manual-existing",
         "sourceType": "manual",
+        "parseStatus": "reference-only",
         "label": "Existing app decklist",
         "player": null,
         "deckType": "Goat Control",
@@ -33,11 +34,12 @@
         "target": "Perfect Circle Monarch",
         "status": "source-registered",
         "sourceType": "format-reference",
+        "parseStatus": "blocked-or-empty",
         "label": "Format Library Perfect Circle Format",
         "player": null,
         "deckType": "Perfect Circle Monarch",
         "url": "https://formatlibrary.com/formats/perfect-circle",
-        "notes": "Format reference source. Useful for identifying the archetype and format context. May need a separate exact tournament decklist source before importing."
+        "notes": "Format reference source. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
       },
       "fetched": true,
       "ok": true,
@@ -55,11 +57,12 @@
         "target": "TeleDAD",
         "status": "source-registered",
         "sourceType": "event-archive",
+        "parseStatus": "blocked-or-empty",
         "label": "SJC Detroit 2008 Top 16",
         "player": "Steven Harris",
         "deckType": "TeleDAD",
         "url": "https://www.formatlibrary.com/events/SJCDET08",
-        "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Use as candidate source for importing a representative 2008 TeleDAD list."
+        "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
       },
       "fetched": true,
       "ok": true,
@@ -77,6 +80,7 @@
         "target": "Blackwing",
         "status": "source-registered",
         "sourceType": "official-event-coverage",
+        "parseStatus": "unknown",
         "label": "SJC Orlando 2009 Top 16 Decklists",
         "player": null,
         "deckType": "Blackwing",
@@ -99,6 +103,7 @@
         "target": "X-Saber",
         "status": "source-registered",
         "sourceType": "official-event-coverage",
+        "parseStatus": "unknown",
         "label": "Konami YCS X-Saber Deck Profile",
         "player": "Devin Clark",
         "deckType": "X-Saber",
@@ -121,11 +126,12 @@
         "target": "Dragon Ruler",
         "status": "imported",
         "sourceType": "blog",
+        "parseStatus": "parseable",
         "label": "Top 16 YCS Turin 2013",
         "player": "Michele Bergamasco",
         "deckType": "Dragon Ruler",
         "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
-        "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+        "notes": "Already imported as Dragon Ruler YCS Turin 2013. Cached page parser can extract a valid candidate decklist from this source."
       },
       "fetched": true,
       "ok": true,

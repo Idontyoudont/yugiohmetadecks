@@ -1,7 +1,7 @@
-Deck: Dragon Ruler Candidate 2013
+Deck: Dragon Ruler YCS Turin 2013
 Year: 2013
 Format: Imported Format
-Status: draft
+Status: complete
 Source: Top 16 YCS Turin 2013
 Player: Michele Bergamasco
 Deck Type: Dragon Ruler
