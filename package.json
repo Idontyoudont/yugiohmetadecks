@@ -20,6 +20,7 @@
     "sources:inspect": "node scripts/inspectDeckSourcePages.mjs",
     "sources:preview": "node scripts/previewDeckSourcePages.mjs",
     "sources:parse": "node scripts/parseDeckSourceCandidates.mjs",
+    "sources:append-new": "node scripts/appendParsedCandidatesToCollection.mjs",
     "sources:promote": "node scripts/promoteParsedCandidatesToImport.mjs",
 
     "reports": "node scripts/updateDeckReports.mjs",

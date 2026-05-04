@@ -39,7 +39,7 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2012,Inzektor,missing-source-and-deck,false,false,0,0,,
 2012,Chaos Dragon,missing-source-and-deck,false,false,0,0,,
 2012,Hero Beat,missing-source-and-deck,false,false,0,0,,
-2013,Dragon Ruler,imported,true,true,1,1,Top 16 YCS Turin 2013,Dragon Ruler
+2013,Dragon Ruler,imported,true,true,1,2,Top 16 YCS Turin 2013,Dragon Ruler | Dragon Ruler 2013
 2013,Spellbook,missing-source-and-deck,false,false,0,0,,
 2013,Mermail,missing-source-and-deck,false,false,0,0,,
 2013,Evilswarm,missing-source-and-deck,false,false,0,0,,
@@ -49,8 +49,8 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2014,Mermail,missing-source-and-deck,false,false,0,0,,
 2014,Fire Fist,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 1168,Fire Fist 2014
 2014,Bujin,missing-source-and-deck,false,false,0,0,,
-2015,Nekroz,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks deck 4520,
-2015,Burning Abyss,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks deck 4319,
+2015,Nekroz,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4520,Nekroz 2015
+2015,Burning Abyss,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4319,Burning Abyss 2015
 2015,Shaddoll,missing-source-and-deck,false,false,0,0,,
 2015,Qliphort,missing-source-and-deck,false,false,0,0,,
 2015,Satellarknight,missing-source-and-deck,false,false,0,0,,

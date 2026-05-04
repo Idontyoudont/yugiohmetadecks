@@ -3,7 +3,13 @@ import path from "path";
 
 const projectRoot = process.cwd();
 
-const inputFilePath = path.join(projectRoot, "data", "deckImportRaw.txt");
+const collectionInputFilePath = path.join(
+  projectRoot,
+  "data",
+  "deckImportCollection.txt"
+);
+
+const rawInputFilePath = path.join(projectRoot, "data", "deckImportRaw.txt");
 
 const outputFilePath = path.join(
   projectRoot,
@@ -180,11 +186,39 @@ function addCard(cards, cardToAdd) {
   });
 }
 
+function hasDeckBlocks(rawText) {
+  return /^Deck:\s+/m.test(rawText);
+}
+
+function readImportInput() {
+  const collectionText = fs.existsSync(collectionInputFilePath)
+    ? fs.readFileSync(collectionInputFilePath, "utf8")
+    : "";
+
+  if (hasDeckBlocks(collectionText)) {
+    return {
+      inputFilePath: collectionInputFilePath,
+      inputFileLabel: "data/deckImportCollection.txt",
+      rawText: collectionText,
+    };
+  }
+
+  const rawText = fs.existsSync(rawInputFilePath)
+    ? fs.readFileSync(rawInputFilePath, "utf8")
+    : "";
+
+  return {
+    inputFilePath: rawInputFilePath,
+    inputFileLabel: "data/deckImportRaw.txt",
+    rawText,
+  };
+}
+
 function splitRawTextIntoDeckBlocks(rawText) {
   return rawText
     .split(/\n\s*---\s*\n/g)
     .map((block) => block.trim())
-    .filter(Boolean);
+    .filter((block) => /^Deck:\s+/m.test(block));
 }
 
 function cleanSource(source) {
@@ -564,7 +598,7 @@ function buildDeckWarnings(deck) {
   return warnings;
 }
 
-function buildReport(decks) {
+function buildReport(decks, inputInfo) {
   const renamedDuplicateDecks = getRenamedDuplicateDecks(decks);
 
   const deckReports = decks.map((deck) => {
@@ -610,7 +644,8 @@ function buildReport(decks) {
 
   return {
     generatedAt: new Date().toISOString(),
-    inputFile: "data/deckImportRaw.txt",
+    inputFile: inputInfo.inputFileLabel,
+    fallbackInputFile: "data/deckImportRaw.txt",
     outputFile: "data/importedDecks.generated.ts",
     tagRulesFile: "data/cardTagRules.ts",
     automaticTagRuleCount: automaticTagRules.size,
@@ -628,6 +663,7 @@ function printReport(report) {
   console.log("");
   console.log("Deck import report");
   console.log("------------------");
+  console.log(`Input file: ${report.inputFile}`);
   console.log(`Imported decks: ${report.deckCount}`);
   console.log(`Total warnings: ${report.totalWarningCount}`);
   console.log(`Automatic tag rules: ${report.automaticTagRuleCount}`);
@@ -691,16 +727,11 @@ function printReport(report) {
 }
 
 function main() {
-  if (!fs.existsSync(inputFilePath)) {
-    console.error(`Input file not found: ${inputFilePath}`);
-    process.exit(1);
-  }
-
-  const rawText = fs.readFileSync(inputFilePath, "utf8");
-  const parsedDecks = parseDecklists(rawText);
+  const inputInfo = readImportInput();
+  const parsedDecks = parseDecklists(inputInfo.rawText);
   const decks = assignUniqueDeckIds(parsedDecks);
   const output = generateTypeScript(decks);
-  const report = buildReport(decks);
+  const report = buildReport(decks, inputInfo);
 
   fs.writeFileSync(outputFilePath, output, "utf8");
   fs.writeFileSync(reportOutputFilePath, JSON.stringify(report, null, 2), "utf8");
@@ -710,7 +741,9 @@ function main() {
   if (decks.length === 0) {
     console.log("");
     console.log("No decks were imported.");
-    console.log("Make sure data/deckImportRaw.txt contains at least one deck block.");
+    console.log(
+      "Make sure data/deckImportCollection.txt or data/deckImportRaw.txt contains at least one deck block."
+    );
   }
 }
 

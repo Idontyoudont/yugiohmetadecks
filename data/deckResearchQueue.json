@@ -2178,50 +2178,6 @@
     }
   },
   {
-    "id": "2015-burning-abyss",
-    "year": 2015,
-    "targetName": "Burning Abyss",
-    "populationStatus": "source-registered",
-    "priority": 2,
-    "sourceCount": 1,
-    "deckCount": 0,
-    "searchQueries": [
-      "2015 Burning Abyss yugioh decklist",
-      "2015 Burning Abyss YCS deck profile",
-      "2015 Burning Abyss yugioh top deck",
-      "Burning Abyss 2015 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Burning%20Abyss%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Burning%20Abyss"
-    }
-  },
-  {
-    "id": "2015-nekroz",
-    "year": 2015,
-    "targetName": "Nekroz",
-    "populationStatus": "source-registered",
-    "priority": 2,
-    "sourceCount": 1,
-    "deckCount": 0,
-    "searchQueries": [
-      "2015 Nekroz yugioh decklist",
-      "2015 Nekroz YCS deck profile",
-      "2015 Nekroz yugioh top deck",
-      "Nekroz 2015 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2015%20Nekroz%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Nekroz%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Nekroz"
-    }
-  },
-  {
     "id": "2016-performapal-performage",
     "year": 2016,
     "targetName": "Performapal Performage",

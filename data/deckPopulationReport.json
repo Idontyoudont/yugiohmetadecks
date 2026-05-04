@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-04T18:55:21.190Z",
+  "generatedAt": "2026-05-04T19:03:20.906Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "importedCount": 3,
-  "sourceRegisteredCount": 7,
+  "importedCount": 5,
+  "sourceRegisteredCount": 5,
   "deckWithoutRegisteredSourceCount": 0,
   "missingCount": 95,
   "years": [
@@ -628,7 +628,7 @@
           "hasSource": true,
           "hasDeck": true,
           "sourceCount": 1,
-          "deckCount": 1,
+          "deckCount": 2,
           "sources": [
             {
               "year": 2013,
@@ -651,6 +651,14 @@
               "format": "TCG Advanced",
               "status": "sample",
               "sourceType": "manual"
+            },
+            {
+              "id": "dragon-ruler-2013",
+              "name": "Dragon Ruler 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "complete",
+              "sourceType": "imported"
             }
           ]
         },
@@ -792,19 +800,19 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "targetCount": 5,
-      "importedCount": 0,
-      "sourceRegisteredCount": 2,
+      "importedCount": 2,
+      "sourceRegisteredCount": 0,
       "deckWithoutRegisteredSourceCount": 0,
       "missingCount": 3,
       "targets": [
         {
           "year": 2015,
           "targetName": "Nekroz",
-          "status": "source-registered",
+          "status": "imported",
           "hasSource": true,
-          "hasDeck": false,
+          "hasDeck": true,
           "sourceCount": 1,
-          "deckCount": 0,
+          "deckCount": 1,
           "sources": [
             {
               "year": 2015,
@@ -819,16 +827,25 @@
               "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
             }
           ],
-          "decks": []
+          "decks": [
+            {
+              "id": "nekroz-2015",
+              "name": "Nekroz 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "year": 2015,
           "targetName": "Burning Abyss",
-          "status": "source-registered",
+          "status": "imported",
           "hasSource": true,
-          "hasDeck": false,
+          "hasDeck": true,
           "sourceCount": 1,
-          "deckCount": 0,
+          "deckCount": 1,
           "sources": [
             {
               "year": 2015,
@@ -843,7 +860,16 @@
               "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
             }
           ],
-          "decks": []
+          "decks": [
+            {
+              "id": "burning-abyss-2015",
+              "name": "Burning Abyss 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "year": 2015,

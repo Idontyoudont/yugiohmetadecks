@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T18:55:14.237Z",
+  "generatedAt": "2026-05-04T19:03:13.988Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 3,
-  "missingTargetSlots": 102,
-  "totalKnownDecks": 3,
+  "filledTargetSlots": 5,
+  "missingTargetSlots": 100,
+  "totalKnownDecks": 8,
   "years": [
     {
       "year": 2005,
@@ -111,9 +111,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -142,7 +142,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "monarch-2007",
+          "name": "Monarch 2007",
+          "year": 2007,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2008,
@@ -345,8 +354,8 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
-      "knownDeckCount": 1,
-      "completeDeckCount": 0,
+      "knownDeckCount": 2,
+      "completeDeckCount": 1,
       "draftDeckCount": 0,
       "sampleDeckCount": 1,
       "targets": [
@@ -361,6 +370,14 @@
               "format": "TCG Advanced",
               "status": "sample",
               "sourceType": "manual"
+            },
+            {
+              "id": "dragon-ruler-2013",
+              "name": "Dragon Ruler 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "complete",
+              "sourceType": "imported"
             }
           ]
         },
@@ -393,6 +410,14 @@
           "format": "TCG Advanced",
           "status": "sample",
           "sourceType": "manual"
+        },
+        {
+          "id": "dragon-ruler-2013",
+          "name": "Dragon Ruler 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "complete",
+          "sourceType": "imported"
         }
       ]
     },
@@ -457,22 +482,40 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 2,
+      "missingTargetCount": 3,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
           "targetName": "Nekroz",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "nekroz-2015",
+              "name": "Nekroz 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Burning Abyss",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "burning-abyss-2015",
+              "name": "Burning Abyss 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Shaddoll",
@@ -490,7 +533,24 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "burning-abyss-2015",
+          "name": "Burning Abyss 2015",
+          "year": 2015,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "nekroz-2015",
+          "name": "Nekroz 2015",
+          "year": 2015,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2016,
@@ -498,9 +558,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -529,7 +589,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "performapal-2016",
+          "name": "Performapal 2016",
+          "year": 2016,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2017,
