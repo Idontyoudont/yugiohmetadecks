@@ -3,26 +3,215 @@
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "years": [
-    { "year": 2005, "targets": ["Goat Control"] },
-    { "year": 2006, "targets": [] },
-    { "year": 2007, "targets": [] },
-    { "year": 2008, "targets": [] },
-    { "year": 2009, "targets": [] },
-    { "year": 2010, "targets": [] },
-    { "year": 2011, "targets": [] },
-    { "year": 2012, "targets": [] },
-    { "year": 2013, "targets": ["Dragon Ruler"] },
-    { "year": 2014, "targets": [] },
-    { "year": 2015, "targets": [] },
-    { "year": 2016, "targets": [] },
-    { "year": 2017, "targets": [] },
-    { "year": 2018, "targets": [] },
-    { "year": 2019, "targets": [] },
-    { "year": 2020, "targets": [] },
-    { "year": 2021, "targets": [] },
-    { "year": 2022, "targets": [] },
-    { "year": 2023, "targets": [] },
-    { "year": 2024, "targets": [] },
-    { "year": 2025, "targets": [] }
+    {
+      "year": 2005,
+      "targets": [
+        "Goat Control",
+        "Chaos Turbo",
+        "Warrior Toolbox",
+        "Reasoning Gate",
+        "Burn"
+      ]
+    },
+    {
+      "year": 2006,
+      "targets": [
+        "Chaos Return",
+        "Monarch",
+        "Recruiter Chaos",
+        "Gadget",
+        "Bazoo Return"
+      ]
+    },
+    {
+      "year": 2007,
+      "targets": [
+        "Perfect Circle Monarch",
+        "Demise OTK",
+        "Gadget",
+        "Zombie",
+        "Crystal Beast"
+      ]
+    },
+    {
+      "year": 2008,
+      "targets": [
+        "TeleDAD",
+        "Gladiator Beast",
+        "Lightsworn",
+        "Dark Armed Return",
+        "Zombie Synchro"
+      ]
+    },
+    {
+      "year": 2009,
+      "targets": [
+        "Blackwing",
+        "Lightsworn",
+        "Cat Synchro",
+        "Gladiator Beast",
+        "Twilight"
+      ]
+    },
+    {
+      "year": 2010,
+      "targets": [
+        "Blackwing",
+        "X-Saber",
+        "Frog Monarch",
+        "Quickdraw Dandywarrior",
+        "Infernity"
+      ]
+    },
+    {
+      "year": 2011,
+      "targets": [
+        "Plant Synchro",
+        "Tengu Plant",
+        "Agents",
+        "Six Samurai",
+        "Gravekeeper"
+      ]
+    },
+    {
+      "year": 2012,
+      "targets": [
+        "Wind-Up",
+        "Dino Rabbit",
+        "Inzektor",
+        "Chaos Dragon",
+        "Hero Beat"
+      ]
+    },
+    {
+      "year": 2013,
+      "targets": [
+        "Dragon Ruler",
+        "Spellbook",
+        "Mermail",
+        "Evilswarm",
+        "Fire Fist"
+      ]
+    },
+    {
+      "year": 2014,
+      "targets": [
+        "HAT",
+        "Geargia",
+        "Mermail",
+        "Fire Fist",
+        "Bujin"
+      ]
+    },
+    {
+      "year": 2015,
+      "targets": [
+        "Nekroz",
+        "Burning Abyss",
+        "Shaddoll",
+        "Qliphort",
+        "Satellarknight"
+      ]
+    },
+    {
+      "year": 2016,
+      "targets": [
+        "Performapal Performage",
+        "Monarch",
+        "Kozmo",
+        "Burning Abyss",
+        "Blue-Eyes"
+      ]
+    },
+    {
+      "year": 2017,
+      "targets": [
+        "Zoodiac",
+        "True Draco",
+        "SPYRAL",
+        "Pendulum Magician",
+        "Dinosaur"
+      ]
+    },
+    {
+      "year": 2018,
+      "targets": [
+        "Sky Striker",
+        "Gouki",
+        "Trickstar",
+        "Altergeist",
+        "Thunder Dragon"
+      ]
+    },
+    {
+      "year": 2019,
+      "targets": [
+        "Sky Striker",
+        "Orcust",
+        "Salamangreat",
+        "Thunder Dragon",
+        "Subterror"
+      ]
+    },
+    {
+      "year": 2020,
+      "targets": [
+        "Adamancipator",
+        "Eldlich",
+        "Dragon Link",
+        "Dogmatika Invoked",
+        "Virtual World"
+      ]
+    },
+    {
+      "year": 2021,
+      "targets": [
+        "Tri-Brigade",
+        "Drytron",
+        "Virtual World",
+        "Prank-Kids",
+        "Dragon Link"
+      ]
+    },
+    {
+      "year": 2022,
+      "targets": [
+        "Branded Despia",
+        "Swordsoul",
+        "Floowandereeze",
+        "Tearlaments",
+        "Spright"
+      ]
+    },
+    {
+      "year": 2023,
+      "targets": [
+        "Kashtira",
+        "Purrely",
+        "Labrynth",
+        "Mathmech",
+        "Branded"
+      ]
+    },
+    {
+      "year": 2024,
+      "targets": [
+        "Snake-Eye",
+        "Tenpai Dragon",
+        "Voiceless Voice",
+        "Yubel",
+        "Labrynth"
+      ]
+    },
+    {
+      "year": 2025,
+      "targets": [
+        "Ryzeal",
+        "Maliss",
+        "Snake-Eye",
+        "Fiendsmith",
+        "Memento"
+      ]
+    }
   ]
 }

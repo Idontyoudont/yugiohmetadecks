@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T15:17:16.865Z",
+  "generatedAt": "2026-05-04T15:18:40.448Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
@@ -12,7 +12,7 @@
     {
       "year": 2005,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 1,
+      "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
       "knownDeckCount": 1,
@@ -33,6 +33,26 @@
               "sourceType": "manual"
             }
           ]
+        },
+        {
+          "targetName": "Chaos Turbo",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Warrior Toolbox",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Reasoning Gate",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Burn",
+          "matched": false,
+          "matchingDecks": []
         }
       ],
       "knownDecks": [
@@ -49,98 +69,280 @@
     {
       "year": 2006,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Chaos Return",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Monarch",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Recruiter Chaos",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gadget",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Bazoo Return",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2007,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Perfect Circle Monarch",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Demise OTK",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gadget",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Zombie",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Crystal Beast",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2008,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "TeleDAD",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gladiator Beast",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Lightsworn",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dark Armed Return",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Zombie Synchro",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2009,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Blackwing",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Lightsworn",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Cat Synchro",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gladiator Beast",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Twilight",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2010,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Blackwing",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "X-Saber",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Frog Monarch",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Quickdraw Dandywarrior",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Infernity",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2011,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Plant Synchro",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Tengu Plant",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Agents",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Six Samurai",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gravekeeper",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2012,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Wind-Up",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dino Rabbit",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Inzektor",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Chaos Dragon",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Hero Beat",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2013,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 1,
+      "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
       "knownDeckCount": 2,
@@ -169,6 +371,26 @@
               "sourceType": "imported"
             }
           ]
+        },
+        {
+          "targetName": "Spellbook",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Mermail",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Evilswarm",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Fire Fist",
+          "matched": false,
+          "matchingDecks": []
         }
       ],
       "knownDecks": [
@@ -193,157 +415,469 @@
     {
       "year": 2014,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "HAT",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Geargia",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Mermail",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Fire Fist",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Bujin",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2015,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Nekroz",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Burning Abyss",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Shaddoll",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Qliphort",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Satellarknight",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2016,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Performapal Performage",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Monarch",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Kozmo",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Burning Abyss",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Blue-Eyes",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2017,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Zoodiac",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "True Draco",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "SPYRAL",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Pendulum Magician",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dinosaur",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2018,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Sky Striker",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Gouki",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Trickstar",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Altergeist",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Thunder Dragon",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2019,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Sky Striker",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Orcust",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Salamangreat",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Thunder Dragon",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Subterror",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2020,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Adamancipator",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Eldlich",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dragon Link",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dogmatika Invoked",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Virtual World",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2021,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Tri-Brigade",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Drytron",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Virtual World",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Prank-Kids",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Dragon Link",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2022,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Branded Despia",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Swordsoul",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Floowandereeze",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Tearlaments",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Spright",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2023,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Kashtira",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Purrely",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Labrynth",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Mathmech",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Branded",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2024,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Snake-Eye",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Tenpai Dragon",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Voiceless Voice",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Yubel",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Labrynth",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     },
     {
       "year": 2025,
       "targetDecksPerYear": 5,
-      "configuredTargetCount": 0,
+      "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
       "knownDeckCount": 0,
       "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 0,
-      "targets": [],
+      "targets": [
+        {
+          "targetName": "Ryzeal",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Maliss",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Snake-Eye",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Fiendsmith",
+          "matched": false,
+          "matchingDecks": []
+        },
+        {
+          "targetName": "Memento",
+          "matched": false,
+          "matchingDecks": []
+        }
+      ],
       "knownDecks": []
     }
   ]
