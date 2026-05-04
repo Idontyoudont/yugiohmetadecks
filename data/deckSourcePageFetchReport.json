@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:47:13.507Z",
+  "generatedAt": "2026-05-04T18:51:37.238Z",
   "sourceCount": 7,
   "okCount": 4,
   "failedCount": 2,
@@ -162,7 +162,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.html",
       "textFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.txt",
-      "htmlBytes": 26669,
+      "htmlBytes": 26660,
       "textBytes": 11676,
       "error": null
     }

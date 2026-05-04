@@ -39,7 +39,7 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2012,Inzektor,missing-source-and-deck,false,false,0,0,,
 2012,Chaos Dragon,missing-source-and-deck,false,false,0,0,,
 2012,Hero Beat,missing-source-and-deck,false,false,0,0,,
-2013,Dragon Ruler,imported,true,true,1,2,Top 16 YCS Turin 2013,Dragon Ruler | Dragon Ruler YCS Turin 2013
+2013,Dragon Ruler,imported,true,true,1,1,Top 16 YCS Turin 2013,Dragon Ruler
 2013,Spellbook,missing-source-and-deck,false,false,0,0,,
 2013,Mermail,missing-source-and-deck,false,false,0,0,,
 2013,Evilswarm,missing-source-and-deck,false,false,0,0,,
@@ -47,7 +47,7 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2014,HAT,missing-source-and-deck,false,false,0,0,,
 2014,Geargia,missing-source-and-deck,false,false,0,0,,
 2014,Mermail,missing-source-and-deck,false,false,0,0,,
-2014,Fire Fist,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks deck 1168,
+2014,Fire Fist,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 1168,Fire Fist 2014
 2014,Bujin,missing-source-and-deck,false,false,0,0,,
 2015,Nekroz,missing-source-and-deck,false,false,0,0,,
 2015,Burning Abyss,missing-source-and-deck,false,false,0,0,,

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-04T18:44:15.480Z",
+  "generatedAt": "2026-05-04T18:51:37.330Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "importedCount": 2,
-  "sourceRegisteredCount": 5,
+  "importedCount": 3,
+  "sourceRegisteredCount": 4,
   "deckWithoutRegisteredSourceCount": 0,
   "missingCount": 98,
   "years": [
@@ -628,7 +628,7 @@
           "hasSource": true,
           "hasDeck": true,
           "sourceCount": 1,
-          "deckCount": 2,
+          "deckCount": 1,
           "sources": [
             {
               "year": 2013,
@@ -651,14 +651,6 @@
               "format": "TCG Advanced",
               "status": "sample",
               "sourceType": "manual"
-            },
-            {
-              "id": "dragon-ruler-ycs-turin-2013",
-              "name": "Dragon Ruler YCS Turin 2013",
-              "year": 2013,
-              "format": "TCG Advanced",
-              "status": "complete",
-              "sourceType": "imported"
             }
           ]
         },
@@ -712,8 +704,8 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "targetCount": 5,
-      "importedCount": 0,
-      "sourceRegisteredCount": 1,
+      "importedCount": 1,
+      "sourceRegisteredCount": 0,
       "deckWithoutRegisteredSourceCount": 0,
       "missingCount": 4,
       "targets": [
@@ -753,11 +745,11 @@
         {
           "year": 2014,
           "targetName": "Fire Fist",
-          "status": "source-registered",
+          "status": "imported",
           "hasSource": true,
-          "hasDeck": false,
+          "hasDeck": true,
           "sourceCount": 1,
-          "deckCount": 0,
+          "deckCount": 1,
           "sources": [
             {
               "year": 2014,
@@ -772,7 +764,16 @@
               "notes": "Yu-Gi-Oh! Top Decks source with explicit Main Deck, Extra Deck, and Side Deck sections. Parser successfully extracts a 40-card Main Deck, 15-card Extra Deck, and 15-card Side Deck."
             }
           ],
-          "decks": []
+          "decks": [
+            {
+              "id": "fire-fist-2014",
+              "name": "Fire Fist 2014",
+              "year": 2014,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "year": 2014,

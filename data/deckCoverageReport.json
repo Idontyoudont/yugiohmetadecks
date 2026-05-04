@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-04T18:44:10.327Z",
+  "generatedAt": "2026-05-04T18:51:31.912Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 2,
-  "missingTargetSlots": 103,
+  "filledTargetSlots": 3,
+  "missingTargetSlots": 102,
   "totalKnownDecks": 3,
   "years": [
     {
@@ -345,8 +345,8 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
-      "knownDeckCount": 2,
-      "completeDeckCount": 1,
+      "knownDeckCount": 1,
+      "completeDeckCount": 0,
       "draftDeckCount": 0,
       "sampleDeckCount": 1,
       "targets": [
@@ -361,14 +361,6 @@
               "format": "TCG Advanced",
               "status": "sample",
               "sourceType": "manual"
-            },
-            {
-              "id": "dragon-ruler-ycs-turin-2013",
-              "name": "Dragon Ruler YCS Turin 2013",
-              "year": 2013,
-              "format": "TCG Advanced",
-              "status": "complete",
-              "sourceType": "imported"
             }
           ]
         },
@@ -401,14 +393,6 @@
           "format": "TCG Advanced",
           "status": "sample",
           "sourceType": "manual"
-        },
-        {
-          "id": "dragon-ruler-ycs-turin-2013",
-          "name": "Dragon Ruler YCS Turin 2013",
-          "year": 2013,
-          "format": "TCG Advanced",
-          "status": "complete",
-          "sourceType": "imported"
         }
       ]
     },
@@ -416,11 +400,11 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -440,8 +424,17 @@
         },
         {
           "targetName": "Fire Fist",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "fire-fist-2014",
+              "name": "Fire Fist 2014",
+              "year": 2014,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Bujin",
@@ -449,7 +442,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "fire-fist-2014",
+          "name": "Fire Fist 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2015,
