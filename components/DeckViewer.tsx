@@ -6,6 +6,7 @@ import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckFilters } from "./DeckFilters";
 import { DeckSidebar } from "./DeckSidebar";
 import { DeckStats } from "./DeckStats";
+import { DeckValidation } from "./DeckValidation";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
 import type { Deck, EnrichedDeckCard } from "../types/deck";
 
@@ -103,6 +104,12 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             mainDeck={filteredMainDeck}
             extraDeck={filteredExtraDeck}
             sideDeck={filteredSideDeck}
+          />
+
+          <DeckValidation
+            mainDeck={enrichedMainDeck}
+            extraDeck={enrichedExtraDeck}
+            sideDeck={enrichedSideDeck}
           />
         </div>
 
