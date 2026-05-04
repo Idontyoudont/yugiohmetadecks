@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-04T19:30:13.786Z",
+  "generatedAt": "2026-05-04T19:38:19.162Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "importedCount": 25,
-  "sourceRegisteredCount": 11,
+  "importedCount": 27,
+  "sourceRegisteredCount": 13,
   "deckWithoutRegisteredSourceCount": 0,
-  "missingCount": 69,
+  "missingCount": 65,
   "years": [
     {
       "year": 2005,
@@ -212,10 +212,10 @@
       "year": 2007,
       "targetDecksPerYear": 5,
       "targetCount": 5,
-      "importedCount": 0,
+      "importedCount": 1,
       "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 4,
+      "missingCount": 3,
       "targets": [
         {
           "year": 2007,
@@ -255,13 +255,47 @@
         {
           "year": 2007,
           "targetName": "Gadget",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
-          "hasDeck": false,
-          "sourceCount": 0,
-          "deckCount": 0,
-          "sources": [],
-          "decks": []
+          "status": "imported",
+          "hasSource": true,
+          "hasDeck": true,
+          "sourceCount": 2,
+          "deckCount": 1,
+          "sources": [
+            {
+              "year": 2007,
+              "target": "Gadget",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
+              "player": "Christopher Gonzalez",
+              "deckType": "Gadget",
+              "url": "https://www.yugiohtopdecks.org/deck/483",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2007,
+              "target": "Gadget",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 570 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
+              "player": "Angelo Mendoza",
+              "deckType": "Gadget",
+              "url": "https://www.yugiohtopdecks.org/deck/570",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ],
+          "decks": [
+            {
+              "id": "gadget-2007",
+              "name": "Gadget 2007",
+              "year": 2007,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "year": 2007,
@@ -719,7 +753,7 @@
           "status": "source-registered",
           "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 3,
+          "sourceCount": 6,
           "deckCount": 0,
           "sources": [
             {
@@ -744,6 +778,42 @@
               "player": "Kevin J. Jiles",
               "deckType": "Monarch",
               "url": "https://www.yugiohtopdecks.org/deck/166",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 331 - YGO $10K Championship - Indianapolis (Oct 2014) - Oct 2014",
+              "player": "Caleb Cosby",
+              "deckType": "Monarch",
+              "url": "https://www.yugiohtopdecks.org/deck/331",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 582 - YCS - San Diego California (Apr 2013) - Apr 2013",
+              "player": "Austyn Ruoff",
+              "deckType": "Frog",
+              "url": "https://www.yugiohtopdecks.org/deck/582",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 609 - YCS - Austin Texas (Mar 2013) - Mar 2013",
+              "player": "Alexander Joseph Chavira",
+              "deckType": "Frog",
+              "url": "https://www.yugiohtopdecks.org/deck/609",
               "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
             },
             {
@@ -812,19 +882,44 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 2,
-      "sourceRegisteredCount": 1,
+      "sourceRegisteredCount": 2,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 2,
+      "missingCount": 1,
       "targets": [
         {
           "year": 2011,
           "targetName": "Plant Synchro",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 2,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2011,
+              "target": "Plant Synchro",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
+              "player": "Adam Hutchins",
+              "deckType": "Plant",
+              "url": "https://www.yugiohtopdecks.org/deck/432",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2011,
+              "target": "Plant Synchro",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
+              "player": "Patrick Hoban",
+              "deckType": "Synchro",
+              "url": "https://www.yugiohtopdecks.org/deck/562",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ],
           "decks": []
         },
         {
@@ -1176,7 +1271,7 @@
           "status": "source-registered",
           "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 1,
+          "sourceCount": 29,
           "deckCount": 0,
           "sources": [
             {
@@ -1190,6 +1285,342 @@
               "deckType": "Dragon",
               "url": "https://www.yugiohtopdecks.org/deck/119",
               "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 284 - YGO Open Atlanta (May 2014) - May 2014",
+              "player": "Desmond Johnson",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/284",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 296 - YGO Open Atlanta (May 2014) - May 2014",
+              "player": "Cody Burns",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/296",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 628 - YCS - Turin Italy (Dec 2013) - Dec 2013",
+              "player": "Joshua Schmidt",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/628",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 630 - YCS - Turin Italy (Dec 2013) - Dec 2013",
+              "player": "Alpay Engin",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/630",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 632 - YCS - Turin Italy (Dec 2013) - Dec 2013",
+              "player": "Michel Gruner",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/632",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 635 - YCS - Turin Italy (Dec 2013) - Dec 2013",
+              "player": "Michele Bergamasco",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/635",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 637 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Patrick Rieder",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/637",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 638 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Alpay Engin",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/638",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 639 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Joshua Schmidt",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/639",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 640 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Michel Gruner",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/640",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 642 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Vagelis Ferkos",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/642",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 643 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Jake McGee",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/643",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 645 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Luke Smythe",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/645",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 647 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Ido Marcus",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/647",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 648 - YCS - London England (Oct 2013) - Oct 2013",
+              "player": "Aaron Henman",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/648",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 653 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Merlin Schumacher",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/653",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 654 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Xue Hao Hu",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/654",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 655 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Billy Brake",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/655",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 658 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Clayton Arvizu",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/658",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 661 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Sean Nguyen",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/661",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 665 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Ed Acepcion",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/665",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 666 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Jovanny Castillo",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/666",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 669 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Antonio Gonzalez",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/669",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 670 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Alexander Juneja",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/670",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 672 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Mario Ramos",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/672",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 675 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Scott Page",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/675",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 676 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Josh Graham",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/676",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Chaos Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 677 - YCS - San Mateo California (Oct 2013) - Oct 2013",
+              "player": "Pete Navarro",
+              "deckType": "Dragon",
+              "url": "https://www.yugiohtopdecks.org/deck/677",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
             }
           ],
           "decks": []
@@ -1200,7 +1631,7 @@
           "status": "source-registered",
           "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 1,
+          "sourceCount": 3,
           "deckCount": 0,
           "sources": [
             {
@@ -1213,6 +1644,30 @@
               "player": "Cameron Macdonald",
               "deckType": "HERO",
               "url": "https://www.yugiohtopdecks.org/deck/187",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Hero Beat",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013",
+              "player": "Justin Osbien Franklin",
+              "deckType": "Elemental",
+              "url": "https://www.yugiohtopdecks.org/deck/613",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Hero Beat",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 624 - YCS - Austin Texas (Mar 2013) - Mar 2013",
+              "player": "William Isely",
+              "deckType": "Elemental",
+              "url": "https://www.yugiohtopdecks.org/deck/624",
               "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
             }
           ],
@@ -1719,7 +2174,7 @@
           "status": "source-registered",
           "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 5,
+          "sourceCount": 7,
           "deckCount": 0,
           "sources": [
             {
@@ -1756,6 +2211,30 @@
               "player": "Michael Romero",
               "deckType": "Traptrix",
               "url": "https://www.yugiohtopdecks.org/deck/221",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Jonhathan Sebastian Vazquez Herrera",
+              "deckType": "Shaddoll",
+              "url": "https://www.yugiohtopdecks.org/deck/366",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "HAT",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 455 - YCS - Las Vegas (Apr 2014) - Apr 2014",
+              "player": "Jonhathan Sebastian Vazquez Herrera",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/455",
               "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
             },
             {
@@ -2055,10 +2534,10 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "targetCount": 5,
-      "importedCount": 4,
+      "importedCount": 5,
       "sourceRegisteredCount": 0,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 1,
+      "missingCount": 0,
       "targets": [
         {
           "year": 2015,
@@ -2210,13 +2689,143 @@
         {
           "year": 2015,
           "targetName": "Qliphort",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
-          "hasDeck": false,
-          "sourceCount": 0,
-          "deckCount": 0,
-          "sources": [],
-          "decks": []
+          "status": "imported",
+          "hasSource": true,
+          "hasDeck": true,
+          "sourceCount": 10,
+          "deckCount": 1,
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
+              "player": "Oleksandr Atamanenko",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/333",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 339 - YCS - Sydney Australia (Dec 2014) - Dec 2014",
+              "player": "Robin Sum",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/339",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 346 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Rosty Elkun",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/346",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 348 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Justin Rodriguez",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/348",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 351 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Yuki Zaninovich",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/351",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 354 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Joe Vesia",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/354",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 357 - YCS - Anaheim California (Dec 2014) - Dec 2014",
+              "player": "Michael Andrew Perrelli",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/357",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 363 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Arnold Alvarado",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/363",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 364 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Jovanny Castillo",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/364",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2015,
+              "target": "Qliphort",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 367 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+              "player": "Clay Hill",
+              "deckType": "Qliphort",
+              "url": "https://www.yugiohtopdecks.org/deck/367",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ],
+          "decks": [
+            {
+              "id": "qliphort-2015",
+              "name": "Qliphort 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "year": 2015,
@@ -2528,9 +3137,9 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2019,
@@ -2568,12 +3177,25 @@
         {
           "year": 2019,
           "targetName": "Thunder Dragon",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2019,
+              "target": "Thunder Dragon",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 545 - YCS - Sydney Australia (Jan 2014) - Jan 2014",
+              "player": "Tom Kralj",
+              "deckType": "Thunder",
+              "url": "https://www.yugiohtopdecks.org/deck/545",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ],
           "decks": []
         },
         {

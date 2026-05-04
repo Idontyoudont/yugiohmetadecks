@@ -198,28 +198,6 @@
     }
   },
   {
-    "id": "2007-gadget",
-    "year": 2007,
-    "targetName": "Gadget",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2007 Gadget yugioh decklist",
-      "2007 Gadget YCS deck profile",
-      "2007 Gadget yugioh top deck",
-      "Gadget 2007 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2007%20Gadget%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Gadget"
-    }
-  },
-  {
     "id": "2007-zombie",
     "year": 2007,
     "targetName": "Zombie",
@@ -418,28 +396,6 @@
     }
   },
   {
-    "id": "2011-plant-synchro",
-    "year": 2011,
-    "targetName": "Plant Synchro",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2011 Plant Synchro yugioh decklist",
-      "2011 Plant Synchro YCS deck profile",
-      "2011 Plant Synchro yugioh top deck",
-      "Plant Synchro 2011 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Plant%20Synchro"
-    }
-  },
-  {
     "id": "2011-tengu-plant",
     "year": 2011,
     "targetName": "Tengu Plant",
@@ -459,28 +415,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Tengu%20Plant"
-    }
-  },
-  {
-    "id": "2015-qliphort",
-    "year": 2015,
-    "targetName": "Qliphort",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2015 Qliphort yugioh decklist",
-      "2015 Qliphort YCS deck profile",
-      "2015 Qliphort yugioh top deck",
-      "Qliphort 2015 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2015%20Qliphort%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2015%20Qliphort%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2015%20Qliphort"
     }
   },
   {
@@ -833,28 +767,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Subterror%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2019%20Subterror%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Subterror"
-    }
-  },
-  {
-    "id": "2019-thunder-dragon",
-    "year": 2019,
-    "targetName": "Thunder Dragon",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2019 Thunder Dragon yugioh decklist",
-      "2019 Thunder Dragon YCS deck profile",
-      "2019 Thunder Dragon yugioh top deck",
-      "Thunder Dragon 2019 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Thunder%20Dragon"
     }
   },
   {
@@ -1589,7 +1501,7 @@
     "targetName": "Frog Monarch",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 3,
+    "sourceCount": 6,
     "deckCount": 0,
     "searchQueries": [
       "2010 Frog Monarch yugioh decklist",
@@ -1650,12 +1562,34 @@
     }
   },
   {
+    "id": "2011-plant-synchro",
+    "year": 2011,
+    "targetName": "Plant Synchro",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 2,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Plant Synchro yugioh decklist",
+      "2011 Plant Synchro YCS deck profile",
+      "2011 Plant Synchro yugioh top deck",
+      "Plant Synchro 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Plant%20Synchro%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Plant%20Synchro"
+    }
+  },
+  {
     "id": "2012-chaos-dragon",
     "year": 2012,
     "targetName": "Chaos Dragon",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 29,
     "deckCount": 0,
     "searchQueries": [
       "2012 Chaos Dragon yugioh decklist",
@@ -1677,7 +1611,7 @@
     "targetName": "Hero Beat",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 3,
     "deckCount": 0,
     "searchQueries": [
       "2012 Hero Beat yugioh decklist",
@@ -1699,7 +1633,7 @@
     "targetName": "HAT",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 5,
+    "sourceCount": 7,
     "deckCount": 0,
     "searchQueries": [
       "2014 HAT yugioh decklist",
@@ -1757,6 +1691,28 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2018%20Thunder%20Dragon%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2018%20Thunder%20Dragon"
+    }
+  },
+  {
+    "id": "2019-thunder-dragon",
+    "year": 2019,
+    "targetName": "Thunder Dragon",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2019 Thunder Dragon yugioh decklist",
+      "2019 Thunder Dragon YCS deck profile",
+      "2019 Thunder Dragon yugioh top deck",
+      "Thunder Dragon 2019 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2019%20Thunder%20Dragon%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2019%20Thunder%20Dragon"
     }
   }
 ]

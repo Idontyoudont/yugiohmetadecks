@@ -110,6 +110,128 @@ Side Deck
 
 ---
 
+Deck: Gadget 2007
+Year: 2007
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014
+Player: Christopher Gonzalez
+Deck Type: Gadget
+Source URL: https://www.yugiohtopdecks.org/deck/483
+
+Main Deck
+3 Green Gadget
+3 Kagetokage
+1 Machina Fortress
+1 Machina Gearframe
+3 Red Gadget
+1 Redox, Dragon Ruler of Boulders
+3 Tin Goldfish
+2 Traptrix Myrmeleo
+3 Yellow Gadget
+1 Book of Moon
+3 Chain Summoning
+1 Dark Hole
+2 Forbidden Lance
+1 Mind Control
+3 Mystical Space Typhoon
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+3 Fiendish Chain
+1 Solemn Warning
+1 Torrential Tribute
+2 Trap Hole
+
+Extra Deck
+1 Abyss Dweller
+1 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Evilswarm Ouroboros
+1 Gagaga Cowboy
+1 Gear Gigant X
+1 King of the Feral Imps
+1 Lavalval Chain
+1 Maestroke the Symphony Djinn
+1 Mecha Phantom Beast Dracossack
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Steelswarm Roach
+1 Gem-Knight Pearl
+
+Side Deck
+2 D.D. Crow
+2 Fossil Dyna Pachycephalo
+2 Maxx "C"
+1 Swift Scarecrow
+2 Prohibition
+2 Smashing Ground
+2 Light-Imprisoning Mirror
+2 Overworked
+
+---
+
+Deck: Gadget 2007
+Year: 2007
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 570 - YCS - Meadowlands New Jersey (May 2013) - May 2013
+Player: Angelo Mendoza
+Deck Type: Gadget
+Source URL: https://www.yugiohtopdecks.org/deck/570
+
+Main Deck
+3 Green Gadget
+2 Machina Fortress
+1 Machina Gearframe
+3 Red Gadget
+3 Tin Goldfish
+3 Yellow Gadget
+1 Dark Hole
+2 Double Summon
+2 Forbidden Lance
+1 Heavy Storm
+1 Monster Reborn
+2 Mystical Space Typhoon
+1 Pot of Avarice
+1 Pot of Duality
+2 Bottomless Trap Hole
+3 Dimensional Prison
+2 Fiendish Chain
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+1 Ultimate Offering
+
+Extra Deck
+2 Abyss Dweller
+1 Chimeratech Fortress Dragon
+1 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Fairy King Albverdich
+1 Gagaga Cowboy
+2 Gear Gigant X
+1 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Photon Papilloperative
+1 Gem-Knight Pearl
+
+Side Deck
+2 Cyber Dragon
+2 Maxx "C"
+2 Tragoedia
+1 Mystical Space Typhoon
+1 Dust Tornado
+3 Macro Cosmos
+2 Overworked
+2 Rivalry of Warlords
+
+---
+
 Deck: Monarch 2007
 Year: 2007
 Format: Imported Format
@@ -1359,6 +1481,179 @@ Side Deck
 
 ---
 
+Deck: Monarch 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 331 - YGO $10K Championship - Indianapolis (Oct 2014) - Oct 2014
+Player: Caleb Cosby
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/331
+
+Main Deck
+3 Caius the Shadow Monarch
+3 Cardcar D
+3 Majesty's Fiend
+3 Vanity's Fiend
+3 Fiend's Sanctuary
+3 Forbidden Chalice
+3 Forbidden Lance
+3 March of the Monarchs
+3 Pot of Duality
+1 Return of the Monarchs
+3 Soul Exchange
+3 The Monarchs Stormforth
+3 Upstart Goblin
+3 Royal Royal Decree
+
+Extra Deck
+1 Abyss Dweller
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Constellar Ptolemy M7
+1 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Lavalval Chain
+1 Number 101: Silent Honor ARK
+1 Number 80: Rhapsody in Berserk
+1 Photon Papilloperative
+1 Photon Strike Bounzer
+
+Side Deck
+2 Fire Hand
+2 Ice Hand
+3 Jinzo
+3 The End of Anubis
+1 Dimensional Fissure
+2 Kaiser Colosseum
+2 Mystical Space Typhoon
+
+---
+
+Deck: Frog 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 582 - YCS - San Diego California (Apr 2013) - Apr 2013
+Player: Austyn Ruoff
+Deck Type: Frog
+Source URL: https://www.yugiohtopdecks.org/deck/582
+
+Main Deck
+3 Battle Fader
+3 Caius the Shadow Monarch
+1 Dark Dust Spirit
+2 Effect Veiler
+1 Gorz the Emissary of Darkness
+1 Jinzo
+2 Light and Darkness Dragon
+2 Maxx "C"
+3 Raiza the Storm Monarch
+1 Ronintoadin
+3 Swap Frog
+2 Tragoedia
+3 Treeborn Frog
+1 Creature Swap
+1 Dark Hole
+3 Enemy Controller
+1 Heavy Storm
+1 Monster Reborn
+2 Mystical Space Typhoon
+3 Soul Exchange
+1 Treacherous Trap Hole
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Chimeratech Fortress Dragon
+1 Daigusto Phoenix
+1 Formula Synchron
+2 Gachi Gachi Gantetsu
+1 Gaia Dragon, the Thunder Charger
+1 Mist Wurm
+1 Photon Strike Bounzer
+1 Scrap Dragon
+1 Shooting Star Dragon
+1 Slacker Magician
+1 Sword Breaker
+1 Gaia Knight, the Force of Earth
+
+Side Deck
+2 Cyber Dragon
+2 Electric Virus
+1 Maxx "C"
+1 Mobius the Frost Monarch
+1 Puppet Plant
+1 Snowman Eater
+1 The End of Anubis
+2 Vanity's Fiend
+1 Mystical Space Typhoon
+1 Soul Taker
+2 Dust Tornado
+
+---
+
+Deck: Frog 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 609 - YCS - Austin Texas (Mar 2013) - Mar 2013
+Player: Alexander Joseph Chavira
+Deck Type: Frog
+Source URL: https://www.yugiohtopdecks.org/deck/609
+
+Main Deck
+3 Battle Fader
+3 Caius the Shadow Monarch
+1 Dark Dust Spirit
+2 Effect Veiler
+1 Gorz the Emissary of Darkness
+1 Jinzo
+2 Light and Darkness Dragon
+3 Maxx "C"
+3 Raiza the Storm Monarch
+1 Ronintoadin
+3 Swap Frog
+1 Tragoedia
+3 Treeborn Frog
+1 Dark Hole
+3 Enemy Controller
+1 Foolish Burial
+1 Heavy Storm
+1 Monster Reborn
+1 Mystical Space Typhoon
+2 Pot of Duality
+3 Soul Exchange
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Formula Synchron
+3 Gachi Gachi Gantetsu
+1 Gaia Dragon, the Thunder Charger
+1 Inzektor Exa-Beetle
+1 Number 25: Force Focus
+1 Photon Strike Bounzer
+1 Scrap Dragon
+2 Slacker Magician
+1 Sword Breaker
+1 Thought Ruler Archfiend
+
+Side Deck
+2 D.D. Crow
+2 Lava Golem
+1 Sea Lancer
+2 The End of Anubis
+2 Vanity's Fiend
+3 Messenger of Peace
+2 Mystical Space Typhoon
+1 Treacherous Trap Hole
+
+---
+
 Deck: Frog 2010
 Year: 2010
 Format: Imported Format
@@ -1662,6 +1957,131 @@ Side Deck
 
 ---
 
+Deck: Plant 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014
+Player: Adam Hutchins
+Deck Type: Plant
+Source URL: https://www.yugiohtopdecks.org/deck/432
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+1 Dandylion
+1 Debris Dragon
+2 Flamvell Guard
+1 Gorz the Emissary of Darkness
+3 Kuribandit
+2 Lonefire Blossom
+3 Maxx "C"
+1 Mythic Tree Dragon
+1 Mythic Water Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Spore
+1 Tempest, Dragon Ruler of Storms
+1 Tidal, Dragon Ruler of Waterfalls
+1 Burial from a Different Dimension
+3 Dragon Shrine
+1 Foolish Burial
+1 Gold Sarcophagus
+2 Mystical Space Typhoon
+3 Soul Charge
+1 Bottomless Trap Hole
+2 Compulsory Evacuation Device
+2 Phoenix Wing Wind Blast
+1 Torrential Tribute
+1 Trap Stun
+2 Vanity's Emptiness
+
+Extra Deck
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Divine Dragon Knight Felgrand
+1 Evilswarm Exciton Knight
+1 Formula Synchron
+1 Hieratic Sun Dragon Overlord of Heliopolis
+1 Leo, the Keeper of the Sacred Tree
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Spark Dragon
+1 Star Eater
+1 T.G. Hyper Librarian
+
+Side Deck
+1 D.D. Crow
+3 Fire Hand
+3 Ice Hand
+1 Mystical Space Typhoon
+2 Black Horn of Heaven
+2 Debunk
+2 Skill Drain
+1 Trap Stun
+
+---
+
+Deck: Synchro 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013
+Player: Patrick Hoban
+Deck Type: Synchro
+Source URL: https://www.yugiohtopdecks.org/deck/562
+
+Main Deck
+1 Armageddon Knight
+1 Dark Grepher
+3 Infernity Archfiend
+1 Infernity Avenger
+1 Infernity Mirage
+3 Infernity Necromancer
+2 Stygian Street Patrol
+2 Summoner Monk
+1 Card Destruction
+1 Foolish Burial
+1 Heavy Storm
+1 Infernity Launcher
+2 Instant Fusion
+1 Monster Reborn
+1 One for One
+2 Pot of Duality
+1 Reinforcement of the Army
+3 Upstart Goblin
+2 Bottomless Trap Hole
+3 Infernity Barrier
+1 Infernity Break
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Trap Stun
+
+Extra Deck
+1 Abyss Dweller
+1 Armory Arm
+2 Diamond Dire Wolf
+1 Infernity Doom Dragon
+2 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Stygian Sergeants
+1 Void Ogre Dragon
+1 Darkfire Dragon
+1 Fusionist
+
+Side Deck
+3 Infernity Randomizer
+3 Mystical Space Typhoon
+3 Offerings to the Doomed
+2 Dimensional Prison
+1 Reinforce Truth
+3 Soul Drain
+
+---
+
 Deck: Six Samurai 2011
 Year: 2011
 Format: Imported Format
@@ -1862,6 +2282,1626 @@ Side Deck
 
 ---
 
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 284 - YGO Open Atlanta (May 2014) - May 2014
+Player: Desmond Johnson
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/284
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+2 Blue-Eyes White Dragon
+2 Card Trooper
+1 Debris Dragon
+2 Flamvell Guard
+2 Kuribandit
+1 Mythic Tree Dragon
+2 Mythic Water Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Tempest, Dragon Ruler of Storms
+2 The White Stone of Legend
+1 Tidal, Dragon Ruler of Waterfalls
+1 Burial from a Different Dimension
+2 Cards of Consonance
+3 Dragon Shrine
+1 Foolish Burial
+1 Gold Sarcophagus
+1 Sacred Sword of Seven Stars
+3 Soul Charge
+3 Trade-In
+3 Upstart Goblin
+3 Phoenix Wing Wind Blast
+1 Torrential Tribute
+
+Extra Deck
+1 Azure-Eyes Silver Dragon
+1 Black Rose Dragon
+1 Colossal Fighter
+2 Divine Dragon Knight Felgrand
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Number 15: Gimmick Puppet Giant Grinder
+2 Scrap Dragon
+1 Stardust Dragon
+1 Stardust Spark Dragon
+1 Star Eater
+
+Side Deck
+3 Maxx "C"
+3 Mystical Space Typhoon
+3 Xyz Encore
+2 Black Horn of Heaven
+2 Skill Drain
+2 Vanity's Emptiness
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 296 - YGO Open Atlanta (May 2014) - May 2014
+Player: Cody Burns
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/296
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+1 Card Trooper
+1 Debris Dragon
+1 Dragunity Corsesca
+2 Flamvell Guard
+1 Gorz the Emissary of Darkness
+3 Kuribandit
+2 Maxx "C"
+1 Mythic Tree Dragon
+2 Mythic Water Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Tempest, Dragon Ruler of Storms
+2 The White Stone of Legend
+1 Tidal, Dragon Ruler of Waterfalls
+1 Burial from a Different Dimension
+2 Cards of Consonance
+3 Dragon Shrine
+1 Gold Sarcophagus
+3 Soul Charge
+2 Trade-In
+1 Compulsory Evacuation Device
+2 Phoenix Wing Wind Blast
+2 Skill Drain
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Azure-Eyes Silver Dragon
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Divine Dragon Knight Felgrand
+1 Hieratic Sun Dragon Overlord of Heliopolis
+2 Mecha Phantom Beast Dracossack
+2 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Stardust Spark Dragon
+1 Star Eater
+
+Side Deck
+1 D.D. Crow
+2 Fire Hand
+2 Ice Hand
+1 Majesty's Fiend
+2 Mystical Space Typhoon
+2 Debunk
+1 Mystical Refpanel
+2 Royal Royal Decree
+2 Vanity's Emptiness
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 628 - YCS - Turin Italy (Dec 2013) - Dec 2013
+Player: Joshua Schmidt
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/628
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+2 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+1 Phoenix Wing Wind Blast
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Torrential Tribute
+1 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Mystical Space Typhoon
+2 Xyz Encore
+3 Debunk
+1 Eradicator Epidemic Virus
+1 Infestation Terminus
+1 Malevolent Catastrophe
+2 Skill Drain
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 630 - YCS - Turin Italy (Dec 2013) - Dec 2013
+Player: Alpay Engin
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/630
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Effect Veiler
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+2 Cards of Consonance
+1 D.D.R. - Different Dimension Reincarnation
+3 Dragon Ravine
+3 Sacred Sword of Seven Stars
+1 Phoenix Wing Wind Blast
+3 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 D.D. Crow
+1 Electric Virus
+1 Snipe Hunter
+2 Mystical Space Typhoon
+3 Xyz Encore
+3 Debunk
+1 Eradicator Epidemic Virus
+3 Royal Royal Decree
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 632 - YCS - Turin Italy (Dec 2013) - Dec 2013
+Player: Michel Gruner
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/632
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+1 Flamvell Guard
+1 Fog King
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+2 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+1 Non Aggression Area
+3 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Torrential Tribute
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Snipe Hunter
+3 Debunk
+2 Divine Wrath
+1 Eradicator Epidemic Virus
+1 Infestation Terminus
+1 Malevolent Catastrophe
+2 Skill Drain
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 635 - YCS - Turin Italy (Dec 2013) - Dec 2013
+Player: Michele Bergamasco
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/635
+
+Main Deck
+1 Battle Fader
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+2 Dragunity Corsesca
+2 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+3 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Terraforming
+1 Compulsory Evacuation Device
+2 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+1 Sixth Sense
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 Battle Fader
+1 D.D. Crow
+2 Electric Virus
+1 Fencing Fire Ferret
+1 Dark Hole
+1 Mystical Space Typhoon
+1 Xyz Encore
+3 Debunk
+1 Infestation Terminus
+3 Royal Royal Decree
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 637 - YCS - London England (Oct 2013) - Oct 2013
+Player: Patrick Rieder
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/637
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+1 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+2 Cards of Consonance
+3 Dragon Ravine
+3 Sacred Sword of Seven Stars
+3 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Solemn Warning
+1 Torrential Tribute
+2 Trap Stun
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 D.D. Crow
+1 Electric Virus
+2 Fencing Fire Ferret
+3 Mystical Space Typhoon
+3 Debunk
+1 Divine Wrath
+1 DNA Surgery
+1 Eradicator Epidemic Virus
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 638 - YCS - London England (Oct 2013) - Oct 2013
+Player: Alpay Engin
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/638
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Effect Veiler
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+2 Cards of Consonance
+1 D.D.R. - Different Dimension Reincarnation
+3 Dragon Ravine
+3 Sacred Sword of Seven Stars
+1 Phoenix Wing Wind Blast
+3 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 D.D. Crow
+1 Electric Virus
+1 Snipe Hunter
+2 Mystical Space Typhoon
+3 Xyz Encore
+3 Debunk
+1 Eradicator Epidemic Virus
+3 Royal Royal Decree
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 639 - YCS - London England (Oct 2013) - Oct 2013
+Player: Joshua Schmidt
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/639
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+2 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+1 Phoenix Wing Wind Blast
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Torrential Tribute
+1 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Mystical Space Typhoon
+2 Xyz Encore
+3 Debunk
+1 Eradicator Epidemic Virus
+1 Infestation Terminus
+1 Malevolent Catastrophe
+2 Skill Drain
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 640 - YCS - London England (Oct 2013) - Oct 2013
+Player: Michel Gruner
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/640
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+1 Flamvell Guard
+1 Fog King
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+2 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+1 Non Aggression Area
+3 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Torrential Tribute
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Snipe Hunter
+3 Debunk
+2 Divine Wrath
+1 Eradicator Epidemic Virus
+1 Infestation Terminus
+1 Malevolent Catastrophe
+2 Skill Drain
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 642 - YCS - London England (Oct 2013) - Oct 2013
+Player: Vagelis Ferkos
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/642
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+1 Fog King
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+2 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+1 Sixth Sense
+1 The Transmigration Prophecy
+2 Vanity's Emptiness
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 D.D. Crow
+1 Electric Virus
+2 Fencing Fire Ferret
+1 Snipe Hunter
+1 Mystical Space Typhoon
+2 Xyz Encore
+2 Debunk
+2 DNA Surgery
+1 Royal Royal Decree
+1 Skill Drain
+1 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 643 - YCS - London England (Oct 2013) - Oct 2013
+Player: Jake McGee
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/643
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Book of Moon
+1 Cards of Consonance
+3 Dragon Ravine
+3 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Castle of Dragon Souls
+1 Mirror Force
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Waboku
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 D.D. Crow
+2 Xyz Encore
+1 Bottomless Trap Hole
+2 Debunk
+2 Divine Wrath
+2 DNA Surgery
+2 Royal Royal Decree
+2 Vanity's Emptiness
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 645 - YCS - London England (Oct 2013) - Oct 2013
+Player: Luke Smythe
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/645
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Book of Moon
+1 Cards of Consonance
+3 Dragon Ravine
+3 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+2 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 D.D. Crow
+2 Electric Virus
+2 Fencing Fire Ferret
+2 Debunk
+2 Divine Wrath
+1 Infestation Terminus
+2 Royal Royal Decree
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 647 - YCS - London England (Oct 2013) - Oct 2013
+Player: Ido Marcus
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/647
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+3 Cardcar D
+2 Card Trooper
+1 Dandylion
+2 Debris Dragon
+1 Dragunity Corsesca
+2 Effect Veiler
+2 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Gold Sarcophagus
+1 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Scapegoat
+1 Phoenix Wing Wind Blast
+3 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Formula Synchron
+1 Gaia Dragon, the Thunder Charger
+1 Mecha Phantom Beast Dracossack
+1 Mist Bird Clausolas
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Koa'ki Meiru Drago
+1 Neo-Spacian Grand Mole
+3 Enemy Controller
+2 Mystical Space Typhoon
+1 Scapegoat
+3 Skill Drain
+3 Waboku
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 648 - YCS - London England (Oct 2013) - Oct 2013
+Player: Aaron Henman
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/648
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+1 Fog King
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+3 Dragon Ravine
+1 Enemy Controller
+1 Mind Control
+3 Sacred Sword of Seven Stars
+1 Mirror Force
+3 Phoenix Wing Wind Blast
+1 Raigeki Break
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Torrential Tribute
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 Electric Virus
+2 Ryko, Lightsworn Hunter
+1 Snipe Hunter
+2 Prohibition
+1 Divine Wrath
+1 Eradicator Epidemic Virus
+2 Mind Crush
+2 Royal Royal Decree
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 653 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Merlin Schumacher
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/653
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Fog King
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+3 Cards of Consonance
+3 Dragon Ravine
+3 Sacred Sword of Seven Stars
+2 Castle of Dragon Souls
+1 Mirror Force
+2 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+1 Torrential Tribute
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Angel of Zera
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+2 Mecha Phantom Beast Dracossack
+1 Mermail Abyssgaios
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+1 Electric Virus
+1 Snipe Hunter
+2 Mystical Space Typhoon
+2 Xyz Encore
+2 Debunk
+2 Mystical Refpanel
+3 Skill Drain
+2 Trap Stun
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 654 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Xue Hao Hu
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/654
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+3 Cards of Consonance
+3 Dragon Ravine
+1 Gold Sarcophagus
+3 Sacred Sword of Seven Stars
+3 Raigeki Break
+1 Return from the Different Dimension
+2 Vanity's Emptiness
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+2 Fencing Fire Ferret
+1 Puny Penguin
+1 Dark Hole
+3 Mystical Space Typhoon
+2 Xyz Encore
+2 Debunk
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 655 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Billy Brake
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/655
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Cards of Consonance
+3 Dragon Ravine
+3 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Terraforming
+3 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+2 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+3 Mecha Phantom Beast Dracossack
+2 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 D.D. Crow
+3 Xyz Encore
+1 Bottomless Trap Hole
+2 Debunk
+1 Deck Devastation Virus
+3 DNA Surgery
+1 Dust Tornado
+2 Mind Crush
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 658 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Clayton Arvizu
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/658
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Book of Moon
+3 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+2 Raigeki Break
+1 Return from the Different Dimension
+2 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Swift Scarecrow
+1 Dark Hole
+1 Mystical Space Typhoon
+1 Xyz Encore
+2 Debunk
+1 Infestation Terminus
+2 Mystical Refpanel
+2 Royal Royal Decree
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 661 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Sean Nguyen
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/661
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Effect Veiler
+2 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+2 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+3 Cards of Consonance
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Raigeki Break
+1 Return from the Different Dimension
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+1 Iron Chain Dragon
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+1 Fencing Fire Ferret
+2 Vanity's Fiend
+1 Mystical Space Typhoon
+2 DNA Surgery
+3 Skill Drain
+2 Trap Stun
+2 Vanity's Emptiness
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 665 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Ed Acepcion
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/665
+
+Main Deck
+3 Assault Beast
+3 Blaster, Dragon Ruler of Infernos
+3 Dragunity Corsesca
+1 Flamvell Guard
+3 Redox, Dragon Ruler of Boulders
+3 Stardust Dragon/Assault Mode
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+3 Dragon Ravine
+2 Fire Formation - Tenki
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Terraforming
+3 Assault Mode Activate
+3 Raigeki Break
+1 Return from the Different Dimension
+
+Extra Deck
+1 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Red Dragon Archfiend
+2 Scrap Dragon
+3 Stardust Dragon
+1 Thought Ruler Archfiend
+
+Side Deck
+1 Ancient Lamp
+2 Fencing Fire Ferret
+1 Mystical Space Typhoon
+2 Xyz Encore
+1 Debunk
+2 Divine Wrath
+2 DNA Surgery
+2 Malevolent Catastrophe
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 666 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Jovanny Castillo
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/666
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+2 Cards of Consonance
+3 Dragon Ravine
+1 Enemy Controller
+3 Sacred Sword of Seven Stars
+1 Phoenix Wing Wind Blast
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Torrential Tribute
+2 Vanity's Emptiness
+2 Waboku
+
+Extra Deck
+1 Ancient Fairy Dragon
+2 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Electric Virus
+2 Fencing Fire Ferret
+1 Swift Scarecrow
+2 Mystical Space Typhoon
+2 Xyz Encore
+2 Debunk
+1 Divine Wrath
+1 Royal Royal Decree
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 669 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Antonio Gonzalez
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/669
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+1 Dandylion
+2 Debris Dragon
+1 Dragunity Brandistock
+1 Dragunity Corsesca
+1 Effect Veiler
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+3 Dragon Ravine
+1 Gold Sarcophagus
+3 Sacred Sword of Seven Stars
+1 Divine Wrath
+2 Phoenix Wing Wind Blast
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Vanity's Emptiness
+2 Waboku
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Formula Synchron
+2 Mecha Phantom Beast Dracossack
+1 Mist Bird Clausolas
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+2 Fencing Fire Ferret
+1 Swift Scarecrow
+3 Mystical Space Typhoon
+2 Xyz Encore
+3 Debunk
+2 Royal Royal Decree
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 670 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Alexander Juneja
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/670
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Book of Moon
+3 Cards of Consonance
+3 Dragon Ravine
+3 Sacred Sword of Seven Stars
+2 Non Aggression Area
+3 Raigeki Break
+1 Return from the Different Dimension
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+1 Apprentice Magician
+2 Electric Virus
+2 Fencing Fire Ferret
+1 Old Vindictive Magician
+3 Mystical Space Typhoon
+2 Xyz Encore
+1 Eradicator Epidemic Virus
+1 Retort
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 672 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Mario Ramos
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/672
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+3 Cards of Consonance
+1 Dark Hole
+3 Dragon Ravine
+1 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+1 Bottomless Trap Hole
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Solemn Warning
+1 Torrential Tribute
+1 Vanity's Emptiness
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+2 Number 11: Big Eye
+1 Orient Dragon
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 Fencing Fire Ferret
+2 Mystical Space Typhoon
+2 Xyz Encore
+2 Debunk
+3 Mystical Refpanel
+2 Royal Royal Decree
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 675 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Scott Page
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/675
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+2 Dragunity Corsesca
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Trigon
+1 Book of Moon
+2 Cards of Consonance
+1 Dark Hole
+3 Dragon Ravine
+2 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Raigeki Break
+1 Return from the Different Dimension
+1 Trap Stun
+2 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 Electric Virus
+1 Vanity's Fiend
+1 Closed Forest
+1 Mystical Space Typhoon
+3 Xyz Encore
+1 Divine Wrath
+2 DNA Surgery
+1 Eradicator Epidemic Virus
+2 Royal Royal Decree
+1 Solemn Warning
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 676 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Josh Graham
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/676
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Debris Dragon
+1 Dragunity Corsesca
+1 Dragunity Darkspear
+1 Flamvell Guard
+2 Maxx "C"
+1 Poki Draco
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+2 Cards of Consonance
+3 Dragon Ravine
+1 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Terraforming
+1 Castle of Dragon Souls
+2 Phoenix Wing Wind Blast
+1 Raigeki Break
+1 Return from the Different Dimension
+2 Vanity's Emptiness
+
+Extra Deck
+2 Ancient Fairy Dragon
+1 Black Rose Dragon
+1 Colossal Fighter
+2 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Number 74: Master of Blades
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Trident Dragion
+
+Side Deck
+2 Electric Virus
+1 Maxx "C"
+2 Ryko, Lightsworn Hunter
+2 Vanity's Fiend
+1 Dark Hole
+2 Mystical Space Typhoon
+2 Xyz Encore
+1 Mirror Force
+2 Skill Drain
+
+---
+
+Deck: Dragon 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 677 - YCS - San Mateo California (Oct 2013) - Oct 2013
+Player: Pete Navarro
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/677
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+2 Debris Dragon
+1 Dragunity Corsesca
+2 Effect Veiler
+1 Flamvell Guard
+3 Maxx "C"
+3 Redox, Dragon Ruler of Boulders
+1 Swift Scarecrow
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+2 Cards of Consonance
+1 Dark Hole
+3 Dragon Ravine
+1 Gold Sarcophagus
+1 Mystical Space Typhoon
+3 Sacred Sword of Seven Stars
+2 Raigeki Break
+1 Return from the Different Dimension
+2 Vanity's Emptiness
+
+Extra Deck
+1 Ancient Fairy Dragon
+1 Armory Arm
+2 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+1 Thought Ruler Archfiend
+
+Side Deck
+2 Electric Virus
+2 Fencing Fire Ferret
+1 Metaion, the Timelord
+2 Mystical Space Typhoon
+2 Divine Wrath
+2 Non Aggression Area
+1 Royal Royal Decree
+2 Skill Drain
+
+---
+
 Deck: Dino Rabbit 2012
 Year: 2012
 Format: Imported Format
@@ -2036,6 +4076,133 @@ Side Deck
 2 Messenger of Peace
 3 Mystical Space Typhoon
 2 Tri-and-Guess
+
+---
+
+Deck: Elemental 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013
+Player: Justin Osbien Franklin
+Deck Type: Elemental
+Source URL: https://www.yugiohtopdecks.org/deck/613
+
+Main Deck
+2 Elemental HERO Bubbleman
+3 Elemental HERO Neos Alius
+1 Elemental HERO Stratos
+1 Honest
+2 Photon Thrasher
+2 Thunder King Rai-Oh
+1 Dark Hole
+2 E - Emergency Call
+3 Gemini Spark
+1 Heavy Storm
+3 Miracle Fusion
+1 Monster Reborn
+2 Mystical Space Typhoon
+2 Pot of Duality
+1 Reinforcement of the Army
+2 Super Polymerization
+1 Bottomless Trap Hole
+1 Dark Bribe
+1 Dimensional Prison
+1 Hero Blast
+2 Mirror Force
+1 Skill Drain
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Blade Armor Ninja
+1 Elemental HERO Absolute Zero
+1 Elemental HERO Escuridao
+1 Elemental HERO Great Tornado
+1 Elemental HERO Nova Master
+2 Elemental HERO The Shining
+1 Heroic Champion - Excalibur
+1 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 50: Blackship of Corn
+1 Gem-Knight Pearl
+
+Side Deck
+2 Doomcaliber Knight
+3 Forbidden Lance
+1 Mystical Space Typhoon
+1 Night Beam
+3 Mind Crush
+2 Rivalry of Warlords
+1 Skill Drain
+2 Soul Drain
+
+---
+
+Deck: Elemental 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 624 - YCS - Austin Texas (Mar 2013) - Mar 2013
+Player: William Isely
+Deck Type: Elemental
+Source URL: https://www.yugiohtopdecks.org/deck/624
+
+Main Deck
+1 Crusader of Endymion
+1 Elemental HERO Bubbleman
+3 Elemental HERO Neos Alius
+1 Elemental HERO Stratos
+1 Gorz the Emissary of Darkness
+1 Honest
+1 Noble Knight Gawayn
+1 Photon Thrasher
+2 Thunder King Rai-Oh
+1 Dark Hole
+2 E - Emergency Call
+3 Gemini Spark
+1 Heavy Storm
+3 Miracle Fusion
+1 Monster Reborn
+1 Mystical Space Typhoon
+2 Pot of Duality
+1 Reinforcement of the Army
+1 Super Polymerization
+2 Bottomless Trap Hole
+1 Breakthrough Skill
+1 Compulsory Evacuation Device
+1 Dark Bribe
+2 Dimensional Prison
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Blade Armor Ninja
+1 Elemental HERO Absolute Zero
+1 Elemental HERO Escuridao
+1 Elemental HERO Great Tornado
+1 Elemental HERO Nova Master
+2 Elemental HERO The Shining
+1 Gagaga Cowboy
+2 Heroic Champion - Excalibur
+1 Maestroke the Symphony Djinn
+1 Number 39: Utopia
+
+Side Deck
+2 Fossil Dyna Pachycephalo
+1 Book of Moon
+3 Dimensional Fissure
+1 Mystical Space Typhoon
+1 Super Polymerization
+2 Skill Drain
+2 Soul Drain
+1 Torrential Tribute
+2 Trap Stun
 
 ---
 
@@ -5370,6 +7537,128 @@ Side Deck
 
 ---
 
+Deck: Shaddoll 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Jonhathan Sebastian Vazquez Herrera
+Deck Type: Shaddoll
+Source URL: https://www.yugiohtopdecks.org/deck/366
+
+Main Deck
+2 Aqua Spirit
+1 Atlantean Dragoons
+2 Atlantean Heavy Infantry
+3 Atlantean Marksman
+1 Deep Sea Diva
+1 Mermail Abyssgunde
+1 Mermail Abyssleed
+3 Mermail Abysslinde
+2 Mermail Abyssmegalo
+3 Mermail Abysspike
+3 Mermail Abyssteus
+1 Mermail Abyssturge
+1 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Salvage
+3 Abyss-sphere
+1 Bottomless Trap Hole
+3 Fiendish Chain
+2 Mind Crush
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Armades, Keeper of Boundaries
+1 Bahamut Shark
+1 Dewloren, Tiger King of the Ice Barrier
+1 Evilswarm Exciton Knight
+1 Ghostrick Alucard
+1 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Mecha Phantom Beast Dracossack
+2 Mermail Abyssgaios
+1 Mermail Abysstrite
+1 Number 101: Silent Honor ARK
+1 Number 11: Big Eye
+
+Side Deck
+1 Effect Veiler
+2 Maxx "C"
+2 Black Horn of Heaven
+2 Debunk
+2 Dust Tornado
+2 Full House
+2 Light-Imprisoning Mirror
+2 Overworked
+
+---
+
+Deck: Mermail 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 455 - YCS - Las Vegas (Apr 2014) - Apr 2014
+Player: Jonhathan Sebastian Vazquez Herrera
+Deck Type: Mermail
+Source URL: https://www.yugiohtopdecks.org/deck/455
+
+Main Deck
+2 Aqua Spirit
+1 Atlantean Dragoons
+2 Atlantean Heavy Infantry
+3 Atlantean Marksman
+1 Deep Sea Diva
+1 Mermail Abyssgunde
+1 Mermail Abyssleed
+3 Mermail Abysslinde
+2 Mermail Abyssmegalo
+3 Mermail Abysspike
+3 Mermail Abyssteus
+1 Mermail Abyssturge
+1 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Salvage
+3 Abyss-sphere
+1 Bottomless Trap Hole
+3 Fiendish Chain
+2 Mind Crush
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Armades, Keeper of Boundaries
+1 Bahamut Shark
+1 Dewloren, Tiger King of the Ice Barrier
+1 Evilswarm Exciton Knight
+1 Ghostrick Alucard
+1 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Mecha Phantom Beast Dracossack
+2 Mermail Abyssgaios
+1 Mermail Abysstrite
+1 Number 101: Silent Honor ARK
+1 Number 11: Big Eye
+
+Side Deck
+1 Effect Veiler
+2 Maxx "C"
+2 Black Horn of Heaven
+2 Debunk
+2 Dust Tornado
+2 Full House
+2 Light-Imprisoning Mirror
+2 Overworked
+
+---
+
 Deck: Artifact 2014
 Year: 2014
 Format: Imported Format
@@ -5799,6 +8088,568 @@ Side Deck
 3 Mind Crush
 2 Royal Royal Decree
 2 Typhoon
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014
+Player: Oleksandr Atamanenko
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/333
+
+Main Deck
+1 Apoqliphort Towers
+1 Odd-Eyes Pendulum Dragon
+2 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+3 Forbidden Chalice
+3 Mystical Space Typhoon
+2 Night Beam
+3 Pot of Duality
+3 Saqlifice
+3 Summoner's Art
+1 Compulsory Evacuation Device
+1 Qlimate Change
+2 Skill Drain
+1 Soul Drain
+2 Vanity's Emptiness
+
+Extra Deck
+1 Castel, the Skyblaster Musketeer
+1 Gagaga Cowboy
+1 Lavalval Chain
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Shark Fortress
+
+Side Deck
+3 Consecrated Light
+3 Spell Shattering Arrow
+2 The Monarchs Stormforth
+2 Twister
+2 Shadow-Imprisoning Mirror
+3 Xing Zhen Hu
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 339 - YCS - Sydney Australia (Dec 2014) - Dec 2014
+Player: Robin Sum
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/339
+
+Main Deck
+1 Apoqliphort Towers
+1 Odd-Eyes Pendulum Dragon
+1 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+1 Book of Moon
+3 Mystical Space Typhoon
+2 Night Beam
+2 Pot of Duality
+1 Raigeki
+3 Saqlifice
+3 Summoner's Art
+2 The Monarchs Stormforth
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+1 Qlimate Change
+2 Shadow-Imprisoning Mirror
+2 Skill Drain
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Artifact Durendal
+1 Castel, the Skyblaster Musketeer
+1 Daigusto Emeral
+1 Dark Rebellion Xyz Dragon
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Lavalval Chain
+1 Number 103: Ragnazero
+1 Number 39: Utopia
+1 Number 61: Volcasaurus
+1 Number C39: Utopia Ray
+1 Shark Fortress
+
+Side Deck
+2 Majesty's Fiend
+2 Maxx "C"
+3 Spell Shattering Arrow
+2 Different Dimension Ground
+2 Mirror Force
+2 Ojama Trio
+2 Vanity's Emptiness
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 346 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Rosty Elkun
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/346
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+1 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Book of Moon
+3 Mystical Space Typhoon
+2 Pot of Duality
+1 Raigeki
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+3 Dust Tornado
+2 Skill Drain
+1 Solemn Warning
+2 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Artifact Durendal
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Dark Rebellion Xyz Dragon
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Lavalval Chain
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 106: Giant Hand
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Shark Fortress
+
+Side Deck
+3 Dynatherium
+3 Maxx "C"
+3 Spell Shattering Arrow
+1 Qlimate Change
+3 Shadow-Imprisoning Mirror
+2 Wiretap
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 348 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Justin Rodriguez
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/348
+
+Main Deck
+2 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+1 Book of Moon
+2 Forbidden Chalice
+1 Limiter Removal
+3 Mystical Space Typhoon
+1 Night Beam
+2 Pot of Duality
+1 Raigeki
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Skill Drain
+2 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Cairngorgon, Antiluminescent Knight
+2 Castel, the Skyblaster Musketeer
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gauntlet Launcher
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Number 82: Heartlandraco
+1 Number 85: Crazy Box
+1 Shark Fortress
+
+Side Deck
+2 Denko Sekka
+3 Maxx "C"
+1 Dark Hole
+1 Night Beam
+2 The Monarchs Stormforth
+3 Dimensional Prison
+2 Dust Tornado
+1 Qlimate Change
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 351 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Yuki Zaninovich
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/351
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+2 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+3 Mystical Space Typhoon
+3 Pot of Duality
+1 Raigeki
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Dust Tornado
+1 Qlimate Change
+2 Skill Drain
+3 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Artifact Durendal
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Dark Rebellion Xyz Dragon
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Number 85: Crazy Box
+1 Wind-Up Arsenal Zenmaioh
+
+Side Deck
+2 Vanity's Fiend
+3 Spell Shattering Arrow
+3 The Monarchs Stormforth
+3 Shadow-Imprisoning Mirror
+1 Soul Drain
+3 Trap Stun
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 354 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Joe Vesia
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/354
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+1 Performapal Trampolynx
+3 Qliphort Carrier
+2 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+1 Forbidden Chalice
+3 Mystical Space Typhoon
+3 Pot of Duality
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Compulsory Evacuation Device
+3 Skill Drain
+1 Soul Drain
+3 Vanity's Emptiness
+2 Wiretap
+
+Extra Deck
+1 Abyss Dweller
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Mecha Phantom Beast Dracossack
+1 Number 101: Silent Honor ARK
+2 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Number 85: Crazy Box
+1 Tiras, Keeper of Genesis
+
+Side Deck
+3 Maxx "C"
+2 Enemy Controller
+2 Night Beam
+3 Spell Shattering Arrow
+1 Bottomless Trap Hole
+3 Mirror Force
+1 Torrential Tribute
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 357 - YCS - Anaheim California (Dec 2014) - Dec 2014
+Player: Michael Andrew Perrelli
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/357
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+2 Performapal Trampolynx
+3 Qliphort Carrier
+2 Qliphort Disk
+3 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+1 Limiter Removal
+3 Mystical Space Typhoon
+2 Pot of Duality
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+1 Qlimate Change
+2 Skill Drain
+3 Trap Stun
+2 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Mecha Phantom Beast Dracossack
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Number 85: Crazy Box
+1 Shark Fortress
+1 Steelswarm Roach
+1 Wind-Up Arsenal Zenmaioh
+
+Side Deck
+2 Vanity's Fiend
+3 Spell Shattering Arrow
+2 The Monarchs Stormforth
+2 Mind Crush
+3 Shadow-Imprisoning Mirror
+3 Wiretap
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 363 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Arnold Alvarado
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/363
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+1 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+3 Mystical Space Typhoon
+2 Pot of Duality
+3 Saqlifice
+3 Summoner's Art
+2 Upstart Goblin
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Dust Tornado
+3 Skill Drain
+1 Solemn Warning
+1 Torrential Tribute
+3 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Artifact Durendal
+1 Cairngorgon, Antiluminescent Knight
+1 Castel, the Skyblaster Musketeer
+1 Dark Rebellion Xyz Dragon
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Lavalval Chain
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Shark Fortress
+
+Side Deck
+1 Dynatherium
+3 Maxx "C"
+3 Spell Shattering Arrow
+1 The Monarchs Stormforth
+1 Qlimate Change
+3 Shadow-Imprisoning Mirror
+1 Trap Stun
+2 Wiretap
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 364 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Jovanny Castillo
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/364
+
+Main Deck
+2 Odd-Eyes Pendulum Dragon
+1 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+3 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+1 Laser Qlip
+3 Mystical Space Typhoon
+2 Pot of Duality
+1 Raigeki
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Compulsory Evacuation Device
+3 Skill Drain
+1 Solemn Warning
+3 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Artifact Durendal
+1 Cairngorgon, Antiluminescent Knight
+2 Castel, the Skyblaster Musketeer
+1 Dark Rebellion Xyz Dragon
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Gaia Dragon, the Thunder Charger
+1 Number 103: Ragnazero
+1 Number 39: Utopia
+1 Number 61: Volcasaurus
+1 Number 85: Crazy Box
+1 Number C39: Utopia Ray
+
+Side Deck
+3 Majesty's Fiend
+3 Maxx "C"
+1 Vanity's Fiend
+2 Spell Shattering Arrow
+3 The Monarchs Stormforth
+1 Bottomless Trap Hole
+2 Dust Tornado
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 367 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Clay Hill
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/367
+
+Main Deck
+3 Maxx "C"
+2 Odd-Eyes Pendulum Dragon
+2 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Book of Moon
+3 Mystical Space Typhoon
+2 Night Beam
+3 Saqlifice
+3 Summoner's Art
+3 Upstart Goblin
+1 Bottomless Trap Hole
+1 Qlimate Change
+1 Solemn Warning
+1 Torrential Tribute
+3 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Artifact Durendal
+1 Cairngorgon, Antiluminescent Knight
+2 Castel, the Skyblaster Musketeer
+1 Diamond Dire Wolf
+1 Downerd Magician
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Number 101: Silent Honor ARK
+2 Number 103: Ragnazero
+1 Number 61: Volcasaurus
+1 Number 82: Heartlandraco
+1 Steelswarm Roach
+
+Side Deck
+2 Flying "C"
+2 Puppet Plant
+3 Spell Shattering Arrow
+3 The Monarchs Stormforth
+3 Cursed Seal of the Forbidden Spell
+2 Wiretap
 
 ---
 
@@ -6438,3 +9289,62 @@ Side Deck
 3 Forbidden Lance
 2 Dimensional Prison
 3 Trap Stun
+
+---
+
+Deck: Thunder 2019
+Year: 2019
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 545 - YCS - Sydney Australia (Jan 2014) - Jan 2014
+Player: Tom Kralj
+Deck Type: Thunder
+Source URL: https://www.yugiohtopdecks.org/deck/545
+
+Main Deck
+2 Cardcar D
+1 Honest
+3 Mahunder
+3 Pahunder
+2 Sishunder
+1 Thunder King Rai-Oh
+3 Thunder Sea Horse
+1 Tragoedia
+2 Vylon Prism
+2 Wattgiraffe
+1 Book of Moon
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Pot of Duality
+3 Recycling Batteries
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Fiendish Chain
+2 Threatening Roar
+1 Torrential Tribute
+2 Trap Stun
+2 Void Trap Hole
+
+Extra Deck
+1 Abyss Dweller
+2 Constellar Omega
+1 Constellar Ptolemy M7
+1 Diamond Dire Wolf
+1 Gagaga Cowboy
+1 Maestroke the Symphony Djinn
+1 Number 50: Blackship of Corn
+1 Number 91: Thunder Spark Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+2 Starliege Paladynamo
+1 Gem-Knight Pearl
+
+Side Deck
+1 Crimson Blader
+2 The Calibrator
+2 Spell Shattering Arrow
+2 DNA Surgery
+2 Gozen Match
+1 Malevolent Catastrophe
+2 Royal Royal Decree
+1 Soul Drain

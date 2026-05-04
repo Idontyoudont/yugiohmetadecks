@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T19:35:17.677Z",
+  "generatedAt": "2026-05-04T19:38:19.711Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 35,
+  "importedDeckCount": 41,
   "importerWarningCount": 4,
-  "cleanDeckCount": 31,
-  "issueDeckCount": 4,
+  "cleanDeckCount": 35,
+  "issueDeckCount": 6,
   "errorDeckCount": 2,
   "warningDeckCount": 1,
-  "infoDeckCount": 1,
+  "infoDeckCount": 3,
   "issueDecks": [
     {
       "deck": {
@@ -276,6 +276,108 @@
           "type": "extra-deck-size",
           "message": "Extra Deck has 16 cards. Expected 15 or fewer."
         },
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "elemental-2012",
+        "originalId": "elemental-2012",
+        "name": "Elemental 2012",
+        "year": 2012,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013",
+          "player": "Justin Osbien Franklin",
+          "deckType": "Elemental",
+          "url": "https://www.yugiohtopdecks.org/deck/613"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 13,
+        "sideDeckCount": 15,
+        "totalCount": 68,
+        "taggedCardCount": 7,
+        "automaticTaggedCardCount": 7,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "power spell",
+          "quick-play",
+          "removal",
+          "trap"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "shaddoll-2014",
+        "originalId": "shaddoll-2014",
+        "name": "Shaddoll 2014",
+        "year": 2014,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+          "player": "Jonhathan Sebastian Vazquez Herrera",
+          "deckType": "Shaddoll",
+          "url": "https://www.yugiohtopdecks.org/deck/366"
+        },
+        "mainDeckCount": 41,
+        "extraDeckCount": 14,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 10,
+        "automaticTaggedCardCount": 10,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "boss monster",
+          "control",
+          "disruption",
+          "dragon ruler",
+          "draw",
+          "flip support",
+          "graveyard engine",
+          "graveyard setup",
+          "hand trap",
+          "quick-play",
+          "rank 7",
+          "removal",
+          "token",
+          "trap",
+          "water",
+          "xyz"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
         {
           "severity": "info",
           "type": "no-target-match",
@@ -872,6 +974,82 @@
         "year": 2018,
         "targetName": "Thunder Dragon",
         "normalizedTargetName": "thunder dragon"
+      }
+    },
+    {
+      "id": "gadget-2007",
+      "name": "Gadget 2007",
+      "year": 2007,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
+        "player": "Christopher Gonzalez",
+        "deckType": "Gadget",
+        "url": "https://www.yugiohtopdecks.org/deck/483"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2007,
+        "targetName": "Gadget",
+        "normalizedTargetName": "gadget"
+      }
+    },
+    {
+      "id": "plant-2011",
+      "name": "Plant 2011",
+      "year": 2011,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
+        "player": "Adam Hutchins",
+        "deckType": "Plant",
+        "url": "https://www.yugiohtopdecks.org/deck/432"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2011,
+        "targetName": "Plant Synchro",
+        "normalizedTargetName": "plant synchro"
+      }
+    },
+    {
+      "id": "synchro-2011",
+      "name": "Synchro 2011",
+      "year": 2011,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
+        "player": "Patrick Hoban",
+        "deckType": "Synchro",
+        "url": "https://www.yugiohtopdecks.org/deck/562"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 13,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2011,
+        "targetName": "Plant Synchro",
+        "normalizedTargetName": "plant synchro"
+      }
+    },
+    {
+      "id": "qliphort-2015",
+      "name": "Qliphort 2015",
+      "year": 2015,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
+        "player": "Oleksandr Atamanenko",
+        "deckType": "Qliphort",
+        "url": "https://www.yugiohtopdecks.org/deck/333"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 7,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2015,
+        "targetName": "Qliphort",
+        "normalizedTargetName": "qliphort"
       }
     }
   ]

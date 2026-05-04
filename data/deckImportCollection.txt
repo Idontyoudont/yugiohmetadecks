@@ -2084,3 +2084,362 @@ Side Deck
 1 Soul Charge
 2 Phoenix Wing Wind Blast
 2 Royal Royal Decree
+
+---
+
+Deck: Gadget 2007
+Year: 2007
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014
+Player: Christopher Gonzalez
+Deck Type: Gadget
+Source URL: https://www.yugiohtopdecks.org/deck/483
+
+Main Deck
+3 Green Gadget
+3 Kagetokage
+1 Machina Fortress
+1 Machina Gearframe
+3 Red Gadget
+1 Redox, Dragon Ruler of Boulders
+3 Tin Goldfish
+2 Traptrix Myrmeleo
+3 Yellow Gadget
+1 Book of Moon
+3 Chain Summoning
+1 Dark Hole
+2 Forbidden Lance
+1 Mind Control
+3 Mystical Space Typhoon
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+3 Fiendish Chain
+1 Solemn Warning
+1 Torrential Tribute
+2 Trap Hole
+
+Extra Deck
+1 Abyss Dweller
+1 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Evilswarm Ouroboros
+1 Gagaga Cowboy
+1 Gear Gigant X
+1 King of the Feral Imps
+1 Lavalval Chain
+1 Maestroke the Symphony Djinn
+1 Mecha Phantom Beast Dracossack
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Steelswarm Roach
+1 Gem-Knight Pearl
+
+Side Deck
+2 D.D. Crow
+2 Fossil Dyna Pachycephalo
+2 Maxx "C"
+1 Swift Scarecrow
+2 Prohibition
+2 Smashing Ground
+2 Light-Imprisoning Mirror
+2 Overworked
+
+---
+
+Deck: Plant 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014
+Player: Adam Hutchins
+Deck Type: Plant
+Source URL: https://www.yugiohtopdecks.org/deck/432
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+2 Card Trooper
+1 Dandylion
+1 Debris Dragon
+2 Flamvell Guard
+1 Gorz the Emissary of Darkness
+3 Kuribandit
+2 Lonefire Blossom
+3 Maxx "C"
+1 Mythic Tree Dragon
+1 Mythic Water Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Spore
+1 Tempest, Dragon Ruler of Storms
+1 Tidal, Dragon Ruler of Waterfalls
+1 Burial from a Different Dimension
+3 Dragon Shrine
+1 Foolish Burial
+1 Gold Sarcophagus
+2 Mystical Space Typhoon
+3 Soul Charge
+1 Bottomless Trap Hole
+2 Compulsory Evacuation Device
+2 Phoenix Wing Wind Blast
+1 Torrential Tribute
+1 Trap Stun
+2 Vanity's Emptiness
+
+Extra Deck
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Divine Dragon Knight Felgrand
+1 Evilswarm Exciton Knight
+1 Formula Synchron
+1 Hieratic Sun Dragon Overlord of Heliopolis
+1 Leo, the Keeper of the Sacred Tree
+2 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Stardust Spark Dragon
+1 Star Eater
+1 T.G. Hyper Librarian
+
+Side Deck
+1 D.D. Crow
+3 Fire Hand
+3 Ice Hand
+1 Mystical Space Typhoon
+2 Black Horn of Heaven
+2 Debunk
+2 Skill Drain
+1 Trap Stun
+
+---
+
+Deck: Synchro 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013
+Player: Patrick Hoban
+Deck Type: Synchro
+Source URL: https://www.yugiohtopdecks.org/deck/562
+
+Main Deck
+1 Armageddon Knight
+1 Dark Grepher
+3 Infernity Archfiend
+1 Infernity Avenger
+1 Infernity Mirage
+3 Infernity Necromancer
+2 Stygian Street Patrol
+2 Summoner Monk
+1 Card Destruction
+1 Foolish Burial
+1 Heavy Storm
+1 Infernity Launcher
+2 Instant Fusion
+1 Monster Reborn
+1 One for One
+2 Pot of Duality
+1 Reinforcement of the Army
+3 Upstart Goblin
+2 Bottomless Trap Hole
+3 Infernity Barrier
+1 Infernity Break
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Trap Stun
+
+Extra Deck
+1 Abyss Dweller
+1 Armory Arm
+2 Diamond Dire Wolf
+1 Infernity Doom Dragon
+2 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Stygian Sergeants
+1 Void Ogre Dragon
+1 Darkfire Dragon
+1 Fusionist
+
+Side Deck
+3 Infernity Randomizer
+3 Mystical Space Typhoon
+3 Offerings to the Doomed
+2 Dimensional Prison
+1 Reinforce Truth
+3 Soul Drain
+
+---
+
+Deck: Elemental 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013
+Player: Justin Osbien Franklin
+Deck Type: Elemental
+Source URL: https://www.yugiohtopdecks.org/deck/613
+
+Main Deck
+2 Elemental HERO Bubbleman
+3 Elemental HERO Neos Alius
+1 Elemental HERO Stratos
+1 Honest
+2 Photon Thrasher
+2 Thunder King Rai-Oh
+1 Dark Hole
+2 E - Emergency Call
+3 Gemini Spark
+1 Heavy Storm
+3 Miracle Fusion
+1 Monster Reborn
+2 Mystical Space Typhoon
+2 Pot of Duality
+1 Reinforcement of the Army
+2 Super Polymerization
+1 Bottomless Trap Hole
+1 Dark Bribe
+1 Dimensional Prison
+1 Hero Blast
+2 Mirror Force
+1 Skill Drain
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Blade Armor Ninja
+1 Elemental HERO Absolute Zero
+1 Elemental HERO Escuridao
+1 Elemental HERO Great Tornado
+1 Elemental HERO Nova Master
+2 Elemental HERO The Shining
+1 Heroic Champion - Excalibur
+1 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 50: Blackship of Corn
+1 Gem-Knight Pearl
+
+Side Deck
+2 Doomcaliber Knight
+3 Forbidden Lance
+1 Mystical Space Typhoon
+1 Night Beam
+3 Mind Crush
+2 Rivalry of Warlords
+1 Skill Drain
+2 Soul Drain
+
+---
+
+Deck: Shaddoll 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014
+Player: Jonhathan Sebastian Vazquez Herrera
+Deck Type: Shaddoll
+Source URL: https://www.yugiohtopdecks.org/deck/366
+
+Main Deck
+2 Aqua Spirit
+1 Atlantean Dragoons
+2 Atlantean Heavy Infantry
+3 Atlantean Marksman
+1 Deep Sea Diva
+1 Mermail Abyssgunde
+1 Mermail Abyssleed
+3 Mermail Abysslinde
+2 Mermail Abyssmegalo
+3 Mermail Abysspike
+3 Mermail Abyssteus
+1 Mermail Abyssturge
+1 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Salvage
+3 Abyss-sphere
+1 Bottomless Trap Hole
+3 Fiendish Chain
+2 Mind Crush
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Armades, Keeper of Boundaries
+1 Bahamut Shark
+1 Dewloren, Tiger King of the Ice Barrier
+1 Evilswarm Exciton Knight
+1 Ghostrick Alucard
+1 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Mecha Phantom Beast Dracossack
+2 Mermail Abyssgaios
+1 Mermail Abysstrite
+1 Number 101: Silent Honor ARK
+1 Number 11: Big Eye
+
+Side Deck
+1 Effect Veiler
+2 Maxx "C"
+2 Black Horn of Heaven
+2 Debunk
+2 Dust Tornado
+2 Full House
+2 Light-Imprisoning Mirror
+2 Overworked
+
+---
+
+Deck: Qliphort 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014
+Player: Oleksandr Atamanenko
+Deck Type: Qliphort
+Source URL: https://www.yugiohtopdecks.org/deck/333
+
+Main Deck
+1 Apoqliphort Towers
+1 Odd-Eyes Pendulum Dragon
+2 Performapal Trampolynx
+3 Qliphort Carrier
+3 Qliphort Disk
+2 Qliphort Helix
+3 Qliphort Scout
+1 Qliphort Shell
+3 Forbidden Chalice
+3 Mystical Space Typhoon
+2 Night Beam
+3 Pot of Duality
+3 Saqlifice
+3 Summoner's Art
+1 Compulsory Evacuation Device
+1 Qlimate Change
+2 Skill Drain
+1 Soul Drain
+2 Vanity's Emptiness
+
+Extra Deck
+1 Castel, the Skyblaster Musketeer
+1 Gagaga Cowboy
+1 Lavalval Chain
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 61: Volcasaurus
+1 Shark Fortress
+
+Side Deck
+3 Consecrated Light
+3 Spell Shattering Arrow
+2 The Monarchs Stormforth
+2 Twister
+2 Shadow-Imprisoning Mirror
+3 Xing Zhen Hu

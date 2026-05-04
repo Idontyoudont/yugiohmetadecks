@@ -6973,5 +6973,1203 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     }
   ],
+  },
+  {
+    id: "gadget-2007",
+    name: "Gadget 2007",
+    year: 2007,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
+      player: "Christopher Gonzalez",
+      deckType: "Gadget",
+      url: "https://www.yugiohtopdecks.org/deck/483",
+    },
+    mainDeck: [
+    {
+      name: "Green Gadget",
+      quantity: 3,
+    },
+    {
+      name: "Kagetokage",
+      quantity: 3,
+    },
+    {
+      name: "Machina Fortress",
+      quantity: 1,
+    },
+    {
+      name: "Machina Gearframe",
+      quantity: 1,
+    },
+    {
+      name: "Red Gadget",
+      quantity: 3,
+    },
+    {
+      name: "Redox, Dragon Ruler of Boulders",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "earth", "graveyard engine", "revival"],
+    },
+    {
+      name: "Tin Goldfish",
+      quantity: 3,
+    },
+    {
+      name: "Traptrix Myrmeleo",
+      quantity: 2,
+    },
+    {
+      name: "Yellow Gadget",
+      quantity: 3,
+    },
+    {
+      name: "Book of Moon",
+      quantity: 1,
+      tags: ["disruption", "flip support", "quick-play"],
+    },
+    {
+      name: "Chain Summoning",
+      quantity: 3,
+    },
+    {
+      name: "Dark Hole",
+      quantity: 1,
+      tags: ["board clear", "removal"],
+    },
+    {
+      name: "Forbidden Lance",
+      quantity: 2,
+    },
+    {
+      name: "Mind Control",
+      quantity: 1,
+      tags: ["control"],
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 3,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Bottomless Trap Hole",
+      quantity: 1,
+      tags: ["banish", "removal", "trap"],
+    },
+    {
+      name: "Compulsory Evacuation Device",
+      quantity: 1,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Dimensional Prison",
+      quantity: 2,
+    },
+    {
+      name: "Fiendish Chain",
+      quantity: 3,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    },
+    {
+      name: "Torrential Tribute",
+      quantity: 1,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Trap Hole",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Abyss Dweller",
+      quantity: 1,
+    },
+    {
+      name: "Daigusto Emeral",
+      quantity: 1,
+    },
+    {
+      name: "Diamond Dire Wolf",
+      quantity: 1,
+    },
+    {
+      name: "Evilswarm Exciton Knight",
+      quantity: 1,
+    },
+    {
+      name: "Evilswarm Ouroboros",
+      quantity: 1,
+    },
+    {
+      name: "Gagaga Cowboy",
+      quantity: 1,
+    },
+    {
+      name: "Gear Gigant X",
+      quantity: 1,
+    },
+    {
+      name: "King of the Feral Imps",
+      quantity: 1,
+    },
+    {
+      name: "Lavalval Chain",
+      quantity: 1,
+    },
+    {
+      name: "Maestroke the Symphony Djinn",
+      quantity: 1,
+    },
+    {
+      name: "Mecha Phantom Beast Dracossack",
+      quantity: 1,
+      tags: ["rank 7", "removal", "token", "xyz"],
+    },
+    {
+      name: "Number 101: Silent Honor ARK",
+      quantity: 1,
+    },
+    {
+      name: "Number 50: Blackship of Corn",
+      quantity: 1,
+    },
+    {
+      name: "Steelswarm Roach",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Pearl",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "D.D. Crow",
+      quantity: 2,
+      tags: ["graveyard control", "hand trap", "side deck"],
+    },
+    {
+      name: "Fossil Dyna Pachycephalo",
+      quantity: 2,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "Swift Scarecrow",
+      quantity: 1,
+    },
+    {
+      name: "Prohibition",
+      quantity: 2,
+    },
+    {
+      name: "Smashing Ground",
+      quantity: 2,
+    },
+    {
+      name: "Light-Imprisoning Mirror",
+      quantity: 2,
+    },
+    {
+      name: "Overworked",
+      quantity: 2,
+    }
+  ],
+  },
+  {
+    id: "plant-2011",
+    name: "Plant 2011",
+    year: 2011,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
+      player: "Adam Hutchins",
+      deckType: "Plant",
+      url: "https://www.yugiohtopdecks.org/deck/432",
+    },
+    mainDeck: [
+    {
+      name: "Blaster, Dragon Ruler of Infernos",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "fire", "graveyard engine", "removal"],
+    },
+    {
+      name: "Card Trooper",
+      quantity: 2,
+    },
+    {
+      name: "Dandylion",
+      quantity: 1,
+    },
+    {
+      name: "Debris Dragon",
+      quantity: 1,
+      tags: ["dragon", "revival", "synchro setup", "tuner"],
+    },
+    {
+      name: "Flamvell Guard",
+      quantity: 2,
+      tags: ["dragon", "synchro setup", "tuner"],
+    },
+    {
+      name: "Gorz the Emissary of Darkness",
+      quantity: 1,
+    },
+    {
+      name: "Kuribandit",
+      quantity: 3,
+    },
+    {
+      name: "Lonefire Blossom",
+      quantity: 2,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 3,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "Mythic Tree Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Mythic Water Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Redox, Dragon Ruler of Boulders",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "earth", "graveyard engine", "revival"],
+    },
+    {
+      name: "Spore",
+      quantity: 1,
+    },
+    {
+      name: "Tempest, Dragon Ruler of Storms",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "graveyard engine", "search", "wind"],
+    },
+    {
+      name: "Tidal, Dragon Ruler of Waterfalls",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "graveyard engine", "graveyard setup", "water"],
+    },
+    {
+      name: "Burial from a Different Dimension",
+      quantity: 1,
+    },
+    {
+      name: "Dragon Shrine",
+      quantity: 3,
+    },
+    {
+      name: "Foolish Burial",
+      quantity: 1,
+    },
+    {
+      name: "Gold Sarcophagus",
+      quantity: 1,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 2,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Soul Charge",
+      quantity: 3,
+    },
+    {
+      name: "Bottomless Trap Hole",
+      quantity: 1,
+      tags: ["banish", "removal", "trap"],
+    },
+    {
+      name: "Compulsory Evacuation Device",
+      quantity: 2,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Phoenix Wing Wind Blast",
+      quantity: 2,
+      tags: ["discard outlet", "removal", "trap"],
+    },
+    {
+      name: "Torrential Tribute",
+      quantity: 1,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Trap Stun",
+      quantity: 1,
+    },
+    {
+      name: "Vanity's Emptiness",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Black Rose Dragon",
+      quantity: 1,
+      tags: ["board clear", "level 7", "synchro"],
+    },
+    {
+      name: "Colossal Fighter",
+      quantity: 1,
+      tags: ["level 8", "synchro"],
+    },
+    {
+      name: "Crimson Blader",
+      quantity: 1,
+      tags: ["level 8", "lockdown", "synchro"],
+    },
+    {
+      name: "Divine Dragon Knight Felgrand",
+      quantity: 1,
+    },
+    {
+      name: "Evilswarm Exciton Knight",
+      quantity: 1,
+    },
+    {
+      name: "Formula Synchron",
+      quantity: 1,
+    },
+    {
+      name: "Hieratic Sun Dragon Overlord of Heliopolis",
+      quantity: 1,
+    },
+    {
+      name: "Leo, the Keeper of the Sacred Tree",
+      quantity: 1,
+    },
+    {
+      name: "Mecha Phantom Beast Dracossack",
+      quantity: 2,
+      tags: ["rank 7", "removal", "token", "xyz"],
+    },
+    {
+      name: "Number 11: Big Eye",
+      quantity: 1,
+      tags: ["control", "rank 7", "xyz"],
+    },
+    {
+      name: "Scrap Dragon",
+      quantity: 1,
+      tags: ["level 8", "removal", "synchro"],
+    },
+    {
+      name: "Stardust Spark Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Star Eater",
+      quantity: 1,
+      tags: ["boss monster", "level 11", "synchro"],
+    },
+    {
+      name: "T.G. Hyper Librarian",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "D.D. Crow",
+      quantity: 1,
+      tags: ["graveyard control", "hand trap", "side deck"],
+    },
+    {
+      name: "Fire Hand",
+      quantity: 3,
+    },
+    {
+      name: "Ice Hand",
+      quantity: 3,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 1,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Black Horn of Heaven",
+      quantity: 2,
+    },
+    {
+      name: "Debunk",
+      quantity: 2,
+    },
+    {
+      name: "Skill Drain",
+      quantity: 2,
+    },
+    {
+      name: "Trap Stun",
+      quantity: 1,
+    }
+  ],
+  },
+  {
+    id: "synchro-2011",
+    name: "Synchro 2011",
+    year: 2011,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
+      player: "Patrick Hoban",
+      deckType: "Synchro",
+      url: "https://www.yugiohtopdecks.org/deck/562",
+    },
+    mainDeck: [
+    {
+      name: "Armageddon Knight",
+      quantity: 1,
+    },
+    {
+      name: "Dark Grepher",
+      quantity: 1,
+    },
+    {
+      name: "Infernity Archfiend",
+      quantity: 3,
+    },
+    {
+      name: "Infernity Avenger",
+      quantity: 1,
+    },
+    {
+      name: "Infernity Mirage",
+      quantity: 1,
+    },
+    {
+      name: "Infernity Necromancer",
+      quantity: 3,
+    },
+    {
+      name: "Stygian Street Patrol",
+      quantity: 2,
+    },
+    {
+      name: "Summoner Monk",
+      quantity: 2,
+    },
+    {
+      name: "Card Destruction",
+      quantity: 1,
+    },
+    {
+      name: "Foolish Burial",
+      quantity: 1,
+    },
+    {
+      name: "Heavy Storm",
+      quantity: 1,
+      tags: ["backrow removal", "power spell"],
+    },
+    {
+      name: "Infernity Launcher",
+      quantity: 1,
+    },
+    {
+      name: "Instant Fusion",
+      quantity: 2,
+    },
+    {
+      name: "Monster Reborn",
+      quantity: 1,
+    },
+    {
+      name: "One for One",
+      quantity: 1,
+    },
+    {
+      name: "Pot of Duality",
+      quantity: 2,
+    },
+    {
+      name: "Reinforcement of the Army",
+      quantity: 1,
+    },
+    {
+      name: "Upstart Goblin",
+      quantity: 3,
+    },
+    {
+      name: "Bottomless Trap Hole",
+      quantity: 2,
+      tags: ["banish", "removal", "trap"],
+    },
+    {
+      name: "Infernity Barrier",
+      quantity: 3,
+    },
+    {
+      name: "Infernity Break",
+      quantity: 1,
+    },
+    {
+      name: "Mirror Force",
+      quantity: 2,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Solemn Judgment",
+      quantity: 1,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    },
+    {
+      name: "Trap Stun",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Abyss Dweller",
+      quantity: 1,
+    },
+    {
+      name: "Armory Arm",
+      quantity: 1,
+      tags: ["level 4", "synchro"],
+    },
+    {
+      name: "Diamond Dire Wolf",
+      quantity: 2,
+    },
+    {
+      name: "Infernity Doom Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Lavalval Chain",
+      quantity: 2,
+    },
+    {
+      name: "Leviair the Sea Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Maestroke the Symphony Djinn",
+      quantity: 1,
+    },
+    {
+      name: "Stygian Sergeants",
+      quantity: 1,
+    },
+    {
+      name: "Void Ogre Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Darkfire Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Fusionist",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Infernity Randomizer",
+      quantity: 3,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 3,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Offerings to the Doomed",
+      quantity: 3,
+    },
+    {
+      name: "Dimensional Prison",
+      quantity: 2,
+    },
+    {
+      name: "Reinforce Truth",
+      quantity: 1,
+    },
+    {
+      name: "Soul Drain",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "elemental-2012",
+    name: "Elemental 2012",
+    year: 2012,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013",
+      player: "Justin Osbien Franklin",
+      deckType: "Elemental",
+      url: "https://www.yugiohtopdecks.org/deck/613",
+    },
+    mainDeck: [
+    {
+      name: "Elemental HERO Bubbleman",
+      quantity: 2,
+    },
+    {
+      name: "Elemental HERO Neos Alius",
+      quantity: 3,
+    },
+    {
+      name: "Elemental HERO Stratos",
+      quantity: 1,
+    },
+    {
+      name: "Honest",
+      quantity: 1,
+    },
+    {
+      name: "Photon Thrasher",
+      quantity: 2,
+    },
+    {
+      name: "Thunder King Rai-Oh",
+      quantity: 2,
+    },
+    {
+      name: "Dark Hole",
+      quantity: 1,
+      tags: ["board clear", "removal"],
+    },
+    {
+      name: "E - Emergency Call",
+      quantity: 2,
+    },
+    {
+      name: "Gemini Spark",
+      quantity: 3,
+    },
+    {
+      name: "Heavy Storm",
+      quantity: 1,
+      tags: ["backrow removal", "power spell"],
+    },
+    {
+      name: "Miracle Fusion",
+      quantity: 3,
+    },
+    {
+      name: "Monster Reborn",
+      quantity: 1,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 2,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Pot of Duality",
+      quantity: 2,
+    },
+    {
+      name: "Reinforcement of the Army",
+      quantity: 1,
+    },
+    {
+      name: "Super Polymerization",
+      quantity: 2,
+    },
+    {
+      name: "Bottomless Trap Hole",
+      quantity: 1,
+      tags: ["banish", "removal", "trap"],
+    },
+    {
+      name: "Dark Bribe",
+      quantity: 1,
+    },
+    {
+      name: "Dimensional Prison",
+      quantity: 1,
+    },
+    {
+      name: "Hero Blast",
+      quantity: 1,
+    },
+    {
+      name: "Mirror Force",
+      quantity: 2,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Skill Drain",
+      quantity: 1,
+    },
+    {
+      name: "Solemn Judgment",
+      quantity: 1,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    },
+    {
+      name: "Torrential Tribute",
+      quantity: 2,
+      tags: ["removal", "trap"],
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Abyss Dweller",
+      quantity: 1,
+    },
+    {
+      name: "Blade Armor Ninja",
+      quantity: 1,
+    },
+    {
+      name: "Elemental HERO Absolute Zero",
+      quantity: 1,
+    },
+    {
+      name: "Elemental HERO Escuridao",
+      quantity: 1,
+    },
+    {
+      name: "Elemental HERO Great Tornado",
+      quantity: 1,
+    },
+    {
+      name: "Elemental HERO Nova Master",
+      quantity: 1,
+    },
+    {
+      name: "Elemental HERO The Shining",
+      quantity: 2,
+    },
+    {
+      name: "Heroic Champion - Excalibur",
+      quantity: 1,
+    },
+    {
+      name: "Maestroke the Symphony Djinn",
+      quantity: 1,
+    },
+    {
+      name: "Number 16: Shock Master",
+      quantity: 1,
+    },
+    {
+      name: "Number 50: Blackship of Corn",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Pearl",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Doomcaliber Knight",
+      quantity: 2,
+    },
+    {
+      name: "Forbidden Lance",
+      quantity: 3,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 1,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Night Beam",
+      quantity: 1,
+    },
+    {
+      name: "Mind Crush",
+      quantity: 3,
+    },
+    {
+      name: "Rivalry of Warlords",
+      quantity: 2,
+    },
+    {
+      name: "Skill Drain",
+      quantity: 1,
+    },
+    {
+      name: "Soul Drain",
+      quantity: 2,
+    }
+  ],
+  },
+  {
+    id: "shaddoll-2014",
+    name: "Shaddoll 2014",
+    year: 2014,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014",
+      player: "Jonhathan Sebastian Vazquez Herrera",
+      deckType: "Shaddoll",
+      url: "https://www.yugiohtopdecks.org/deck/366",
+    },
+    mainDeck: [
+    {
+      name: "Aqua Spirit",
+      quantity: 2,
+    },
+    {
+      name: "Atlantean Dragoons",
+      quantity: 1,
+    },
+    {
+      name: "Atlantean Heavy Infantry",
+      quantity: 2,
+    },
+    {
+      name: "Atlantean Marksman",
+      quantity: 3,
+    },
+    {
+      name: "Deep Sea Diva",
+      quantity: 1,
+    },
+    {
+      name: "Mermail Abyssgunde",
+      quantity: 1,
+    },
+    {
+      name: "Mermail Abyssleed",
+      quantity: 1,
+    },
+    {
+      name: "Mermail Abysslinde",
+      quantity: 3,
+    },
+    {
+      name: "Mermail Abyssmegalo",
+      quantity: 2,
+    },
+    {
+      name: "Mermail Abysspike",
+      quantity: 3,
+    },
+    {
+      name: "Mermail Abyssteus",
+      quantity: 3,
+    },
+    {
+      name: "Mermail Abyssturge",
+      quantity: 1,
+    },
+    {
+      name: "Tidal, Dragon Ruler of Waterfalls",
+      quantity: 1,
+      tags: ["boss monster", "dragon ruler", "graveyard engine", "graveyard setup", "water"],
+    },
+    {
+      name: "Book of Moon",
+      quantity: 1,
+      tags: ["disruption", "flip support", "quick-play"],
+    },
+    {
+      name: "Dark Hole",
+      quantity: 1,
+      tags: ["board clear", "removal"],
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 3,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Salvage",
+      quantity: 1,
+    },
+    {
+      name: "Abyss-sphere",
+      quantity: 3,
+    },
+    {
+      name: "Bottomless Trap Hole",
+      quantity: 1,
+      tags: ["banish", "removal", "trap"],
+    },
+    {
+      name: "Fiendish Chain",
+      quantity: 3,
+    },
+    {
+      name: "Mind Crush",
+      quantity: 2,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    },
+    {
+      name: "Torrential Tribute",
+      quantity: 1,
+      tags: ["removal", "trap"],
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Abyss Dweller",
+      quantity: 1,
+    },
+    {
+      name: "Armades, Keeper of Boundaries",
+      quantity: 1,
+    },
+    {
+      name: "Bahamut Shark",
+      quantity: 1,
+    },
+    {
+      name: "Dewloren, Tiger King of the Ice Barrier",
+      quantity: 1,
+    },
+    {
+      name: "Evilswarm Exciton Knight",
+      quantity: 1,
+    },
+    {
+      name: "Ghostrick Alucard",
+      quantity: 1,
+    },
+    {
+      name: "Lavalval Chain",
+      quantity: 1,
+    },
+    {
+      name: "Leviair the Sea Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Mecha Phantom Beast Dracossack",
+      quantity: 1,
+      tags: ["rank 7", "removal", "token", "xyz"],
+    },
+    {
+      name: "Mermail Abyssgaios",
+      quantity: 2,
+    },
+    {
+      name: "Mermail Abysstrite",
+      quantity: 1,
+    },
+    {
+      name: "Number 101: Silent Honor ARK",
+      quantity: 1,
+    },
+    {
+      name: "Number 11: Big Eye",
+      quantity: 1,
+      tags: ["control", "rank 7", "xyz"],
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Effect Veiler",
+      quantity: 1,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "Black Horn of Heaven",
+      quantity: 2,
+    },
+    {
+      name: "Debunk",
+      quantity: 2,
+    },
+    {
+      name: "Dust Tornado",
+      quantity: 2,
+      tags: ["backrow removal", "trap"],
+    },
+    {
+      name: "Full House",
+      quantity: 2,
+    },
+    {
+      name: "Light-Imprisoning Mirror",
+      quantity: 2,
+    },
+    {
+      name: "Overworked",
+      quantity: 2,
+    }
+  ],
+  },
+  {
+    id: "qliphort-2015",
+    name: "Qliphort 2015",
+    year: 2015,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
+      player: "Oleksandr Atamanenko",
+      deckType: "Qliphort",
+      url: "https://www.yugiohtopdecks.org/deck/333",
+    },
+    mainDeck: [
+    {
+      name: "Apoqliphort Towers",
+      quantity: 1,
+    },
+    {
+      name: "Odd-Eyes Pendulum Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Performapal Trampolynx",
+      quantity: 2,
+    },
+    {
+      name: "Qliphort Carrier",
+      quantity: 3,
+    },
+    {
+      name: "Qliphort Disk",
+      quantity: 3,
+    },
+    {
+      name: "Qliphort Helix",
+      quantity: 2,
+    },
+    {
+      name: "Qliphort Scout",
+      quantity: 3,
+    },
+    {
+      name: "Qliphort Shell",
+      quantity: 1,
+    },
+    {
+      name: "Forbidden Chalice",
+      quantity: 3,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 3,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Night Beam",
+      quantity: 2,
+    },
+    {
+      name: "Pot of Duality",
+      quantity: 3,
+    },
+    {
+      name: "Saqlifice",
+      quantity: 3,
+    },
+    {
+      name: "Summoner's Art",
+      quantity: 3,
+    },
+    {
+      name: "Compulsory Evacuation Device",
+      quantity: 1,
+      tags: ["removal", "trap"],
+    },
+    {
+      name: "Qlimate Change",
+      quantity: 1,
+    },
+    {
+      name: "Skill Drain",
+      quantity: 2,
+    },
+    {
+      name: "Soul Drain",
+      quantity: 1,
+    },
+    {
+      name: "Vanity's Emptiness",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Castel, the Skyblaster Musketeer",
+      quantity: 1,
+    },
+    {
+      name: "Gagaga Cowboy",
+      quantity: 1,
+    },
+    {
+      name: "Lavalval Chain",
+      quantity: 1,
+    },
+    {
+      name: "Number 103: Ragnazero",
+      quantity: 1,
+    },
+    {
+      name: "Number 50: Blackship of Corn",
+      quantity: 1,
+    },
+    {
+      name: "Number 61: Volcasaurus",
+      quantity: 1,
+    },
+    {
+      name: "Shark Fortress",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Consecrated Light",
+      quantity: 3,
+    },
+    {
+      name: "Spell Shattering Arrow",
+      quantity: 3,
+    },
+    {
+      name: "The Monarchs Stormforth",
+      quantity: 2,
+    },
+    {
+      name: "Twister",
+      quantity: 2,
+    },
+    {
+      name: "Shadow-Imprisoning Mirror",
+      quantity: 2,
+    },
+    {
+      name: "Xing Zhen Hu",
+      quantity: 3,
+    }
+  ],
   }
 ];

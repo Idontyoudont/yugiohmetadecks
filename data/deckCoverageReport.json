@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T19:29:21.223Z",
+  "generatedAt": "2026-05-04T19:37:06.911Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 25,
-  "missingTargetSlots": 80,
-  "totalKnownDecks": 37,
+  "filledTargetSlots": 27,
+  "missingTargetSlots": 78,
+  "totalKnownDecks": 43,
   "years": [
     {
       "year": 2005,
@@ -144,11 +144,11 @@
       "year": 2007,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 1,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -163,8 +163,17 @@
         },
         {
           "targetName": "Gadget",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "gadget-2007",
+              "name": "Gadget 2007",
+              "year": 2007,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Zombie",
@@ -181,6 +190,14 @@
         {
           "id": "monarch-2007",
           "name": "Monarch 2007",
+          "year": 2007,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "gadget-2007",
+          "name": "Gadget 2007",
           "year": 2007,
           "format": "Imported Format",
           "status": "draft",
@@ -381,9 +398,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 2,
       "missingTargetCount": 3,
-      "knownDeckCount": 3,
+      "knownDeckCount": 5,
       "completeDeckCount": 0,
-      "draftDeckCount": 3,
+      "draftDeckCount": 5,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -454,6 +471,22 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "plant-2011",
+          "name": "Plant 2011",
+          "year": 2011,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "synchro-2011",
+          "name": "Synchro 2011",
+          "year": 2011,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -463,9 +496,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 3,
       "missingTargetCount": 2,
-      "knownDeckCount": 5,
+      "knownDeckCount": 6,
       "completeDeckCount": 0,
-      "draftDeckCount": 5,
+      "draftDeckCount": 6,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -557,6 +590,14 @@
         {
           "id": "hero-2012",
           "name": "HERO 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "elemental-2012",
+          "name": "Elemental 2012",
           "year": 2012,
           "format": "Imported Format",
           "status": "draft",
@@ -688,16 +729,16 @@
           "sourceType": "imported"
         },
         {
-          "id": "evilswarm-2013",
-          "name": "Evilswarm 2013",
+          "id": "spellbook-2013",
+          "name": "Spellbook 2013",
           "year": 2013,
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
         },
         {
-          "id": "spellbook-2013",
-          "name": "Spellbook 2013",
+          "id": "evilswarm-2013",
+          "name": "Evilswarm 2013",
           "year": 2013,
           "format": "Imported Format",
           "status": "draft",
@@ -711,9 +752,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 4,
       "missingTargetCount": 1,
-      "knownDeckCount": 7,
+      "knownDeckCount": 8,
       "completeDeckCount": 0,
-      "draftDeckCount": 7,
+      "draftDeckCount": 8,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -834,6 +875,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "shaddoll-2014",
+          "name": "Shaddoll 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -841,11 +890,11 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 4,
-      "missingTargetCount": 1,
-      "knownDeckCount": 4,
+      "filledTargetCount": 5,
+      "missingTargetCount": 0,
+      "knownDeckCount": 5,
       "completeDeckCount": 0,
-      "draftDeckCount": 4,
+      "draftDeckCount": 5,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -892,8 +941,17 @@
         },
         {
           "targetName": "Qliphort",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "qliphort-2015",
+              "name": "Qliphort 2015",
+              "year": 2015,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Satellarknight",
@@ -938,6 +996,14 @@
         {
           "id": "shaddoll-2015",
           "name": "Shaddoll 2015",
+          "year": 2015,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "qliphort-2015",
+          "name": "Qliphort 2015",
           "year": 2015,
           "format": "Imported Format",
           "status": "draft",
