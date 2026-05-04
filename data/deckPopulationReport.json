@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-04T15:25:35.525Z",
+  "generatedAt": "2026-05-04T15:27:09.120Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
   "importedCount": 2,
-  "sourceRegisteredCount": 0,
+  "sourceRegisteredCount": 4,
   "deckWithoutRegisteredSourceCount": 0,
-  "missingCount": 103,
+  "missingCount": 99,
   "years": [
     {
       "year": 2005,
@@ -168,19 +168,31 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2007,
           "targetName": "Perfect Circle Monarch",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2007,
+              "target": "Perfect Circle Monarch",
+              "status": "source-registered",
+              "sourceType": "format-reference",
+              "label": "Format Library Perfect Circle Format",
+              "player": null,
+              "deckType": "Perfect Circle Monarch",
+              "url": "https://formatlibrary.com/formats/perfect-circle",
+              "notes": "Format reference source. Useful for identifying the archetype and format context. May need a separate exact tournament decklist source before importing."
+            }
+          ],
           "decks": []
         },
         {
@@ -234,19 +246,31 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2008,
           "targetName": "TeleDAD",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2008,
+              "target": "TeleDAD",
+              "status": "source-registered",
+              "sourceType": "event-archive",
+              "label": "SJC Detroit 2008 Top 16",
+              "player": "Steven Harris",
+              "deckType": "TeleDAD",
+              "url": "https://www.formatlibrary.com/events/SJCDET08",
+              "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Use as candidate source for importing a representative 2008 TeleDAD list."
+            }
+          ],
           "decks": []
         },
         {
@@ -300,19 +324,31 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2009,
           "targetName": "Blackwing",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2009,
+              "target": "Blackwing",
+              "status": "source-registered",
+              "sourceType": "official-event-coverage",
+              "label": "SJC Orlando 2009 Top 16 Decklists",
+              "player": null,
+              "deckType": "Blackwing",
+              "url": "https://yugiohblog.konami.com/2009/sjc/top-16-decklists/",
+              "notes": "Official Konami event coverage with Top 16 decklists. Use one Blackwing list from this page for the 2009 Blackwing target."
+            }
+          ],
           "decks": []
         },
         {
@@ -366,9 +402,9 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2010,
@@ -384,12 +420,24 @@
         {
           "year": 2010,
           "targetName": "X-Saber",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2010,
+              "target": "X-Saber",
+              "status": "source-registered",
+              "sourceType": "official-event-coverage",
+              "label": "Konami YCS X-Saber Deck Profile",
+              "player": "Devin Clark",
+              "deckType": "X-Saber",
+              "url": "https://yugiohblog.konami.com/2010/ycs/deck-profile-devin-clarks-x-saber-deck/",
+              "notes": "Official Konami YCS coverage deck profile. Candidate source for the 2010 X-Saber target."
+            }
+          ],
           "decks": []
         },
         {

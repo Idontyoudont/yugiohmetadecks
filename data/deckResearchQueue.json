@@ -264,28 +264,6 @@
     }
   },
   {
-    "id": "2007-perfect-circle-monarch",
-    "year": 2007,
-    "targetName": "Perfect Circle Monarch",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2007 Perfect Circle Monarch yugioh decklist",
-      "2007 Perfect Circle Monarch YCS deck profile",
-      "2007 Perfect Circle Monarch yugioh top deck",
-      "Perfect Circle Monarch 2007 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Perfect%20Circle%20Monarch"
-    }
-  },
-  {
     "id": "2007-zombie",
     "year": 2007,
     "targetName": "Zombie",
@@ -374,28 +352,6 @@
     }
   },
   {
-    "id": "2008-teledad",
-    "year": 2008,
-    "targetName": "TeleDAD",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2008 TeleDAD yugioh decklist",
-      "2008 TeleDAD YCS deck profile",
-      "2008 TeleDAD yugioh top deck",
-      "TeleDAD 2008 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2008%20TeleDAD%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20TeleDAD"
-    }
-  },
-  {
     "id": "2008-zombie-synchro",
     "year": 2008,
     "targetName": "Zombie Synchro",
@@ -415,28 +371,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Zombie%20Synchro"
-    }
-  },
-  {
-    "id": "2009-blackwing",
-    "year": 2009,
-    "targetName": "Blackwing",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2009 Blackwing yugioh decklist",
-      "2009 Blackwing YCS deck profile",
-      "2009 Blackwing yugioh top deck",
-      "Blackwing 2009 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2009%20Blackwing%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Blackwing"
     }
   },
   {
@@ -613,28 +547,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Quickdraw%20Dandywarrior"
-    }
-  },
-  {
-    "id": "2010-x-saber",
-    "year": 2010,
-    "targetName": "X-Saber",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 X-Saber yugioh decklist",
-      "2010 X-Saber YCS deck profile",
-      "2010 X-Saber yugioh top deck",
-      "X-Saber 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20X-Saber%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
     }
   },
   {
@@ -2263,6 +2175,94 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2025%20Snake-Eye%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2025%20Snake-Eye%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2025%20Snake-Eye"
+    }
+  },
+  {
+    "id": "2007-perfect-circle-monarch",
+    "year": 2007,
+    "targetName": "Perfect Circle Monarch",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2007 Perfect Circle Monarch yugioh decklist",
+      "2007 Perfect Circle Monarch YCS deck profile",
+      "2007 Perfect Circle Monarch yugioh top deck",
+      "Perfect Circle Monarch 2007 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Perfect%20Circle%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Perfect%20Circle%20Monarch"
+    }
+  },
+  {
+    "id": "2008-teledad",
+    "year": 2008,
+    "targetName": "TeleDAD",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 TeleDAD yugioh decklist",
+      "2008 TeleDAD YCS deck profile",
+      "2008 TeleDAD yugioh top deck",
+      "TeleDAD 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20TeleDAD%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20TeleDAD%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20TeleDAD"
+    }
+  },
+  {
+    "id": "2009-blackwing",
+    "year": 2009,
+    "targetName": "Blackwing",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2009 Blackwing yugioh decklist",
+      "2009 Blackwing YCS deck profile",
+      "2009 Blackwing yugioh top deck",
+      "Blackwing 2009 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2009%20Blackwing%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Blackwing"
+    }
+  },
+  {
+    "id": "2010-x-saber",
+    "year": 2010,
+    "targetName": "X-Saber",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 X-Saber yugioh decklist",
+      "2010 X-Saber YCS deck profile",
+      "2010 X-Saber yugioh top deck",
+      "X-Saber 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20X-Saber%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
     }
   }
 ]
