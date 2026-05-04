@@ -1,10 +1,253 @@
 {
-  "generatedAt": "2026-05-04T18:47:15.993Z",
-  "parsedSourceCount": 4,
-  "attemptedSourceCount": 2,
+  "generatedAt": "2026-05-04T18:54:39.248Z",
+  "parsedSourceCount": 8,
+  "attemptedSourceCount": 6,
   "skippedSourceCount": 2,
-  "candidateDeckCount": 2,
+  "candidateDeckCount": 6,
   "candidates": [
+    {
+      "source": {
+        "year": 2007,
+        "target": "Monarch",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 2785",
+        "player": "Charley La",
+        "deckType": "Monarch",
+        "url": "https://www.yugiohtopdecks.org/deck/2785",
+        "notes": "Volcanic Monarchs from 2007 SJ San Mateo. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "textFile": "data\\deckSourcePages\\2007-monarch-charley-la.txt",
+      "parseStatus": "parseable",
+      "skipped": false,
+      "skipReason": null,
+      "candidateLineCount": 43,
+      "totalCardCount": 56,
+      "mainDeckCount": 41,
+      "extraDeckCount": 0,
+      "sideDeckCount": 15,
+      "confidence": "high",
+      "usedExplicitSections": true,
+      "notes": "Sections were parsed from explicit Main Deck, Extra Deck, and Side Deck headings.",
+      "candidateLines": [
+        {
+          "quantity": 1,
+          "cardName": "Apprentice Magician",
+          "originalLine": "1x Apprentice Magician"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Breaker the Magical Warrior",
+          "originalLine": "1x Breaker the Magical Warrior"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Crystal Seer",
+          "originalLine": "2x Crystal Seer"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Kycoo the Ghost Destroyer",
+          "originalLine": "2x Kycoo the Ghost Destroyer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Magician of Faith",
+          "originalLine": "1x Magician of Faith"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mobius the Frost Monarch",
+          "originalLine": "1x Mobius the Frost Monarch"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Old Vindictive Magician",
+          "originalLine": "1x Old Vindictive Magician"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Raiza the Storm Monarch",
+          "originalLine": "2x Raiza the Storm Monarch"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Sangan",
+          "originalLine": "1x Sangan"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Snipe Hunter",
+          "originalLine": "1x Snipe Hunter"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Thestalos the Firestorm Monarch",
+          "originalLine": "3x Thestalos the Firestorm Monarch"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Treeborn Frog",
+          "originalLine": "1x Treeborn Frog"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Volcanic Rocket",
+          "originalLine": "2x Volcanic Rocket"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Volcanic Shell",
+          "originalLine": "3x Volcanic Shell"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Blaze Accelerator",
+          "originalLine": "1x Blaze Accelerator"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Book of Moon",
+          "originalLine": "1x Book of Moon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Brain Control",
+          "originalLine": "1x Brain Control"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Heavy Storm",
+          "originalLine": "1x Heavy Storm"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mystical Space Typhoon",
+          "originalLine": "1x Mystical Space Typhoon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Pot of Avarice",
+          "originalLine": "1x Pot of Avarice"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Premature Burial",
+          "originalLine": "1x Premature Burial"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Soul Exchange",
+          "originalLine": "2x Soul Exchange"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Wild Fire",
+          "originalLine": "1x Wild Fire"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Bottomless Trap Hole",
+          "originalLine": "1x Bottomless Trap Hole"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Call of the Haunted",
+          "originalLine": "1x Call of the Haunted"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Dust Tornado",
+          "originalLine": "1x Dust Tornado"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mirror Force",
+          "originalLine": "1x Mirror Force"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Phoenix Wing Wind Blast",
+          "originalLine": "2x Phoenix Wing Wind Blast"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Sakuretsu Armor",
+          "originalLine": "1x Sakuretsu Armor"
+        },
+        {
+          "quantity": 1,
+          "cardName": "The Transmigration Prophecy",
+          "originalLine": "1x The Transmigration Prophecy"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Torrential Tribute",
+          "originalLine": "1x Torrential Tribute"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Apprentice Magician",
+          "originalLine": "1x Apprentice Magician"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Cyber Dragon",
+          "originalLine": "2x Cyber Dragon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Kinetic Soldier",
+          "originalLine": "1x Kinetic Soldier"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mobius the Frost Monarch",
+          "originalLine": "1x Mobius the Frost Monarch"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Volcanic Rocket",
+          "originalLine": "1x Volcanic Rocket"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Lightning Vortex",
+          "originalLine": "1x Lightning Vortex"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Shrink",
+          "originalLine": "1x Shrink"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Twister",
+          "originalLine": "1x Twister"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Forced Back",
+          "originalLine": "2x Forced Back"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Malevolent Catastrophe",
+          "originalLine": "1x Malevolent Catastrophe"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Pulling the Rug",
+          "originalLine": "1x Pulling the Rug"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Waboku",
+          "originalLine": "2x Waboku"
+        }
+      ]
+    },
     {
       "source": {
         "year": 2007,
@@ -532,6 +775,725 @@
           "quantity": 1,
           "cardName": "Soul Drain",
           "originalLine": "1x Soul Drain"
+        }
+      ]
+    },
+    {
+      "source": {
+        "year": 2015,
+        "target": "Burning Abyss",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4319",
+        "player": "Calvin Tahan",
+        "deckType": "Burning Abyss",
+        "url": "https://www.yugiohtopdecks.org/deck/4319",
+        "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "textFile": "data\\deckSourcePages\\2015-burning-abyss-calvin-tahan.txt",
+      "parseStatus": "parseable",
+      "skipped": false,
+      "skipReason": null,
+      "candidateLineCount": 44,
+      "totalCardCount": 78,
+      "mainDeckCount": 48,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "confidence": "high",
+      "usedExplicitSections": true,
+      "notes": "Sections were parsed from explicit Main Deck, Extra Deck, and Side Deck headings.",
+      "candidateLines": [
+        {
+          "quantity": 1,
+          "cardName": "Alich, Malebranche of the Burning Abyss",
+          "originalLine": "1x Alich, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Barbar, Malebranche of the Burning Abyss",
+          "originalLine": "1x Barbar, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Cagna, Malebranche of the Burning Abyss",
+          "originalLine": "2x Cagna, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Calcab, Malebranche of the Burning Abyss",
+          "originalLine": "1x Calcab, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Cir, Malebranche of the Burning Abyss",
+          "originalLine": "3x Cir, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Draghig, Malebranche of the Burning Abyss",
+          "originalLine": "1x Draghig, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Farfa, Malebranche of the Burning Abyss",
+          "originalLine": "2x Farfa, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Graff, Malebranche of the Burning Abyss",
+          "originalLine": "3x Graff, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Kuribandit",
+          "originalLine": "3x Kuribandit"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Libic, Malebranche of the Burning Abyss",
+          "originalLine": "1x Libic, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Rubic, Malebranche of the Burning Abyss",
+          "originalLine": "2x Rubic, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Scarm, Malebranche of the Burning Abyss",
+          "originalLine": "3x Scarm, Malebranche of the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Tour Guide From the Underworld",
+          "originalLine": "1x Tour Guide From the Underworld"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Allure of Darkness",
+          "originalLine": "1x Allure of Darkness"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Dark Hole",
+          "originalLine": "2x Dark Hole"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Foolish Burial",
+          "originalLine": "1x Foolish Burial"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Good & Evil in the Burning Abyss",
+          "originalLine": "1x Good & Evil in the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Raigeki",
+          "originalLine": "1x Raigeki"
+        },
+        {
+          "quantity": 2,
+          "cardName": "The Beginning of the End",
+          "originalLine": "2x The Beginning of the End"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Breakthrough Skill",
+          "originalLine": "3x Breakthrough Skill"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Crush Card Virus",
+          "originalLine": "1x Crush Card Virus"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Fiend Griefing",
+          "originalLine": "1x Fiend Griefing"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Fire Lake of the Burning Abyss",
+          "originalLine": "1x Fire Lake of the Burning Abyss"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Mind Crush",
+          "originalLine": "3x Mind Crush"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mistake",
+          "originalLine": "1x Mistake"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Phoenix Wing Wind Blast",
+          "originalLine": "3x Phoenix Wing Wind Blast"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Skill Drain",
+          "originalLine": "1x Skill Drain"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Solemn Warning",
+          "originalLine": "1x Solemn Warning"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Vanity's Emptiness",
+          "originalLine": "1x Vanity's Emptiness"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Dante, Traveler of the Burning Abyss",
+          "originalLine": "3x Dante, Traveler of the Burning Abyss"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Downerd Magician",
+          "originalLine": "2x Downerd Magician"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Ghostrick Alucard",
+          "originalLine": "2x Ghostrick Alucard"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Mechquipped Angineer",
+          "originalLine": "1x Mechquipped Angineer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Number 20: Giga-Brilliant",
+          "originalLine": "1x Number 20: Giga-Brilliant"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Number 30: Acid Golem of Destruction",
+          "originalLine": "2x Number 30: Acid Golem of Destruction"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Number 47: Nightmare Shark",
+          "originalLine": "1x Number 47: Nightmare Shark"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Virgil, Rock Star of the Burning Abyss",
+          "originalLine": "2x Virgil, Rock Star of the Burning Abyss"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Wind-Up Zenmaines",
+          "originalLine": "1x Wind-Up Zenmaines"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Maxx \"C\"",
+          "originalLine": "3x Maxx \"C\""
+        },
+        {
+          "quantity": 3,
+          "cardName": "Spell Canceller",
+          "originalLine": "3x Spell Canceller"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Vanity's Fiend",
+          "originalLine": "2x Vanity's Fiend"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Galaxy Cyclone",
+          "originalLine": "3x Galaxy Cyclone"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Mystical Space Typhoon",
+          "originalLine": "3x Mystical Space Typhoon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Non-Fusion Area",
+          "originalLine": "1x Non-Fusion Area"
+        }
+      ]
+    },
+    {
+      "source": {
+        "year": 2015,
+        "target": "Nekroz",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4520",
+        "player": "Ryan Levine",
+        "deckType": "Nekroz",
+        "url": "https://www.yugiohtopdecks.org/deck/4520",
+        "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "textFile": "data\\deckSourcePages\\2015-nekroz-ryan-levine.txt",
+      "parseStatus": "parseable",
+      "skipped": false,
+      "skipReason": null,
+      "candidateLineCount": 41,
+      "totalCardCount": 69,
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "confidence": "high",
+      "usedExplicitSections": true,
+      "notes": "Sections were parsed from explicit Main Deck, Extra Deck, and Side Deck headings.",
+      "candidateLines": [
+        {
+          "quantity": 1,
+          "cardName": "Exa, Enforcer of the Nekroz",
+          "originalLine": "1x Exa, Enforcer of the Nekroz"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Great Sorcerer of the Nekroz",
+          "originalLine": "1x Great Sorcerer of the Nekroz"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Manju of the Ten Thousand Hands",
+          "originalLine": "3x Manju of the Ten Thousand Hands"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Maxx \"C\"",
+          "originalLine": "2x Maxx \"C\""
+        },
+        {
+          "quantity": 2,
+          "cardName": "Nekroz of Brionac",
+          "originalLine": "2x Nekroz of Brionac"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Nekroz of Clausolas",
+          "originalLine": "2x Nekroz of Clausolas"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Nekroz of Decisive Armor",
+          "originalLine": "1x Nekroz of Decisive Armor"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Nekroz of Gungnir",
+          "originalLine": "1x Nekroz of Gungnir"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Nekroz of Trishula",
+          "originalLine": "1x Nekroz of Trishula"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Nekroz of Unicore",
+          "originalLine": "3x Nekroz of Unicore"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Nekroz of Valkyrus",
+          "originalLine": "3x Nekroz of Valkyrus"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Senju of the Thousand Hands",
+          "originalLine": "3x Senju of the Thousand Hands"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Shurit, Strategist of the Nekroz",
+          "originalLine": "1x Shurit, Strategist of the Nekroz"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Book of Moon",
+          "originalLine": "1x Book of Moon"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Nekroz Cycle",
+          "originalLine": "2x Nekroz Cycle"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Nekroz Kaleidoscope",
+          "originalLine": "2x Nekroz Kaleidoscope"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Nekroz Mirror",
+          "originalLine": "2x Nekroz Mirror"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Preparation of Rites",
+          "originalLine": "1x Preparation of Rites"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Reinforcement of the Army",
+          "originalLine": "3x Reinforcement of the Army"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Shared Ride",
+          "originalLine": "3x Shared Ride"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Upstart Goblin",
+          "originalLine": "1x Upstart Goblin"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Vanity's Emptiness",
+          "originalLine": "1x Vanity's Emptiness"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Abyss Dweller",
+          "originalLine": "2x Abyss Dweller"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Castel, the Skyblaster Musketeer",
+          "originalLine": "1x Castel, the Skyblaster Musketeer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Chimeratech Fortress Dragon",
+          "originalLine": "1x Chimeratech Fortress Dragon"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Daigusto Emeral",
+          "originalLine": "2x Daigusto Emeral"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Diamond Dire Wolf",
+          "originalLine": "1x Diamond Dire Wolf"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Evilswarm Exciton Knight",
+          "originalLine": "1x Evilswarm Exciton Knight"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Gagaga Cowboy",
+          "originalLine": "1x Gagaga Cowboy"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Herald of the Arc Light",
+          "originalLine": "2x Herald of the Arc Light"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Number 52: Diamond Crab King",
+          "originalLine": "1x Number 52: Diamond Crab King"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Number 80: Rhapsody in Berserk",
+          "originalLine": "1x Number 80: Rhapsody in Berserk"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Star Eater",
+          "originalLine": "1x Star Eater"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Cyber Dragon",
+          "originalLine": "1x Cyber Dragon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Denko Sekka",
+          "originalLine": "1x Denko Sekka"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Elemental HERO Prisma",
+          "originalLine": "1x Elemental HERO Prisma"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Mystical Space Typhoon",
+          "originalLine": "3x Mystical Space Typhoon"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Breakthrough Skill",
+          "originalLine": "2x Breakthrough Skill"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Mind Crush",
+          "originalLine": "3x Mind Crush"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Royal Royal Decree",
+          "originalLine": "2x Royal Decree"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Typhoon",
+          "originalLine": "2x Typhoon"
+        }
+      ]
+    },
+    {
+      "source": {
+        "year": 2016,
+        "target": "Performapal Performage",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4843",
+        "player": "Rotorato Simone",
+        "deckType": "Performapal",
+        "url": "https://www.yugiohtopdecks.org/deck/4843",
+        "notes": "Draco Performapals from YCS Prague 2016. Registered against the 2016 Performapal Performage target as the closest current Performapal-family source."
+      },
+      "textFile": "data\\deckSourcePages\\2016-performapal-performage-rotorato-simone.txt",
+      "parseStatus": "parseable",
+      "skipped": false,
+      "skipReason": null,
+      "candidateLineCount": 42,
+      "totalCardCount": 70,
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "confidence": "high",
+      "usedExplicitSections": true,
+      "notes": "Sections were parsed from explicit Main Deck, Extra Deck, and Side Deck headings.",
+      "candidateLines": [
+        {
+          "quantity": 2,
+          "cardName": "Archfiend Eccentrick",
+          "originalLine": "2x Archfiend Eccentrick"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Dragonpit Magician",
+          "originalLine": "1x Dragonpit Magician"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Dragonpulse Magician",
+          "originalLine": "1x Dragonpulse Magician"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Ghost Ogre & Snow Rabbit",
+          "originalLine": "1x Ghost Ogre & Snow Rabbit"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Glow-Up Bulb",
+          "originalLine": "1x Glow-Up Bulb"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Luster Pendulum, the Dracoslayer",
+          "originalLine": "1x Luster Pendulum, the Dracoslayer"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Master Pendulum, the Dracoslayer",
+          "originalLine": "3x Master Pendulum, the Dracoslayer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Performapal Guitartle",
+          "originalLine": "1x Performapal Guitartle"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Performapal Lizardraw",
+          "originalLine": "2x Performapal Lizardraw"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Performapal Monkeyboard",
+          "originalLine": "1x Performapal Monkeyboard"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Performapal Pendulum Sorcerer",
+          "originalLine": "3x Performapal Pendulum Sorcerer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Performapal Secondonkey",
+          "originalLine": "1x Performapal Secondonkey"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Performapal Silver Claw",
+          "originalLine": "2x Performapal Silver Claw"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Performapal Skullcrobat Joker",
+          "originalLine": "1x Performapal Skullcrobat Joker"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Rescue Rabbit",
+          "originalLine": "1x Rescue Rabbit"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Vector Pendulum, the Dracoverlord",
+          "originalLine": "3x Vector Pendulum, the Dracoverlord"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Wisdom-Eye Magician",
+          "originalLine": "3x Wisdom-Eye Magician"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Draco Face-Off",
+          "originalLine": "3x Draco Face-Off"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Unexpected Dai",
+          "originalLine": "2x Unexpected Dai"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Upstart Goblin",
+          "originalLine": "3x Upstart Goblin"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Wavering Eyes",
+          "originalLine": "3x Wavering Eyes"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Treacherous Trap Hole",
+          "originalLine": "1x Treacherous Trap Hole"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Abyss Dweller",
+          "originalLine": "1x Abyss Dweller"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Castel, the Skyblaster Musketeer",
+          "originalLine": "1x Castel, the Skyblaster Musketeer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Diamond Dire Wolf",
+          "originalLine": "1x Diamond Dire Wolf"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Dinoster Power, the Mighty Dracoslayer",
+          "originalLine": "2x Dinoster Power, the Mighty Dracoslayer"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Ignister Prominence, the Blasting Dracoslayer",
+          "originalLine": "3x Ignister Prominence, the Blasting Dracoslayer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "King of the Feral Imps",
+          "originalLine": "1x King of the Feral Imps"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Majester Paladin, the Ascending Dracoslayer",
+          "originalLine": "1x Majester Paladin, the Ascending Dracoslayer"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Meliae of the Trees",
+          "originalLine": "1x Meliae of the Trees"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Naturia Beast",
+          "originalLine": "1x Naturia Beast"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Number F0: Utopic Future",
+          "originalLine": "1x Number F0: Utopic Future"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Performage Trapeze Magician",
+          "originalLine": "1x Performage Trapeze Magician"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Traptrix Rafflesia",
+          "originalLine": "1x Traptrix Rafflesia"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Effect Veiler",
+          "originalLine": "3x Effect Veiler"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Ghost Ogre & Snow Rabbit",
+          "originalLine": "1x Ghost Ogre & Snow Rabbit"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Maxx \"C\"",
+          "originalLine": "3x Maxx \"C\""
+        },
+        {
+          "quantity": 1,
+          "cardName": "Dark Hole",
+          "originalLine": "1x Dark Hole"
+        },
+        {
+          "quantity": 2,
+          "cardName": "Mystical Space Typhoon",
+          "originalLine": "2x Mystical Space Typhoon"
+        },
+        {
+          "quantity": 1,
+          "cardName": "Raigeki",
+          "originalLine": "1x Raigeki"
+        },
+        {
+          "quantity": 1,
+          "cardName": "System Down",
+          "originalLine": "1x System Down"
+        },
+        {
+          "quantity": 3,
+          "cardName": "Twin Twisters",
+          "originalLine": "3x Twin Twisters"
         }
       ]
     }

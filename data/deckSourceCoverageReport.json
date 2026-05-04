@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-04T18:51:32.023Z",
+  "generatedAt": "2026-05-04T18:55:14.323Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "sourcedTargetSlots": 7,
-  "missingSourceSlots": 98,
-  "registeredSourceCount": 7,
+  "sourcedTargetSlots": 10,
+  "missingSourceSlots": 95,
+  "registeredSourceCount": 11,
   "sourceStatusCounts": {
     "manual-existing": 1,
-    "source-registered": 5,
+    "source-registered": 9,
     "imported": 1
   },
   "sourceTypeCounts": {
     "manual": 1,
+    "deck-database": 5,
     "format-reference": 1,
     "event-archive": 1,
     "official-event-coverage": 2,
-    "blog": 1,
-    "deck-database": 1
+    "blog": 1
   },
   "years": [
     {
@@ -457,18 +457,44 @@
       "year": 2015,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "Nekroz",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Nekroz",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4520",
+              "player": "Ryan Levine",
+              "deckType": "Nekroz",
+              "url": "https://www.yugiohtopdecks.org/deck/4520",
+              "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+            }
+          ]
         },
         {
           "targetName": "Burning Abyss",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Burning Abyss",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4319",
+              "player": "Calvin Tahan",
+              "deckType": "Burning Abyss",
+              "url": "https://www.yugiohtopdecks.org/deck/4319",
+              "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+            }
+          ]
         },
         {
           "targetName": "Shaddoll",
@@ -491,13 +517,26 @@
       "year": 2016,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
       "targets": [
         {
           "targetName": "Performapal Performage",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2016,
+              "target": "Performapal Performage",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4843",
+              "player": "Rotorato Simone",
+              "deckType": "Performapal",
+              "url": "https://www.yugiohtopdecks.org/deck/4843",
+              "notes": "Draco Performapals from YCS Prague 2016. Registered against the 2016 Performapal Performage target as the closest current Performapal-family source."
+            }
+          ]
         },
         {
           "targetName": "Monarch",

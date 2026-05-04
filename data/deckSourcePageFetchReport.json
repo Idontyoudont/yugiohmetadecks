@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T18:51:37.238Z",
-  "sourceCount": 7,
-  "okCount": 4,
+  "generatedAt": "2026-05-04T18:55:21.072Z",
+  "sourceCount": 11,
+  "okCount": 8,
   "failedCount": 2,
   "skippedCount": 1,
   "results": [
@@ -27,6 +27,29 @@
       "htmlBytes": 0,
       "textBytes": 0,
       "error": "No URL registered"
+    },
+    {
+      "source": {
+        "year": 2007,
+        "target": "Monarch",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 2785",
+        "player": "Charley La",
+        "deckType": "Monarch",
+        "url": "https://www.yugiohtopdecks.org/deck/2785",
+        "notes": "Volcanic Monarchs from 2007 SJ San Mateo. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "fetched": true,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "htmlFile": "data\\deckSourcePages\\2007-monarch-charley-la.html",
+      "textFile": "data\\deckSourcePages\\2007-monarch-charley-la.txt",
+      "htmlBytes": 26048,
+      "textBytes": 11169,
+      "error": null
     },
     {
       "source": {
@@ -162,8 +185,77 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.html",
       "textFile": "data\\deckSourcePages\\2014-fire-fist-charlie-kip.txt",
-      "htmlBytes": 26660,
+      "htmlBytes": 26670,
       "textBytes": 11676,
+      "error": null
+    },
+    {
+      "source": {
+        "year": 2015,
+        "target": "Burning Abyss",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4319",
+        "player": "Calvin Tahan",
+        "deckType": "Burning Abyss",
+        "url": "https://www.yugiohtopdecks.org/deck/4319",
+        "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "fetched": true,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "htmlFile": "data\\deckSourcePages\\2015-burning-abyss-calvin-tahan.html",
+      "textFile": "data\\deckSourcePages\\2015-burning-abyss-calvin-tahan.txt",
+      "htmlBytes": 26987,
+      "textBytes": 11952,
+      "error": null
+    },
+    {
+      "source": {
+        "year": 2015,
+        "target": "Nekroz",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4520",
+        "player": "Ryan Levine",
+        "deckType": "Nekroz",
+        "url": "https://www.yugiohtopdecks.org/deck/4520",
+        "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+      },
+      "fetched": true,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "htmlFile": "data\\deckSourcePages\\2015-nekroz-ryan-levine.html",
+      "textFile": "data\\deckSourcePages\\2015-nekroz-ryan-levine.txt",
+      "htmlBytes": 26082,
+      "textBytes": 11168,
+      "error": null
+    },
+    {
+      "source": {
+        "year": 2016,
+        "target": "Performapal Performage",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "parseable",
+        "label": "Yu-Gi-Oh! Top Decks deck 4843",
+        "player": "Rotorato Simone",
+        "deckType": "Performapal",
+        "url": "https://www.yugiohtopdecks.org/deck/4843",
+        "notes": "Draco Performapals from YCS Prague 2016. Registered against the 2016 Performapal Performage target as the closest current Performapal-family source."
+      },
+      "fetched": true,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "htmlFile": "data\\deckSourcePages\\2016-performapal-performage-rotorato-simone.html",
+      "textFile": "data\\deckSourcePages\\2016-performapal-performage-rotorato-simone.txt",
+      "htmlBytes": 26435,
+      "textBytes": 11469,
       "error": null
     }
   ]

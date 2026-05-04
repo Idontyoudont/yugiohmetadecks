@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T18:51:34.765Z",
-  "sourceCount": 7,
-  "okCount": 4,
+  "generatedAt": "2026-05-04T18:55:17.806Z",
+  "sourceCount": 11,
+  "okCount": 8,
   "failedCount": 2,
   "skippedCount": 1,
   "sources": [
@@ -22,6 +22,25 @@
         "status": null,
         "statusText": null,
         "error": "No URL registered"
+      }
+    },
+    {
+      "year": 2007,
+      "target": "Monarch",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "parseable",
+      "label": "Yu-Gi-Oh! Top Decks deck 2785",
+      "player": "Charley La",
+      "deckType": "Monarch",
+      "url": "https://www.yugiohtopdecks.org/deck/2785",
+      "notes": "Volcanic Monarchs from 2007 SJ San Mateo. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections.",
+      "health": {
+        "checked": true,
+        "ok": true,
+        "status": 200,
+        "statusText": "OK",
+        "error": null
       }
     },
     {
@@ -130,6 +149,63 @@
       "deckType": "Fire Fist",
       "url": "https://www.yugiohtopdecks.org/deck/1168",
       "notes": "Yu-Gi-Oh! Top Decks source with explicit Main Deck, Extra Deck, and Side Deck sections. Parser successfully extracts a 40-card Main Deck, 15-card Extra Deck, and 15-card Side Deck.",
+      "health": {
+        "checked": true,
+        "ok": true,
+        "status": 200,
+        "statusText": "OK",
+        "error": null
+      }
+    },
+    {
+      "year": 2015,
+      "target": "Burning Abyss",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "parseable",
+      "label": "Yu-Gi-Oh! Top Decks deck 4319",
+      "player": "Calvin Tahan",
+      "deckType": "Burning Abyss",
+      "url": "https://www.yugiohtopdecks.org/deck/4319",
+      "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections.",
+      "health": {
+        "checked": true,
+        "ok": true,
+        "status": 200,
+        "statusText": "OK",
+        "error": null
+      }
+    },
+    {
+      "year": 2015,
+      "target": "Nekroz",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "parseable",
+      "label": "Yu-Gi-Oh! Top Decks deck 4520",
+      "player": "Ryan Levine",
+      "deckType": "Nekroz",
+      "url": "https://www.yugiohtopdecks.org/deck/4520",
+      "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections.",
+      "health": {
+        "checked": true,
+        "ok": true,
+        "status": 200,
+        "statusText": "OK",
+        "error": null
+      }
+    },
+    {
+      "year": 2016,
+      "target": "Performapal Performage",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "parseable",
+      "label": "Yu-Gi-Oh! Top Decks deck 4843",
+      "player": "Rotorato Simone",
+      "deckType": "Performapal",
+      "url": "https://www.yugiohtopdecks.org/deck/4843",
+      "notes": "Draco Performapals from YCS Prague 2016. Registered against the 2016 Performapal Performage target as the closest current Performapal-family source.",
       "health": {
         "checked": true,
         "ok": true,

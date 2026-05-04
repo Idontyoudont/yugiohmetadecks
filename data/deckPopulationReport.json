@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-04T18:51:37.330Z",
+  "generatedAt": "2026-05-04T18:55:21.190Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
   "importedCount": 3,
-  "sourceRegisteredCount": 4,
+  "sourceRegisteredCount": 7,
   "deckWithoutRegisteredSourceCount": 0,
-  "missingCount": 98,
+  "missingCount": 95,
   "years": [
     {
       "year": 2005,
@@ -793,30 +793,56 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 2,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 3,
       "targets": [
         {
           "year": 2015,
           "targetName": "Nekroz",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Nekroz",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4520",
+              "player": "Ryan Levine",
+              "deckType": "Nekroz",
+              "url": "https://www.yugiohtopdecks.org/deck/4520",
+              "notes": "Nekroz from YCS Toronto 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+            }
+          ],
           "decks": []
         },
         {
           "year": 2015,
           "targetName": "Burning Abyss",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2015,
+              "target": "Burning Abyss",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4319",
+              "player": "Calvin Tahan",
+              "deckType": "Burning Abyss",
+              "url": "https://www.yugiohtopdecks.org/deck/4319",
+              "notes": "Burning Abyss from ARGCS Edison New Jersey 2015. Yu-Gi-Oh! Top Decks page has explicit Main Deck, Extra Deck, and Side Deck sections."
+            }
+          ],
           "decks": []
         },
         {
@@ -859,19 +885,32 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2016,
           "targetName": "Performapal Performage",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2016,
+              "target": "Performapal Performage",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "parseable",
+              "label": "Yu-Gi-Oh! Top Decks deck 4843",
+              "player": "Rotorato Simone",
+              "deckType": "Performapal",
+              "url": "https://www.yugiohtopdecks.org/deck/4843",
+              "notes": "Draco Performapals from YCS Prague 2016. Registered against the 2016 Performapal Performage target as the closest current Performapal-family source."
+            }
+          ],
           "decks": []
         },
         {

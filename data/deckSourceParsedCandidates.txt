@@ -1,3 +1,63 @@
+Deck: Monarch 2007
+Year: 2007
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 2785
+Player: Charley La
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/2785
+
+Main Deck
+1 Apprentice Magician
+1 Breaker the Magical Warrior
+2 Crystal Seer
+2 Kycoo the Ghost Destroyer
+1 Magician of Faith
+1 Mobius the Frost Monarch
+1 Old Vindictive Magician
+2 Raiza the Storm Monarch
+1 Sangan
+1 Snipe Hunter
+3 Thestalos the Firestorm Monarch
+1 Treeborn Frog
+2 Volcanic Rocket
+3 Volcanic Shell
+1 Blaze Accelerator
+1 Book of Moon
+1 Brain Control
+1 Heavy Storm
+1 Mystical Space Typhoon
+1 Pot of Avarice
+1 Premature Burial
+2 Soul Exchange
+1 Wild Fire
+1 Bottomless Trap Hole
+1 Call of the Haunted
+1 Dust Tornado
+1 Mirror Force
+2 Phoenix Wing Wind Blast
+1 Sakuretsu Armor
+1 The Transmigration Prophecy
+1 Torrential Tribute
+
+Extra Deck
+
+Side Deck
+1 Apprentice Magician
+2 Cyber Dragon
+1 Kinetic Soldier
+1 Mobius the Frost Monarch
+1 Volcanic Rocket
+1 Lightning Vortex
+1 Shrink
+1 Twister
+2 Forced Back
+1 Malevolent Catastrophe
+1 Pulling the Rug
+2 Waboku
+
+---
+
 Deck: Dragon Ruler 2013
 Year: 2013
 Format: Imported Format
@@ -113,3 +173,181 @@ Side Deck
 3 Light-Imprisoning Mirror
 2 Mind Crush
 1 Soul Drain
+
+---
+
+Deck: Burning Abyss 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 4319
+Player: Calvin Tahan
+Deck Type: Burning Abyss
+Source URL: https://www.yugiohtopdecks.org/deck/4319
+
+Main Deck
+1 Alich, Malebranche of the Burning Abyss
+1 Barbar, Malebranche of the Burning Abyss
+2 Cagna, Malebranche of the Burning Abyss
+1 Calcab, Malebranche of the Burning Abyss
+3 Cir, Malebranche of the Burning Abyss
+1 Draghig, Malebranche of the Burning Abyss
+2 Farfa, Malebranche of the Burning Abyss
+3 Graff, Malebranche of the Burning Abyss
+3 Kuribandit
+1 Libic, Malebranche of the Burning Abyss
+2 Rubic, Malebranche of the Burning Abyss
+3 Scarm, Malebranche of the Burning Abyss
+1 Tour Guide From the Underworld
+1 Allure of Darkness
+2 Dark Hole
+1 Foolish Burial
+1 Good & Evil in the Burning Abyss
+1 Raigeki
+2 The Beginning of the End
+3 Breakthrough Skill
+1 Crush Card Virus
+1 Fiend Griefing
+1 Fire Lake of the Burning Abyss
+3 Mind Crush
+1 Mistake
+3 Phoenix Wing Wind Blast
+1 Skill Drain
+1 Solemn Warning
+1 Vanity's Emptiness
+
+Extra Deck
+3 Dante, Traveler of the Burning Abyss
+2 Downerd Magician
+2 Ghostrick Alucard
+1 Mechquipped Angineer
+1 Number 20: Giga-Brilliant
+2 Number 30: Acid Golem of Destruction
+1 Number 47: Nightmare Shark
+2 Virgil, Rock Star of the Burning Abyss
+1 Wind-Up Zenmaines
+
+Side Deck
+3 Maxx "C"
+3 Spell Canceller
+2 Vanity's Fiend
+3 Galaxy Cyclone
+3 Mystical Space Typhoon
+1 Non-Fusion Area
+
+---
+
+Deck: Nekroz 2015
+Year: 2015
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 4520
+Player: Ryan Levine
+Deck Type: Nekroz
+Source URL: https://www.yugiohtopdecks.org/deck/4520
+
+Main Deck
+1 Exa, Enforcer of the Nekroz
+1 Great Sorcerer of the Nekroz
+3 Manju of the Ten Thousand Hands
+2 Maxx "C"
+2 Nekroz of Brionac
+2 Nekroz of Clausolas
+1 Nekroz of Decisive Armor
+1 Nekroz of Gungnir
+1 Nekroz of Trishula
+3 Nekroz of Unicore
+3 Nekroz of Valkyrus
+3 Senju of the Thousand Hands
+1 Shurit, Strategist of the Nekroz
+1 Book of Moon
+2 Nekroz Cycle
+2 Nekroz Kaleidoscope
+2 Nekroz Mirror
+1 Preparation of Rites
+3 Reinforcement of the Army
+3 Shared Ride
+1 Upstart Goblin
+1 Vanity's Emptiness
+
+Extra Deck
+2 Abyss Dweller
+1 Castel, the Skyblaster Musketeer
+1 Chimeratech Fortress Dragon
+2 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+2 Herald of the Arc Light
+1 Number 52: Diamond Crab King
+1 Number 80: Rhapsody in Berserk
+1 Star Eater
+
+Side Deck
+1 Cyber Dragon
+1 Denko Sekka
+1 Elemental HERO Prisma
+3 Mystical Space Typhoon
+2 Breakthrough Skill
+3 Mind Crush
+2 Royal Royal Decree
+2 Typhoon
+
+---
+
+Deck: Performapal 2016
+Year: 2016
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 4843
+Player: Rotorato Simone
+Deck Type: Performapal
+Source URL: https://www.yugiohtopdecks.org/deck/4843
+
+Main Deck
+2 Archfiend Eccentrick
+1 Dragonpit Magician
+1 Dragonpulse Magician
+1 Ghost Ogre & Snow Rabbit
+1 Glow-Up Bulb
+1 Luster Pendulum, the Dracoslayer
+3 Master Pendulum, the Dracoslayer
+1 Performapal Guitartle
+2 Performapal Lizardraw
+1 Performapal Monkeyboard
+3 Performapal Pendulum Sorcerer
+1 Performapal Secondonkey
+2 Performapal Silver Claw
+1 Performapal Skullcrobat Joker
+1 Rescue Rabbit
+3 Vector Pendulum, the Dracoverlord
+3 Wisdom-Eye Magician
+3 Draco Face-Off
+2 Unexpected Dai
+3 Upstart Goblin
+3 Wavering Eyes
+1 Treacherous Trap Hole
+
+Extra Deck
+1 Abyss Dweller
+1 Castel, the Skyblaster Musketeer
+1 Diamond Dire Wolf
+2 Dinoster Power, the Mighty Dracoslayer
+3 Ignister Prominence, the Blasting Dracoslayer
+1 King of the Feral Imps
+1 Majester Paladin, the Ascending Dracoslayer
+1 Meliae of the Trees
+1 Naturia Beast
+1 Number F0: Utopic Future
+1 Performage Trapeze Magician
+1 Traptrix Rafflesia
+
+Side Deck
+3 Effect Veiler
+1 Ghost Ogre & Snow Rabbit
+3 Maxx "C"
+1 Dark Hole
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+3 Twin Twisters
