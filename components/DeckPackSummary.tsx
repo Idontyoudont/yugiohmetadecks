@@ -5,38 +5,84 @@ type DeckPackSummaryProps = {
   extraDeck: EnrichedDeckCard[];
   sideDeck: EnrichedDeckCard[];
   selectedPack: string | null;
-  onSelectPack: (packName: string) => void;
+  onSelectPack: (packName: string | null) => void;
+};
+
+type PackCard = {
+  name: string;
+  quantity: number;
+  section: "Main Deck" | "Extra Deck" | "Side Deck";
 };
 
 type PackCount = {
   packName: string;
   count: number;
+  cards: PackCard[];
 };
 
-function getPackCounts(cards: EnrichedDeckCard[]) {
-  const packCounts = new Map<string, number>();
+function getCardPackNames(card: EnrichedDeckCard) {
+  if (card.gameSourceInfo?.status !== "available") {
+    return [];
+  }
 
+  return card.gameSourceInfo.sources?.map((source) => source.packName) ?? [];
+}
+
+function addCardsToPackCounts(
+  packCounts: Map<string, PackCount>,
+  cards: EnrichedDeckCard[],
+  section: PackCard["section"]
+) {
   cards.forEach((card) => {
-    if (card.gameSourceInfo?.status !== "available") {
-      return;
-    }
+    const packNames = getCardPackNames(card);
 
-    const firstSource = card.gameSourceInfo.sources?.[0];
+    packNames.forEach((packName) => {
+      const existingPack = packCounts.get(packName);
 
-    if (!firstSource) {
-      return;
-    }
+      if (!existingPack) {
+        packCounts.set(packName, {
+          packName,
+          count: card.quantity,
+          cards: [
+            {
+              name: card.name,
+              quantity: card.quantity,
+              section,
+            },
+          ],
+        });
 
-    const currentCount = packCounts.get(firstSource.packName) ?? 0;
-    packCounts.set(firstSource.packName, currentCount + card.quantity);
+        return;
+      }
+
+      existingPack.count += card.quantity;
+      existingPack.cards.push({
+        name: card.name,
+        quantity: card.quantity,
+        section,
+      });
+    });
   });
+}
 
-  return Array.from(packCounts.entries())
-    .map<PackCount>(([packName, count]) => ({
-      packName,
-      count,
-    }))
-    .sort((a, b) => b.count - a.count || a.packName.localeCompare(b.packName));
+function getPackCounts({
+  mainDeck,
+  extraDeck,
+  sideDeck,
+}: {
+  mainDeck: EnrichedDeckCard[];
+  extraDeck: EnrichedDeckCard[];
+  sideDeck: EnrichedDeckCard[];
+}) {
+  const packCounts = new Map<string, PackCount>();
+
+  addCardsToPackCounts(packCounts, mainDeck, "Main Deck");
+  addCardsToPackCounts(packCounts, extraDeck, "Extra Deck");
+  addCardsToPackCounts(packCounts, sideDeck, "Side Deck");
+
+  return Array.from(packCounts.values()).sort(
+    (a, b) => b.count - a.count || a.packName.localeCompare(b.packName)
+  );
 }
 
 export function DeckPackSummary({
@@ -46,15 +92,19 @@ export function DeckPackSummary({
   selectedPack,
   onSelectPack,
 }: DeckPackSummaryProps) {
-  const allCards = [...mainDeck, ...extraDeck, ...sideDeck];
-  const packCounts = getPackCounts(allCards);
+  const packCounts = getPackCounts({
+    mainDeck,
+    extraDeck,
+    sideDeck,
+  });
 
   return (
     <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-950/70 p-5">
       <div className="mb-4">
         <h3 className="text-lg font-semibold text-white">Pack summary</h3>
         <p className="mt-1 text-sm text-slate-400">
-          Click a pack to filter the deck by that in-game source.
+          Click a pack to filter the deck and see which cards come from that
+          in-game source.
         </p>
       </div>
 
@@ -75,7 +125,9 @@ export function DeckPackSummary({
             return (
               <button
                 key={pack.packName}
-                onClick={() => onSelectPack(pack.packName)}
+                onClick={() =>
+                  onSelectPack(isSelected ? null : pack.packName)
+                }
                 className={`rounded-2xl border p-4 text-left transition hover:-translate-y-1 hover:border-blue-400 ${
                   isSelected
                     ? "border-blue-400 bg-blue-500/10"
@@ -96,6 +148,32 @@ export function DeckPackSummary({
                   {pack.count}
                 </p>
                 <p className="mt-1 text-sm text-slate-400">card copies</p>
+
+                {isSelected ? (
+                  <div className="mt-4 space-y-2 border-t border-slate-800 pt-4">
+                    {pack.cards.map((card) => (
+                      <div
+                        key={`${pack.packName}-${card.section}-${card.name}`}
+                        className="rounded-xl bg-slate-950 px-3 py-2"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <p className="text-sm font-medium text-slate-200">
+                              {card.name}
+                            </p>
+                            <p className="mt-1 text-xs text-slate-500">
+                              {card.section}
+                            </p>
+                          </div>
+
+                          <span className="rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
+                            x{card.quantity}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </button>
             );
           })}
