@@ -18,6 +18,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     null
   );
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const selectedDeck =
     decks.find((deck) => deck.id === selectedDeckId) ?? decks[0];
@@ -38,11 +39,16 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   }, [allCards]);
 
   function filterCards(cards: EnrichedDeckCard[]) {
-    if (!selectedTag) {
-      return cards;
-    }
+    const normalizedSearchQuery = searchQuery.trim().toLowerCase();
 
-    return cards.filter((card) => card.tags?.includes(selectedTag));
+    return cards.filter((card) => {
+      const matchesTag = selectedTag ? card.tags?.includes(selectedTag) : true;
+      const matchesSearch = normalizedSearchQuery
+        ? card.name.toLowerCase().includes(normalizedSearchQuery)
+        : true;
+
+      return matchesTag && matchesSearch;
+    });
   }
 
   const filteredMainDeck = filterCards(enrichedMainDeck);
@@ -53,10 +59,16 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedDeckId(deckId);
     setSelectedCard(null);
     setSelectedTag(null);
+    setSearchQuery("");
   }
 
   function handleSelectTag(tag: string | null) {
     setSelectedTag(tag);
+    setSelectedCard(null);
+  }
+
+  function handleSearchChange(query: string) {
+    setSearchQuery(query);
     setSelectedCard(null);
   }
 
@@ -80,15 +92,16 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             {selectedDeck.year} · {selectedDeck.format}
           </p>
           <p className="mt-5 max-w-3xl text-slate-400">
-            This is the first interactive layout test for the Yu-Gi-Oh meta deck
-            viewer. You can now filter cards by custom role tags.
+            Search within the selected deck or filter cards by custom role tags.
           </p>
         </div>
 
         <DeckFilters
           availableTags={availableTags}
           selectedTag={selectedTag}
+          searchQuery={searchQuery}
           onSelectTag={handleSelectTag}
+          onSearchChange={handleSearchChange}
         />
 
         <div className="space-y-6">
