@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "year": 2005,
+      "target": "Goat Control",
+      "status": "manual-existing",
+      "sourceType": "manual",
+      "label": "Existing app decklist",
+      "player": null,
+      "deckType": "Goat Control",
+      "url": null,
+      "notes": "Already exists as manually curated app data."
+    },
+    {
+      "year": 2013,
+      "target": "Dragon Ruler",
+      "status": "imported",
+      "sourceType": "blog",
+      "label": "Top 16 YCS Turin 2013",
+      "player": "Michele Bergamasco",
+      "deckType": "Dragon Ruler",
+      "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
+      "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+    }
+  ]
+}

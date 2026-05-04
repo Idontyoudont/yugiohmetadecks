@@ -1,0 +1,759 @@
+{
+  "generatedAt": "2026-05-04T15:20:06.388Z",
+  "startYear": 2005,
+  "endYear": 2025,
+  "targetDecksPerYear": 5,
+  "totalYears": 21,
+  "totalTargetSlots": 105,
+  "sourcedTargetSlots": 2,
+  "missingSourceSlots": 103,
+  "registeredSourceCount": 2,
+  "sourceStatusCounts": {
+    "manual-existing": 1,
+    "imported": 1
+  },
+  "sourceTypeCounts": {
+    "manual": 1,
+    "blog": 1
+  },
+  "years": [
+    {
+      "year": 2005,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
+      "targets": [
+        {
+          "targetName": "Goat Control",
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2005,
+              "target": "Goat Control",
+              "status": "manual-existing",
+              "sourceType": "manual",
+              "label": "Existing app decklist",
+              "player": null,
+              "deckType": "Goat Control",
+              "url": null,
+              "notes": "Already exists as manually curated app data."
+            }
+          ]
+        },
+        {
+          "targetName": "Chaos Turbo",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Warrior Toolbox",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Reasoning Gate",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Burn",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Chaos Return",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Monarch",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Recruiter Chaos",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gadget",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Bazoo Return",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Perfect Circle Monarch",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Demise OTK",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gadget",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Zombie",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Crystal Beast",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "TeleDAD",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gladiator Beast",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Lightsworn",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dark Armed Return",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Zombie Synchro",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Blackwing",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Lightsworn",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Cat Synchro",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gladiator Beast",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Twilight",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Blackwing",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "X-Saber",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Frog Monarch",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Quickdraw Dandywarrior",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Infernity",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Plant Synchro",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Tengu Plant",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Agents",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Six Samurai",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gravekeeper",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Wind-Up",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dino Rabbit",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Inzektor",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Chaos Dragon",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Hero Beat",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
+      "targets": [
+        {
+          "targetName": "Dragon Ruler",
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Dragon Ruler",
+              "status": "imported",
+              "sourceType": "blog",
+              "label": "Top 16 YCS Turin 2013",
+              "player": "Michele Bergamasco",
+              "deckType": "Dragon Ruler",
+              "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
+              "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+            }
+          ]
+        },
+        {
+          "targetName": "Spellbook",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Mermail",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Evilswarm",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Fire Fist",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "HAT",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Geargia",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Mermail",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Fire Fist",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Bujin",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Nekroz",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Burning Abyss",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Shaddoll",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Qliphort",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Satellarknight",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Performapal Performage",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Monarch",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Kozmo",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Burning Abyss",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Blue-Eyes",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Zoodiac",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "True Draco",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "SPYRAL",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Pendulum Magician",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dinosaur",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Sky Striker",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Gouki",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Trickstar",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Altergeist",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Thunder Dragon",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Sky Striker",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Orcust",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Salamangreat",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Thunder Dragon",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Subterror",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Adamancipator",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Eldlich",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dragon Link",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dogmatika Invoked",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Virtual World",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Tri-Brigade",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Drytron",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Virtual World",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Prank-Kids",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Dragon Link",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Branded Despia",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Swordsoul",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Floowandereeze",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Tearlaments",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Spright",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Kashtira",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Purrely",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Labrynth",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Mathmech",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Branded",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Snake-Eye",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Tenpai Dragon",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Voiceless Voice",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Yubel",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Labrynth",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "targetDecksPerYear": 5,
+      "configuredTargetCount": 5,
+      "sourcedTargetCount": 0,
+      "missingSourceCount": 5,
+      "targets": [
+        {
+          "targetName": "Ryzeal",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Maliss",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Snake-Eye",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Fiendsmith",
+          "hasSource": false,
+          "sources": []
+        },
+        {
+          "targetName": "Memento",
+          "hasSource": false,
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
