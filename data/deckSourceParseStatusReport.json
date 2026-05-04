@@ -1,12 +1,15 @@
 {
-  "generatedAt": "2026-05-04T18:22:32.648Z",
-  "sourceCount": 6,
-  "okCount": 3,
-  "failedCount": 2,
-  "skippedCount": 1,
-  "results": [
-    {
-      "source": {
+  "generatedAt": "2026-05-04T18:22:28.680Z",
+  "totalSources": 6,
+  "statusCounts": {
+    "reference-only": 1,
+    "blocked-or-empty": 2,
+    "fetch-failed": 2,
+    "parseable": 1
+  },
+  "statuses": {
+    "reference-only": [
+      {
         "year": 2005,
         "target": "Goat Control",
         "status": "manual-existing",
@@ -17,19 +20,10 @@
         "deckType": "Goat Control",
         "url": null,
         "notes": "Already exists as manually curated app data."
-      },
-      "fetched": false,
-      "ok": false,
-      "status": null,
-      "statusText": null,
-      "htmlFile": null,
-      "textFile": null,
-      "htmlBytes": 0,
-      "textBytes": 0,
-      "error": "No URL registered"
-    },
-    {
-      "source": {
+      }
+    ],
+    "blocked-or-empty": [
+      {
         "year": 2007,
         "target": "Perfect Circle Monarch",
         "status": "source-registered",
@@ -41,18 +35,7 @@
         "url": "https://formatlibrary.com/formats/perfect-circle",
         "notes": "Format reference source. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
       },
-      "fetched": true,
-      "ok": true,
-      "status": 200,
-      "statusText": "OK",
-      "htmlFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.html",
-      "textFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
-      "htmlBytes": 8101,
-      "textBytes": 24,
-      "error": null
-    },
-    {
-      "source": {
+      {
         "year": 2008,
         "target": "TeleDAD",
         "status": "source-registered",
@@ -63,19 +46,10 @@
         "deckType": "TeleDAD",
         "url": "https://www.formatlibrary.com/events/SJCDET08",
         "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Current fetch only returns minimal page text, so this is not parseable through the cached page parser yet."
-      },
-      "fetched": true,
-      "ok": true,
-      "status": 200,
-      "statusText": "OK",
-      "htmlFile": "data\\deckSourcePages\\2008-teledad-steven-harris.html",
-      "textFile": "data\\deckSourcePages\\2008-teledad-steven-harris.txt",
-      "htmlBytes": 8101,
-      "textBytes": 24,
-      "error": null
-    },
-    {
-      "source": {
+      }
+    ],
+    "fetch-failed": [
+      {
         "year": 2009,
         "target": "Blackwing",
         "status": "source-registered",
@@ -87,18 +61,7 @@
         "url": "https://yugiohblog.konami.com/2009/sjc/top-16-decklists/",
         "notes": "Official Konami event coverage with Top 16 decklists. Current fetch failed from the local source page fetcher, so this needs retry, alternate fetch handling, or manual fallback."
       },
-      "fetched": true,
-      "ok": false,
-      "status": null,
-      "statusText": null,
-      "htmlFile": null,
-      "textFile": null,
-      "htmlBytes": 0,
-      "textBytes": 0,
-      "error": "fetch failed"
-    },
-    {
-      "source": {
+      {
         "year": 2010,
         "target": "X-Saber",
         "status": "source-registered",
@@ -109,19 +72,10 @@
         "deckType": "X-Saber",
         "url": "https://yugiohblog.konami.com/2010/ycs/deck-profile-devin-clarks-x-saber-deck/",
         "notes": "Official Konami YCS coverage deck profile. Current fetch failed from the local source page fetcher, so this needs retry, alternate fetch handling, or manual fallback."
-      },
-      "fetched": true,
-      "ok": false,
-      "status": null,
-      "statusText": null,
-      "htmlFile": null,
-      "textFile": null,
-      "htmlBytes": 0,
-      "textBytes": 0,
-      "error": "fetch failed"
-    },
-    {
-      "source": {
+      }
+    ],
+    "parseable": [
+      {
         "year": 2013,
         "target": "Dragon Ruler",
         "status": "imported",
@@ -132,16 +86,7 @@
         "deckType": "Dragon Ruler",
         "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
         "notes": "Already imported as Dragon Ruler YCS Turin 2013. Cached page parser can extract a valid candidate decklist from this source."
-      },
-      "fetched": true,
-      "ok": true,
-      "status": 200,
-      "statusText": "OK",
-      "htmlFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.html",
-      "textFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.txt",
-      "htmlBytes": 103797,
-      "textBytes": 4893,
-      "error": null
-    }
-  ]
+      }
+    ]
+  }
 }
