@@ -16,6 +16,7 @@ The app supports:
 - Replacement suggestions for unavailable cards
 - Name-based decklist importing
 - Inline and automatic card tagging for imported decklists
+- Deck source metadata
 - Hidden sample decks for development
 
 ## Live app
@@ -171,6 +172,11 @@ Deck: Example Goat Deck
 Year: 2005
 Format: Goat Format
 Status: draft
+Source: Top 8 Local Championship 2005
+Player: Example Player
+Deck Type: Goat Control
+Source URL: https://example.com/deck-source
+Source Notes: Optional notes about the decklist source.
 
 Main Deck
 1 Black Luster Soldier - Envoy of the Beginning
@@ -192,6 +198,35 @@ Supported statuses:
 complete
 sample
 draft
+```
+
+### Deck source metadata
+
+Deck source metadata is optional, but recommended for real imported historical decks.
+
+Supported metadata fields:
+
+```text
+Source: Top 16 YCS Turin 2013
+Player: Michele Bergamasco
+Deck Type: Dragon Ruler
+Source URL: https://example.com/source-page
+Source Notes: Optional notes about source reliability or context.
+```
+
+These fields generate a `source` object in the deck data and display a **Deck source** block in the app.
+
+Example:
+
+```text
+Deck: Dragon Ruler YCS Turin 2013
+Year: 2013
+Format: TCG Advanced
+Status: complete
+Source: Top 16 YCS Turin 2013
+Player: Michele Bergamasco
+Deck Type: Dragon Ruler
+Source URL: https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html
 ```
 
 ### Importing multiple decks
@@ -330,20 +365,24 @@ The terminal will show a report like:
 ```text
 Deck import report
 ------------------
-Imported decks: 2
-Total warnings: 4
-Automatic tag rules: 38
+Imported decks: 1
+Total warnings: 0
+Automatic tag rules: 75
 
-1. Test Imported Goat Variant
-   Main Deck: 17 cards
-   Extra Deck: 3 cards
-   Side Deck: 3 cards
-   Tagged cards: 10
-   Automatic tagged cards: 8
-   Inline tagged cards: 2
-   Warnings:
-   - Main Deck has 17 cards. Standard valid range is 40 to 60.
-   - Side Deck has 3 cards. Standard valid sizes are 0 or 15.
+1. Dragon Ruler YCS Turin 2013
+   ID: dragon-ruler-ycs-turin-2013
+   Year: 2013
+   Format: TCG Advanced
+   Status: complete
+   Source: Top 16 YCS Turin 2013
+   Player: Michele Bergamasco
+   Deck Type: Dragon Ruler
+   Main Deck: 41 cards
+   Extra Deck: 15 cards
+   Side Deck: 15 cards
+   Total: 71 cards
+   Tagged cards: 34
+   Automatic tagged cards: 34
 ```
 
 Warnings are expected for incomplete sample decks. Real completed decks should usually have fewer warnings.
