@@ -1,4 +1,5 @@
 import { cardDetails } from "../data/cardDetails";
+import { generatedCardGameSources } from "../data/cardGameSources.generated";
 import { cardGameSources } from "../data/cardGameSources";
 import { cardReplacements } from "../data/cardReplacements";
 import type { DeckCard, EnrichedDeckCard } from "../types/deck";
@@ -12,6 +13,19 @@ function normalizeCardName(name: string) {
     .trim();
 }
 
+function findByNormalizedName<T>(
+  records: Record<string, T>,
+  cardName: string
+): T | undefined {
+  const normalizedCardName = normalizeCardName(cardName);
+
+  const entry = Object.entries(records).find(
+    ([recordCardName]) => normalizeCardName(recordCardName) === normalizedCardName
+  );
+
+  return entry?.[1];
+}
+
 function getCardDetails(cardName: string) {
   const normalizedCardName = normalizeCardName(cardName);
 
@@ -21,24 +35,18 @@ function getCardDetails(cardName: string) {
 }
 
 function getGameSourceInfo(cardName: string) {
-  const normalizedCardName = normalizeCardName(cardName);
-
-  const gameSourceEntry = Object.entries(cardGameSources).find(
-    ([sourceCardName]) => normalizeCardName(sourceCardName) === normalizedCardName
+  const generatedSource = findByNormalizedName(
+    generatedCardGameSources,
+    cardName
   );
 
-  return gameSourceEntry?.[1];
+  const manualSource = findByNormalizedName(cardGameSources, cardName);
+
+  return manualSource ?? generatedSource;
 }
 
 function getReplacementInfo(cardName: string) {
-  const normalizedCardName = normalizeCardName(cardName);
-
-  const replacementEntry = Object.entries(cardReplacements).find(
-    ([replacementCardName]) =>
-      normalizeCardName(replacementCardName) === normalizedCardName
-  );
-
-  return replacementEntry?.[1];
+  return findByNormalizedName(cardReplacements, cardName);
 }
 
 export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
