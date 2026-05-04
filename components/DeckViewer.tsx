@@ -126,7 +126,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         </div>
       </section>
 
-      <CardPreviewPanel card={selectedCard} />
+      <CardPreviewPanel
+  card={selectedCard}
+  onClose={() => setSelectedCard(null)}
+/>
     </div>
   );
 }
