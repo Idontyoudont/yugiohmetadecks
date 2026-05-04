@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:36:14.404Z",
+  "generatedAt": "2026-05-04T18:38:23.031Z",
   "sourceCount": 7,
   "okCount": 4,
   "failedCount": 2,
@@ -162,7 +162,7 @@
       "statusText": "OK",
       "htmlFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.html",
       "textFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.txt",
-      "htmlBytes": 26664,
+      "htmlBytes": 26656,
       "textBytes": 11676,
       "error": null
     }

@@ -53,3 +53,62 @@ Side Deck
 3 Debunk
 3 Royal Decree
 1 Infestation Terminus
+
+---
+
+Deck: Fire Fist 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 1168
+Deck Type: Fire Fist
+Source URL: https://www.yugiohtopdecks.org/deck/1168
+
+Main Deck
+3 Brotherhood of the Fire Fist - Bear
+1 Brotherhood of the Fire Fist - Gorilla
+3 Brotherhood of the Fire Fist - Leopard
+2 Brotherhood of the Fire Fist - Rooster
+1 Brotherhood of the Fire Fist - Spirit
+1 Coach Soldier Wolfbark
+1 Maxx "C"
+2 Fire Formation - Gyokkou
+3 Fire Formation - Tenki
+3 Fire Formation - Tensu
+2 Forbidden Lance
+3 Mystical Space Typhoon
+3 Rekindling
+3 Upstart Goblin
+1 Bottomless Trap Hole
+2 Fiendish Chain
+1 Full House
+3 Reckless Greed
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Brotherhood of the Fire Fist - Cardinal
+2 Brotherhood of the Fire Fist - Horse Prince
+1 Brotherhood of the Fire Fist - Lion Emperor
+1 Brotherhood of the Fire Fist - Tiger King
+1 Bujintei Kagutsuchi
+1 Celestial Wolf Lord, Blue Sirius
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Ghostrick Alucard
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Vulcan the Divine
+
+Side Deck
+2 Effect Veiler
+2 Maxx "C"
+1 Thunder King Rai-Oh
+1 Dark Hole
+1 Dimensional Fissure
+2 Black Horn of Heaven
+3 Light-Imprisoning Mirror
+2 Mind Crush
+1 Soul Drain

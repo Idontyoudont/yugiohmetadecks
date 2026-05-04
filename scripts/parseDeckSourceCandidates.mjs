@@ -35,6 +35,7 @@ const stopLinePatterns = [
   /^back to search/i,
   /^view all decks/i,
   /^©/i,
+  /^&copy;/i,
   /^add to/i,
   /^loading/i,
 ];
@@ -58,7 +59,11 @@ function readTextFile(relativeFilePath) {
 }
 
 function normalizeLine(line) {
-  return line.replace(/\r/g, "").replace(/\s+/g, " ").trim();
+  return line
+    .replace(/\r/g, "")
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function getDeckSectionName(line) {
@@ -79,12 +84,21 @@ function getDeckSectionName(line) {
   return null;
 }
 
-function isCardQuantityLine(line) {
+function isCombinedCardQuantityLine(line) {
   return /^[1-3]x?\s+["'A-Za-z0-9À-ÿ.:'’!,\-&/()]+/.test(line);
 }
 
+function isQuantityOnlyLine(line) {
+  return /^[1-3]x$/i.test(line) || /^[1-3]$/i.test(line);
+}
+
 function isIgnoredUtilityLine(line) {
-  return /^qty\s+card name$/i.test(line) || /^no .* cards listed/i.test(line);
+  return (
+    /^qty$/i.test(line) ||
+    /^card name$/i.test(line) ||
+    /^qty\s+card name$/i.test(line) ||
+    /^no .* cards listed/i.test(line)
+  );
 }
 
 function isLikelyStopLine(line) {
@@ -107,8 +121,8 @@ function normalizeCardNameForImport(cardName) {
     .trim();
 }
 
-function parseQuantityLine(line) {
-  const match = line.match(/^([1-3])x?\s+(.+)$/);
+function parseCombinedQuantityLine(line) {
+  const match = line.match(/^([1-3])x?\s+(.+)$/i);
 
   if (!match) {
     return null;
@@ -128,6 +142,59 @@ function parseQuantityLine(line) {
   };
 }
 
+function parseSplitQuantityAndNameLine(quantityLine, cardNameLine) {
+  const quantityMatch = quantityLine.match(/^([1-3])x?$/i);
+
+  if (!quantityMatch) {
+    return null;
+  }
+
+  const quantity = Number(quantityMatch[1]);
+  const cardName = normalizeCardNameForImport(cardNameLine);
+
+  if (!cardName || isIgnoredUtilityLine(cardName) || getDeckSectionName(cardName)) {
+    return null;
+  }
+
+  return {
+    quantity,
+    cardName,
+    originalLine: `${quantityLine} ${cardNameLine}`,
+  };
+}
+
+function parseCardLineFromLines(lines, index) {
+  const line = lines[index];
+
+  if (isCombinedCardQuantityLine(line)) {
+    return {
+      parsedLine: parseCombinedQuantityLine(line),
+      nextIndex: index + 1,
+    };
+  }
+
+  if (isQuantityOnlyLine(line)) {
+    const nextLine = lines[index + 1];
+
+    if (!nextLine) {
+      return {
+        parsedLine: null,
+        nextIndex: index + 1,
+      };
+    }
+
+    return {
+      parsedLine: parseSplitQuantityAndNameLine(line, nextLine),
+      nextIndex: index + 2,
+    };
+  }
+
+  return {
+    parsedLine: null,
+    nextIndex: index + 1,
+  };
+}
+
 function extractExplicitSectionCandidate(text) {
   const lines = text
     .split("\n")
@@ -143,16 +210,19 @@ function extractExplicitSectionCandidate(text) {
   let currentSection = null;
   let hasSeenAnySection = false;
 
-  for (const line of lines) {
+  for (let index = 0; index < lines.length; ) {
+    const line = lines[index];
     const sectionName = getDeckSectionName(line);
 
     if (sectionName) {
       currentSection = sectionName;
       hasSeenAnySection = true;
+      index += 1;
       continue;
     }
 
     if (!hasSeenAnySection) {
+      index += 1;
       continue;
     }
 
@@ -161,22 +231,27 @@ function extractExplicitSectionCandidate(text) {
         break;
       }
 
+      index += 1;
       continue;
     }
 
     if (isIgnoredUtilityLine(line)) {
+      index += 1;
       continue;
     }
 
-    if (!currentSection || !isCardQuantityLine(line)) {
+    if (!currentSection) {
+      index += 1;
       continue;
     }
 
-    const parsedLine = parseQuantityLine(line);
+    const { parsedLine, nextIndex } = parseCardLineFromLines(lines, index);
 
     if (parsedLine) {
       sections[currentSection].push(parsedLine);
     }
+
+    index = nextIndex;
   }
 
   const candidateLineCount =
@@ -201,7 +276,9 @@ function extractLinearCandidateLines(text) {
     .map(normalizeLine)
     .filter(Boolean);
 
-  const firstCardLineIndex = lines.findIndex(isCardQuantityLine);
+  const firstCardLineIndex = lines.findIndex(
+    (line) => isCombinedCardQuantityLine(line) || isQuantityOnlyLine(line)
+  );
 
   if (firstCardLineIndex === -1) {
     return [];
@@ -209,22 +286,20 @@ function extractLinearCandidateLines(text) {
 
   const candidateLines = [];
 
-  for (let index = firstCardLineIndex; index < lines.length; index += 1) {
+  for (let index = firstCardLineIndex; index < lines.length; ) {
     const line = lines[index];
 
     if (isLikelyStopLine(line)) {
       break;
     }
 
-    if (!isCardQuantityLine(line)) {
-      continue;
-    }
-
-    const parsedLine = parseQuantityLine(line);
+    const { parsedLine, nextIndex } = parseCardLineFromLines(lines, index);
 
     if (parsedLine) {
       candidateLines.push(parsedLine);
     }
+
+    index = nextIndex;
   }
 
   return candidateLines;
