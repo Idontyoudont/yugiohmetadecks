@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-05-04T14:36:22.878Z",
+  "generatedAt": "2026-05-04T14:38:07.203Z",
   "inputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
   "deckCount": 2,
+  "totalWarningCount": 4,
+  "duplicateDeckIds": [],
   "decks": [
     {
       "id": "test-imported-goat-variant",
@@ -13,7 +15,19 @@
       "mainDeckCount": 17,
       "extraDeckCount": 3,
       "sideDeckCount": 3,
-      "totalCount": 23
+      "totalCount": 23,
+      "warningCount": 2,
+      "warnings": [
+        {
+          "type": "main-deck-too-small",
+          "message": "Main Deck has 17 cards. Standard valid range is 40 to 60."
+        },
+        {
+          "type": "side-deck-invalid-size",
+          "message": "Side Deck has 3 cards. Standard valid sizes are 0 or 15."
+        }
+      ],
+      "ignoredLines": []
     },
     {
       "id": "test-imported-dragon-ruler-variant",
@@ -24,7 +38,19 @@
       "mainDeckCount": 9,
       "extraDeckCount": 3,
       "sideDeckCount": 3,
-      "totalCount": 15
+      "totalCount": 15,
+      "warningCount": 2,
+      "warnings": [
+        {
+          "type": "main-deck-too-small",
+          "message": "Main Deck has 9 cards. Standard valid range is 40 to 60."
+        },
+        {
+          "type": "side-deck-invalid-size",
+          "message": "Side Deck has 3 cards. Standard valid sizes are 0 or 15."
+        }
+      ],
+      "ignoredLines": []
     }
   ]
 }

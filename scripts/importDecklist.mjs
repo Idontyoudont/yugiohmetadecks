@@ -131,6 +131,8 @@ function parseDeckBlock(rawText, index) {
     sideDeck: [],
   };
 
+  const ignoredLines = [];
+
   lines.forEach((line) => {
     const deckName = parseMetaLine(line, "Deck");
     const deckYear = parseMetaLine(line, "Year");
@@ -147,6 +149,11 @@ function parseDeckBlock(rawText, index) {
 
       if (Number.isInteger(parsedYear)) {
         year = parsedYear;
+      } else {
+        ignoredLines.push({
+          line,
+          reason: "Invalid year value",
+        });
       }
 
       return;
@@ -162,6 +169,11 @@ function parseDeckBlock(rawText, index) {
 
       if (validStatuses.has(normalizedStatus)) {
         status = normalizedStatus;
+      } else {
+        ignoredLines.push({
+          line,
+          reason: "Invalid status value. Use complete, sample, or draft.",
+        });
       }
 
       return;
@@ -175,12 +187,20 @@ function parseDeckBlock(rawText, index) {
     }
 
     if (!currentSection) {
+      ignoredLines.push({
+        line,
+        reason: "Line appears before a deck section",
+      });
       return;
     }
 
     const parsedCard = parseCardLine(line);
 
     if (!parsedCard) {
+      ignoredLines.push({
+        line,
+        reason: "Could not parse card line. Expected format: 1 Card Name",
+      });
       return;
     }
 
@@ -196,6 +216,7 @@ function parseDeckBlock(rawText, index) {
     mainDeck: deck.mainDeck,
     extraDeck: deck.extraDeck,
     sideDeck: deck.sideDeck,
+    ignoredLines,
   };
 }
 
@@ -251,26 +272,113 @@ function countCards(cards) {
   return cards.reduce((total, card) => total + card.quantity, 0);
 }
 
+function getDuplicateDeckIds(decks) {
+  const idCounts = new Map();
+
+  decks.forEach((deck) => {
+    idCounts.set(deck.id, (idCounts.get(deck.id) ?? 0) + 1);
+  });
+
+  return Array.from(idCounts.entries())
+    .filter(([, count]) => count > 1)
+    .map(([id]) => id);
+}
+
+function buildDeckWarnings(deck, duplicateDeckIds) {
+  const warnings = [];
+
+  const mainDeckCount = countCards(deck.mainDeck);
+  const extraDeckCount = countCards(deck.extraDeck);
+  const sideDeckCount = countCards(deck.sideDeck);
+
+  if (duplicateDeckIds.includes(deck.id)) {
+    warnings.push({
+      type: "duplicate-deck-id",
+      message: `Duplicate deck ID detected: ${deck.id}`,
+    });
+  }
+
+  if (deck.mainDeck.length === 0) {
+    warnings.push({
+      type: "empty-main-deck",
+      message: "Main Deck is empty.",
+    });
+  }
+
+  if (mainDeckCount < 40) {
+    warnings.push({
+      type: "main-deck-too-small",
+      message: `Main Deck has ${mainDeckCount} cards. Standard valid range is 40 to 60.`,
+    });
+  }
+
+  if (mainDeckCount > 60) {
+    warnings.push({
+      type: "main-deck-too-large",
+      message: `Main Deck has ${mainDeckCount} cards. Standard valid range is 40 to 60.`,
+    });
+  }
+
+  if (extraDeckCount > 15) {
+    warnings.push({
+      type: "extra-deck-too-large",
+      message: `Extra Deck has ${extraDeckCount} cards. Standard maximum is 15.`,
+    });
+  }
+
+  if (sideDeckCount !== 0 && sideDeckCount !== 15) {
+    warnings.push({
+      type: "side-deck-invalid-size",
+      message: `Side Deck has ${sideDeckCount} cards. Standard valid sizes are 0 or 15.`,
+    });
+  }
+
+  if (deck.ignoredLines.length > 0) {
+    warnings.push({
+      type: "ignored-lines",
+      message: `${deck.ignoredLines.length} line(s) were ignored during import.`,
+    });
+  }
+
+  return warnings;
+}
+
 function buildReport(decks) {
-  return {
-    generatedAt: new Date().toISOString(),
-    inputFile: "data/deckImportRaw.txt",
-    outputFile: "data/importedDecks.generated.ts",
-    deckCount: decks.length,
-    decks: decks.map((deck) => ({
+  const duplicateDeckIds = getDuplicateDeckIds(decks);
+
+  const deckReports = decks.map((deck) => {
+    const mainDeckCount = countCards(deck.mainDeck);
+    const extraDeckCount = countCards(deck.extraDeck);
+    const sideDeckCount = countCards(deck.sideDeck);
+    const warnings = buildDeckWarnings(deck, duplicateDeckIds);
+
+    return {
       id: deck.id,
       name: deck.name,
       year: deck.year,
       format: deck.format,
       status: deck.status,
-      mainDeckCount: countCards(deck.mainDeck),
-      extraDeckCount: countCards(deck.extraDeck),
-      sideDeckCount: countCards(deck.sideDeck),
-      totalCount:
-        countCards(deck.mainDeck) +
-        countCards(deck.extraDeck) +
-        countCards(deck.sideDeck),
-    })),
+      mainDeckCount,
+      extraDeckCount,
+      sideDeckCount,
+      totalCount: mainDeckCount + extraDeckCount + sideDeckCount,
+      warningCount: warnings.length,
+      warnings,
+      ignoredLines: deck.ignoredLines,
+    };
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    inputFile: "data/deckImportRaw.txt",
+    outputFile: "data/importedDecks.generated.ts",
+    deckCount: decks.length,
+    totalWarningCount: deckReports.reduce(
+      (total, deck) => total + deck.warningCount,
+      0
+    ),
+    duplicateDeckIds,
+    decks: deckReports,
   };
 }
 
@@ -279,6 +387,15 @@ function printReport(report) {
   console.log("Deck import report");
   console.log("------------------");
   console.log(`Imported decks: ${report.deckCount}`);
+  console.log(`Total warnings: ${report.totalWarningCount}`);
+
+  if (report.duplicateDeckIds.length > 0) {
+    console.log("");
+    console.log("Duplicate deck IDs:");
+    report.duplicateDeckIds.forEach((id) => {
+      console.log(`- ${id}`);
+    });
+  }
 
   report.decks.forEach((deck, index) => {
     console.log("");
@@ -291,6 +408,13 @@ function printReport(report) {
     console.log(`   Extra Deck: ${deck.extraDeckCount} cards`);
     console.log(`   Side Deck: ${deck.sideDeckCount} cards`);
     console.log(`   Total: ${deck.totalCount} cards`);
+
+    if (deck.warnings.length > 0) {
+      console.log("   Warnings:");
+      deck.warnings.forEach((warning) => {
+        console.log(`   - ${warning.message}`);
+      });
+    }
   });
 
   console.log("");
