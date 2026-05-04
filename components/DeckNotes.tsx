@@ -39,13 +39,25 @@ function getDeckNotes(cards: EnrichedDeckCard[]): DeckNote[] {
       0
     );
 
+    const replacementText = notInGameCards
+      .map((card) => {
+        const suggestions = card.replacementInfo?.suggestions ?? [];
+
+        if (suggestions.length === 0) {
+          return `${card.name}: no replacement suggestions added yet`;
+        }
+
+        return `${card.name}: ${suggestions
+          .map((suggestion) => suggestion.cardName)
+          .join(", ")}`;
+      })
+      .join(" | ");
+
     notes.push({
       title: `${totalCopies} card ${
         totalCopies === 1 ? "copy is" : "copies are"
       } not available in this game`,
-      description: `Consider replacing: ${notInGameCards
-        .map((card) => card.name)
-        .join(", ")}.`,
+      description: `Consider replacing: ${replacementText}.`,
       severity: "warning",
     });
   }

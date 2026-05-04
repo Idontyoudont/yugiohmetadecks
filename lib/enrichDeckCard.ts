@@ -1,5 +1,6 @@
 import { cardDetails } from "../data/cardDetails";
 import { cardGameSources } from "../data/cardGameSources";
+import { cardReplacements } from "../data/cardReplacements";
 import type { DeckCard, EnrichedDeckCard } from "../types/deck";
 
 function normalizeCardName(name: string) {
@@ -22,10 +23,15 @@ export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
     ([cardName]) => normalizeCardName(cardName) === normalizedCardName
   );
 
+  const replacementEntry = Object.entries(cardReplacements).find(
+    ([cardName]) => normalizeCardName(cardName) === normalizedCardName
+  );
+
   return {
     ...details,
     ...card,
     name: card.name,
     gameSourceInfo: gameSourceEntry?.[1],
+    replacementInfo: replacementEntry?.[1],
   };
 }

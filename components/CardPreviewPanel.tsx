@@ -19,6 +19,7 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
   }
 
   const gameSourceInfo = card.gameSourceInfo;
+  const replacementInfo = card.replacementInfo;
 
   return (
     <div className="sticky top-6">
@@ -162,6 +163,30 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
               </div>
             ) : null}
           </div>
+
+          {replacementInfo && replacementInfo.suggestions.length > 0 ? (
+            <div className="rounded-xl bg-slate-950 p-4">
+              <p className="text-xs uppercase tracking-[0.2em] text-blue-400">
+                Replacement suggestions
+              </p>
+
+              <div className="mt-3 space-y-3">
+                {replacementInfo.suggestions.map((suggestion) => (
+                  <div
+                    key={suggestion.cardName}
+                    className="rounded-xl border border-slate-800 bg-slate-900 p-3"
+                  >
+                    <p className="font-semibold text-slate-200">
+                      {suggestion.cardName}
+                    </p>
+                    <p className="mt-2 text-sm text-slate-500">
+                      {suggestion.reason}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : null}
 
           <div className="rounded-xl bg-slate-950 p-4">
             <p className="text-xs uppercase tracking-[0.2em] text-blue-400">

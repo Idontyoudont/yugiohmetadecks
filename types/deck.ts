@@ -28,9 +28,20 @@ export type CardGameSourceInfo = {
   notes?: string;
 };
 
+export type ReplacementSuggestion = {
+  cardName: string;
+  reason: string;
+};
+
+export type CardReplacementInfo = {
+  name: string;
+  suggestions: ReplacementSuggestion[];
+};
+
 export type EnrichedDeckCard = DeckCard &
   CardDetails & {
     gameSourceInfo?: CardGameSourceInfo;
+    replacementInfo?: CardReplacementInfo;
   };
 
 export type DeckStatus = "complete" | "sample" | "draft";
