@@ -1,0 +1,28 @@
+{
+  "startYear": 2005,
+  "endYear": 2025,
+  "targetDecksPerYear": 5,
+  "years": [
+    { "year": 2005, "targets": ["Goat Control"] },
+    { "year": 2006, "targets": [] },
+    { "year": 2007, "targets": [] },
+    { "year": 2008, "targets": [] },
+    { "year": 2009, "targets": [] },
+    { "year": 2010, "targets": [] },
+    { "year": 2011, "targets": [] },
+    { "year": 2012, "targets": [] },
+    { "year": 2013, "targets": ["Dragon Ruler"] },
+    { "year": 2014, "targets": [] },
+    { "year": 2015, "targets": [] },
+    { "year": 2016, "targets": [] },
+    { "year": 2017, "targets": [] },
+    { "year": 2018, "targets": [] },
+    { "year": 2019, "targets": [] },
+    { "year": 2020, "targets": [] },
+    { "year": 2021, "targets": [] },
+    { "year": 2022, "targets": [] },
+    { "year": 2023, "targets": [] },
+    { "year": 2024, "targets": [] },
+    { "year": 2025, "targets": [] }
+  ]
+}
