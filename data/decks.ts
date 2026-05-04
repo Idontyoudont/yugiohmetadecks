@@ -192,19 +192,54 @@ export const decks: Deck[] = [
     ],
     sideDeck: [
       {
-        name: "Dust Tornado",
+        name: "Mobius the Frost Monarch",
         quantity: 2,
-        tags: ["spell trap removal"],
+        tags: ["tribute", "spell trap removal"],
+      },
+      {
+        name: "Kycoo the Ghost Destroyer",
+        quantity: 1,
+        tags: ["graveyard control", "chaos counter"],
       },
       {
         name: "Nobleman of Crossout",
         quantity: 2,
-        tags: ["removal"],
+        tags: ["removal", "anti-flip"],
       },
       {
-        name: "Mobius the Frost Monarch",
+        name: "Mind Control",
+        quantity: 1,
+        tags: ["control", "side deck"],
+      },
+      {
+        name: "Book of Moon",
+        quantity: 1,
+        tags: ["disruption", "quick-play"],
+      },
+      {
+        name: "Dust Tornado",
         quantity: 2,
-        tags: ["tribute", "spell trap removal"],
+        tags: ["spell trap removal", "trap"],
+      },
+      {
+        name: "Royal Decree",
+        quantity: 2,
+        tags: ["trap control", "side deck"],
+      },
+      {
+        name: "Bottomless Trap Hole",
+        quantity: 2,
+        tags: ["removal", "trap"],
+      },
+      {
+        name: "Ceasefire",
+        quantity: 1,
+        tags: ["burn", "anti-flip"],
+      },
+      {
+        name: "Threatening Roar",
+        quantity: 1,
+        tags: ["defense", "trap"],
       },
     ],
   },
