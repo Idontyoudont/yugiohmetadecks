@@ -36,6 +36,10 @@ function normalizeLine(line) {
   return line.replace(/\r/g, "").trim();
 }
 
+function normalizeTag(tag) {
+  return tag.trim().toLowerCase().replace(/\s+/g, " ");
+}
+
 function parseMetaLine(line, key) {
   const prefix = `${key}:`;
 
@@ -69,7 +73,8 @@ function getSectionName(line) {
 }
 
 function parseCardLine(line) {
-  const match = line.match(/^(\d+)\s+(.+)$/);
+  const [cardPart, tagPart] = line.split("|").map((part) => part.trim());
+  const match = cardPart.match(/^(\d+)\s+(.+)$/);
 
   if (!match) {
     return null;
@@ -82,10 +87,22 @@ function parseCardLine(line) {
     return null;
   }
 
+  const tags = tagPart
+    ? tagPart
+        .split(",")
+        .map(normalizeTag)
+        .filter(Boolean)
+    : [];
+
   return {
     quantity,
     name,
+    tags,
   };
+}
+
+function mergeTags(existingTags, tagsToAdd) {
+  return Array.from(new Set([...(existingTags ?? []), ...tagsToAdd])).sort();
 }
 
 function addCard(cards, cardToAdd) {
@@ -95,13 +112,14 @@ function addCard(cards, cardToAdd) {
 
   if (existingCard) {
     existingCard.quantity += cardToAdd.quantity;
+    existingCard.tags = mergeTags(existingCard.tags, cardToAdd.tags);
     return;
   }
 
   cards.push({
     name: cardToAdd.name,
     quantity: cardToAdd.quantity,
-    tags: [],
+    tags: cardToAdd.tags,
   });
 }
 
@@ -199,7 +217,8 @@ function parseDeckBlock(rawText, index) {
     if (!parsedCard) {
       ignoredLines.push({
         line,
-        reason: "Could not parse card line. Expected format: 1 Card Name",
+        reason:
+          "Could not parse card line. Expected format: 1 Card Name or 1 Card Name | tag, tag",
       });
       return;
     }
@@ -270,6 +289,20 @@ ${decks.map(formatDeck).join(",\n")}
 
 function countCards(cards) {
   return cards.reduce((total, card) => total + card.quantity, 0);
+}
+
+function countTaggedCards(cards) {
+  return cards.filter((card) => card.tags && card.tags.length > 0).length;
+}
+
+function getAllTags(deck) {
+  const tags = [
+    ...deck.mainDeck,
+    ...deck.extraDeck,
+    ...deck.sideDeck,
+  ].flatMap((card) => card.tags ?? []);
+
+  return Array.from(new Set(tags)).sort();
 }
 
 function getDuplicateDeckIds(decks) {
@@ -350,6 +383,11 @@ function buildReport(decks) {
     const mainDeckCount = countCards(deck.mainDeck);
     const extraDeckCount = countCards(deck.extraDeck);
     const sideDeckCount = countCards(deck.sideDeck);
+    const taggedCardCount =
+      countTaggedCards(deck.mainDeck) +
+      countTaggedCards(deck.extraDeck) +
+      countTaggedCards(deck.sideDeck);
+    const tags = getAllTags(deck);
     const warnings = buildDeckWarnings(deck, duplicateDeckIds);
 
     return {
@@ -362,6 +400,8 @@ function buildReport(decks) {
       extraDeckCount,
       sideDeckCount,
       totalCount: mainDeckCount + extraDeckCount + sideDeckCount,
+      taggedCardCount,
+      tags,
       warningCount: warnings.length,
       warnings,
       ignoredLines: deck.ignoredLines,
@@ -408,6 +448,11 @@ function printReport(report) {
     console.log(`   Extra Deck: ${deck.extraDeckCount} cards`);
     console.log(`   Side Deck: ${deck.sideDeckCount} cards`);
     console.log(`   Total: ${deck.totalCount} cards`);
+    console.log(`   Tagged cards: ${deck.taggedCardCount}`);
+
+    if (deck.tags.length > 0) {
+      console.log(`   Tags: ${deck.tags.join(", ")}`);
+    }
 
     if (deck.warnings.length > 0) {
       console.log("   Warnings:");
