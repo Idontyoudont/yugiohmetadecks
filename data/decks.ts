@@ -8,19 +8,79 @@ export const decks: Deck[] = [
     format: "Goat Format",
     mainDeck: [
       {
-  name: "Black Luster Soldier - Envoy of the Beginning",
-  quantity: 1,
-  tags: ["boss monster", "banish", "light/dark payoff"],
-},
+        name: "Black Luster Soldier - Envoy of the Beginning",
+        quantity: 1,
+        tags: ["boss monster", "banish", "light/dark payoff"],
+      },
+      {
+        name: "Airknight Parshath",
+        quantity: 1,
+        tags: ["tribute", "draw", "piercing"],
+      },
+      {
+        name: "Jinzo",
+        quantity: 1,
+        tags: ["tribute", "trap control"],
+      },
+      {
+        name: "Breaker the Magical Warrior",
+        quantity: 1,
+        tags: ["removal", "spell trap removal"],
+      },
+      {
+        name: "Tribe-Infecting Virus",
+        quantity: 1,
+        tags: ["removal", "discard outlet"],
+      },
+      {
+        name: "Sinister Serpent",
+        quantity: 1,
+        tags: ["resource", "discard fodder"],
+      },
+      {
+        name: "Sangan",
+        quantity: 1,
+        tags: ["search", "floater"],
+      },
       {
         name: "Magician of Faith",
         quantity: 2,
         tags: ["flip", "recovery"],
       },
       {
-        name: "Sinister Serpent",
+        name: "Tsukuyomi",
         quantity: 1,
-        tags: ["resource"],
+        tags: ["control", "flip support"],
+      },
+      {
+        name: "D.D. Warrior Lady",
+        quantity: 1,
+        tags: ["removal", "warrior"],
+      },
+      {
+        name: "Exiled Force",
+        quantity: 1,
+        tags: ["removal", "warrior"],
+      },
+      {
+        name: "Asura Priest",
+        quantity: 1,
+        tags: ["spirit", "board clear"],
+      },
+      {
+        name: "Spirit Reaper",
+        quantity: 1,
+        tags: ["defense", "hand control"],
+      },
+      {
+        name: "Morphing Jar",
+        quantity: 1,
+        tags: ["flip", "draw"],
+      },
+      {
+        name: "Kycoo the Ghost Destroyer",
+        quantity: 1,
+        tags: ["graveyard control", "beatstick"],
       },
       {
         name: "Scapegoat",
@@ -30,7 +90,7 @@ export const decks: Deck[] = [
       {
         name: "Metamorphosis",
         quantity: 3,
-        tags: ["engine"],
+        tags: ["engine", "fusion access"],
       },
       {
         name: "Book of Moon",
@@ -38,14 +98,79 @@ export const decks: Deck[] = [
         tags: ["disruption", "quick-play"],
       },
       {
-        name: "Graceful Charity",
+        name: "Pot of Greed",
         quantity: 1,
         tags: ["draw"],
+      },
+      {
+        name: "Graceful Charity",
+        quantity: 1,
+        tags: ["draw", "discard outlet"],
+      },
+      {
+        name: "Delinquent Duo",
+        quantity: 1,
+        tags: ["hand control"],
+      },
+      {
+        name: "Snatch Steal",
+        quantity: 1,
+        tags: ["removal", "control"],
+      },
+      {
+        name: "Premature Burial",
+        quantity: 1,
+        tags: ["revival"],
+      },
+      {
+        name: "Heavy Storm",
+        quantity: 1,
+        tags: ["spell trap removal"],
+      },
+      {
+        name: "Mystical Space Typhoon",
+        quantity: 1,
+        tags: ["spell trap removal", "quick-play"],
+      },
+      {
+        name: "Nobleman of Crossout",
+        quantity: 1,
+        tags: ["removal", "anti-flip"],
+      },
+      {
+        name: "Swords of Revealing Light",
+        quantity: 1,
+        tags: ["defense", "stall"],
       },
       {
         name: "Mirror Force",
         quantity: 1,
         tags: ["removal", "trap"],
+      },
+      {
+        name: "Torrential Tribute",
+        quantity: 1,
+        tags: ["removal", "trap"],
+      },
+      {
+        name: "Ring of Destruction",
+        quantity: 1,
+        tags: ["removal", "burn", "trap"],
+      },
+      {
+        name: "Call of the Haunted",
+        quantity: 1,
+        tags: ["revival", "trap"],
+      },
+      {
+        name: "Sakuretsu Armor",
+        quantity: 1,
+        tags: ["removal", "trap"],
+      },
+      {
+        name: "Dust Tornado",
+        quantity: 2,
+        tags: ["spell trap removal", "trap"],
       },
     ],
     extraDeck: [
