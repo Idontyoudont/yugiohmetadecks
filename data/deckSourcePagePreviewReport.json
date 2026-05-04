@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-05-04T18:03:25.721Z",
+  "previewedFileCount": 3,
+  "previews": [
+    {
+      "source": {
+        "year": 2007,
+        "target": "Perfect Circle Monarch",
+        "status": "source-registered",
+        "sourceType": "format-reference",
+        "label": "Format Library Perfect Circle Format",
+        "player": null,
+        "deckType": "Perfect Circle Monarch",
+        "url": "https://formatlibrary.com/formats/perfect-circle",
+        "notes": "Format reference source. Useful for identifying the archetype and format context. May need a separate exact tournament decklist source before importing."
+      },
+      "textFile": "data/deckSourcePages/2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
+      "textBytes": 24,
+      "previewLineCount": 0,
+      "previewLines": []
+    },
+    {
+      "source": {
+        "year": 2008,
+        "target": "TeleDAD",
+        "status": "source-registered",
+        "sourceType": "event-archive",
+        "label": "SJC Detroit 2008 Top 16",
+        "player": "Steven Harris",
+        "deckType": "TeleDAD",
+        "url": "https://www.formatlibrary.com/events/SJCDET08",
+        "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Use as candidate source for importing a representative 2008 TeleDAD list."
+      },
+      "textFile": "data/deckSourcePages/2008-teledad-steven-harris.txt",
+      "textBytes": 24,
+      "previewLineCount": 0,
+      "previewLines": []
+    },
+    {
+      "source": {
+        "year": 2013,
+        "target": "Dragon Ruler",
+        "status": "imported",
+        "sourceType": "blog",
+        "label": "Top 16 YCS Turin 2013",
+        "player": "Michele Bergamasco",
+        "deckType": "Dragon Ruler",
+        "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
+        "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+      },
+      "textFile": "data/deckSourcePages/2013-dragon-ruler-michele-bergamasco.txt",
+      "textBytes": 4893,
+      "previewLineCount": 0,
+      "previewLines": []
+    }
+  ]
+}
