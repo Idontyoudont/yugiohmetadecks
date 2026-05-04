@@ -114,6 +114,10 @@ function getAutomaticTags(cardName) {
   return automaticTagRules.get(normalizeCardName(cardName)) ?? [];
 }
 
+function mergeTags(existingTags, tagsToAdd) {
+  return Array.from(new Set([...(existingTags ?? []), ...tagsToAdd])).sort();
+}
+
 function parseCardLine(line) {
   const [cardPart, tagPart] = line.split("|").map((part) => part.trim());
   const match = cardPart.match(/^(\d+)\s+(.+)$/);
@@ -148,10 +152,6 @@ function parseCardLine(line) {
   };
 }
 
-function mergeTags(existingTags, tagsToAdd) {
-  return Array.from(new Set([...(existingTags ?? []), ...tagsToAdd])).sort();
-}
-
 function addCard(cards, cardToAdd) {
   const existingCard = cards.find(
     (card) => normalizeCardName(card.name) === normalizeCardName(cardToAdd.name)
@@ -164,7 +164,10 @@ function addCard(cards, cardToAdd) {
       existingCard.automaticTags,
       cardToAdd.automaticTags
     );
-    existingCard.inlineTags = mergeTags(existingCard.inlineTags, cardToAdd.inlineTags);
+    existingCard.inlineTags = mergeTags(
+      existingCard.inlineTags,
+      cardToAdd.inlineTags
+    );
     return;
   }
 
@@ -281,6 +284,7 @@ function parseDeckBlock(rawText, index) {
   });
 
   return {
+    originalId: slugify(name),
     id: slugify(name),
     name,
     year,
@@ -295,6 +299,32 @@ function parseDeckBlock(rawText, index) {
 
 function parseDecklists(rawText) {
   return splitRawTextIntoDeckBlocks(rawText).map(parseDeckBlock);
+}
+
+function assignUniqueDeckIds(decks) {
+  const idCounts = new Map();
+
+  return decks.map((deck) => {
+    const baseId = deck.originalId || deck.id || "imported-deck";
+    const currentCount = idCounts.get(baseId) ?? 0;
+    const nextCount = currentCount + 1;
+
+    idCounts.set(baseId, nextCount);
+
+    if (currentCount === 0) {
+      return {
+        ...deck,
+        id: baseId,
+        generatedDuplicateId: false,
+      };
+    }
+
+    return {
+      ...deck,
+      id: `${baseId}-${nextCount}`,
+      generatedDuplicateId: true,
+    };
+  });
 }
 
 function formatCard(card) {
@@ -370,29 +400,27 @@ function getAllTags(deck) {
   return Array.from(new Set(tags)).sort();
 }
 
-function getDuplicateDeckIds(decks) {
-  const idCounts = new Map();
-
-  decks.forEach((deck) => {
-    idCounts.set(deck.id, (idCounts.get(deck.id) ?? 0) + 1);
-  });
-
-  return Array.from(idCounts.entries())
-    .filter(([, count]) => count > 1)
-    .map(([id]) => id);
+function getRenamedDuplicateDecks(decks) {
+  return decks
+    .filter((deck) => deck.generatedDuplicateId)
+    .map((deck) => ({
+      name: deck.name,
+      originalId: deck.originalId,
+      assignedId: deck.id,
+    }));
 }
 
-function buildDeckWarnings(deck, duplicateDeckIds) {
+function buildDeckWarnings(deck) {
   const warnings = [];
 
   const mainDeckCount = countCards(deck.mainDeck);
   const extraDeckCount = countCards(deck.extraDeck);
   const sideDeckCount = countCards(deck.sideDeck);
 
-  if (duplicateDeckIds.includes(deck.id)) {
+  if (deck.generatedDuplicateId) {
     warnings.push({
-      type: "duplicate-deck-id",
-      message: `Duplicate deck ID detected: ${deck.id}`,
+      type: "duplicate-deck-id-renamed",
+      message: `Duplicate deck ID was automatically renamed from ${deck.originalId} to ${deck.id}.`,
     });
   }
 
@@ -442,7 +470,7 @@ function buildDeckWarnings(deck, duplicateDeckIds) {
 }
 
 function buildReport(decks) {
-  const duplicateDeckIds = getDuplicateDeckIds(decks);
+  const renamedDuplicateDecks = getRenamedDuplicateDecks(decks);
 
   const deckReports = decks.map((deck) => {
     const mainDeckCount = countCards(deck.mainDeck);
@@ -461,10 +489,11 @@ function buildReport(decks) {
       countInlineTaggedCards(deck.extraDeck) +
       countInlineTaggedCards(deck.sideDeck);
     const tags = getAllTags(deck);
-    const warnings = buildDeckWarnings(deck, duplicateDeckIds);
+    const warnings = buildDeckWarnings(deck);
 
     return {
       id: deck.id,
+      originalId: deck.originalId,
       name: deck.name,
       year: deck.year,
       format: deck.format,
@@ -494,7 +523,7 @@ function buildReport(decks) {
       (total, deck) => total + deck.warningCount,
       0
     ),
-    duplicateDeckIds,
+    renamedDuplicateDecks,
     decks: deckReports,
   };
 }
@@ -507,11 +536,11 @@ function printReport(report) {
   console.log(`Total warnings: ${report.totalWarningCount}`);
   console.log(`Automatic tag rules: ${report.automaticTagRuleCount}`);
 
-  if (report.duplicateDeckIds.length > 0) {
+  if (report.renamedDuplicateDecks.length > 0) {
     console.log("");
-    console.log("Duplicate deck IDs:");
-    report.duplicateDeckIds.forEach((id) => {
-      console.log(`- ${id}`);
+    console.log("Automatically renamed duplicate deck IDs:");
+    report.renamedDuplicateDecks.forEach((deck) => {
+      console.log(`- ${deck.name}: ${deck.originalId} → ${deck.assignedId}`);
     });
   }
 
@@ -519,6 +548,11 @@ function printReport(report) {
     console.log("");
     console.log(`${index + 1}. ${deck.name}`);
     console.log(`   ID: ${deck.id}`);
+
+    if (deck.originalId !== deck.id) {
+      console.log(`   Original ID: ${deck.originalId}`);
+    }
+
     console.log(`   Year: ${deck.year}`);
     console.log(`   Format: ${deck.format}`);
     console.log(`   Status: ${deck.status}`);
@@ -554,7 +588,8 @@ function main() {
   }
 
   const rawText = fs.readFileSync(inputFilePath, "utf8");
-  const decks = parseDecklists(rawText);
+  const parsedDecks = parseDecklists(rawText);
+  const decks = assignUniqueDeckIds(parsedDecks);
   const output = generateTypeScript(decks);
   const report = buildReport(decks);
 
