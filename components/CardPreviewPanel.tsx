@@ -1,11 +1,31 @@
+import { useEffect, useState } from "react";
 import { enrichCardByName } from "../lib/enrichDeckCard";
-import type { EnrichedDeckCard } from "../types/deck";
+import { fetchCardDetails } from "../lib/fetchCardDetails";
+import type { CardDetails, EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
   card: EnrichedDeckCard | null;
   onClose?: () => void;
   onPreviewCard?: (card: EnrichedDeckCard) => void;
 };
+
+function getCardWithApiDetails(
+  card: EnrichedDeckCard,
+  apiDetails: CardDetails | null
+): EnrichedDeckCard {
+  if (!apiDetails) {
+    return card;
+  }
+
+  return {
+    ...card,
+    imageUrl: apiDetails.imageUrl ?? card.imageUrl,
+    description: apiDetails.description ?? card.description,
+    cardType: apiDetails.cardType ?? card.cardType,
+    attribute: apiDetails.attribute ?? card.attribute,
+    level: apiDetails.level ?? card.level,
+  };
+}
 
 function CardPreviewContent({
   card,
@@ -14,6 +34,34 @@ function CardPreviewContent({
   card: EnrichedDeckCard | null;
   onPreviewCard?: (card: EnrichedDeckCard) => void;
 }) {
+  const [apiDetails, setApiDetails] = useState<CardDetails | null>(null);
+  const [isLoadingDetails, setIsLoadingDetails] = useState(false);
+
+  useEffect(() => {
+    let isActive = true;
+
+    async function loadCardDetails() {
+      if (!card) {
+        setApiDetails(null);
+        return;
+      }
+
+      setIsLoadingDetails(true);
+      const details = await fetchCardDetails(card.name);
+
+      if (isActive) {
+        setApiDetails(details);
+        setIsLoadingDetails(false);
+      }
+    }
+
+    loadCardDetails();
+
+    return () => {
+      isActive = false;
+    };
+  }, [card?.name]);
+
   if (!card) {
     return (
       <div className="rounded-2xl border border-dashed border-slate-700 p-6 text-center">
@@ -26,8 +74,9 @@ function CardPreviewContent({
     );
   }
 
-  const gameSourceInfo = card.gameSourceInfo;
-  const replacementInfo = card.replacementInfo;
+  const displayCard = getCardWithApiDetails(card, apiDetails);
+  const gameSourceInfo = displayCard.gameSourceInfo;
+  const replacementInfo = displayCard.replacementInfo;
 
   function handleReplacementClick(cardName: string) {
     const replacementCard = enrichCardByName(cardName);
@@ -36,10 +85,10 @@ function CardPreviewContent({
 
   return (
     <div className="sticky top-6">
-      {card.imageUrl ? (
+      {displayCard.imageUrl ? (
         <img
-          src={card.imageUrl}
-          alt={card.name}
+          src={displayCard.imageUrl}
+          alt={displayCard.name}
           className="mb-5 w-full rounded-2xl shadow-2xl"
         />
       ) : (
@@ -48,44 +97,50 @@ function CardPreviewContent({
 
       <div className="rounded-2xl border border-slate-800 bg-slate-900 p-5">
         <div className="mb-3 flex items-start justify-between gap-3">
-          <h2 className="text-xl font-bold text-white">{card.name}</h2>
+          <h2 className="text-xl font-bold text-white">{displayCard.name}</h2>
           <span className="rounded-full bg-blue-500 px-3 py-1 text-sm font-bold text-white">
-            x{card.quantity}
+            x{displayCard.quantity}
           </span>
         </div>
 
+        {isLoadingDetails ? (
+          <div className="mb-5 rounded-xl bg-slate-950 p-3 text-sm text-slate-400">
+            Loading card details from API...
+          </div>
+        ) : null}
+
         <div className="mb-5 grid grid-cols-2 gap-2 text-sm">
-          {card.cardType ? (
+          {displayCard.cardType ? (
             <div className="rounded-xl bg-slate-950 p-3">
               <p className="text-xs uppercase tracking-wide text-slate-500">
                 Type
               </p>
-              <p className="mt-1 text-slate-200">{card.cardType}</p>
+              <p className="mt-1 text-slate-200">{displayCard.cardType}</p>
             </div>
           ) : null}
 
-          {card.attribute ? (
+          {displayCard.attribute ? (
             <div className="rounded-xl bg-slate-950 p-3">
               <p className="text-xs uppercase tracking-wide text-slate-500">
                 Attribute
               </p>
-              <p className="mt-1 text-slate-200">{card.attribute}</p>
+              <p className="mt-1 text-slate-200">{displayCard.attribute}</p>
             </div>
           ) : null}
 
-          {card.level ? (
+          {displayCard.level ? (
             <div className="rounded-xl bg-slate-950 p-3">
               <p className="text-xs uppercase tracking-wide text-slate-500">
-                Level
+                Level / Rank / Link
               </p>
-              <p className="mt-1 text-slate-200">{card.level}</p>
+              <p className="mt-1 text-slate-200">{displayCard.level}</p>
             </div>
           ) : null}
         </div>
 
-        {card.tags && card.tags.length > 0 ? (
+        {displayCard.tags && displayCard.tags.length > 0 ? (
           <div className="mb-5 flex flex-wrap gap-2">
-            {card.tags.map((tag) => (
+            {displayCard.tags.map((tag) => (
               <span
                 key={tag}
                 className="rounded-full bg-slate-800 px-3 py-1 text-xs uppercase tracking-wide text-slate-300"
@@ -98,8 +153,8 @@ function CardPreviewContent({
 
         <div className="space-y-4 text-sm text-slate-400">
           <p>
-            {card.description ??
-              "This is a placeholder card preview. Later, this panel can show the real card image, type, attribute, level, official effect text, in-game pack source, and custom role explanation."}
+            {displayCard.description ??
+              "No card description is available yet for this card."}
           </p>
 
           <div className="rounded-xl bg-slate-950 p-4">
@@ -255,13 +310,12 @@ function CardPreviewContent({
 
           <div className="rounded-xl bg-slate-950 p-4">
             <p className="text-xs uppercase tracking-[0.2em] text-blue-400">
-              Future data
+              Data source
             </p>
             <ul className="mt-3 space-y-2">
-              <li>Full official card text</li>
-              <li>More in-game pack sources</li>
-              <li>Card unlock notes</li>
-              <li>Custom role explanation</li>
+              <li>Card details: YGOPRODeck API with local fallback</li>
+              <li>In-game pack sources: curated Legacy of the Duelist data</li>
+              <li>Deck variants: curated app data</li>
             </ul>
           </div>
         </div>
