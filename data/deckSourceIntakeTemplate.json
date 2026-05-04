@@ -7,7 +7,7 @@
     "After editing, copy wanted entries into data/deckSourceIntake.json under the sources array.",
     "Then run: node scripts/mergeDeckSourceIntake.mjs"
   ],
-  "generatedAt": "2026-05-04T18:25:25.156Z",
+  "generatedAt": "2026-05-04T18:27:19.294Z",
   "limit": 20,
   "sources": [
     {
