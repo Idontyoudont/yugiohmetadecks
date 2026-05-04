@@ -5,6 +5,7 @@ import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckFilters } from "./DeckFilters";
 import { DeckSidebar } from "./DeckSidebar";
+import { DeckStats } from "./DeckStats";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
 import type { Deck, EnrichedDeckCard } from "../types/deck";
 
@@ -85,15 +86,24 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
             Selected deck
           </p>
+
           <h2 className="mt-3 text-4xl font-bold text-white">
             {selectedDeck.name}
           </h2>
+
           <p className="mt-3 text-slate-300">
             {selectedDeck.year} · {selectedDeck.format}
           </p>
+
           <p className="mt-5 max-w-3xl text-slate-400">
             Search within the selected deck or filter cards by custom role tags.
           </p>
+
+          <DeckStats
+            mainDeck={filteredMainDeck}
+            extraDeck={filteredExtraDeck}
+            sideDeck={filteredSideDeck}
+          />
         </div>
 
         <DeckFilters
@@ -111,12 +121,14 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
+
           <CardGrid
             title="Extra Deck"
             cards={filteredExtraDeck}
             selectedCard={selectedCard}
             onSelectCard={setSelectedCard}
           />
+
           <CardGrid
             title="Side Deck"
             cards={filteredSideDeck}
@@ -127,9 +139,9 @@ export function DeckViewer({ decks }: DeckViewerProps) {
       </section>
 
       <CardPreviewPanel
-  card={selectedCard}
-  onClose={() => setSelectedCard(null)}
-/>
+        card={selectedCard}
+        onClose={() => setSelectedCard(null)}
+      />
     </div>
   );
 }
