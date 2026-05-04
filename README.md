@@ -15,6 +15,7 @@ The app supports:
 - Missing source checks
 - Replacement suggestions for unavailable cards
 - Name-based decklist importing
+- Hidden sample decks for development
 
 ## Live app
 
@@ -278,6 +279,30 @@ git status
 git add .
 git commit -m "Import decklists"
 git push
+```
+
+## Deck visibility
+
+Decks can have one of three statuses:
+
+```text
+complete
+sample
+draft
+```
+
+Sample decks are hidden by default in the sidebar. To show unfinished development decks in the app, use the **Show sample decks** button in the left sidebar.
+
+This is useful for keeping the live app clean while still keeping unfinished deck data available during development.
+
+Current behavior:
+
+```text
+Default sidebar:
+Complete and draft decks
+
+After clicking Show sample decks:
+Complete, draft, and sample decks
 ```
 
 ## Deck variants
