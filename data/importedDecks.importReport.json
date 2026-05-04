@@ -1,76 +1,34 @@
 {
-  "generatedAt": "2026-05-04T14:58:14.949Z",
+  "generatedAt": "2026-05-04T15:04:26.854Z",
   "inputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
   "tagRulesFile": "data/cardTagRules.ts",
   "automaticTagRuleCount": 38,
-  "deckCount": 2,
-  "totalWarningCount": 3,
-  "renamedDuplicateDecks": [
-    {
-      "name": "Duplicate Test",
-      "originalId": "duplicate-test",
-      "assignedId": "duplicate-test-2"
-    }
-  ],
+  "deckCount": 1,
+  "totalWarningCount": 0,
+  "renamedDuplicateDecks": [],
   "decks": [
     {
-      "id": "duplicate-test",
-      "originalId": "duplicate-test",
-      "name": "Duplicate Test",
-      "year": 2005,
-      "format": "Goat Format",
-      "status": "draft",
-      "mainDeckCount": 1,
-      "extraDeckCount": 0,
-      "sideDeckCount": 0,
-      "totalCount": 1,
-      "taggedCardCount": 1,
-      "automaticTaggedCardCount": 1,
+      "id": "dragon-ruler-ycs-turin-2013",
+      "originalId": "dragon-ruler-ycs-turin-2013",
+      "name": "Dragon Ruler YCS Turin 2013",
+      "year": 2013,
+      "format": "TCG Advanced",
+      "status": "complete",
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 71,
+      "taggedCardCount": 3,
+      "automaticTaggedCardCount": 3,
       "inlineTaggedCardCount": 0,
       "tags": [
-        "draw",
-        "power spell"
+        "backrow removal",
+        "quick-play",
+        "trap control"
       ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 1 cards. Standard valid range is 40 to 60."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
-      "id": "duplicate-test-2",
-      "originalId": "duplicate-test",
-      "name": "Duplicate Test",
-      "year": 2005,
-      "format": "Goat Format",
-      "status": "draft",
-      "mainDeckCount": 1,
-      "extraDeckCount": 0,
-      "sideDeckCount": 0,
-      "totalCount": 1,
-      "taggedCardCount": 1,
-      "automaticTaggedCardCount": 1,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "disruption",
-        "flip support",
-        "quick-play"
-      ],
-      "warningCount": 2,
-      "warnings": [
-        {
-          "type": "duplicate-deck-id-renamed",
-          "message": "Duplicate deck ID was automatically renamed from duplicate-test to duplicate-test-2."
-        },
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 1 cards. Standard valid range is 40 to 60."
-        }
-      ],
+      "warningCount": 0,
+      "warnings": [],
       "ignoredLines": []
     }
   ]
