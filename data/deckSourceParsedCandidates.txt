@@ -61,6 +61,7 @@ Year: 2014
 Format: Imported Format
 Status: draft
 Source: Yu-Gi-Oh! Top Decks deck 1168
+Player: Charlie Kip
 Deck Type: Fire Fist
 Source URL: https://www.yugiohtopdecks.org/deck/1168
 

@@ -1,55 +1,57 @@
-Deck: Dragon Ruler YCS Turin 2013
-Year: 2013
-Format: TCG Advanced
-Status: complete
-Source: Top 16 YCS Turin 2013
-Player: Michele Bergamasco
-Deck Type: Dragon Ruler
-Source URL: https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html
+Deck: Fire Fist 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks deck 1168
+Player: Charlie Kip
+Deck Type: Fire Fist
+Source URL: https://www.yugiohtopdecks.org/deck/1168
 
 Main Deck
-3 Blaster, Dragon Ruler of Infernos
-3 Tidal, Dragon Ruler of Waterfalls
-3 Tempest, Dragon Ruler of Storms
-3 Redox, Dragon Ruler of Boulders
-2 Dragunity Corsesca
-2 Debris Dragon
-2 Flamvell Guard
-1 Trigon
-3 Maxx "C"
-1 Battle Fader
-3 Dragon Ravine
-3 Sacred Sword of Seven Stars
-3 Cards of Consonance
-2 Terraforming
-2 Mystical Space Typhoon
-2 Phoenix Wing Wind Blast
-1 Compulsory Evacuation Device
-1 Sixth Sense
-1 Return from the Different Dimension
+3 Brotherhood of the Fire Fist - Bear
+1 Brotherhood of the Fire Fist - Gorilla
+3 Brotherhood of the Fire Fist - Leopard
+2 Brotherhood of the Fire Fist - Rooster
+1 Brotherhood of the Fire Fist - Spirit
+1 Coach Soldier Wolfbark
+1 Maxx "C"
+2 Fire Formation - Gyokkou
+3 Fire Formation - Tenki
+3 Fire Formation - Tensu
+2 Forbidden Lance
+3 Mystical Space Typhoon
+3 Rekindling
+3 Upstart Goblin
+1 Bottomless Trap Hole
+2 Fiendish Chain
+1 Full House
+3 Reckless Greed
+1 Solemn Warning
+1 Torrential Tribute
 
 Extra Deck
-1 Armory Arm
-2 Ancient Fairy Dragon
-1 Black Rose Dragon
-1 Crimson Blader
-1 Scrap Dragon
-1 Stardust Dragon
-1 Thought Ruler Archfiend
-1 Colossal Fighter
-1 Star Eater
-1 Gaia Dragon, the Thunder Charger
-1 Number 11: Big Eye
-3 Mecha Phantom Beast Dracossack
+1 Abyss Dweller
+1 Brotherhood of the Fire Fist - Cardinal
+2 Brotherhood of the Fire Fist - Horse Prince
+1 Brotherhood of the Fire Fist - Lion Emperor
+1 Brotherhood of the Fire Fist - Tiger King
+1 Bujintei Kagutsuchi
+1 Celestial Wolf Lord, Blue Sirius
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Ghostrick Alucard
+1 Number 101: Silent Honor ARK
+1 Number 50: Blackship of Corn
+1 Vulcan the Divine
 
 Side Deck
-2 Electric Virus
-1 D.D. Crow
-1 Battle Fader
-1 Fencing Fire Ferret
+2 Effect Veiler
+2 Maxx "C"
+1 Thunder King Rai-Oh
 1 Dark Hole
-1 Mystical Space Typhoon
-1 Xyz Encore
-3 Debunk
-3 Royal Decree
-1 Infestation Terminus
+1 Dimensional Fissure
+2 Black Horn of Heaven
+3 Light-Imprisoning Mirror
+2 Mind Crush
+1 Soul Drain
