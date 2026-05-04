@@ -1,93 +1,14 @@
 {
-  "generatedAt": "2026-05-04T19:24:29.816Z",
+  "generatedAt": "2026-05-04T19:28:02.451Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 21,
-  "importerWarningCount": 2,
+  "importedDeckCount": 20,
+  "importerWarningCount": 0,
   "cleanDeckCount": 20,
-  "issueDeckCount": 1,
-  "errorDeckCount": 1,
+  "issueDeckCount": 0,
+  "errorDeckCount": 0,
   "warningDeckCount": 0,
   "infoDeckCount": 0,
-  "issueDecks": [
-    {
-      "deck": {
-        "id": "evilswarm-2013",
-        "originalId": "evilswarm-2013",
-        "name": "Evilswarm 2013",
-        "year": 2013,
-        "format": "Imported Format",
-        "status": "draft",
-        "source": {
-          "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
-          "player": "Mike Seligson",
-          "deckType": "Evilswarm",
-          "url": "https://www.yugiohtopdecks.org/deck/5"
-        },
-        "mainDeckCount": 25,
-        "extraDeckCount": 8,
-        "sideDeckCount": 14,
-        "totalCount": 47,
-        "taggedCardCount": 7,
-        "automaticTaggedCardCount": 7,
-        "inlineTaggedCardCount": 0,
-        "tags": [
-          "backrow removal",
-          "banish",
-          "board clear",
-          "power spell",
-          "quick-play",
-          "removal",
-          "trap"
-        ],
-        "warningCount": 2,
-        "warnings": [
-          {
-            "type": "main-deck-too-small",
-            "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
-          },
-          {
-            "type": "side-deck-invalid-size",
-            "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-          }
-        ],
-        "ignoredLines": []
-      },
-      "matchingTarget": {
-        "year": 2013,
-        "targetName": "Evilswarm",
-        "normalizedTargetName": "evilswarm"
-      },
-      "issueCount": 3,
-      "highestSeverity": "error",
-      "issues": [
-        {
-          "severity": "warning",
-          "type": "import-warning",
-          "message": "2 warning(s) from deck importer.",
-          "details": [
-            {
-              "type": "main-deck-too-small",
-              "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
-            },
-            {
-              "type": "side-deck-invalid-size",
-              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-            }
-          ]
-        },
-        {
-          "severity": "error",
-          "type": "main-deck-size",
-          "message": "Main Deck has 25 cards. Expected 40 to 60."
-        },
-        {
-          "severity": "warning",
-          "type": "side-deck-size",
-          "message": "Side Deck has 14 cards. Expected 0 or 15."
-        }
-      ]
-    }
-  ],
+  "issueDecks": [],
   "cleanDecks": [
     {
       "id": "monarch-2007",

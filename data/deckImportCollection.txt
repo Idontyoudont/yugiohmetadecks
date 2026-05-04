@@ -942,55 +942,6 @@ Side Deck
 1 Dimensional Prison
 1 Dust Tornado
 
----
-
-Deck: Evilswarm 2013
-Year: 2013
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013
-Player: Mike Seligson
-Deck Type: Evilswarm
-Source URL: https://www.yugiohtopdecks.org/deck/5
-
-Main Deck
-2 Cardcar D
-2 Rescue Rabbit
-2 Tour Guide From the Underworld
-1 Dark Hole
-2 Forbidden Dress
-1 Heavy Storm
-1 Monster Reborn
-1 Reinforcement of the Army
-2 Bottomless Trap Hole
-3 Fiendish Chain
-2 Macro Cosmos
-2 Mirror Force
-1 Safe Zone
-1 Solemn Judgment
-1 Solemn Warning
-1 Torrential Tribute
-
-Extra Deck
-1 Abyss Dweller
-1 Leviair the Sea Dragon
-1 Maestroke the Symphony Djinn
-1 Number 17: Leviathan Dragon
-1 Number 39: Utopia
-1 Temtempo the Percussion Djinn
-1 Wind-Up Zenmaines
-1 Gem-Knight Pearl
-
-Side Deck
-2 Jurrac Guaiba
-1 Neo-Spacian Grand Mole
-3 Mystical Space Typhoon
-1 Black Horn of Heaven
-1 Deck Devastation Virus
-2 Eradicator Epidemic Virus
-1 Macro Cosmos
-2 Safe Zone
-1 Torrential Tribute
 
 ---
 

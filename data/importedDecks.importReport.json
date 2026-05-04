@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-04T19:19:29.132Z",
+  "generatedAt": "2026-05-04T19:28:01.883Z",
   "inputFile": "data/deckImportCollection.txt",
   "fallbackInputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
   "tagRulesFile": "data/cardTagRules.ts",
   "automaticTagRuleCount": 72,
-  "deckCount": 21,
-  "totalWarningCount": 2,
+  "deckCount": 20,
+  "totalWarningCount": 0,
   "renamedDuplicateDecks": [],
   "decks": [
     {
@@ -625,48 +625,6 @@
       ],
       "warningCount": 0,
       "warnings": [],
-      "ignoredLines": []
-    },
-    {
-      "id": "evilswarm-2013",
-      "originalId": "evilswarm-2013",
-      "name": "Evilswarm 2013",
-      "year": 2013,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
-        "player": "Mike Seligson",
-        "deckType": "Evilswarm",
-        "url": "https://www.yugiohtopdecks.org/deck/5"
-      },
-      "mainDeckCount": 25,
-      "extraDeckCount": 8,
-      "sideDeckCount": 14,
-      "totalCount": 47,
-      "taggedCardCount": 7,
-      "automaticTaggedCardCount": 7,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "board clear",
-        "power spell",
-        "quick-play",
-        "removal",
-        "trap"
-      ],
-      "warningCount": 2,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
-        },
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
       "ignoredLines": []
     },
     {
