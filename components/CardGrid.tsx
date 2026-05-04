@@ -7,6 +7,34 @@ type CardGridProps = {
   onSelectCard: (card: EnrichedDeckCard) => void;
 };
 
+function getSourceBadge(card: EnrichedDeckCard) {
+  if (!card.gameSourceInfo) {
+    return {
+      label: "Missing source",
+      className: "bg-slate-700 text-slate-300",
+    };
+  }
+
+  if (card.gameSourceInfo.status === "available") {
+    return {
+      label: "Available",
+      className: "bg-emerald-500/20 text-emerald-300",
+    };
+  }
+
+  if (card.gameSourceInfo.status === "not-in-game") {
+    return {
+      label: "Not in game",
+      className: "bg-amber-500/20 text-amber-300",
+    };
+  }
+
+  return {
+    label: "Unknown",
+    className: "bg-slate-700 text-slate-300",
+  };
+}
+
 export function CardGrid({
   title,
   cards,
@@ -30,13 +58,14 @@ export function CardGrid({
             No matching cards in this section.
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Try clearing the search or changing the selected tag filter.
+            Try clearing the search or changing the selected filters.
           </p>
         </div>
       ) : (
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
           {cards.map((card) => {
             const isSelected = selectedCard?.name === card.name;
+            const sourceBadge = getSourceBadge(card);
 
             return (
               <button
@@ -61,6 +90,12 @@ export function CardGrid({
                 ) : (
                   <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
                 )}
+
+                <span
+                  className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${sourceBadge.className}`}
+                >
+                  {sourceBadge.label}
+                </span>
 
                 <p className="font-medium leading-snug">{card.name}</p>
 
