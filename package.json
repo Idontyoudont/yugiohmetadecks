@@ -6,7 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+
+    "packs:import": "node scripts/importPackSources.mjs",
+
+    "decks:import": "node scripts/importDecklist.mjs",
+
+    "sources:template": "node scripts/generateDeckSourceIntakeTemplate.mjs",
+    "sources:apply": "node scripts/applyDeckSourceIntakeTemplate.mjs",
+    "sources:merge": "node scripts/mergeDeckSourceIntake.mjs",
+    "sources:health": "node scripts/checkDeckSourceHealth.mjs",
+    "sources:fetch": "node scripts/fetchDeckSourcePages.mjs",
+    "sources:inspect": "node scripts/inspectDeckSourcePages.mjs",
+    "sources:preview": "node scripts/previewDeckSourcePages.mjs",
+    "sources:parse": "node scripts/parseDeckSourceCandidates.mjs",
+    "sources:promote": "node scripts/promoteParsedCandidatesToImport.mjs",
+
+    "reports": "node scripts/updateDeckReports.mjs",
+    "reports:coverage": "node scripts/reportDeckCoverage.mjs",
+    "reports:sources": "node scripts/reportDeckSourceCoverage.mjs",
+    "reports:parse-status": "node scripts/reportDeckSourceParseStatus.mjs",
+    "reports:population": "node scripts/reportDeckPopulation.mjs",
+    "reports:queue": "node scripts/generateDeckResearchQueue.mjs"
   },
   "dependencies": {
     "next": "16.2.4",
