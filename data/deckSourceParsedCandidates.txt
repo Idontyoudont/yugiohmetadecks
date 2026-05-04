@@ -1,4 +1,4 @@
-Deck: Dragon Ruler YCS Turin 2013
+Deck: Dragon Ruler 2013
 Year: 2013
 Format: Imported Format
 Status: complete

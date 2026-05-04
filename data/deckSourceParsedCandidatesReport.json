@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:28:52.269Z",
+  "generatedAt": "2026-05-04T18:33:43.596Z",
   "parsedSourceCount": 3,
   "attemptedSourceCount": 1,
   "skippedSourceCount": 2,
@@ -28,6 +28,7 @@
       "extraDeckCount": 0,
       "sideDeckCount": 0,
       "confidence": "skipped",
+      "usedExplicitSections": false,
       "notes": "Source skipped before parsing.",
       "candidateLines": []
     },
@@ -54,6 +55,7 @@
       "extraDeckCount": 0,
       "sideDeckCount": 0,
       "confidence": "skipped",
+      "usedExplicitSections": false,
       "notes": "Source skipped before parsing.",
       "candidateLines": []
     },
@@ -80,6 +82,7 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "confidence": "high",
+      "usedExplicitSections": false,
       "notes": "Sections were inferred from the end of a full tournament list: last 15 cards as Side Deck, previous 15 cards as Extra Deck, remaining cards as Main Deck.",
       "candidateLines": [
         {

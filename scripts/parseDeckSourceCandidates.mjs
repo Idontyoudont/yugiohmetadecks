@@ -31,6 +31,12 @@ const stopLinePatterns = [
   /^comments?$/i,
   /^posted by/i,
   /^labels?:/i,
+  /^deck summary/i,
+  /^back to search/i,
+  /^view all decks/i,
+  /^©/i,
+  /^add to/i,
+  /^loading/i,
 ];
 
 function readJsonFile(filePath, fallback) {
@@ -55,8 +61,30 @@ function normalizeLine(line) {
   return line.replace(/\r/g, "").replace(/\s+/g, " ").trim();
 }
 
+function getDeckSectionName(line) {
+  const normalizedLine = line.toLowerCase();
+
+  if (/^#+\s*main deck\b/.test(normalizedLine) || /^main deck\b/.test(normalizedLine)) {
+    return "mainDeck";
+  }
+
+  if (/^#+\s*extra deck\b/.test(normalizedLine) || /^extra deck\b/.test(normalizedLine)) {
+    return "extraDeck";
+  }
+
+  if (/^#+\s*side deck\b/.test(normalizedLine) || /^side deck\b/.test(normalizedLine)) {
+    return "sideDeck";
+  }
+
+  return null;
+}
+
 function isCardQuantityLine(line) {
-  return /^[1-3]\s+["'A-Za-z0-9À-ÿ.:'’!,\-&/()]+/.test(line);
+  return /^[1-3]x?\s+["'A-Za-z0-9À-ÿ.:'’!,\-&/()]+/.test(line);
+}
+
+function isIgnoredUtilityLine(line) {
+  return /^qty\s+card name$/i.test(line) || /^no .* cards listed/i.test(line);
 }
 
 function isLikelyStopLine(line) {
@@ -80,7 +108,7 @@ function normalizeCardNameForImport(cardName) {
 }
 
 function parseQuantityLine(line) {
-  const match = line.match(/^([1-3])\s+(.+)$/);
+  const match = line.match(/^([1-3])x?\s+(.+)$/);
 
   if (!match) {
     return null;
@@ -100,7 +128,74 @@ function parseQuantityLine(line) {
   };
 }
 
-function extractCandidateLines(text) {
+function extractExplicitSectionCandidate(text) {
+  const lines = text
+    .split("\n")
+    .map(normalizeLine)
+    .filter(Boolean);
+
+  const sections = {
+    mainDeck: [],
+    extraDeck: [],
+    sideDeck: [],
+  };
+
+  let currentSection = null;
+  let hasSeenAnySection = false;
+
+  for (const line of lines) {
+    const sectionName = getDeckSectionName(line);
+
+    if (sectionName) {
+      currentSection = sectionName;
+      hasSeenAnySection = true;
+      continue;
+    }
+
+    if (!hasSeenAnySection) {
+      continue;
+    }
+
+    if (isLikelyStopLine(line)) {
+      if (currentSection === "sideDeck") {
+        break;
+      }
+
+      continue;
+    }
+
+    if (isIgnoredUtilityLine(line)) {
+      continue;
+    }
+
+    if (!currentSection || !isCardQuantityLine(line)) {
+      continue;
+    }
+
+    const parsedLine = parseQuantityLine(line);
+
+    if (parsedLine) {
+      sections[currentSection].push(parsedLine);
+    }
+  }
+
+  const candidateLineCount =
+    sections.mainDeck.length + sections.extraDeck.length + sections.sideDeck.length;
+
+  if (candidateLineCount === 0) {
+    return null;
+  }
+
+  return {
+    ...sections,
+    confidence: "high",
+    notes:
+      "Sections were parsed from explicit Main Deck, Extra Deck, and Side Deck headings.",
+    usedExplicitSections: true,
+  };
+}
+
+function extractLinearCandidateLines(text) {
   const lines = text
     .split("\n")
     .map(normalizeLine)
@@ -180,6 +275,7 @@ function inferSections(candidateLines) {
       confidence: "low",
       notes:
         "Fewer than 40 total cards were found, so all parsed lines were placed in Main Deck.",
+      usedExplicitSections: false,
     };
   }
 
@@ -197,6 +293,7 @@ function inferSections(candidateLines) {
           : "medium",
       notes:
         "Sections were inferred from the end of a full tournament list: last 15 cards as Side Deck, previous 15 cards as Extra Deck, remaining cards as Main Deck.",
+      usedExplicitSections: false,
     };
   }
 
@@ -210,6 +307,7 @@ function inferSections(candidateLines) {
       confidence: extraSplit.selectedCount === 15 ? "medium" : "low",
       notes:
         "Sections were inferred as a Main Deck plus 15-card Extra Deck. No Side Deck was inferred.",
+      usedExplicitSections: false,
     };
   }
 
@@ -220,12 +318,24 @@ function inferSections(candidateLines) {
     confidence: "medium",
     notes:
       "Only enough cards for a Main Deck were found, so all parsed lines were placed in Main Deck.",
+    usedExplicitSections: false,
   };
 }
 
+function extractSections(text) {
+  const explicitSections = extractExplicitSectionCandidate(text);
+
+  if (explicitSections) {
+    return explicitSections;
+  }
+
+  const candidateLines = extractLinearCandidateLines(text);
+  return inferSections(candidateLines);
+}
+
 function formatDeckName(source) {
-  if (source.player && source.label) {
-    return `${source.deckType ?? source.target} ${source.label.replace(/^Top \d+\s+/i, "")}`;
+  if (source.deckType && source.label) {
+    return `${source.deckType} ${source.year}`;
   }
 
   return `${source.target} Candidate ${source.year}`;
@@ -290,7 +400,7 @@ function main() {
   if (!fetchReport) {
     console.error(`Missing fetch report: ${fetchReportFilePath}`);
     console.error("Run this first:");
-    console.error("node scripts/fetchDeckSourcePages.mjs");
+    console.error("npm run sources:fetch");
     process.exit(1);
   }
 
@@ -317,6 +427,7 @@ function main() {
         extraDeckCount: 0,
         sideDeckCount: 0,
         confidence: "skipped",
+        usedExplicitSections: false,
         notes: "Source skipped before parsing.",
         candidateLines: [],
       });
@@ -325,8 +436,12 @@ function main() {
     }
 
     const text = readTextFile(result.textFile);
-    const candidateLines = extractCandidateLines(text);
-    const sections = inferSections(candidateLines);
+    const sections = extractSections(text);
+    const candidateLines = [
+      ...sections.mainDeck,
+      ...sections.extraDeck,
+      ...sections.sideDeck,
+    ];
 
     if (candidateLines.length > 0) {
       deckBlocks.push(formatDeckBlock(result.source, sections));
@@ -344,6 +459,7 @@ function main() {
       extraDeckCount: countCards(sections.extraDeck),
       sideDeckCount: countCards(sections.sideDeck),
       confidence: sections.confidence,
+      usedExplicitSections: sections.usedExplicitSections,
       notes: sections.notes,
       candidateLines,
     });
@@ -402,6 +518,7 @@ function main() {
     console.log(`   Extra Deck: ${candidate.extraDeckCount}`);
     console.log(`   Side Deck: ${candidate.sideDeckCount}`);
     console.log(`   Confidence: ${candidate.confidence}`);
+    console.log(`   Explicit sections: ${candidate.usedExplicitSections ? "yes" : "no"}`);
   });
 
   console.log("");
