@@ -37,6 +37,9 @@ data/legacyOfDuelistGuideRaw.txt
 data/deckSourcePages/*
 !data/deckSourcePages/.gitkeep
 
+# local deck import backup
+data/deckImportRaw.backup.txt
+
 # env files (can opt-in for committing if needed)
 .env*
 
