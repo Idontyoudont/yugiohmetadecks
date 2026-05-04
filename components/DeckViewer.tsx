@@ -79,8 +79,22 @@ function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
   return getCardPackNames(card).includes(selectedPack);
 }
 
+function getVisibleDecks(decks: Deck[], showSampleDecks: boolean) {
+  if (showSampleDecks) {
+    return decks;
+  }
+
+  return decks.filter((deck) => deck.status !== "sample");
+}
+
 export function DeckViewer({ decks }: DeckViewerProps) {
-  const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
+  const [showSampleDecks, setShowSampleDecks] = useState(false);
+
+  const visibleDecks = getVisibleDecks(decks, showSampleDecks);
+  const fallbackDeck = visibleDecks[0] ?? decks[0];
+  const sampleDeckCount = decks.filter((deck) => deck.status === "sample").length;
+
+  const [selectedDeckId, setSelectedDeckId] = useState(fallbackDeck.id);
   const [selectedVariantId, setSelectedVariantId] = useState<string | null>(
     null
   );
@@ -94,7 +108,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const selectedDeck =
-    decks.find((deck) => deck.id === selectedDeckId) ?? decks[0];
+    visibleDecks.find((deck) => deck.id === selectedDeckId) ?? fallbackDeck;
 
   const availableVariants = deckVariants.filter(
     (variant) => variant.deckId === selectedDeck.id
@@ -159,6 +173,22 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     resetFiltersAndSelection();
   }
 
+  function handleToggleShowSampleDecks() {
+    const nextShowSampleDecks = !showSampleDecks;
+    const nextVisibleDecks = getVisibleDecks(decks, nextShowSampleDecks);
+    const selectedDeckStillVisible = nextVisibleDecks.some(
+      (deck) => deck.id === selectedDeckId
+    );
+
+    setShowSampleDecks(nextShowSampleDecks);
+
+    if (!selectedDeckStillVisible && nextVisibleDecks[0]) {
+      setSelectedDeckId(nextVisibleDecks[0].id);
+      setSelectedVariantId(null);
+      resetFiltersAndSelection();
+    }
+  }
+
   function handleSelectVariant(variantId: string | null) {
     setSelectedVariantId(variantId);
     resetFiltersAndSelection();
@@ -191,8 +221,11 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   return (
     <div className="flex min-h-screen bg-slate-950 text-slate-100">
       <DeckSidebar
-        decks={decks}
+        decks={visibleDecks}
         selectedDeck={selectedDeck}
+        showSampleDecks={showSampleDecks}
+        sampleDeckCount={sampleDeckCount}
+        onToggleShowSampleDecks={handleToggleShowSampleDecks}
         onSelectDeck={handleSelectDeck}
       />
 

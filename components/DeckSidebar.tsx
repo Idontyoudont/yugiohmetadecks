@@ -3,6 +3,9 @@ import type { Deck } from "../types/deck";
 type DeckSidebarProps = {
   decks: Deck[];
   selectedDeck: Deck;
+  showSampleDecks: boolean;
+  sampleDeckCount: number;
+  onToggleShowSampleDecks: () => void;
   onSelectDeck: (deckId: string) => void;
 };
 
@@ -33,16 +36,46 @@ function getStatusClassName(status: Deck["status"]) {
 export function DeckSidebar({
   decks,
   selectedDeck,
+  showSampleDecks,
+  sampleDeckCount,
+  onToggleShowSampleDecks,
   onSelectDeck,
 }: DeckSidebarProps) {
   return (
-    <aside className="w-72 border-r border-slate-800 bg-slate-950 p-6">
+    <aside className="w-72 shrink-0 border-r border-slate-800 bg-slate-950 p-6">
       <div className="mb-8">
         <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
           Yu-Gi-Oh
         </p>
         <h1 className="mt-2 text-2xl font-bold text-white">Meta Decks</h1>
       </div>
+
+      {sampleDeckCount > 0 ? (
+        <div className="mb-5 rounded-2xl border border-slate-800 bg-slate-900 p-4">
+          <div className="mb-3">
+            <p className="font-semibold text-white">Development decks</p>
+            <p className="mt-1 text-sm text-slate-400">
+              Show unfinished sample decks in the sidebar.
+            </p>
+          </div>
+
+          <button
+            onClick={onToggleShowSampleDecks}
+            className={`w-full rounded-xl px-4 py-2 text-sm font-semibold transition ${
+              showSampleDecks
+                ? "bg-blue-500 text-white hover:bg-blue-400"
+                : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+            }`}
+          >
+            {showSampleDecks ? "Hide sample decks" : "Show sample decks"}
+          </button>
+
+          <p className="mt-2 text-xs text-slate-500">
+            {sampleDeckCount} sample deck{sampleDeckCount === 1 ? "" : "s"}{" "}
+            available
+          </p>
+        </div>
+      ) : null}
 
       <nav className="space-y-2">
         {decks.map((deck) => (
