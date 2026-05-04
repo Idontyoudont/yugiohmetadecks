@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { fetchCardDetails } from "../lib/fetchCardDetails";
 import type { EnrichedDeckCard } from "../types/deck";
 
 type CardGridProps = {
@@ -6,6 +10,8 @@ type CardGridProps = {
   selectedCard?: EnrichedDeckCard | null;
   onSelectCard: (card: EnrichedDeckCard) => void;
 };
+
+const imageCache = new Map<string, string | null>();
 
 function getSourceBadge(card: EnrichedDeckCard) {
   if (!card.gameSourceInfo) {
@@ -33,6 +39,63 @@ function getSourceBadge(card: EnrichedDeckCard) {
     label: "Unknown",
     className: "bg-slate-700 text-slate-300",
   };
+}
+
+function ApiCardImage({ card }: { card: EnrichedDeckCard }) {
+  const [apiImageUrl, setApiImageUrl] = useState<string | null>(
+    card.imageUrl ?? imageCache.get(card.name) ?? null
+  );
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    let isActive = true;
+
+    async function loadImage() {
+      if (card.imageUrl) {
+        setApiImageUrl(card.imageUrl);
+        imageCache.set(card.name, card.imageUrl);
+        return;
+      }
+
+      if (imageCache.has(card.name)) {
+        setApiImageUrl(imageCache.get(card.name) ?? null);
+        return;
+      }
+
+      setIsLoading(true);
+      const details = await fetchCardDetails(card.name);
+      const imageUrl = details?.imageUrl ?? null;
+
+      imageCache.set(card.name, imageUrl);
+
+      if (isActive) {
+        setApiImageUrl(imageUrl);
+        setIsLoading(false);
+      }
+    }
+
+    loadImage();
+
+    return () => {
+      isActive = false;
+    };
+  }, [card.name, card.imageUrl]);
+
+  if (apiImageUrl) {
+    return (
+      <img
+        src={apiImageUrl}
+        alt={card.name}
+        className="mb-3 aspect-[3/4] w-full rounded-lg object-cover"
+      />
+    );
+  }
+
+  return (
+    <div className="mb-3 flex aspect-[3/4] items-center justify-center rounded-lg bg-gradient-to-br from-slate-700 to-slate-950 px-2 text-center text-[10px] text-slate-500">
+      {isLoading ? "Loading image..." : "No image"}
+    </div>
+  );
 }
 
 export function CardGrid({
@@ -77,19 +140,11 @@ export function CardGrid({
                     : "border-slate-700 bg-slate-800"
                 }`}
               >
-                <span className="absolute right-2 top-2 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
+                <span className="absolute right-2 top-2 z-10 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
                   x{card.quantity}
                 </span>
 
-                {card.imageUrl ? (
-                  <img
-                    src={card.imageUrl}
-                    alt={card.name}
-                    className="mb-3 aspect-[3/4] w-full rounded-lg object-cover"
-                  />
-                ) : (
-                  <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
-                )}
+                <ApiCardImage card={card} />
 
                 <span
                   className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${sourceBadge.className}`}
