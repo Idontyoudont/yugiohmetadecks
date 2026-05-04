@@ -22,7 +22,15 @@ export function CardPreviewPanel({ card }: CardPreviewPanelProps) {
   return (
     <aside className="hidden w-80 border-l border-slate-800 bg-slate-950 p-6 xl:block">
       <div className="sticky top-6">
-        <div className="mb-5 aspect-[3/4] rounded-2xl bg-gradient-to-br from-slate-700 to-slate-950 shadow-2xl" />
+        {card.imageUrl ? (
+          <img
+            src={card.imageUrl}
+            alt={card.name}
+            className="mb-5 w-full rounded-2xl shadow-2xl"
+          />
+        ) : (
+          <div className="mb-5 aspect-[3/4] rounded-2xl bg-gradient-to-br from-slate-700 to-slate-950 shadow-2xl" />
+        )}
 
         <div className="rounded-2xl border border-slate-800 bg-slate-900 p-5">
           <div className="mb-3 flex items-start justify-between gap-3">
@@ -30,6 +38,35 @@ export function CardPreviewPanel({ card }: CardPreviewPanelProps) {
             <span className="rounded-full bg-blue-500 px-3 py-1 text-sm font-bold text-white">
               x{card.quantity}
             </span>
+          </div>
+
+          <div className="mb-5 grid grid-cols-2 gap-2 text-sm">
+            {card.cardType ? (
+              <div className="rounded-xl bg-slate-950 p-3">
+                <p className="text-xs uppercase tracking-wide text-slate-500">
+                  Type
+                </p>
+                <p className="mt-1 text-slate-200">{card.cardType}</p>
+              </div>
+            ) : null}
+
+            {card.attribute ? (
+              <div className="rounded-xl bg-slate-950 p-3">
+                <p className="text-xs uppercase tracking-wide text-slate-500">
+                  Attribute
+                </p>
+                <p className="mt-1 text-slate-200">{card.attribute}</p>
+              </div>
+            ) : null}
+
+            {card.level ? (
+              <div className="rounded-xl bg-slate-950 p-3">
+                <p className="text-xs uppercase tracking-wide text-slate-500">
+                  Level
+                </p>
+                <p className="mt-1 text-slate-200">{card.level}</p>
+              </div>
+            ) : null}
           </div>
 
           {card.tags && card.tags.length > 0 ? (
@@ -47,9 +84,8 @@ export function CardPreviewPanel({ card }: CardPreviewPanelProps) {
 
           <div className="space-y-4 text-sm text-slate-400">
             <p>
-              This is a placeholder card preview. Later, this panel can show the
-              real card image, type, attribute, level, effect text, printings,
-              and set information.
+              {card.description ??
+                "This is a placeholder card preview. Later, this panel can show the real card image, type, attribute, level, effect text, printings, and set information."}
             </p>
 
             <div className="rounded-xl bg-slate-950 p-4">
@@ -57,10 +93,9 @@ export function CardPreviewPanel({ card }: CardPreviewPanelProps) {
                 Future data
               </p>
               <ul className="mt-3 space-y-2">
-                <li>Card image</li>
-                <li>Card type and attribute</li>
-                <li>Effect text</li>
+                <li>Full official card text</li>
                 <li>Sets and rarity</li>
+                <li>Card prices or availability</li>
                 <li>Custom role explanation</li>
               </ul>
             </div>

@@ -2,6 +2,11 @@ export type DeckCard = {
   name: string;
   quantity: number;
   tags?: string[];
+  imageUrl?: string;
+  description?: string;
+  cardType?: string;
+  attribute?: string;
+  level?: number;
 };
 
 export type Deck = {

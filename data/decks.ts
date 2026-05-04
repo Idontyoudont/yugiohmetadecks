@@ -8,10 +8,17 @@ export const decks: Deck[] = [
     format: "Goat Format",
     mainDeck: [
       {
-        name: "Black Luster Soldier - Envoy of the Beginning",
-        quantity: 1,
-        tags: ["boss monster"],
-      },
+  name: "Black Luster Soldier - Envoy of the Beginning",
+  quantity: 1,
+  tags: ["boss monster", "banish", "light/dark payoff"],
+  imageUrl:
+    "https://images.ygoprodeck.com/images/cards/72989439.jpg",
+  cardType: "Effect Monster",
+  attribute: "LIGHT",
+  level: 8,
+  description:
+    "Cannot be Normal Summoned/Set. Must first be Special Summoned by banishing 1 LIGHT and 1 DARK monster from your GY. Once per turn, you can activate one of its powerful removal or attack effects.",
+},
       {
         name: "Magician of Faith",
         quantity: 2,
