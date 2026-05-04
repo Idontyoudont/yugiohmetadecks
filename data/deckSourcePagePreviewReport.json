@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:03:25.721Z",
+  "generatedAt": "2026-05-04T18:06:55.611Z",
   "previewedFileCount": 3,
   "previews": [
     {
@@ -14,10 +14,16 @@
         "url": "https://formatlibrary.com/formats/perfect-circle",
         "notes": "Format reference source. Useful for identifying the archetype and format context. May need a separate exact tournament decklist source before importing."
       },
-      "textFile": "data/deckSourcePages/2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
+      "textFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
       "textBytes": 24,
-      "previewLineCount": 0,
-      "previewLines": []
+      "rawCharacterCount": 24,
+      "rawExcerpt": "Yu-Gi-Oh! Format Library",
+      "previewLineCount": 1,
+      "previewLines": [
+        "Yu-Gi-Oh! Format Library"
+      ],
+      "interestingSnippetCount": 0,
+      "interestingSnippets": []
     },
     {
       "source": {
@@ -31,10 +37,16 @@
         "url": "https://www.formatlibrary.com/events/SJCDET08",
         "notes": "Format Library event archive lists Steven Harris as 1st place with TeleDAD. Use as candidate source for importing a representative 2008 TeleDAD list."
       },
-      "textFile": "data/deckSourcePages/2008-teledad-steven-harris.txt",
+      "textFile": "data\\deckSourcePages\\2008-teledad-steven-harris.txt",
       "textBytes": 24,
-      "previewLineCount": 0,
-      "previewLines": []
+      "rawCharacterCount": 24,
+      "rawExcerpt": "Yu-Gi-Oh! Format Library",
+      "previewLineCount": 1,
+      "previewLines": [
+        "Yu-Gi-Oh! Format Library"
+      ],
+      "interestingSnippetCount": 0,
+      "interestingSnippets": []
     },
     {
       "source": {
@@ -48,10 +60,126 @@
         "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
         "notes": "Already imported as Dragon Ruler YCS Turin 2013."
       },
-      "textFile": "data/deckSourcePages/2013-dragon-ruler-michele-bergamasco.txt",
+      "textFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.txt",
       "textBytes": 4893,
-      "previewLineCount": 0,
-      "previewLines": []
+      "rawCharacterCount": 4891,
+      "rawExcerpt": "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist | Yu-gi-oh! TCG Zone\n\nHome\n\nPrivacy Disclaimer\n\nSupport Us\n\nAsk Something\n\nBecome Staffer\n\nGiveaway: Win free cards!\n\nGoogle Adsense:\n \n\nHome\n\nFeatured Players\n\nInternational List\n\nItalian List\n\nYGO Decks\n\nItalian Ygo Stores\n\nYGO News\n\nTCG News\n\nOCG News\n\nTournament Decklists\n\nTCG Decklists\n\nOCG Decklists\n\nTCG F/L List\n\n Latest articles\n\nTagboard\n\nNews TCG\n\nNews OCG\n\nDeck Profile\n\n \n\n \n\ndomenica 8 dicembre 2013\n\n \n\n \n\nBy: \n\nA\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nMichele Bergamasco reached Top 16 at \nYCS Turin 30th November 2013\n\n \n\n \n thanks to his thanks to his \nDragon Ruler\n.\n\nTop 16 - Bergamasco, Michele with Dragon Ruler \n\n3 Blaster, Dragon Ruler of Infernos\n\n3 Tidal, Dragon Ruler of Waterfalls\n\n3 Tempest, Dragon Ruler of Storms\n\n3 Redox, Dragon Ruler of Boulders\n\n2 Dragunity Corsesca\n\n2 Debris Dragon\n\n2 Flamvell Guard\n\n1 Trigon\n\n3 Maxx \"C\"\n\n1 Battle Fader\n\n3 Dragon Ravine\n\n3 Sacred Sword of Seven Stars\n\n3 Cards of Consonance\n\n2 Terraforming\n\n2 Mystical Space Typhoon\n\n2 Phoenix Wing Wind Blast\n\n1 Compulsory Evacuation Device\n\n1 Sixth Sense\n\n1 Return from Different Dimension\n\n1 Armory Arm\n\n2 Ancient Fairy Dragon\n\n1 Black Rose Dragon\n\n1 Crimson Blader\n\n1 Scrap Dragon\n\n1 Stardust Drag",
+      "previewLineCount": 80,
+      "previewLines": [
+        "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist | Yu-gi-oh! TCG Zone",
+        "Home",
+        "Privacy Disclaimer",
+        "Support Us",
+        "Ask Something",
+        "Become Staffer",
+        "Giveaway: Win free cards!",
+        "Google Adsense:",
+        "Home",
+        "Featured Players",
+        "International List",
+        "Italian List",
+        "YGO Decks",
+        "Italian Ygo Stores",
+        "YGO News",
+        "TCG News",
+        "OCG News",
+        "Tournament Decklists",
+        "TCG Decklists",
+        "OCG Decklists",
+        "TCG F/L List",
+        "Latest articles",
+        "Tagboard",
+        "News TCG",
+        "News OCG",
+        "Deck Profile",
+        "domenica 8 dicembre 2013",
+        "By:",
+        "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist",
+        "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist",
+        "Michele Bergamasco reached Top 16 at",
+        "YCS Turin 30th November 2013",
+        "thanks to his thanks to his",
+        "Dragon Ruler",
+        "Top 16 - Bergamasco, Michele with Dragon Ruler",
+        "3 Blaster, Dragon Ruler of Infernos",
+        "3 Tidal, Dragon Ruler of Waterfalls",
+        "3 Tempest, Dragon Ruler of Storms",
+        "3 Redox, Dragon Ruler of Boulders",
+        "2 Dragunity Corsesca",
+        "2 Debris Dragon",
+        "2 Flamvell Guard",
+        "1 Trigon",
+        "3 Maxx \"C\"",
+        "1 Battle Fader",
+        "3 Dragon Ravine",
+        "3 Sacred Sword of Seven Stars",
+        "3 Cards of Consonance",
+        "2 Terraforming",
+        "2 Mystical Space Typhoon",
+        "2 Phoenix Wing Wind Blast",
+        "1 Compulsory Evacuation Device",
+        "1 Sixth Sense",
+        "1 Return from Different Dimension",
+        "1 Armory Arm",
+        "2 Ancient Fairy Dragon",
+        "1 Black Rose Dragon",
+        "1 Crimson Blader",
+        "1 Scrap Dragon",
+        "1 Stardust Dragon",
+        "1 Thought Ruler Archfiend",
+        "1 Colossal Fighter",
+        "1 Star Eater",
+        "1 Gaia Dragon, the Thunder Charger",
+        "1 Number 11: Big Eye",
+        "3 Mecha Phantom Beast Dracossack",
+        "2 Electric Virus",
+        "1 D.D. Crow",
+        "1 Battle Fader",
+        "1 Fencing Fire Ferret",
+        "1 Dark Hole",
+        "1 Mystical Space Typhoon",
+        "1 XYZ Encore",
+        "3 Debunk",
+        "3 Decree",
+        "1 Infestation Terminus",
+        "This is the deck he played, if you want to ask something about it you can leave a comment.",
+        "Michele Bergamasco",
+        "page on Yu-gi-oh! TCG Zone",
+        "More"
+      ],
+      "interestingSnippetCount": 6,
+      "interestingSnippets": [
+        {
+          "term": "Monster",
+          "index": 3371,
+          "snippet": " Numero - Tutti gli X y z Yugioh Zexal usciti Parte 3 (30 a 39) Tutte le ...\n\n7th Kanagawa Championship - Decklist Top 8 Seventh Kanegawa Championship\n\n 7th Kanagawa Championship Decklist Top 8 Seventh Kanegawa Championship Flame King - Fire King - Fire Fist - Flame Star - Genex Sea Empe...\n\nNumber Monster from 91 to the last - Lista Mostri Numero dal 91 all'ultimo (107) - Tutti i mostri numero xyz\n\n Elenco Mostri numero dal 91 al 107 Number Monster from 91 to the last - Lista Mostri Numero dal 91 all'ultimo (107) - Tutti i mostri ...\n\nTutti i mostri Numero Yugioh Zexal 40 a 50\n\n Zexal Mostri Numero tutti gli XYZ Elenco Carte XYZ Numero - Tutti i mostri Zexal Yugioh usciti Parte 4 (40 a 50)  Tutte le carte Numer...\n\nMostri Numero Xyz Yugioh Zexal 50,51,52,53,54,55,56,57,58,59,60\n\n Zexal Mostri Numero tutti gli XYZ da 50 a 60 (51,52,53,54,55,56,57,58,59,60) Elenco Carte XYZ Numero - Tutti i mostri Zexal Yugioh uscit...\n\nTutti i mostri numero da 71 a numero 90 - All xyz number monster from xyz no. 71 to no. 90\n\n Lista Mostri numero da 71 a 90 Tutti i mostri numero da 71 a numero 90 - All xyz number monster from xyz no. 71 to no. 90 Lista Com...\n\nNumeri 66 67 68 69 70 - Number 66-70 Y"
+        },
+        {
+          "term": "Monsters",
+          "index": 4294,
+          "snippet": "uscit...\n\nTutti i mostri numero da 71 a numero 90 - All xyz number monster from xyz no. 71 to no. 90\n\n Lista Mostri numero da 71 a 90 Tutti i mostri numero da 71 a numero 90 - All xyz number monster from xyz no. 71 to no. 90 Lista Com...\n\nNumeri 66 67 68 69 70 - Number 66-70 Yugioh Zexal Xyz Number Monsters List\n\n Monster XYZ Number 66, Number 67, Number 68, 69,70 Numeri 66 67 68 69 70 - Number 66-70 Yugioh Zexal Xyz Number Monsters List Lista Co...\n\nBan List January 2014 - New Forbidden and Limited List 1st January 2014 - Nuova Ban List Yugioh Gennaio 2014\n\n Ban List January 2014 Ban List January 2014 - New Forbidden and Limited List 1st January 2014 - Nuova Ban List Yugioh Gennaio 2014 ...\n\nPowered by \nBlogger\n.\n\n Designed By \n\n - \nGoogle+\n\nYu-gi-oh! TCG Zone\n\nShining Star"
+        },
+        {
+          "term": "Decklist",
+          "index": 101,
+          "snippet": "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist | Yu-gi-oh! TCG Zone\n\nHome\n\nPrivacy Disclaimer\n\nSupport Us\n\nAsk Something\n\nBecome Staffer\n\nGiveaway: Win free cards!\n\nGoogle Adsense:\n \n\nHome\n\nFeatured Players\n\nInternational List\n\nItalian List\n\nYGO Decks\n\nItalian Ygo Stores\n\nYGO News\n\nTCG News\n\nOCG News\n\nTournament Decklists\n\nTCG Decklists\n\nOCG Decklists\n\nTCG F/L List\n\n Latest articles\n\nTagboard\n\nNews TCG\n\nNews OCG\n\nDeck Profile\n\n \n\n \n\ndomenica 8 dicembre 2013\n\n \n\n \n\nBy: \n\nA\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nMichele Bergamasco reached Top 16 at \nYCS Turin 30th November 2013\n\n \n\n \n thanks to his thanks to his \nDragon Ruler\n.\n\nTop 16 - Bergamasco, Michele with Dragon Ruler \n\n3 Blaster, Dragon Ruler of Infernos\n\n3 Tidal, Dragon Ruler of Waterfal"
+        },
+        {
+          "term": "3 ",
+          "index": 71,
+          "snippet": "Dragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist | Yu-gi-oh! TCG Zone\n\nHome\n\nPrivacy Disclaimer\n\nSupport Us\n\nAsk Something\n\nBecome Staffer\n\nGiveaway: Win free cards!\n\nGoogle Adsense:\n \n\nHome\n\nFeatured Players\n\nInternational List\n\nItalian List\n\nYGO Decks\n\nItalian Ygo Stores\n\nYGO News\n\nTCG News\n\nOCG News\n\nTournament Decklists\n\nTCG Decklists\n\nOCG Decklists\n\nTCG F/L List\n\n Latest articles\n\nTagboard\n\nNews TCG\n\nNews OCG\n\nDeck Profile\n\n \n\n \n\ndomenica 8 dicembre 2013\n\n \n\n \n\nBy: \n\nA\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nDragon Ruler by Michele Bergamasco - Top 16 YCS Turin 30th November 2013 - Dragon Combo Trigon Ruler Decklist\n\nMichele Bergamasco reached Top 16 at \nYCS Turin 30th November 2013\n\n \n\n \n thanks to his thanks to his \nDragon Ruler\n.\n\nTop 16 - Bergamasco, Michele with Dragon Ruler \n\n3 Blaster, Dragon Ruler of Infernos\n\n3 T"
+        },
+        {
+          "term": "2 ",
+          "index": 1075,
+          "snippet": "amasco reached Top 16 at \nYCS Turin 30th November 2013\n\n \n\n \n thanks to his thanks to his \nDragon Ruler\n.\n\nTop 16 - Bergamasco, Michele with Dragon Ruler \n\n3 Blaster, Dragon Ruler of Infernos\n\n3 Tidal, Dragon Ruler of Waterfalls\n\n3 Tempest, Dragon Ruler of Storms\n\n3 Redox, Dragon Ruler of Boulders\n\n2 Dragunity Corsesca\n\n2 Debris Dragon\n\n2 Flamvell Guard\n\n1 Trigon\n\n3 Maxx \"C\"\n\n1 Battle Fader\n\n3 Dragon Ravine\n\n3 Sacred Sword of Seven Stars\n\n3 Cards of Consonance\n\n2 Terraforming\n\n2 Mystical Space Typhoon\n\n2 Phoenix Wing Wind Blast\n\n1 Compulsory Evacuation Device\n\n1 Sixth Sense\n\n1 Return from Different Dimension\n\n1 Armory Arm\n\n2 Ancient Fairy Dragon\n\n1 Black Rose Dragon\n\n1 Crimson Blader\n\n1 Scrap Dragon\n\n1 Stardust Dragon\n\n1 Thought Ruler Archfiend\n\n1 Colossal Fighter\n\n1 Star Eater\n\n1 Gaia Dragon, the Thunder Charger\n\n1 Number 11: Big Eye\n\n3 Mecha Phantom Beast Dracossack\n\n2 Electric Virus\n\n1 D.D. Crow\n\n1 Battle Fader\n\n1 Fencing Fire Ferret\n\n1 Dark Hole\n\n1 Mystical Space Typhoon\n\n1 XYZ Encore\n\n3 Debunk\n\n3 Decree\n\n1 Infestation Terminus\n\nThis is the deck he played, if you want to ask something about it you can leave a comment.\n\nMichele Bergamasco\n page on Yu-gi-oh! TCG Zone\n\nMore \nDrago"
+        },
+        {
+          "term": "1 ",
+          "index": 1132,
+          "snippet": "\n\n \n thanks to his thanks to his \nDragon Ruler\n.\n\nTop 16 - Bergamasco, Michele with Dragon Ruler \n\n3 Blaster, Dragon Ruler of Infernos\n\n3 Tidal, Dragon Ruler of Waterfalls\n\n3 Tempest, Dragon Ruler of Storms\n\n3 Redox, Dragon Ruler of Boulders\n\n2 Dragunity Corsesca\n\n2 Debris Dragon\n\n2 Flamvell Guard\n\n1 Trigon\n\n3 Maxx \"C\"\n\n1 Battle Fader\n\n3 Dragon Ravine\n\n3 Sacred Sword of Seven Stars\n\n3 Cards of Consonance\n\n2 Terraforming\n\n2 Mystical Space Typhoon\n\n2 Phoenix Wing Wind Blast\n\n1 Compulsory Evacuation Device\n\n1 Sixth Sense\n\n1 Return from Different Dimension\n\n1 Armory Arm\n\n2 Ancient Fairy Dragon\n\n1 Black Rose Dragon\n\n1 Crimson Blader\n\n1 Scrap Dragon\n\n1 Stardust Dragon\n\n1 Thought Ruler Archfiend\n\n1 Colossal Fighter\n\n1 Star Eater\n\n1 Gaia Dragon, the Thunder Charger\n\n1 Number 11: Big Eye\n\n3 Mecha Phantom Beast Dracossack\n\n2 Electric Virus\n\n1 D.D. Crow\n\n1 Battle Fader\n\n1 Fencing Fire Ferret\n\n1 Dark Hole\n\n1 Mystical Space Typhoon\n\n1 XYZ Encore\n\n3 Debunk\n\n3 Decree\n\n1 Infestation Terminus\n\nThis is the deck he played, if you want to ask something about it you can leave a comment.\n\nMichele Bergamasco\n page on Yu-gi-oh! TCG Zone\n\nMore \nDragon Rulers decklists\n\nMore \nDragon Variant Decklists\n\nTop 3"
+        }
+      ]
     }
   ]
 }

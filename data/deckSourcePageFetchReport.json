@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T15:32:23.612Z",
+  "generatedAt": "2026-05-04T18:06:52.285Z",
   "sourceCount": 6,
   "okCount": 3,
   "failedCount": 2,
@@ -43,8 +43,8 @@
       "ok": true,
       "status": 200,
       "statusText": "OK",
-      "htmlFile": "data/deckSourcePages/2007-perfect-circle-monarch-format-library-perfect-circle-format.html",
-      "textFile": "data/deckSourcePages/2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
+      "htmlFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.html",
+      "textFile": "data\\deckSourcePages\\2007-perfect-circle-monarch-format-library-perfect-circle-format.txt",
       "htmlBytes": 8101,
       "textBytes": 24,
       "error": null
@@ -65,8 +65,8 @@
       "ok": true,
       "status": 200,
       "statusText": "OK",
-      "htmlFile": "data/deckSourcePages/2008-teledad-steven-harris.html",
-      "textFile": "data/deckSourcePages/2008-teledad-steven-harris.txt",
+      "htmlFile": "data\\deckSourcePages\\2008-teledad-steven-harris.html",
+      "textFile": "data\\deckSourcePages\\2008-teledad-steven-harris.txt",
       "htmlBytes": 8101,
       "textBytes": 24,
       "error": null
@@ -131,8 +131,8 @@
       "ok": true,
       "status": 200,
       "statusText": "OK",
-      "htmlFile": "data/deckSourcePages/2013-dragon-ruler-michele-bergamasco.html",
-      "textFile": "data/deckSourcePages/2013-dragon-ruler-michele-bergamasco.txt",
+      "htmlFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.html",
+      "textFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.txt",
       "htmlBytes": 103797,
       "textBytes": 4893,
       "error": null

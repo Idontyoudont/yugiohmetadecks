@@ -33,13 +33,74 @@ function readTextFile(relativeFilePath) {
   return fs.readFileSync(filePath, "utf8");
 }
 
-function getUsefulLines(text, limit = 80) {
-  return text
+function normalizeWhitespace(value) {
+  return value.replace(/\r/g, "").replace(/\t/g, " ").replace(/[ ]{2,}/g, " ");
+}
+
+function getPreviewLines(text, limit = 80) {
+  const normalizedText = normalizeWhitespace(text);
+
+  const normalLines = normalizedText
     .split("\n")
-    .map((line) => line.replace(/\s+/g, " ").trim())
+    .map((line) => line.trim())
     .filter(Boolean)
-    .filter((line) => line.length > 2)
+    .filter((line) => line.length > 1);
+
+  if (normalLines.length > 0) {
+    return normalLines.slice(0, limit);
+  }
+
+  return normalizedText
+    .split(/(?<=[.!?])\s+|\s{2,}|(?=[A-Z][a-z]+ Deck)|(?=\d+\s+[A-Z])/g)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .filter((line) => line.length > 1)
     .slice(0, limit);
+}
+
+function getRawExcerpt(text, limit = 1500) {
+  return normalizeWhitespace(text).slice(0, limit);
+}
+
+function findInterestingSnippets(text) {
+  const terms = [
+    "Main Deck",
+    "Monster",
+    "Monsters",
+    "Spell",
+    "Spells",
+    "Trap",
+    "Traps",
+    "Extra Deck",
+    "Side Deck",
+    "Decklist",
+    "Deck List",
+    "3 ",
+    "2 ",
+    "1 ",
+  ];
+
+  const normalizedText = normalizeWhitespace(text);
+  const lowerText = normalizedText.toLowerCase();
+
+  return terms
+    .map((term) => {
+      const index = lowerText.indexOf(term.toLowerCase());
+
+      if (index === -1) {
+        return null;
+      }
+
+      const start = Math.max(index - 300, 0);
+      const end = Math.min(index + 900, normalizedText.length);
+
+      return {
+        term,
+        index,
+        snippet: normalizedText.slice(start, end),
+      };
+    })
+    .filter(Boolean);
 }
 
 function main() {
@@ -58,14 +119,20 @@ function main() {
 
   const previews = successfulResults.map((result) => {
     const text = readTextFile(result.textFile);
-    const usefulLines = getUsefulLines(text);
+    const previewLines = getPreviewLines(text);
+    const rawExcerpt = getRawExcerpt(text);
+    const interestingSnippets = findInterestingSnippets(text);
 
     return {
       source: result.source,
       textFile: result.textFile,
       textBytes: result.textBytes,
-      previewLineCount: usefulLines.length,
-      previewLines: usefulLines,
+      rawCharacterCount: text.length,
+      rawExcerpt,
+      previewLineCount: previewLines.length,
+      previewLines,
+      interestingSnippetCount: interestingSnippets.length,
+      interestingSnippets,
     };
   });
 
@@ -87,11 +154,28 @@ function main() {
     console.log(`${index + 1}. ${preview.source.year} ${preview.source.target}`);
     console.log(`   Source: ${preview.source.label}`);
     console.log(`   Text file: ${preview.textFile}`);
-    console.log("   First useful lines:");
+    console.log(`   Text bytes: ${preview.textBytes}`);
+    console.log(`   Raw characters: ${preview.rawCharacterCount}`);
+    console.log(`   Preview lines: ${preview.previewLineCount}`);
+    console.log(`   Interesting snippets: ${preview.interestingSnippetCount}`);
 
-    preview.previewLines.slice(0, 12).forEach((line) => {
-      console.log(`   ${line}`);
-    });
+    console.log("");
+    console.log("   Raw excerpt:");
+    console.log(`   ${preview.rawExcerpt.slice(0, 500)}`);
+
+    if (preview.previewLines.length > 0) {
+      console.log("");
+      console.log("   First preview lines:");
+      preview.previewLines.slice(0, 12).forEach((line) => {
+        console.log(`   ${line}`);
+      });
+    }
+
+    if (preview.interestingSnippets.length > 0) {
+      console.log("");
+      console.log("   First interesting snippet:");
+      console.log(`   ${preview.interestingSnippets[0].snippet.slice(0, 700)}`);
+    }
   });
 
   console.log("");
