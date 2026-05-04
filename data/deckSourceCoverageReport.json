@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-04T18:27:23.135Z",
+  "generatedAt": "2026-05-04T18:36:09.174Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "sourcedTargetSlots": 6,
-  "missingSourceSlots": 99,
-  "registeredSourceCount": 6,
+  "sourcedTargetSlots": 7,
+  "missingSourceSlots": 98,
+  "registeredSourceCount": 7,
   "sourceStatusCounts": {
     "manual-existing": 1,
-    "source-registered": 4,
+    "source-registered": 5,
     "imported": 1
   },
   "sourceTypeCounts": {
@@ -18,7 +18,8 @@
     "format-reference": 1,
     "event-archive": 1,
     "official-event-coverage": 2,
-    "blog": 1
+    "blog": 1,
+    "deck-database": 1
   },
   "years": [
     {
@@ -409,8 +410,8 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
       "targets": [
         {
           "targetName": "HAT",
@@ -429,8 +430,21 @@
         },
         {
           "targetName": "Fire Fist",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2014,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks deck 1168",
+              "player": null,
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/1168",
+              "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+            }
+          ]
         },
         {
           "targetName": "Bujin",

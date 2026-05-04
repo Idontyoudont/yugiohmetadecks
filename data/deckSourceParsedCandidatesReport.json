@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T18:33:43.596Z",
-  "parsedSourceCount": 3,
-  "attemptedSourceCount": 1,
+  "generatedAt": "2026-05-04T18:35:14.677Z",
+  "parsedSourceCount": 4,
+  "attemptedSourceCount": 2,
   "skippedSourceCount": 2,
   "candidateDeckCount": 1,
   "candidates": [
@@ -291,6 +291,33 @@
           "originalLine": "1 Infestation Terminus"
         }
       ]
+    },
+    {
+      "source": {
+        "year": 2014,
+        "target": "Fire Fist",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "unknown",
+        "label": "Yu-Gi-Oh! Top Decks deck 1168",
+        "player": null,
+        "deckType": "Fire Fist",
+        "url": "https://www.yugiohtopdecks.org/deck/1168",
+        "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+      },
+      "textFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.txt",
+      "parseStatus": "unknown",
+      "skipped": false,
+      "skipReason": null,
+      "candidateLineCount": 0,
+      "totalCardCount": 0,
+      "mainDeckCount": 0,
+      "extraDeckCount": 0,
+      "sideDeckCount": 0,
+      "confidence": "low",
+      "usedExplicitSections": false,
+      "notes": "Fewer than 40 total cards were found, so all parsed lines were placed in Main Deck.",
+      "candidateLines": []
     }
   ]
 }

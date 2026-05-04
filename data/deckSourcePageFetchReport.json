@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T18:33:43.128Z",
-  "sourceCount": 6,
-  "okCount": 3,
+  "generatedAt": "2026-05-04T18:36:14.404Z",
+  "sourceCount": 7,
+  "okCount": 4,
   "failedCount": 2,
   "skippedCount": 1,
   "results": [
@@ -141,6 +141,29 @@
       "textFile": "data\\deckSourcePages\\2013-dragon-ruler-michele-bergamasco.txt",
       "htmlBytes": 103797,
       "textBytes": 4893,
+      "error": null
+    },
+    {
+      "source": {
+        "year": 2014,
+        "target": "Fire Fist",
+        "status": "source-registered",
+        "sourceType": "deck-database",
+        "parseStatus": "unknown",
+        "label": "Yu-Gi-Oh! Top Decks deck 1168",
+        "player": null,
+        "deckType": "Fire Fist",
+        "url": "https://www.yugiohtopdecks.org/deck/1168",
+        "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+      },
+      "fetched": true,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "htmlFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.html",
+      "textFile": "data\\deckSourcePages\\2014-fire-fist-yu-gi-oh-top-decks-deck-1168.txt",
+      "htmlBytes": 26664,
+      "textBytes": 11676,
       "error": null
     }
   ]

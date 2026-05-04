@@ -880,28 +880,6 @@
     }
   },
   {
-    "id": "2014-fire-fist",
-    "year": 2014,
-    "targetName": "Fire Fist",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2014 Fire Fist yugioh decklist",
-      "2014 Fire Fist YCS deck profile",
-      "2014 Fire Fist yugioh top deck",
-      "Fire Fist 2014 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Fire%20Fist"
-    }
-  },
-  {
     "id": "2014-geargia",
     "year": 2014,
     "targetName": "Geargia",
@@ -2263,6 +2241,28 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
+    }
+  },
+  {
+    "id": "2014-fire-fist",
+    "year": 2014,
+    "targetName": "Fire Fist",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2014 Fire Fist yugioh decklist",
+      "2014 Fire Fist YCS deck profile",
+      "2014 Fire Fist yugioh top deck",
+      "Fire Fist 2014 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Fire%20Fist%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Fire%20Fist"
     }
   }
 ]

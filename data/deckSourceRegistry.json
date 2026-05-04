@@ -71,6 +71,18 @@
       "deckType": "Dragon Ruler",
       "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
       "notes": "Already imported as Dragon Ruler YCS Turin 2013. Cached page parser can extract a valid candidate decklist from this source."
+    },
+    {
+      "year": 2014,
+      "target": "Fire Fist",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "Yu-Gi-Oh! Top Decks deck 1168",
+      "player": null,
+      "deckType": "Fire Fist",
+      "url": "https://www.yugiohtopdecks.org/deck/1168",
+      "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
     }
   ]
 }

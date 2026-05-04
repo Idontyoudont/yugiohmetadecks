@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-04T18:27:27.419Z",
+  "generatedAt": "2026-05-04T18:36:14.546Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
   "importedCount": 2,
-  "sourceRegisteredCount": 4,
+  "sourceRegisteredCount": 5,
   "deckWithoutRegisteredSourceCount": 0,
-  "missingCount": 99,
+  "missingCount": 98,
   "years": [
     {
       "year": 2005,
@@ -713,9 +713,9 @@
       "targetDecksPerYear": 5,
       "targetCount": 5,
       "importedCount": 0,
-      "sourceRegisteredCount": 0,
+      "sourceRegisteredCount": 1,
       "deckWithoutRegisteredSourceCount": 0,
-      "missingCount": 5,
+      "missingCount": 4,
       "targets": [
         {
           "year": 2014,
@@ -753,12 +753,25 @@
         {
           "year": 2014,
           "targetName": "Fire Fist",
-          "status": "missing-source-and-deck",
-          "hasSource": false,
+          "status": "source-registered",
+          "hasSource": true,
           "hasDeck": false,
-          "sourceCount": 0,
+          "sourceCount": 1,
           "deckCount": 0,
-          "sources": [],
+          "sources": [
+            {
+              "year": 2014,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks deck 1168",
+              "player": null,
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/1168",
+              "notes": "Test source for explicit Main Deck, Extra Deck, and Side Deck parsing from Yu-Gi-Oh! Top Decks."
+            }
+          ],
           "decks": []
         },
         {
