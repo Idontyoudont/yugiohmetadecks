@@ -1,0 +1,1450 @@
+{
+  "generatedAt": "2026-05-04T15:21:35.571Z",
+  "startYear": 2005,
+  "endYear": 2025,
+  "targetDecksPerYear": 5,
+  "totalYears": 21,
+  "totalTargetSlots": 105,
+  "importedCount": 2,
+  "sourceRegisteredCount": 0,
+  "deckWithoutRegisteredSourceCount": 0,
+  "missingCount": 103,
+  "years": [
+    {
+      "year": 2005,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 1,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 4,
+      "targets": [
+        {
+          "year": 2005,
+          "targetName": "Goat Control",
+          "status": "imported",
+          "hasSource": true,
+          "hasDeck": true,
+          "sourceCount": 1,
+          "deckCount": 1,
+          "sources": [
+            {
+              "year": 2005,
+              "target": "Goat Control",
+              "status": "manual-existing",
+              "sourceType": "manual",
+              "label": "Existing app decklist",
+              "player": null,
+              "deckType": "Goat Control",
+              "url": null,
+              "notes": "Already exists as manually curated app data."
+            }
+          ],
+          "decks": [
+            {
+              "id": "goat-control",
+              "name": "Goat Control",
+              "year": 2005,
+              "format": "Goat Format",
+              "status": "complete",
+              "sourceType": "manual"
+            }
+          ]
+        },
+        {
+          "year": 2005,
+          "targetName": "Chaos Turbo",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2005,
+          "targetName": "Warrior Toolbox",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2005,
+          "targetName": "Reasoning Gate",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2005,
+          "targetName": "Burn",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2006,
+          "targetName": "Chaos Return",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2006,
+          "targetName": "Monarch",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2006,
+          "targetName": "Recruiter Chaos",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2006,
+          "targetName": "Gadget",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2006,
+          "targetName": "Bazoo Return",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2007,
+          "targetName": "Perfect Circle Monarch",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2007,
+          "targetName": "Demise OTK",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2007,
+          "targetName": "Gadget",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2007,
+          "targetName": "Zombie",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2007,
+          "targetName": "Crystal Beast",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2008,
+          "targetName": "TeleDAD",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2008,
+          "targetName": "Gladiator Beast",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2008,
+          "targetName": "Lightsworn",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2008,
+          "targetName": "Dark Armed Return",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2008,
+          "targetName": "Zombie Synchro",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2009,
+          "targetName": "Blackwing",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2009,
+          "targetName": "Lightsworn",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2009,
+          "targetName": "Cat Synchro",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2009,
+          "targetName": "Gladiator Beast",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2009,
+          "targetName": "Twilight",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2010,
+          "targetName": "Blackwing",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2010,
+          "targetName": "X-Saber",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2010,
+          "targetName": "Frog Monarch",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2010,
+          "targetName": "Quickdraw Dandywarrior",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2010,
+          "targetName": "Infernity",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2011,
+          "targetName": "Plant Synchro",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2011,
+          "targetName": "Tengu Plant",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2011,
+          "targetName": "Agents",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2011,
+          "targetName": "Six Samurai",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2011,
+          "targetName": "Gravekeeper",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2012,
+          "targetName": "Wind-Up",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2012,
+          "targetName": "Dino Rabbit",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2012,
+          "targetName": "Inzektor",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2012,
+          "targetName": "Chaos Dragon",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2012,
+          "targetName": "Hero Beat",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 1,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 4,
+      "targets": [
+        {
+          "year": 2013,
+          "targetName": "Dragon Ruler",
+          "status": "imported",
+          "hasSource": true,
+          "hasDeck": true,
+          "sourceCount": 1,
+          "deckCount": 2,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Dragon Ruler",
+              "status": "imported",
+              "sourceType": "blog",
+              "label": "Top 16 YCS Turin 2013",
+              "player": "Michele Bergamasco",
+              "deckType": "Dragon Ruler",
+              "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html",
+              "notes": "Already imported as Dragon Ruler YCS Turin 2013."
+            }
+          ],
+          "decks": [
+            {
+              "id": "dragon-ruler",
+              "name": "Dragon Ruler",
+              "year": 2013,
+              "format": "TCG Advanced",
+              "status": "sample",
+              "sourceType": "manual"
+            },
+            {
+              "id": "dragon-ruler-ycs-turin-2013",
+              "name": "Dragon Ruler YCS Turin 2013",
+              "year": 2013,
+              "format": "TCG Advanced",
+              "status": "complete",
+              "sourceType": "imported"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "targetName": "Spellbook",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2013,
+          "targetName": "Mermail",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2013,
+          "targetName": "Evilswarm",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2013,
+          "targetName": "Fire Fist",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2014,
+          "targetName": "HAT",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2014,
+          "targetName": "Geargia",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2014,
+          "targetName": "Mermail",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2014,
+          "targetName": "Fire Fist",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2014,
+          "targetName": "Bujin",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2015,
+          "targetName": "Nekroz",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2015,
+          "targetName": "Burning Abyss",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2015,
+          "targetName": "Shaddoll",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2015,
+          "targetName": "Qliphort",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2015,
+          "targetName": "Satellarknight",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2016,
+          "targetName": "Performapal Performage",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2016,
+          "targetName": "Monarch",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2016,
+          "targetName": "Kozmo",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2016,
+          "targetName": "Burning Abyss",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2016,
+          "targetName": "Blue-Eyes",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2017,
+          "targetName": "Zoodiac",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2017,
+          "targetName": "True Draco",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2017,
+          "targetName": "SPYRAL",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2017,
+          "targetName": "Pendulum Magician",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2017,
+          "targetName": "Dinosaur",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2018,
+          "targetName": "Sky Striker",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2018,
+          "targetName": "Gouki",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2018,
+          "targetName": "Trickstar",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2018,
+          "targetName": "Altergeist",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2018,
+          "targetName": "Thunder Dragon",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2019,
+          "targetName": "Sky Striker",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2019,
+          "targetName": "Orcust",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2019,
+          "targetName": "Salamangreat",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2019,
+          "targetName": "Thunder Dragon",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2019,
+          "targetName": "Subterror",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2020,
+          "targetName": "Adamancipator",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2020,
+          "targetName": "Eldlich",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2020,
+          "targetName": "Dragon Link",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2020,
+          "targetName": "Dogmatika Invoked",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2020,
+          "targetName": "Virtual World",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2021,
+          "targetName": "Tri-Brigade",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2021,
+          "targetName": "Drytron",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2021,
+          "targetName": "Virtual World",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2021,
+          "targetName": "Prank-Kids",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2021,
+          "targetName": "Dragon Link",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2022,
+          "targetName": "Branded Despia",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2022,
+          "targetName": "Swordsoul",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2022,
+          "targetName": "Floowandereeze",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2022,
+          "targetName": "Tearlaments",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2022,
+          "targetName": "Spright",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2023,
+          "targetName": "Kashtira",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2023,
+          "targetName": "Purrely",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2023,
+          "targetName": "Labrynth",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2023,
+          "targetName": "Mathmech",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2023,
+          "targetName": "Branded",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2024,
+          "targetName": "Snake-Eye",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2024,
+          "targetName": "Tenpai Dragon",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2024,
+          "targetName": "Voiceless Voice",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2024,
+          "targetName": "Yubel",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2024,
+          "targetName": "Labrynth",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "targetDecksPerYear": 5,
+      "targetCount": 5,
+      "importedCount": 0,
+      "sourceRegisteredCount": 0,
+      "deckWithoutRegisteredSourceCount": 0,
+      "missingCount": 5,
+      "targets": [
+        {
+          "year": 2025,
+          "targetName": "Ryzeal",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2025,
+          "targetName": "Maliss",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2025,
+          "targetName": "Snake-Eye",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2025,
+          "targetName": "Fiendsmith",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        },
+        {
+          "year": 2025,
+          "targetName": "Memento",
+          "status": "missing-source-and-deck",
+          "hasSource": false,
+          "hasDeck": false,
+          "sourceCount": 0,
+          "deckCount": 0,
+          "sources": [],
+          "decks": []
+        }
+      ]
+    }
+  ]
+}
