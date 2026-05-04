@@ -47,11 +47,7 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Effect Monsters"
   ),
 
-  "Jinzo": available(
-    "Jinzo",
-    "Joey Wheeler",
-    "Effect Monsters"
-  ),
+  "Jinzo": available("Jinzo", "Joey Wheeler", "Effect Monsters"),
 
   "Breaker the Magical Warrior": available(
     "Breaker the Magical Warrior",
@@ -71,15 +67,37 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Effect Monsters"
   ),
 
-  "Sangan": available(
-    "Sangan",
-    "Bakura Ryou",
-    "Effect Monsters"
-  ),
+  "Sangan": available("Sangan", "Bakura Ryou", "Effect Monsters"),
 
   "Magician of Faith": available(
     "Magician of Faith",
     "Yugi Muto/Yami",
+    "Effect Monsters"
+  ),
+
+  "Tsukuyomi": available("Tsukuyomi", "Bakura Ryou", "Spirit Monsters"),
+
+  "D.D. Warrior Lady": available(
+    "D.D. Warrior Lady",
+    "Chazz Princeton",
+    "Effect Monsters"
+  ),
+
+  "Exiled Force": available(
+    "Exiled Force",
+    "Yusei Fudo",
+    "Effect Monsters"
+  ),
+
+  "Asura Priest": available(
+    "Asura Priest",
+    "Pendulum",
+    "Spirit Monsters"
+  ),
+
+  "Spirit Reaper": available(
+    "Spirit Reaper",
+    "Bastion Misawa",
     "Effect Monsters"
   ),
 
@@ -89,11 +107,13 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Effect Monsters"
   ),
 
-  "Scapegoat": available(
-    "Scapegoat",
-    "Grandpa Muto",
-    "Spell Cards"
+  "Kycoo the Ghost Destroyer": available(
+    "Kycoo the Ghost Destroyer",
+    "Yugi Muto/Yami",
+    "Effect Monsters"
   ),
+
+  "Scapegoat": available("Scapegoat", "Grandpa Muto", "Spell Cards"),
 
   "Metamorphosis": available(
     "Metamorphosis",
@@ -101,15 +121,25 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Spell Cards"
   ),
 
-  "Pot of Greed": available(
-    "Pot of Greed",
-    "Grandpa Muto",
-    "Spell Cards"
-  ),
+  "Book of Moon": available("Book of Moon", "Pendulum", "Spell Cards"),
+
+  "Pot of Greed": available("Pot of Greed", "Grandpa Muto", "Spell Cards"),
 
   "Graceful Charity": available(
     "Graceful Charity",
     "Grandpa Muto",
+    "Spell Cards"
+  ),
+
+  "Delinquent Duo": available(
+    "Delinquent Duo",
+    "Joey Wheeler",
+    "Spell Cards"
+  ),
+
+  "Snatch Steal": available(
+    "Snatch Steal",
+    "Bakura Ryou",
     "Spell Cards"
   ),
 
@@ -119,15 +149,17 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Spell Cards"
   ),
 
-  "Heavy Storm": available(
-    "Heavy Storm",
-    "Yugi Muto/Yami",
-    "Spell Cards"
-  ),
+  "Heavy Storm": available("Heavy Storm", "Yugi Muto/Yami", "Spell Cards"),
 
   "Mystical Space Typhoon": available(
     "Mystical Space Typhoon",
     "Yugi Muto/Yami",
+    "Spell Cards"
+  ),
+
+  "Nobleman of Crossout": available(
+    "Nobleman of Crossout",
+    "Bakura Ryou",
     "Spell Cards"
   ),
 
@@ -137,16 +169,52 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Spell Cards"
   ),
 
-  "Raigeki": available(
-    "Raigeki",
-    "Grandpa Muto",
-    "Spell Cards"
+  "Raigeki": available("Raigeki", "Grandpa Muto", "Spell Cards"),
+
+  "Mirror Force": available("Mirror Force", "Seto Kaiba", "Trap Cards"),
+
+  "Torrential Tribute": available(
+    "Torrential Tribute",
+    "Mai Valentine",
+    "Trap Cards"
   ),
 
-  "Dust Tornado": available(
-    "Dust Tornado",
-    "Grandpa Muto",
+  "Ring of Destruction": available(
+    "Ring of Destruction",
+    "Seto Kaiba",
     "Trap Cards"
+  ),
+
+  "Call of the Haunted": available(
+    "Call of the Haunted",
+    "Bakura Ryou",
+    "Trap Cards"
+  ),
+
+  "Sakuretsu Armor": available(
+    "Sakuretsu Armor",
+    "Bastion Misawa",
+    "Trap Cards"
+  ),
+
+  "Dust Tornado": available("Dust Tornado", "Grandpa Muto", "Trap Cards"),
+
+  "Thousand-Eyes Restrict": available(
+    "Thousand-Eyes Restrict",
+    "Seto Kaiba",
+    "Fusion Monsters"
+  ),
+
+  "Dark Balter the Terrible": available(
+    "Dark Balter the Terrible",
+    "Bastion Misawa",
+    "Fusion Monsters"
+  ),
+
+  "Ryu Senshi": available(
+    "Ryu Senshi",
+    "Bastion Misawa",
+    "Fusion Monsters"
   ),
 
   "Mobius the Frost Monarch": available(
@@ -155,9 +223,21 @@ export const cardGameSources: Record<string, CardGameSourceInfo> = {
     "Effect Monsters"
   ),
 
-  "Spirit Reaper": available(
-    "Spirit Reaper",
+  "Mind Control": available("Mind Control", "Mai Valentine", "Spell Cards"),
+
+  "Royal Decree": available("Royal Decree", "Bakura Ryou", "Trap Cards"),
+
+  "Bottomless Trap Hole": available(
+    "Bottomless Trap Hole",
+    "Bakura Ryou",
+    "Trap Cards"
+  ),
+
+  "Ceasefire": available("Ceasefire", "Akiza Ininski", "Trap Cards"),
+
+  "Threatening Roar": available(
+    "Threatening Roar",
     "Bastion Misawa",
-    "Effect Monsters"
+    "Trap Cards"
   ),
 };
