@@ -82,21 +82,32 @@ function getCandidateReportByDeckName(report) {
   return map;
 }
 
-function isHighConfidenceCandidate(deckBlock, candidateByDeckName) {
-  const deckKey = getDeckKey(deckBlock);
-  const candidate = candidateByDeckName.get(deckKey);
-
+function getCandidateRejectionReason(candidate) {
   if (!candidate) {
-    return false;
+    return "No candidate report found for this deck.";
   }
 
-  return (
-    candidate.confidence === "high" &&
-    candidate.totalCardCount >= 40 &&
-    candidate.mainDeckCount >= 40 &&
-    candidate.extraDeckCount <= 15 &&
-    (candidate.sideDeckCount === 0 || candidate.sideDeckCount === 15)
-  );
+  if (candidate.confidence !== "high") {
+    return `Candidate confidence is ${candidate.confidence}, expected high.`;
+  }
+
+  if (candidate.totalCardCount < 40) {
+    return `Total card count is ${candidate.totalCardCount}, expected at least 40.`;
+  }
+
+  if (candidate.mainDeckCount < 40 || candidate.mainDeckCount > 60) {
+    return `Main Deck has ${candidate.mainDeckCount} cards, expected 40 to 60.`;
+  }
+
+  if (candidate.extraDeckCount > 15) {
+    return `Extra Deck has ${candidate.extraDeckCount} cards, expected 15 or fewer.`;
+  }
+
+  if (candidate.sideDeckCount !== 0 && candidate.sideDeckCount !== 15) {
+    return `Side Deck has ${candidate.sideDeckCount} cards, expected 0 or 15.`;
+  }
+
+  return null;
 }
 
 function main() {
@@ -132,11 +143,13 @@ function main() {
       return;
     }
 
-    if (!isHighConfidenceCandidate(candidateBlock, candidateByDeckName)) {
+    const candidate = candidateByDeckName.get(deckKey);
+    const rejectionReason = getCandidateRejectionReason(candidate);
+
+    if (rejectionReason) {
       skippedBlocks.push({
         deckName,
-        reason:
-          "Candidate is not high-confidence or does not meet basic deck size checks.",
+        reason: rejectionReason,
       });
       return;
     }
