@@ -157,6 +157,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedCard(null);
   }
 
+  function handlePreviewCard(card: EnrichedDeckCard) {
+    setSelectedCard(card);
+  }
+
   return (
     <div className="flex min-h-screen">
       <DeckSidebar
@@ -274,6 +278,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
       <CardPreviewPanel
         card={selectedCard}
         onClose={() => setSelectedCard(null)}
+        onPreviewCard={handlePreviewCard}
       />
     </div>
   );

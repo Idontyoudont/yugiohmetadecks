@@ -1,30 +1,19 @@
-import { cardGameSources } from "../data/cardGameSources";
+import { enrichCardByName } from "../lib/enrichDeckCard";
 import type { EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
   card: EnrichedDeckCard | null;
   onClose?: () => void;
+  onPreviewCard?: (card: EnrichedDeckCard) => void;
 };
 
-function normalizeCardName(name: string) {
-  return name
-    .toLowerCase()
-    .replace(/[’‘]/g, "'")
-    .replace(/[–—]/g, "-")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function getReplacementSource(cardName: string) {
-  const sourceEntry = Object.entries(cardGameSources).find(
-    ([sourceCardName]) =>
-      normalizeCardName(sourceCardName) === normalizeCardName(cardName)
-  );
-
-  return sourceEntry?.[1];
-}
-
-function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
+function CardPreviewContent({
+  card,
+  onPreviewCard,
+}: {
+  card: EnrichedDeckCard | null;
+  onPreviewCard?: (card: EnrichedDeckCard) => void;
+}) {
   if (!card) {
     return (
       <div className="rounded-2xl border border-dashed border-slate-700 p-6 text-center">
@@ -39,6 +28,11 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
 
   const gameSourceInfo = card.gameSourceInfo;
   const replacementInfo = card.replacementInfo;
+
+  function handleReplacementClick(cardName: string) {
+    const replacementCard = enrichCardByName(cardName);
+    onPreviewCard?.(replacementCard);
+  }
 
   return (
     <div className="sticky top-6">
@@ -147,7 +141,9 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
               <div className="mt-3 space-y-3">
                 {gameSourceInfo.sources.map((source) => (
                   <div
-                    key={`${source.game}-${source.packName}-${source.cardCategory ?? ""}`}
+                    key={`${source.game}-${source.packName}-${
+                      source.cardCategory ?? ""
+                    }`}
                     className="rounded-xl border border-slate-800 bg-slate-900 p-3"
                   >
                     <p className="font-medium text-slate-200">
@@ -191,17 +187,27 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
 
               <div className="mt-3 space-y-3">
                 {replacementInfo.suggestions.map((suggestion) => {
-                  const sourceInfo = getReplacementSource(suggestion.cardName);
+                  const replacementCard = enrichCardByName(suggestion.cardName);
+                  const sourceInfo = replacementCard.gameSourceInfo;
                   const firstSource = sourceInfo?.sources?.[0];
 
                   return (
-                    <div
+                    <button
                       key={suggestion.cardName}
-                      className="rounded-xl border border-slate-800 bg-slate-900 p-3"
+                      onClick={() =>
+                        handleReplacementClick(suggestion.cardName)
+                      }
+                      className="w-full rounded-xl border border-slate-800 bg-slate-900 p-3 text-left transition hover:border-blue-400 hover:bg-slate-800"
                     >
-                      <p className="font-semibold text-slate-200">
-                        {suggestion.cardName}
-                      </p>
+                      <div className="flex items-start justify-between gap-3">
+                        <p className="font-semibold text-slate-200">
+                          {suggestion.cardName}
+                        </p>
+
+                        <span className="rounded-full bg-blue-500/20 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-blue-300">
+                          Preview
+                        </span>
+                      </div>
 
                       {sourceInfo?.status === "available" && firstSource ? (
                         <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
@@ -225,6 +231,12 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
                         </div>
                       ) : null}
 
+                      {sourceInfo?.status === "unknown" ? (
+                        <div className="mt-2 inline-flex rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
+                          Source unknown
+                        </div>
+                      ) : null}
+
                       {!sourceInfo ? (
                         <div className="mt-2 inline-flex rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
                           Source not mapped yet
@@ -234,7 +246,7 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
                       <p className="mt-2 text-sm text-slate-500">
                         {suggestion.reason}
                       </p>
-                    </div>
+                    </button>
                   );
                 })}
               </div>
@@ -258,11 +270,15 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
   );
 }
 
-export function CardPreviewPanel({ card, onClose }: CardPreviewPanelProps) {
+export function CardPreviewPanel({
+  card,
+  onClose,
+  onPreviewCard,
+}: CardPreviewPanelProps) {
   return (
     <>
       <aside className="hidden w-80 border-l border-slate-800 bg-slate-950 p-6 xl:block">
-        <CardPreviewContent card={card} />
+        <CardPreviewContent card={card} onPreviewCard={onPreviewCard} />
       </aside>
 
       {card ? (
@@ -286,7 +302,7 @@ export function CardPreviewPanel({ card, onClose }: CardPreviewPanelProps) {
               </button>
             </div>
 
-            <CardPreviewContent card={card} />
+            <CardPreviewContent card={card} onPreviewCard={onPreviewCard} />
           </div>
         </div>
       ) : null}

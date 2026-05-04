@@ -12,26 +12,60 @@ function normalizeCardName(name: string) {
     .trim();
 }
 
-export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
-  const normalizedCardName = normalizeCardName(card.name);
+function getCardDetails(cardName: string) {
+  const normalizedCardName = normalizeCardName(cardName);
 
-  const details = cardDetails.find(
+  return cardDetails.find(
     (detail) => normalizeCardName(detail.name) === normalizedCardName
   );
+}
+
+function getGameSourceInfo(cardName: string) {
+  const normalizedCardName = normalizeCardName(cardName);
 
   const gameSourceEntry = Object.entries(cardGameSources).find(
-    ([cardName]) => normalizeCardName(cardName) === normalizedCardName
+    ([sourceCardName]) => normalizeCardName(sourceCardName) === normalizedCardName
   );
 
+  return gameSourceEntry?.[1];
+}
+
+function getReplacementInfo(cardName: string) {
+  const normalizedCardName = normalizeCardName(cardName);
+
   const replacementEntry = Object.entries(cardReplacements).find(
-    ([cardName]) => normalizeCardName(cardName) === normalizedCardName
+    ([replacementCardName]) =>
+      normalizeCardName(replacementCardName) === normalizedCardName
   );
+
+  return replacementEntry?.[1];
+}
+
+export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
+  const details = getCardDetails(card.name);
+  const gameSourceInfo = getGameSourceInfo(card.name);
+  const replacementInfo = getReplacementInfo(card.name);
 
   return {
     ...details,
     ...card,
     name: card.name,
-    gameSourceInfo: gameSourceEntry?.[1],
-    replacementInfo: replacementEntry?.[1],
+    gameSourceInfo,
+    replacementInfo,
+  };
+}
+
+export function enrichCardByName(cardName: string): EnrichedDeckCard {
+  const details = getCardDetails(cardName);
+  const gameSourceInfo = getGameSourceInfo(cardName);
+  const replacementInfo = getReplacementInfo(cardName);
+
+  return {
+    ...details,
+    name: cardName,
+    quantity: 1,
+    tags: ["replacement"],
+    gameSourceInfo,
+    replacementInfo,
   };
 }
