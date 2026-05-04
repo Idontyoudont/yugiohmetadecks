@@ -3,9 +3,16 @@ import type { DeckCard } from "../types/deck";
 type CardGridProps = {
   title: string;
   cards: DeckCard[];
+  selectedCard?: DeckCard | null;
+  onSelectCard: (card: DeckCard) => void;
 };
 
-export function CardGrid({ title, cards }: CardGridProps) {
+export function CardGrid({
+  title,
+  cards,
+  selectedCard,
+  onSelectCard,
+}: CardGridProps) {
   const totalCards = cards.reduce((total, card) => total + card.quantity, 0);
 
   return (
@@ -18,33 +25,42 @@ export function CardGrid({ title, cards }: CardGridProps) {
       </div>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
-        {cards.map((card) => (
-          <button
-            key={card.name}
-            className="relative min-h-36 rounded-xl border border-slate-700 bg-slate-800 p-3 text-left text-sm text-slate-100 transition hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-700"
-          >
-            <span className="absolute right-2 top-2 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
-              x{card.quantity}
-            </span>
+        {cards.map((card) => {
+          const isSelected = selectedCard?.name === card.name;
 
-            <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
+          return (
+            <button
+              key={card.name}
+              onClick={() => onSelectCard(card)}
+              className={`relative min-h-36 rounded-xl border p-3 text-left text-sm text-slate-100 transition hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-700 ${
+                isSelected
+                  ? "border-blue-400 bg-slate-700"
+                  : "border-slate-700 bg-slate-800"
+              }`}
+            >
+              <span className="absolute right-2 top-2 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
+                x{card.quantity}
+              </span>
 
-            <p className="font-medium leading-snug">{card.name}</p>
+              <div className="mb-3 aspect-[3/4] rounded-lg bg-gradient-to-br from-slate-700 to-slate-950" />
 
-            {card.tags && card.tags.length > 0 ? (
-              <div className="mt-3 flex flex-wrap gap-1">
-                {card.tags.slice(0, 2).map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full bg-slate-700 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            ) : null}
-          </button>
-        ))}
+              <p className="font-medium leading-snug">{card.name}</p>
+
+              {card.tags && card.tags.length > 0 ? (
+                <div className="mt-3 flex flex-wrap gap-1">
+                  {card.tags.slice(0, 2).map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-slate-700 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              ) : null}
+            </button>
+          );
+        })}
       </div>
     </section>
   );
