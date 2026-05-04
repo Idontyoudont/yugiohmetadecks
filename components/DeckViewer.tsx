@@ -5,6 +5,7 @@ import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckFilters } from "./DeckFilters";
 import { DeckSidebar } from "./DeckSidebar";
+import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
 import { DeckValidation } from "./DeckValidation";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
@@ -141,6 +142,12 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           />
 
           <DeckValidation
+            mainDeck={enrichedMainDeck}
+            extraDeck={enrichedExtraDeck}
+            sideDeck={enrichedSideDeck}
+          />
+
+          <DeckSourceCoverage
             mainDeck={enrichedMainDeck}
             extraDeck={enrichedExtraDeck}
             sideDeck={enrichedSideDeck}
