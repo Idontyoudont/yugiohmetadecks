@@ -18,6 +18,8 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
     );
   }
 
+  const gameSourceInfo = card.gameSourceInfo;
+
   return (
     <div className="sticky top-6">
       {card.imageUrl ? (
@@ -83,8 +85,83 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
         <div className="space-y-4 text-sm text-slate-400">
           <p>
             {card.description ??
-              "This is a placeholder card preview. Later, this panel can show the real card image, type, attribute, level, effect text, printings, and set information."}
+              "This is a placeholder card preview. Later, this panel can show the real card image, type, attribute, level, official effect text, in-game pack source, and custom role explanation."}
           </p>
+
+          <div className="rounded-xl bg-slate-950 p-4">
+            <p className="text-xs uppercase tracking-[0.2em] text-blue-400">
+              In-game source
+            </p>
+
+            {!gameSourceInfo ? (
+              <p className="mt-3 text-sm text-slate-500">
+                No in-game pack source added yet for this card.
+              </p>
+            ) : null}
+
+            {gameSourceInfo?.status === "not-in-game" ? (
+              <div className="mt-3 rounded-xl border border-amber-500/30 bg-amber-500/10 p-3">
+                <p className="font-semibold text-amber-300">Not in game</p>
+                {gameSourceInfo.notes ? (
+                  <p className="mt-2 text-sm text-amber-100/70">
+                    {gameSourceInfo.notes}
+                  </p>
+                ) : null}
+              </div>
+            ) : null}
+
+            {gameSourceInfo?.status === "unknown" ? (
+              <div className="mt-3 rounded-xl border border-slate-700 bg-slate-900 p-3">
+                <p className="font-semibold text-slate-300">Unknown</p>
+                {gameSourceInfo.notes ? (
+                  <p className="mt-2 text-sm text-slate-500">
+                    {gameSourceInfo.notes}
+                  </p>
+                ) : null}
+              </div>
+            ) : null}
+
+            {gameSourceInfo?.status === "available" &&
+            gameSourceInfo.sources &&
+            gameSourceInfo.sources.length > 0 ? (
+              <div className="mt-3 space-y-3">
+                {gameSourceInfo.sources.map((source) => (
+                  <div
+                    key={`${source.game}-${source.packName}-${source.cardCategory ?? ""}`}
+                    className="rounded-xl border border-slate-800 bg-slate-900 p-3"
+                  >
+                    <p className="font-medium text-slate-200">
+                      {source.packName}
+                    </p>
+
+                    <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
+                      <span className="rounded-full bg-slate-800 px-2 py-1">
+                        {source.game}
+                      </span>
+
+                      {source.characterName ? (
+                        <span className="rounded-full bg-slate-800 px-2 py-1">
+                          {source.characterName}
+                        </span>
+                      ) : null}
+
+                      {source.cardCategory ? (
+                        <span className="rounded-full bg-slate-800 px-2 py-1">
+                          {source.cardCategory}
+                        </span>
+                      ) : null}
+                    </div>
+
+                    {source.notes ? (
+                      <p className="mt-3 text-sm text-slate-500">
+                        {source.notes}
+                      </p>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+            ) : null}
+          </div>
 
           <div className="rounded-xl bg-slate-950 p-4">
             <p className="text-xs uppercase tracking-[0.2em] text-blue-400">
@@ -92,8 +169,8 @@ function CardPreviewContent({ card }: { card: EnrichedDeckCard | null }) {
             </p>
             <ul className="mt-3 space-y-2">
               <li>Full official card text</li>
-              <li>Sets and rarity</li>
-              <li>Card prices or availability</li>
+              <li>More in-game pack sources</li>
+              <li>Card unlock notes</li>
               <li>Custom role explanation</li>
             </ul>
           </div>

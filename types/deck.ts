@@ -13,7 +13,25 @@ export type CardDetails = {
   level?: number;
 };
 
-export type EnrichedDeckCard = DeckCard & CardDetails;
+export type CardGameSource = {
+  game: string;
+  packName: string;
+  characterName?: string;
+  cardCategory?: string;
+  notes?: string;
+};
+
+export type CardGameSourceInfo = {
+  name: string;
+  status: "available" | "not-in-game" | "unknown";
+  sources?: CardGameSource[];
+  notes?: string;
+};
+
+export type EnrichedDeckCard = DeckCard &
+  CardDetails & {
+    gameSourceInfo?: CardGameSourceInfo;
+  };
 
 export type DeckStatus = "complete" | "sample" | "draft";
 
