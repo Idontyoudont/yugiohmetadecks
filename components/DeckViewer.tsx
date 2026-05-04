@@ -42,6 +42,14 @@ function getDeckStatusClassName(status: Deck["status"]) {
   return "border-slate-600 bg-slate-800 text-slate-300";
 }
 
+function getCardPackNames(card: EnrichedDeckCard) {
+  if (card.gameSourceInfo?.status !== "available") {
+    return [];
+  }
+
+  return card.gameSourceInfo.sources?.map((source) => source.packName) ?? [];
+}
+
 function matchesSourceStatus(
   card: EnrichedDeckCard,
   selectedSourceStatus: SourceStatusFilter
@@ -57,6 +65,14 @@ function matchesSourceStatus(
   return card.gameSourceInfo?.status === selectedSourceStatus;
 }
 
+function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
+  if (!selectedPack) {
+    return true;
+  }
+
+  return getCardPackNames(card).includes(selectedPack);
+}
+
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedDeckId, setSelectedDeckId] = useState(decks[0].id);
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
@@ -65,6 +81,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedSourceStatus, setSelectedSourceStatus] =
     useState<SourceStatusFilter>(null);
+  const [selectedPack, setSelectedPack] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
   const selectedDeck =
@@ -85,6 +102,11 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     return Array.from(new Set(tags)).sort();
   }, [allCards]);
 
+  const availablePacks = useMemo(() => {
+    const packs = allCards.flatMap(getCardPackNames);
+    return Array.from(new Set(packs)).sort();
+  }, [allCards]);
+
   function filterCards(cards: EnrichedDeckCard[]) {
     const normalizedSearchQuery = searchQuery.trim().toLowerCase();
 
@@ -94,8 +116,9 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         ? card.name.toLowerCase().includes(normalizedSearchQuery)
         : true;
       const matchesSource = matchesSourceStatus(card, selectedSourceStatus);
+      const matchesSelectedPack = matchesPack(card, selectedPack);
 
-      return matchesTag && matchesSearch && matchesSource;
+      return matchesTag && matchesSearch && matchesSource && matchesSelectedPack;
     });
   }
 
@@ -108,6 +131,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedCard(null);
     setSelectedTag(null);
     setSelectedSourceStatus(null);
+    setSelectedPack(null);
     setSearchQuery("");
   }
 
@@ -118,6 +142,11 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
   function handleSelectSourceStatus(status: SourceStatusFilter) {
     setSelectedSourceStatus(status);
+    setSelectedCard(null);
+  }
+
+  function handleSelectPack(pack: string | null) {
+    setSelectedPack(pack);
     setSelectedCard(null);
   }
 
@@ -190,11 +219,14 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
         <DeckFilters
           availableTags={availableTags}
+          availablePacks={availablePacks}
           selectedTag={selectedTag}
           selectedSourceStatus={selectedSourceStatus}
+          selectedPack={selectedPack}
           searchQuery={searchQuery}
           onSelectTag={handleSelectTag}
           onSelectSourceStatus={handleSelectSourceStatus}
+          onSelectPack={handleSelectPack}
           onSearchChange={handleSearchChange}
         />
 
