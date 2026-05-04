@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T19:38:19.711Z",
+  "generatedAt": "2026-05-04T19:50:46.748Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 41,
-  "importerWarningCount": 4,
-  "cleanDeckCount": 35,
-  "issueDeckCount": 6,
-  "errorDeckCount": 2,
+  "importedDeckCount": 59,
+  "importerWarningCount": 6,
+  "cleanDeckCount": 47,
+  "issueDeckCount": 12,
+  "errorDeckCount": 3,
   "warningDeckCount": 1,
-  "infoDeckCount": 3,
+  "infoDeckCount": 8,
   "issueDecks": [
     {
       "deck": {
@@ -368,6 +368,375 @@
           "token",
           "trap",
           "water",
+          "xyz"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "zombie-2007",
+        "originalId": "zombie-2007",
+        "name": "Zombie 2007",
+        "year": 2007,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 1494 - Regional - San Jose California (Nov 2013) - Nov 2013",
+          "player": "Gustavo Hernandez",
+          "deckType": "Zombie",
+          "url": "https://www.yugiohtopdecks.org/deck/1494"
+        },
+        "mainDeckCount": 36,
+        "extraDeckCount": 15,
+        "sideDeckCount": 14,
+        "totalCount": 65,
+        "taggedCardCount": 11,
+        "automaticTaggedCardCount": 11,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "banish",
+          "banish payoff",
+          "board clear",
+          "defense",
+          "discard outlet",
+          "disruption",
+          "draw",
+          "hand control",
+          "hand trap",
+          "level 8",
+          "lockdown",
+          "power trap",
+          "protection",
+          "removal",
+          "synchro",
+          "trap"
+        ],
+        "warningCount": 2,
+        "warnings": [
+          {
+            "type": "main-deck-too-small",
+            "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
+          },
+          {
+            "type": "side-deck-invalid-size",
+            "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+          }
+        ],
+        "ignoredLines": []
+      },
+      "matchingTarget": {
+        "year": 2007,
+        "targetName": "Zombie",
+        "normalizedTargetName": "zombie"
+      },
+      "issueCount": 3,
+      "highestSeverity": "error",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 36 cards. Expected 40 to 60."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "lightsworn-2010",
+        "originalId": "lightsworn-2010",
+        "name": "Lightsworn 2010",
+        "year": 2010,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 2307 - 2010 SJ Edison (Apr 2010) - Apr 2010",
+          "player": "Jarel Winston",
+          "deckType": "Lightsworn",
+          "url": "https://www.yugiohtopdecks.org/deck/2307"
+        },
+        "mainDeckCount": 42,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 72,
+        "taggedCardCount": 15,
+        "automaticTaggedCardCount": 15,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "discard outlet",
+          "disruption",
+          "dragon",
+          "field spell support",
+          "flip support",
+          "graveyard control",
+          "hand trap",
+          "level 7",
+          "level 8",
+          "power spell",
+          "protection",
+          "quick-play",
+          "removal",
+          "revival",
+          "side deck",
+          "synchro",
+          "synchro setup",
+          "trap",
+          "tuner"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "junk-2010",
+        "originalId": "junk-2010",
+        "name": "Junk 2010",
+        "year": 2010,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 2408 - 2010 Championship Series - Chicago (Jun 2010) - Jun 2010",
+          "player": "Ben Haynes",
+          "deckType": "Junk",
+          "url": "https://www.yugiohtopdecks.org/deck/2408"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 10,
+        "automaticTaggedCardCount": 10,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "battle protection",
+          "board clear",
+          "defense",
+          "graveyard control",
+          "hand trap",
+          "level 4",
+          "level 7",
+          "level 8",
+          "power spell",
+          "protection",
+          "quick-play",
+          "side deck",
+          "synchro",
+          "trap"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "black-2012",
+        "originalId": "black-2012",
+        "name": "Black 2012",
+        "year": 2012,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 1717 - National Championship - Argentina (Jun 2014) - Jun 2014",
+          "player": "Luciano Soto",
+          "deckType": "Black",
+          "url": "https://www.yugiohtopdecks.org/deck/1717"
+        },
+        "mainDeckCount": 41,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 71,
+        "taggedCardCount": 8,
+        "automaticTaggedCardCount": 8,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "boss monster",
+          "level 7",
+          "light/dark payoff",
+          "piercing",
+          "quick-play",
+          "rank 7",
+          "removal",
+          "synchro",
+          "xyz"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "djinn-2012",
+        "originalId": "djinn-2012",
+        "name": "Djinn 2012",
+        "year": 2012,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 1759 - Mesa Arizona Regional Qualifier (Feb 2013) - Feb 2013",
+          "player": "Alec Beer",
+          "deckType": "Djinn",
+          "url": "https://www.yugiohtopdecks.org/deck/1759"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 11,
+        "automaticTaggedCardCount": 11,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "backrow removal",
+          "banish",
+          "board clear",
+          "boss monster",
+          "control",
+          "defense",
+          "disruption",
+          "dragon counter",
+          "draw",
+          "hand trap",
+          "light/dark payoff",
+          "piercing",
+          "power spell",
+          "quick-play",
+          "rank 7",
+          "removal",
+          "side deck",
+          "trap",
+          "xyz"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "lightsworn-2012",
+        "originalId": "lightsworn-2012",
+        "name": "Lightsworn 2012",
+        "year": 2012,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 1980 - 2012 YCS Seattle (Nov 2012) - Nov 2012",
+          "player": "Justin Delhon",
+          "deckType": "Lightsworn",
+          "url": "https://www.yugiohtopdecks.org/deck/1980"
+        },
+        "mainDeckCount": 41,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 71,
+        "taggedCardCount": 14,
+        "automaticTaggedCardCount": 14,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "anti-flip",
+          "backrow removal",
+          "banish",
+          "board clear",
+          "boss monster",
+          "control",
+          "disruption",
+          "dragon counter",
+          "draw",
+          "graveyard control",
+          "hand trap",
+          "level 7",
+          "level 8",
+          "light/dark payoff",
+          "piercing",
+          "power spell",
+          "protection",
+          "quick-play",
+          "rank 7",
+          "removal",
+          "side deck",
+          "synchro",
+          "trap",
           "xyz"
         ],
         "warningCount": 0,
@@ -1050,6 +1419,234 @@
         "year": 2015,
         "targetName": "Qliphort",
         "normalizedTargetName": "qliphort"
+      }
+    },
+    {
+      "id": "beast-2008",
+      "name": "Beast 2008",
+      "year": 2008,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1653 - Regional - Seattle Washington (Jun 2013) - Jun 2013",
+        "player": "???",
+        "deckType": "Beast",
+        "url": "https://www.yugiohtopdecks.org/deck/1653"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2008,
+        "targetName": "Gladiator Beast",
+        "normalizedTargetName": "gladiator beast"
+      }
+    },
+    {
+      "id": "blackwing-2009",
+      "name": "Blackwing 2009",
+      "year": 2009,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 2457 - 2009 SJ Orlando (Sep 2009) - Sep 2009",
+        "player": "Rodrigo Togores",
+        "deckType": "Blackwing",
+        "url": "https://www.yugiohtopdecks.org/deck/2457"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2009,
+        "targetName": "Blackwing",
+        "normalizedTargetName": "blackwing"
+      }
+    },
+    {
+      "id": "beast-2009",
+      "name": "Beast 2009",
+      "year": 2009,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 2354 - 2010 Championship Series - Indianapolis (Aug 2010) - Aug 2010",
+        "player": "Daniel LaMartina",
+        "deckType": "Beast",
+        "url": "https://www.yugiohtopdecks.org/deck/2354"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2009,
+        "targetName": "Gladiator Beast",
+        "normalizedTargetName": "gladiator beast"
+      }
+    },
+    {
+      "id": "twilight-dragon-2009",
+      "name": "Twilight Dragon 2009",
+      "year": 2009,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1924 - 2012 YCS Toulouse (Apr 2012) - Apr 2012",
+        "player": "Peter Gross",
+        "deckType": "Twilight Dragon",
+        "url": "https://www.yugiohtopdecks.org/deck/1924"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2009,
+        "targetName": "Twilight",
+        "normalizedTargetName": "twilight"
+      }
+    },
+    {
+      "id": "blackwing-2010",
+      "name": "Blackwing 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1080 - Regional - Lenexa Kansas (May 2014) - May 2014",
+        "player": "Duelist Unknown",
+        "deckType": "Blackwing",
+        "url": "https://www.yugiohtopdecks.org/deck/1080"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Blackwing",
+        "normalizedTargetName": "blackwing"
+      }
+    },
+    {
+      "id": "x-saber-2010",
+      "name": "X-Saber 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 2285 - 2010 United States WCQ (Jul 2010) - Jul 2010",
+        "player": "Jay Hornung",
+        "deckType": "X-Saber",
+        "url": "https://www.yugiohtopdecks.org/deck/2285"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "X-Saber",
+        "normalizedTargetName": "x saber"
+      }
+    },
+    {
+      "id": "warrior-2010",
+      "name": "Warrior 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 2302 - 2010 SJ Edison (Apr 2010) - Apr 2010",
+        "player": "Jeff Jones",
+        "deckType": "Warrior",
+        "url": "https://www.yugiohtopdecks.org/deck/2302"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Quickdraw Dandywarrior",
+        "normalizedTargetName": "quickdraw dandywarrior"
+      }
+    },
+    {
+      "id": "quickdraw-dandywarrior-2010",
+      "name": "Quickdraw Dandywarrior 2010",
+      "year": 2010,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 2343 - 2010 Championship Series - Philadelphia (Oct 2010) - Oct 2010",
+        "player": "Kenny Kwan",
+        "deckType": "Quickdraw Dandywarrior",
+        "url": "https://www.yugiohtopdecks.org/deck/2343"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2010,
+        "targetName": "Quickdraw Dandywarrior",
+        "normalizedTargetName": "quickdraw dandywarrior"
+      }
+    },
+    {
+      "id": "chaos-2012",
+      "name": "Chaos 2012",
+      "year": 2012,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1370 - Regional - Columbus Ohio (Apr 2013) - Apr 2013",
+        "player": "Jeremy Ottery (sp?)",
+        "deckType": "Chaos",
+        "url": "https://www.yugiohtopdecks.org/deck/1370"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2012,
+        "targetName": "Chaos Dragon",
+        "normalizedTargetName": "chaos dragon"
+      }
+    },
+    {
+      "id": "blue-eyes-2016",
+      "name": "Blue-Eyes 2016",
+      "year": 2016,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1245 - Regional - Buenos Aires Argentina (Jan 2014) - Jan 2014",
+        "player": "Matias Lopez",
+        "deckType": "Blue-Eyes",
+        "url": "https://www.yugiohtopdecks.org/deck/1245"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2016,
+        "targetName": "Blue-Eyes",
+        "normalizedTargetName": "blue eyes"
+      }
+    },
+    {
+      "id": "magician-2017",
+      "name": "Magician 2017",
+      "year": 2017,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1362 - Regional - Brooklyn New York (Apr 2013) - Apr 2013",
+        "player": "Glang Nguyen",
+        "deckType": "Magician",
+        "url": "https://www.yugiohtopdecks.org/deck/1362"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2017,
+        "targetName": "Pendulum Magician",
+        "normalizedTargetName": "pendulum magician"
+      }
+    },
+    {
+      "id": "thunder-2018",
+      "name": "Thunder 2018",
+      "year": 2018,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 1270 - Regional - Vina Del Mar Chile (Jan 2014) - Jan 2014",
+        "player": "Jose Castillo",
+        "deckType": "Thunder",
+        "url": "https://www.yugiohtopdecks.org/deck/1270"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2018,
+        "targetName": "Thunder Dragon",
+        "normalizedTargetName": "thunder dragon"
       }
     }
   ]

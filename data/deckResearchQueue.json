@@ -198,72 +198,6 @@
     }
   },
   {
-    "id": "2007-zombie",
-    "year": 2007,
-    "targetName": "Zombie",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2007 Zombie yugioh decklist",
-      "2007 Zombie YCS deck profile",
-      "2007 Zombie yugioh top deck",
-      "Zombie 2007 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2007%20Zombie%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Zombie"
-    }
-  },
-  {
-    "id": "2008-dark-armed-return",
-    "year": 2008,
-    "targetName": "Dark Armed Return",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2008 Dark Armed Return yugioh decklist",
-      "2008 Dark Armed Return YCS deck profile",
-      "2008 Dark Armed Return yugioh top deck",
-      "Dark Armed Return 2008 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Dark%20Armed%20Return"
-    }
-  },
-  {
-    "id": "2008-gladiator-beast",
-    "year": 2008,
-    "targetName": "Gladiator Beast",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2008 Gladiator Beast yugioh decklist",
-      "2008 Gladiator Beast YCS deck profile",
-      "2008 Gladiator Beast yugioh top deck",
-      "Gladiator Beast 2008 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Gladiator%20Beast"
-    }
-  },
-  {
     "id": "2008-zombie-synchro",
     "year": 2008,
     "targetName": "Zombie Synchro",
@@ -305,138 +239,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Cat%20Synchro"
-    }
-  },
-  {
-    "id": "2009-gladiator-beast",
-    "year": 2009,
-    "targetName": "Gladiator Beast",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2009 Gladiator Beast yugioh decklist",
-      "2009 Gladiator Beast YCS deck profile",
-      "2009 Gladiator Beast yugioh top deck",
-      "Gladiator Beast 2009 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Gladiator%20Beast"
-    }
-  },
-  {
-    "id": "2009-twilight",
-    "year": 2009,
-    "targetName": "Twilight",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2009 Twilight yugioh decklist",
-      "2009 Twilight YCS deck profile",
-      "2009 Twilight yugioh top deck",
-      "Twilight 2009 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2009%20Twilight%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Twilight%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Twilight"
-    }
-  },
-  {
-    "id": "2010-blackwing",
-    "year": 2010,
-    "targetName": "Blackwing",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 Blackwing yugioh decklist",
-      "2010 Blackwing YCS deck profile",
-      "2010 Blackwing yugioh top deck",
-      "Blackwing 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20Blackwing%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Blackwing%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Blackwing"
-    }
-  },
-  {
-    "id": "2010-quickdraw-dandywarrior",
-    "year": 2010,
-    "targetName": "Quickdraw Dandywarrior",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 Quickdraw Dandywarrior yugioh decklist",
-      "2010 Quickdraw Dandywarrior YCS deck profile",
-      "2010 Quickdraw Dandywarrior yugioh top deck",
-      "Quickdraw Dandywarrior 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Quickdraw%20Dandywarrior"
-    }
-  },
-  {
-    "id": "2011-tengu-plant",
-    "year": 2011,
-    "targetName": "Tengu Plant",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2011 Tengu Plant yugioh decklist",
-      "2011 Tengu Plant YCS deck profile",
-      "2011 Tengu Plant yugioh top deck",
-      "Tengu Plant 2011 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Tengu%20Plant"
-    }
-  },
-  {
-    "id": "2016-blue-eyes",
-    "year": 2016,
-    "targetName": "Blue-Eyes",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2016 Blue-Eyes yugioh decklist",
-      "2016 Blue-Eyes YCS deck profile",
-      "2016 Blue-Eyes yugioh top deck",
-      "Blue-Eyes 2016 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2016%20Blue-Eyes%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2016%20Blue-Eyes"
     }
   },
   {
@@ -503,28 +305,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Dinosaur%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2017%20Dinosaur%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Dinosaur"
-    }
-  },
-  {
-    "id": "2017-pendulum-magician",
-    "year": 2017,
-    "targetName": "Pendulum Magician",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2017 Pendulum Magician yugioh decklist",
-      "2017 Pendulum Magician YCS deck profile",
-      "2017 Pendulum Magician yugioh top deck",
-      "Pendulum Magician 2017 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Pendulum%20Magician"
     }
   },
   {
@@ -1452,12 +1232,56 @@
     }
   },
   {
+    "id": "2008-dark-armed-return",
+    "year": 2008,
+    "targetName": "Dark Armed Return",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 9,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Dark Armed Return yugioh decklist",
+      "2008 Dark Armed Return YCS deck profile",
+      "2008 Dark Armed Return yugioh top deck",
+      "Dark Armed Return 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Dark%20Armed%20Return"
+    }
+  },
+  {
+    "id": "2008-gladiator-beast",
+    "year": 2008,
+    "targetName": "Gladiator Beast",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 19,
+    "deckCount": 0,
+    "searchQueries": [
+      "2008 Gladiator Beast yugioh decklist",
+      "2008 Gladiator Beast YCS deck profile",
+      "2008 Gladiator Beast yugioh top deck",
+      "Gladiator Beast 2008 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Gladiator%20Beast"
+    }
+  },
+  {
     "id": "2008-teledad",
     "year": 2008,
     "targetName": "TeleDAD",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 31,
     "deckCount": 0,
     "searchQueries": [
       "2008 TeleDAD yugioh decklist",
@@ -1474,25 +1298,25 @@
     }
   },
   {
-    "id": "2009-blackwing",
+    "id": "2009-gladiator-beast",
     "year": 2009,
-    "targetName": "Blackwing",
+    "targetName": "Gladiator Beast",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 17,
     "deckCount": 0,
     "searchQueries": [
-      "2009 Blackwing yugioh decklist",
-      "2009 Blackwing YCS deck profile",
-      "2009 Blackwing yugioh top deck",
-      "Blackwing 2009 format decklist"
+      "2009 Gladiator Beast yugioh decklist",
+      "2009 Gladiator Beast YCS deck profile",
+      "2009 Gladiator Beast yugioh top deck",
+      "Gladiator Beast 2009 format decklist"
     ],
     "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2009%20Blackwing%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Blackwing%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Blackwing"
+      "googleSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Gladiator%20Beast"
     }
   },
   {
@@ -1501,7 +1325,7 @@
     "targetName": "Frog Monarch",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 6,
+    "sourceCount": 35,
     "deckCount": 0,
     "searchQueries": [
       "2010 Frog Monarch yugioh decklist",
@@ -1518,34 +1342,12 @@
     }
   },
   {
-    "id": "2010-x-saber",
-    "year": 2010,
-    "targetName": "X-Saber",
-    "populationStatus": "source-registered",
-    "priority": 2,
-    "sourceCount": 1,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 X-Saber yugioh decklist",
-      "2010 X-Saber YCS deck profile",
-      "2010 X-Saber yugioh top deck",
-      "X-Saber 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20X-Saber%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
-    }
-  },
-  {
     "id": "2011-agents",
     "year": 2011,
     "targetName": "Agents",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 16,
     "deckCount": 0,
     "searchQueries": [
       "2011 Agents yugioh decklist",
@@ -1567,7 +1369,7 @@
     "targetName": "Plant Synchro",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 2,
+    "sourceCount": 62,
     "deckCount": 0,
     "searchQueries": [
       "2011 Plant Synchro yugioh decklist",
@@ -1584,12 +1386,34 @@
     }
   },
   {
+    "id": "2011-tengu-plant",
+    "year": 2011,
+    "targetName": "Tengu Plant",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 10,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Tengu Plant yugioh decklist",
+      "2011 Tengu Plant YCS deck profile",
+      "2011 Tengu Plant yugioh top deck",
+      "Tengu Plant 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Tengu%20Plant%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Tengu%20Plant"
+    }
+  },
+  {
     "id": "2012-chaos-dragon",
     "year": 2012,
     "targetName": "Chaos Dragon",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 29,
+    "sourceCount": 212,
     "deckCount": 0,
     "searchQueries": [
       "2012 Chaos Dragon yugioh decklist",
@@ -1611,7 +1435,7 @@
     "targetName": "Hero Beat",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 3,
+    "sourceCount": 6,
     "deckCount": 0,
     "searchQueries": [
       "2012 Hero Beat yugioh decklist",
@@ -1672,12 +1496,34 @@
     }
   },
   {
+    "id": "2017-pendulum-magician",
+    "year": 2017,
+    "targetName": "Pendulum Magician",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2017 Pendulum Magician yugioh decklist",
+      "2017 Pendulum Magician YCS deck profile",
+      "2017 Pendulum Magician yugioh top deck",
+      "Pendulum Magician 2017 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2017%20Pendulum%20Magician%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2017%20Pendulum%20Magician"
+    }
+  },
+  {
     "id": "2018-thunder-dragon",
     "year": 2018,
     "targetName": "Thunder Dragon",
     "populationStatus": "source-registered",
     "priority": 2,
-    "sourceCount": 1,
+    "sourceCount": 6,
     "deckCount": 0,
     "searchQueries": [
       "2018 Thunder Dragon yugioh decklist",

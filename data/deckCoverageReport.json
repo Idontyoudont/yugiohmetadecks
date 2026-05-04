@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-04T19:37:06.911Z",
+  "generatedAt": "2026-05-04T19:44:18.308Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 27,
-  "missingTargetSlots": 78,
-  "totalKnownDecks": 43,
+  "filledTargetSlots": 34,
+  "missingTargetSlots": 71,
+  "totalKnownDecks": 61,
   "years": [
     {
       "year": 2005,
@@ -144,11 +144,11 @@
       "year": 2007,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 2,
+      "filledTargetCount": 2,
+      "missingTargetCount": 3,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 2,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -177,8 +177,17 @@
         },
         {
           "targetName": "Zombie",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "zombie-2007",
+              "name": "Zombie 2007",
+              "year": 2007,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Crystal Beast",
@@ -202,6 +211,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "zombie-2007",
+          "name": "Zombie 2007",
+          "year": 2007,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -211,9 +228,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 1,
       "missingTargetCount": 4,
-      "knownDeckCount": 1,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -259,6 +276,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "beast-2008",
+          "name": "Beast 2008",
+          "year": 2008,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -266,17 +291,26 @@
       "year": 2009,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 1,
+      "filledTargetCount": 3,
+      "missingTargetCount": 2,
+      "knownDeckCount": 4,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 4,
       "sampleDeckCount": 0,
       "targets": [
         {
           "targetName": "Blackwing",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "blackwing-2009",
+              "name": "Blackwing 2009",
+              "year": 2009,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Lightsworn",
@@ -304,14 +338,47 @@
         },
         {
           "targetName": "Twilight",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "twilight-dragon-2009",
+              "name": "Twilight Dragon 2009",
+              "year": 2009,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
         {
           "id": "lightsworn-2009",
           "name": "Lightsworn 2009",
+          "year": 2009,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "blackwing-2009",
+          "name": "Blackwing 2009",
+          "year": 2009,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "beast-2009",
+          "name": "Beast 2009",
+          "year": 2009,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "twilight-dragon-2009",
+          "name": "Twilight Dragon 2009",
           "year": 2009,
           "format": "Imported Format",
           "status": "draft",
@@ -323,22 +390,40 @@
       "year": 2010,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 3,
+      "filledTargetCount": 4,
+      "missingTargetCount": 1,
+      "knownDeckCount": 9,
       "completeDeckCount": 0,
-      "draftDeckCount": 3,
+      "draftDeckCount": 9,
       "sampleDeckCount": 0,
       "targets": [
         {
           "targetName": "Blackwing",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "blackwing-2010",
+              "name": "Blackwing 2010",
+              "year": 2010,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "X-Saber",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "x-saber-2010",
+              "name": "X-Saber 2010",
+              "year": 2010,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Frog Monarch",
@@ -347,8 +432,17 @@
         },
         {
           "targetName": "Quickdraw Dandywarrior",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "quickdraw-dandywarrior-2010",
+              "name": "Quickdraw Dandywarrior 2010",
+              "year": 2010,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Infernity",
@@ -385,6 +479,54 @@
         {
           "id": "monarch-2010",
           "name": "Monarch 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "blackwing-2010",
+          "name": "Blackwing 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "x-saber-2010",
+          "name": "X-Saber 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "lightsworn-2010",
+          "name": "Lightsworn 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "junk-2010",
+          "name": "Junk 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "warrior-2010",
+          "name": "Warrior 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "quickdraw-dandywarrior-2010",
+          "name": "Quickdraw Dandywarrior 2010",
           "year": 2010,
           "format": "Imported Format",
           "status": "draft",
@@ -496,9 +638,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 3,
       "missingTargetCount": 2,
-      "knownDeckCount": 6,
+      "knownDeckCount": 10,
       "completeDeckCount": 0,
-      "draftDeckCount": 6,
+      "draftDeckCount": 10,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -598,6 +740,38 @@
         {
           "id": "elemental-2012",
           "name": "Elemental 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "chaos-2012",
+          "name": "Chaos 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "black-2012",
+          "name": "Black 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "djinn-2012",
+          "name": "Djinn 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "lightsworn-2012",
+          "name": "Lightsworn 2012",
           "year": 2012,
           "format": "Imported Format",
           "status": "draft",
@@ -1015,11 +1189,11 @@
       "year": 2016,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 2,
+      "filledTargetCount": 2,
+      "missingTargetCount": 3,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 2,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -1053,8 +1227,17 @@
         },
         {
           "targetName": "Blue-Eyes",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "blue-eyes-2016",
+              "name": "Blue-Eyes 2016",
+              "year": 2016,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
@@ -1073,6 +1256,14 @@
           "format": "Imported Format",
           "status": "draft",
           "sourceType": "imported"
+        },
+        {
+          "id": "blue-eyes-2016",
+          "name": "Blue-Eyes 2016",
+          "year": 2016,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -1082,9 +1273,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -1113,7 +1304,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "magician-2017",
+          "name": "Magician 2017",
+          "year": 2017,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2018,
@@ -1121,9 +1321,9 @@
       "configuredTargetCount": 5,
       "filledTargetCount": 0,
       "missingTargetCount": 5,
-      "knownDeckCount": 1,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -1156,6 +1356,14 @@
         {
           "id": "hunder-2018",
           "name": "Hunder 2018",
+          "year": 2018,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "thunder-2018",
+          "name": "Thunder 2018",
           "year": 2018,
           "format": "Imported Format",
           "status": "draft",

@@ -2443,3 +2443,1133 @@ Side Deck
 2 Twister
 2 Shadow-Imprisoning Mirror
 3 Xing Zhen Hu
+
+---
+
+Deck: Zombie 2007
+Year: 2007
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1494 - Regional - San Jose California (Nov 2013) - Nov 2013
+Player: Gustavo Hernandez
+Deck Type: Zombie
+Source URL: https://www.yugiohtopdecks.org/deck/1494
+
+Main Deck
+1 Armageddon Knight
+2 Card Trooper
+1 Dark Armed Dragon
+3 Destiny HERO - Malicious
+1 Effect Veiler
+3 Goblin Zombie
+2 Maxx "C"
+2 Mezuki
+2 Plaguespreader Zombie
+1 Spirit Reaper
+1 Zombie Master
+1 Book of Life
+1 Burial from a Different Dimension
+1 Dark Hole
+1 Foolish Burial
+3 Pot of Duality
+1 Bottomless Trap Hole
+2 Fiendish Chain
+2 Phoenix Wing Wind Blast
+1 Return from the Different Dimension
+1 Sixth Sense
+1 Solemn Warning
+1 Torrential Tribute
+1 Trap Stun
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Constellar Ptolemy M7
+1 Crimson Blader
+1 Daigusto Phoenix
+1 Dark End Dragon
+1 Infernity Doom Dragon
+2 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Orient Dragon
+1 Revived King Ha Des
+1 Scrap Dragon
+1 Stardust Dragon
+1 Void Ogre Dragon
+1 Gem-Knight Pearl
+
+Side Deck
+1 Snipe Hunter
+2 Vanity's Fiend
+3 DNA Surgery
+2 Gozen Match
+3 Imperial Iron Wall
+2 Royal Royal Decree
+1 Soul Drain
+
+---
+
+Deck: Beast 2008
+Year: 2008
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1653 - Regional - Seattle Washington (Jun 2013) - Jun 2013
+Player: ???
+Deck Type: Beast
+Source URL: https://www.yugiohtopdecks.org/deck/1653
+
+Main Deck
+3 Blaster, Dragon Ruler of Infernos
+2 Burner, Dragon Ruler of Sparks
+2 Effect Veiler
+1 Gladiator Beast Bestiari
+1 Gladiator Beast Darius
+1 Gladiator Beast Laquari
+1 Gladiator Beast Murmillo
+2 Lightning, Dragon Ruler of Drafts
+2 Maxx "C"
+2 Reactan, Dragon Ruler of Pebbles
+3 Redox, Dragon Ruler of Boulders
+2 Stream, Dragon Ruler of Droplets
+3 Tempest, Dragon Ruler of Storms
+3 Tidal, Dragon Ruler of Waterfalls
+1 Book of Moon
+1 Card Destruction
+1 Dark Hole
+3 Gold Sarcophagus
+1 Heavy Storm
+1 Monster Reborn
+3 Super Rejuvenation
+2 Breakthrough Skill
+
+Extra Deck
+1 Armory Arm
+1 Black Rose Dragon
+1 Chimeratech Fortress Dragon
+1 Colossal Fighter
+1 Crimson Blader
+1 Gaia Dragon, the Thunder Charger
+1 Gladiator Beast Gyzarus
+1 Maestroke the Symphony Djinn
+2 Mecha Phantom Beast Dracossack
+1 Mermail Abyssgaios
+1 Number 11: Big Eye
+1 Red Dragon Archfiend
+1 Scrap Dragon
+1 Thought Ruler Archfiend
+
+Side Deck
+1 Cyber Dragon
+2 Droll & Lock Bird
+1 Effect Veiler
+2 Kycoo the Ghost Destroyer
+1 Maxx "C"
+1 Tsukuyomi
+2 Vanity's Fiend
+2 Mystical Space Typhoon
+3 Eradicator Epidemic Virus
+
+---
+
+Deck: Blackwing 2009
+Year: 2009
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2457 - 2009 SJ Orlando (Sep 2009) - Sep 2009
+Player: Rodrigo Togores
+Deck Type: Blackwing
+Source URL: https://www.yugiohtopdecks.org/deck/2457
+
+Main Deck
+2 Blackwing - Blizzard the Far North
+3 Blackwing - Bora the Spear
+1 Blackwing - Gale the Whirlwind
+3 Blackwing - Kalut the Moon Shadow
+3 Blackwing - Shura the Blue Flame
+3 Blackwing - Sirocco the Dawn
+2 Blackwing - Vayu the Emblem of Honor
+1 Dark Armed Dragon
+2 Dark Grepher
+1 Plaguespreader Zombie
+2 Allure of Darkness
+3 Black Whirlwind
+3 Book of Moon
+1 Brain Control
+1 Giant Trunade
+1 Heavy Storm
+1 Mystical Space Typhoon
+2 Bottomless Trap Hole
+1 Call of the Haunted
+2 Icarus Attack
+1 Mirror Force
+2 Royal Oppression
+1 Torrential Tribute
+
+Extra Deck
+1 Black Rose Dragon
+3 Blackwing Armed Wing
+3 Blackwing Armor Master
+1 Colossal Fighter
+1 Dark End Dragon
+1 Goyo Guardian
+2 Magical Android
+2 Stardust Dragon
+1 Thought Ruler Archfiend
+
+Side Deck
+2 D.D. Crow
+2 Doomcaliber Knight
+1 Snipe Hunter
+1 Lightning Vortex
+1 Delta Crow - Anti Reverse
+3 Light-Imprisoning Mirror
+2 Mind Crush
+2 Royal Royal Decree
+1 Royal Oppression
+
+---
+
+Deck: Beast 2009
+Year: 2009
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2354 - 2010 Championship Series - Indianapolis (Aug 2010) - Aug 2010
+Player: Daniel LaMartina
+Deck Type: Beast
+Source URL: https://www.yugiohtopdecks.org/deck/2354
+
+Main Deck
+1 Gladiator Beast Bestiari
+1 Gladiator Beast Darius
+2 Gladiator Beast Equeste
+1 Gladiator Beast Hoplomus
+2 Gladiator Beast Laquari
+1 Gladiator Beast Murmillo
+1 Gladiator Beast Retiari
+2 Gladiator Beast Samnite
+1 Gladiator Beast Secutor
+1 Rescue Cat
+3 Test Tiger
+2 Thunder King Rai-Oh
+3 Book of Moon
+1 Cold Wave
+1 Enemy Controller
+3 Gladiator Beast's Respite
+1 Heavy Storm
+1 Mystical Space Typhoon
+2 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+1 Dimensional Prison
+1 Dust Tornado
+3 Gladiator Beast War Chariot
+1 Solemn Judgment
+1 Starlight Road
+1 Torrential Tribute
+1 Trap Dustshoot
+1 Trap Stun
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+1 Chimeratech Fortress Dragon
+1 Colossal Fighter
+3 Gladiator Beast Gyzarus
+2 Gladiator Beast Heraklinos
+1 Goyo Guardian
+1 Naturia Beast
+1 Red Dragon Archfiend
+2 Stardust Dragon
+
+Side Deck
+2 Consecrated Light
+2 Cyber Dragon
+1 Spirit Reaper
+1 Brain Control
+3 Dimensional Fissure
+1 Enemy Controller
+1 Smashing Ground
+1 Dimensional Prison
+1 Mind Crush
+1 Starlight Road
+1 Trap Stun
+
+---
+
+Deck: Twilight Dragon 2009
+Year: 2009
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1924 - 2012 YCS Toulouse (Apr 2012) - Apr 2012
+Player: Peter Gross
+Deck Type: Twilight Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/1924
+
+Main Deck
+1 Black Luster Soldier - Envoy of the Beginning
+2 Card Trooper
+3 Chaos Sorcerer
+1 Dark Armed Dragon
+3 Darkflare Dragon
+3 Eclipse Wyvern
+1 Gorz the Emissary of Darkness
+3 Lightpulsar Dragon
+3 Lyla, Lightsworn Sorceress
+2 Red-Eyes Darkness Metal Dragon
+3 Ryko, Lightsworn Hunter
+1 Sangan
+3 Thunder King Rai-Oh
+3 Tour Guide From the Underworld
+1 Allure of Darkness
+1 Charge of the Light Brigade
+1 Dark Hole
+1 Heavy Storm
+1 Monster Reborn
+3 Solar Recharge
+
+Extra Deck
+1 Armory Arm
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+1 Chimeratech Fortress Dragon
+1 Inzektor Exa-Beetle
+1 Leviair the Sea Dragon
+1 Magical Android
+1 Number 17: Leviathan Dragon
+1 Number 20: Giga-Brilliant
+1 Number 39: Utopia
+1 Number C39: Utopia Ray
+1 Scrap Dragon
+1 Tiras, Keeper of Genesis
+1 Wind-Up Arsenal Zenmaioh
+1 Wind-Up Zenmaines
+
+Side Deck
+3 D.D. Crow
+3 Effect Veiler
+2 Electric Virus
+3 Maxx "C"
+1 Book of Moon
+3 Mystical Space Typhoon
+
+---
+
+Deck: Blackwing 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1080 - Regional - Lenexa Kansas (May 2014) - May 2014
+Player: Duelist Unknown
+Deck Type: Blackwing
+Source URL: https://www.yugiohtopdecks.org/deck/1080
+
+Main Deck
+2 Blackwing - Blizzard the Far North
+3 Blackwing - Bora the Spear
+1 Blackwing - Gale the Whirlwind
+3 Blackwing - Kalut the Moon Shadow
+1 Blackwing - Kochi the Daybreak
+3 Blackwing - Shura the Blue Flame
+2 Blackwing - Sirocco the Dawn
+1 Blackwing - Zephyros the Elite
+1 Dark Armed Dragon
+1 Allure of Darkness
+3 Black Whirlwind
+1 Book of Moon
+3 Pot of Duality
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+1 Deck Devastation Virus
+1 Delta Crow - Anti Reverse
+2 Dimensional Prison
+2 Fiendish Chain
+3 Icarus Attack
+1 Solemn Warning
+1 Torrential Tribute
+3 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Blackwing Armed Wing
+1 Blackwing Armor Master
+1 Crimson Blader
+1 Gagaga Cowboy
+1 Ice Beast Zerofyne
+1 Maestroke the Symphony Djinn
+1 Magical Android
+1 Number 66: Master Key Beetle
+1 Orient Dragon
+1 Scrap Dragon
+1 Stardust Dragon
+1 Thought Ruler Archfiend
+
+Side Deck
+2 D.D. Crow
+2 Maxx "C"
+1 Neo-Spacian Grand Mole
+1 Thunder King Rai-Oh
+2 Smashing Ground
+1 Deck Devastation Virus
+1 Delta Crow - Anti Reverse
+1 Eradicator Epidemic Virus
+2 Light-Imprisoning Mirror
+1 Soul Drain
+1 The Transmigration Prophecy
+
+---
+
+Deck: X-Saber 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2285 - 2010 United States WCQ (Jul 2010) - Jul 2010
+Player: Jay Hornung
+Deck Type: X-Saber
+Source URL: https://www.yugiohtopdecks.org/deck/2285
+
+Main Deck
+3 Battle Fader
+3 Caius the Shadow Monarch
+1 Dark Dust Spirit
+2 D.D. Crow
+1 Dupe Frog
+1 Gorz the Emissary of Darkness
+3 Light and Darkness Dragon
+3 Raiza the Storm Monarch
+1 Ronintoadin
+3 Substitoad
+3 Swap Frog
+2 Treeborn Frog
+3 Vanity's Fiend
+1 Brain Control
+1 Cold Wave
+2 Enemy Controller
+1 Heavy Storm
+1 Mystical Space Typhoon
+3 Soul Exchange
+2 Raigeki Break
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Armory Arm
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+1 Chimeratech Fortress Dragon
+1 Colossal Fighter
+1 Goyo Guardian
+1 Magical Android
+1 Mist Wurm
+1 Red Dragon Archfiend
+1 Stardust Dragon
+1 Thought Ruler Archfiend
+1 X-Saber Urbellum
+1 XX-Saber Gottoms
+1 XX-Saber Hyunlei
+
+Side Deck
+3 Consecrated Light
+3 Goldd, Wu-Lord of Dark World
+1 Burial from a Different Dimension
+2 Crevice Into the Different Dimension
+2 Divine Wrath
+2 Dust Tornado
+2 Gottoms' Emergency Call
+
+---
+
+Deck: Lightsworn 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2307 - 2010 SJ Edison (Apr 2010) - Apr 2010
+Player: Jarel Winston
+Deck Type: Lightsworn
+Source URL: https://www.yugiohtopdecks.org/deck/2307
+
+Main Deck
+1 Blackwing - Gale the Whirlwind
+3 Caius the Shadow Monarch
+1 Card Trooper
+2 Cyber Dragon
+2 Dandylion
+1 Debris Dragon
+1 Gorz the Emissary of Darkness
+2 Jain, Lightsworn Paladin
+2 Lyla, Lightsworn Sorceress
+3 Ryko, Lightsworn Hunter
+1 Sangan
+2 Super-Nimble Mega Hamster
+2 Thestalos the Firestorm Monarch
+1 Treeborn Frog
+2 Book of Moon
+1 Brain Control
+1 Heavy Storm
+1 Mystical Space Typhoon
+3 Pot of Avarice
+2 Solar Recharge
+2 Bottomless Trap Hole
+2 Dimensional Prison
+1 Mirror Force
+2 Phoenix Wing Wind Blast
+1 Torrential Tribute
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Ancient Fairy Dragon
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+2 Chimeratech Fortress Dragon
+1 Colossal Fighter
+1 Goyo Guardian
+1 Magical Android
+1 Mist Wurm
+1 Red Dragon Archfiend
+2 Stardust Dragon
+1 Thought Ruler Archfiend
+1 Zeman the Ape King
+
+Side Deck
+2 Consecrated Light
+2 D.D. Crow
+2 Legendary Jujitsu Master
+1 Prohibition
+1 Soul Exchange
+3 Dust Tornado
+2 Royal Oppression
+2 Trap Hole
+
+---
+
+Deck: Junk 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2408 - 2010 Championship Series - Chicago (Jun 2010) - Jun 2010
+Player: Ben Haynes
+Deck Type: Junk
+Source URL: https://www.yugiohtopdecks.org/deck/2408
+
+Main Deck
+3 Battle Fader
+3 Caius the Shadow Monarch
+2 Dupe Frog
+1 Gorz the Emissary of Darkness
+1 Junk Synchron
+3 Light and Darkness Dragon
+1 Obelisk the Tormentor
+3 Raiza the Storm Monarch
+1 Ronintoadin
+3 Substitoad
+3 Swap Frog
+2 Thestalos the Firestorm Monarch
+1 Tragoedia
+2 Treeborn Frog
+1 Brain Control
+1 Cold Wave
+1 Creature Swap
+3 Enemy Controller
+1 Heavy Storm
+1 Mystical Space Typhoon
+3 Soul Exchange
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Armory Arm
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+2 Chimeratech Fortress Dragon
+1 Colossal Fighter
+1 Goyo Guardian
+1 Junk Archer
+1 Junk Destroyer
+1 Junk Warrior
+1 Magical Android
+1 Mist Wurm
+1 Stardust Dragon
+1 Thought Ruler Archfiend
+
+Side Deck
+2 Cyber Dragon
+3 D.D. Crow
+1 Phantom Dragon
+1 Lightning Vortex
+2 Crevice Into the Different Dimension
+2 Divine Wrath
+3 Dust Tornado
+1 Gottoms' Emergency Call
+
+---
+
+Deck: Warrior 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2302 - 2010 SJ Edison (Apr 2010) - Apr 2010
+Player: Jeff Jones
+Deck Type: Warrior
+Source URL: https://www.yugiohtopdecks.org/deck/2302
+
+Main Deck
+2 Caius the Shadow Monarch
+1 Card Trooper
+2 Dandylion
+2 Debris Dragon
+1 Light and Darkness Dragon
+2 Lonefire Blossom
+1 Morphing Jar
+1 Night Assailant
+2 Quickdraw Synchron
+3 Ryko, Lightsworn Hunter
+1 Sangan
+2 Super-Nimble Mega Hamster
+1 Tytannial, Princess of Camellias
+2 Book of Moon
+1 Brain Control
+1 Foolish Burial
+1 Heavy Storm
+1 Mystical Space Typhoon
+3 Pot of Avarice
+2 Bottomless Trap Hole
+1 Call of the Haunted
+2 Dimensional Prison
+2 Dust Tornado
+1 Mirror Force
+1 Solemn Judgment
+1 Starlight Road
+1 Torrential Tribute
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Ancient Fairy Dragon
+1 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+2 Drill Warrior
+2 Iron Chain Dragon
+1 Junk Archer
+1 Nitro Warrior
+1 Red Dragon Archfiend
+3 Stardust Dragon
+1 Turbo Warrior
+
+Side Deck
+2 Consecrated Light
+2 D.D. Crow
+2 My Body as a Shield
+2 System Down
+2 Gottoms' Emergency Call
+2 Pulling the Rug
+2 Swallow Flip
+1 Trap Hole
+
+---
+
+Deck: Quickdraw Dandywarrior 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 2343 - 2010 Championship Series - Philadelphia (Oct 2010) - Oct 2010
+Player: Kenny Kwan
+Deck Type: Quickdraw Dandywarrior
+Source URL: https://www.yugiohtopdecks.org/deck/2343
+
+Main Deck
+3 Caius the Shadow Monarch
+1 Card Trooper
+2 Dandylion
+3 Debris Dragon
+1 Effect Veiler
+2 Lonefire Blossom
+2 Quickdraw Synchron
+3 Ryko, Lightsworn Hunter
+1 Sangan
+1 Spore
+1 Super-Nimble Mega Hamster
+1 Tytannial, Princess of Camellias
+2 Book of Moon
+1 Dark Hole
+1 Foolish Burial
+1 Monster Reborn
+1 Mystical Space Typhoon
+2 Pot of Avarice
+2 Pot of Duality
+2 Bottomless Trap Hole
+1 Mirror Force
+1 Seven Tools of the Bandit
+1 Solemn Judgment
+2 Solemn Warning
+1 Torrential Tribute
+1 Trap Stun
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Armory Arm
+2 Black Rose Dragon
+1 Brionac, Dragon of the Ice Barrier
+1 Chimeratech Fortress Dragon
+1 Colossal Fighter
+1 Drill Warrior
+1 Goyo Guardian
+1 Iron Chain Dragon
+1 Junk Destroyer
+1 Red Dragon Archfiend
+1 Scrap Dragon
+2 Stardust Dragon
+
+Side Deck
+2 Cyber Dragon
+2 Doomcaliber Knight
+1 Effect Veiler
+2 Thunder King Rai-Oh
+1 My Body as a Shield
+1 Mystical Space Typhoon
+2 Nobleman of Crossout
+1 Royal Oppression
+1 Seven Tools of the Bandit
+2 Trap Hole
+
+---
+
+Deck: Chaos 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1370 - Regional - Columbus Ohio (Apr 2013) - Apr 2013
+Player: Jeremy Ottery (sp?)
+Deck Type: Chaos
+Source URL: https://www.yugiohtopdecks.org/deck/1370
+
+Main Deck
+2 Archlord Kristya
+1 Black Luster Soldier - Envoy of the Beginning
+2 Cardcar D
+2 Card Trooper
+1 Chaos Sorcerer
+1 Genex Ally Birdman
+1 Gorz the Emissary of Darkness
+3 Herald of Orange Light
+1 Honest
+3 Master Hyperion
+3 Maxx "C"
+3 Mystical Shine Ball
+3 The Agent of Creation - Venus
+2 The Agent of Mystery - Earth
+2 Tragoedia
+1 Dark Hole
+1 Heavy Storm
+1 Mind Control
+1 Monster Reborn
+3 Mystical Space Typhoon
+3 Call of the Haunted
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Armory Arm
+1 Black Rose Dragon
+1 Crimson Blader
+1 Daigusto Phoenix
+1 Gachi Gachi Gantetsu
+1 Leviair the Sea Dragon
+1 Number 17: Leviathan Dragon
+1 Number 30: Acid Golem of Destruction
+1 Number 96: Dark Mist
+1 Scrap Dragon
+1 Stardust Dragon
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+1 Gaia Knight, the Force of Earth
+
+Side Deck
+1 D.D. Crow
+2 Gemini Imps
+2 Kycoo the Ghost Destroyer
+2 Ryko, Lightsworn Hunter
+2 Forbidden Dress
+2 Soul Taker
+1 System Down
+1 Dust Tornado
+2 Royal Royal Decree
+
+---
+
+Deck: Black 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1717 - National Championship - Argentina (Jun 2014) - Jun 2014
+Player: Luciano Soto
+Deck Type: Black
+Source URL: https://www.yugiohtopdecks.org/deck/1717
+
+Main Deck
+2 Black Dragon Collapserpent
+1 Black Luster Soldier - Envoy of the Beginning
+2 Chaos Sorcerer
+1 Dark Armed Dragon
+3 Darkflare Dragon
+2 Eclipse Wyvern
+2 Ghostrick Jackfrost
+1 Honest
+1 Labradorite Dragon
+3 Lightpulsar Dragon
+2 Lyla, Lightsworn Sorceress
+1 Night Assailant
+2 Plaguespreader Zombie
+1 Red-Eyes Darkness Metal Dragon
+3 Ryko, Lightsworn Hunter
+3 Tour Guide From the Underworld
+1 White Dragon Wyverburster
+1 Charge of the Light Brigade
+1 Dark Hole
+3 Dragon Shrine
+3 Mystical Space Typhoon
+2 Soul Charge
+
+Extra Deck
+1 Abyss Dweller
+1 Beelze of the Diabolic Dragons
+1 Black Rose Dragon
+1 Constellar Ptolemy M7
+1 Diamond Dire Wolf
+1 Gaia Dragon, the Thunder Charger
+1 Ghostrick Alucard
+1 Hieratic Dragon King of Atum
+1 HTS Psyhemuth
+1 Inzektor Exa-Stag
+1 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Mechquipped Angineer
+1 Number 101: Silent Honor ARK
+1 Number 61: Volcasaurus
+
+Side Deck
+1 Abyss Dweller
+1 Beelze of the Diabolic Dragons
+1 Black Rose Dragon
+1 Constellar Ptolemy M7
+1 Diamond Dire Wolf
+1 Gaia Dragon, the Thunder Charger
+1 Ghostrick Alucard
+1 Hieratic Dragon King of Atum
+1 HTS Psyhemuth
+1 Inzektor Exa-Stag
+1 Lavalval Chain
+1 Leviair the Sea Dragon
+1 Mechquipped Angineer
+1 Number 101: Silent Honor ARK
+1 Number 61: Volcasaurus
+
+---
+
+Deck: Djinn 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1759 - Mesa Arizona Regional Qualifier (Feb 2013) - Feb 2013
+Player: Alec Beer
+Deck Type: Djinn
+Source URL: https://www.yugiohtopdecks.org/deck/1759
+
+Main Deck
+1 Black Luster Soldier - Envoy of the Beginning
+2 Card Trooper
+1 Chaos Sorcerer
+1 Dark Armed Dragon
+3 Darkflare Dragon
+1 Eclipse Wyvern
+2 Effect Veiler
+1 Gorz the Emissary of Darkness
+3 Lightpulsar Dragon
+3 Lyla, Lightsworn Sorceress
+2 Maxx "C"
+1 Night Assailant
+1 Red-Eyes Darkness Metal Dragon
+2 Ryko, Lightsworn Hunter
+1 Sangan
+2 Tour Guide From the Underworld
+2 Tragoedia
+1 Allure of Darkness
+1 Charge of the Light Brigade
+1 Dark Hole
+2 Forbidden Lance
+1 Heavy Storm
+1 Monster Reborn
+2 Mystical Space Typhoon
+2 Solar Recharge
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Gaia Dragon, the Thunder Charger
+1 Hieratic Dragon King of Atum
+1 Inzektor Exa-Beetle
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 20: Giga-Brilliant
+1 Number 50: Blackship of Corn
+1 Photon Strike Bounzer
+1 Queen Dragun Djinn
+1 Superdreadnought Rail Cannon Gustav Max
+1 Temtempo the Percussion Djinn
+1 Wind-Up Arsenal Zenmaioh
+1 Wind-Up Zenmaines
+
+Side Deck
+2 Electric Virus
+1 Snowman Eater
+2 Thunder King Rai-Oh
+1 Mystical Space Typhoon
+2 Soul Taker
+2 Bottomless Trap Hole
+1 Deck Devastation Virus
+2 Royal Royal Decree
+2 Threatening Roar
+
+---
+
+Deck: Lightsworn 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1980 - 2012 YCS Seattle (Nov 2012) - Nov 2012
+Player: Justin Delhon
+Deck Type: Lightsworn
+Source URL: https://www.yugiohtopdecks.org/deck/1980
+
+Main Deck
+1 Black Luster Soldier - Envoy of the Beginning
+2 Card Trooper
+1 Chaos Sorcerer
+1 Dark Armed Dragon
+3 Darkflare Dragon
+2 Effect Veiler
+1 Ehren, Lightsworn Monk
+1 Gorz the Emissary of Darkness
+3 Lightpulsar Dragon
+2 Lyla, Lightsworn Sorceress
+3 Maxx "C"
+1 Night Assailant
+1 Red-Eyes Darkness Metal Dragon
+3 Ryko, Lightsworn Hunter
+1 Sangan
+2 Tour Guide From the Underworld
+2 Tragoedia
+1 Allure of Darkness
+1 Charge of the Light Brigade
+1 Dark Hole
+1 Heavy Storm
+1 Monster Reborn
+3 Mystical Space Typhoon
+3 Solar Recharge
+
+Extra Deck
+1 Abyss Dweller
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Gaia Dragon, the Thunder Charger
+1 Hieratic Dragon King of Atum
+1 Inzektor Exa-Beetle
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 25: Force Focus
+1 Photon Strike Bounzer
+1 Queen Dragun Djinn
+1 Stardust Dragon
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+
+Side Deck
+2 D.D. Crow
+1 Electric Virus
+2 Thunder King Rai-Oh
+1 Nobleman of Crossout
+2 Prohibition
+1 Chain Disappearance
+2 Dust Tornado
+1 Mirror Force
+3 Royal Royal Decree
+
+---
+
+Deck: Blue-Eyes 2016
+Year: 2016
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1245 - Regional - Buenos Aires Argentina (Jan 2014) - Jan 2014
+Player: Matias Lopez
+Deck Type: Blue-Eyes
+Source URL: https://www.yugiohtopdecks.org/deck/1245
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+3 Blue-Eyes White Dragon
+1 Debris Dragon
+1 Dragunity Corsesca
+3 Flamvell Guard
+1 Kidmodo Dragon
+2 Mythic Tree Dragon
+2 Mythic Water Dragon
+1 Red-Eyes Darkness Metal Dragon
+1 Redox, Dragon Ruler of Boulders
+1 Tempest, Dragon Ruler of Storms
+2 The White Stone of Legend
+1 Tidal, Dragon Ruler of Waterfalls
+1 A Wingbeat of Giant Dragon
+3 Cards of Consonance
+2 D.D.R. - Different Dimension Reincarnation
+3 Dragon Shrine
+1 Gold Sarcophagus
+1 Sacred Sword of Seven Stars
+3 Trade-In
+2 Dragoncarnation
+1 Mirror Force
+3 Reckless Greed
+1 Torrential Tribute
+
+Extra Deck
+1 Black Rose Dragon
+1 Colossal Fighter
+1 Crimson Blader
+2 Divine Dragon Knight Felgrand
+1 Hieratic Sun Dragon Overlord of Heliopolis
+3 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Number 46: Dragluon
+1 Queen Dragun Djinn
+1 Scrap Dragon
+1 Stardust Dragon
+1 Star Eater
+
+Side Deck
+1 Fossil Dyna Pachycephalo
+2 Maxx "C"
+1 Metaion, the Timelord
+1 Lightning Vortex
+2 Mystical Space Typhoon
+1 Debunk
+1 DNA Surgery
+1 Malevolent Catastrophe
+2 Mind Crush
+1 Overworked
+1 Royal Royal Decree
+1 Skill Drain
+
+---
+
+Deck: Magician 2017
+Year: 2017
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1362 - Regional - Brooklyn New York (Apr 2013) - Apr 2013
+Player: Glang Nguyen
+Deck Type: Magician
+Source URL: https://www.yugiohtopdecks.org/deck/1362
+
+Main Deck
+2 Effect Veiler
+3 High Priestess of Prophecy
+1 Jain, Lightsworn Paladin
+1 Justice of Prophecy
+2 Lyla, Lightsworn Sorceress
+2 Maxx "C"
+3 Spellbook Magician of Prophecy
+2 Temperance of Prophecy
+1 Charge of the Light Brigade
+1 Dark Hole
+1 Heavy Storm
+2 Spellbook of Eternity
+2 Spellbook of Fate
+2 Spellbook of Life
+2 Spellbook of Power
+3 Spellbook of Secrets
+2 Spellbook of the Master
+2 Spellbook of Wisdom
+2 The Grand Spellbook Tower
+1 Mind Crush
+2 Raigeki Break
+1 Solemn Judgment
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Ancient Sacred Wyvern
+1 Arcanite Magician
+1 Armory Arm
+1 Black Rose Dragon
+1 Crimson Blader
+1 Daigusto Phoenix
+1 Gachi Gachi Gantetsu
+1 Gaia Dragon, the Thunder Charger
+1 Number 11: Big Eye
+1 Scrap Dragon
+1 Slacker Magician
+1 Stardust Dragon
+1 Tempest Magician
+1 T.G. Hyper Librarian
+
+Side Deck
+1 D.D. Crow
+2 Droll & Lock Bird
+1 Effect Veiler
+3 Gemini Imps
+1 Kycoo the Ghost Destroyer
+2 Dimensional Fissure
+2 Mystical Space Typhoon
+2 Rivalry of Warlords
+1 Soul Drain
+
+---
+
+Deck: Thunder 2018
+Year: 2018
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1270 - Regional - Vina Del Mar Chile (Jan 2014) - Jan 2014
+Player: Jose Castillo
+Deck Type: Thunder
+Source URL: https://www.yugiohtopdecks.org/deck/1270
+
+Main Deck
+1 Honest
+3 Mahunder
+3 Pahunder
+2 Sishunder
+3 Thunder Sea Horse
+2 Vylon Prism
+1 Book of Moon
+1 Dark Hole
+2 Forbidden Lance
+3 Mystical Space Typhoon
+3 Pot of Duality
+3 Recycling Batteries
+1 Bottomless Trap Hole
+1 Compulsory Evacuation Device
+3 Fiendish Chain
+2 Mirror Force
+1 Seven Tools of the Bandit
+1 Solemn Warning
+1 Torrential Tribute
+3 Trap Stun
+
+Extra Deck
+1 Abyss Dweller
+1 Colossal Fighter
+2 Constellar Omega
+1 Constellar Ptolemy M7
+1 Crimson Blader
+1 Diamond Dire Wolf
+1 Evilswarm Bahamut
+1 Gagaga Cowboy
+1 Maestroke the Symphony Djinn
+1 Number 50: Blackship of Corn
+1 Scrap Dragon
+1 Stardust Dragon
+1 Starliege Paladynamo
+
+Side Deck
+3 Maxx "C"
+2 The Calibrator
+3 Nobleman of Crossout
+3 Smashing Ground
+3 Overworked
+1 Soul Drain
