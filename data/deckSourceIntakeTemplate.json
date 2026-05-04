@@ -1,0 +1,414 @@
+{
+  "instructions": [
+    "Fill label and url for each source you want to register.",
+    "Set sourceType to one of: blog, event-archive, official-event-coverage, format-reference, deck-database, video, other.",
+    "Set parseStatus to parseable if the page contains visible plain decklist lines like '3 Card Name'.",
+    "Set parseStatus to reference-only if the page only confirms the archetype/event but does not contain a card list.",
+    "After editing, copy wanted entries into data/deckSourceIntake.json under the sources array.",
+    "Then run: node scripts/mergeDeckSourceIntake.mjs"
+  ],
+  "generatedAt": "2026-05-04T18:25:25.156Z",
+  "limit": 20,
+  "sources": [
+    {
+      "year": 2005,
+      "target": "Burn",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Burn",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2005 Burn yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2005%20Burn%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2005%20Burn%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Burn"
+      }
+    },
+    {
+      "year": 2005,
+      "target": "Chaos Turbo",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Chaos Turbo",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2005 Chaos Turbo yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2005%20Chaos%20Turbo%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Chaos%20Turbo"
+      }
+    },
+    {
+      "year": 2005,
+      "target": "Reasoning Gate",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Reasoning Gate",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2005 Reasoning Gate yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2005%20Reasoning%20Gate%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Reasoning%20Gate"
+      }
+    },
+    {
+      "year": 2005,
+      "target": "Warrior Toolbox",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Warrior Toolbox",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2005 Warrior Toolbox yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2005%20Warrior%20Toolbox%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Warrior%20Toolbox"
+      }
+    },
+    {
+      "year": 2006,
+      "target": "Bazoo Return",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Bazoo Return",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2006 Bazoo Return yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2006%20Bazoo%20Return%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Bazoo%20Return"
+      }
+    },
+    {
+      "year": 2006,
+      "target": "Chaos Return",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Chaos Return",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2006 Chaos Return yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Chaos%20Return"
+      }
+    },
+    {
+      "year": 2006,
+      "target": "Gadget",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Gadget",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2006 Gadget yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2006%20Gadget%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Gadget"
+      }
+    },
+    {
+      "year": 2006,
+      "target": "Monarch",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Monarch",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2006 Monarch yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2006%20Monarch%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2006%20Monarch%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Monarch"
+      }
+    },
+    {
+      "year": 2006,
+      "target": "Recruiter Chaos",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Recruiter Chaos",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2006 Recruiter Chaos yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2006%20Recruiter%20Chaos%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Recruiter%20Chaos"
+      }
+    },
+    {
+      "year": 2007,
+      "target": "Crystal Beast",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Crystal Beast",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2007 Crystal Beast yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2007%20Crystal%20Beast%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Crystal%20Beast"
+      }
+    },
+    {
+      "year": 2007,
+      "target": "Demise OTK",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Demise OTK",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2007 Demise OTK yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2007%20Demise%20OTK%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Demise%20OTK"
+      }
+    },
+    {
+      "year": 2007,
+      "target": "Gadget",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Gadget",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2007 Gadget yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2007%20Gadget%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2007%20Gadget%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Gadget"
+      }
+    },
+    {
+      "year": 2007,
+      "target": "Zombie",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Zombie",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2007 Zombie yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2007%20Zombie%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2007%20Zombie%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2007%20Zombie"
+      }
+    },
+    {
+      "year": 2008,
+      "target": "Dark Armed Return",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Dark Armed Return",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2008 Dark Armed Return yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2008%20Dark%20Armed%20Return%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Dark%20Armed%20Return"
+      }
+    },
+    {
+      "year": 2008,
+      "target": "Gladiator Beast",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Gladiator Beast",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2008 Gladiator Beast yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2008%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Gladiator%20Beast"
+      }
+    },
+    {
+      "year": 2008,
+      "target": "Lightsworn",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Lightsworn",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2008 Lightsworn yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2008%20Lightsworn%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Lightsworn"
+      }
+    },
+    {
+      "year": 2008,
+      "target": "Zombie Synchro",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Zombie Synchro",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2008 Zombie Synchro yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2008%20Zombie%20Synchro%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Zombie%20Synchro"
+      }
+    },
+    {
+      "year": 2009,
+      "target": "Cat Synchro",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Cat Synchro",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2009 Cat Synchro yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2009%20Cat%20Synchro%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Cat%20Synchro"
+      }
+    },
+    {
+      "year": 2009,
+      "target": "Gladiator Beast",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Gladiator Beast",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2009 Gladiator Beast yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2009%20Gladiator%20Beast%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Gladiator%20Beast"
+      }
+    },
+    {
+      "year": 2009,
+      "target": "Lightsworn",
+      "status": "source-registered",
+      "sourceType": "deck-database",
+      "parseStatus": "unknown",
+      "label": "",
+      "player": null,
+      "deckType": "Lightsworn",
+      "url": "",
+      "notes": "",
+      "researchHints": {
+        "primarySearchQuery": "2009 Lightsworn yugioh decklist",
+        "googleSearch": "https://www.google.com/search?q=2009%20Lightsworn%20yugioh%20decklist",
+        "yugiohTopDecksSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohtopdecks.org",
+        "konamiCoverageSearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Ayugiohblog.konami.com",
+        "formatLibrarySearch": "https://www.google.com/search?q=2009%20Lightsworn%20site%3Aformatlibrary.com",
+        "ygoprodeckSearch": "https://ygoprodeck.com/?s=2009%20Lightsworn"
+      }
+    }
+  ]
+}
