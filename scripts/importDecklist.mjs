@@ -17,6 +17,8 @@ const reportOutputFilePath = path.join(
   "importedDecks.importReport.json"
 );
 
+const cardTagRulesFilePath = path.join(projectRoot, "data", "cardTagRules.ts");
+
 const validStatuses = new Set(["complete", "sample", "draft"]);
 
 function slugify(value) {
@@ -34,6 +36,15 @@ function escapeString(value) {
 
 function normalizeLine(line) {
   return line.replace(/\r/g, "").trim();
+}
+
+function normalizeCardName(name) {
+  return name
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function normalizeTag(tag) {
@@ -72,6 +83,37 @@ function getSectionName(line) {
   return null;
 }
 
+function parseCardTagRulesFile() {
+  if (!fs.existsSync(cardTagRulesFilePath)) {
+    return new Map();
+  }
+
+  const fileContent = fs.readFileSync(cardTagRulesFilePath, "utf8");
+  const rules = new Map();
+
+  const entryPattern = /(["'])(.*?)\1\s*:\s*\[([\s\S]*?)\]/g;
+  let match;
+
+  while ((match = entryPattern.exec(fileContent)) !== null) {
+    const cardName = match[2];
+    const tagsBlock = match[3];
+
+    const tags = Array.from(tagsBlock.matchAll(/(["'])(.*?)\1/g))
+      .map((tagMatch) => normalizeTag(tagMatch[2]))
+      .filter(Boolean);
+
+    rules.set(normalizeCardName(cardName), tags);
+  }
+
+  return rules;
+}
+
+const automaticTagRules = parseCardTagRulesFile();
+
+function getAutomaticTags(cardName) {
+  return automaticTagRules.get(normalizeCardName(cardName)) ?? [];
+}
+
 function parseCardLine(line) {
   const [cardPart, tagPart] = line.split("|").map((part) => part.trim());
   const match = cardPart.match(/^(\d+)\s+(.+)$/);
@@ -87,17 +129,22 @@ function parseCardLine(line) {
     return null;
   }
 
-  const tags = tagPart
+  const inlineTags = tagPart
     ? tagPart
         .split(",")
         .map(normalizeTag)
         .filter(Boolean)
     : [];
 
+  const automaticTags = getAutomaticTags(name);
+  const tags = mergeTags(automaticTags, inlineTags);
+
   return {
     quantity,
     name,
     tags,
+    automaticTags,
+    inlineTags,
   };
 }
 
@@ -107,12 +154,17 @@ function mergeTags(existingTags, tagsToAdd) {
 
 function addCard(cards, cardToAdd) {
   const existingCard = cards.find(
-    (card) => card.name.toLowerCase() === cardToAdd.name.toLowerCase()
+    (card) => normalizeCardName(card.name) === normalizeCardName(cardToAdd.name)
   );
 
   if (existingCard) {
     existingCard.quantity += cardToAdd.quantity;
     existingCard.tags = mergeTags(existingCard.tags, cardToAdd.tags);
+    existingCard.automaticTags = mergeTags(
+      existingCard.automaticTags,
+      cardToAdd.automaticTags
+    );
+    existingCard.inlineTags = mergeTags(existingCard.inlineTags, cardToAdd.inlineTags);
     return;
   }
 
@@ -120,6 +172,8 @@ function addCard(cards, cardToAdd) {
     name: cardToAdd.name,
     quantity: cardToAdd.quantity,
     tags: cardToAdd.tags,
+    automaticTags: cardToAdd.automaticTags,
+    inlineTags: cardToAdd.inlineTags,
   });
 }
 
@@ -295,6 +349,17 @@ function countTaggedCards(cards) {
   return cards.filter((card) => card.tags && card.tags.length > 0).length;
 }
 
+function countAutomaticTaggedCards(cards) {
+  return cards.filter(
+    (card) => card.automaticTags && card.automaticTags.length > 0
+  ).length;
+}
+
+function countInlineTaggedCards(cards) {
+  return cards.filter((card) => card.inlineTags && card.inlineTags.length > 0)
+    .length;
+}
+
 function getAllTags(deck) {
   const tags = [
     ...deck.mainDeck,
@@ -387,6 +452,14 @@ function buildReport(decks) {
       countTaggedCards(deck.mainDeck) +
       countTaggedCards(deck.extraDeck) +
       countTaggedCards(deck.sideDeck);
+    const automaticTaggedCardCount =
+      countAutomaticTaggedCards(deck.mainDeck) +
+      countAutomaticTaggedCards(deck.extraDeck) +
+      countAutomaticTaggedCards(deck.sideDeck);
+    const inlineTaggedCardCount =
+      countInlineTaggedCards(deck.mainDeck) +
+      countInlineTaggedCards(deck.extraDeck) +
+      countInlineTaggedCards(deck.sideDeck);
     const tags = getAllTags(deck);
     const warnings = buildDeckWarnings(deck, duplicateDeckIds);
 
@@ -401,6 +474,8 @@ function buildReport(decks) {
       sideDeckCount,
       totalCount: mainDeckCount + extraDeckCount + sideDeckCount,
       taggedCardCount,
+      automaticTaggedCardCount,
+      inlineTaggedCardCount,
       tags,
       warningCount: warnings.length,
       warnings,
@@ -412,6 +487,8 @@ function buildReport(decks) {
     generatedAt: new Date().toISOString(),
     inputFile: "data/deckImportRaw.txt",
     outputFile: "data/importedDecks.generated.ts",
+    tagRulesFile: "data/cardTagRules.ts",
+    automaticTagRuleCount: automaticTagRules.size,
     deckCount: decks.length,
     totalWarningCount: deckReports.reduce(
       (total, deck) => total + deck.warningCount,
@@ -428,6 +505,7 @@ function printReport(report) {
   console.log("------------------");
   console.log(`Imported decks: ${report.deckCount}`);
   console.log(`Total warnings: ${report.totalWarningCount}`);
+  console.log(`Automatic tag rules: ${report.automaticTagRuleCount}`);
 
   if (report.duplicateDeckIds.length > 0) {
     console.log("");
@@ -449,6 +527,8 @@ function printReport(report) {
     console.log(`   Side Deck: ${deck.sideDeckCount} cards`);
     console.log(`   Total: ${deck.totalCount} cards`);
     console.log(`   Tagged cards: ${deck.taggedCardCount}`);
+    console.log(`   Automatic tagged cards: ${deck.automaticTaggedCardCount}`);
+    console.log(`   Inline tagged cards: ${deck.inlineTaggedCardCount}`);
 
     if (deck.tags.length > 0) {
       console.log(`   Tags: ${deck.tags.join(", ")}`);

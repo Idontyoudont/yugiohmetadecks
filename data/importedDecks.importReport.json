@@ -1,37 +1,11 @@
 {
-  "generatedAt": "2026-05-04T14:51:48.505Z",
+  "generatedAt": null,
   "inputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
-  "deckCount": 1,
-  "totalWarningCount": 1,
+  "tagRulesFile": "data/cardTagRules.ts",
+  "automaticTagRuleCount": 38,
+  "deckCount": 0,
+  "totalWarningCount": 0,
   "duplicateDeckIds": [],
-  "decks": [
-    {
-      "id": "tag-import-test",
-      "name": "Tag Import Test",
-      "year": 2005,
-      "format": "Goat Format",
-      "status": "draft",
-      "mainDeckCount": 4,
-      "extraDeckCount": 0,
-      "sideDeckCount": 0,
-      "totalCount": 4,
-      "taggedCardCount": 3,
-      "tags": [
-        "disruption",
-        "draw",
-        "quick-play",
-        "trap control",
-        "tribute"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 4 cards. Standard valid range is 40 to 60."
-        }
-      ],
-      "ignoredLines": []
-    }
-  ]
+  "decks": []
 }
