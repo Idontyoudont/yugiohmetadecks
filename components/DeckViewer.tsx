@@ -9,6 +9,7 @@ import { DeckSidebar } from "./DeckSidebar";
 import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
 import { DeckValidation } from "./DeckValidation";
+import { MissingSourceChecklist } from "./MissingSourceChecklist";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
 import type { CardGameSourceInfo, Deck, EnrichedDeckCard } from "../types/deck";
 
@@ -216,6 +217,13 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             sideDeck={enrichedSideDeck}
             selectedPack={selectedPack}
             onSelectPack={handleSelectPack}
+          />
+
+          <MissingSourceChecklist
+            mainDeck={enrichedMainDeck}
+            extraDeck={enrichedExtraDeck}
+            sideDeck={enrichedSideDeck}
+            onSelectCard={setSelectedCard}
           />
         </div>
 
