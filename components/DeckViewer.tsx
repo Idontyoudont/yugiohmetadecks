@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { DeckFilters } from "./DeckFilters";
+import { DeckPackSummary } from "./DeckPackSummary";
 import { DeckSidebar } from "./DeckSidebar";
 import { DeckSourceCoverage } from "./DeckSourceCoverage";
 import { DeckStats } from "./DeckStats";
@@ -175,6 +176,12 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           />
 
           <DeckSourceCoverage
+            mainDeck={enrichedMainDeck}
+            extraDeck={enrichedExtraDeck}
+            sideDeck={enrichedSideDeck}
+          />
+
+          <DeckPackSummary
             mainDeck={enrichedMainDeck}
             extraDeck={enrichedExtraDeck}
             sideDeck={enrichedSideDeck}
