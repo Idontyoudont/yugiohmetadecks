@@ -1,27 +1,5 @@
 [
   {
-    "id": "2005-burn",
-    "year": 2005,
-    "targetName": "Burn",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2005 Burn yugioh decklist",
-      "2005 Burn YCS deck profile",
-      "2005 Burn yugioh top deck",
-      "Burn 2005 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2005%20Burn%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2005%20Burn%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2005%20Burn%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2005%20Burn"
-    }
-  },
-  {
     "id": "2005-chaos-turbo",
     "year": 2005,
     "targetName": "Chaos Turbo",
@@ -129,28 +107,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2006%20Chaos%20Return%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Chaos%20Return"
-    }
-  },
-  {
-    "id": "2006-gadget",
-    "year": 2006,
-    "targetName": "Gadget",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2006 Gadget yugioh decklist",
-      "2006 Gadget YCS deck profile",
-      "2006 Gadget yugioh top deck",
-      "Gadget 2006 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2006%20Gadget%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2006%20Gadget%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2006%20Gadget"
     }
   },
   {
@@ -330,28 +286,6 @@
     }
   },
   {
-    "id": "2008-lightsworn",
-    "year": 2008,
-    "targetName": "Lightsworn",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2008 Lightsworn yugioh decklist",
-      "2008 Lightsworn YCS deck profile",
-      "2008 Lightsworn yugioh top deck",
-      "Lightsworn 2008 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2008%20Lightsworn%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2008%20Lightsworn%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2008%20Lightsworn"
-    }
-  },
-  {
     "id": "2008-zombie-synchro",
     "year": 2008,
     "targetName": "Zombie Synchro",
@@ -484,50 +418,6 @@
     }
   },
   {
-    "id": "2010-frog-monarch",
-    "year": 2010,
-    "targetName": "Frog Monarch",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 Frog Monarch yugioh decklist",
-      "2010 Frog Monarch YCS deck profile",
-      "2010 Frog Monarch yugioh top deck",
-      "Frog Monarch 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Frog%20Monarch"
-    }
-  },
-  {
-    "id": "2010-infernity",
-    "year": 2010,
-    "targetName": "Infernity",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2010 Infernity yugioh decklist",
-      "2010 Infernity YCS deck profile",
-      "2010 Infernity yugioh top deck",
-      "Infernity 2010 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2010%20Infernity%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Infernity%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Infernity"
-    }
-  },
-  {
     "id": "2010-quickdraw-dandywarrior",
     "year": 2010,
     "targetName": "Quickdraw Dandywarrior",
@@ -547,28 +437,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2010%20Quickdraw%20Dandywarrior%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Quickdraw%20Dandywarrior"
-    }
-  },
-  {
-    "id": "2011-agents",
-    "year": 2011,
-    "targetName": "Agents",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2011 Agents yugioh decklist",
-      "2011 Agents YCS deck profile",
-      "2011 Agents yugioh top deck",
-      "Agents 2011 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2011%20Agents%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Agents%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Agents"
     }
   },
   {
@@ -616,28 +484,6 @@
     }
   },
   {
-    "id": "2011-six-samurai",
-    "year": 2011,
-    "targetName": "Six Samurai",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2011 Six Samurai yugioh decklist",
-      "2011 Six Samurai YCS deck profile",
-      "2011 Six Samurai yugioh top deck",
-      "Six Samurai 2011 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Six%20Samurai%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Six%20Samurai"
-    }
-  },
-  {
     "id": "2011-tengu-plant",
     "year": 2011,
     "targetName": "Tengu Plant",
@@ -682,28 +528,6 @@
     }
   },
   {
-    "id": "2012-dino-rabbit",
-    "year": 2012,
-    "targetName": "Dino Rabbit",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2012 Dino Rabbit yugioh decklist",
-      "2012 Dino Rabbit YCS deck profile",
-      "2012 Dino Rabbit yugioh top deck",
-      "Dino Rabbit 2012 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Dino%20Rabbit%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Dino%20Rabbit"
-    }
-  },
-  {
     "id": "2012-hero-beat",
     "year": 2012,
     "targetName": "Hero Beat",
@@ -726,116 +550,6 @@
     }
   },
   {
-    "id": "2012-inzektor",
-    "year": 2012,
-    "targetName": "Inzektor",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2012 Inzektor yugioh decklist",
-      "2012 Inzektor YCS deck profile",
-      "2012 Inzektor yugioh top deck",
-      "Inzektor 2012 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2012%20Inzektor%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Inzektor%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Inzektor"
-    }
-  },
-  {
-    "id": "2012-wind-up",
-    "year": 2012,
-    "targetName": "Wind-Up",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2012 Wind-Up yugioh decklist",
-      "2012 Wind-Up YCS deck profile",
-      "2012 Wind-Up yugioh top deck",
-      "Wind-Up 2012 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2012%20Wind-Up%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2012%20Wind-Up%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2012%20Wind-Up"
-    }
-  },
-  {
-    "id": "2013-evilswarm",
-    "year": 2013,
-    "targetName": "Evilswarm",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2013 Evilswarm yugioh decklist",
-      "2013 Evilswarm YCS deck profile",
-      "2013 Evilswarm yugioh top deck",
-      "Evilswarm 2013 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2013%20Evilswarm%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Evilswarm%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Evilswarm"
-    }
-  },
-  {
-    "id": "2013-fire-fist",
-    "year": 2013,
-    "targetName": "Fire Fist",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2013 Fire Fist yugioh decklist",
-      "2013 Fire Fist YCS deck profile",
-      "2013 Fire Fist yugioh top deck",
-      "Fire Fist 2013 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Fire%20Fist%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Fire%20Fist"
-    }
-  },
-  {
-    "id": "2013-mermail",
-    "year": 2013,
-    "targetName": "Mermail",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2013 Mermail yugioh decklist",
-      "2013 Mermail YCS deck profile",
-      "2013 Mermail yugioh top deck",
-      "Mermail 2013 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2013%20Mermail%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2013%20Mermail%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Mermail"
-    }
-  },
-  {
     "id": "2013-spellbook",
     "year": 2013,
     "targetName": "Spellbook",
@@ -855,28 +569,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2013%20Spellbook%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2013%20Spellbook"
-    }
-  },
-  {
-    "id": "2014-bujin",
-    "year": 2014,
-    "targetName": "Bujin",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2014 Bujin yugioh decklist",
-      "2014 Bujin YCS deck profile",
-      "2014 Bujin yugioh top deck",
-      "Bujin 2014 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2014%20Bujin%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Bujin%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Bujin"
     }
   },
   {
@@ -921,28 +613,6 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2014%20HAT%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2014%20HAT%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20HAT"
-    }
-  },
-  {
-    "id": "2014-mermail",
-    "year": 2014,
-    "targetName": "Mermail",
-    "populationStatus": "missing-source-and-deck",
-    "priority": 1,
-    "sourceCount": 0,
-    "deckCount": 0,
-    "searchQueries": [
-      "2014 Mermail yugioh decklist",
-      "2014 Mermail YCS deck profile",
-      "2014 Mermail yugioh top deck",
-      "Mermail 2014 format decklist"
-    ],
-    "sourceHints": {
-      "googleSearch": "https://www.google.com/search?q=2014%20Mermail%20yugioh%20decklist",
-      "yugiohTopDecksSearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Ayugiohtopdecks.org",
-      "konamiCoverageSearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Ayugiohblog.konami.com",
-      "formatLibrarySearch": "https://www.google.com/search?q=2014%20Mermail%20site%3Aformatlibrary.com",
-      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2014%20Mermail"
     }
   },
   {
@@ -2156,6 +1826,28 @@
     }
   },
   {
+    "id": "2010-frog-monarch",
+    "year": 2010,
+    "targetName": "Frog Monarch",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2010 Frog Monarch yugioh decklist",
+      "2010 Frog Monarch YCS deck profile",
+      "2010 Frog Monarch yugioh top deck",
+      "Frog Monarch 2010 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2010%20Frog%20Monarch%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20Frog%20Monarch"
+    }
+  },
+  {
     "id": "2010-x-saber",
     "year": 2010,
     "targetName": "X-Saber",
@@ -2175,6 +1867,28 @@
       "konamiCoverageSearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Ayugiohblog.konami.com",
       "formatLibrarySearch": "https://www.google.com/search?q=2010%20X-Saber%20site%3Aformatlibrary.com",
       "ygoprodeckSearch": "https://ygoprodeck.com/?s=2010%20X-Saber"
+    }
+  },
+  {
+    "id": "2011-agents",
+    "year": 2011,
+    "targetName": "Agents",
+    "populationStatus": "source-registered",
+    "priority": 2,
+    "sourceCount": 1,
+    "deckCount": 0,
+    "searchQueries": [
+      "2011 Agents yugioh decklist",
+      "2011 Agents YCS deck profile",
+      "2011 Agents yugioh top deck",
+      "Agents 2011 format decklist"
+    ],
+    "sourceHints": {
+      "googleSearch": "https://www.google.com/search?q=2011%20Agents%20yugioh%20decklist",
+      "yugiohTopDecksSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohtopdecks.org",
+      "konamiCoverageSearch": "https://www.google.com/search?q=2011%20Agents%20site%3Ayugiohblog.konami.com",
+      "formatLibrarySearch": "https://www.google.com/search?q=2011%20Agents%20site%3Aformatlibrary.com",
+      "ygoprodeckSearch": "https://ygoprodeck.com/?s=2011%20Agents"
     }
   },
   {

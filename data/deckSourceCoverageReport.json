@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-04T19:12:24.570Z",
+  "generatedAt": "2026-05-04T19:19:29.752Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "sourcedTargetSlots": 10,
-  "missingSourceSlots": 95,
-  "registeredSourceCount": 11,
+  "sourcedTargetSlots": 25,
+  "missingSourceSlots": 80,
+  "registeredSourceCount": 61,
   "sourceStatusCounts": {
+    "source-registered": 59,
     "manual-existing": 1,
-    "source-registered": 9,
     "imported": 1
   },
   "sourceTypeCounts": {
+    "deck-database": 55,
     "manual": 1,
-    "deck-database": 5,
     "format-reference": 1,
     "event-archive": 1,
     "official-event-coverage": 2,
@@ -26,8 +26,8 @@
       "year": 2005,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "Goat Control",
@@ -64,8 +64,21 @@
         },
         {
           "targetName": "Burn",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2005,
+              "target": "Burn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Bryant Tran",
+              "deckType": "Chain Burn",
+              "url": "https://www.yugiohtopdecks.org/deck/15",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -73,8 +86,8 @@
       "year": 2006,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 1,
+      "missingSourceCount": 4,
       "targets": [
         {
           "targetName": "Chaos Return",
@@ -93,8 +106,21 @@
         },
         {
           "targetName": "Gadget",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2006,
+              "target": "Gadget",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Elijah Gersten",
+              "deckType": "Gadget",
+              "url": "https://www.yugiohtopdecks.org/deck/43",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Bazoo Return",
@@ -154,8 +180,8 @@
       "year": 2008,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "TeleDAD",
@@ -182,8 +208,21 @@
         },
         {
           "targetName": "Lightsworn",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2008,
+              "target": "Lightsworn",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+              "player": "Anthony Chiechi",
+              "deckType": "Lightsworn",
+              "url": "https://www.yugiohtopdecks.org/deck/55",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Dark Armed Return",
@@ -248,8 +287,8 @@
       "year": 2010,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 3,
+      "missingSourceCount": 2,
       "targets": [
         {
           "targetName": "Blackwing",
@@ -276,8 +315,21 @@
         },
         {
           "targetName": "Frog Monarch",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2010,
+              "target": "Frog Monarch",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
+              "player": "Jeremy Hayes",
+              "deckType": "Frog",
+              "url": "https://www.yugiohtopdecks.org/deck/64",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Quickdraw Dandywarrior",
@@ -286,8 +338,21 @@
         },
         {
           "targetName": "Infernity",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2010,
+              "target": "Infernity",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Chancy Wigglestove",
+              "deckType": "Infernity",
+              "url": "https://www.yugiohtopdecks.org/deck/1",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -295,8 +360,8 @@
       "year": 2011,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 2,
+      "missingSourceCount": 3,
       "targets": [
         {
           "targetName": "Plant Synchro",
@@ -310,13 +375,51 @@
         },
         {
           "targetName": "Agents",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2011,
+              "target": "Agents",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
+              "player": "Robert Jordan",
+              "deckType": "Agent",
+              "url": "https://www.yugiohtopdecks.org/deck/40",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Six Samurai",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2011,
+              "target": "Six Samurai",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Kumar Dave",
+              "deckType": "Six Samurai",
+              "url": "https://www.yugiohtopdecks.org/deck/16",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2011,
+              "target": "Six Samurai",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 22 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+              "player": "Taughtme Yeezy",
+              "deckType": "Six Samurai",
+              "url": "https://www.yugiohtopdecks.org/deck/22",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Gravekeeper",
@@ -329,23 +432,170 @@
       "year": 2012,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 0,
-      "missingSourceCount": 5,
+      "sourcedTargetCount": 3,
+      "missingSourceCount": 2,
       "targets": [
         {
           "targetName": "Wind-Up",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Jeremy Thibeau",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/11",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 12 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Dalton Bousman",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/12",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 14 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Chris Hason",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/14",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 23 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Yuki Zaninovich",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/23",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 25 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Paul Clarke",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/25",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 26 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Kevin Takashi",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/26",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 32 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Brandon Wigley",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/32",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 33 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Marcello Barberi",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/33",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Wind-Up",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 41 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
+              "player": "Elijah Gersten",
+              "deckType": "Wind-Up",
+              "url": "https://www.yugiohtopdecks.org/deck/41",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Dino Rabbit",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2012,
+              "target": "Dino Rabbit",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Isaac Canales",
+              "deckType": "Dino Rabbit",
+              "url": "https://www.yugiohtopdecks.org/deck/29",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2012,
+              "target": "Dino Rabbit",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 35 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Enoch Sanz",
+              "deckType": "Dino Rabbit",
+              "url": "https://www.yugiohtopdecks.org/deck/35",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Inzektor",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2012,
+              "target": "Inzektor",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Mikael Ibsen",
+              "deckType": "Inzektor",
+              "url": "https://www.yugiohtopdecks.org/deck/28",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Chaos Dragon",
@@ -363,8 +613,8 @@
       "year": 2013,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 4,
+      "missingSourceCount": 1,
       "targets": [
         {
           "targetName": "Dragon Ruler",
@@ -391,18 +641,333 @@
         },
         {
           "targetName": "Mermail",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Steffon Bizzell",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/10",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 18 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+              "player": "Jeremy Thibeau",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/18",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 34 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Steffon Bizzell",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/34",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 37 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Jeff Pircher",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/37",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 38 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
+              "player": "Yuki Zaninovich",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/38",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 42 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "David Everett",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/42",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 45 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Timothy Beauvais",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/45",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 48 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Chris Hanson",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/48",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 9 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+              "player": "Dillon Breuning",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/9",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Evilswarm",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Evilswarm",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Mike Seligson",
+              "deckType": "Evilswarm",
+              "url": "https://www.yugiohtopdecks.org/deck/5",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Evilswarm",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 51 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+              "player": "Kentaro Okado",
+              "deckType": "Evilswarm",
+              "url": "https://www.yugiohtopdecks.org/deck/51",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Fire Fist",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+              "player": "Mike Steinman",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/17",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 19 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+              "player": "Giovanni Del Moral",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/19",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 2 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Elijah Gersten",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/2",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 20 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+              "player": "Dalton Bousman",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/20",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 24 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Giovanni Del Moral",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/24",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 27 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+              "player": "Jordan Jacob",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/27",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 30 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Giovanni Del Moral",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/30",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 31 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "Fred Douglas",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/31",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 36 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013",
+              "player": "George Carver",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/36",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 4 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Josh Furlong",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/4",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 44 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Josh Furlong",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/44",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 46 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Andrew Bergen",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/46",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 47 - YGOverdose Constructed 7 (May 2013) - May 2013",
+              "player": "Kenny Wry",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/47",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 7 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Matthew Johnson",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/7",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2013,
+              "target": "Fire Fist",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 8 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
+              "player": "Giovanni Del Moral",
+              "deckType": "Fire Fist",
+              "url": "https://www.yugiohtopdecks.org/deck/8",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },
@@ -410,8 +975,8 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "sourcedTargetCount": 1,
-      "missingSourceCount": 4,
+      "sourcedTargetCount": 3,
+      "missingSourceCount": 2,
       "targets": [
         {
           "targetName": "HAT",
@@ -425,8 +990,45 @@
         },
         {
           "targetName": "Mermail",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2014,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+              "player": "Chrispother Quinones- Ortega",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/53",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 57 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+              "player": "Omei Vadipour",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/57",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            },
+            {
+              "year": 2014,
+              "target": "Mermail",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 63 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
+              "player": "Jake Watson",
+              "deckType": "Mermail",
+              "url": "https://www.yugiohtopdecks.org/deck/63",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         },
         {
           "targetName": "Fire Fist",
@@ -448,8 +1050,21 @@
         },
         {
           "targetName": "Bujin",
-          "hasSource": false,
-          "sources": []
+          "hasSource": true,
+          "sources": [
+            {
+              "year": 2014,
+              "target": "Bujin",
+              "status": "source-registered",
+              "sourceType": "deck-database",
+              "parseStatus": "unknown",
+              "label": "Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+              "player": "DJ Katter",
+              "deckType": "Bujin",
+              "url": "https://www.yugiohtopdecks.org/deck/52",
+              "notes": "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import."
+            }
+          ]
         }
       ]
     },

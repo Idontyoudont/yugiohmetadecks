@@ -351,3 +351,889 @@ Side Deck
 1 Raigeki
 1 System Down
 3 Twin Twisters
+
+---
+
+Deck: Chain Burn 2005
+Year: 2005
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013
+Player: Bryant Tran
+Deck Type: Chain Burn
+Source URL: https://www.yugiohtopdecks.org/deck/15
+
+Main Deck
+3 Battle Fader
+3 Cardcar D
+1 Gorz the Emissary of Darkness
+3 Lava Golem
+2 Chain Strike
+1 One Day of Peace
+2 Pot of Duality
+1 Scapegoat
+3 Accumulated Fortune
+1 Ceasefire
+3 Jar of Greed
+3 Just Desserts
+3 Legacy of Yata-Garasu
+2 Ojama Trio
+3 Reckless Greed
+3 Secret Barrel
+3 Threatening Roar
+
+Extra Deck
+1 Ally of Justice Field Marshal
+1 Ancient Flamvell Deity
+1 Chimeratech Fortress Dragon
+1 Chronomaly Crystal Chrononaut
+1 Dragon Knight Draco-Equiste
+1 Gachi Gachi Gantetsu
+1 Gatling Dragon
+1 Genex Ally Triforce
+1 Jurrac Meteor
+1 Laval the Greater
+1 Leviair the Sea Dragon
+1 Life Stream Dragon
+1 Number 30: Acid Golem of Destruction
+1 Wind-Up Zenmaines
+
+Side Deck
+3 Gemini Imps
+2 Injection Fairy Lily
+3 Marshmallon
+3 Swift Scarecrow
+1 Heavy Storm
+2 Mystical Space Typhoon
+1 Fairy Wind
+
+---
+
+Deck: Gadget 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013
+Player: Elijah Gersten
+Deck Type: Gadget
+Source URL: https://www.yugiohtopdecks.org/deck/43
+
+Main Deck
+3 Green Gadget
+2 Machina Fortress
+1 Machina Gearframe
+3 Red Gadget
+3 Tin Goldfish
+3 Yellow Gadget
+1 Dark Hole
+2 Double Summon
+2 Forbidden Lance
+1 Heavy Storm
+1 Monster Reborn
+2 Mystical Space Typhoon
+1 Pot of Avarice
+1 Pot of Duality
+2 Bottomless Trap Hole
+2 Dimensional Prison
+3 Fiendish Chain
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+1 Ultimate Offering
+
+Extra Deck
+2 Abyss Dweller
+1 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Gagaga Cowboy
+3 Gear Gigant X
+2 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Number C39: Utopia Ray
+1 Steelswarm Roach
+
+Side Deck
+3 Maxx "C"
+2 Tragoedia
+1 Mystical Space Typhoon
+1 Dust Tornado
+3 Macro Cosmos
+2 Overworked
+3 Rivalry of Warlords
+
+---
+
+Deck: Lightsworn 2008
+Year: 2008
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014
+Player: Anthony Chiechi
+Deck Type: Lightsworn
+Source URL: https://www.yugiohtopdecks.org/deck/55
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+3 Eclipse Wyvern
+1 Garoth, Lightsworn Warrior
+1 Honest
+1 Jain, Lightsworn Paladin
+3 Judgment Dragon
+3 Kuribandit
+1 Lightray Diabolos
+3 Lumina, Lightsworn Summoner
+3 Lyla, Lightsworn Sorceress
+1 Minerva, Lightsworn Maiden
+3 Necro Gardna
+2 Raiden, Hand of the Lightsworn
+1 Ryko, Lightsworn Hunter
+1 Tempest, Dragon Ruler of Storms
+1 Tidal, Dragon Ruler of Waterfalls
+1 Wulf, Lightsworn Beast
+1 Allure of Darkness
+1 Charge of the Light Brigade
+1 Foolish Burial
+3 Solar Recharge
+3 Soul Charge
+1 Fiend Comedian
+1 Needlebug Nest
+
+Extra Deck
+
+Side Deck
+3 D.D. Crow
+3 Majesty's Fiend
+1 Skull Meister
+1 Dark Hole
+3 Mystical Space Typhoon
+1 Acid Trap Hole
+3 Royal Royal Decree
+
+---
+
+Deck: Frog 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014
+Player: Jeremy Hayes
+Deck Type: Frog
+Source URL: https://www.yugiohtopdecks.org/deck/64
+
+Main Deck
+3 Des Frog
+3 Dupe Frog
+2 Flip Flop Frog
+1 Gorz the Emissary of Darkness
+3 Mother Grizzly
+3 Ronintoadin
+1 Sea Lancer
+3 Swap Frog
+1 T.A.D.P.O.L.E.
+3 Des Croaking
+3 Inferno Reckless Summon
+3 Pot of Duality
+3 Breakthrough Skill
+2 Damage Condenser
+2 Needle Ceiling
+1 Torrential Tribute
+3 Trap Stun
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Daigusto Phoenix
+1 Gachi Gachi Gantetsu
+1 Gaia Dragon, the Thunder Charger
+3 Ghostrick Socuteboss
+1 Herald of Pure Light
+1 Number 12: Crimson Shadow Armor Ninja
+2 Number 61: Volcasaurus
+1 Number 73: Abyss Splash
+1 Shark Fortress
+1 Tiras, Keeper of Genesis
+1 Wind-Up Arsenal Zenmaioh
+
+Side Deck
+2 D.D. Crow
+3 Flying "C"
+1 Sea Lancer
+2 Creature Swap
+2 Mystical Space Typhoon
+1 Soul Release
+1 Black Horn of Heaven
+1 Full House
+2 Light-Imprisoning Mirror
+
+---
+
+Deck: Infernity 2010
+Year: 2010
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013
+Player: Chancy Wigglestove
+Deck Type: Infernity
+Source URL: https://www.yugiohtopdecks.org/deck/1
+
+Main Deck
+1 Armageddon Knight
+1 Dark Grepher
+3 Infernity Archfiend
+3 Infernity Necromancer
+2 Stygian Street Patrol
+2 Summoner Monk
+1 Foolish Burial
+1 Heavy Storm
+1 Infernity Launcher
+2 Instant Fusion
+1 Monster Gate
+1 Monster Reborn
+3 Mystical Space Typhoon
+3 Night Beam
+2 Pot of Duality
+1 Reinforcement of the Army
+3 Upstart Goblin
+2 Bottomless Trap Hole
+2 Infernity Barrier
+3 Infernity Break
+1 Solemn Judgment
+1 Solemn Warning
+
+Extra Deck
+1 Abyss Dweller
+2 Diamond Dire Wolf
+1 Gagaga Cowboy
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 17: Leviathan Dragon
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Wind-Up Zenmaines
+1 Darkfire Dragon
+1 Fusionist
+
+Side Deck
+2 Ryko, Lightsworn Hunter
+2 Tour Guide From the Underworld
+3 Dust Tornado
+2 Mirror Force
+3 Overworked
+3 Soul Drain
+
+---
+
+Deck: Agent 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013
+Player: Robert Jordan
+Deck Type: Agent
+Source URL: https://www.yugiohtopdecks.org/deck/40
+
+Main Deck
+2 Archlord Kristya
+2 Card Trooper
+2 Herald of Orange Light
+1 Honest
+3 Master Hyperion
+2 Maxx "C"
+3 Mystical Shine Ball
+1 Sangan
+3 The Agent of Creation - Venus
+2 The Agent of Mystery - Earth
+2 Thunder King Rai-Oh
+2 Tour Guide From the Underworld
+1 Tragoedia
+1 Dark Hole
+1 Heavy Storm
+1 Monster Reborn
+2 Mystical Space Typhoon
+3 Call of the Haunted
+2 Dimensional Prison
+1 Solemn Judgment
+2 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Chimeratech Fortress Dragon
+1 Daigusto Phoenix
+1 Gachi Gachi Gantetsu
+1 Leviair the Sea Dragon
+1 Magical Android
+1 Number 17: Leviathan Dragon
+1 Number 30: Acid Golem of Destruction
+1 Number 39: Utopia
+1 Number 96: Dark Mist
+1 Scrap Dragon
+1 Stardust Dragon
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+
+Side Deck
+1 Cyber Dragon
+2 Gemini Imps
+2 Snowman Eater
+1 Leeching the Light
+1 Mystical Space Typhoon
+2 Soul Taker
+2 Dust Tornado
+2 Gozen Match
+2 Soul Drain
+
+---
+
+Deck: Six Samurai 2011
+Year: 2011
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013
+Player: Kumar Dave
+Deck Type: Six Samurai
+Source URL: https://www.yugiohtopdecks.org/deck/16
+
+Main Deck
+1 Elder of the Six Samurai
+1 Grandmaster of the Six Samurai
+1 Hand of the Six Samurai
+3 Kagemusha of the Six Samurai
+1 Legendary Six Samurai - Enishi
+2 Legendary Six Samurai - Kageki
+3 Legendary Six Samurai - Kizan
+1 Spirit of the Six Samurai
+1 The Six Samurai - Zanji
+3 Asceticism of the Six Samurai
+1 Dark Hole
+1 Gateway of the Six
+1 Heavy Storm
+1 Monster Reborn
+1 Mystical Space Typhoon
+1 Reinforcement of the Army
+3 Shien's Smoke Signal
+3 Six Samurai United
+2 Bottomless Trap Hole
+1 Dimensional Prison
+1 Double-Edged Sword Technique
+2 Fiendish Chain
+2 Mirror Force
+1 Musakani Magatama
+1 Solemn Judgment
+1 Solemn Warning
+
+Extra Deck
+1 Abyss Dweller
+1 Ally of Justice Catastor
+1 Black Rose Dragon
+1 Blade Armor Ninja
+1 Gagaga Cowboy
+1 Heroic Champion - Excalibur
+1 Legendary Six Samurai - Shi En
+1 Naturia Barkion
+1 Naturia Beast
+1 Naturia Landoise
+1 Number 16: Shock Master
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Shadow of the Six Samurai - Shien
+1 Gaia Knight, the Force of Earth
+
+Side Deck
+1 Kinetic Soldier
+1 Puppet Plant
+1 The Six Samurai - Yaichi
+3 Dimensional Fissure
+2 Mystical Space Typhoon
+1 Soul Taker
+1 Dimensional Prison
+2 Dust Tornado
+1 Fiendish Chain
+1 Overworked
+1 Soul Drain
+
+---
+
+Deck: Dino Rabbit 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013
+Player: Isaac Canales
+Deck Type: Dino Rabbit
+Source URL: https://www.yugiohtopdecks.org/deck/29
+
+Main Deck
+3 Jurrac Guaiba
+3 Kabazauls
+1 Night Assailant
+2 Rescue Rabbit
+3 Sabersaurus
+1 Sangan
+1 Spirit Reaper
+1 Thunder King Rai-Oh
+2 Tour Guide From the Underworld
+1 Dark Hole
+3 Forbidden Lance
+1 Heavy Storm
+1 Monster Reborn
+3 Mystical Space Typhoon
+2 Bottomless Trap Hole
+2 Dimensional Prison
+1 Fiendish Chain
+2 Macro Cosmos
+2 Mirror Force
+1 Solemn Judgment
+2 Solemn Warning
+1 Starlight Road
+1 Torrential Tribute
+
+Extra Deck
+2 Evolzar Dolkka
+2 Evolzar Laggia
+1 Gagaga Cowboy
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 30: Acid Golem of Destruction
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Photon Papilloperative
+1 Stardust Dragon
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+
+Side Deck
+2 Effect Veiler
+1 Gorz the Emissary of Darkness
+2 Maxx "C"
+3 Snowman Eater
+1 Thunder King Rai-Oh
+1 Soul Taker
+2 Compulsory Evacuation Device
+2 Dust Tornado
+1 Macro Cosmos
+
+---
+
+Deck: Inzektor 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013
+Player: Mikael Ibsen
+Deck Type: Inzektor
+Source URL: https://www.yugiohtopdecks.org/deck/28
+
+Main Deck
+2 Armageddon Knight
+3 Inzektor Centipede
+1 Inzektor Dragonfly
+1 Inzektor Giga-Mantis
+2 Inzektor Hopper
+1 Inzektor Hornet
+2 Inzektor Ladybug
+1 Sangan
+2 Tour Guide From the Underworld
+1 Dark Hole
+2 Heart of Clear Water
+1 Heavy Storm
+1 Insect Imitation
+2 Inzektor Sword - Zektkaliber
+1 Monster Reborn
+2 Mystical Space Typhoon
+2 Pot of Duality
+2 Bottomless Trap Hole
+2 Call of the Haunted
+2 Dimensional Prison
+2 Mirror Force
+2 Solemn Warning
+2 Threatening Roar
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Gagaga Cowboy
+1 Inzektor Exa-Stag
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 20: Giga-Brilliant
+1 Number 30: Acid Golem of Destruction
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Photon Papilloperative
+1 Temtempo the Percussion Djinn
+1 Tiras, Keeper of Genesis
+1 Wind-Up Zenmaines
+
+Side Deck
+2 Effect Veiler
+2 Thunder King Rai-Oh
+3 Dimensional Fissure
+2 Level Limit - Area B
+1 Mystical Space Typhoon
+2 Debunk
+3 Royal Royal Decree
+
+---
+
+Deck: Wind-Up 2012
+Year: 2012
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013
+Player: Jeremy Thibeau
+Deck Type: Wind-Up
+Source URL: https://www.yugiohtopdecks.org/deck/11
+
+Main Deck
+2 Cardcar D
+2 Tour Guide From the Underworld
+1 Wind-Up Magician
+3 Wind-Up Rabbit
+3 Wind-Up Rat
+3 Wind-Up Shark
+1 Wind-Up Warrior
+1 Dark Hole
+1 Fire Formation - Tenki
+1 Heavy Storm
+1 Monster Reborn
+3 Mystical Space Typhoon
+1 Pot of Avarice
+2 Pot of Duality
+3 Wind-Up Factory
+2 Bottomless Trap Hole
+1 Dimensional Prison
+3 Fiendish Chain
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Diamond Dire Wolf
+1 Gaia Dragon, the Thunder Charger
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 M-X-Saber Invoker
+1 Number 16: Shock Master
+1 Number 17: Leviathan Dragon
+1 Number 30: Acid Golem of Destruction
+1 Number 39: Utopia
+1 Photon Papilloperative
+1 Temtempo the Percussion Djinn
+1 Tiras, Keeper of Genesis
+1 Wind-Up Zenmaines
+
+Side Deck
+3 Banisher of the Radiance
+2 Snowman Eater
+1 Thunder King Rai-Oh
+2 Dimensional Fissure
+3 Level Limit - Area B
+1 Soul Taker
+1 Compulsory Evacuation Device
+1 Dimensional Prison
+1 Dust Tornado
+
+---
+
+Deck: Evilswarm 2013
+Year: 2013
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013
+Player: Mike Seligson
+Deck Type: Evilswarm
+Source URL: https://www.yugiohtopdecks.org/deck/5
+
+Main Deck
+2 Cardcar D
+2 Rescue Rabbit
+2 Tour Guide From the Underworld
+1 Dark Hole
+2 Forbidden Dress
+1 Heavy Storm
+1 Monster Reborn
+1 Reinforcement of the Army
+2 Bottomless Trap Hole
+3 Fiendish Chain
+2 Macro Cosmos
+2 Mirror Force
+1 Safe Zone
+1 Solemn Judgment
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 17: Leviathan Dragon
+1 Number 39: Utopia
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+1 Gem-Knight Pearl
+
+Side Deck
+2 Jurrac Guaiba
+1 Neo-Spacian Grand Mole
+3 Mystical Space Typhoon
+1 Black Horn of Heaven
+1 Deck Devastation Virus
+2 Eradicator Epidemic Virus
+1 Macro Cosmos
+2 Safe Zone
+1 Torrential Tribute
+
+---
+
+Deck: Fire Fist 2013
+Year: 2013
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013
+Player: Mike Steinman
+Deck Type: Fire Fist
+Source URL: https://www.yugiohtopdecks.org/deck/17
+
+Main Deck
+3 Brotherhood of the Fire Fist - Bear
+1 Brotherhood of the Fire Fist - Gorilla
+2 Cardcar D
+3 Gene-Warped Warwolf
+2 Reborn Tengu
+2 Rescue Rabbit
+2 Tour Guide From the Underworld
+1 Dark Hole
+3 Fire Formation - Tenki
+1 Fire Formation - Tensu
+2 Forbidden Lance
+1 Heavy Storm
+1 Monster Reborn
+3 Mystical Space Typhoon
+2 Bottomless Trap Hole
+2 Dimensional Prison
+3 Fiendish Chain
+2 Mirror Force
+1 Solemn Judgment
+1 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+2 Brotherhood of the Fire Fist - Tiger King
+1 Chimeratech Fortress Dragon
+1 Diamond Dire Wolf
+1 Gagaga Cowboy
+1 Leviair the Sea Dragon
+1 Maestroke the Symphony Djinn
+1 Number 16: Shock Master
+1 Number 17: Leviathan Dragon
+1 Number 39: Utopia
+1 Number 50: Blackship of Corn
+1 Steelswarm Roach
+1 Temtempo the Percussion Djinn
+1 Wind-Up Zenmaines
+
+Side Deck
+3 Banisher of the Radiance
+2 Cyber Dragon
+2 Snowman Eater
+2 Thunder King Rai-Oh
+3 Dimensional Fissure
+1 Dimensional Prison
+2 Overworked
+
+---
+
+Deck: Mermail 2013
+Year: 2013
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013
+Player: Steffon Bizzell
+Deck Type: Mermail
+Source URL: https://www.yugiohtopdecks.org/deck/10
+
+Main Deck
+3 Atlantean Dragoons
+2 Atlantean Heavy Infantry
+3 Atlantean Marksman
+3 Deep Sea Diva
+2 Effect Veiler
+3 Genex Controller
+3 Genex Undine
+2 Mermail Abysslinde
+2 Mermail Abyssmegalo
+2 Mermail Abysspike
+1 Moulinglacia the Elemental Lord
+1 Allure of Darkness
+1 Dark Hole
+1 Heavy Storm
+1 Monster Reborn
+3 Mystical Space Typhoon
+1 Pot of Avarice
+2 Salvage
+3 Abyss-sphere
+1 Common Charity
+2 Solemn Warning
+2 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Ally of Justice Catastor
+1 Armory Arm
+1 Bahamut Shark
+1 Black Rose Dragon
+1 Daigusto Phoenix
+1 Dewloren, Tiger King of the Ice Barrier
+1 Gachi Gachi Gantetsu
+1 Gungnir, Dragon of the Ice Barrier
+1 Mermail Abysstrite
+1 Number 11: Big Eye
+1 Number 17: Leviathan Dragon
+1 Scrap Dragon
+1 T.G. Hyper Librarian
+1 Wind-Up Zenmaines
+
+Side Deck
+1 Gorz the Emissary of Darkness
+3 Maxx "C"
+2 Snowman Eater
+1 Mind Control
+2 Compulsory Evacuation Device
+2 Dust Tornado
+2 Gozen Match
+2 Shadow-Imprisoning Mirror
+
+---
+
+Deck: Bujin 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014
+Player: DJ Katter
+Deck Type: Bujin
+Source URL: https://www.yugiohtopdecks.org/deck/52
+
+Main Deck
+3 Bujingi Crane
+2 Bujingi Hare
+2 Bujingi Turtle
+2 Bujin Mikazuchi
+3 Bujin Yamato
+1 Honest
+1 Book of Moon
+2 Bujincarnation
+1 Dark Hole
+3 Fire Formation - Tenki
+2 Forbidden Lance
+3 Kaiser Colosseum
+2 Pot of Duality
+1 Soul Charge
+1 Black Horn of Heaven
+1 Bottomless Trap Hole
+1 Breakthrough Skill
+1 Compulsory Evacuation Device
+2 Dimensional Prison
+2 Fiendish Chain
+1 Mirror Force
+1 Solemn Warning
+1 Torrential Tribute
+2 Vanity's Emptiness
+
+Extra Deck
+2 Abyss Dweller
+1 Bujintei Kagutsuchi
+2 Bujintei Susanowo
+1 Constellar Omega
+1 Diamond Dire Wolf
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 50: Blackship of Corn
+1 Number 80: Rhapsody in Berserk
+1 Number 85: Crazy Box
+1 Starliege Paladynamo
+
+Side Deck
+2 D.D. Crow
+2 Maxx "C"
+1 Mind Control
+3 Mystical Space Typhoon
+1 Nobleman of Crossout
+2 Soul Release
+2 Debunk
+2 Needle Ceiling
+
+---
+
+Deck: Mermail 2014
+Year: 2014
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014
+Player: Chrispother Quinones- Ortega
+Deck Type: Mermail
+Source URL: https://www.yugiohtopdecks.org/deck/53
+
+Main Deck
+1 Atlantean Dragoons
+2 Atlantean Heavy Infantry
+2 Atlantean Marksman
+2 Genex Controller
+2 Genex Undine
+1 Mermail Abyssgunde
+1 Mermail Abyssleed
+3 Mermail Abysslinde
+1 Mermail Abyssmegalo
+3 Mermail Abysspike
+3 Mermail Abyssteus
+1 Mermail Abyssturge
+1 Moulinglacia the Elemental Lord
+1 Tidal, Dragon Ruler of Waterfalls
+1 Dark Hole
+2 Forbidden Chalice
+2 Forbidden Dress
+2 Forbidden Lance
+2 Soul Charge
+3 Abyss-sphere
+1 Bottomless Trap Hole
+2 Dimensional Prison
+1 Solemn Warning
+1 Torrential Tribute
+
+Extra Deck
+1 Abyss Dweller
+1 Black Rose Dragon
+1 Evilswarm Exciton Knight
+1 Gagaga Cowboy
+1 Ghostrick Alucard
+1 Goyo Guardian
+1 Lavalval Chain
+1 Leo, the Keeper of the Sacred Tree
+1 Leviair the Sea Dragon
+1 Mecha Phantom Beast Dracossack
+1 Mermail Abyssgaios
+1 Number 101: Silent Honor ARK
+1 Number 103: Ragnazero
+1 Number 11: Big Eye
+1 Number 50: Blackship of Corn
+
+Side Deck
+2 D.D. Crow
+2 Maxx "C"
+3 Mystical Space Typhoon
+2 Nobleman of Crossout
+2 Xyz Encore
+2 Light-Imprisoning Mirror
+2 Xyz Universe

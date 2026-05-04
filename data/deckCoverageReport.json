@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-05-04T19:12:24.484Z",
+  "generatedAt": "2026-05-04T19:19:29.659Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalYears": 21,
   "totalTargetSlots": 105,
-  "filledTargetSlots": 5,
-  "missingTargetSlots": 100,
-  "totalKnownDecks": 8,
+  "filledTargetSlots": 18,
+  "missingTargetSlots": 87,
+  "totalKnownDecks": 23,
   "years": [
     {
       "year": 2005,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 1,
+      "filledTargetCount": 2,
+      "missingTargetCount": 3,
+      "knownDeckCount": 2,
       "completeDeckCount": 1,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -51,8 +51,17 @@
         },
         {
           "targetName": "Burn",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "chain-burn-2005",
+              "name": "Chain Burn 2005",
+              "year": 2005,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
@@ -63,6 +72,14 @@
           "format": "Goat Format",
           "status": "complete",
           "sourceType": "manual"
+        },
+        {
+          "id": "chain-burn-2005",
+          "name": "Chain Burn 2005",
+          "year": 2005,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -70,11 +87,11 @@
       "year": 2006,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -94,8 +111,17 @@
         },
         {
           "targetName": "Gadget",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "gadget-2006",
+              "name": "Gadget 2006",
+              "year": 2006,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Bazoo Return",
@@ -103,7 +129,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "gadget-2006",
+          "name": "Gadget 2006",
+          "year": 2006,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2007,
@@ -157,11 +192,11 @@
       "year": 2008,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 1,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 1,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -176,8 +211,17 @@
         },
         {
           "targetName": "Lightsworn",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "lightsworn-2008",
+              "name": "Lightsworn 2008",
+              "year": 2008,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Dark Armed Return",
@@ -190,7 +234,16 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "lightsworn-2008",
+          "name": "Lightsworn 2008",
+          "year": 2008,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2009,
@@ -235,11 +288,11 @@
       "year": 2010,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -264,21 +317,47 @@
         },
         {
           "targetName": "Infernity",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "infernity-2010",
+              "name": "Infernity 2010",
+              "year": 2010,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "frog-2010",
+          "name": "Frog 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "infernity-2010",
+          "name": "Infernity 2010",
+          "year": 2010,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2011,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 1,
+      "missingTargetCount": 4,
+      "knownDeckCount": 2,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 2,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -298,8 +377,17 @@
         },
         {
           "targetName": "Six Samurai",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "six-samurai-2011",
+              "name": "Six Samurai 2011",
+              "year": 2011,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Gravekeeper",
@@ -307,33 +395,77 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "agent-2011",
+          "name": "Agent 2011",
+          "year": 2011,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "six-samurai-2011",
+          "name": "Six Samurai 2011",
+          "year": 2011,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2012,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 0,
-      "missingTargetCount": 5,
-      "knownDeckCount": 0,
+      "filledTargetCount": 3,
+      "missingTargetCount": 2,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 0,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
           "targetName": "Wind-Up",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "wind-up-2012",
+              "name": "Wind-Up 2012",
+              "year": 2012,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Dino Rabbit",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "dino-rabbit-2012",
+              "name": "Dino Rabbit 2012",
+              "year": 2012,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Inzektor",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "inzektor-2012",
+              "name": "Inzektor 2012",
+              "year": 2012,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Chaos Dragon",
@@ -346,17 +478,42 @@
           "matchingDecks": []
         }
       ],
-      "knownDecks": []
+      "knownDecks": [
+        {
+          "id": "dino-rabbit-2012",
+          "name": "Dino Rabbit 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "inzektor-2012",
+          "name": "Inzektor 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "wind-up-2012",
+          "name": "Wind-Up 2012",
+          "year": 2012,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        }
+      ]
     },
     {
       "year": 2013,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 2,
+      "filledTargetCount": 4,
+      "missingTargetCount": 1,
+      "knownDeckCount": 5,
       "completeDeckCount": 1,
-      "draftDeckCount": 0,
+      "draftDeckCount": 3,
       "sampleDeckCount": 1,
       "targets": [
         {
@@ -388,18 +545,45 @@
         },
         {
           "targetName": "Mermail",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "mermail-2013",
+              "name": "Mermail 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Evilswarm",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "evilswarm-2013",
+              "name": "Evilswarm 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Fire Fist",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "fire-fist-2013",
+              "name": "Fire Fist 2013",
+              "year": 2013,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
@@ -418,6 +602,30 @@
           "format": "Imported Format",
           "status": "complete",
           "sourceType": "imported"
+        },
+        {
+          "id": "evilswarm-2013",
+          "name": "Evilswarm 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "fire-fist-2013",
+          "name": "Fire Fist 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "mermail-2013",
+          "name": "Mermail 2013",
+          "year": 2013,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
         }
       ]
     },
@@ -425,11 +633,11 @@
       "year": 2014,
       "targetDecksPerYear": 5,
       "configuredTargetCount": 5,
-      "filledTargetCount": 1,
-      "missingTargetCount": 4,
-      "knownDeckCount": 1,
+      "filledTargetCount": 3,
+      "missingTargetCount": 2,
+      "knownDeckCount": 3,
       "completeDeckCount": 0,
-      "draftDeckCount": 1,
+      "draftDeckCount": 3,
       "sampleDeckCount": 0,
       "targets": [
         {
@@ -444,8 +652,17 @@
         },
         {
           "targetName": "Mermail",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "mermail-2014",
+              "name": "Mermail 2014",
+              "year": 2014,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         },
         {
           "targetName": "Fire Fist",
@@ -463,14 +680,39 @@
         },
         {
           "targetName": "Bujin",
-          "matched": false,
-          "matchingDecks": []
+          "matched": true,
+          "matchingDecks": [
+            {
+              "id": "bujin-2014",
+              "name": "Bujin 2014",
+              "year": 2014,
+              "format": "Imported Format",
+              "status": "draft",
+              "sourceType": "imported"
+            }
+          ]
         }
       ],
       "knownDecks": [
         {
           "id": "fire-fist-2014",
           "name": "Fire Fist 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "bujin-2014",
+          "name": "Bujin 2014",
+          "year": 2014,
+          "format": "Imported Format",
+          "status": "draft",
+          "sourceType": "imported"
+        },
+        {
+          "id": "mermail-2014",
+          "name": "Mermail 2014",
           "year": 2014,
           "format": "Imported Format",
           "status": "draft",

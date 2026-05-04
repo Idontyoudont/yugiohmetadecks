@@ -3,11 +3,11 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2005,Chaos Turbo,missing-source-and-deck,false,false,0,0,,
 2005,Warrior Toolbox,missing-source-and-deck,false,false,0,0,,
 2005,Reasoning Gate,missing-source-and-deck,false,false,0,0,,
-2005,Burn,missing-source-and-deck,false,false,0,0,,
+2005,Burn,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013,Chain Burn 2005
 2006,Chaos Return,missing-source-and-deck,false,false,0,0,,
 2006,Monarch,missing-source-and-deck,false,false,0,0,,
 2006,Recruiter Chaos,missing-source-and-deck,false,false,0,0,,
-2006,Gadget,missing-source-and-deck,false,false,0,0,,
+2006,Gadget,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013,Gadget 2006
 2006,Bazoo Return,missing-source-and-deck,false,false,0,0,,
 2007,Perfect Circle Monarch,source-registered,true,false,1,0,Format Library Perfect Circle Format,
 2007,Demise OTK,missing-source-and-deck,false,false,0,0,,
@@ -16,7 +16,7 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2007,Crystal Beast,missing-source-and-deck,false,false,0,0,,
 2008,TeleDAD,source-registered,true,false,1,0,SJC Detroit 2008 Top 16,
 2008,Gladiator Beast,missing-source-and-deck,false,false,0,0,,
-2008,Lightsworn,missing-source-and-deck,false,false,0,0,,
+2008,Lightsworn,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014,Lightsworn 2008
 2008,Dark Armed Return,missing-source-and-deck,false,false,0,0,,
 2008,Zombie Synchro,missing-source-and-deck,false,false,0,0,,
 2009,Blackwing,source-registered,true,false,1,0,SJC Orlando 2009 Top 16 Decklists,
@@ -26,29 +26,29 @@ year,target,status,hasSource,hasDeck,sourceCount,deckCount,sourceLabels,deckName
 2009,Twilight,missing-source-and-deck,false,false,0,0,,
 2010,Blackwing,missing-source-and-deck,false,false,0,0,,
 2010,X-Saber,source-registered,true,false,1,0,Konami YCS X-Saber Deck Profile,
-2010,Frog Monarch,missing-source-and-deck,false,false,0,0,,
+2010,Frog Monarch,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014,
 2010,Quickdraw Dandywarrior,missing-source-and-deck,false,false,0,0,,
-2010,Infernity,missing-source-and-deck,false,false,0,0,,
+2010,Infernity,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013,Infernity 2010
 2011,Plant Synchro,missing-source-and-deck,false,false,0,0,,
 2011,Tengu Plant,missing-source-and-deck,false,false,0,0,,
-2011,Agents,missing-source-and-deck,false,false,0,0,,
-2011,Six Samurai,missing-source-and-deck,false,false,0,0,,
+2011,Agents,source-registered,true,false,1,0,Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013,
+2011,Six Samurai,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 22 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013,Six Samurai 2011
 2011,Gravekeeper,missing-source-and-deck,false,false,0,0,,
-2012,Wind-Up,missing-source-and-deck,false,false,0,0,,
-2012,Dino Rabbit,missing-source-and-deck,false,false,0,0,,
-2012,Inzektor,missing-source-and-deck,false,false,0,0,,
+2012,Wind-Up,imported,true,true,9,1,Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 12 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 14 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 23 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 25 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 26 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 32 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 33 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 41 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013,Wind-Up 2012
+2012,Dino Rabbit,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 35 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013,Dino Rabbit 2012
+2012,Inzektor,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013,Inzektor 2012
 2012,Chaos Dragon,missing-source-and-deck,false,false,0,0,,
 2012,Hero Beat,missing-source-and-deck,false,false,0,0,,
 2013,Dragon Ruler,imported,true,true,1,2,Top 16 YCS Turin 2013,Dragon Ruler | Dragon Ruler 2013
 2013,Spellbook,missing-source-and-deck,false,false,0,0,,
-2013,Mermail,missing-source-and-deck,false,false,0,0,,
-2013,Evilswarm,missing-source-and-deck,false,false,0,0,,
-2013,Fire Fist,missing-source-and-deck,false,false,0,0,,
+2013,Mermail,imported,true,true,9,1,Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 18 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 34 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 37 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 38 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 42 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 45 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 48 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 9 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013,Mermail 2013
+2013,Evilswarm,imported,true,true,2,1,Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 51 - YGO State Championship Utah (Jul 2014) - Jul 2014,Evilswarm 2013
+2013,Fire Fist,imported,true,true,15,1,Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 19 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 2 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 20 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013 | Yu-Gi-Oh! Top Decks - deck 24 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 27 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013 | Yu-Gi-Oh! Top Decks - deck 30 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 31 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 36 - YGOverdose Tournament 2 (Jan 2013) - Jan 2013 | Yu-Gi-Oh! Top Decks - deck 4 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 44 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 46 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 47 - YGOverdose Constructed 7 (May 2013) - May 2013 | Yu-Gi-Oh! Top Decks - deck 7 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013 | Yu-Gi-Oh! Top Decks - deck 8 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013,Fire Fist 2013
 2014,HAT,missing-source-and-deck,false,false,0,0,,
 2014,Geargia,missing-source-and-deck,false,false,0,0,,
-2014,Mermail,missing-source-and-deck,false,false,0,0,,
+2014,Mermail,imported,true,true,3,1,Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 57 - YGO State Championship Utah (Jul 2014) - Jul 2014 | Yu-Gi-Oh! Top Decks - deck 63 - YGO State Championship Tennessee (Jul 2014) - Jul 2014,Mermail 2014
 2014,Fire Fist,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 1168,Fire Fist 2014
-2014,Bujin,missing-source-and-deck,false,false,0,0,,
+2014,Bujin,imported,true,true,1,1,Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014,Bujin 2014
 2015,Nekroz,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4520,Nekroz 2015
 2015,Burning Abyss,imported,true,true,1,1,Yu-Gi-Oh! Top Decks deck 4319,Burning Abyss 2015
 2015,Shaddoll,missing-source-and-deck,false,false,0,0,,

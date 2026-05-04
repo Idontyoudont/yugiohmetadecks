@@ -19,9 +19,26 @@ const discoveryReportFilePath = path.join(
   "topDeckSourceDiscoveryReport.json"
 );
 
-const DEFAULT_TARGET_LIMIT = 50;
-const DEFAULT_MAX_PAGES_PER_TARGET = 3;
+const DEFAULT_MAX_PAGES = 461;
 const DEFAULT_MAX_SOURCES = 50;
+
+const targetAliases = {
+  "performapal performage": ["performapal", "performage", "draco performapal"],
+  "plant synchro": ["plant", "synchro", "tengu plant"],
+  "tengu plant": ["tengu plant", "plant", "synchro"],
+  "quickdraw dandywarrior": ["quickdraw", "dandywarrior"],
+  "dino rabbit": ["dino rabbit", "dino", "rabbit"],
+  "hero beat": ["hero beat", "hero"],
+  "dark armed return": ["dark armed return", "dad", "dark armed"],
+  "frog monarch": ["frog monarch", "frog", "monarch"],
+  "chaos dragon": ["chaos dragon", "dragon chaos"],
+  "branded despia": ["branded despia", "branded", "despia"],
+  "pendulum magician": ["pendulum magician", "magician"],
+  "dogmatika invoked": ["dogmatika invoked", "dogmatika", "invoked"],
+  "sky striker": ["sky striker", "striker"],
+  "thunder dragon": ["thunder dragon", "thunder"],
+  "tenpai dragon": ["tenpai", "tenpai dragon"],
+};
 
 function getArgValue(name, fallback) {
   const arg = process.argv.find((item) => item.startsWith(`--${name}=`));
@@ -52,10 +69,6 @@ function normalizeText(value) {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-function slugify(value) {
-  return normalizeText(value).replace(/\s+/g, "-");
 }
 
 function decodeHtmlEntities(value) {
@@ -89,6 +102,10 @@ function writeJsonFile(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 }
 
+function getDeckIdFromUrl(url) {
+  return String(url ?? "").match(/\/deck\/(\d+)/)?.[1] ?? null;
+}
+
 function getSourceKey(source) {
   return [
     source.year,
@@ -97,10 +114,6 @@ function getSourceKey(source) {
     normalizeText(source.player),
     normalizeText(source.url),
   ].join("|");
-}
-
-function getDeckIdFromUrl(url) {
-  return String(url ?? "").match(/\/deck\/(\d+)/)?.[1] ?? null;
 }
 
 function getExistingKeys(registry, intake) {
@@ -131,39 +144,8 @@ function getExistingDeckIds(registry, intake) {
   return ids;
 }
 
-function selectQueueItems(queue, targetLimit) {
-  return queue
-    .filter((item) => item.populationStatus !== "imported")
-    .slice(0, targetLimit);
-}
-
-function buildSearchUrls(queueItem, maxPagesPerTarget) {
-  const queries = [
-    `${queueItem.targetName} ${queueItem.year}`,
-    queueItem.targetName,
-  ];
-
-  const urls = [];
-
-  queries.forEach((query) => {
-    for (let page = 1; page <= maxPagesPerTarget; page += 1) {
-      const params = new URLSearchParams();
-
-      params.set("q", query);
-
-      if (page > 1) {
-        params.set("page", String(page));
-      }
-
-      urls.push({
-        query,
-        page,
-        url: `https://www.yugiohtopdecks.org/decks/search?${params.toString()}`,
-      });
-    }
-  });
-
-  return urls;
+function selectQueueItems(queue) {
+  return queue.filter((item) => item.populationStatus !== "imported");
 }
 
 async function fetchText(url) {
@@ -171,7 +153,7 @@ async function fetchText(url) {
     method: "GET",
     headers: {
       "User-Agent":
-        "Mozilla/5.0 (compatible; YuGiOhMetaDecksSourceDiscovery/1.0)",
+        "Mozilla/5.0 (compatible; YuGiOhMetaDecksFullDeckCrawler/1.0)",
       Accept: "text/html,application/xhtml+xml",
     },
   });
@@ -186,130 +168,172 @@ async function fetchText(url) {
   };
 }
 
-function extractDeckLinksFromSearchHtml(html) {
-  const links = [];
-  const linkPattern = /<a\s+[^>]*href=["']([^"']*\/deck\/\d+[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
-  let match;
+function extractRowsFromTableHtml(html) {
+  const rows = [];
+  const rowPattern = /<tr[\s\S]*?<\/tr>/gi;
+  let rowMatch;
 
-  while ((match = linkPattern.exec(html)) !== null) {
-    const rawHref = decodeHtmlEntities(match[1]);
-    const href = rawHref.startsWith("http")
-      ? rawHref
-      : `https://www.yugiohtopdecks.org${rawHref.startsWith("/") ? "" : "/"}${rawHref}`;
-    const deckId = getDeckIdFromUrl(href);
-    const labelText = stripTags(match[2]);
+  while ((rowMatch = rowPattern.exec(html)) !== null) {
+    const rowHtml = rowMatch[0];
+    const cellMatches = Array.from(rowHtml.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi));
 
-    if (!deckId) {
+    if (cellMatches.length === 0) {
       continue;
     }
 
-    links.push({
+    const cells = cellMatches.map((match) => stripTags(match[1]));
+    const linkMatch = rowHtml.match(/href=["']([^"']*\/deck\/\d+[^"']*)["']/i);
+    const rawHref = linkMatch ? decodeHtmlEntities(linkMatch[1]) : null;
+
+    const deckIdFromHref = rawHref ? getDeckIdFromUrl(rawHref) : null;
+    const deckIdFromFirstCell = String(cells[0] ?? "").match(/\d+/)?.[0] ?? null;
+    const deckId = deckIdFromHref ?? deckIdFromFirstCell;
+
+    if (!deckId || cells.length < 6) {
+      continue;
+    }
+
+    rows.push({
       deckId,
       url: `https://www.yugiohtopdecks.org/deck/${deckId}`,
-      labelText,
+      cells,
+      rowText: cells.join(" | "),
     });
   }
 
-  const uniqueLinks = new Map();
-
-  links.forEach((link) => {
-    uniqueLinks.set(link.deckId, link);
-  });
-
-  return Array.from(uniqueLinks.values());
+  return rows;
 }
 
-function findNearText(html, needle, radius = 900) {
-  const index = html.indexOf(needle);
+function extractRowsFromTextFallback(html) {
+  const text = stripTags(html);
+  const lines = text
+    .split(/\n|(?=\b\d{1,5}\s+[A-Za-z0-9])/g)
+    .map((line) => line.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
 
-  if (index === -1) {
-    return "";
+  return lines
+    .map((line) => {
+      const match = line.match(/^(\d{1,5})\s+(.+)$/);
+
+      if (!match) {
+        return null;
+      }
+
+      return {
+        deckId: match[1],
+        url: `https://www.yugiohtopdecks.org/deck/${match[1]}`,
+        cells: [],
+        rowText: line,
+      };
+    })
+    .filter(Boolean);
+}
+
+function extractDeckRows(html) {
+  const tableRows = extractRowsFromTableHtml(html);
+
+  if (tableRows.length > 0) {
+    return tableRows;
   }
 
-  const start = Math.max(index - radius, 0);
-  const end = Math.min(index + radius, html.length);
-
-  return stripTags(html.slice(start, end));
+  return extractRowsFromTextFallback(html);
 }
 
-function extractFieldFromText(text, fieldName) {
-  const escapedField = fieldName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const pattern = new RegExp(`${escapedField}:\\s*([^\\n|]+)`, "i");
-  const match = text.match(pattern);
-
-  return match?.[1]?.trim() ?? null;
+function parseDateYear(value) {
+  const match = String(value ?? "").match(/\b(20[0-2][0-9]|200[5-9])\b/);
+  return match ? Number(match[1]) : null;
 }
 
-function extractYearFromText(text) {
-  const yearMatch = text.match(/\b(20[0-2][0-9]|200[5-9])\b/);
-  return yearMatch ? Number(yearMatch[1]) : null;
-}
+function parseRowMetadata(row) {
+  const cells = row.cells ?? [];
 
-function getCandidateMetadataFromSearchHtml(html, link) {
-  const nearText = findNearText(html, `/deck/${link.deckId}`);
-  const title = link.labelText || extractFieldFromText(nearText, "Deck") || "";
-  const archetype = extractFieldFromText(nearText, "Archetype");
-  const player =
-    extractFieldFromText(nearText, "Built By") ??
-    extractFieldFromText(nearText, "Player");
-  const tournament = extractFieldFromText(nearText, "Tournament");
-  const discoveredYear = extractYearFromText(nearText);
+  if (cells.length >= 7) {
+    return {
+      deckId: row.deckId,
+      url: row.url,
+      deckName: cells[1] ?? "",
+      archetype: cells[2] ?? "",
+      player: cells[3] ?? "",
+      tournament: cells[4] ?? "",
+      date: cells[5] ?? "",
+      placement: cells[6] ?? "",
+      discoveredYear: parseDateYear(cells[5]) ?? parseDateYear(row.rowText),
+      rowText: row.rowText,
+    };
+  }
 
   return {
-    title,
-    archetype,
-    player,
-    tournament,
-    discoveredYear,
-    nearText,
+    deckId: row.deckId,
+    url: row.url,
+    deckName: "",
+    archetype: "",
+    player: "",
+    tournament: "",
+    date: "",
+    placement: "",
+    discoveredYear: parseDateYear(row.rowText),
+    rowText: row.rowText,
   };
 }
 
+function getTargetTerms(targetName) {
+  const normalizedTarget = normalizeText(targetName);
+  const aliases = targetAliases[normalizedTarget] ?? [];
+
+  return Array.from(new Set([targetName, ...aliases]))
+    .map(normalizeText)
+    .filter(Boolean);
+}
+
 function scoreCandidate(queueItem, metadata) {
-  const normalizedTarget = normalizeText(queueItem.targetName);
-  const normalizedTitle = normalizeText(metadata.title);
+  const targetTerms = getTargetTerms(queueItem.targetName);
+  const normalizedDeckName = normalizeText(metadata.deckName);
   const normalizedArchetype = normalizeText(metadata.archetype);
-  const normalizedText = normalizeText(metadata.nearText);
+  const normalizedRowText = normalizeText(metadata.rowText);
 
   let score = 0;
 
-  if (normalizedArchetype.includes(normalizedTarget)) {
-    score += 5;
-  }
+  targetTerms.forEach((term) => {
+    if (normalizedArchetype === term) {
+      score += 10;
+    } else if (normalizedArchetype.includes(term) || term.includes(normalizedArchetype)) {
+      score += 7;
+    }
 
-  if (normalizedTarget.includes(normalizedArchetype) && normalizedArchetype) {
-    score += 4;
-  }
+    if (normalizedDeckName.includes(term)) {
+      score += 5;
+    }
 
-  if (normalizedTitle.includes(normalizedTarget)) {
-    score += 3;
-  }
-
-  if (normalizedText.includes(normalizedTarget)) {
-    score += 2;
-  }
+    if (normalizedRowText.includes(term)) {
+      score += 2;
+    }
+  });
 
   if (metadata.discoveredYear === queueItem.year) {
-    score += 3;
+    score += 8;
   }
 
-  if (!metadata.discoveredYear) {
-    score += 1;
+  if (metadata.discoveredYear && Math.abs(metadata.discoveredYear - queueItem.year) === 1) {
+    score += 2;
   }
 
   return score;
 }
 
 function looksRelevant(queueItem, metadata) {
-  return scoreCandidate(queueItem, metadata) >= 3;
+  return scoreCandidate(queueItem, metadata) >= 10;
 }
 
-function buildSourceFromCandidate(queueItem, link, metadata) {
+function buildSourceFromCandidate(queueItem, metadata) {
   const deckType = metadata.archetype || queueItem.targetName;
-  const labelParts = ["Yu-Gi-Oh! Top Decks", `deck ${link.deckId}`];
+  const labelParts = ["Yu-Gi-Oh! Top Decks", `deck ${metadata.deckId}`];
 
   if (metadata.tournament) {
     labelParts.push(metadata.tournament);
+  }
+
+  if (metadata.date) {
+    labelParts.push(metadata.date);
   }
 
   return {
@@ -319,166 +343,147 @@ function buildSourceFromCandidate(queueItem, link, metadata) {
     sourceType: "deck-database",
     parseStatus: "unknown",
     label: labelParts.join(" - "),
-    player: metadata.player ?? null,
+    player: metadata.player || null,
     deckType,
-    url: link.url,
+    url: metadata.url,
     notes:
-      "Automatically discovered from Yu-Gi-Oh! Top Decks search. Needs fetch/parse validation before import.",
+      "Automatically discovered from Yu-Gi-Oh! Top Decks full search result pages. Needs fetch/parse validation before import.",
   };
 }
 
-async function discoverForQueueItem(queueItem, options) {
-  const searchUrls = buildSearchUrls(queueItem, options.maxPagesPerTarget);
-  const candidates = [];
-  const fetches = [];
+function findBestTargetForRow(queueItems, metadata) {
+  const scoredTargets = queueItems
+    .map((queueItem) => ({
+      queueItem,
+      score: scoreCandidate(queueItem, metadata),
+      relevant: looksRelevant(queueItem, metadata),
+    }))
+    .filter((item) => item.relevant)
+    .sort((a, b) => b.score - a.score);
 
-  for (const search of searchUrls) {
-    try {
-      const response = await fetchText(search.url);
-
-      fetches.push({
-        query: search.query,
-        page: search.page,
-        url: search.url,
-        ok: response.ok,
-        status: response.status,
-      });
-
-      if (!response.ok) {
-        continue;
-      }
-
-      const links = extractDeckLinksFromSearchHtml(response.text);
-
-      links.forEach((link) => {
-        const metadata = getCandidateMetadataFromSearchHtml(response.text, link);
-        const score = scoreCandidate(queueItem, metadata);
-
-        candidates.push({
-          queueItem,
-          search,
-          link,
-          metadata,
-          score,
-          relevant: looksRelevant(queueItem, metadata),
-        });
-      });
-    } catch (error) {
-      fetches.push({
-        query: search.query,
-        page: search.page,
-        url: search.url,
-        ok: false,
-        status: null,
-        error: error instanceof Error ? error.message : String(error),
-      });
-    }
-  }
-
-  const uniqueCandidates = new Map();
-
-  candidates
-    .filter((candidate) => candidate.relevant)
-    .sort((a, b) => b.score - a.score)
-    .forEach((candidate) => {
-      if (!uniqueCandidates.has(candidate.link.deckId)) {
-        uniqueCandidates.set(candidate.link.deckId, candidate);
-      }
-    });
-
-  return {
-    queueItem,
-    fetches,
-    candidates,
-    relevantCandidates: Array.from(uniqueCandidates.values()),
-  };
+  return scoredTargets[0] ?? null;
 }
 
 async function main() {
-  const targetLimit = getNumberArg("target-limit", DEFAULT_TARGET_LIMIT);
-  const maxPagesPerTarget = getNumberArg(
-    "pages-per-target",
-    DEFAULT_MAX_PAGES_PER_TARGET
-  );
+  const maxPages = getNumberArg("max-pages", DEFAULT_MAX_PAGES);
   const maxSources = getNumberArg("max-sources", DEFAULT_MAX_SOURCES);
 
   const queue = readJsonFile(researchQueueFilePath, []);
   const registry = readJsonFile(registryFilePath, { sources: [] });
   const intake = readJsonFile(intakeFilePath, { sources: [] });
 
-  const queueItems = selectQueueItems(queue, targetLimit);
+  const queueItems = selectQueueItems(queue);
   const existingKeys = getExistingKeys(registry, intake);
   const existingDeckIds = getExistingDeckIds(registry, intake);
 
   const discoveredSources = [];
-  const targetReports = [];
+  const pageReports = [];
 
   console.log("");
   console.log("Discovering Yu-Gi-Oh! Top Decks sources");
   console.log("----------------------------------------");
-  console.log(`Targets checked: ${queueItems.length}`);
-  console.log(`Max pages per target: ${maxPagesPerTarget}`);
+  console.log(`Queue targets available: ${queueItems.length}`);
+  console.log(`Max pages to scan: ${maxPages}`);
   console.log(`Max sources to add: ${maxSources}`);
 
-  for (const queueItem of queueItems) {
+  for (let page = 1; page <= maxPages; page += 1) {
     if (discoveredSources.length >= maxSources) {
       break;
     }
 
-    console.log(`Searching ${queueItem.year} ${queueItem.targetName}...`);
+    const url =
+      page === 1
+        ? "https://www.yugiohtopdecks.org/decks/search"
+        : `https://www.yugiohtopdecks.org/decks/search?page=${page}`;
 
-    const report = await discoverForQueueItem(queueItem, {
-      maxPagesPerTarget,
-    });
+    console.log(`Scanning page ${page}/${maxPages}...`);
 
-    const sourcesForTarget = [];
+    try {
+      const response = await fetchText(url);
 
-    for (const candidate of report.relevantCandidates) {
-      if (discoveredSources.length >= maxSources) {
-        break;
-      }
-
-      if (existingDeckIds.has(candidate.link.deckId)) {
+      if (!response.ok) {
+        pageReports.push({
+          page,
+          url,
+          ok: false,
+          status: response.status,
+          rowCount: 0,
+          relevantRowCount: 0,
+          addedSourceCount: 0,
+          error: response.statusText,
+        });
         continue;
       }
 
-      const source = buildSourceFromCandidate(
-        queueItem,
-        candidate.link,
-        candidate.metadata
-      );
-      const key = getSourceKey(source);
+      const rows = extractDeckRows(response.text);
+      const relevantRows = [];
+      const addedSources = [];
 
-      if (existingKeys.has(key)) {
-        continue;
+      for (const row of rows) {
+        if (discoveredSources.length >= maxSources) {
+          break;
+        }
+
+        const metadata = parseRowMetadata(row);
+        const bestTarget = findBestTargetForRow(queueItems, metadata);
+
+        if (!bestTarget) {
+          continue;
+        }
+
+        relevantRows.push({
+          deckId: metadata.deckId,
+          deckName: metadata.deckName,
+          archetype: metadata.archetype,
+          player: metadata.player,
+          tournament: metadata.tournament,
+          date: metadata.date,
+          discoveredYear: metadata.discoveredYear,
+          targetYear: bestTarget.queueItem.year,
+          targetName: bestTarget.queueItem.targetName,
+          score: bestTarget.score,
+        });
+
+        if (existingDeckIds.has(metadata.deckId)) {
+          continue;
+        }
+
+        const source = buildSourceFromCandidate(bestTarget.queueItem, metadata);
+        const key = getSourceKey(source);
+
+        if (existingKeys.has(key)) {
+          continue;
+        }
+
+        existingKeys.add(key);
+        existingDeckIds.add(metadata.deckId);
+        discoveredSources.push(source);
+        addedSources.push(source);
       }
 
-      existingKeys.add(key);
-      existingDeckIds.add(candidate.link.deckId);
-      discoveredSources.push(source);
-      sourcesForTarget.push(source);
+      pageReports.push({
+        page,
+        url,
+        ok: true,
+        status: response.status,
+        rowCount: rows.length,
+        relevantRowCount: relevantRows.length,
+        addedSourceCount: addedSources.length,
+        relevantRows,
+        addedSources,
+      });
+    } catch (error) {
+      pageReports.push({
+        page,
+        url,
+        ok: false,
+        status: null,
+        rowCount: 0,
+        relevantRowCount: 0,
+        addedSourceCount: 0,
+        error: error instanceof Error ? error.message : String(error),
+      });
     }
-
-    targetReports.push({
-      year: queueItem.year,
-      targetName: queueItem.targetName,
-      fetchCount: report.fetches.length,
-      candidateCount: report.candidates.length,
-      relevantCandidateCount: report.relevantCandidates.length,
-      addedSourceCount: sourcesForTarget.length,
-      addedSources: sourcesForTarget,
-      fetches: report.fetches,
-      topCandidates: report.relevantCandidates.slice(0, 5).map((candidate) => ({
-        deckId: candidate.link.deckId,
-        url: candidate.link.url,
-        score: candidate.score,
-        title: candidate.metadata.title,
-        archetype: candidate.metadata.archetype,
-        player: candidate.metadata.player,
-        tournament: candidate.metadata.tournament,
-        discoveredYear: candidate.metadata.discoveredYear,
-      })),
-    });
   }
 
   const updatedIntake = {
@@ -489,13 +494,11 @@ async function main() {
 
   const discoveryReport = {
     generatedAt: new Date().toISOString(),
-    targetLimit,
-    maxPagesPerTarget,
+    maxPages,
     maxSources,
-    checkedTargetCount: queueItems.length,
     discoveredSourceCount: discoveredSources.length,
     discoveredSources,
-    targets: targetReports,
+    pageReports,
   };
 
   writeJsonFile(discoveryReportFilePath, discoveryReport);
