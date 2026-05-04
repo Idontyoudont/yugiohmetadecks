@@ -78,4 +78,65 @@ export const importedDecks: Deck[] = [
     }
   ],
   },
+  {
+    id: "test-imported-dragon-ruler-variant",
+    name: "Test Imported Dragon Ruler Variant",
+    year: 2013,
+    format: "TCG Advanced",
+    status: "draft",
+    mainDeck: [
+    {
+      name: "Blaster, Dragon Ruler of Infernos",
+      quantity: 1,
+    },
+    {
+      name: "Tidal, Dragon Ruler of Waterfalls",
+      quantity: 1,
+    },
+    {
+      name: "Tempest, Dragon Ruler of Storms",
+      quantity: 1,
+    },
+    {
+      name: "Redox, Dragon Ruler of Boulders",
+      quantity: 1,
+    },
+    {
+      name: "Super Rejuvenation",
+      quantity: 3,
+    },
+    {
+      name: "Gold Sarcophagus",
+      quantity: 1,
+    },
+    {
+      name: "Return from the Different Dimension",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Mecha Phantom Beast Dracossack",
+      quantity: 1,
+    },
+    {
+      name: "Number 11: Big Eye",
+      quantity: 1,
+    },
+    {
+      name: "Crimson Blader",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+    },
+    {
+      name: "Electric Virus",
+      quantity: 1,
+    }
+  ],
+  }
 ];

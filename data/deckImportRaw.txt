@@ -24,3 +24,28 @@ Extra Deck
 Side Deck
 2 Dust Tornado
 1 Mobius the Frost Monarch
+
+---
+
+Deck: Test Imported Dragon Ruler Variant
+Year: 2013
+Format: TCG Advanced
+Status: draft
+
+Main Deck
+1 Blaster, Dragon Ruler of Infernos
+1 Tidal, Dragon Ruler of Waterfalls
+1 Tempest, Dragon Ruler of Storms
+1 Redox, Dragon Ruler of Boulders
+3 Super Rejuvenation
+1 Gold Sarcophagus
+1 Return from the Different Dimension
+
+Extra Deck
+1 Mecha Phantom Beast Dracossack
+1 Number 11: Big Eye
+1 Crimson Blader
+
+Side Deck
+2 Maxx "C"
+1 Electric Virus

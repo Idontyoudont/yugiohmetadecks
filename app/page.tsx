@@ -1,10 +1,7 @@
 import { DeckViewer } from "../components/DeckViewer";
 import { decks } from "../data/decks";
+import { importedDecks } from "../data/importedDecks.generated";
 
 export default function Home() {
-  return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
-      <DeckViewer decks={decks} />
-    </main>
-  );
+  return <DeckViewer decks={[...decks, ...importedDecks]} />;
 }

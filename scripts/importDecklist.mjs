@@ -11,6 +11,12 @@ const outputFilePath = path.join(
   "importedDecks.generated.ts"
 );
 
+const reportOutputFilePath = path.join(
+  projectRoot,
+  "data",
+  "importedDecks.importReport.json"
+);
+
 const validStatuses = new Set(["complete", "sample", "draft"]);
 
 function slugify(value) {
@@ -99,13 +105,20 @@ function addCard(cards, cardToAdd) {
   });
 }
 
-function parseDecklist(rawText) {
+function splitRawTextIntoDeckBlocks(rawText) {
+  return rawText
+    .split(/\n\s*---\s*\n/g)
+    .map((block) => block.trim())
+    .filter(Boolean);
+}
+
+function parseDeckBlock(rawText, index) {
   const lines = rawText
     .split("\n")
     .map(normalizeLine)
     .filter(Boolean);
 
-  let name = "Imported Deck";
+  let name = `Imported Deck ${index + 1}`;
   let year = new Date().getFullYear();
   let format = "Imported Format";
   let status = "draft";
@@ -186,6 +199,10 @@ function parseDecklist(rawText) {
   };
 }
 
+function parseDecklists(rawText) {
+  return splitRawTextIntoDeckBlocks(rawText).map(parseDeckBlock);
+}
+
 function formatCard(card) {
   const tags =
     card.tags && card.tags.length > 0
@@ -208,11 +225,8 @@ ${cards.map(formatCard).join(",\n")}
   ]`;
 }
 
-function generateTypeScript(deck) {
-  return `import type { Deck } from "../types/deck";
-
-export const importedDecks: Deck[] = [
-  {
+function formatDeck(deck) {
+  return `  {
     id: ${escapeString(deck.id)},
     name: ${escapeString(deck.name)},
     year: ${deck.year},
@@ -221,7 +235,14 @@ export const importedDecks: Deck[] = [
     mainDeck: ${formatCardArray(deck.mainDeck)},
     extraDeck: ${formatCardArray(deck.extraDeck)},
     sideDeck: ${formatCardArray(deck.sideDeck)},
-  },
+  }`;
+}
+
+function generateTypeScript(decks) {
+  return `import type { Deck } from "../types/deck";
+
+export const importedDecks: Deck[] = [
+${decks.map(formatDeck).join(",\n")}
 ];
 `;
 }
@@ -230,20 +251,51 @@ function countCards(cards) {
   return cards.reduce((total, card) => total + card.quantity, 0);
 }
 
-function printReport(deck) {
+function buildReport(decks) {
+  return {
+    generatedAt: new Date().toISOString(),
+    inputFile: "data/deckImportRaw.txt",
+    outputFile: "data/importedDecks.generated.ts",
+    deckCount: decks.length,
+    decks: decks.map((deck) => ({
+      id: deck.id,
+      name: deck.name,
+      year: deck.year,
+      format: deck.format,
+      status: deck.status,
+      mainDeckCount: countCards(deck.mainDeck),
+      extraDeckCount: countCards(deck.extraDeck),
+      sideDeckCount: countCards(deck.sideDeck),
+      totalCount:
+        countCards(deck.mainDeck) +
+        countCards(deck.extraDeck) +
+        countCards(deck.sideDeck),
+    })),
+  };
+}
+
+function printReport(report) {
   console.log("");
   console.log("Deck import report");
   console.log("------------------");
-  console.log(`Deck: ${deck.name}`);
-  console.log(`ID: ${deck.id}`);
-  console.log(`Year: ${deck.year}`);
-  console.log(`Format: ${deck.format}`);
-  console.log(`Status: ${deck.status}`);
-  console.log(`Main Deck: ${countCards(deck.mainDeck)} cards`);
-  console.log(`Extra Deck: ${countCards(deck.extraDeck)} cards`);
-  console.log(`Side Deck: ${countCards(deck.sideDeck)} cards`);
+  console.log(`Imported decks: ${report.deckCount}`);
+
+  report.decks.forEach((deck, index) => {
+    console.log("");
+    console.log(`${index + 1}. ${deck.name}`);
+    console.log(`   ID: ${deck.id}`);
+    console.log(`   Year: ${deck.year}`);
+    console.log(`   Format: ${deck.format}`);
+    console.log(`   Status: ${deck.status}`);
+    console.log(`   Main Deck: ${deck.mainDeckCount} cards`);
+    console.log(`   Extra Deck: ${deck.extraDeckCount} cards`);
+    console.log(`   Side Deck: ${deck.sideDeckCount} cards`);
+    console.log(`   Total: ${deck.totalCount} cards`);
+  });
+
   console.log("");
   console.log("Generated data/importedDecks.generated.ts");
+  console.log("Full report saved at data/importedDecks.importReport.json");
 }
 
 function main() {
@@ -253,12 +305,20 @@ function main() {
   }
 
   const rawText = fs.readFileSync(inputFilePath, "utf8");
-  const deck = parseDecklist(rawText);
-  const output = generateTypeScript(deck);
+  const decks = parseDecklists(rawText);
+  const output = generateTypeScript(decks);
+  const report = buildReport(decks);
 
   fs.writeFileSync(outputFilePath, output, "utf8");
+  fs.writeFileSync(reportOutputFilePath, JSON.stringify(report, null, 2), "utf8");
 
-  printReport(deck);
+  printReport(report);
+
+  if (decks.length === 0) {
+    console.log("");
+    console.log("No decks were imported.");
+    console.log("Make sure data/deckImportRaw.txt contains at least one deck block.");
+  }
 }
 
 main();
