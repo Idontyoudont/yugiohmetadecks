@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "check": "npm run decks:quality && npm run decks:curate && npm run decks:year-coverage && npm run build",
 
     "packs:import": "node scripts/importPackSources.mjs",
 
