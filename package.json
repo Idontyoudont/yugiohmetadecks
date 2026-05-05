@@ -12,6 +12,7 @@
 
     "decks:import": "node scripts/importDecklist.mjs",
     "decks:quality": "node scripts/reportImportedDeckQuality.mjs",
+    "decks:prune-rejected": "node scripts/pruneRejectedImportedDecks.mjs",
     "decks:curate": "node scripts/generateCuratedDeckSelection.mjs",
     "decks:year-coverage": "node scripts/reportCuratedYearCoverage.mjs",
 

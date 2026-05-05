@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-05T08:26:27.680Z",
+  "generatedAt": "2026-05-05T08:38:07.486Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalTargetDecks": 105,
-  "selectedDeckCount": 71,
-  "missingDeckCount": 34,
-  "completeYearCount": 7,
-  "partialYearCount": 13,
+  "selectedDeckCount": 77,
+  "missingDeckCount": 28,
+  "completeYearCount": 9,
+  "partialYearCount": 11,
   "emptyYearCount": 1,
   "years": [
     {
@@ -652,9 +652,9 @@
     {
       "year": 2016,
       "targetDeckCount": 5,
-      "selectedDeckCount": 4,
-      "missingDeckCount": 1,
-      "status": "partial",
+      "selectedDeckCount": 5,
+      "missingDeckCount": 0,
+      "status": "complete",
       "selectedDecks": [
         {
           "id": "blue-eyes-2016",
@@ -690,6 +690,18 @@
             "player": "Steve Gleason",
             "deckType": "Kozmo",
             "url": "https://www.yugiohtopdecks.org/deck/4305"
+          }
+        },
+        {
+          "id": "performage-2016",
+          "name": "Performage 2016",
+          "deckType": "Performage",
+          "player": "Jake Mattern",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015",
+            "player": "Jake Mattern",
+            "deckType": "Performage",
+            "url": "https://www.yugiohtopdecks.org/deck/4486"
           }
         },
         {
@@ -856,10 +868,58 @@
     {
       "year": 2020,
       "targetDeckCount": 5,
-      "selectedDeckCount": 1,
-      "missingDeckCount": 4,
-      "status": "partial",
+      "selectedDeckCount": 5,
+      "missingDeckCount": 0,
+      "status": "complete",
       "selectedDecks": [
+        {
+          "id": "dragon-2020",
+          "name": "Dragon 2020",
+          "deckType": "Dragon",
+          "player": "Marvin Enamorado",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019",
+            "player": "Marvin Enamorado",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/8131"
+          }
+        },
+        {
+          "id": "world-2020",
+          "name": "World 2020",
+          "deckType": "World",
+          "player": "Dino Spasovski",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020",
+            "player": "Dino Spasovski",
+            "deckType": "World",
+            "url": "https://www.yugiohtopdecks.org/deck/8417"
+          }
+        },
+        {
+          "id": "danger-2020",
+          "name": "Danger 2020",
+          "deckType": "Danger",
+          "player": "Matteo Bertulezzi",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020",
+            "player": "Matteo Bertulezzi",
+            "deckType": "Danger",
+            "url": "https://www.yugiohtopdecks.org/deck/8557"
+          }
+        },
+        {
+          "id": "shaddoll-2020",
+          "name": "Shaddoll 2020",
+          "deckType": "Shaddoll",
+          "player": "Kevin Nephtys Semlali",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020",
+            "player": "Kevin Nephtys Semlali",
+            "deckType": "Shaddoll",
+            "url": "https://www.yugiohtopdecks.org/deck/8513"
+          }
+        },
         {
           "id": "invoked-windwitch-2020",
           "name": "Invoked Windwitch 2020",
@@ -991,8 +1051,8 @@
     {
       "year": 2023,
       "targetDeckCount": 5,
-      "selectedDeckCount": 2,
-      "missingDeckCount": 3,
+      "selectedDeckCount": 3,
+      "missingDeckCount": 2,
       "status": "partial",
       "selectedDecks": [
         {
@@ -1017,6 +1077,18 @@
             "player": "Herman Hansson",
             "deckType": "Labrynth",
             "url": "https://www.yugiohtopdecks.org/deck/9443"
+          }
+        },
+        {
+          "id": "blue-eyes-2023",
+          "name": "Blue-Eyes 2023",
+          "deckType": "Blue-Eyes",
+          "player": "Abdur-rahman Mujaahid",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023",
+            "player": "Abdur-rahman Mujaahid",
+            "deckType": "Blue-Eyes",
+            "url": "https://www.yugiohtopdecks.org/deck/9527"
           }
         }
       ]

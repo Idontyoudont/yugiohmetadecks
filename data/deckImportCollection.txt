@@ -1914,179 +1914,6 @@ Side Deck
 
 ---
 
-Deck: Evilswarm 2013
-Year: 2013
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013
-Player: Mike Seligson
-Deck Type: Evilswarm
-Source URL: https://www.yugiohtopdecks.org/deck/5
-
-Main Deck
-2 Cardcar D
-2 Rescue Rabbit
-2 Tour Guide From the Underworld
-1 Dark Hole
-2 Forbidden Dress
-1 Heavy Storm
-1 Monster Reborn
-1 Reinforcement of the Army
-2 Bottomless Trap Hole
-3 Fiendish Chain
-2 Macro Cosmos
-2 Mirror Force
-1 Safe Zone
-1 Solemn Judgment
-1 Solemn Warning
-1 Torrential Tribute
-
-Extra Deck
-1 Abyss Dweller
-1 Leviair the Sea Dragon
-1 Maestroke the Symphony Djinn
-1 Number 17: Leviathan Dragon
-1 Number 39: Utopia
-1 Temtempo the Percussion Djinn
-1 Wind-Up Zenmaines
-1 Gem-Knight Pearl
-
-Side Deck
-2 Jurrac Guaiba
-1 Neo-Spacian Grand Mole
-3 Mystical Space Typhoon
-1 Black Horn of Heaven
-1 Deck Devastation Virus
-2 Eradicator Epidemic Virus
-1 Macro Cosmos
-2 Safe Zone
-1 Torrential Tribute
-
----
-
-Deck: Traptrix 2014
-Year: 2014
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014
-Player: Matthew Hattershide
-Deck Type: Traptrix
-Source URL: https://www.yugiohtopdecks.org/deck/199
-
-Main Deck
-3 Artifact Moralltach
-1 Cardcar D
-3 Fire Hand
-3 Ice Hand
-2 Maxx "C"
-2 Traptrix Dionaea
-3 Traptrix Myrmeleo
-1 Mind Control
-2 Mystical Space Typhoon
-1 Pot of Dichotomy
-3 Pot of Duality
-1 Soul Charge
-3 Artifact Sanctum
-1 Bottomless Trap Hole
-1 Breakthrough Skill
-2 Call of the Haunted
-2 Dimensional Prison
-1 Fiendish Chain
-1 Solemn Warning
-1 Torrential Tribute
-2 Traptrix Trap Hole Nightmare
-1 Wiretap
-
-Extra Deck
-1 Abyss Dweller
-1 Constellar Pleiades
-1 Diamond Dire Wolf
-1 Evilswarm Exciton Knight
-1 Gaia Dragon, the Thunder Charger
-1 Lavalval Chain
-1 Maestroke the Symphony Djinn
-1 Number 101: Silent Honor ARK
-1 Number 103: Ragnazero
-1 Number 50: Blackship of Corn
-1 Number 61: Volcasaurus
-1 Number 80: Rhapsody in Berserk
-1 Steelswarm Roach
-1 Tiras, Keeper of Genesis
-
-Side Deck
-2 Ally of Justice Cycle Reader
-1 Mystical Space Typhoon
-1 Big Burn
-2 Black Horn of Heaven
-1 Different Dimension Ground
-2 Light-Imprisoning Mirror
-2 Mind Crush
-1 Vanity's Emptiness
-
----
-
-Deck: Artifact 2014
-Year: 2014
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014
-Player: Stephan Reiter
-Deck Type: Artifact
-Source URL: https://www.yugiohtopdecks.org/deck/72
-
-Main Deck
-1 Artifact Beagalltach
-3 Artifact Moralltach
-1 Brotherhood of the Fire Fist - Bear
-1 Coach Soldier Wolfbark
-3 Fire Hand
-3 Ice Hand
-1 Traptrix Dionaea
-3 Traptrix Myrmeleo
-3 Artifact Ignition
-1 Book of Moon
-3 Fire Formation - Tenki
-3 Pot of Duality
-1 Soul Charge
-3 Artifact Sanctum
-2 Black Horn of Heaven
-1 Bottomless Trap Hole
-1 Call of the Haunted
-1 Compulsory Evacuation Device
-1 Solemn Warning
-1 Torrential Tribute
-2 Trap Hole
-1 Traptrix Trap Hole Nightmare
-2 Wiretap
-
-Extra Deck
-1 Abyss Dweller
-1 Brotherhood of the Fire Fist - Tiger King
-1 Cairngorgon, Antiluminescent Knight
-1 Diamond Dire Wolf
-1 Gagaga Cowboy
-2 Maestroke the Symphony Djinn
-1 Number 103: Ragnazero
-2 Number 50: Blackship of Corn
-1 Number 61: Volcasaurus
-1 Number 80: Rhapsody in Berserk
-1 Photon Papilloperative
-2 Steelswarm Roach
-1 Gem-Knight Pearl
-
-Side Deck
-1 Brotherhood of the Fire Fist - Gorilla
-1 Kuribandit
-1 Dimensional Fissure
-2 Forbidden Lance
-3 Mystical Space Typhoon
-2 Necrovalley
-1 Soul Charge
-2 Phoenix Wing Wind Blast
-2 Royal Royal Decree
-
----
-
 Deck: Gadget 2007
 Year: 2007
 Format: Imported Format
@@ -2443,68 +2270,6 @@ Side Deck
 2 Twister
 2 Shadow-Imprisoning Mirror
 3 Xing Zhen Hu
-
----
-
-Deck: Zombie 2007
-Year: 2007
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 1494 - Regional - San Jose California (Nov 2013) - Nov 2013
-Player: Gustavo Hernandez
-Deck Type: Zombie
-Source URL: https://www.yugiohtopdecks.org/deck/1494
-
-Main Deck
-1 Armageddon Knight
-2 Card Trooper
-1 Dark Armed Dragon
-3 Destiny HERO - Malicious
-1 Effect Veiler
-3 Goblin Zombie
-2 Maxx "C"
-2 Mezuki
-2 Plaguespreader Zombie
-1 Spirit Reaper
-1 Zombie Master
-1 Book of Life
-1 Burial from a Different Dimension
-1 Dark Hole
-1 Foolish Burial
-3 Pot of Duality
-1 Bottomless Trap Hole
-2 Fiendish Chain
-2 Phoenix Wing Wind Blast
-1 Return from the Different Dimension
-1 Sixth Sense
-1 Solemn Warning
-1 Torrential Tribute
-1 Trap Stun
-
-Extra Deck
-1 Ally of Justice Catastor
-1 Constellar Ptolemy M7
-1 Crimson Blader
-1 Daigusto Phoenix
-1 Dark End Dragon
-1 Infernity Doom Dragon
-2 Lavalval Chain
-1 Leviair the Sea Dragon
-1 Orient Dragon
-1 Revived King Ha Des
-1 Scrap Dragon
-1 Stardust Dragon
-1 Void Ogre Dragon
-1 Gem-Knight Pearl
-
-Side Deck
-1 Snipe Hunter
-2 Vanity's Fiend
-3 DNA Surgery
-2 Gozen Match
-3 Imperial Iron Wall
-2 Royal Royal Decree
-1 Soul Drain
 
 ---
 
@@ -3576,80 +3341,6 @@ Side Deck
 
 ---
 
-Deck: Warrior 2005
-Year: 2005
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 2952 - 2006 SJ Atlanta (Oct 2005) - Oct 2005
-Player: Mike Stavinohn
-Deck Type: Warrior
-Source URL: https://www.yugiohtopdecks.org/deck/2952
-
-Main Deck
-1 Big Shield Gardna
-1 Breaker the Magical Warrior
-1 Cyber Dragon
-3 D.D. Assailant
-1 D.D. Warrior Lady
-1 Don Zaloog
-1 Legendary Jujitsu Master
-1 Magician of Faith
-2 Mobius the Frost Monarch
-1 Morphing Jar
-1 Mystic Tomato
-1 Sangan
-1 Spirit Reaper
-2 Thestalos the Firestorm Monarch
-1 Book of Moon
-1 Brain Control
-1 Confiscation
-1 Dark Hole
-2 Enemy Controller
-1 Heavy Storm
-1 Metamorphosis
-1 Mystical Space Typhoon
-1 Nobleman of Crossout
-1 Premature Burial
-1 Scapegoat
-1 Snatch Steal
-2 Soul Exchange
-1 Swords of Revealing Light
-2 Bottomless Trap Hole
-1 Call of the Haunted
-1 Compulsory Evacuation Device
-2 Sakuretsu Armor
-1 Torrential Tribute
-
-Extra Deck
-1 Cyber End Dragon
-3 Dark Balter the Terrible
-3 Dark Blade the Dragon Knight
-1 Fiend Skull Dragon
-1 Gatling Dragon
-3 Ojama King
-2 Reaper on the Nightmare
-1 Ryu Senshi
-1 Thousand-Eyes Restrict
-2 Darkfire Dragon
-1 Flame Ghost
-2 Fusionist
-1 Gaia the Dragon Champion
-3 Sanwitch
-
-Side Deck
-1 Kinetic Soldier
-2 Giant Trunade
-1 Messenger of Peace
-2 Prohibition
-1 Wave-Motion Cannon
-1 Ceasefire
-1 Royal Royal Decree
-2 Solemn Judgment
-1 Trap Hole
-2 Waboku
-
----
-
 Deck: Prime Monarch 2006
 Year: 2006
 Format: Imported Format
@@ -3845,60 +3536,6 @@ Side Deck
 2 Cursed Seal of the Forbidden Spell
 3 Royal Royal Decree
 2 Spell Shield Type-8
-
----
-
-Deck: TeleDAD 2008
-Year: 2008
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 2438 - Kings Games Regionals (Jan 2009) - Jan 2009
-Player: Ace Chen
-Deck Type: TeleDAD
-Source URL: https://www.yugiohtopdecks.org/deck/2438
-
-Main Deck
-1 Armageddon Knight
-2 Dark Armed Dragon
-1 Dark Grepher
-1 Gorz the Emissary of Darkness
-3 Krebons
-1 Necro Gardna
-1 Plaguespreader Zombie
-1 Sangan
-1 Snipe Hunter
-1 Spirit Reaper
-3 Allure of Darkness
-1 Brain Control
-3 Destiny Draw
-3 Emergency Teleport
-1 Heavy Storm
-1 Monster Reborn
-1 Mystical Space Typhoon
-2 Reinforcement of the Army
-1 Crush Card Virus
-1 Mirror Force
-2 Phoenix Wing Wind Blast
-3 Solemn Judgment
-1 Torrential Tribute
-
-Extra Deck
-1 Black Rose Dragon
-2 Colossal Fighter
-3 Goyo Guardian
-1 Iron Chain Dragon
-2 Magical Android
-2 Red Dragon Archfiend
-2 Stardust Dragon
-2 Thought Ruler Archfiend
-
-Side Deck
-2 D.D. Crow
-3 Thunder King Rai-Oh
-2 Enemy Controller
-2 Compulsory Evacuation Device
-3 Light-Imprisoning Mirror
-3 Threatening Roar
 
 ---
 
@@ -4230,67 +3867,6 @@ Side Deck
 
 ---
 
-Deck: Trickstar 2018
-Year: 2018
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 6696 - YCS - Rimini Italy (Aug 2017) - Aug 2017
-Player: Sylvain Machat
-Deck Type: Trickstar
-Source URL: https://www.yugiohtopdecks.org/deck/6696
-
-Main Deck
-2 Ash Blossom & Joyous Spring
-2 Blackwing - Gofu the Vague Shadow
-3 Droll & Lock Bird
-2 Ghost Ogre & Snow Rabbit
-2 Honest
-1 Maxx "C"
-3 Trickstar Candina
-1 Trickstar Lilybell
-3 Trickstar Lycoris
-2 Book of Eclipse
-2 Instant Fusion
-2 Pot of Desires
-1 Raigeki
-2 Terraforming
-3 Trickstar Light Stage
-2 Disturbance Strategy
-2 Solemn Strike
-1 Solemn Warning
-2 Storming Mirror Force
-3 Trickstar Reincarnation
-
-Extra Deck
-1 Beelze of the Diabolic Dragons
-1 Black Rose Dragon
-1 Blood Mefist
-1 Decode Talker
-1 Gagaga Cowboy
-1 Link Spider
-1 Number 30: Acid Golem of Destruction
-1 Number 47: Nightmare Shark
-1 Proxy Dragon
-1 PSY-Framelord Omega
-1 The Phantom Knights of Break Sword
-1 Tornado Dragon
-1 Zoodiac Broadbull
-1 Zoodiac Drident
-1 Sea Monster of Theseus
-
-Side Deck
-1 Gadarla, the Mystery Dust Kaiju
-1 Gameciel, the Sea Turtle Kaiju
-2 Hanewata
-1 Thunder King, the Lightningstrike Kaiju
-2 Cosmic Cyclone
-1 Interrupted Kaiju Slumber
-2 Dimensional Barrier
-1 Heavy Storm Duster
-1 Imperial Order
-
----
-
 Deck: Danger 2019
 Year: 2019
 Format: Imported Format
@@ -4578,65 +4154,6 @@ Side Deck
 2 Needle Ceiling
 2 Quaking Mirror Force
 2 Typhoon
-
----
-
-Deck: Thunder 2019
-Year: 2019
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 545 - YCS - Sydney Australia (Jan 2014) - Jan 2014
-Player: Tom Kralj
-Deck Type: Thunder
-Source URL: https://www.yugiohtopdecks.org/deck/545
-
-Main Deck
-2 Cardcar D
-1 Honest
-3 Mahunder
-3 Pahunder
-2 Sishunder
-1 Thunder King Rai-Oh
-3 Thunder Sea Horse
-1 Tragoedia
-2 Vylon Prism
-2 Wattgiraffe
-1 Book of Moon
-1 Dark Hole
-3 Mystical Space Typhoon
-1 Pot of Duality
-3 Recycling Batteries
-1 Bottomless Trap Hole
-1 Compulsory Evacuation Device
-2 Fiendish Chain
-2 Threatening Roar
-1 Torrential Tribute
-2 Trap Stun
-2 Void Trap Hole
-
-Extra Deck
-1 Abyss Dweller
-2 Constellar Omega
-1 Constellar Ptolemy M7
-1 Diamond Dire Wolf
-1 Gagaga Cowboy
-1 Maestroke the Symphony Djinn
-1 Number 50: Blackship of Corn
-1 Number 91: Thunder Spark Dragon
-1 Scrap Dragon
-1 Stardust Dragon
-2 Starliege Paladynamo
-1 Gem-Knight Pearl
-
-Side Deck
-1 Crimson Blader
-2 The Calibrator
-2 Spell Shattering Arrow
-2 DNA Surgery
-2 Gozen Match
-1 Malevolent Catastrophe
-2 Royal Royal Decree
-1 Soul Drain
 
 ---
 
@@ -5084,55 +4601,6 @@ Side Deck
 
 ---
 
-Deck: D.D. 2022
-Year: 2022
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 2613 - 2008 SJ Orlando (Jan 2008) - Jan 2008
-Player: Danny Brown
-Deck Type: D.D.
-Source URL: https://www.yugiohtopdecks.org/deck/2613
-
-Main Deck
-2 Banisher of the Radiance
-1 Breaker the Magical Warrior
-3 Cyber Dragon
-1 D.D. Scout Plane
-3 D.D. Survivor
-1 D.D. Warrior Lady
-1 Marshmallon
-1 Morphing Jar
-3 Raiza the Storm Monarch
-1 Snipe Hunter
-1 Spirit Reaper
-1 Zaborg the Thunder Monarch
-1 Brain Control
-3 Dimensional Fissure
-2 Enemy Controller
-1 Lightning Vortex
-1 Mystical Space Typhoon
-2 Reinforcement of the Army
-1 Scapegoat
-3 Dark Bribe
-2 Macro Cosmos
-1 Mirror Force
-2 Pulling the Rug
-3 Solemn Judgment
-1 Torrential Tribute
-
-Extra Deck
-
-Side Deck
-1 Card Trooper
-1 Sangan
-1 Treeborn Frog
-1 Zaborg the Thunder Monarch
-3 Destiny Draw
-1 Premature Burial
-1 Call of the Haunted
-
----
-
 Deck: Floowandereeze 2022
 Year: 2022
 Format: Imported Format
@@ -5303,67 +4771,6 @@ Side Deck
 
 ---
 
-Deck: Tearlaments 2022
-Year: 2022
-Format: Imported Format
-Status: draft
-Source: Yu-Gi-Oh! Top Decks - deck 9081 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022
-Player: Jesse Kotton
-Deck Type: Tearlaments
-Source URL: https://www.yugiohtopdecks.org/deck/9081
-
-Main Deck
-1 Blackwing - Zephyros the Elite
-1 Danger! Bigfoot!
-1 Danger!? Jackalope?
-3 Danger! Mothman!
-3 Danger! Nessie!
-1 Danger!? Tsuchinoko?
-1 Destrudo the Lost Dragon's Frisson
-1 Fairy Tail - Snow
-1 Gizmek Orochi, the Serpentron Sky Slasher
-1 Spright Jet
-3 Tearlaments Havnis
-3 Tearlaments Merrli
-3 Tearlaments Reinoheart
-3 Tearlaments Scheiren
-3 Dark Ruler No More
-1 Foolish Burial
-1 Instant Fusion
-2 Pot of Desires
-3 Primeval Planet Perlereino
-1 Spright Smashers
-3 Super Polymerization
-1 Terraforming
-1 Eradicator Epidemic Virus
-2 Tearlaments Sulliek
-
-Extra Deck
-1 Abyss Dweller
-1 Curious, the Lightsworn Dominion
-1 Dharc the Dark Charmer, Gloomy
-1 Garura, Wings of Resonant Life
-1 Gigantic Spright
-1 I:P Masquerena
-1 Knightmare Gryphon
-1 Muddy Mudragon
-1 Predaplant Dragostapelia
-1 Spright Elf
-1 Tearlaments Kaleido-Heart
-2 Tearlaments Kitkallos
-1 Time Thief Redoer
-1 Topologic Zeroboros
-
-Side Deck
-3 Nibiru, the Primal Being
-1 PSY-Frame Driver
-3 PSY-Framegear Gamma
-1 Red Resonator
-3 Galaxy Cyclone
-1 Red Reboot
-
----
-
 Deck: Labrynth 2023
 Year: 2023
 Format: Imported Format
@@ -5530,3 +4937,451 @@ Side Deck
 2 Xyz Encore
 2 Crevice Into the Different Dimension
 2 Skill Drain
+
+---
+
+Deck: Performage 2016
+Year: 2016
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015
+Player: Jake Mattern
+Deck Type: Performage
+Source URL: https://www.yugiohtopdecks.org/deck/4486
+
+Main Deck
+1 D.D. Warrior Lady
+2 Heroic Challenger - Assault Halberd
+1 Heroic Challenger - Thousand Blades
+3 Jigabyte
+2 Juragedo
+1 Mathematician
+3 Maxx "C"
+1 Nefarious Archfiend Eater of Nefariousness
+3 Performage Damage Juggler
+3 Performage Hat Tricker
+3 Performage Trick Clown
+3 Retaliating "C"
+1 Book of Moon
+1 Foolish Burial
+1 Instant Fusion
+1 Mind Control
+1 Raigeki
+1 Reinforcement of the Army
+1 Bottomless Trap Hole
+2 Breakthrough Skill
+1 Compulsory Evacuation Device
+1 Solemn Warning
+1 Time-Space Trap Hole
+1 Torrential Tribute
+1 Vanity's Emptiness
+
+Extra Deck
+1 Abyss Dweller
+1 Castel, the Skyblaster Musketeer
+1 Daigusto Emeral
+1 Dark Rebellion Xyz Dragon
+1 Elder Entity Norden
+2 Evilswarm Exciton Knight
+1 King of the Feral Imps
+1 Number 101: Silent Honor ARK
+1 Number 106: Giant Hand
+1 Number 52: Diamond Crab King
+1 Number 80: Rhapsody in Berserk
+1 Performage Trapeze Magician
+1 Stellarknight Constellar Diamond
+1 Tellarknight Ptolemaeus
+
+Side Deck
+2 Ghost Ogre & Snow Rabbit
+1 Gravekeeper's Commandant
+1 Kycoo the Ghost Destroyer
+1 Shaddoll Dragon
+1 Stellarknight Delteros
+2 De-Fusion
+3 Mystical Space Typhoon
+2 Necrovalley
+2 Royal Royal Decree
+
+---
+
+Deck: Mekk-Knight 2020
+Year: 2020
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 8423 - Regional - Shreveport Louisiana (Jan 2020) - Jan 2020
+Player: Nicholas Pitts
+Deck Type: Mekk-Knight
+Source URL: https://www.yugiohtopdecks.org/deck/8423
+
+Main Deck
+3 Aleister the Invoker
+3 Ash Blossom & Joyous Spring
+3 Fantastical Dragon Phantazmay
+3 Mekk-Knight Blue Sky
+3 Mekk-Knight Indigo Eclipse
+1 Mekk-Knight Purple Nightfall
+2 Called by the Grave
+2 Cosmic Cyclone
+2 Instant Fusion
+3 Invocation
+3 Magical Meltdown
+3 Mind Control
+3 Pot of Desires
+1 Sky Striker Mecha - Hornet Drones
+1 Terraforming
+3 Infinite Impermanence
+1 World Legacy's Secret
+
+Extra Deck
+1 Aleister the Invoker of Madness
+1 Black Luster Soldier - Soldier of Chaos
+1 Borrelsword Dragon
+1 Dingirsu, the Orcust of the Evening Star
+1 Invoked Caliga
+3 Invoked Mechaba
+1 Invoked Purgatrio
+1 Linkuriboh
+1 Mekk-Knight of the Morning Star
+1 Salamangreat Almiraj
+1 Secure Gardna
+1 Sky Striker Ace - Kagari
+1 Thousand-Eyes Restrict
+
+Side Deck
+3 Artifact Lancea
+3 Nibiru, the Primal Being
+3 Evenly Matched
+3 Red Reboot
+3 There Can Be Only One
+
+---
+
+Deck: Shaddoll 2020
+Year: 2020
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020
+Player: Kevin Nephtys Semlali
+Deck Type: Shaddoll
+Source URL: https://www.yugiohtopdecks.org/deck/8513
+
+Main Deck
+3 Aleister the Invoker
+3 Performage Damage Juggler
+1 Performage Hat Tricker
+1 Performage Trick Clown
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+2 Shaddoll Beast
+2 Shaddoll Dragon
+1 Shaddoll Falco
+3 Shaddoll Hedgehog
+2 Shaddoll Squamata
+3 Called by the Grave
+3 El Shaddoll Fusion
+1 Foolish Burial
+3 Invocation
+3 Magical Meltdown
+1 Mystic Mine
+1 Set Rotation
+3 Shaddoll Fusion
+1 Terraforming
+1 Shaddoll Core
+
+Extra Deck
+1 Aleister the Invoker of Madness
+1 Apollousa, Bow of the Goddess
+1 Borrelsword Dragon
+1 Cross-Sheep
+3 El Shaddoll Construct
+2 El Shaddoll Winda
+1 Invoked Caliga
+2 Invoked Mechaba
+1 Invoked Purgatrio
+1 Knightmare Phoenix
+1 Salamangreat Almiraj
+
+Side Deck
+2 D.D. Crow
+1 Dinowrestler Pankratops
+3 Droll & Lock Bird
+3 Lightning Storm
+2 Mystic Mine
+3 Evenly Matched
+1 Red Reboot
+
+---
+
+Deck: Dragon 2020
+Year: 2020
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019
+Player: Marvin Enamorado
+Deck Type: Dragon
+Source URL: https://www.yugiohtopdecks.org/deck/8131
+
+Main Deck
+1 Alexandrite Dragon
+2 Ash Blossom & Joyous Spring
+1 Black Dragon Collapserpent
+1 Carboneddon
+2 Danger!? Jackalope?
+1 Danger! Mothman!
+1 Danger! Nessie!
+2 Effect Veiler
+2 Fantastical Dragon Phantazmay
+1 Flamvell Guard
+1 Ghost Ogre & Snow Rabbit
+1 Jurrac Aeolo
+1 Miscellaneousaurus
+1 Red-Eyes Darkness Metal Dragon
+1 Rokket Synchron
+1 Rokket Tracer
+1 Silverrokket Dragon
+3 Souleating Oviraptor
+1 Tempest, Dragon Ruler of Storms
+1 White Dragon Wyverburster
+1 World Chalice Guardragon
+3 Called by the Grave
+1 Dragon Ravine
+1 Foolish Burial
+3 Fossil Dig
+3 Quick Launch
+2 Unexpected Dai
+2 World Legacy Guardragon
+1 World Legacy Succession
+
+Extra Deck
+1 Apollousa, Bow of the Goddess
+1 Borreload Savage Dragon
+1 Borrelsword Dragon
+1 Dragunity Knight - Romulus
+1 Guardragon Agarpain
+1 Guardragon Elpy
+1 Guardragon Pisty
+1 Hieratic Seal of the Heavenly Spheres
+1 Hot Red Dragon Archfiend Abyss
+1 Ib the World Chalice Justiciar
+1 PSY-Framelord Lambda
+1 PSY-Framelord Omega
+1 Saryuja Skull Dread
+1 Triple Burst Dragon
+1 Void Ogre Dragon
+
+Side Deck
+1 Dinowrestler Pankratops
+1 Link Spider
+3 Dragged Down into the Grave
+3 Twin Twisters
+2 Eradicator Epidemic Virus
+1 Imperial Order
+2 Infinite Impermanence
+2 Red Reboot
+
+---
+
+Deck: Danger 2020
+Year: 2020
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020
+Player: Matteo Bertulezzi
+Deck Type: Danger
+Source URL: https://www.yugiohtopdecks.org/deck/8557
+
+Main Deck
+1 Absorouter Dragon
+1 Autorokket Dragon
+1 Black Dragon Collapserpent
+2 Carboneddon
+1 Chaos Dragon Levianeer
+1 Cir, Malebranche of the Burning Abyss
+2 Danger!? Jackalope?
+2 Danger!? Tsuchinoko?
+1 Destrudo the Lost Dragon's Frisson
+1 Fiendish Rhino Warrior
+1 Galactic Spiral Dragon
+1 Gilasaurus
+1 Graff, Malebranche of the Burning Abyss
+1 Hunter Dragon
+2 Junk Forward
+3 Kagemucha Knight
+1 Libic, Malebranche of the Burning Abyss
+3 Lonefire Blossom
+1 Magnarokket Dragon
+1 Omni Dragon Brotaur
+1 Predaplant Darlingtonia Cobra
+3 Predaplant Ophrys Scorpio
+2 Psychic Tracker
+1 Rokket Recharger
+1 Rokket Tracer
+1 Speedroid Taketomborg
+1 Speedroid Terrortop
+1 Starliege Seyfert
+2 Tour Guide From the Underworld
+1 White Dragon Wyverburster
+1 Boot Sector Launch
+3 Called by the Grave
+3 Dark Ruler No More
+1 Dragon Ravine
+1 Emergency Teleport
+1 Foolish Burial
+3 Fossil Dig
+1 Instant Fusion
+3 Quick Launch
+1 Imperial Order
+
+Extra Deck
+1 Apollousa, Bow of the Goddess
+1 Borreload Savage Dragon
+1 Borrelsword Dragon
+1 Cherubini, Ebon Angel of the Burning Abyss
+1 Curious, the Lightsworn Dominion
+1 Draco Masters of the Tenyi
+1 Dragunity Knight - Romulus
+1 Guardragon Elpy
+1 Guardragon Pisty
+1 Knightmare Gryphon
+1 Knightmare Phoenix
+1 Knightmare Unicorn
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Striker Dragon
+1 Darkfire Dragon
+
+Side Deck
+1 Gadarla, the Mystery Dust Kaiju
+1 Gameciel, the Sea Turtle Kaiju
+1 Topologic Trisbaena
+3 Anti-Magic Arrows
+3 Book of Eclipse
+3 Lightning Storm
+2 Twin Twisters
+1 Red Reboot
+
+---
+
+Deck: World 2020
+Year: 2020
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020
+Player: Dino Spasovski
+Deck Type: World
+Source URL: https://www.yugiohtopdecks.org/deck/8417
+
+Main Deck
+1 Archlord Kristya
+2 Ash Blossom & Joyous Spring
+1 Beckoned by the World Chalice
+2 Chosen by the World Chalice
+1 Crowned by the World Chalice
+2 Exodius the Ultimate Forbidden Lord
+2 Ghost Belle & Haunted Mansion
+1 Ghost Ogre & Snow Rabbit
+3 Lee the World Chalice Fairy
+3 Mystical Shine Ball
+2 Omni Dragon Brotaur
+3 The Agent of Creation - Venus
+3 World Chalice Guardragon
+3 World Legacy - "World Chalice"
+2 Called by the Grave
+2 Cosmic Cyclone
+1 Emergency Teleport
+1 Foolish Burial
+1 Monster Reborn
+2 Unexpected Dai
+1 World Legacy's Heart
+1 World Legacy Succession
+1 The Phantom Knights of Shade Brigandine
+1 World Legacy's Sorrow
+
+Extra Deck
+1 Apollousa, Bow of the Goddess
+1 Auram the World Chalice Blademaster
+1 Borreload Savage Dragon
+1 Borrelsword Dragon
+1 Guardragon Elpy
+1 Hieratic Seal of the Heavenly Spheres
+1 Ib the World Chalice Justiciar
+1 Ib the World Chalice Priestess
+2 Imduk the World Chalice Dragon
+1 I:P Masquerena
+1 Knightmare Phoenix
+1 Knightmare Unicorn
+1 Link Spider
+1 Ningirsu the World Chalice Warrior
+
+Side Deck
+3 Artifact Lancea
+2 Nibiru, the Primal Being
+2 Dark Ruler No More
+3 Mystical Space Typhoon
+3 System Down
+2 Evenly Matched
+
+---
+
+Deck: Blue-Eyes 2023
+Year: 2023
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023
+Player: Abdur-rahman Mujaahid
+Deck Type: Blue-Eyes
+Source URL: https://www.yugiohtopdecks.org/deck/9527
+
+Main Deck
+1 Albion the Shrouded Dragon
+2 Blue-Eyes Jet Dragon
+1 Blue-Eyes White Dragon
+1 Dogmatika Ecclesia, the Virtuous
+1 Dogmatika Fleurdelis, the Knighted
+1 Dogmatika Maximus
+2 Fallen of Albaz
+3 Keeper of Dragon Magic
+1 Predaplant Bufolicula
+1 Predaplant Darlingtonia Cobra
+1 Springans Kitt
+2 The White Stone of Ancients
+1 Tri-Brigade Mercourier
+3 Branded Fusion
+3 Branded in High Spirits
+1 Called by the Grave
+1 Fusion Deployment
+1 Instant Fusion
+3 Nadir Servant
+3 Sales Ban
+2 Super Polymerization
+1 Triple Tactics Talent
+1 Triple Tactics Thrust
+1 Ultimate Fusion
+1 Branded Retribution
+3 Skill Drain
+
+Extra Deck
+1 Alba-Lenatus the Abyss Dragon
+2 Albion the Branded Dragon
+1 Blue-Eyes Tyrant Dragon
+1 Brigrand the Glory Dragon
+2 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+1 Lubellion the Searing Dragon
+1 Mirrorjade the Iceblade Dragon
+1 Predaplant Ambulomelides
+1 Predaplant Chimerafflesia
+1 Predaplant Dragostapelia
+1 PSY-Framelord Omega
+1 Titaniklad the Ash Dragon
+
+Side Deck
+1 Dinowrestler Pankratops
+2 Ghost Belle & Haunted Mansion
+3 Ghost Sister & Spooky Dogwood
+1 Jinzo
+1 Ra's Disciple
+2 Book of Eclipse
+2 Dark Ruler No More
+2 Twin Twisters
+1 Branded Expulsion

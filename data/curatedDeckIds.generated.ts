@@ -47,6 +47,7 @@ export const curatedDeckIds = [
   "blue-eyes-2016",
   "burning-abyss-2016",
   "kozmo-2016",
+  "performage-2016",
   "performapal-2016",
   "magician-2017",
   "zoodiac-2017",
@@ -58,6 +59,10 @@ export const curatedDeckIds = [
   "sky-striker-2019",
   "subterror-2019",
   "danger-2019",
+  "dragon-2020",
+  "world-2020",
+  "danger-2020",
+  "shaddoll-2020",
   "invoked-windwitch-2020",
   "prank-kids-2021",
   "dragon-2021",
@@ -69,6 +74,7 @@ export const curatedDeckIds = [
   "runick-2022",
   "mathmech-2023",
   "labrynth-2023",
+  "blue-eyes-2023",
   "dragon-2024"
 ];
 

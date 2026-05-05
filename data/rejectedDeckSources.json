@@ -1,0 +1,387 @@
+{
+  "generatedAt": "2026-05-05T08:38:06.891Z",
+  "topDeckIds": [
+    "5",
+    "72",
+    "199",
+    "545",
+    "1494",
+    "2438",
+    "2613",
+    "2952",
+    "6696",
+    "9081",
+    "9456"
+  ],
+  "deckNames": [
+    "Artifact 2014",
+    "D.D. 2022",
+    "Evilswarm 2013",
+    "Kashtira 2023",
+    "Tearlaments 2022",
+    "TeleDAD 2008",
+    "Thunder 2019",
+    "Traptrix 2014",
+    "Trickstar 2018",
+    "Warrior 2005",
+    "Zombie 2007"
+  ],
+  "notes": [
+    {
+      "rejectedAt": "2026-05-05T08:38:06.888Z",
+      "deckName": "Evilswarm 2013",
+      "deckId": "evilswarm-2013",
+      "topDeckId": "5",
+      "severity": "error",
+      "mainDeckCount": 25,
+      "extraDeckCount": 8,
+      "sideDeckCount": 14,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/5",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 25 cards. Expected 40 to 60."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Traptrix 2014",
+      "deckId": "traptrix-2014",
+      "topDeckId": "199",
+      "severity": "warning",
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 12,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/199",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 12 cards. Expected 0 or 15."
+        },
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Artifact 2014",
+      "deckId": "artifact-2014",
+      "topDeckId": "72",
+      "severity": "error",
+      "mainDeckCount": 42,
+      "extraDeckCount": 16,
+      "sideDeckCount": 15,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/72",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "extra-deck-too-large",
+              "message": "Extra Deck has 16 cards. Standard maximum is 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "extra-deck-size",
+          "message": "Extra Deck has 16 cards. Expected 15 or fewer."
+        },
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Zombie 2007",
+      "deckId": "zombie-2007",
+      "topDeckId": "1494",
+      "severity": "error",
+      "mainDeckCount": 36,
+      "extraDeckCount": 15,
+      "sideDeckCount": 14,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/1494",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 36 cards. Expected 40 to 60."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Warrior 2005",
+      "deckId": "warrior-2005",
+      "topDeckId": "2952",
+      "severity": "error",
+      "mainDeckCount": 41,
+      "extraDeckCount": 25,
+      "sideDeckCount": 14,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/2952",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "2 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "extra-deck-too-large",
+              "message": "Extra Deck has 25 cards. Standard maximum is 15."
+            },
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "extra-deck-size",
+          "message": "Extra Deck has 25 cards. Expected 15 or fewer."
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 14 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "TeleDAD 2008",
+      "deckId": "teledad-2008",
+      "topDeckId": "2438",
+      "severity": "error",
+      "mainDeckCount": 36,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/2438",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 36 cards. Expected 40 to 60."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Trickstar 2018",
+      "deckId": "trickstar-2018",
+      "topDeckId": "6696",
+      "severity": "warning",
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 12,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/6696",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 12 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Thunder 2019",
+      "deckId": "thunder-2019",
+      "topDeckId": "545",
+      "severity": "warning",
+      "mainDeckCount": 40,
+      "extraDeckCount": 14,
+      "sideDeckCount": 13,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/545",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 13 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 13 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "D.D. 2022",
+      "deckId": "d-d-2022",
+      "topDeckId": "2613",
+      "severity": "warning",
+      "mainDeckCount": 42,
+      "extraDeckCount": 0,
+      "sideDeckCount": 9,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/2613",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 9 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 9 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Tearlaments 2022",
+      "deckId": "tearlaments-2022",
+      "topDeckId": "9081",
+      "severity": "warning",
+      "mainDeckCount": 44,
+      "extraDeckCount": 15,
+      "sideDeckCount": 12,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/9081",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "side-deck-invalid-size",
+              "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
+            }
+          ]
+        },
+        {
+          "severity": "warning",
+          "type": "side-deck-size",
+          "message": "Side Deck has 12 cards. Expected 0 or 15."
+        }
+      ]
+    },
+    {
+      "rejectedAt": "2026-05-05T08:38:06.889Z",
+      "deckName": "Kashtira 2023",
+      "deckId": "kashtira-2023",
+      "topDeckId": "9456",
+      "severity": "error",
+      "mainDeckCount": 39,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "sourceUrl": "https://www.yugiohtopdecks.org/deck/9456",
+      "issues": [
+        {
+          "severity": "warning",
+          "type": "import-warning",
+          "message": "1 warning(s) from deck importer.",
+          "details": [
+            {
+              "type": "main-deck-too-small",
+              "message": "Main Deck has 39 cards. Standard valid range is 40 to 60."
+            }
+          ]
+        },
+        {
+          "severity": "error",
+          "type": "main-deck-size",
+          "message": "Main Deck has 39 cards. Expected 40 to 60."
+        }
+      ]
+    }
+  ]
+}

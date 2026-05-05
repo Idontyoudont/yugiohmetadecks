@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-05T08:26:27.319Z",
+  "generatedAt": "2026-05-05T08:38:07.032Z",
   "inputFile": "data/deckImportCollection.txt",
   "fallbackInputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
   "tagRulesFile": "data/cardTagRules.ts",
   "automaticTagRuleCount": 72,
-  "deckCount": 94,
-  "totalWarningCount": 13,
+  "deckCount": 91,
+  "totalWarningCount": 0,
   "renamedDuplicateDecks": [],
   "decks": [
     {
@@ -1300,132 +1300,6 @@
       "ignoredLines": []
     },
     {
-      "id": "evilswarm-2013",
-      "originalId": "evilswarm-2013",
-      "name": "Evilswarm 2013",
-      "year": 2013,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 5 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
-        "player": "Mike Seligson",
-        "deckType": "Evilswarm",
-        "url": "https://www.yugiohtopdecks.org/deck/5"
-      },
-      "mainDeckCount": 25,
-      "extraDeckCount": 8,
-      "sideDeckCount": 14,
-      "totalCount": 47,
-      "taggedCardCount": 7,
-      "automaticTaggedCardCount": 7,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "board clear",
-        "power spell",
-        "quick-play",
-        "removal",
-        "trap"
-      ],
-      "warningCount": 2,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 25 cards. Standard valid range is 40 to 60."
-        },
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
-      "id": "traptrix-2014",
-      "originalId": "traptrix-2014",
-      "name": "Traptrix 2014",
-      "year": 2014,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 199 - YGO State Championship Oregon (Aug 2014) - Aug 2014",
-        "player": "Matthew Hattershide",
-        "deckType": "Traptrix",
-        "url": "https://www.yugiohtopdecks.org/deck/199"
-      },
-      "mainDeckCount": 40,
-      "extraDeckCount": 14,
-      "sideDeckCount": 12,
-      "totalCount": 66,
-      "taggedCardCount": 8,
-      "automaticTaggedCardCount": 8,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "control",
-        "disruption",
-        "draw",
-        "hand trap",
-        "piercing",
-        "quick-play",
-        "rank 7",
-        "removal",
-        "revival",
-        "trap",
-        "xyz"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
-      "id": "artifact-2014",
-      "originalId": "artifact-2014",
-      "name": "Artifact 2014",
-      "year": 2014,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 72 - YGO State Championship South Dakota (Jul 2014) - Jul 2014",
-        "player": "Stephan Reiter",
-        "deckType": "Artifact",
-        "url": "https://www.yugiohtopdecks.org/deck/72"
-      },
-      "mainDeckCount": 42,
-      "extraDeckCount": 16,
-      "sideDeckCount": 15,
-      "totalCount": 73,
-      "taggedCardCount": 7,
-      "automaticTaggedCardCount": 7,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "discard outlet",
-        "disruption",
-        "flip support",
-        "quick-play",
-        "removal",
-        "revival",
-        "trap"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "extra-deck-too-large",
-          "message": "Extra Deck has 16 cards. Standard maximum is 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
       "id": "gadget-2007",
       "originalId": "gadget-2007",
       "name": "Gadget 2007",
@@ -1672,57 +1546,6 @@
       ],
       "warningCount": 0,
       "warnings": [],
-      "ignoredLines": []
-    },
-    {
-      "id": "zombie-2007",
-      "originalId": "zombie-2007",
-      "name": "Zombie 2007",
-      "year": 2007,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 1494 - Regional - San Jose California (Nov 2013) - Nov 2013",
-        "player": "Gustavo Hernandez",
-        "deckType": "Zombie",
-        "url": "https://www.yugiohtopdecks.org/deck/1494"
-      },
-      "mainDeckCount": 36,
-      "extraDeckCount": 15,
-      "sideDeckCount": 14,
-      "totalCount": 65,
-      "taggedCardCount": 11,
-      "automaticTaggedCardCount": 11,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "banish",
-        "banish payoff",
-        "board clear",
-        "defense",
-        "discard outlet",
-        "disruption",
-        "draw",
-        "hand control",
-        "hand trap",
-        "level 8",
-        "lockdown",
-        "power trap",
-        "protection",
-        "removal",
-        "synchro",
-        "trap"
-      ],
-      "warningCount": 2,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
-        },
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
       "ignoredLines": []
     },
     {
@@ -2506,63 +2329,6 @@
       "ignoredLines": []
     },
     {
-      "id": "warrior-2005",
-      "originalId": "warrior-2005",
-      "name": "Warrior 2005",
-      "year": 2005,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 2952 - 2006 SJ Atlanta (Oct 2005) - Oct 2005",
-        "player": "Mike Stavinohn",
-        "deckType": "Warrior",
-        "url": "https://www.yugiohtopdecks.org/deck/2952"
-      },
-      "mainDeckCount": 41,
-      "extraDeckCount": 25,
-      "sideDeckCount": 14,
-      "totalCount": 80,
-      "taggedCardCount": 22,
-      "automaticTaggedCardCount": 22,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "anti-flip",
-        "backrow removal",
-        "banish",
-        "board clear",
-        "control",
-        "defense",
-        "disruption",
-        "draw",
-        "flip",
-        "flip support",
-        "fusion",
-        "hand control",
-        "metamorphosis target",
-        "negation",
-        "power spell",
-        "quick-play",
-        "removal",
-        "revival",
-        "spell recovery",
-        "spellcaster",
-        "trap",
-        "tribute"
-      ],
-      "warningCount": 2,
-      "warnings": [
-        {
-          "type": "extra-deck-too-large",
-          "message": "Extra Deck has 25 cards. Standard maximum is 15."
-        },
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 14 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
       "id": "prime-monarch-2006",
       "originalId": "prime-monarch-2006",
       "name": "Prime Monarch 2006",
@@ -2683,53 +2449,6 @@
       ],
       "warningCount": 0,
       "warnings": [],
-      "ignoredLines": []
-    },
-    {
-      "id": "teledad-2008",
-      "originalId": "teledad-2008",
-      "name": "TeleDAD 2008",
-      "year": 2008,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 2438 - Kings Games Regionals (Jan 2009) - Jan 2009",
-        "player": "Ace Chen",
-        "deckType": "TeleDAD",
-        "url": "https://www.yugiohtopdecks.org/deck/2438"
-      },
-      "mainDeckCount": 36,
-      "extraDeckCount": 15,
-      "sideDeckCount": 15,
-      "totalCount": 66,
-      "taggedCardCount": 13,
-      "automaticTaggedCardCount": 13,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "board clear",
-        "defense",
-        "discard outlet",
-        "graveyard control",
-        "hand control",
-        "hand trap",
-        "level 7",
-        "level 8",
-        "power spell",
-        "protection",
-        "quick-play",
-        "removal",
-        "side deck",
-        "synchro",
-        "trap"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "main-deck-too-small",
-          "message": "Main Deck has 36 cards. Standard valid range is 40 to 60."
-        }
-      ],
       "ignoredLines": []
     },
     {
@@ -2962,43 +2681,6 @@
       "ignoredLines": []
     },
     {
-      "id": "trickstar-2018",
-      "originalId": "trickstar-2018",
-      "name": "Trickstar 2018",
-      "year": 2018,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 6696 - YCS - Rimini Italy (Aug 2017) - Aug 2017",
-        "player": "Sylvain Machat",
-        "deckType": "Trickstar",
-        "url": "https://www.yugiohtopdecks.org/deck/6696"
-      },
-      "mainDeckCount": 41,
-      "extraDeckCount": 15,
-      "sideDeckCount": 12,
-      "totalCount": 68,
-      "taggedCardCount": 2,
-      "automaticTaggedCardCount": 2,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "board clear",
-        "disruption",
-        "draw",
-        "hand trap",
-        "level 7",
-        "synchro"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
       "id": "danger-2019",
       "originalId": "danger-2019",
       "name": "Danger 2019",
@@ -3138,50 +2820,6 @@
       ],
       "warningCount": 0,
       "warnings": [],
-      "ignoredLines": []
-    },
-    {
-      "id": "thunder-2019",
-      "originalId": "thunder-2019",
-      "name": "Thunder 2019",
-      "year": 2019,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 545 - YCS - Sydney Australia (Jan 2014) - Jan 2014",
-        "player": "Tom Kralj",
-        "deckType": "Thunder",
-        "url": "https://www.yugiohtopdecks.org/deck/545"
-      },
-      "mainDeckCount": 40,
-      "extraDeckCount": 14,
-      "sideDeckCount": 13,
-      "totalCount": 67,
-      "taggedCardCount": 10,
-      "automaticTaggedCardCount": 10,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "board clear",
-        "defense",
-        "disruption",
-        "flip support",
-        "level 8",
-        "lockdown",
-        "protection",
-        "quick-play",
-        "removal",
-        "synchro",
-        "trap"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 13 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
       "ignoredLines": []
     },
     {
@@ -3417,48 +3055,6 @@
       "ignoredLines": []
     },
     {
-      "id": "d-d-2022",
-      "originalId": "d-d-2022",
-      "name": "D.D. 2022",
-      "year": 2022,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 2613 - 2008 SJ Orlando (Jan 2008) - Jan 2008",
-        "player": "Danny Brown",
-        "deckType": "D.D.",
-        "url": "https://www.yugiohtopdecks.org/deck/2613"
-      },
-      "mainDeckCount": 42,
-      "extraDeckCount": 0,
-      "sideDeckCount": 9,
-      "totalCount": 51,
-      "taggedCardCount": 9,
-      "automaticTaggedCardCount": 9,
-      "inlineTaggedCardCount": 0,
-      "tags": [
-        "backrow removal",
-        "banish",
-        "defense",
-        "draw",
-        "flip",
-        "hand control",
-        "quick-play",
-        "removal",
-        "revival",
-        "spellcaster",
-        "trap"
-      ],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 9 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
-      "ignoredLines": []
-    },
-    {
       "id": "floowandereeze-2022",
       "originalId": "floowandereeze-2022",
       "name": "Floowandereeze 2022",
@@ -3547,36 +3143,6 @@
       ],
       "warningCount": 0,
       "warnings": [],
-      "ignoredLines": []
-    },
-    {
-      "id": "tearlaments-2022",
-      "originalId": "tearlaments-2022",
-      "name": "Tearlaments 2022",
-      "year": 2022,
-      "format": "Imported Format",
-      "status": "draft",
-      "source": {
-        "label": "Yu-Gi-Oh! Top Decks - deck 9081 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
-        "player": "Jesse Kotton",
-        "deckType": "Tearlaments",
-        "url": "https://www.yugiohtopdecks.org/deck/9081"
-      },
-      "mainDeckCount": 44,
-      "extraDeckCount": 15,
-      "sideDeckCount": 12,
-      "totalCount": 71,
-      "taggedCardCount": 0,
-      "automaticTaggedCardCount": 0,
-      "inlineTaggedCardCount": 0,
-      "tags": [],
-      "warningCount": 1,
-      "warnings": [
-        {
-          "type": "side-deck-invalid-size",
-          "message": "Side Deck has 12 cards. Standard valid sizes are 0 or 15."
-        }
-      ],
       "ignoredLines": []
     },
     {
@@ -3700,6 +3266,222 @@
         "xyz",
         "xyz counter"
       ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "performage-2016",
+      "originalId": "performage-2016",
+      "name": "Performage 2016",
+      "year": 2016,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015",
+        "player": "Jake Mattern",
+        "deckType": "Performage",
+        "url": "https://www.yugiohtopdecks.org/deck/4486"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 70,
+      "taggedCardCount": 9,
+      "automaticTaggedCardCount": 9,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "backrow removal",
+        "banish",
+        "control",
+        "disruption",
+        "draw",
+        "flip support",
+        "graveyard control",
+        "hand trap",
+        "quick-play",
+        "removal",
+        "trap"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "mekk-knight-2020",
+      "originalId": "mekk-knight-2020",
+      "name": "Mekk-Knight 2020",
+      "year": 2020,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 8423 - Regional - Shreveport Louisiana (Jan 2020) - Jan 2020",
+        "player": "Nicholas Pitts",
+        "deckType": "Mekk-Knight",
+        "url": "https://www.yugiohtopdecks.org/deck/8423"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 70,
+      "taggedCardCount": 2,
+      "automaticTaggedCardCount": 2,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "control",
+        "fusion",
+        "metamorphosis target"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "shaddoll-2020",
+      "originalId": "shaddoll-2020",
+      "name": "Shaddoll 2020",
+      "year": 2020,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020",
+        "player": "Kevin Nephtys Semlali",
+        "deckType": "Shaddoll",
+        "url": "https://www.yugiohtopdecks.org/deck/8513"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 72,
+      "taggedCardCount": 1,
+      "automaticTaggedCardCount": 1,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "graveyard control",
+        "hand trap",
+        "side deck"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "dragon-2020",
+      "originalId": "dragon-2020",
+      "name": "Dragon 2020",
+      "year": 2020,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019",
+        "player": "Marvin Enamorado",
+        "deckType": "Dragon",
+        "url": "https://www.yugiohtopdecks.org/deck/8131"
+      },
+      "mainDeckCount": 43,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 73,
+      "taggedCardCount": 3,
+      "automaticTaggedCardCount": 3,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "boss monster",
+        "discard outlet",
+        "dragon",
+        "dragon ruler",
+        "engine",
+        "field spell",
+        "graveyard engine",
+        "graveyard setup",
+        "search",
+        "synchro setup",
+        "tuner",
+        "wind"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "danger-2020",
+      "originalId": "danger-2020",
+      "name": "Danger 2020",
+      "year": 2020,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020",
+        "player": "Matteo Bertulezzi",
+        "deckType": "Danger",
+        "url": "https://www.yugiohtopdecks.org/deck/8557"
+      },
+      "mainDeckCount": 60,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 90,
+      "taggedCardCount": 1,
+      "automaticTaggedCardCount": 1,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "discard outlet",
+        "engine",
+        "field spell",
+        "graveyard setup"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "world-2020",
+      "originalId": "world-2020",
+      "name": "World 2020",
+      "year": 2020,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020",
+        "player": "Dino Spasovski",
+        "deckType": "World",
+        "url": "https://www.yugiohtopdecks.org/deck/8417"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 72,
+      "taggedCardCount": 1,
+      "automaticTaggedCardCount": 1,
+      "inlineTaggedCardCount": 0,
+      "tags": [
+        "backrow removal",
+        "quick-play"
+      ],
+      "warningCount": 0,
+      "warnings": [],
+      "ignoredLines": []
+    },
+    {
+      "id": "blue-eyes-2023",
+      "originalId": "blue-eyes-2023",
+      "name": "Blue-Eyes 2023",
+      "year": 2023,
+      "format": "Imported Format",
+      "status": "draft",
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023",
+        "player": "Abdur-rahman Mujaahid",
+        "deckType": "Blue-Eyes",
+        "url": "https://www.yugiohtopdecks.org/deck/9527"
+      },
+      "mainDeckCount": 42,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "totalCount": 72,
+      "taggedCardCount": 0,
+      "automaticTaggedCardCount": 0,
+      "inlineTaggedCardCount": 0,
+      "tags": [],
       "warningCount": 0,
       "warnings": [],
       "ignoredLines": []

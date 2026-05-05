@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-05T08:26:27.565Z",
+  "generatedAt": "2026-05-05T08:38:07.270Z",
   "maxDecksPerYear": 5,
-  "importedDeckCount": 94,
-  "selectedDeckCount": 71,
+  "importedDeckCount": 91,
+  "selectedDeckCount": 77,
   "yearCount": 20,
   "years": [
     {
       "year": 2005,
-      "importedDeckCount": 2,
+      "importedDeckCount": 1,
       "selectedDeckCount": 1,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "chain-burn-2005",
@@ -31,14 +31,7 @@
           "deckTypeKey": "chain burn"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "warrior-2005",
-          "name": "Warrior 2005",
-          "deckTypeKey": "warrior",
-          "reason": "Quality severity is error."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2006,
@@ -108,9 +101,9 @@
     },
     {
       "year": 2007,
-      "importedDeckCount": 5,
+      "importedDeckCount": 4,
       "selectedDeckCount": 4,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "gadget-2007",
@@ -189,20 +182,13 @@
           "deckTypeKey": "monarch"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "zombie-2007",
-          "name": "Zombie 2007",
-          "deckTypeKey": "zombie",
-          "reason": "Quality severity is error."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2008,
-      "importedDeckCount": 5,
+      "importedDeckCount": 4,
       "selectedDeckCount": 4,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "synchro-2008",
@@ -281,14 +267,7 @@
           "deckTypeKey": "lightsworn"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "teledad-2008",
-          "name": "TeleDAD 2008",
-          "deckTypeKey": "teledad",
-          "reason": "Quality severity is error."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2009,
@@ -751,9 +730,9 @@
     },
     {
       "year": 2013,
-      "importedDeckCount": 5,
+      "importedDeckCount": 4,
       "selectedDeckCount": 4,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "mermail-2013",
@@ -832,20 +811,13 @@
           "deckTypeKey": "spellbook"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "evilswarm-2013",
-          "name": "Evilswarm 2013",
-          "deckTypeKey": "evilswarm",
-          "reason": "Quality severity is error."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2014,
-      "importedDeckCount": 8,
+      "importedDeckCount": 6,
       "selectedDeckCount": 5,
-      "skippedDeckCount": 3,
+      "skippedDeckCount": 1,
       "selectedDecks": [
         {
           "id": "bujin-2014",
@@ -949,18 +921,6 @@
           "name": "Shaddoll 2014",
           "deckTypeKey": "shaddoll",
           "reason": "Year already has 5 selected decks."
-        },
-        {
-          "id": "traptrix-2014",
-          "name": "Traptrix 2014",
-          "deckTypeKey": "traptrix",
-          "reason": "Quality severity is warning."
-        },
-        {
-          "id": "artifact-2014",
-          "name": "Artifact 2014",
-          "deckTypeKey": "artifact",
-          "reason": "Quality severity is error."
         }
       ]
     },
@@ -1070,8 +1030,8 @@
     },
     {
       "year": 2016,
-      "importedDeckCount": 4,
-      "selectedDeckCount": 4,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
       "skippedDeckCount": 0,
       "selectedDecks": [
         {
@@ -1130,6 +1090,25 @@
           "totalCount": 70,
           "qualitySeverity": "ok",
           "deckTypeKey": "kozmo"
+        },
+        {
+          "id": "performage-2016",
+          "name": "Performage 2016",
+          "year": 2016,
+          "deckType": "Performage",
+          "player": "Jake Mattern",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015",
+            "player": "Jake Mattern",
+            "deckType": "Performage",
+            "url": "https://www.yugiohtopdecks.org/deck/4486"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "performage"
         },
         {
           "id": "performapal-2016",
@@ -1202,9 +1181,9 @@
     },
     {
       "year": 2018,
-      "importedDeckCount": 4,
+      "importedDeckCount": 3,
       "selectedDeckCount": 3,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "hunder-2018",
@@ -1264,20 +1243,13 @@
           "deckTypeKey": "dragon"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "trickstar-2018",
-          "name": "Trickstar 2018",
-          "deckTypeKey": "trickstar",
-          "reason": "Quality severity is warning."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2019,
-      "importedDeckCount": 6,
+      "importedDeckCount": 5,
       "selectedDeckCount": 5,
-      "skippedDeckCount": 1,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "orcust-2019",
@@ -1375,21 +1347,90 @@
           "deckTypeKey": "danger"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "thunder-2019",
-          "name": "Thunder 2019",
-          "deckTypeKey": "thunder",
-          "reason": "Quality severity is warning."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2020,
-      "importedDeckCount": 1,
-      "selectedDeckCount": 1,
-      "skippedDeckCount": 0,
+      "importedDeckCount": 6,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 1,
       "selectedDecks": [
+        {
+          "id": "dragon-2020",
+          "name": "Dragon 2020",
+          "year": 2020,
+          "deckType": "Dragon",
+          "player": "Marvin Enamorado",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019",
+            "player": "Marvin Enamorado",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/8131"
+          },
+          "mainDeckCount": 43,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 73,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "dragon"
+        },
+        {
+          "id": "world-2020",
+          "name": "World 2020",
+          "year": 2020,
+          "deckType": "World",
+          "player": "Dino Spasovski",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020",
+            "player": "Dino Spasovski",
+            "deckType": "World",
+            "url": "https://www.yugiohtopdecks.org/deck/8417"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "world"
+        },
+        {
+          "id": "danger-2020",
+          "name": "Danger 2020",
+          "year": 2020,
+          "deckType": "Danger",
+          "player": "Matteo Bertulezzi",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020",
+            "player": "Matteo Bertulezzi",
+            "deckType": "Danger",
+            "url": "https://www.yugiohtopdecks.org/deck/8557"
+          },
+          "mainDeckCount": 60,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 90,
+          "qualitySeverity": "info",
+          "deckTypeKey": "danger"
+        },
+        {
+          "id": "shaddoll-2020",
+          "name": "Shaddoll 2020",
+          "year": 2020,
+          "deckType": "Shaddoll",
+          "player": "Kevin Nephtys Semlali",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020",
+            "player": "Kevin Nephtys Semlali",
+            "deckType": "Shaddoll",
+            "url": "https://www.yugiohtopdecks.org/deck/8513"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "info",
+          "deckTypeKey": "shaddoll"
+        },
         {
           "id": "invoked-windwitch-2020",
           "name": "Invoked Windwitch 2020",
@@ -1410,7 +1451,14 @@
           "deckTypeKey": "invoked windwitch"
         }
       ],
-      "skippedDecks": []
+      "skippedDecks": [
+        {
+          "id": "mekk-knight-2020",
+          "name": "Mekk-Knight 2020",
+          "deckTypeKey": "mekk knight",
+          "reason": "Year already has 5 selected decks."
+        }
+      ]
     },
     {
       "year": 2021,
@@ -1531,9 +1579,9 @@
     },
     {
       "year": 2022,
-      "importedDeckCount": 5,
+      "importedDeckCount": 3,
       "selectedDeckCount": 3,
-      "skippedDeckCount": 2,
+      "skippedDeckCount": 0,
       "selectedDecks": [
         {
           "id": "spright-2022",
@@ -1593,25 +1641,12 @@
           "deckTypeKey": "runick"
         }
       ],
-      "skippedDecks": [
-        {
-          "id": "tearlaments-2022",
-          "name": "Tearlaments 2022",
-          "deckTypeKey": "tearlaments",
-          "reason": "Quality severity is warning."
-        },
-        {
-          "id": "d-d-2022",
-          "name": "D.D. 2022",
-          "deckTypeKey": "d d",
-          "reason": "Quality severity is warning."
-        }
-      ]
+      "skippedDecks": []
     },
     {
       "year": 2023,
-      "importedDeckCount": 2,
-      "selectedDeckCount": 2,
+      "importedDeckCount": 3,
+      "selectedDeckCount": 3,
       "skippedDeckCount": 0,
       "selectedDecks": [
         {
@@ -1651,6 +1686,25 @@
           "totalCount": 70,
           "qualitySeverity": "ok",
           "deckTypeKey": "labrynth"
+        },
+        {
+          "id": "blue-eyes-2023",
+          "name": "Blue-Eyes 2023",
+          "year": 2023,
+          "deckType": "Blue-Eyes",
+          "player": "Abdur-rahman Mujaahid",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023",
+            "player": "Abdur-rahman Mujaahid",
+            "deckType": "Blue-Eyes",
+            "url": "https://www.yugiohtopdecks.org/deck/9527"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "info",
+          "deckTypeKey": "blue eyes"
         }
       ],
       "skippedDecks": []

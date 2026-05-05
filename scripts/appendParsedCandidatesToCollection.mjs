@@ -21,6 +21,12 @@ const reportFilePath = path.join(
   "deckSourceParsedCandidatesReport.json"
 );
 
+const rejectedSourcesFilePath = path.join(
+  projectRoot,
+  "data",
+  "rejectedDeckSources.json"
+);
+
 function readTextFile(filePath) {
   if (!fs.existsSync(filePath)) {
     return "";
@@ -62,6 +68,20 @@ function getDeckKey(deckBlock) {
   return normalizeText(getDeckName(deckBlock));
 }
 
+function getTopDeckIdFromUrl(url) {
+  return String(url ?? "").match(/yugiohtopdecks\.org\/deck\/(\d+)/i)?.[1] ?? null;
+}
+
+function getCandidateDeckName(candidate) {
+  const source = candidate.source ?? {};
+
+  if (source.deckType && source.year) {
+    return `${source.deckType} ${source.year}`;
+  }
+
+  return `${source.target} Candidate ${source.year}`;
+}
+
 function getCandidateReportByDeckName(report) {
   const map = new Map();
 
@@ -70,21 +90,38 @@ function getCandidateReportByDeckName(report) {
       return;
     }
 
-    const source = candidate.source ?? {};
-    const deckName =
-      source.deckType && source.year
-        ? `${source.deckType} ${source.year}`
-        : `${source.target} Candidate ${source.year}`;
-
+    const deckName = getCandidateDeckName(candidate);
     map.set(normalizeText(deckName), candidate);
   });
 
   return map;
 }
 
-function getCandidateRejectionReason(candidate) {
+function getRejectedSources() {
+  const rejectedSources = readJsonFile(rejectedSourcesFilePath, {
+    topDeckIds: [],
+    deckNames: [],
+  });
+
+  return {
+    topDeckIds: new Set((rejectedSources.topDeckIds ?? []).map(String)),
+    deckNames: new Set((rejectedSources.deckNames ?? []).map(normalizeText)),
+  };
+}
+
+function getCandidateRejectionReason(candidate, deckName, rejectedSources) {
   if (!candidate) {
     return "No candidate report found for this deck.";
+  }
+
+  const candidateTopDeckId = getTopDeckIdFromUrl(candidate.source?.url);
+
+  if (candidateTopDeckId && rejectedSources.topDeckIds.has(candidateTopDeckId)) {
+    return `Top Decks source ${candidateTopDeckId} is rejected.`;
+  }
+
+  if (rejectedSources.deckNames.has(normalizeText(deckName))) {
+    return "Deck name is rejected.";
   }
 
   if (candidate.confidence !== "high") {
@@ -114,6 +151,7 @@ function main() {
   const candidatesText = readTextFile(candidatesFilePath);
   const collectionText = readTextFile(collectionFilePath);
   const report = readJsonFile(reportFilePath, { candidates: [] });
+  const rejectedSources = getRejectedSources();
 
   const candidateBlocks = splitDeckBlocks(candidatesText);
   const collectionBlocks = splitDeckBlocks(collectionText);
@@ -144,7 +182,11 @@ function main() {
     }
 
     const candidate = candidateByDeckName.get(deckKey);
-    const rejectionReason = getCandidateRejectionReason(candidate);
+    const rejectionReason = getCandidateRejectionReason(
+      candidate,
+      deckName,
+      rejectedSources
+    );
 
     if (rejectionReason) {
       skippedBlocks.push({
@@ -171,6 +213,8 @@ function main() {
   console.log("--------------------------------------");
   console.log(`Candidate decks: ${candidateBlocks.length}`);
   console.log(`Existing collection decks: ${collectionBlocks.length}`);
+  console.log(`Rejected Top Deck IDs: ${rejectedSources.topDeckIds.size}`);
+  console.log(`Rejected deck names: ${rejectedSources.deckNames.size}`);
   console.log(`Appended decks: ${appendedBlocks.length}`);
   console.log(`Skipped decks: ${skippedBlocks.length}`);
 
