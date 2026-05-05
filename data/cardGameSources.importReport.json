@@ -1,291 +1,176 @@
 {
-  "generatedAt": "2026-05-04T14:18:18.076Z",
-  "sourceUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=814689673",
-  "totalUniqueCards": 6770,
-  "detectedPackCount": 26,
-  "detectedCategoryCount": 12,
-  "cardsWithMultipleSourcesCount": 9,
-  "packs": [
+  "generatedAt": "2026-05-05T12:16:18.878Z",
+  "sourcePageUrl": "https://www.linkevolutionpro.com/updated-card-shop-guide",
+  "gameName": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
+  "scriptUrls": [
+    "https://www.linkevolutionpro.com/static/js/2.dbdd8b1e.chunk.js",
+    "https://www.linkevolutionpro.com/static/js/main.9d9a1d87.chunk.js"
+  ],
+  "scriptReports": [
     {
-      "packName": "Jack Atlas",
-      "count": 268
+      "scriptUrl": "https://www.linkevolutionpro.com/static/js/2.dbdd8b1e.chunk.js",
+      "length": 458508,
+      "extractedPairCount": 0
     },
     {
-      "packName": "Jaden Yuki",
-      "count": 267
-    },
-    {
-      "packName": "Zuzu Boyle",
-      "count": 267
-    },
-    {
-      "packName": "Akiza Ininski",
-      "count": 265
-    },
-    {
-      "packName": "Bakura Ryou",
-      "count": 265
-    },
-    {
-      "packName": "Grandpa Muto",
-      "count": 265
-    },
-    {
-      "packName": "Joey Wheeler",
-      "count": 265
-    },
-    {
-      "packName": "Yugi Muto/Yami",
-      "count": 265
-    },
-    {
-      "packName": "Alexis Rhodes",
-      "count": 264
-    },
-    {
-      "packName": "Kite Tenjo",
-      "count": 264
-    },
-    {
-      "packName": "Mai Valentine",
-      "count": 264
-    },
-    {
-      "packName": "Pendulum",
-      "count": 264
-    },
-    {
-      "packName": "Yuma Tsukumo",
-      "count": 264
-    },
-    {
-      "packName": "Bastion Misawa",
-      "count": 263
-    },
-    {
-      "packName": "Jesse Anderson",
-      "count": 263
-    },
-    {
-      "packName": "Cathy Katherine",
-      "count": 262
-    },
-    {
-      "packName": "Chazz Princeton",
-      "count": 262
-    },
-    {
-      "packName": "Yusei Fudo",
-      "count": 262
-    },
-    {
-      "packName": "Leo/Luna",
-      "count": 261
-    },
-    {
-      "packName": "Officer Trudge",
-      "count": 261
-    },
-    {
-      "packName": "Quinton",
-      "count": 261
-    },
-    {
-      "packName": "Reginald Kastle",
-      "count": 260
-    },
-    {
-      "packName": "Syrus Truesdale",
-      "count": 248
-    },
-    {
-      "packName": "Crow Hogan",
-      "count": 247
-    },
-    {
-      "packName": "Seto Kaiba",
-      "count": 247
-    },
-    {
-      "packName": "Gong Strong",
-      "count": 235
+      "scriptUrl": "https://www.linkevolutionpro.com/static/js/main.9d9a1d87.chunk.js",
+      "length": 911098,
+      "extractedPairCount": 10014
     }
   ],
-  "categories": [
+  "rawPairCount": 10014,
+  "generatedCardCount": 10014,
+  "generatedSourceCount": 10014,
+  "duplicateLocationCount": 0,
+  "sampleCards": [
     {
-      "categoryName": "Effect Monster Cards",
-      "count": 2736
-    },
-    {
-      "categoryName": "Spell Cards",
-      "count": 1236
-    },
-    {
-      "categoryName": "Trap Cards",
-      "count": 1042
-    },
-    {
-      "categoryName": "Normal Monster Cards",
-      "count": 716
-    },
-    {
-      "categoryName": "Xyz Monster Cards",
-      "count": 295
-    },
-    {
-      "categoryName": "Tuner Monster Cards",
-      "count": 204
-    },
-    {
-      "categoryName": "Fusion Monster Cards",
-      "count": 200
-    },
-    {
-      "categoryName": "Synchro Monster Cards",
-      "count": 198
-    },
-    {
-      "categoryName": "Pendulum Monster Cards",
-      "count": 82
-    },
-    {
-      "categoryName": "Ritual Monster Cards",
-      "count": 47
-    },
-    {
-      "categoryName": "Gemini Monster Cards",
-      "count": 19
-    },
-    {
-      "categoryName": "Spirit Monster Cards",
-      "count": 4
-    }
-  ],
-  "cardsWithMultipleSources": [
-    {
-      "name": "Anti-Spell",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Bakura Ryou",
-          "cardCategory": "Trap Cards"
-        },
-        {
-          "packName": "Yugi Muto/Yami",
-          "cardCategory": "Trap Cards"
-        }
+      "name": "\"A\" Cell Breeding Device",
+      "locations": [
+        "Tetsu Trudge"
       ]
     },
     {
-      "name": "D - Spirit",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Jaden Yuki",
-          "cardCategory": "Spell Cards"
-        },
-        {
-          "packName": "Jaden Yuki",
-          "cardCategory": "Trap Cards"
-        }
+      "name": "\"A\" Cell Incubator",
+      "locations": [
+        "Tetsu Trudge"
       ]
     },
     {
-      "name": "Dicephoon",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Cathy Katherine",
-          "cardCategory": "Spell Cards"
-        },
-        {
-          "packName": "Reginald Kastle",
-          "cardCategory": "Spell Cards"
-        }
+      "name": "\"A\" Cell Recombination Device",
+      "locations": [
+        "Tetsu Trudge"
       ]
     },
     {
-      "name": "Effect Veiler",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Jaden Yuki",
-          "cardCategory": "Effect Monster Cards"
-        },
-        {
-          "packName": "Yusei Fudo",
-          "cardCategory": "Tuner Monster Cards"
-        }
+      "name": "\"A\" Cell Scatter Burst",
+      "locations": [
+        "Tetsu Trudge"
       ]
     },
     {
-      "name": "Honest",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Bakura Ryou",
-          "cardCategory": "Effect Monster Cards"
-        },
-        {
-          "packName": "Akiza Ininski",
-          "cardCategory": "Effect Monster Cards"
-        }
+      "name": "1st Movement Solo",
+      "locations": [
+        "Zuzu Boyle"
       ]
     },
     {
-      "name": "Nurse Reficule the Fallen One",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Joey Wheeler",
-          "cardCategory": "Effect Monster Cards"
-        },
-        {
-          "packName": "Yugi Muto/Yami",
-          "cardCategory": "Effect Monster Cards"
-        }
+      "name": "3-Hump Lacooda",
+      "locations": [
+        "Jesse Anderson"
       ]
     },
     {
-      "name": "Tuner Monster",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Jesse Anderson",
-          "cardCategory": "Effect Monster Cards"
-        },
-        {
-          "packName": "Cathy Katherine",
-          "cardCategory": "Effect Monster Cards"
-        }
+      "name": "30,000-year White Turtle",
+      "locations": [
+        "Grandpa Muto"
       ]
     },
     {
-      "name": "Wattaildragon",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Seto Kaiba",
-          "cardCategory": "Normal Monster Cards"
-        },
-        {
-          "packName": "Jack Atlas",
-          "cardCategory": "Normal Monster Cards"
-        }
+      "name": "4-Starred Ladybug of Doom",
+      "locations": [
+        "Bakura"
       ]
     },
     {
-      "name": "Wattsychic Fighter",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "packName": "Jack Atlas",
-          "cardCategory": "Effect Monster Cards"
-        },
-        {
-          "packName": "Gong Strong",
-          "cardCategory": "Effect Monster Cards"
-        }
+      "name": "7 Colored Fish",
+      "locations": [
+        "Shark"
+      ]
+    },
+    {
+      "name": "7 Completed",
+      "locations": [
+        "Joey Wheeler"
+      ]
+    },
+    {
+      "name": "8-Claws Scorpion",
+      "locations": [
+        "Jesse Anderson"
+      ]
+    },
+    {
+      "name": "A Cat of Ill Omen",
+      "locations": [
+        "Grandpa Muto"
+      ]
+    },
+    {
+      "name": "A Deal with Dark Ruler",
+      "locations": [
+        "Bakura"
+      ]
+    },
+    {
+      "name": "A Feather of the Phoenix",
+      "locations": [
+        "Mai Valentine"
+      ]
+    },
+    {
+      "name": "A Feint Plan",
+      "locations": [
+        "Cathy Katherine"
+      ]
+    },
+    {
+      "name": "A Hero Emerges",
+      "locations": [
+        "Jaden Yuki"
+      ]
+    },
+    {
+      "name": "A Hero Lives",
+      "locations": [
+        "Jaden Yuki"
+      ]
+    },
+    {
+      "name": "A Legendary Ocean",
+      "locations": [
+        "Mai Valentine"
+      ]
+    },
+    {
+      "name": "A Major Upset",
+      "locations": [
+        "Alexis Rhodes"
+      ]
+    },
+    {
+      "name": "A Man with Wdjat",
+      "locations": [
+        "Yugi"
+      ]
+    },
+    {
+      "name": "A Rival Appears!",
+      "locations": [
+        "Alexis Rhodes"
+      ]
+    },
+    {
+      "name": "A Wild Monster Appears!",
+      "locations": [
+        "Cathy Katherine"
+      ]
+    },
+    {
+      "name": "A Wingbeat of Giant Dragon",
+      "locations": [
+        "Seto Kaiba"
+      ]
+    },
+    {
+      "name": "A-Assault Core",
+      "locations": [
+        "Seto Kaiba"
+      ]
+    },
+    {
+      "name": "A-Team: Trap Disposal Unit",
+      "locations": [
+        "Jesse Anderson"
       ]
     }
   ]

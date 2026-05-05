@@ -9,471 +9,322 @@ const outputFilePath = path.join(
   "cardGameSources.generated.ts"
 );
 
-const rawOutputFilePath = path.join(
-  projectRoot,
-  "data",
-  "legacyOfDuelistGuideRaw.txt"
-);
-
 const reportOutputFilePath = path.join(
   projectRoot,
   "data",
   "cardGameSources.importReport.json"
 );
 
-const steamGuideUrl =
-  "https://steamcommunity.com/sharedfiles/filedetails/?id=814689673";
+const sourcePageUrl =
+  "https://www.linkevolutionpro.com/updated-card-shop-guide";
 
-const gameName = "Yu-Gi-Oh! Legacy of the Duelist";
-
-const knownPackNames = [
-  "Grandpa Muto",
-  "Mai Valentine",
-  "Bakura Ryou",
-  "Joey Wheeler",
-  "Seto Kaiba",
-  "Yugi Muto/Yami",
-
-  "Alexis Rhodes",
-  "Bastion Misawa",
-  "Chazz Princeton",
-  "Syrus Truesdale",
-  "Jesse Anderson",
-  "Jaden Yuki",
-
-  "Officer Trudge",
-  "Leo/Luna",
-  "Akiza Ininski",
-  "Jack Atlas",
-  "Crow Hogan",
-  "Yusei Fudo",
-
-  "Cathy Katherine",
-  "Quinton",
-  "Kite Tenjo",
-  "Reginald Kastle",
-  "Yuma Tsukumo",
-
-  "Pendulum",
-  "Gong Strong",
-  "Zuzu Boyle",
-];
-
-const categoryAliases = [
-  {
-    output: "Normal Monster Cards",
-    aliases: ["Normal Monster Cards", "Normal Monsters"],
-  },
-  {
-    output: "Effect Monster Cards",
-    aliases: ["Effect Monster Cards", "Effect Monsters"],
-  },
-  {
-    output: "Ritual Monster Cards",
-    aliases: ["Ritual Monster Cards", "Ritual Monsters"],
-  },
-  {
-    output: "Fusion Monster Cards",
-    aliases: ["Fusion Monster Cards", "Fusion Monsters"],
-  },
-  {
-    output: "Synchro Monster Cards",
-    aliases: ["Synchro Monster Cards", "Synchro Monsters"],
-  },
-  {
-    output: "Xyz Monster Cards",
-    aliases: ["Xyz Monster Cards", "Xyz Monsters"],
-  },
-  {
-    output: "Pendulum Monster Cards",
-    aliases: ["Pendulum Monster Cards", "Pendulum Monsters"],
-  },
-  {
-    output: "Spirit Monster Cards",
-    aliases: ["Spirit Monster Cards", "Spirit Monsters"],
-  },
-  {
-    output: "Toon Monster Cards",
-    aliases: ["Toon Monster Cards", "Toon Monsters"],
-  },
-  {
-    output: "Union Monster Cards",
-    aliases: ["Union Monster Cards", "Union Monsters"],
-  },
-  {
-    output: "Gemini Monster Cards",
-    aliases: ["Gemini Monster Cards", "Gemini Monsters"],
-  },
-  {
-    output: "Tuner Monster Cards",
-    aliases: ["Tuner Monster Cards", "Tuner Monsters"],
-  },
-  {
-    output: "Flip Monster Cards",
-    aliases: ["Flip Monster Cards", "Flip Monsters"],
-  },
-  {
-    output: "Spell Cards",
-    aliases: ["Spell Cards"],
-  },
-  {
-    output: "Trap Cards",
-    aliases: ["Trap Cards"],
-  },
-];
-
-function decodeHtmlEntities(value) {
-  return value
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&#39;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&#x27;/g, "'")
-    .replace(/&#x2F;/g, "/")
-    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
-}
-
-function htmlToText(html) {
-  return decodeHtmlEntities(
-    html
-      .replace(/<script[\s\S]*?<\/script>/gi, "\n")
-      .replace(/<style[\s\S]*?<\/style>/gi, "\n")
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/li>/gi, "\n")
-      .replace(/<\/div>/gi, "\n")
-      .replace(/<\/p>/gi, "\n")
-      .replace(/<\/h\d>/gi, "\n")
-      .replace(/<[^>]+>/g, "\n")
-  );
-}
-
-function normalizeLine(line) {
-  return line
-    .replace(/\r/g, "")
-    .replace(/^[•\-*]\s*/, "")
-    .replace(/^\d+[.)]\s*/, "")
-    .replace(/:\s*$/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function normalizeCardName(name) {
-  return name
-    .toLowerCase()
-    .replace(/[’‘]/g, "'")
-    .replace(/[–—]/g, "-")
-    .replace(/\s+/g, " ")
-    .trim();
-}
+const gameName = "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution";
 
 function escapeString(value) {
   return JSON.stringify(value);
 }
 
-function isLikelyNoiseLine(line) {
-  const lower = line.toLowerCase();
-
-  if (!line) return true;
-  if (line.length <= 1) return true;
-
-  const noisyFragments = [
-    "steam community",
-    "sign in",
-    "install steam",
-    "created by",
-    "favorite",
-    "favorited",
-    "unfavorite",
-    "share",
-    "guide index",
-    "comments",
-    "rate",
-    "award",
-    "store page",
-    "posted",
-    "updated",
-    "overview",
-    "ctrl+f is your friend",
-    "problems? something missing or misplaced?",
-    "i can't find the card i want",
-    "other guide version",
-    "all rights reserved",
-    "privacy policy",
-    "steam subscriber agreement",
-    "view desktop website",
-    "change language",
-  ];
-
-  return noisyFragments.some((fragment) => lower.includes(fragment));
+function normalizeCardName(name) {
+  return String(name ?? "")
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[“”"]/g, "")
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function getMatchingPackName(line) {
-  return knownPackNames.find(
-    (packName) => packName.toLowerCase() === line.toLowerCase()
-  );
-}
+function decodePossiblyEscapedText(value) {
+  let current = String(value ?? "");
 
-function getMatchingCategoryName(line) {
-  const normalizedLine = line.toLowerCase();
+  for (let index = 0; index < 4; index += 1) {
+    try {
+      const decoded = JSON.parse(`"${current}"`);
 
-  for (const category of categoryAliases) {
-    const match = category.aliases.some(
-      (alias) => alias.toLowerCase() === normalizedLine
-    );
+      if (decoded === current) {
+        break;
+      }
 
-    if (match) {
-      return category.output;
+      current = decoded;
+    } catch {
+      break;
     }
   }
 
-  return undefined;
+  return current;
 }
 
-function addCardSource(cardSources, cardName, packName, cardCategory) {
-  const normalizedCardName = normalizeCardName(cardName);
+function cleanText(value) {
+  return decodePossiblyEscapedText(value)
+    .replace(/\\{1,4}"/g, '"')
+    .replace(/\\{1,4}'/g, "'")
+    .replace(/\\u0026/g, "&")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  if (!normalizedCardName || !packName || !cardCategory) {
-    return;
+function isLikelyCardName(name) {
+  if (!name) {
+    return false;
   }
 
-  const existing = cardSources.get(normalizedCardName);
+  if (name.length < 2 || name.length > 120) {
+    return false;
+  }
+
+  if (/^\d{1,2}\s+\w{3},\s+\d{4}/.test(name)) {
+    return false;
+  }
+
+  if (/^\d{1,2}\s+[A-Z][a-z]{2},/.test(name)) {
+    return false;
+  }
+
+  if (name.includes("@")) {
+    return false;
+  }
+
+  if (/^https?:\/\//i.test(name)) {
+    return false;
+  }
+
+  return true;
+}
+
+async function fetchText(url) {
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (compatible; YuGiOhMetaDecksLinkEvolutionImporter/1.0)",
+      Accept: "text/html,application/xhtml+xml,application/javascript,*/*",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  }
+
+  return response.text();
+}
+
+function getScriptUrls(pageHtml) {
+  return Array.from(pageHtml.matchAll(/<script[^>]+src=["']([^"']+)["']/g))
+    .map((match) => match[1])
+    .map((src) =>
+      src.startsWith("http") ? src : new URL(src, sourcePageUrl).href
+    )
+    .filter((url) => url.includes("/static/js/"));
+}
+
+function extractCardLocationPairs(scriptText) {
+  const pairs = [];
+
+  const pairPattern =
+    /"Name"\s*:\s*"([\s\S]*?)"\s*,\s*"Location"\s*:\s*"([\s\S]*?)"/g;
+
+  let match;
+
+  while ((match = pairPattern.exec(scriptText)) !== null) {
+    const name = cleanText(match[1]);
+    const location = cleanText(match[2]);
+
+    if (!isLikelyCardName(name) || !location) {
+      continue;
+    }
+
+    pairs.push({
+      name,
+      location,
+    });
+  }
+
+  return pairs;
+}
+
+function addCardSource(cardSources, pair) {
+  const normalizedName = normalizeCardName(pair.name);
+  const existing = cardSources.get(normalizedName);
 
   const source = {
     game: gameName,
-    packName,
-    characterName: packName,
-    cardCategory,
-    notes: `Generated from the Steam guide. Listed in the ${packName} pack under ${cardCategory}.`,
+    packName: pair.location,
+    characterName: pair.location,
+    cardCategory: "Card Shop",
+    notes: `Generated from LinkEvolutionPro updated card shop guide. Listed under the ${pair.location} card shop location.`,
   };
 
   if (!existing) {
-    cardSources.set(normalizedCardName, {
-      displayName: cardName,
+    cardSources.set(normalizedName, {
+      name: pair.name,
+      status: "available",
       sources: [source],
     });
     return;
   }
 
-  const duplicateSource = existing.sources.some(
-    (item) =>
-      item.packName === source.packName &&
-      item.cardCategory === source.cardCategory
+  const alreadyHasLocation = existing.sources.some(
+    (existingSource) =>
+      normalizeCardName(existingSource.packName) ===
+      normalizeCardName(pair.location)
   );
 
-  if (!duplicateSource) {
+  if (!alreadyHasLocation) {
     existing.sources.push(source);
   }
 }
 
-function parseGuideText(rawText) {
-  const cardSources = new Map();
+function sortCardSources(cardSources) {
+  return Array.from(cardSources.values()).sort((cardA, cardB) =>
+    cardA.name.localeCompare(cardB.name)
+  );
+}
 
-  let currentPackName = null;
-  let currentCategoryName = null;
+function formatSource(source) {
+  const lines = [
+    `        game: ${escapeString(source.game)},`,
+    `        packName: ${escapeString(source.packName)},`,
+    `        characterName: ${escapeString(source.characterName)},`,
+    `        cardCategory: ${escapeString(source.cardCategory)},`,
+    `        notes: ${escapeString(source.notes)},`,
+  ];
 
-  const lines = rawText
-    .split("\n")
-    .map(normalizeLine)
-    .filter((line) => !isLikelyNoiseLine(line));
+  return `      {\n${lines.join("\n")}\n      }`;
+}
 
-  lines.forEach((line) => {
-    const packName = getMatchingPackName(line);
-
-    if (packName) {
-      currentPackName = packName;
-      currentCategoryName = null;
-      return;
-    }
-
-    const categoryName = getMatchingCategoryName(line);
-
-    if (categoryName) {
-      currentCategoryName = categoryName;
-      return;
-    }
-
-    if (!currentPackName || !currentCategoryName) {
-      return;
-    }
-
-    addCardSource(cardSources, line, currentPackName, currentCategoryName);
-  });
-
-  return cardSources;
+function formatCardSource(cardSource) {
+  return `  ${escapeString(cardSource.name)}: {
+    name: ${escapeString(cardSource.name)},
+    status: "available",
+    sources: [
+${cardSource.sources.map(formatSource).join(",\n")}
+    ],
+  }`;
 }
 
 function generateTypeScript(cardSources) {
-  const sortedEntries = Array.from(cardSources.values()).sort((a, b) =>
-    a.displayName.localeCompare(b.displayName)
-  );
-
-  const entries = sortedEntries
-    .map((entry) => {
-      const sources = entry.sources
-        .map(
-          (source) => `      {
-        game: ${escapeString(source.game)},
-        packName: ${escapeString(source.packName)},
-        characterName: ${escapeString(source.characterName)},
-        cardCategory: ${escapeString(source.cardCategory)},
-        notes: ${escapeString(source.notes)},
-      }`
-        )
-        .join(",\n");
-
-      return `  ${escapeString(entry.displayName)}: {
-    name: ${escapeString(entry.displayName)},
-    status: "available",
-    sources: [
-${sources}
-    ],
-  }`;
-    })
-    .join(",\n\n");
-
   return `import type { CardGameSourceInfo } from "../types/deck";
 
 export const generatedCardGameSources: Record<string, CardGameSourceInfo> = {
-${entries}
+${sortCardSources(cardSources).map(formatCardSource).join(",\n\n")}
 };
 `;
 }
 
-function buildImportReport(cardSources) {
-  const packCounts = new Map();
-  const categoryCounts = new Map();
-  let multiSourceCardCount = 0;
-
-  for (const entry of cardSources.values()) {
-    if (entry.sources.length > 1) {
-      multiSourceCardCount += 1;
-    }
-
-    entry.sources.forEach((source) => {
-      packCounts.set(source.packName, (packCounts.get(source.packName) ?? 0) + 1);
-      categoryCounts.set(
-        source.cardCategory,
-        (categoryCounts.get(source.cardCategory) ?? 0) + 1
-      );
-    });
-  }
-
-  const packs = Array.from(packCounts.entries())
-    .map(([packName, count]) => ({ packName, count }))
-    .sort((a, b) => b.count - a.count || a.packName.localeCompare(b.packName));
-
-  const categories = Array.from(categoryCounts.entries())
-    .map(([categoryName, count]) => ({ categoryName, count }))
-    .sort(
-      (a, b) => b.count - a.count || a.categoryName.localeCompare(b.categoryName)
-    );
-
-  const cardsWithMultipleSources = Array.from(cardSources.values())
-    .filter((entry) => entry.sources.length > 1)
-    .map((entry) => ({
-      name: entry.displayName,
-      sourceCount: entry.sources.length,
-      sources: entry.sources.map((source) => ({
-        packName: source.packName,
-        cardCategory: source.cardCategory,
-      })),
-    }))
-    .sort((a, b) => b.sourceCount - a.sourceCount || a.name.localeCompare(b.name));
+function buildReport({
+  scriptUrls,
+  scriptReports,
+  cardSources,
+  rawPairCount,
+  duplicateLocationCount,
+}) {
+  const sortedSources = sortCardSources(cardSources);
 
   return {
     generatedAt: new Date().toISOString(),
-    sourceUrl: steamGuideUrl,
-    totalUniqueCards: cardSources.size,
-    detectedPackCount: packs.length,
-    detectedCategoryCount: categories.length,
-    cardsWithMultipleSourcesCount: multiSourceCardCount,
-    packs,
-    categories,
-    cardsWithMultipleSources,
+    sourcePageUrl,
+    gameName,
+    scriptUrls,
+    scriptReports,
+    rawPairCount,
+    generatedCardCount: sortedSources.length,
+    generatedSourceCount: sortedSources.reduce(
+      (total, card) => total + card.sources.length,
+      0
+    ),
+    duplicateLocationCount,
+    sampleCards: sortedSources.slice(0, 25).map((card) => ({
+      name: card.name,
+      locations: card.sources.map((source) => source.packName),
+    })),
   };
 }
 
-function printImportReport(report) {
+async function main() {
   console.log("");
-  console.log("Import report");
-  console.log("-------------");
-  console.log(`Generated unique cards: ${report.totalUniqueCards}`);
-  console.log(`Detected packs: ${report.detectedPackCount}`);
-  console.log(`Detected categories: ${report.detectedCategoryCount}`);
-  console.log(
-    `Cards with multiple sources: ${report.cardsWithMultipleSourcesCount}`
-  );
+  console.log("Importing Link Evolution card shop sources");
+  console.log("-----------------------------------------");
+  console.log(`Source page: ${sourcePageUrl}`);
 
-  console.log("");
-  console.log("Top packs:");
-  report.packs.slice(0, 10).forEach((pack, index) => {
-    console.log(`${index + 1}. ${pack.packName}: ${pack.count} cards`);
-  });
+  const pageHtml = await fetchText(sourcePageUrl);
+  const scriptUrls = getScriptUrls(pageHtml);
 
-  console.log("");
-  console.log("Top categories:");
-  report.categories.slice(0, 10).forEach((category, index) => {
-    console.log(`${index + 1}. ${category.categoryName}: ${category.count} cards`);
-  });
-
-  console.log("");
-  console.log(
-    "Full report saved at data/cardGameSources.importReport.json"
-  );
-}
-
-async function fetchSteamGuideText() {
-  console.log(`Fetching Steam guide: ${steamGuideUrl}`);
-
-  const response = await fetch(steamGuideUrl, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (compatible; YuGiOhMetaDecksImporter/1.0; +https://vercel.app)",
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error(`Steam request failed with status ${response.status}`);
+  if (scriptUrls.length === 0) {
+    throw new Error("No app script URLs found on LinkEvolutionPro page.");
   }
 
-  const html = await response.text();
-  const text = htmlToText(html);
+  const cardSources = new Map();
+  const seenPairs = new Set();
+  const scriptReports = [];
+  let rawPairCount = 0;
+  let duplicateLocationCount = 0;
 
-  fs.writeFileSync(rawOutputFilePath, text, "utf8");
+  for (const scriptUrl of scriptUrls) {
+    const scriptText = await fetchText(scriptUrl);
+    const pairs = extractCardLocationPairs(scriptText);
 
-  return text;
-}
+    scriptReports.push({
+      scriptUrl,
+      length: scriptText.length,
+      extractedPairCount: pairs.length,
+    });
 
-async function main() {
-  const rawText = await fetchSteamGuideText();
-  const cardSources = parseGuideText(rawText);
+    console.log(
+      `${pairs.length.toString().padStart(5)} card/location pairs from ${scriptUrl}`
+    );
+
+    pairs.forEach((pair) => {
+      rawPairCount += 1;
+
+      const pairKey = `${normalizeCardName(pair.name)}|${normalizeCardName(
+        pair.location
+      )}`;
+
+      if (seenPairs.has(pairKey)) {
+        duplicateLocationCount += 1;
+        return;
+      }
+
+      seenPairs.add(pairKey);
+      addCardSource(cardSources, pair);
+    });
+  }
+
+  if (cardSources.size === 0) {
+    throw new Error(
+      "No card sources were extracted from LinkEvolutionPro scripts."
+    );
+  }
+
   const output = generateTypeScript(cardSources);
-  const report = buildImportReport(cardSources);
+  const report = buildReport({
+    scriptUrls,
+    scriptReports,
+    cardSources,
+    rawPairCount,
+    duplicateLocationCount,
+  });
 
   fs.writeFileSync(outputFilePath, output, "utf8");
   fs.writeFileSync(reportOutputFilePath, JSON.stringify(report, null, 2), "utf8");
 
+  console.log("");
+  console.log("Generated card source database");
+  console.log("------------------------------");
+  console.log(`Cards generated: ${report.generatedCardCount}`);
+  console.log(`Source mappings generated: ${report.generatedSourceCount}`);
+  console.log(`Raw card/location pairs: ${report.rawPairCount}`);
   console.log(
-    `Generated ${cardSources.size} card source mappings at data/cardGameSources.generated.ts`
+    `Duplicate card/location pairs skipped: ${report.duplicateLocationCount}`
   );
-
-  console.log(
-    `Saved fetched guide text at data/legacyOfDuelistGuideRaw.txt for debugging`
-  );
-
-  printImportReport(report);
-
-  if (cardSources.size === 0) {
-    console.log("");
-    console.log("No cards were generated.");
-    console.log("Steam may have changed the page format or blocked the request.");
-  }
+  console.log("");
+  console.log("Generated:");
+  console.log("data/cardGameSources.generated.ts");
+  console.log("data/cardGameSources.importReport.json");
 }
 
 main().catch((error) => {
-  console.error("Import failed.");
+  console.error("Card source import failed.");
   console.error(error);
   process.exit(1);
 });

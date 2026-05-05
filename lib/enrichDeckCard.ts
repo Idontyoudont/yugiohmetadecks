@@ -2,7 +2,11 @@ import { cardDetails } from "../data/cardDetails";
 import { generatedCardGameSources } from "../data/cardGameSources.generated";
 import { cardGameSources } from "../data/cardGameSources";
 import { cardReplacements } from "../data/cardReplacements";
-import type { DeckCard, EnrichedDeckCard } from "../types/deck";
+import type {
+  CardGameSourceInfo,
+  DeckCard,
+  EnrichedDeckCard,
+} from "../types/deck";
 
 function normalizeCardName(name: string) {
   return name
@@ -34,13 +38,17 @@ function getCardDetails(cardName: string) {
   );
 }
 
-function getGameSourceInfo(cardName: string) {
+function getGameSourceInfo(cardName: string): CardGameSourceInfo | undefined {
   const generatedSource = findByNormalizedName(
     generatedCardGameSources,
     cardName
   );
 
   const manualSource = findByNormalizedName(cardGameSources, cardName);
+
+  if (generatedSource?.status === "available") {
+    return generatedSource;
+  }
 
   return manualSource ?? generatedSource;
 }
