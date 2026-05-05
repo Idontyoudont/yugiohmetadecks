@@ -1,0 +1,1079 @@
+{
+  "generatedAt": "2026-05-05T07:55:57.857Z",
+  "maxDecksPerYear": 5,
+  "importedDeckCount": 59,
+  "selectedDeckCount": 45,
+  "yearCount": 14,
+  "years": [
+    {
+      "year": 2005,
+      "importedDeckCount": 1,
+      "selectedDeckCount": 1,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "chain-burn-2005",
+          "name": "Chain Burn 2005",
+          "year": 2005,
+          "deckType": "Chain Burn",
+          "player": "Bryant Tran",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+            "player": "Bryant Tran",
+            "deckType": "Chain Burn",
+            "url": "https://www.yugiohtopdecks.org/deck/15"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 69,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "chain burn"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2006,
+      "importedDeckCount": 1,
+      "selectedDeckCount": 1,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "gadget-2006",
+          "name": "Gadget 2006",
+          "year": 2006,
+          "deckType": "Gadget",
+          "player": "Elijah Gersten",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013",
+            "player": "Elijah Gersten",
+            "deckType": "Gadget",
+            "url": "https://www.yugiohtopdecks.org/deck/43"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "gadget"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2007,
+      "importedDeckCount": 3,
+      "selectedDeckCount": 2,
+      "skippedDeckCount": 1,
+      "selectedDecks": [
+        {
+          "id": "gadget-2007",
+          "name": "Gadget 2007",
+          "year": 2007,
+          "deckType": "Gadget",
+          "player": "Christopher Gonzalez",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
+            "player": "Christopher Gonzalez",
+            "deckType": "Gadget",
+            "url": "https://www.yugiohtopdecks.org/deck/483"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "gadget"
+        },
+        {
+          "id": "monarch-2007",
+          "name": "Monarch 2007",
+          "year": 2007,
+          "deckType": "Monarch",
+          "player": "Charley La",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks deck 2785",
+            "player": "Charley La",
+            "deckType": "Monarch",
+            "url": "https://www.yugiohtopdecks.org/deck/2785"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 0,
+          "sideDeckCount": 15,
+          "totalCount": 56,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "monarch"
+        }
+      ],
+      "skippedDecks": [
+        {
+          "id": "zombie-2007",
+          "name": "Zombie 2007",
+          "deckTypeKey": "zombie",
+          "reason": "Quality severity is error."
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "importedDeckCount": 2,
+      "selectedDeckCount": 2,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "beast-2008",
+          "name": "Beast 2008",
+          "year": 2008,
+          "deckType": "Beast",
+          "player": "???",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1653 - Regional - Seattle Washington (Jun 2013) - Jun 2013",
+            "player": "???",
+            "deckType": "Beast",
+            "url": "https://www.yugiohtopdecks.org/deck/1653"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "beast"
+        },
+        {
+          "id": "lightsworn-2008",
+          "name": "Lightsworn 2008",
+          "year": 2008,
+          "deckType": "Lightsworn",
+          "player": "Anthony Chiechi",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+            "player": "Anthony Chiechi",
+            "deckType": "Lightsworn",
+            "url": "https://www.yugiohtopdecks.org/deck/55"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 0,
+          "sideDeckCount": 15,
+          "totalCount": 56,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "lightsworn"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2009,
+      "importedDeckCount": 4,
+      "selectedDeckCount": 4,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "blackwing-2009",
+          "name": "Blackwing 2009",
+          "year": 2009,
+          "deckType": "Blackwing",
+          "player": "Rodrigo Togores",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2457 - 2009 SJ Orlando (Sep 2009) - Sep 2009",
+            "player": "Rodrigo Togores",
+            "deckType": "Blackwing",
+            "url": "https://www.yugiohtopdecks.org/deck/2457"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "blackwing"
+        },
+        {
+          "id": "beast-2009",
+          "name": "Beast 2009",
+          "year": 2009,
+          "deckType": "Beast",
+          "player": "Daniel LaMartina",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2354 - 2010 Championship Series - Indianapolis (Aug 2010) - Aug 2010",
+            "player": "Daniel LaMartina",
+            "deckType": "Beast",
+            "url": "https://www.yugiohtopdecks.org/deck/2354"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "beast"
+        },
+        {
+          "id": "lightsworn-2009",
+          "name": "Lightsworn 2009",
+          "year": 2009,
+          "deckType": "Lightsworn",
+          "player": "Jake Maddox",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+            "player": "Jake Maddox",
+            "deckType": "Lightsworn",
+            "url": "https://www.yugiohtopdecks.org/deck/111"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "lightsworn"
+        },
+        {
+          "id": "twilight-dragon-2009",
+          "name": "Twilight Dragon 2009",
+          "year": 2009,
+          "deckType": "Twilight Dragon",
+          "player": "Peter Gross",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1924 - 2012 YCS Toulouse (Apr 2012) - Apr 2012",
+            "player": "Peter Gross",
+            "deckType": "Twilight Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/1924"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "twilight dragon"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2010,
+      "importedDeckCount": 9,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 4,
+      "selectedDecks": [
+        {
+          "id": "blackwing-2010",
+          "name": "Blackwing 2010",
+          "year": 2010,
+          "deckType": "Blackwing",
+          "player": "Duelist Unknown",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1080 - Regional - Lenexa Kansas (May 2014) - May 2014",
+            "player": "Duelist Unknown",
+            "deckType": "Blackwing",
+            "url": "https://www.yugiohtopdecks.org/deck/1080"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "blackwing"
+        },
+        {
+          "id": "warrior-2010",
+          "name": "Warrior 2010",
+          "year": 2010,
+          "deckType": "Warrior",
+          "player": "Jeff Jones",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2302 - 2010 SJ Edison (Apr 2010) - Apr 2010",
+            "player": "Jeff Jones",
+            "deckType": "Warrior",
+            "url": "https://www.yugiohtopdecks.org/deck/2302"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "warrior"
+        },
+        {
+          "id": "frog-2010",
+          "name": "Frog 2010",
+          "year": 2010,
+          "deckType": "Frog",
+          "player": "Jeremy Hayes",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
+            "player": "Jeremy Hayes",
+            "deckType": "Frog",
+            "url": "https://www.yugiohtopdecks.org/deck/64"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "frog"
+        },
+        {
+          "id": "quickdraw-dandywarrior-2010",
+          "name": "Quickdraw Dandywarrior 2010",
+          "year": 2010,
+          "deckType": "Quickdraw Dandywarrior",
+          "player": "Kenny Kwan",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2343 - 2010 Championship Series - Philadelphia (Oct 2010) - Oct 2010",
+            "player": "Kenny Kwan",
+            "deckType": "Quickdraw Dandywarrior",
+            "url": "https://www.yugiohtopdecks.org/deck/2343"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "quickdraw dandywarrior"
+        },
+        {
+          "id": "x-saber-2010",
+          "name": "X-Saber 2010",
+          "year": 2010,
+          "deckType": "X-Saber",
+          "player": "Jay Hornung",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2285 - 2010 United States WCQ (Jul 2010) - Jul 2010",
+            "player": "Jay Hornung",
+            "deckType": "X-Saber",
+            "url": "https://www.yugiohtopdecks.org/deck/2285"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "x saber"
+        }
+      ],
+      "skippedDecks": [
+        {
+          "id": "infernity-2010",
+          "name": "Infernity 2010",
+          "deckTypeKey": "infernity",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "monarch-2010",
+          "name": "Monarch 2010",
+          "deckTypeKey": "monarch",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "lightsworn-2010",
+          "name": "Lightsworn 2010",
+          "deckTypeKey": "lightsworn",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "junk-2010",
+          "name": "Junk 2010",
+          "deckTypeKey": "junk",
+          "reason": "Year already has 5 selected decks."
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "plant-2011",
+          "name": "Plant 2011",
+          "year": 2011,
+          "deckType": "Plant",
+          "player": "Adam Hutchins",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
+            "player": "Adam Hutchins",
+            "deckType": "Plant",
+            "url": "https://www.yugiohtopdecks.org/deck/432"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "plant"
+        },
+        {
+          "id": "agent-2011",
+          "name": "Agent 2011",
+          "year": 2011,
+          "deckType": "Agent",
+          "player": "Robert Jordan",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
+            "player": "Robert Jordan",
+            "deckType": "Agent",
+            "url": "https://www.yugiohtopdecks.org/deck/40"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "agent"
+        },
+        {
+          "id": "gravekeeper-2011",
+          "name": "Gravekeeper 2011",
+          "year": 2011,
+          "deckType": "Gravekeeper",
+          "player": "Bryant Grimminger",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
+            "player": "Bryant Grimminger",
+            "deckType": "Gravekeeper",
+            "url": "https://www.yugiohtopdecks.org/deck/110"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "gravekeeper"
+        },
+        {
+          "id": "six-samurai-2011",
+          "name": "Six Samurai 2011",
+          "year": 2011,
+          "deckType": "Six Samurai",
+          "player": "Kumar Dave",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+            "player": "Kumar Dave",
+            "deckType": "Six Samurai",
+            "url": "https://www.yugiohtopdecks.org/deck/16"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "six samurai"
+        },
+        {
+          "id": "synchro-2011",
+          "name": "Synchro 2011",
+          "year": 2011,
+          "deckType": "Synchro",
+          "player": "Patrick Hoban",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
+            "player": "Patrick Hoban",
+            "deckType": "Synchro",
+            "url": "https://www.yugiohtopdecks.org/deck/562"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 13,
+          "sideDeckCount": 15,
+          "totalCount": 68,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "synchro"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2012,
+      "importedDeckCount": 10,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 5,
+      "selectedDecks": [
+        {
+          "id": "chaos-2012",
+          "name": "Chaos 2012",
+          "year": 2012,
+          "deckType": "Chaos",
+          "player": "Jeremy Ottery (sp?)",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1370 - Regional - Columbus Ohio (Apr 2013) - Apr 2013",
+            "player": "Jeremy Ottery (sp?)",
+            "deckType": "Chaos",
+            "url": "https://www.yugiohtopdecks.org/deck/1370"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "chaos"
+        },
+        {
+          "id": "dino-rabbit-2012",
+          "name": "Dino Rabbit 2012",
+          "year": 2012,
+          "deckType": "Dino Rabbit",
+          "player": "Isaac Canales",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+            "player": "Isaac Canales",
+            "deckType": "Dino Rabbit",
+            "url": "https://www.yugiohtopdecks.org/deck/29"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "dino rabbit"
+        },
+        {
+          "id": "dragon-2012",
+          "name": "Dragon 2012",
+          "year": 2012,
+          "deckType": "Dragon",
+          "player": "Chris Waters",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
+            "player": "Chris Waters",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/119"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "dragon"
+        },
+        {
+          "id": "inzektor-2012",
+          "name": "Inzektor 2012",
+          "year": 2012,
+          "deckType": "Inzektor",
+          "player": "Mikael Ibsen",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
+            "player": "Mikael Ibsen",
+            "deckType": "Inzektor",
+            "url": "https://www.yugiohtopdecks.org/deck/28"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 69,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "inzektor"
+        },
+        {
+          "id": "wind-up-2012",
+          "name": "Wind-Up 2012",
+          "year": 2012,
+          "deckType": "Wind-Up",
+          "player": "Jeremy Thibeau",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+            "player": "Jeremy Thibeau",
+            "deckType": "Wind-Up",
+            "url": "https://www.yugiohtopdecks.org/deck/11"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 69,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "wind up"
+        }
+      ],
+      "skippedDecks": [
+        {
+          "id": "hero-2012",
+          "name": "HERO 2012",
+          "deckTypeKey": "hero",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "black-2012",
+          "name": "Black 2012",
+          "deckTypeKey": "black",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "lightsworn-2012",
+          "name": "Lightsworn 2012",
+          "deckTypeKey": "lightsworn",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "djinn-2012",
+          "name": "Djinn 2012",
+          "deckTypeKey": "djinn",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "elemental-2012",
+          "name": "Elemental 2012",
+          "deckTypeKey": "elemental",
+          "reason": "Year already has 5 selected decks."
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 4,
+      "skippedDeckCount": 1,
+      "selectedDecks": [
+        {
+          "id": "mermail-2013",
+          "name": "Mermail 2013",
+          "year": 2013,
+          "deckType": "Mermail",
+          "player": "Steffon Bizzell",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
+            "player": "Steffon Bizzell",
+            "deckType": "Mermail",
+            "url": "https://www.yugiohtopdecks.org/deck/10"
+          },
+          "mainDeckCount": 44,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 74,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "mermail"
+        },
+        {
+          "id": "dragon-ruler-2013",
+          "name": "Dragon Ruler 2013",
+          "year": 2013,
+          "deckType": "Dragon Ruler",
+          "player": "Michele Bergamasco",
+          "source": {
+            "label": "Top 16 YCS Turin 2013",
+            "player": "Michele Bergamasco",
+            "deckType": "Dragon Ruler",
+            "url": "https://yugiohtcgzone.blogspot.com/2013/12/dragon-ruler-by-michele-bergamasco-top.html"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "dragon ruler"
+        },
+        {
+          "id": "fire-fist-2013",
+          "name": "Fire Fist 2013",
+          "year": 2013,
+          "deckType": "Fire Fist",
+          "player": "Mike Steinman",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
+            "player": "Mike Steinman",
+            "deckType": "Fire Fist",
+            "url": "https://www.yugiohtopdecks.org/deck/17"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "fire fist"
+        },
+        {
+          "id": "spellbook-2013",
+          "name": "Spellbook 2013",
+          "year": 2013,
+          "deckType": "Spellbook",
+          "player": "Travis Hilliard",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
+            "player": "Travis Hilliard",
+            "deckType": "Spellbook",
+            "url": "https://www.yugiohtopdecks.org/deck/132"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "spellbook"
+        }
+      ],
+      "skippedDecks": [
+        {
+          "id": "evilswarm-2013",
+          "name": "Evilswarm 2013",
+          "deckTypeKey": "evilswarm",
+          "reason": "Quality severity is error."
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "importedDeckCount": 8,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 3,
+      "selectedDecks": [
+        {
+          "id": "bujin-2014",
+          "name": "Bujin 2014",
+          "year": 2014,
+          "deckType": "Bujin",
+          "player": "DJ Katter",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+            "player": "DJ Katter",
+            "deckType": "Bujin",
+            "url": "https://www.yugiohtopdecks.org/deck/52"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "bujin"
+        },
+        {
+          "id": "mermail-2014",
+          "name": "Mermail 2014",
+          "year": 2014,
+          "deckType": "Mermail",
+          "player": "Chrispother Quinones- Ortega",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014",
+            "player": "Chrispother Quinones- Ortega",
+            "deckType": "Mermail",
+            "url": "https://www.yugiohtopdecks.org/deck/53"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "mermail"
+        },
+        {
+          "id": "fire-fist-2014",
+          "name": "Fire Fist 2014",
+          "year": 2014,
+          "deckType": "Fire Fist",
+          "player": "Charlie Kip",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks deck 1168",
+            "player": "Charlie Kip",
+            "deckType": "Fire Fist",
+            "url": "https://www.yugiohtopdecks.org/deck/1168"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "fire fist"
+        },
+        {
+          "id": "geargia-2014",
+          "name": "Geargia 2014",
+          "year": 2014,
+          "deckType": "Geargia",
+          "player": "David Knauff",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014",
+            "player": "David Knauff",
+            "deckType": "Geargia",
+            "url": "https://www.yugiohtopdecks.org/deck/173"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "geargia"
+        },
+        {
+          "id": "karakuri-2014",
+          "name": "Karakuri 2014",
+          "year": 2014,
+          "deckType": "Karakuri",
+          "player": "Mikhail Martinez",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014",
+            "player": "Mikhail Martinez",
+            "deckType": "Karakuri",
+            "url": "https://www.yugiohtopdecks.org/deck/99"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "karakuri"
+        }
+      ],
+      "skippedDecks": [
+        {
+          "id": "shaddoll-2014",
+          "name": "Shaddoll 2014",
+          "deckTypeKey": "shaddoll",
+          "reason": "Year already has 5 selected decks."
+        },
+        {
+          "id": "traptrix-2014",
+          "name": "Traptrix 2014",
+          "deckTypeKey": "traptrix",
+          "reason": "Quality severity is warning."
+        },
+        {
+          "id": "artifact-2014",
+          "name": "Artifact 2014",
+          "deckTypeKey": "artifact",
+          "reason": "Quality severity is error."
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "burning-abyss-2015",
+          "name": "Burning Abyss 2015",
+          "year": 2015,
+          "deckType": "Burning Abyss",
+          "player": "Calvin Tahan",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks deck 4319",
+            "player": "Calvin Tahan",
+            "deckType": "Burning Abyss",
+            "url": "https://www.yugiohtopdecks.org/deck/4319"
+          },
+          "mainDeckCount": 48,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 78,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "burning abyss"
+        },
+        {
+          "id": "satellarknight-2015",
+          "name": "Satellarknight 2015",
+          "year": 2015,
+          "deckType": "Satellarknight",
+          "player": "Hector Candelaria",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014",
+            "player": "Hector Candelaria",
+            "deckType": "Satellarknight",
+            "url": "https://www.yugiohtopdecks.org/deck/254"
+          },
+          "mainDeckCount": 42,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 72,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "satellarknight"
+        },
+        {
+          "id": "shaddoll-2015",
+          "name": "Shaddoll 2015",
+          "year": 2015,
+          "deckType": "Shaddoll",
+          "player": "Michael Glowacki",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014",
+            "player": "Michael Glowacki",
+            "deckType": "Shaddoll",
+            "url": "https://www.yugiohtopdecks.org/deck/250"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "shaddoll"
+        },
+        {
+          "id": "nekroz-2015",
+          "name": "Nekroz 2015",
+          "year": 2015,
+          "deckType": "Nekroz",
+          "player": "Ryan Levine",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks deck 4520",
+            "player": "Ryan Levine",
+            "deckType": "Nekroz",
+            "url": "https://www.yugiohtopdecks.org/deck/4520"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 69,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "nekroz"
+        },
+        {
+          "id": "qliphort-2015",
+          "name": "Qliphort 2015",
+          "year": 2015,
+          "deckType": "Qliphort",
+          "player": "Oleksandr Atamanenko",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
+            "player": "Oleksandr Atamanenko",
+            "deckType": "Qliphort",
+            "url": "https://www.yugiohtopdecks.org/deck/333"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 7,
+          "sideDeckCount": 15,
+          "totalCount": 62,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "qliphort"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2016,
+      "importedDeckCount": 3,
+      "selectedDeckCount": 3,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "blue-eyes-2016",
+          "name": "Blue-Eyes 2016",
+          "year": 2016,
+          "deckType": "Blue-Eyes",
+          "player": "Matias Lopez",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1245 - Regional - Buenos Aires Argentina (Jan 2014) - Jan 2014",
+            "player": "Matias Lopez",
+            "deckType": "Blue-Eyes",
+            "url": "https://www.yugiohtopdecks.org/deck/1245"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "blue eyes"
+        },
+        {
+          "id": "burning-abyss-2016",
+          "name": "Burning Abyss 2016",
+          "year": 2016,
+          "deckType": "Burning Abyss",
+          "player": "Scott Sheahan",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014",
+            "player": "Scott Sheahan",
+            "deckType": "Burning Abyss",
+            "url": "https://www.yugiohtopdecks.org/deck/252"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "burning abyss"
+        },
+        {
+          "id": "performapal-2016",
+          "name": "Performapal 2016",
+          "year": 2016,
+          "deckType": "Performapal",
+          "player": "Rotorato Simone",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks deck 4843",
+            "player": "Rotorato Simone",
+            "deckType": "Performapal",
+            "url": "https://www.yugiohtopdecks.org/deck/4843"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "performapal"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2017,
+      "importedDeckCount": 1,
+      "selectedDeckCount": 1,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "magician-2017",
+          "name": "Magician 2017",
+          "year": 2017,
+          "deckType": "Magician",
+          "player": "Glang Nguyen",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1362 - Regional - Brooklyn New York (Apr 2013) - Apr 2013",
+            "player": "Glang Nguyen",
+            "deckType": "Magician",
+            "url": "https://www.yugiohtopdecks.org/deck/1362"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "magician"
+        }
+      ],
+      "skippedDecks": []
+    },
+    {
+      "year": 2018,
+      "importedDeckCount": 2,
+      "selectedDeckCount": 2,
+      "skippedDeckCount": 0,
+      "selectedDecks": [
+        {
+          "id": "hunder-2018",
+          "name": "Hunder 2018",
+          "year": 2018,
+          "deckType": "Hunder",
+          "player": "Shane Loftis",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
+            "player": "Shane Loftis",
+            "deckType": "Hunder",
+            "url": "https://www.yugiohtopdecks.org/deck/222"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "hunder"
+        },
+        {
+          "id": "thunder-2018",
+          "name": "Thunder 2018",
+          "year": 2018,
+          "deckType": "Thunder",
+          "player": "Jose Castillo",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1270 - Regional - Vina Del Mar Chile (Jan 2014) - Jan 2014",
+            "player": "Jose Castillo",
+            "deckType": "Thunder",
+            "url": "https://www.yugiohtopdecks.org/deck/1270"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 69,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "thunder"
+        }
+      ],
+      "skippedDecks": []
+    }
+  ]
+}

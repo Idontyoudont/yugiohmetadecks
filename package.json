@@ -12,6 +12,7 @@
 
     "decks:import": "node scripts/importDecklist.mjs",
     "decks:quality": "node scripts/reportImportedDeckQuality.mjs",
+    "decks:curate": "node scripts/generateCuratedDeckSelection.mjs",
 
     "sources:discover-topdecks": "node scripts/discoverTopDeckSources.mjs",
     "sources:template": "node scripts/generateDeckSourceIntakeTemplate.mjs",
