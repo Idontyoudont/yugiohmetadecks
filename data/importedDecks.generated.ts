@@ -17829,5 +17829,1748 @@ export const importedDecks: Deck[] = [
       quantity: 1,
     }
   ],
+  },
+  {
+    id: "synchro-2017",
+    name: "Synchro 2017",
+    year: 2017,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017",
+      player: "Duelist Unknown",
+      deckType: "Synchro",
+      url: "https://www.yugiohtopdecks.org/deck/5839",
+    },
+    mainDeck: [
+    {
+      name: "Esper Girl",
+      quantity: 1,
+    },
+    {
+      name: "Glow-Up Bulb",
+      quantity: 1,
+    },
+    {
+      name: "Jet Synchron",
+      quantity: 1,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "Red Resonator",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL GEAR - Drone",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL Master Plan",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL Quik-Fix",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Super Agent",
+      quantity: 3,
+    },
+    {
+      name: "Synkron Resonator",
+      quantity: 1,
+    },
+    {
+      name: "Emergency Teleport",
+      quantity: 1,
+    },
+    {
+      name: "Foolish Burial",
+      quantity: 1,
+    },
+    {
+      name: "Instant Fusion",
+      quantity: 2,
+    },
+    {
+      name: "One for One",
+      quantity: 1,
+    },
+    {
+      name: "Resonator Call",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL GEAR - Big Red",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL MISSION - Assault",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL Resort",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 2,
+    },
+    {
+      name: "Upstart Goblin",
+      quantity: 1,
+    },
+    {
+      name: "Dimensional Barrier",
+      quantity: 2,
+    },
+    {
+      name: "Solemn Strike",
+      quantity: 2,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Accel Synchron",
+      quantity: 1,
+    },
+    {
+      name: "Ancient Fairy Dragon",
+      quantity: 1,
+      tags: ["field spell support", "level 7", "synchro"],
+    },
+    {
+      name: "Coral Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Crystal Wing Synchro Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Elder Entity Norden",
+      quantity: 1,
+    },
+    {
+      name: "Formula Synchron",
+      quantity: 1,
+    },
+    {
+      name: "Goyo Defender",
+      quantity: 3,
+    },
+    {
+      name: "Meliae of the Trees",
+      quantity: 1,
+    },
+    {
+      name: "M-X-Saber Invoker",
+      quantity: 1,
+    },
+    {
+      name: "Naturia Barkion",
+      quantity: 1,
+    },
+    {
+      name: "Naturia Beast",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framelord Omega",
+      quantity: 1,
+    },
+    {
+      name: "Trishula, Dragon of the Ice Barrier",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "D.D. Crow",
+      quantity: 2,
+      tags: ["graveyard control", "hand trap", "side deck"],
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 3,
+    },
+    {
+      name: "Cosmic Cyclone",
+      quantity: 3,
+    },
+    {
+      name: "Raigeki",
+      quantity: 1,
+    },
+    {
+      name: "System Down",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "spyral-2017",
+    name: "SPYRAL 2017",
+    year: 2017,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017",
+      player: "Michael Duke",
+      deckType: "SPYRAL",
+      url: "https://www.yugiohtopdecks.org/deck/5875",
+    },
+    mainDeck: [
+    {
+      name: "Charming Resort Staff",
+      quantity: 1,
+    },
+    {
+      name: "Gameciel, the Sea Turtle Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Garnet",
+      quantity: 1,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 2,
+    },
+    {
+      name: "Jizukiru, the Star Destroying Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Kumongous, the Sticky String Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "SPYRAL GEAR - Drone",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Quik-Fix",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Super Agent",
+      quantity: 3,
+    },
+    {
+      name: "Thunder King, the Lightningstrike Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Brilliant Fusion",
+      quantity: 3,
+    },
+    {
+      name: "Foolish Burial",
+      quantity: 1,
+    },
+    {
+      name: "Interrupted Kaiju Slumber",
+      quantity: 3,
+    },
+    {
+      name: "Machine Duplication",
+      quantity: 3,
+    },
+    {
+      name: "One for One",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL GEAR - Big Red",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Resort",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Castel, the Skyblaster Musketeer",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Seraphinite",
+      quantity: 1,
+    },
+    {
+      name: "Ghostrick Angel of Mischief",
+      quantity: 1,
+    },
+    {
+      name: "Ghostrick Dullahan",
+      quantity: 1,
+    },
+    {
+      name: "Number 100: Numeron Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Number 107: Galaxy-Eyes Tachyon Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Number 31: Embodiment of Punishment",
+      quantity: 1,
+    },
+    {
+      name: "Number 39: Utopia",
+      quantity: 1,
+    },
+    {
+      name: "Number 63: Shamoji Soldier",
+      quantity: 2,
+    },
+    {
+      name: "Number 93: Utopia Kaiser",
+      quantity: 1,
+    },
+    {
+      name: "Number 9: Dyson Sphere",
+      quantity: 1,
+    },
+    {
+      name: "Number S39: Utopia the Lightning",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framelord Omega",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "D.D. Crow",
+      quantity: 2,
+      tags: ["graveyard control", "hand trap", "side deck"],
+    },
+    {
+      name: "Denko Sekka",
+      quantity: 1,
+    },
+    {
+      name: "Flying \"C\"",
+      quantity: 2,
+    },
+    {
+      name: "Retaliating \"C\"",
+      quantity: 3,
+    },
+    {
+      name: "System Down",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 1,
+    },
+    {
+      name: "Dimensional Barrier",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "kaiju-2017",
+    name: "Kaiju 2017",
+    year: 2017,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017",
+      player: "Michael Duke",
+      deckType: "Kaiju",
+      url: "https://www.yugiohtopdecks.org/deck/5883",
+    },
+    mainDeck: [
+    {
+      name: "Charming Resort Staff",
+      quantity: 1,
+    },
+    {
+      name: "Gameciel, the Sea Turtle Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Garnet",
+      quantity: 1,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 2,
+    },
+    {
+      name: "Jizukiru, the Star Destroying Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Kumongous, the Sticky String Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Maxx \"C\"",
+      quantity: 2,
+      tags: ["disruption", "draw", "hand trap"],
+    },
+    {
+      name: "SPYRAL GEAR - Drone",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Quik-Fix",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Super Agent",
+      quantity: 3,
+    },
+    {
+      name: "Thunder King, the Lightningstrike Kaiju",
+      quantity: 1,
+    },
+    {
+      name: "Brilliant Fusion",
+      quantity: 3,
+    },
+    {
+      name: "Foolish Burial",
+      quantity: 1,
+    },
+    {
+      name: "Interrupted Kaiju Slumber",
+      quantity: 3,
+    },
+    {
+      name: "Machine Duplication",
+      quantity: 3,
+    },
+    {
+      name: "One for One",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL GEAR - Big Red",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Resort",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Castel, the Skyblaster Musketeer",
+      quantity: 1,
+    },
+    {
+      name: "Gem-Knight Seraphinite",
+      quantity: 1,
+    },
+    {
+      name: "Ghostrick Angel of Mischief",
+      quantity: 1,
+    },
+    {
+      name: "Ghostrick Dullahan",
+      quantity: 1,
+    },
+    {
+      name: "Number 100: Numeron Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Number 107: Galaxy-Eyes Tachyon Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Number 31: Embodiment of Punishment",
+      quantity: 1,
+    },
+    {
+      name: "Number 39: Utopia",
+      quantity: 1,
+    },
+    {
+      name: "Number 63: Shamoji Soldier",
+      quantity: 2,
+    },
+    {
+      name: "Number 93: Utopia Kaiser",
+      quantity: 1,
+    },
+    {
+      name: "Number 9: Dyson Sphere",
+      quantity: 1,
+    },
+    {
+      name: "Number S39: Utopia the Lightning",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framelord Omega",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "D.D. Crow",
+      quantity: 2,
+      tags: ["graveyard control", "hand trap", "side deck"],
+    },
+    {
+      name: "Denko Sekka",
+      quantity: 1,
+    },
+    {
+      name: "Flying \"C\"",
+      quantity: 2,
+    },
+    {
+      name: "Retaliating \"C\"",
+      quantity: 3,
+    },
+    {
+      name: "System Down",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 1,
+    },
+    {
+      name: "Dimensional Barrier",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "knightmare-2018",
+    name: "Knightmare 2018",
+    year: 2018,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 7249 - Regional - Las Vegas Nevada (May 2018) - May 2018",
+      player: "Anthony Gausepohl",
+      deckType: "Knightmare",
+      url: "https://www.yugiohtopdecks.org/deck/7249",
+    },
+    mainDeck: [
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Binary Sorceress",
+      quantity: 1,
+    },
+    {
+      name: "Blue Mountain Butterspy",
+      quantity: 3,
+    },
+    {
+      name: "Borreload Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Curious, the Lightsworn Dominion",
+      quantity: 1,
+    },
+    {
+      name: "Firewall Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 3,
+    },
+    {
+      name: "Gouki Bearhug",
+      quantity: 1,
+    },
+    {
+      name: "Gouki Headbatt",
+      quantity: 3,
+    },
+    {
+      name: "Gouki Octostretch",
+      quantity: 2,
+    },
+    {
+      name: "Gouki Riscorpio",
+      quantity: 1,
+    },
+    {
+      name: "Gouki Suprex",
+      quantity: 3,
+    },
+    {
+      name: "Gouki Twistcobra",
+      quantity: 2,
+    },
+    {
+      name: "Isolde, Two Tales of the Noble Knights",
+      quantity: 2,
+    },
+    {
+      name: "Junk Forward",
+      quantity: 3,
+    },
+    {
+      name: "Knightmare Cerberus",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Corruptor Iblee",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Goblin",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Gryphon",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Mermaid",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Phoenix",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Unicorn",
+      quantity: 1,
+    },
+    {
+      name: "Linkuriboh",
+      quantity: 1,
+    },
+    {
+      name: "SPYRAL Super Agent",
+      quantity: 1,
+    },
+    {
+      name: "Tri-Gate Wizard",
+      quantity: 1,
+    },
+    {
+      name: "Divine Sword - Phoenix Blade",
+      quantity: 1,
+    },
+    {
+      name: "Gouki Re-Match",
+      quantity: 2,
+    },
+    {
+      name: "Monster Reborn",
+      quantity: 1,
+    },
+    {
+      name: "Moon Mirror Shield",
+      quantity: 1,
+    },
+    {
+      name: "Reinforcement of the Army",
+      quantity: 1,
+    },
+    {
+      name: "Imperial Order",
+      quantity: 1,
+    },
+    {
+      name: "Infinite Impermanence",
+      quantity: 2,
+    },
+    {
+      name: "Solemn Judgment",
+      quantity: 1,
+    },
+    {
+      name: "Solemn Strike",
+      quantity: 3,
+    },
+    {
+      name: "Solemn Warning",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "M-X-Saber Invoker",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Gameciel, the Sea Turtle Kaiju",
+      quantity: 2,
+    },
+    {
+      name: "Raidraptor - Ultimate Falcon",
+      quantity: 1,
+    },
+    {
+      name: "The Last Warrior from Another Planet",
+      quantity: 1,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 3,
+    },
+    {
+      name: "Evenly Matched",
+      quantity: 3,
+    },
+    {
+      name: "Red Reboot",
+      quantity: 3,
+    },
+    {
+      name: "Waking the Dragon",
+      quantity: 2,
+    }
+  ],
+  },
+  {
+    id: "sky-striker-2018",
+    name: "Sky Striker 2018",
+    year: 2018,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018",
+      player: "Jakob Heher",
+      deckType: "Sky Striker",
+      url: "https://www.yugiohtopdecks.org/deck/7269",
+    },
+    mainDeck: [
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Ace - Raye",
+      quantity: 3,
+    },
+    {
+      name: "Foolish Burial Goods",
+      quantity: 3,
+    },
+    {
+      name: "Limiter Removal",
+      quantity: 1,
+    },
+    {
+      name: "Metalfoes Fusion",
+      quantity: 1,
+    },
+    {
+      name: "Mystical Space Typhoon",
+      quantity: 3,
+      tags: ["backrow removal", "quick-play"],
+    },
+    {
+      name: "Reinforcement of the Army",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Airspace - Area Zero",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Maneuver - Afterburners!",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Maneuver - Jamming Waves!",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mecha - Eagle Booster",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mecha - Hornet Drones",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Mecha Modules - Multirole",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mecharmory - Hercules Base",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mecha - Widow Anchor",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Mobilize - Engage!",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 3,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 3,
+    },
+    {
+      name: "Upstart Goblin",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "ABC-Dragon Buster",
+      quantity: 1,
+    },
+    {
+      name: "Black Rose Dragon",
+      quantity: 1,
+      tags: ["board clear", "level 7", "synchro"],
+    },
+    {
+      name: "Heavymetalfoes Electrumite",
+      quantity: 1,
+    },
+    {
+      name: "Invoked Mechaba",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Mermaid",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Phoenix",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Ace - Kagari",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Ace - Shizuku",
+      quantity: 3,
+    },
+    {
+      name: "SPYRAL Double Helix",
+      quantity: 1,
+    },
+    {
+      name: "Toadally Awesome",
+      quantity: 1,
+    },
+    {
+      name: "Triple Burst Dragon",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Ghost Reaper & Winter Cherries",
+      quantity: 3,
+    },
+    {
+      name: "The Winged Dragon of Ra - Sphere Mode",
+      quantity: 3,
+    },
+    {
+      name: "Trap Eater",
+      quantity: 3,
+    },
+    {
+      name: "Called by the Grave",
+      quantity: 3,
+    },
+    {
+      name: "Cosmic Cyclone",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "ghostrick-2018",
+    name: "Ghostrick 2018",
+    year: 2018,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018",
+      player: "Koty Angeloff",
+      deckType: "Ghostrick",
+      url: "https://www.yugiohtopdecks.org/deck/7274",
+    },
+    mainDeck: [
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Droll & Lock Bird",
+      quantity: 3,
+    },
+    {
+      name: "Ghost Belle & Haunted Mansion",
+      quantity: 2,
+    },
+    {
+      name: "Trickstar Candina",
+      quantity: 3,
+    },
+    {
+      name: "Trickstar Lilybell",
+      quantity: 1,
+    },
+    {
+      name: "Trickstar Lycoris",
+      quantity: 2,
+    },
+    {
+      name: "Pot of Desires",
+      quantity: 3,
+    },
+    {
+      name: "Scapegoat",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Maneuver - Afterburners!",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Maneuver - Jamming Waves!",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mecha - Hornet Drones",
+      quantity: 3,
+    },
+    {
+      name: "Sky Striker Mecha - Widow Anchor",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Mobilize - Engage!",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 3,
+    },
+    {
+      name: "Trickstar Light Stage",
+      quantity: 3,
+    },
+    {
+      name: "Infinite Impermanence",
+      quantity: 3,
+    },
+    {
+      name: "Trickstar Reincarnation",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Borreload Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Firewall Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Cerberus",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Goblin",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Phoenix",
+      quantity: 1,
+    },
+    {
+      name: "Link Spider",
+      quantity: 1,
+    },
+    {
+      name: "Linkuriboh",
+      quantity: 1,
+    },
+    {
+      name: "Saryuja Skull Dread",
+      quantity: 1,
+    },
+    {
+      name: "Sky Striker Ace - Kagari",
+      quantity: 2,
+    },
+    {
+      name: "Sky Striker Ace - Shizuku",
+      quantity: 1,
+    },
+    {
+      name: "Space Insulator",
+      quantity: 1,
+    },
+    {
+      name: "Topologic Bomber Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Topologic Trisbaena",
+      quantity: 1,
+    },
+    {
+      name: "Trickstar Holly Angel",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "The Winged Dragon of Ra - Sphere Mode",
+      quantity: 3,
+    },
+    {
+      name: "Called by the Grave",
+      quantity: 2,
+    },
+    {
+      name: "Shared Ride",
+      quantity: 2,
+    },
+    {
+      name: "Twin Twisters",
+      quantity: 2,
+    },
+    {
+      name: "Evenly Matched",
+      quantity: 3,
+    },
+    {
+      name: "Mind Crush",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "eldlich-2022",
+    name: "Eldlich 2022",
+    year: 2022,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022",
+      player: "Indi Watts",
+      deckType: "Eldlich",
+      url: "https://www.yugiohtopdecks.org/deck/9141",
+    },
+    mainDeck: [
+    {
+      name: "Aleister the Invoker",
+      quantity: 3,
+    },
+    {
+      name: "Dogmatika Ecclesia, the Virtuous",
+      quantity: 1,
+    },
+    {
+      name: "Dogmatika Fleurdelis, the Knighted",
+      quantity: 1,
+    },
+    {
+      name: "Eldlich the Golden Lord",
+      quantity: 3,
+    },
+    {
+      name: "Fallen of Albaz",
+      quantity: 2,
+    },
+    {
+      name: "Branded Fusion",
+      quantity: 3,
+    },
+    {
+      name: "Cursed Eldland",
+      quantity: 3,
+    },
+    {
+      name: "Dark Ruler No More",
+      quantity: 3,
+    },
+    {
+      name: "Invocation",
+      quantity: 2,
+    },
+    {
+      name: "Magical Meltdown",
+      quantity: 3,
+    },
+    {
+      name: "Nadir Servant",
+      quantity: 2,
+    },
+    {
+      name: "Pot of Prosperity",
+      quantity: 3,
+    },
+    {
+      name: "Super Polymerization",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 1,
+    },
+    {
+      name: "Conquistador of the Golden Land",
+      quantity: 3,
+    },
+    {
+      name: "Dogmatika Punishment",
+      quantity: 1,
+    },
+    {
+      name: "Eldlixir of Scarlet Sanguine",
+      quantity: 3,
+    },
+    {
+      name: "Huaquero of the Golden Land",
+      quantity: 2,
+    },
+    {
+      name: "Skill Drain",
+      quantity: 3,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Albion the Branded Dragon",
+      quantity: 2,
+    },
+    {
+      name: "Artemis, the Magistus Moon Maiden",
+      quantity: 1,
+    },
+    {
+      name: "Elder Entity N'tss",
+      quantity: 1,
+    },
+    {
+      name: "Garura, Wings of Resonant Life",
+      quantity: 1,
+    },
+    {
+      name: "Invoked Augoeides",
+      quantity: 1,
+    },
+    {
+      name: "Invoked Caliga",
+      quantity: 1,
+    },
+    {
+      name: "Invoked Mechaba",
+      quantity: 1,
+    },
+    {
+      name: "Lubellion the Searing Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Mirrorjade the Iceblade Dragon",
+      quantity: 2,
+    },
+    {
+      name: "Mudragon of the Swamp",
+      quantity: 1,
+    },
+    {
+      name: "Predaplant Dragostapelia",
+      quantity: 1,
+    },
+    {
+      name: "Predaplant Triphyoverutum",
+      quantity: 1,
+    },
+    {
+      name: "Titaniklad the Ash Dragon",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Dimension Shifter",
+      quantity: 3,
+    },
+    {
+      name: "Lava Golem",
+      quantity: 3,
+    },
+    {
+      name: "Cosmic Cyclone",
+      quantity: 3,
+    },
+    {
+      name: "Solemn Judgment",
+      quantity: 3,
+    },
+    {
+      name: "There Can Be Only One",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "synchro-2022",
+    name: "Synchro 2022",
+    year: 2022,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022",
+      player: "Jordan Couture",
+      deckType: "Synchro",
+      url: "https://www.yugiohtopdecks.org/deck/9166",
+    },
+    mainDeck: [
+    {
+      name: "Absolute King Back Jack",
+      quantity: 1,
+    },
+    {
+      name: "Albion the Shrouded Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Danger!? Jackalope?",
+      quantity: 1,
+    },
+    {
+      name: "Danger! Nessie!",
+      quantity: 3,
+    },
+    {
+      name: "Danger!? Tsuchinoko?",
+      quantity: 1,
+    },
+    {
+      name: "Destiny HERO - Malicious",
+      quantity: 2,
+    },
+    {
+      name: "Incredible Ecclesia, the Virtuous",
+      quantity: 1,
+    },
+    {
+      name: "Nibiru, the Primal Being",
+      quantity: 3,
+    },
+    {
+      name: "Tearlaments Havnis",
+      quantity: 3,
+    },
+    {
+      name: "Tearlaments Merrli",
+      quantity: 3,
+    },
+    {
+      name: "Tearlaments Reinoheart",
+      quantity: 2,
+    },
+    {
+      name: "Tearlaments Scheiren",
+      quantity: 3,
+    },
+    {
+      name: "The Golden Swordsoul",
+      quantity: 1,
+    },
+    {
+      name: "Branded in High Spirits",
+      quantity: 3,
+    },
+    {
+      name: "Instant Fusion",
+      quantity: 1,
+    },
+    {
+      name: "Primeval Planet Perlereino",
+      quantity: 3,
+    },
+    {
+      name: "Super Polymerization",
+      quantity: 3,
+    },
+    {
+      name: "Terraforming",
+      quantity: 1,
+    },
+    {
+      name: "Infinite Impermanence",
+      quantity: 3,
+    },
+    {
+      name: "Tearlaments Sulliek",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Abyss Dweller",
+      quantity: 1,
+    },
+    {
+      name: "Baronne de Fleur",
+      quantity: 1,
+    },
+    {
+      name: "Beatrice, Lady of the Eternal",
+      quantity: 1,
+    },
+    {
+      name: "D.3.S. Frog",
+      quantity: 1,
+    },
+    {
+      name: "Dharc the Dark Charmer, Gloomy",
+      quantity: 1,
+    },
+    {
+      name: "Garura, Wings of Resonant Life",
+      quantity: 2,
+    },
+    {
+      name: "I:P Masquerena",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Unicorn",
+      quantity: 1,
+    },
+    {
+      name: "Mudragon of the Swamp",
+      quantity: 1,
+    },
+    {
+      name: "Predaplant Dragostapelia",
+      quantity: 1,
+    },
+    {
+      name: "Spright Elf",
+      quantity: 1,
+    },
+    {
+      name: "Stardust Charge Warrior",
+      quantity: 1,
+    },
+    {
+      name: "Tearlaments Kaleido-Heart",
+      quantity: 1,
+    },
+    {
+      name: "Tearlaments Kitkallos",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Droll & Lock Bird",
+      quantity: 3,
+    },
+    {
+      name: "Cosmic Cyclone",
+      quantity: 2,
+    },
+    {
+      name: "Dark Ruler No More",
+      quantity: 3,
+    },
+    {
+      name: "Harpie's Feather Duster",
+      quantity: 1,
+    },
+    {
+      name: "Evenly Matched",
+      quantity: 3,
+    },
+    {
+      name: "Paleozoic Dinomischus",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "purely-2023",
+    name: "Purely 2023",
+    year: 2023,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023",
+      player: "Will Morrison",
+      deckType: "Purely",
+      url: "https://www.yugiohtopdecks.org/deck/9565",
+    },
+    mainDeck: [
+    {
+      name: "Broww, Huntsman of Dark World",
+      quantity: 1,
+    },
+    {
+      name: "Droll & Lock Bird",
+      quantity: 3,
+    },
+    {
+      name: "Kurikara Divincarnate",
+      quantity: 3,
+    },
+    {
+      name: "PSY-Frame Driver",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framegear Gamma",
+      quantity: 3,
+    },
+    {
+      name: "Purrely",
+      quantity: 3,
+    },
+    {
+      name: "Purrelyly",
+      quantity: 3,
+    },
+    {
+      name: "Santa Claws",
+      quantity: 3,
+    },
+    {
+      name: "Snoww, Unlight of Dark World",
+      quantity: 3,
+    },
+    {
+      name: "My Friend Purrely",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Delicious Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Happy Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Pretty Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Sleepy Memory",
+      quantity: 3,
+    },
+    {
+      name: "Stray Purrely Street",
+      quantity: 1,
+    },
+    {
+      name: "Purrelyeap!?",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Accel Synchro Stardust Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Baronne de Fleur",
+      quantity: 1,
+    },
+    {
+      name: "Divine Arsenal AA-ZEUS - Sky Thunder",
+      quantity: 2,
+    },
+    {
+      name: "Downerd Magician",
+      quantity: 1,
+    },
+    {
+      name: "Epurrely Beauty",
+      quantity: 2,
+    },
+    {
+      name: "Epurrely Happiness",
+      quantity: 1,
+    },
+    {
+      name: "Epurrely Plump",
+      quantity: 2,
+    },
+    {
+      name: "Expurrely Noir",
+      quantity: 2,
+    },
+    {
+      name: "Lyrilusc - Assembled Nightingale",
+      quantity: 1,
+    },
+    {
+      name: "Lyrilusc - Promenade Thrush",
+      quantity: 1,
+    },
+    {
+      name: "Protector of The Agents - Moon",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Dark Ruler No More",
+      quantity: 2,
+    },
+    {
+      name: "Harpie's Feather Duster",
+      quantity: 1,
+    },
+    {
+      name: "Lightning Storm",
+      quantity: 3,
+    },
+    {
+      name: "Triple Tactics Talent",
+      quantity: 3,
+    },
+    {
+      name: "Dimensional Barrier",
+      quantity: 3,
+    }
+  ],
+  },
+  {
+    id: "purrely-2023",
+    name: "Purrely 2023",
+    year: 2023,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023",
+      player: "Timoti Baggio",
+      deckType: "Purrely",
+      url: "https://www.yugiohtopdecks.org/deck/9584",
+    },
+    mainDeck: [
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Droll & Lock Bird",
+      quantity: 3,
+    },
+    {
+      name: "Nibiru, the Primal Being",
+      quantity: 3,
+    },
+    {
+      name: "PSY-Frame Driver",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framegear Gamma",
+      quantity: 3,
+    },
+    {
+      name: "Purrely",
+      quantity: 3,
+    },
+    {
+      name: "Purrelyly",
+      quantity: 3,
+    },
+    {
+      name: "Shaddoll Beast",
+      quantity: 1,
+    },
+    {
+      name: "Shaddoll Hedgehog",
+      quantity: 1,
+    },
+    {
+      name: "Shaddoll Squamata",
+      quantity: 1,
+    },
+    {
+      name: "My Friend Purrely",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Delicious Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Happy Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Pretty Memory",
+      quantity: 3,
+    },
+    {
+      name: "Purrely Sleepy Memory",
+      quantity: 3,
+    },
+    {
+      name: "Stray Purrely Street",
+      quantity: 1,
+    },
+    {
+      name: "Triple Tactics Talent",
+      quantity: 1,
+    },
+    {
+      name: "Purrelyeap!?",
+      quantity: 1,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Condemned Darklord",
+      quantity: 1,
+    },
+    {
+      name: "Divine Arsenal AA-ZEUS - Sky Thunder",
+      quantity: 2,
+    },
+    {
+      name: "Downerd Magician",
+      quantity: 1,
+    },
+    {
+      name: "Epurrely Beauty",
+      quantity: 2,
+    },
+    {
+      name: "Epurrely Happiness",
+      quantity: 1,
+    },
+    {
+      name: "Epurrely Plump",
+      quantity: 2,
+    },
+    {
+      name: "Expurrely Noir",
+      quantity: 2,
+    },
+    {
+      name: "Kikinagashi Fucho",
+      quantity: 1,
+    },
+    {
+      name: "Lyrilusc - Assembled Nightingale",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framelord Lambda",
+      quantity: 1,
+    },
+    {
+      name: "Sylvan Princessprite",
+      quantity: 1,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Ghost Belle & Haunted Mansion",
+      quantity: 3,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 2,
+    },
+    {
+      name: "Kurikara Divincarnate",
+      quantity: 2,
+    },
+    {
+      name: "Lava Golem",
+      quantity: 2,
+    },
+    {
+      name: "Shaddoll Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Harpie's Feather Duster",
+      quantity: 1,
+    },
+    {
+      name: "Triple Tactics Thrust",
+      quantity: 2,
+    },
+    {
+      name: "Where Arf Thou?",
+      quantity: 1,
+    },
+    {
+      name: "Appointer of the Red Lotus",
+      quantity: 1,
+    }
+  ],
   }
 ];

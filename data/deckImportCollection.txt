@@ -5385,3 +5385,559 @@ Side Deck
 2 Dark Ruler No More
 2 Twin Twisters
 1 Branded Expulsion
+
+---
+
+Deck: Synchro 2017
+Year: 2017
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017
+Player: Duelist Unknown
+Deck Type: Synchro
+Source URL: https://www.yugiohtopdecks.org/deck/5839
+
+Main Deck
+1 Esper Girl
+1 Glow-Up Bulb
+1 Jet Synchron
+2 Maxx "C"
+3 Red Resonator
+1 SPYRAL GEAR - Drone
+1 SPYRAL Master Plan
+3 SPYRAL Quik-Fix
+3 SPYRAL Super Agent
+1 Synkron Resonator
+1 Emergency Teleport
+1 Foolish Burial
+2 Instant Fusion
+1 One for One
+3 Resonator Call
+3 SPYRAL GEAR - Big Red
+1 SPYRAL MISSION - Assault
+3 SPYRAL Resort
+2 Terraforming
+1 Upstart Goblin
+2 Dimensional Barrier
+2 Solemn Strike
+1 Solemn Warning
+
+Extra Deck
+1 Accel Synchron
+1 Ancient Fairy Dragon
+1 Coral Dragon
+1 Crystal Wing Synchro Dragon
+1 Elder Entity Norden
+1 Formula Synchron
+3 Goyo Defender
+1 Meliae of the Trees
+1 M-X-Saber Invoker
+1 Naturia Barkion
+1 Naturia Beast
+1 PSY-Framelord Omega
+1 Trishula, Dragon of the Ice Barrier
+
+Side Deck
+2 D.D. Crow
+3 Ghost Ogre & Snow Rabbit
+3 Cosmic Cyclone
+1 Raigeki
+3 System Down
+3 Twin Twisters
+
+---
+
+Deck: SPYRAL 2017
+Year: 2017
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017
+Player: Michael Duke
+Deck Type: SPYRAL
+Source URL: https://www.yugiohtopdecks.org/deck/5875
+
+Main Deck
+1 Charming Resort Staff
+1 Gameciel, the Sea Turtle Kaiju
+1 Gem-Knight Garnet
+2 Ghost Ogre & Snow Rabbit
+1 Jizukiru, the Star Destroying Kaiju
+1 Kumongous, the Sticky String Kaiju
+2 Maxx "C"
+3 SPYRAL GEAR - Drone
+3 SPYRAL Quik-Fix
+3 SPYRAL Super Agent
+1 Thunder King, the Lightningstrike Kaiju
+3 Brilliant Fusion
+1 Foolish Burial
+3 Interrupted Kaiju Slumber
+3 Machine Duplication
+1 One for One
+3 SPYRAL GEAR - Big Red
+3 SPYRAL Resort
+3 Terraforming
+2 Twin Twisters
+
+Extra Deck
+1 Castel, the Skyblaster Musketeer
+1 Gem-Knight Seraphinite
+1 Ghostrick Angel of Mischief
+1 Ghostrick Dullahan
+1 Number 100: Numeron Dragon
+1 Number 107: Galaxy-Eyes Tachyon Dragon
+1 Number 31: Embodiment of Punishment
+1 Number 39: Utopia
+2 Number 63: Shamoji Soldier
+1 Number 93: Utopia Kaiser
+1 Number 9: Dyson Sphere
+1 Number S39: Utopia the Lightning
+1 PSY-Framelord Omega
+
+Side Deck
+2 D.D. Crow
+1 Denko Sekka
+2 Flying "C"
+3 Retaliating "C"
+3 System Down
+1 Twin Twisters
+3 Dimensional Barrier
+
+---
+
+Deck: Kaiju 2017
+Year: 2017
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017
+Player: Michael Duke
+Deck Type: Kaiju
+Source URL: https://www.yugiohtopdecks.org/deck/5883
+
+Main Deck
+1 Charming Resort Staff
+1 Gameciel, the Sea Turtle Kaiju
+1 Gem-Knight Garnet
+2 Ghost Ogre & Snow Rabbit
+1 Jizukiru, the Star Destroying Kaiju
+1 Kumongous, the Sticky String Kaiju
+2 Maxx "C"
+3 SPYRAL GEAR - Drone
+3 SPYRAL Quik-Fix
+3 SPYRAL Super Agent
+1 Thunder King, the Lightningstrike Kaiju
+3 Brilliant Fusion
+1 Foolish Burial
+3 Interrupted Kaiju Slumber
+3 Machine Duplication
+1 One for One
+3 SPYRAL GEAR - Big Red
+3 SPYRAL Resort
+3 Terraforming
+2 Twin Twisters
+
+Extra Deck
+1 Castel, the Skyblaster Musketeer
+1 Gem-Knight Seraphinite
+1 Ghostrick Angel of Mischief
+1 Ghostrick Dullahan
+1 Number 100: Numeron Dragon
+1 Number 107: Galaxy-Eyes Tachyon Dragon
+1 Number 31: Embodiment of Punishment
+1 Number 39: Utopia
+2 Number 63: Shamoji Soldier
+1 Number 93: Utopia Kaiser
+1 Number 9: Dyson Sphere
+1 Number S39: Utopia the Lightning
+1 PSY-Framelord Omega
+
+Side Deck
+2 D.D. Crow
+1 Denko Sekka
+2 Flying "C"
+3 Retaliating "C"
+3 System Down
+1 Twin Twisters
+3 Dimensional Barrier
+
+---
+
+Deck: Knightmare 2018
+Year: 2018
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 7249 - Regional - Las Vegas Nevada (May 2018) - May 2018
+Player: Anthony Gausepohl
+Deck Type: Knightmare
+Source URL: https://www.yugiohtopdecks.org/deck/7249
+
+Main Deck
+3 Ash Blossom & Joyous Spring
+1 Binary Sorceress
+3 Blue Mountain Butterspy
+1 Borreload Dragon
+1 Curious, the Lightsworn Dominion
+1 Firewall Dragon
+3 Ghost Ogre & Snow Rabbit
+1 Gouki Bearhug
+3 Gouki Headbatt
+2 Gouki Octostretch
+1 Gouki Riscorpio
+3 Gouki Suprex
+2 Gouki Twistcobra
+2 Isolde, Two Tales of the Noble Knights
+3 Junk Forward
+1 Knightmare Cerberus
+1 Knightmare Corruptor Iblee
+1 Knightmare Goblin
+1 Knightmare Gryphon
+1 Knightmare Mermaid
+1 Knightmare Phoenix
+1 Knightmare Unicorn
+1 Linkuriboh
+1 SPYRAL Super Agent
+1 Tri-Gate Wizard
+1 Divine Sword - Phoenix Blade
+2 Gouki Re-Match
+1 Monster Reborn
+1 Moon Mirror Shield
+1 Reinforcement of the Army
+1 Imperial Order
+2 Infinite Impermanence
+1 Solemn Judgment
+3 Solemn Strike
+1 Solemn Warning
+
+Extra Deck
+1 M-X-Saber Invoker
+
+Side Deck
+2 Gameciel, the Sea Turtle Kaiju
+1 Raidraptor - Ultimate Falcon
+1 The Last Warrior from Another Planet
+3 Twin Twisters
+3 Evenly Matched
+3 Red Reboot
+2 Waking the Dragon
+
+---
+
+Deck: Sky Striker 2018
+Year: 2018
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018
+Player: Jakob Heher
+Deck Type: Sky Striker
+Source URL: https://www.yugiohtopdecks.org/deck/7269
+
+Main Deck
+3 Ash Blossom & Joyous Spring
+3 Ghost Ogre & Snow Rabbit
+3 Sky Striker Ace - Raye
+3 Foolish Burial Goods
+1 Limiter Removal
+1 Metalfoes Fusion
+3 Mystical Space Typhoon
+1 Reinforcement of the Army
+1 Sky Striker Airspace - Area Zero
+1 Sky Striker Maneuver - Afterburners!
+1 Sky Striker Maneuver - Jamming Waves!
+1 Sky Striker Mecha - Eagle Booster
+3 Sky Striker Mecha - Hornet Drones
+1 Sky Striker Mecha Modules - Multirole
+1 Sky Striker Mecharmory - Hercules Base
+3 Sky Striker Mecha - Widow Anchor
+3 Sky Striker Mobilize - Engage!
+3 Terraforming
+3 Twin Twisters
+1 Upstart Goblin
+
+Extra Deck
+1 ABC-Dragon Buster
+1 Black Rose Dragon
+1 Heavymetalfoes Electrumite
+1 Invoked Mechaba
+1 Knightmare Mermaid
+1 Knightmare Phoenix
+3 Sky Striker Ace - Kagari
+3 Sky Striker Ace - Shizuku
+1 SPYRAL Double Helix
+1 Toadally Awesome
+1 Triple Burst Dragon
+
+Side Deck
+3 Ghost Reaper & Winter Cherries
+3 The Winged Dragon of Ra - Sphere Mode
+3 Trap Eater
+3 Called by the Grave
+3 Cosmic Cyclone
+
+---
+
+Deck: Ghostrick 2018
+Year: 2018
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018
+Player: Koty Angeloff
+Deck Type: Ghostrick
+Source URL: https://www.yugiohtopdecks.org/deck/7274
+
+Main Deck
+3 Ash Blossom & Joyous Spring
+3 Droll & Lock Bird
+2 Ghost Belle & Haunted Mansion
+3 Trickstar Candina
+1 Trickstar Lilybell
+2 Trickstar Lycoris
+3 Pot of Desires
+3 Scapegoat
+1 Sky Striker Maneuver - Afterburners!
+1 Sky Striker Maneuver - Jamming Waves!
+3 Sky Striker Mecha - Hornet Drones
+1 Sky Striker Mecha - Widow Anchor
+3 Sky Striker Mobilize - Engage!
+3 Terraforming
+3 Trickstar Light Stage
+3 Infinite Impermanence
+2 Trickstar Reincarnation
+
+Extra Deck
+1 Borreload Dragon
+1 Firewall Dragon
+1 Knightmare Cerberus
+1 Knightmare Goblin
+1 Knightmare Phoenix
+1 Link Spider
+1 Linkuriboh
+1 Saryuja Skull Dread
+2 Sky Striker Ace - Kagari
+1 Sky Striker Ace - Shizuku
+1 Space Insulator
+1 Topologic Bomber Dragon
+1 Topologic Trisbaena
+1 Trickstar Holly Angel
+
+Side Deck
+3 The Winged Dragon of Ra - Sphere Mode
+2 Called by the Grave
+2 Shared Ride
+2 Twin Twisters
+3 Evenly Matched
+3 Mind Crush
+
+---
+
+Deck: Eldlich 2022
+Year: 2022
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022
+Player: Indi Watts
+Deck Type: Eldlich
+Source URL: https://www.yugiohtopdecks.org/deck/9141
+
+Main Deck
+3 Aleister the Invoker
+1 Dogmatika Ecclesia, the Virtuous
+1 Dogmatika Fleurdelis, the Knighted
+3 Eldlich the Golden Lord
+2 Fallen of Albaz
+3 Branded Fusion
+3 Cursed Eldland
+3 Dark Ruler No More
+2 Invocation
+3 Magical Meltdown
+2 Nadir Servant
+3 Pot of Prosperity
+3 Super Polymerization
+1 Terraforming
+3 Conquistador of the Golden Land
+1 Dogmatika Punishment
+3 Eldlixir of Scarlet Sanguine
+2 Huaquero of the Golden Land
+3 Skill Drain
+
+Extra Deck
+2 Albion the Branded Dragon
+1 Artemis, the Magistus Moon Maiden
+1 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+1 Invoked Augoeides
+1 Invoked Caliga
+1 Invoked Mechaba
+1 Lubellion the Searing Dragon
+2 Mirrorjade the Iceblade Dragon
+1 Mudragon of the Swamp
+1 Predaplant Dragostapelia
+1 Predaplant Triphyoverutum
+1 Titaniklad the Ash Dragon
+
+Side Deck
+3 Dimension Shifter
+3 Lava Golem
+3 Cosmic Cyclone
+3 Solemn Judgment
+3 There Can Be Only One
+
+---
+
+Deck: Synchro 2022
+Year: 2022
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022
+Player: Jordan Couture
+Deck Type: Synchro
+Source URL: https://www.yugiohtopdecks.org/deck/9166
+
+Main Deck
+1 Absolute King Back Jack
+1 Albion the Shrouded Dragon
+1 Danger!? Jackalope?
+3 Danger! Nessie!
+1 Danger!? Tsuchinoko?
+2 Destiny HERO - Malicious
+1 Incredible Ecclesia, the Virtuous
+3 Nibiru, the Primal Being
+3 Tearlaments Havnis
+3 Tearlaments Merrli
+2 Tearlaments Reinoheart
+3 Tearlaments Scheiren
+1 The Golden Swordsoul
+3 Branded in High Spirits
+1 Instant Fusion
+3 Primeval Planet Perlereino
+3 Super Polymerization
+1 Terraforming
+3 Infinite Impermanence
+1 Tearlaments Sulliek
+
+Extra Deck
+1 Abyss Dweller
+1 Baronne de Fleur
+1 Beatrice, Lady of the Eternal
+1 D.3.S. Frog
+1 Dharc the Dark Charmer, Gloomy
+2 Garura, Wings of Resonant Life
+1 I:P Masquerena
+1 Knightmare Unicorn
+1 Mudragon of the Swamp
+1 Predaplant Dragostapelia
+1 Spright Elf
+1 Stardust Charge Warrior
+1 Tearlaments Kaleido-Heart
+1 Tearlaments Kitkallos
+
+Side Deck
+3 Droll & Lock Bird
+2 Cosmic Cyclone
+3 Dark Ruler No More
+1 Harpie's Feather Duster
+3 Evenly Matched
+3 Paleozoic Dinomischus
+
+---
+
+Deck: Purely 2023
+Year: 2023
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023
+Player: Will Morrison
+Deck Type: Purely
+Source URL: https://www.yugiohtopdecks.org/deck/9565
+
+Main Deck
+1 Broww, Huntsman of Dark World
+3 Droll & Lock Bird
+3 Kurikara Divincarnate
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Purrely
+3 Purrelyly
+3 Santa Claws
+3 Snoww, Unlight of Dark World
+3 My Friend Purrely
+3 Purrely Delicious Memory
+3 Purrely Happy Memory
+3 Purrely Pretty Memory
+3 Purrely Sleepy Memory
+1 Stray Purrely Street
+1 Purrelyeap!?
+
+Extra Deck
+1 Accel Synchro Stardust Dragon
+1 Baronne de Fleur
+2 Divine Arsenal AA-ZEUS - Sky Thunder
+1 Downerd Magician
+2 Epurrely Beauty
+1 Epurrely Happiness
+2 Epurrely Plump
+2 Expurrely Noir
+1 Lyrilusc - Assembled Nightingale
+1 Lyrilusc - Promenade Thrush
+1 Protector of The Agents - Moon
+
+Side Deck
+3 Ash Blossom & Joyous Spring
+2 Dark Ruler No More
+1 Harpie's Feather Duster
+3 Lightning Storm
+3 Triple Tactics Talent
+3 Dimensional Barrier
+
+---
+
+Deck: Purrely 2023
+Year: 2023
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023
+Player: Timoti Baggio
+Deck Type: Purrely
+Source URL: https://www.yugiohtopdecks.org/deck/9584
+
+Main Deck
+3 Ash Blossom & Joyous Spring
+3 Droll & Lock Bird
+3 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Purrely
+3 Purrelyly
+1 Shaddoll Beast
+1 Shaddoll Hedgehog
+1 Shaddoll Squamata
+3 My Friend Purrely
+3 Purrely Delicious Memory
+3 Purrely Happy Memory
+3 Purrely Pretty Memory
+3 Purrely Sleepy Memory
+1 Stray Purrely Street
+1 Triple Tactics Talent
+1 Purrelyeap!?
+
+Extra Deck
+1 Condemned Darklord
+2 Divine Arsenal AA-ZEUS - Sky Thunder
+1 Downerd Magician
+2 Epurrely Beauty
+1 Epurrely Happiness
+2 Epurrely Plump
+2 Expurrely Noir
+1 Kikinagashi Fucho
+1 Lyrilusc - Assembled Nightingale
+1 PSY-Framelord Lambda
+1 Sylvan Princessprite
+
+Side Deck
+3 Ghost Belle & Haunted Mansion
+2 Ghost Ogre & Snow Rabbit
+2 Kurikara Divincarnate
+2 Lava Golem
+1 Shaddoll Dragon
+1 Harpie's Feather Duster
+2 Triple Tactics Thrust
+1 Where Arf Thou?
+1 Appointer of the Red Lotus

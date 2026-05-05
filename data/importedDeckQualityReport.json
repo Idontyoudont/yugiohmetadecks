@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-05T08:38:07.150Z",
+  "generatedAt": "2026-05-05T08:51:38.404Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 91,
+  "importedDeckCount": 101,
   "importerWarningCount": 0,
-  "cleanDeckCount": 75,
-  "issueDeckCount": 16,
+  "cleanDeckCount": 78,
+  "issueDeckCount": 23,
   "errorDeckCount": 0,
   "warningDeckCount": 0,
-  "infoDeckCount": 16,
+  "infoDeckCount": 23,
   "issueDecks": [
     {
       "deck": {
@@ -759,6 +759,280 @@
         "extraDeckCount": 15,
         "sideDeckCount": 15,
         "totalCount": 72,
+        "taggedCardCount": 0,
+        "automaticTaggedCardCount": 0,
+        "inlineTaggedCardCount": 0,
+        "tags": [],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "synchro-2017",
+        "originalId": "synchro-2017",
+        "name": "Synchro 2017",
+        "year": 2017,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017",
+          "player": "Duelist Unknown",
+          "deckType": "Synchro",
+          "url": "https://www.yugiohtopdecks.org/deck/5839"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 3,
+        "automaticTaggedCardCount": 3,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "disruption",
+          "draw",
+          "field spell support",
+          "graveyard control",
+          "hand trap",
+          "level 7",
+          "side deck",
+          "synchro"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "kaiju-2017",
+        "originalId": "kaiju-2017",
+        "name": "Kaiju 2017",
+        "year": 2017,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017",
+          "player": "Michael Duke",
+          "deckType": "Kaiju",
+          "url": "https://www.yugiohtopdecks.org/deck/5883"
+        },
+        "mainDeckCount": 41,
+        "extraDeckCount": 14,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 2,
+        "automaticTaggedCardCount": 2,
+        "inlineTaggedCardCount": 0,
+        "tags": [
+          "disruption",
+          "draw",
+          "graveyard control",
+          "hand trap",
+          "side deck"
+        ],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "knightmare-2018",
+        "originalId": "knightmare-2018",
+        "name": "Knightmare 2018",
+        "year": 2018,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 7249 - Regional - Las Vegas Nevada (May 2018) - May 2018",
+          "player": "Anthony Gausepohl",
+          "deckType": "Knightmare",
+          "url": "https://www.yugiohtopdecks.org/deck/7249"
+        },
+        "mainDeckCount": 54,
+        "extraDeckCount": 1,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 0,
+        "automaticTaggedCardCount": 0,
+        "inlineTaggedCardCount": 0,
+        "tags": [],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "ghostrick-2018",
+        "originalId": "ghostrick-2018",
+        "name": "Ghostrick 2018",
+        "year": 2018,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018",
+          "player": "Koty Angeloff",
+          "deckType": "Ghostrick",
+          "url": "https://www.yugiohtopdecks.org/deck/7274"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 0,
+        "automaticTaggedCardCount": 0,
+        "inlineTaggedCardCount": 0,
+        "tags": [],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "eldlich-2022",
+        "originalId": "eldlich-2022",
+        "name": "Eldlich 2022",
+        "year": 2022,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022",
+          "player": "Indi Watts",
+          "deckType": "Eldlich",
+          "url": "https://www.yugiohtopdecks.org/deck/9141"
+        },
+        "mainDeckCount": 45,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 75,
+        "taggedCardCount": 0,
+        "automaticTaggedCardCount": 0,
+        "inlineTaggedCardCount": 0,
+        "tags": [],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "synchro-2022",
+        "originalId": "synchro-2022",
+        "name": "Synchro 2022",
+        "year": 2022,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022",
+          "player": "Jordan Couture",
+          "deckType": "Synchro",
+          "url": "https://www.yugiohtopdecks.org/deck/9166"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
+        "taggedCardCount": 0,
+        "automaticTaggedCardCount": 0,
+        "inlineTaggedCardCount": 0,
+        "tags": [],
+        "warningCount": 0,
+        "warnings": [],
+        "ignoredLines": []
+      },
+      "matchingTarget": null,
+      "issueCount": 1,
+      "highestSeverity": "info",
+      "issues": [
+        {
+          "severity": "info",
+          "type": "no-target-match",
+          "message": "Could not confidently match this imported deck to a configured target for the same year."
+        }
+      ]
+    },
+    {
+      "deck": {
+        "id": "purely-2023",
+        "originalId": "purely-2023",
+        "name": "Purely 2023",
+        "year": 2023,
+        "format": "Imported Format",
+        "status": "draft",
+        "source": {
+          "label": "Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023",
+          "player": "Will Morrison",
+          "deckType": "Purely",
+          "url": "https://www.yugiohtopdecks.org/deck/9565"
+        },
+        "mainDeckCount": 40,
+        "extraDeckCount": 15,
+        "sideDeckCount": 15,
+        "totalCount": 70,
         "taggedCardCount": 0,
         "automaticTaggedCardCount": 0,
         "inlineTaggedCardCount": 0,
@@ -2203,6 +2477,63 @@
         "year": 2020,
         "targetName": "Virtual World",
         "normalizedTargetName": "virtual world"
+      }
+    },
+    {
+      "id": "spyral-2017",
+      "name": "SPYRAL 2017",
+      "year": 2017,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017",
+        "player": "Michael Duke",
+        "deckType": "SPYRAL",
+        "url": "https://www.yugiohtopdecks.org/deck/5875"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 14,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2017,
+        "targetName": "SPYRAL",
+        "normalizedTargetName": "spyral"
+      }
+    },
+    {
+      "id": "sky-striker-2018",
+      "name": "Sky Striker 2018",
+      "year": 2018,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018",
+        "player": "Jakob Heher",
+        "deckType": "Sky Striker",
+        "url": "https://www.yugiohtopdecks.org/deck/7269"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2018,
+        "targetName": "Sky Striker",
+        "normalizedTargetName": "sky striker"
+      }
+    },
+    {
+      "id": "purrely-2023",
+      "name": "Purrely 2023",
+      "year": 2023,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023",
+        "player": "Timoti Baggio",
+        "deckType": "Purrely",
+        "url": "https://www.yugiohtopdecks.org/deck/9584"
+      },
+      "mainDeckCount": 40,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2023,
+        "targetName": "Purrely",
+        "normalizedTargetName": "purrely"
       }
     }
   ]
