@@ -13,6 +13,7 @@ type DeckSidebarProps = {
   onSelectYear: (year: YearFilter) => void;
   onToggleShowSampleDecks: () => void;
   onSelectDeck: (deckId: string) => void;
+  onRequestClose?: () => void;
 };
 
 function getStatusLabel(status: Deck["status"]) {
@@ -61,19 +62,36 @@ export function DeckSidebar({
   onSelectYear,
   onToggleShowSampleDecks,
   onSelectDeck,
+  onRequestClose,
 }: DeckSidebarProps) {
   const decksByYear = groupDecksByYear(decks);
   const visibleYears = Object.keys(decksByYear)
     .map(Number)
     .sort((yearA, yearB) => yearA - yearB);
 
+  function handleSelectDeck(deckId: string) {
+    onSelectDeck(deckId);
+    onRequestClose?.();
+  }
+
   return (
-    <aside className="w-80 shrink-0 border-r border-slate-800 bg-slate-950 p-6">
-      <div className="mb-8">
-        <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
-          Yu-Gi-Oh
-        </p>
-        <h1 className="mt-2 text-2xl font-bold text-white">Meta Decks</h1>
+    <aside className="h-full w-80 shrink-0 overflow-y-auto border-r border-slate-800 bg-slate-950 p-6">
+      <div className="mb-8 flex items-start justify-between gap-4">
+        <div>
+          <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
+            Yu-Gi-Oh
+          </p>
+          <h1 className="mt-2 text-2xl font-bold text-white">Meta Decks</h1>
+        </div>
+
+        {onRequestClose ? (
+          <button
+            onClick={onRequestClose}
+            className="rounded-full bg-slate-800 px-3 py-2 text-sm font-semibold text-slate-300 transition hover:bg-slate-700 lg:hidden"
+          >
+            Close
+          </button>
+        ) : null}
       </div>
 
       <div className="mb-5 rounded-2xl border border-slate-800 bg-slate-900 p-4">
@@ -151,7 +169,7 @@ export function DeckSidebar({
               {decksByYear[year].map((deck) => (
                 <button
                   key={deck.id}
-                  onClick={() => onSelectDeck(deck.id)}
+                  onClick={() => handleSelectDeck(deck.id)}
                   className={`w-full rounded-xl px-4 py-3 text-left transition ${
                     deck.id === selectedDeck.id
                       ? "bg-blue-500 text-white"
