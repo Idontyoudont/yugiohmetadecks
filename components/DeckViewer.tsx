@@ -23,6 +23,7 @@ type DeckViewerProps = {
 };
 
 type SourceStatusFilter = CardGameSourceInfo["status"] | "missing" | null;
+type YearFilter = number | "all";
 
 function getDeckStatusLabel(status: Deck["status"]) {
   if (status === "complete") {
@@ -79,12 +80,28 @@ function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
   return getCardPackNames(card).includes(selectedPack);
 }
 
-function getVisibleDecks(decks: Deck[], showSampleDecks: boolean) {
-  if (showSampleDecks) {
-    return decks;
-  }
+function getVisibleDecks(
+  decks: Deck[],
+  showSampleDecks: boolean,
+  selectedYear: YearFilter
+) {
+  return decks.filter((deck) => {
+    const matchesSampleFilter = showSampleDecks || deck.status !== "sample";
+    const matchesYearFilter = selectedYear === "all" || deck.year === selectedYear;
 
-  return decks.filter((deck) => deck.status !== "sample");
+    return matchesSampleFilter && matchesYearFilter;
+  });
+}
+
+function getYearCounts(decks: Deck[], showSampleDecks: boolean) {
+  return decks.reduce<Record<number, number>>((counts, deck) => {
+    if (!showSampleDecks && deck.status === "sample") {
+      return counts;
+    }
+
+    counts[deck.year] = (counts[deck.year] ?? 0) + 1;
+    return counts;
+  }, {});
 }
 
 function DeckSourceBox({ deck }: { deck: Deck }) {
@@ -156,8 +173,26 @@ function DeckSourceBox({ deck }: { deck: Deck }) {
 
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [showSampleDecks, setShowSampleDecks] = useState(false);
+  const [selectedYear, setSelectedYear] = useState<YearFilter>("all");
 
-  const visibleDecks = getVisibleDecks(decks, showSampleDecks);
+  const yearCounts = useMemo(
+    () => getYearCounts(decks, showSampleDecks),
+    [decks, showSampleDecks]
+  );
+
+  const availableYears = useMemo(
+    () =>
+      Array.from(new Set(decks.map((deck) => deck.year))).sort(
+        (yearA, yearB) => yearA - yearB
+      ),
+    [decks]
+  );
+
+  const visibleDecks = useMemo(
+    () => getVisibleDecks(decks, showSampleDecks, selectedYear),
+    [decks, showSampleDecks, selectedYear]
+  );
+
   const fallbackDeck = visibleDecks[0] ?? decks[0];
   const sampleDeckCount = decks.filter((deck) => deck.status === "sample").length;
 
@@ -234,6 +269,16 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSearchQuery("");
   }
 
+  function selectFirstVisibleDeck(nextVisibleDecks: Deck[]) {
+    if (!nextVisibleDecks[0]) {
+      return;
+    }
+
+    setSelectedDeckId(nextVisibleDecks[0].id);
+    setSelectedVariantId(null);
+    resetFiltersAndSelection();
+  }
+
   function handleSelectDeck(deckId: string) {
     setSelectedDeckId(deckId);
     setSelectedVariantId(null);
@@ -242,17 +287,32 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
   function handleToggleShowSampleDecks() {
     const nextShowSampleDecks = !showSampleDecks;
-    const nextVisibleDecks = getVisibleDecks(decks, nextShowSampleDecks);
+    const nextVisibleDecks = getVisibleDecks(
+      decks,
+      nextShowSampleDecks,
+      selectedYear
+    );
     const selectedDeckStillVisible = nextVisibleDecks.some(
       (deck) => deck.id === selectedDeckId
     );
 
     setShowSampleDecks(nextShowSampleDecks);
 
-    if (!selectedDeckStillVisible && nextVisibleDecks[0]) {
-      setSelectedDeckId(nextVisibleDecks[0].id);
-      setSelectedVariantId(null);
-      resetFiltersAndSelection();
+    if (!selectedDeckStillVisible) {
+      selectFirstVisibleDeck(nextVisibleDecks);
+    }
+  }
+
+  function handleSelectYear(year: YearFilter) {
+    const nextVisibleDecks = getVisibleDecks(decks, showSampleDecks, year);
+    const selectedDeckStillVisible = nextVisibleDecks.some(
+      (deck) => deck.id === selectedDeckId
+    );
+
+    setSelectedYear(year);
+
+    if (!selectedDeckStillVisible) {
+      selectFirstVisibleDeck(nextVisibleDecks);
     }
   }
 
@@ -292,6 +352,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         selectedDeck={selectedDeck}
         showSampleDecks={showSampleDecks}
         sampleDeckCount={sampleDeckCount}
+        selectedYear={selectedYear}
+        availableYears={availableYears}
+        yearCounts={yearCounts}
+        onSelectYear={handleSelectYear}
         onToggleShowSampleDecks={handleToggleShowSampleDecks}
         onSelectDeck={handleSelectDeck}
       />

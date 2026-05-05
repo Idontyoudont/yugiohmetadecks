@@ -1,10 +1,16 @@
 import type { Deck } from "../types/deck";
 
+type YearFilter = number | "all";
+
 type DeckSidebarProps = {
   decks: Deck[];
   selectedDeck: Deck;
   showSampleDecks: boolean;
   sampleDeckCount: number;
+  selectedYear: YearFilter;
+  availableYears: number[];
+  yearCounts: Record<number, number>;
+  onSelectYear: (year: YearFilter) => void;
   onToggleShowSampleDecks: () => void;
   onSelectDeck: (deckId: string) => void;
 };
@@ -33,21 +39,73 @@ function getStatusClassName(status: Deck["status"]) {
   return "bg-slate-700 text-slate-300";
 }
 
+function groupDecksByYear(decks: Deck[]) {
+  return decks.reduce<Record<number, Deck[]>>((groups, deck) => {
+    if (!groups[deck.year]) {
+      groups[deck.year] = [];
+    }
+
+    groups[deck.year].push(deck);
+    return groups;
+  }, {});
+}
+
 export function DeckSidebar({
   decks,
   selectedDeck,
   showSampleDecks,
   sampleDeckCount,
+  selectedYear,
+  availableYears,
+  yearCounts,
+  onSelectYear,
   onToggleShowSampleDecks,
   onSelectDeck,
 }: DeckSidebarProps) {
+  const decksByYear = groupDecksByYear(decks);
+  const visibleYears = Object.keys(decksByYear)
+    .map(Number)
+    .sort((yearA, yearB) => yearA - yearB);
+
   return (
-    <aside className="w-72 shrink-0 border-r border-slate-800 bg-slate-950 p-6">
+    <aside className="w-80 shrink-0 border-r border-slate-800 bg-slate-950 p-6">
       <div className="mb-8">
         <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
           Yu-Gi-Oh
         </p>
         <h1 className="mt-2 text-2xl font-bold text-white">Meta Decks</h1>
+      </div>
+
+      <div className="mb-5 rounded-2xl border border-slate-800 bg-slate-900 p-4">
+        <label
+          htmlFor="deck-year-filter"
+          className="text-xs uppercase tracking-[0.25em] text-slate-500"
+        >
+          Year filter
+        </label>
+
+        <select
+          id="deck-year-filter"
+          value={selectedYear}
+          onChange={(event) => {
+            const value = event.target.value;
+            onSelectYear(value === "all" ? "all" : Number(value));
+          }}
+          className="mt-3 w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm font-semibold text-slate-100 outline-none transition focus:border-blue-500"
+        >
+          <option value="all">All years ({decks.length})</option>
+
+          {availableYears.map((year) => (
+            <option key={year} value={year}>
+              {year} ({yearCounts[year] ?? 0})
+            </option>
+          ))}
+        </select>
+
+        <p className="mt-2 text-xs text-slate-500">
+          Showing {decks.length} deck{decks.length === 1 ? "" : "s"}
+          {selectedYear === "all" ? "" : ` from ${selectedYear}`}.
+        </p>
       </div>
 
       {sampleDeckCount > 0 ? (
@@ -77,33 +135,46 @@ export function DeckSidebar({
         </div>
       ) : null}
 
-      <nav className="space-y-2">
-        {decks.map((deck) => (
-          <button
-            key={deck.id}
-            onClick={() => onSelectDeck(deck.id)}
-            className={`w-full rounded-xl px-4 py-3 text-left transition ${
-              deck.id === selectedDeck.id
-                ? "bg-blue-500 text-white"
-                : "bg-slate-900 text-slate-300 hover:bg-slate-800"
-            }`}
-          >
-            <div className="flex items-center justify-between gap-3">
-              <div className="font-semibold">{deck.name}</div>
-
-              <span
-                className={`rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${getStatusClassName(
-                  deck.status
-                )}`}
-              >
-                {getStatusLabel(deck.status)}
+      <nav className="space-y-5">
+        {visibleYears.map((year) => (
+          <section key={year}>
+            <div className="mb-2 flex items-center justify-between">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
+                {year}
+              </h2>
+              <span className="rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
+                {decksByYear[year].length}
               </span>
             </div>
 
-            <div className="mt-1 text-sm opacity-80">
-              {deck.year} · {deck.format}
+            <div className="space-y-2">
+              {decksByYear[year].map((deck) => (
+                <button
+                  key={deck.id}
+                  onClick={() => onSelectDeck(deck.id)}
+                  className={`w-full rounded-xl px-4 py-3 text-left transition ${
+                    deck.id === selectedDeck.id
+                      ? "bg-blue-500 text-white"
+                      : "bg-slate-900 text-slate-300 hover:bg-slate-800"
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="font-semibold">{deck.name}</div>
+
+                    <span
+                      className={`rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${getStatusClassName(
+                        deck.status
+                      )}`}
+                    >
+                      {getStatusLabel(deck.status)}
+                    </span>
+                  </div>
+
+                  <div className="mt-1 text-sm opacity-80">{deck.format}</div>
+                </button>
+              ))}
             </div>
-          </button>
+          </section>
         ))}
       </nav>
     </aside>
