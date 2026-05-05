@@ -1002,8 +1002,9 @@ export const importedDecks: Deck[] = [
       quantity: 3,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     },
     {
       name: "Typhoon",
@@ -1707,8 +1708,9 @@ export const importedDecks: Deck[] = [
       quantity: 1,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     }
   ],
   },
@@ -2933,8 +2935,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     }
   ],
   },
@@ -4195,8 +4198,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     }
   ],
   },
@@ -6012,8 +6016,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     }
   ],
   },
@@ -8010,8 +8015,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     },
     {
       name: "Royal Oppression",
@@ -9942,8 +9948,9 @@ export const importedDecks: Deck[] = [
       tags: ["backrow removal", "trap"],
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     }
   ],
   },
@@ -10398,8 +10405,9 @@ export const importedDecks: Deck[] = [
       quantity: 1,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     },
     {
       name: "Threatening Roar",
@@ -10628,8 +10636,9 @@ export const importedDecks: Deck[] = [
       tags: ["removal", "trap"],
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     }
   ],
   },
@@ -10856,8 +10865,9 @@ export const importedDecks: Deck[] = [
       quantity: 1,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 1,
+      tags: ["trap control"],
     },
     {
       name: "Skill Drain",
@@ -11870,8 +11880,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     },
     {
       name: "Spell Shield Type-8",
@@ -12640,8 +12651,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 3,
+      tags: ["trap control"],
     }
   ],
   },
@@ -16579,8 +16591,9 @@ export const importedDecks: Deck[] = [
       quantity: 2,
     },
     {
-      name: "Royal Royal Decree",
+      name: "Royal Decree",
       quantity: 2,
+      tags: ["trap control"],
     }
   ],
   },

@@ -290,7 +290,7 @@ Side Deck
 3 Mystical Space Typhoon
 2 Breakthrough Skill
 3 Mind Crush
-2 Royal Royal Decree
+2 Royal Decree
 2 Typhoon
 
 ---
@@ -510,7 +510,7 @@ Side Deck
 1 Dark Hole
 3 Mystical Space Typhoon
 1 Acid Trap Hole
-3 Royal Royal Decree
+3 Royal Decree
 
 ---
 
@@ -878,7 +878,7 @@ Side Deck
 2 Level Limit - Area B
 1 Mystical Space Typhoon
 2 Debunk
-3 Royal Royal Decree
+3 Royal Decree
 
 ---
 
@@ -1251,7 +1251,7 @@ Side Deck
 1 Beckoning Light
 1 Eradicator Epidemic Virus
 2 Light-Imprisoning Mirror
-3 Royal Royal Decree
+3 Royal Decree
 
 ---
 
@@ -1793,7 +1793,7 @@ Side Deck
 3 Mystical Space Typhoon
 2 The Monarchs Stormforth
 2 Chain Disappearance
-2 Royal Royal Decree
+2 Royal Decree
 
 ---
 
@@ -2388,7 +2388,7 @@ Side Deck
 1 Delta Crow - Anti Reverse
 3 Light-Imprisoning Mirror
 2 Mind Crush
-2 Royal Royal Decree
+2 Royal Decree
 1 Royal Oppression
 
 ---
@@ -2953,7 +2953,7 @@ Side Deck
 2 Soul Taker
 1 System Down
 1 Dust Tornado
-2 Royal Royal Decree
+2 Royal Decree
 
 ---
 
@@ -3087,7 +3087,7 @@ Side Deck
 2 Soul Taker
 2 Bottomless Trap Hole
 1 Deck Devastation Virus
-2 Royal Royal Decree
+2 Royal Decree
 2 Threatening Roar
 
 ---
@@ -3153,7 +3153,7 @@ Side Deck
 1 Chain Disappearance
 2 Dust Tornado
 1 Mirror Force
-3 Royal Royal Decree
+3 Royal Decree
 
 ---
 
@@ -3217,7 +3217,7 @@ Side Deck
 1 Malevolent Catastrophe
 2 Mind Crush
 1 Overworked
-1 Royal Royal Decree
+1 Royal Decree
 1 Skill Drain
 
 ---
@@ -3534,7 +3534,7 @@ Side Deck
 1 End of the World
 1 Messenger of Peace
 2 Cursed Seal of the Forbidden Spell
-3 Royal Royal Decree
+3 Royal Decree
 2 Spell Shield Type-8
 
 ---
@@ -3767,7 +3767,7 @@ Side Deck
 2 Mystical Space Typhoon
 2 Black Horn of Heaven
 2 Breakthrough Skill
-3 Royal Royal Decree
+3 Royal Decree
 
 ---
 
@@ -5001,7 +5001,7 @@ Side Deck
 2 De-Fusion
 3 Mystical Space Typhoon
 2 Necrovalley
-2 Royal Royal Decree
+2 Royal Decree
 
 ---
 

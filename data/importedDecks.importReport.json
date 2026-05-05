@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T10:28:37.470Z",
+  "generatedAt": "2026-05-05T12:18:56.497Z",
   "inputFile": "data/deckImportCollection.txt",
   "fallbackInputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
@@ -212,8 +212,8 @@
       "extraDeckCount": 14,
       "sideDeckCount": 15,
       "totalCount": 69,
-      "taggedCardCount": 4,
-      "automaticTaggedCardCount": 4,
+      "taggedCardCount": 5,
+      "automaticTaggedCardCount": 5,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -224,7 +224,8 @@
         "hand trap",
         "level 11",
         "quick-play",
-        "synchro"
+        "synchro",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -348,8 +349,8 @@
       "extraDeckCount": 0,
       "sideDeckCount": 15,
       "totalCount": 56,
-      "taggedCardCount": 6,
-      "automaticTaggedCardCount": 6,
+      "taggedCardCount": 7,
+      "automaticTaggedCardCount": 7,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -365,6 +366,7 @@
         "removal",
         "search",
         "side deck",
+        "trap control",
         "water",
         "wind"
       ],
@@ -573,8 +575,8 @@
       "extraDeckCount": 14,
       "sideDeckCount": 15,
       "totalCount": 69,
-      "taggedCardCount": 9,
-      "automaticTaggedCardCount": 9,
+      "taggedCardCount": 10,
+      "automaticTaggedCardCount": 10,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -585,7 +587,8 @@
         "quick-play",
         "removal",
         "revival",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -809,8 +812,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 70,
-      "taggedCardCount": 14,
-      "automaticTaggedCardCount": 14,
+      "taggedCardCount": 15,
+      "automaticTaggedCardCount": 15,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -837,6 +840,7 @@
         "search",
         "synchro",
         "token",
+        "trap control",
         "water",
         "wind",
         "xyz"
@@ -1200,8 +1204,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 71,
-      "taggedCardCount": 4,
-      "automaticTaggedCardCount": 4,
+      "taggedCardCount": 5,
+      "automaticTaggedCardCount": 5,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -1213,7 +1217,8 @@
         "quick-play",
         "removal",
         "synchro",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -1621,8 +1626,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 72,
-      "taggedCardCount": 12,
-      "automaticTaggedCardCount": 12,
+      "taggedCardCount": 13,
+      "automaticTaggedCardCount": 13,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -1641,7 +1646,8 @@
         "revival",
         "side deck",
         "synchro",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -2016,8 +2022,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 70,
-      "taggedCardCount": 16,
-      "automaticTaggedCardCount": 16,
+      "taggedCardCount": 17,
+      "automaticTaggedCardCount": 17,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -2041,7 +2047,8 @@
         "revival",
         "side deck",
         "synchro",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -2102,8 +2109,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 70,
-      "taggedCardCount": 11,
-      "automaticTaggedCardCount": 11,
+      "taggedCardCount": 12,
+      "automaticTaggedCardCount": 12,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -2124,6 +2131,7 @@
         "removal",
         "side deck",
         "trap",
+        "trap control",
         "xyz"
       ],
       "warningCount": 0,
@@ -2147,8 +2155,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 71,
-      "taggedCardCount": 14,
-      "automaticTaggedCardCount": 14,
+      "taggedCardCount": 15,
+      "automaticTaggedCardCount": 15,
       "inlineTaggedCardCount": 0,
       "tags": [
         "anti-flip",
@@ -2174,6 +2182,7 @@
         "side deck",
         "synchro",
         "trap",
+        "trap control",
         "xyz"
       ],
       "warningCount": 0,
@@ -2197,8 +2206,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 71,
-      "taggedCardCount": 21,
-      "automaticTaggedCardCount": 21,
+      "taggedCardCount": 22,
+      "automaticTaggedCardCount": 22,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -2231,6 +2240,7 @@
         "synchro setup",
         "token",
         "trap",
+        "trap control",
         "tuner",
         "tuner support",
         "water",
@@ -2434,8 +2444,8 @@
       "extraDeckCount": 5,
       "sideDeckCount": 15,
       "totalCount": 60,
-      "taggedCardCount": 7,
-      "automaticTaggedCardCount": 7,
+      "taggedCardCount": 8,
+      "automaticTaggedCardCount": 8,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -2445,7 +2455,8 @@
         "quick-play",
         "removal",
         "revival",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
@@ -2580,8 +2591,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 70,
-      "taggedCardCount": 11,
-      "automaticTaggedCardCount": 11,
+      "taggedCardCount": 12,
+      "automaticTaggedCardCount": 12,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -2602,6 +2613,7 @@
         "synchro",
         "token",
         "trap",
+        "trap control",
         "xyz"
       ],
       "warningCount": 0,
@@ -3287,8 +3299,8 @@
       "extraDeckCount": 15,
       "sideDeckCount": 15,
       "totalCount": 70,
-      "taggedCardCount": 9,
-      "automaticTaggedCardCount": 9,
+      "taggedCardCount": 10,
+      "automaticTaggedCardCount": 10,
       "inlineTaggedCardCount": 0,
       "tags": [
         "backrow removal",
@@ -3301,7 +3313,8 @@
         "hand trap",
         "quick-play",
         "removal",
-        "trap"
+        "trap",
+        "trap control"
       ],
       "warningCount": 0,
       "warnings": [],
