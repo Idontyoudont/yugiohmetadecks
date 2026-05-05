@@ -10,7 +10,7 @@ import {
   getCardAvailabilityReason,
   isCardAvailableInGame,
 } from "../lib/cardAvailability";
-import type { CardDetails, EnrichedDeckCard } from "../types/deck";
+import type { BanlistInfo, CardDetails, EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
   card: EnrichedDeckCard | null;
@@ -34,6 +34,30 @@ function getCardWithApiDetails(
     attribute: apiDetails.attribute ?? card.attribute,
     level: apiDetails.level ?? card.level,
   };
+}
+
+function getBanlistClassName(banlistInfo: BanlistInfo) {
+  if (banlistInfo.status === "forbidden") {
+    return "border-red-500/50 bg-red-500/15 text-red-100";
+  }
+
+  if (banlistInfo.status === "limited") {
+    return "border-orange-500/50 bg-orange-500/15 text-orange-100";
+  }
+
+  return "border-yellow-400/50 bg-yellow-400/15 text-yellow-100";
+}
+
+function getBanlistTitle(banlistInfo: BanlistInfo) {
+  if (banlistInfo.allowedCopies === 0) {
+    return "Forbidden: 0 copies allowed";
+  }
+
+  if (banlistInfo.allowedCopies === 1) {
+    return "Limited: 1 copy allowed";
+  }
+
+  return "Semi-limited: 2 copies allowed";
 }
 
 function CardPreviewContent({
@@ -93,6 +117,7 @@ function CardPreviewContent({
   const displayCard = getCardWithApiDetails(card, apiDetails);
   const gameSourceInfo = displayCard.gameSourceInfo;
   const replacementInfo = displayCard.replacementInfo;
+  const banlistInfo = displayCard.banlistInfo;
   const isAvailable = isCardAvailableInGame(displayCard);
 
   function handleReplacementClick(cardName: string) {
@@ -121,6 +146,12 @@ function CardPreviewContent({
         </div>
 
         <div className="mb-5 flex flex-wrap gap-2">
+          {banlistInfo ? (
+            <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-black uppercase tracking-wide text-white ring-2 ring-red-300/70">
+              {getBanlistTitle(banlistInfo)}
+            </span>
+          ) : null}
+
           <span
             className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${getCardAvailabilityBadgeClassName(
               displayCard
@@ -135,6 +166,21 @@ function CardPreviewContent({
             </span>
           ) : null}
         </div>
+
+        {banlistInfo ? (
+          <div
+            className={`mb-5 rounded-xl border p-4 ${getBanlistClassName(
+              banlistInfo
+            )}`}
+          >
+            <p className="font-black">{getBanlistTitle(banlistInfo)}</p>
+            <p className="mt-2 text-sm opacity-80">
+              This card is on the {banlistInfo.listName}, effective{" "}
+              {banlistInfo.effectiveDate}. Normal cards are allowed up to 3
+              copies, but this card is capped at {banlistInfo.allowedCopies}.
+            </p>
+          </div>
+        ) : null}
 
         {isLoadingDetails ? (
           <div className="mb-5 rounded-xl bg-slate-950 p-3 text-sm text-slate-400">
@@ -287,6 +333,12 @@ function CardPreviewContent({
                       </div>
 
                       <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
+                        {replacementCard.banlistInfo ? (
+                          <span className="rounded-full bg-red-600 px-2 py-1 font-black text-white">
+                            {getBanlistTitle(replacementCard.banlistInfo)}
+                          </span>
+                        ) : null}
+
                         <span
                           className={`rounded-full px-2 py-1 ${getCardAvailabilityBadgeClassName(
                             replacementCard
@@ -333,6 +385,7 @@ function CardPreviewContent({
               <li>Card details: YGOPRODeck API with local fallback</li>
               <li>In-game pack sources: curated Legacy of the Duelist data</li>
               <li>Deck variants: curated app data</li>
+              <li>Banlist: March 2021 TCG Forbidden & Limited List</li>
             </ul>
           </div>
         </div>

@@ -28,6 +28,18 @@ export type CardGameSourceInfo = {
   notes?: string;
 };
 
+export type BanlistStatus = "forbidden" | "limited" | "semi-limited";
+
+export type BanlistInfo = {
+  name: string;
+  status: BanlistStatus;
+  label: string;
+  allowedCopies: 0 | 1 | 2;
+  listName: string;
+  effectiveDate: string;
+  sourceUrl: string;
+};
+
 export type ReplacementSuggestion = {
   cardName: string;
   reason: string;
@@ -42,6 +54,7 @@ export type EnrichedDeckCard = DeckCard &
   CardDetails & {
     gameSourceInfo?: CardGameSourceInfo;
     replacementInfo?: CardReplacementInfo;
+    banlistInfo?: BanlistInfo;
   };
 
 export type DeckStatus = "complete" | "sample" | "draft";

@@ -1,0 +1,1188 @@
+{
+  "generatedAt": "2026-05-05T14:45:13.101Z",
+  "sourceUrl": "https://www.db.yugioh-card.com/yugiohdb/forbidden_limited.action?forbiddenLimitedDate=2021-03-15&request_locale=en",
+  "listName": "March 2021 TCG Forbidden & Limited List",
+  "effectiveDate": "2021-03-15",
+  "displayDate": "03-15-2021",
+  "selectedDateInHtml": "2021-03-15",
+  "totalCards": 186,
+  "counts": {
+    "limited": 83,
+    "forbidden": 102,
+    "semi-limited": 1
+  },
+  "importantCards": [
+    {
+      "name": "Pot of Greed",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Snatch Steal",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Graceful Charity",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Cyber Angel Benten",
+      "found": true,
+      "status": "limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Union Carrier",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "True King of All Calamities",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Number S0: Utopic ZEXAL",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Called by the Grave",
+      "found": true,
+      "status": "limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Firewall Dragon",
+      "found": true,
+      "status": "forbidden",
+      "allowedCopies": 0
+    }
+  ],
+  "cards": [
+    {
+      "name": "A Hero Lives",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Ancient Fairy Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Armageddon Knight",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Astrograph Sorcerer",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Beatrice, Lady of the Eternal",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Black Dragon Collapserpent",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Blackwing - Gofu the Vague Shadow",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Blackwing - Steam the Cloak",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Blaster, Dragon Ruler of Infernos",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Block Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Brilliant Fusion",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Butterfly Dagger - Elma",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Called by the Grave",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Card Destruction",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Card of Demise",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Card of Safe Return",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Chain Strike",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Change of Heart",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Chicken Game",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Cold Wave",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Confiscation",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Cyber Angel Benten",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Cyber Jar",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Cyber-Stein",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Daigusto Emeral",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Dandylion",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Danger! Nessie!",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Danger!? Jackalope?",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Danger!? Tsuchinoko?",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Dark Grepher",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Delinquent Duo",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Denglong, First of the Yang Zing",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Destiny HERO - Malicious",
+      "status": "semi-limited",
+      "label": "Semi-Limited",
+      "allowedCopies": 2
+    },
+    {
+      "name": "Destrudo the Lost Dragon's Frisson",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Dimension Fusion",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Dimensional Fissure",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Dinomight Knight, the True Dracofighter",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Dinowrestler Pankratops",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Divine Wind of Mist Valley",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Djinn Releaser of Rituals",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Double Iris Magician",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Draco Face-Off",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Dragonic Diagram",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Eclipse Wyvern",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Elder Entity Norden",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Emergency Teleport",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Exodia the Forbidden One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Fairy Tail - Snow",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Fiber Jar",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Final Countdown",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Firewall Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Fishborg Blaster",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Foolish Burial",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Gateway of the Six",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Gem-Knight Master Diamond",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Genex Ally Birdman",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Giant Trunade",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Glow-Up Bulb",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Gold Sarcophagus",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Graceful Charity",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Grinder Golem",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Guardragon Agarpain",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Harpie's Feather Duster",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Heavy Storm",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Heavymetalfoes Electrumite",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Ib the World Chalice Justiciar",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Imperial Order",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Infernity Archfiend",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Infernity Launcher",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Instant Fusion",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Into the Void",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Jet Synchron",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Kaiser Colosseum",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Knightmare Goblin",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Knightmare Mermaid",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Last Turn",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Last Will",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Lavalval Chain",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Left Arm of the Forbidden One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Left Leg of the Forbidden One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Level Eater",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Linkross",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Lunalight Tiger",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "M-X-Saber Invoker",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Macro Cosmos",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Magical Explosion",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Magical Mid-Breaker Field",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Magical Scientist",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Majespecter Unicorn - Kirin",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Mass Driver",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Master Peace, the True Dracoslaying King",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Maxx \"C\"",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Mecha Phantom Beast O-Lion",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Metamorphosis",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Metaverse",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Mind Control",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Mind Master",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Mirage of Nightmare",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Monster Reborn",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Morphing Jar",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Night Assailant",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Number 16: Shock Master",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Number 42: Galaxy Tomahawk",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Number 86: Heroic Champion - Rhongomyniad",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Number 95: Galaxy-Eyes Dark Matter Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Number S0: Utopic ZEXAL",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "One Day of Peace",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "One for One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Orcust Harp Horror",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Outer Entity Azathot",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Painful Choice",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Performage Plushfire",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Performapal Monkeyboard",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Performapal Skullcrobat Joker",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Phantom Skyblaster",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Phoenixian Cluster Amaryllis",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Pot of Greed",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Premature Burial",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "PSY-Framelord Omega",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Raigeki",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Reasoning",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Red Reboot",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Red-Eyes Darkness Metal Dragon",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Redox, Dragon Ruler of Boulders",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Reinforcement of the Army",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Return from the Different Dimension",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Right Arm of the Forbidden One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Right Leg of the Forbidden One",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Royal Oppression",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Salamangreat Circle",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Salamangreat Gazelle",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Salamangreat Miragestallio",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Samsara Lotus",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Scapegoat",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Sekka's Light",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Self-Destruct Button",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Servant of Endymion",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Set Rotation",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Sixth Sense",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Skill Drain",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Sky Striker Mecha - Hornet Drones",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Sky Striker Mecha Modules - Multirole",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Sky Striker Mobilize - Engage!",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Slash Draw",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Smoke Grenade of the Thief",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Snatch Steal",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Soul Charge",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Speedroid Terrortop",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Spellbook of Judgment",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "SPYRAL Master Plan",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "SPYRAL Quik-Fix",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "SPYRAL Resort",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Substitoad",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Summon Sorceress",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Supreme King Dragon Starving Venom",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Symbol of Heritage",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "T.G. Hyper Librarian",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Tellarknight Ptolemaeus",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Tempest Magician",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Tempest, Dragon Ruler of Storms",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Terraforming",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "That Grass Looks Greener",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "The Forceful Sentry",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "The Tyrant Neptune",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Thunder Dragon Colossus",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Tidal, Dragon Ruler of Waterfalls",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Time Seal",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Topologic Gumblar Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Trap Dustshoot",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Trickstar Light Stage",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Trishula, Dragon of the Ice Barrier",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "True King Lithosagym, the Disaster",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "True King of All Calamities",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Ultimate Offering",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Union Carrier",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Upstart Goblin",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Vanity's Emptiness",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Victory Dragon",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Wall of Revealing Light",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "White Dragon Wyverburster",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Wind-Up Carrier Zenmaity",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Yata-Garasu",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Zoodiac Barrage",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Zoodiac Broadbull",
+      "status": "forbidden",
+      "label": "Forbidden",
+      "allowedCopies": 0
+    },
+    {
+      "name": "Zoodiac Drident",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    },
+    {
+      "name": "Zoodiac Ratpier",
+      "status": "limited",
+      "label": "Limited",
+      "allowedCopies": 1
+    }
+  ]
+}

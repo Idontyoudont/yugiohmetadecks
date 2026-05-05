@@ -1,8 +1,10 @@
 import { cardDetails } from "../data/cardDetails";
+import { generatedBanlist } from "../data/banlist.generated";
 import { generatedCardGameSources } from "../data/cardGameSources.generated";
 import { cardGameSources } from "../data/cardGameSources";
 import { cardReplacements } from "../data/cardReplacements";
 import type {
+  BanlistInfo,
   CardGameSourceInfo,
   DeckCard,
   EnrichedDeckCard,
@@ -12,6 +14,7 @@ function normalizeCardName(name: string) {
   return name
     .toLowerCase()
     .replace(/[’‘]/g, "'")
+    .replace(/[“”"]/g, "")
     .replace(/[–—]/g, "-")
     .replace(/\s+/g, " ")
     .trim();
@@ -57,10 +60,15 @@ function getReplacementInfo(cardName: string) {
   return findByNormalizedName(cardReplacements, cardName);
 }
 
+function getBanlistInfo(cardName: string): BanlistInfo | undefined {
+  return findByNormalizedName(generatedBanlist, cardName);
+}
+
 export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
   const details = getCardDetails(card.name);
   const gameSourceInfo = getGameSourceInfo(card.name);
   const replacementInfo = getReplacementInfo(card.name);
+  const banlistInfo = getBanlistInfo(card.name);
 
   return {
     ...details,
@@ -68,6 +76,7 @@ export function enrichDeckCard(card: DeckCard): EnrichedDeckCard {
     name: card.name,
     gameSourceInfo,
     replacementInfo,
+    banlistInfo,
   };
 }
 
@@ -75,6 +84,7 @@ export function enrichCardByName(cardName: string): EnrichedDeckCard {
   const details = getCardDetails(cardName);
   const gameSourceInfo = getGameSourceInfo(cardName);
   const replacementInfo = getReplacementInfo(cardName);
+  const banlistInfo = getBanlistInfo(cardName);
 
   return {
     ...details,
@@ -83,5 +93,6 @@ export function enrichCardByName(cardName: string): EnrichedDeckCard {
     tags: ["replacement"],
     gameSourceInfo,
     replacementInfo,
+    banlistInfo,
   };
 }

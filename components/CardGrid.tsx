@@ -9,7 +9,7 @@ import {
   getCardAvailabilityBadgeClassName,
   getCardAvailabilityLabel,
 } from "../lib/cardAvailability";
-import type { EnrichedDeckCard } from "../types/deck";
+import type { BanlistInfo, EnrichedDeckCard } from "../types/deck";
 
 type CardGridProps = {
   title: string;
@@ -23,6 +23,30 @@ function getSourceBadge(card: EnrichedDeckCard) {
     label: getCardAvailabilityLabel(card),
     className: getCardAvailabilityBadgeClassName(card),
   };
+}
+
+function getBanlistBadgeClassName(banlistInfo: BanlistInfo) {
+  if (banlistInfo.status === "forbidden") {
+    return "bg-red-600 text-white ring-2 ring-red-300/70";
+  }
+
+  if (banlistInfo.status === "limited") {
+    return "bg-orange-500 text-white ring-2 ring-orange-300/60";
+  }
+
+  return "bg-yellow-400 text-slate-950 ring-2 ring-yellow-200/70";
+}
+
+function getBanlistBadgeText(banlistInfo: BanlistInfo) {
+  if (banlistInfo.allowedCopies === 0) {
+    return "Forbidden · 0 allowed";
+  }
+
+  if (banlistInfo.allowedCopies === 1) {
+    return "Limited · 1 allowed";
+  }
+
+  return "Semi-limited · 2 allowed";
 }
 
 function ApiCardImage({ card }: { card: EnrichedDeckCard }) {
@@ -112,6 +136,7 @@ export function CardGrid({
           {cards.map((card) => {
             const isSelected = selectedCard?.name === card.name;
             const sourceBadge = getSourceBadge(card);
+            const banlistInfo = card.banlistInfo;
 
             return (
               <button
@@ -120,7 +145,9 @@ export function CardGrid({
                 className={`relative min-h-36 rounded-xl border p-3 text-left text-sm text-slate-100 transition hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-700 ${
                   isSelected
                     ? "border-blue-400 bg-slate-700"
-                    : "border-slate-700 bg-slate-800"
+                    : banlistInfo
+                      ? "border-red-500/70 bg-slate-800"
+                      : "border-slate-700 bg-slate-800"
                 }`}
               >
                 <span className="absolute right-2 top-2 z-10 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
@@ -128,6 +155,16 @@ export function CardGrid({
                 </span>
 
                 <ApiCardImage card={card} />
+
+                {banlistInfo ? (
+                  <span
+                    className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-black uppercase tracking-wide ${getBanlistBadgeClassName(
+                      banlistInfo
+                    )}`}
+                  >
+                    {getBanlistBadgeText(banlistInfo)}
+                  </span>
+                ) : null}
 
                 <span
                   className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${sourceBadge.className}`}
