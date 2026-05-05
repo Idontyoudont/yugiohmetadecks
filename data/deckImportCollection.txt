@@ -5941,3 +5941,59 @@ Side Deck
 2 Triple Tactics Thrust
 1 Where Arf Thou?
 1 Appointer of the Red Lotus
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023
+Player: Pedro Dratwa
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9611
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+3 Droll & Lock Bird
+2 Ghost Mourner & Moonlit Chill
+1 Ghost Ogre & Snow Rabbit
+2 Lady Labrynth of the Silver Castle
+1 Lilith, Lady of Lament
+1 Lovely Labrynth of the Silver Castle
+2 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Pot of Extravagance
+1 Pot of Prosperity
+3 Big Welcome Labrynth
+2 Destructive Daruma Karma Cannon
+2 Dogmatika Punishment
+3 Infinite Impermanence
+3 Trap Trick
+2 Welcome Labrynth
+
+Extra Deck
+1 Accel Synchro Stardust Dragon
+1 Baronne de Fleur
+1 Divine Arsenal AA-ZEUS - Sky Thunder
+3 Elder Entity N'tss
+2 Garura, Wings of Resonant Life
+1 Kashtira Arise-Heart
+1 Knightmare Cerberus
+2 Muckraker From the Underworld
+1 PSY-Framelord Omega
+2 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+3 Dimension Shifter
+1 Dinowrestler Pankratops
+1 Ghost Mourner & Moonlit Chill
+1 Ghost Ogre & Snow Rabbit
+2 Kashtira Fenrir
+1 Labrynth Cooclock
+1 Labrynth Stovie Torbie
+1 Dimensional Barrier
+2 Eradicator Epidemic Virus
+2 Full Force Virus

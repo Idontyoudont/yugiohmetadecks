@@ -5406,36 +5406,42 @@ Deck Type: Monarch
 Source URL: https://www.yugiohtopdecks.org/deck/4753
 
 Main Deck
-1 Blue-Eyes Toon Dragon
+3 Edea the Heavenly Squire
 3 Ehther the Heavenly Monarch
-1 Erebus the Underworld Monarch
-1 Royal Magical Library
-2 Cards from the Sky
-3 Chicken Game
-1 Domain of the True Monarchs
-1 Hand Destruction
-3 Into the Void
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
 3 Pantheism of the Monarchs
-1 Pot of Duality
-3 Pseudo Space
+2 Return of the Monarchs
 3 Tenacity of the Monarchs
-3 Terraforming
-3 Toon Table of Contents
-3 Trade-In
-3 Upstart Goblin
-1 Life Equalizer
-1 Magical Explosion
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
 
 Extra Deck
 
 Side Deck
-3 Artifact Lancea
-2 Dogoran, the Mad Flame Kaiju
-3 Droll & Lock Bird
-3 Hanewata
-1 Maxx "C"
-1 Prohibition
-2 Twin Twisters
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
 
 ---
 
@@ -5625,36 +5631,42 @@ Deck Type: Monarch
 Source URL: https://www.yugiohtopdecks.org/deck/4799
 
 Main Deck
-1 Blue-Eyes Toon Dragon
+3 Edea the Heavenly Squire
 3 Ehther the Heavenly Monarch
-1 Erebus the Underworld Monarch
-1 Royal Magical Library
-2 Cards from the Sky
-3 Chicken Game
-1 Domain of the True Monarchs
-1 Hand Destruction
-3 Into the Void
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
 3 Pantheism of the Monarchs
-1 Pot of Duality
-3 Pseudo Space
+2 Return of the Monarchs
 3 Tenacity of the Monarchs
-3 Terraforming
-3 Toon Table of Contents
-3 Trade-In
-3 Upstart Goblin
-1 Life Equalizer
-1 Magical Explosion
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
 
 Extra Deck
 
 Side Deck
-3 Artifact Lancea
-2 Dogoran, the Mad Flame Kaiju
-3 Droll & Lock Bird
-3 Hanewata
-1 Maxx "C"
-1 Prohibition
-2 Twin Twisters
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
 
 ---
 
@@ -5716,37 +5728,37 @@ Source URL: https://www.yugiohtopdecks.org/deck/4814
 
 Main Deck
 3 Edea the Heavenly Squire
-2 Effect Veiler
 3 Ehther the Heavenly Monarch
-3 Eidos the Underworld Squire
+2 Eidos the Underworld Squire
 3 Erebus the Underworld Monarch
-1 Kuraz the Light Monarch
-2 Majesty's Fiend
+2 Kuraz the Light Monarch
+3 Maxx "C"
+1 Mithra the Thunder Vassal
 1 Thestalos the Mega Monarch
 3 Domain of the True Monarchs
+1 Foolish Burial
 1 One for One
 3 Pantheism of the Monarchs
 1 Reinforcement of the Army
-1 Return of the Monarchs
+2 Return of the Monarchs
 3 Tenacity of the Monarchs
 3 The Monarchs Stormforth
-3 Upstart Goblin
-1 Escalation of the Monarchs
-3 The Prime Monarch
+2 Twin Twisters
+1 Solemn Warning
+2 The Prime Monarch
 
 Extra Deck
 
 Side Deck
-2 Ghost Ogre & Snow Rabbit
-1 Kuraz the Light Monarch
-1 Light and Darkness Dragon
-2 Maxx "C"
+3 Effect Veiler
+2 Majesty's Fiend
+1 Mobius the Mega Monarch
+2 Mystical Space Typhoon
 1 Raigeki
-3 Twin Twisters
-1 Breakthrough Skill
+1 Twin Twisters
+1 Chaos Trap Hole
+2 Cursed Seal of the Forbidden Spell
 2 Royal Royal Decree
-1 Solemn Strike
-1 Solemn Warning
 
 ---
 
@@ -6230,35 +6242,48 @@ Deck Type: Monarch
 Source URL: https://www.yugiohtopdecks.org/deck/4883
 
 Main Deck
-3 Edea the Heavenly Squire
+1 Edea the Heavenly Squire
 3 Ehther the Heavenly Monarch
-3 Eidos the Underworld Squire
+2 Eidos the Underworld Squire
 3 Erebus the Underworld Monarch
-1 Kuraz the Light Monarch
-1 Majesty's Fiend
+2 Gem-Knight Lazuli
+1 Jack's Knight
+3 Kuraz the Light Monarch
+1 Speedroid Taketomborg
+3 Speedroid Terrortop
+3 Brilliant Fusion
 3 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
 3 Pantheism of the Monarchs
-3 Reasoning
-1 Return of the Monarchs
+3 Return of the Monarchs
 3 Tenacity of the Monarchs
 3 The Monarchs Stormforth
-2 Twin Twisters
-3 Upstart Goblin
-2 Cursed Seal of the Forbidden Spell
-1 Escalation of the Monarchs
 2 The Prime Monarch
 
 Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Artifact Durendal
+1 Beatrice, Lady of the Eternal
+1 Constellar Pleiades
+1 Constellar Ptolemy M7
+1 Dante, Traveler of the Burning Abyss
+1 Divine Dragon Knight Felgrand
+2 Gem-Knight Seraphinite
+1 Hieratic Sun Dragon Overlord of Heliopolis
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Super Quantal Mech Beast Grampulse
+1 The Phantom Knights of Break Sword
+1 Totem Bird
 
 Side Deck
-2 Battle Fader
-2 Effect Veiler
-2 Maxx "C"
-2 Vanity's Fiend
-1 March of the Monarchs
-2 Breakthrough Skill
-2 Royal Royal Decree
-2 Solemn Scolding
+1 Archfiend Eccentrick
+2 Artifact Lancea
+1 Artifact Moralltach
+2 Artifact Scythe
+1 Caius the Mega Monarch
+3 Artifact Ignition
+2 Twin Twisters
+3 Artifact Sanctum
 
 ---
 
@@ -6404,36 +6429,42 @@ Deck Type: Monarch
 Source URL: https://www.yugiohtopdecks.org/deck/4903
 
 Main Deck
-1 Blue-Eyes Toon Dragon
+3 Edea the Heavenly Squire
 3 Ehther the Heavenly Monarch
-1 Erebus the Underworld Monarch
-1 Royal Magical Library
-2 Cards from the Sky
-3 Chicken Game
-1 Domain of the True Monarchs
-1 Hand Destruction
-3 Into the Void
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
 3 Pantheism of the Monarchs
-1 Pot of Duality
-3 Pseudo Space
+2 Return of the Monarchs
 3 Tenacity of the Monarchs
-3 Terraforming
-3 Toon Table of Contents
-3 Trade-In
-3 Upstart Goblin
-1 Life Equalizer
-1 Magical Explosion
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
 
 Extra Deck
 
 Side Deck
-3 Artifact Lancea
-2 Dogoran, the Mad Flame Kaiju
-3 Droll & Lock Bird
-3 Hanewata
-1 Maxx "C"
-1 Prohibition
-2 Twin Twisters
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
 
 ---
 
@@ -6544,36 +6575,42 @@ Deck Type: Monarch
 Source URL: https://www.yugiohtopdecks.org/deck/4914
 
 Main Deck
-1 Blue-Eyes Toon Dragon
+3 Edea the Heavenly Squire
 3 Ehther the Heavenly Monarch
-1 Erebus the Underworld Monarch
-1 Royal Magical Library
-2 Cards from the Sky
-3 Chicken Game
-1 Domain of the True Monarchs
-1 Hand Destruction
-3 Into the Void
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
 3 Pantheism of the Monarchs
-1 Pot of Duality
-3 Pseudo Space
+2 Return of the Monarchs
 3 Tenacity of the Monarchs
-3 Terraforming
-3 Toon Table of Contents
-3 Trade-In
-3 Upstart Goblin
-1 Life Equalizer
-1 Magical Explosion
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
 
 Extra Deck
 
 Side Deck
-3 Artifact Lancea
-2 Dogoran, the Mad Flame Kaiju
-3 Droll & Lock Bird
-3 Hanewata
-1 Maxx "C"
-1 Prohibition
-2 Twin Twisters
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
 
 ---
 
@@ -6741,6 +6778,1437 @@ Side Deck
 3 Twin Twisters
 2 Breakthrough Skill
 3 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4937 - Regional - Leicester England (Mar 2016) - Mar 2016
+Player: Duelist Unknown
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4937
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4940 - Regional - Kilkenny Ireland (Mar 2016) - Mar 2016
+Player: Duelist Unknown
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4940
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4941 - Regional - Kilkenny Ireland (Mar 2016) - Mar 2016
+Player: Chris Morrell
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4941
+
+Main Deck
+3 Ehther the Heavenly Monarch
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+3 Mithra the Thunder Vassal
+1 Super Quantum Red Layer
+2 Thestalos the Firestorm Monarch
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Twin Twisters
+3 Upstart Goblin
+2 Escalation of the Monarchs
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Artifact Moralltach
+1 Artifact Scythe
+1 Majesty's Fiend
+2 Maxx "C"
+1 Raigeki
+3 System Down
+3 Artifact Sanctum
+3 Solemn Strike
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4946 - Regional - Fife Scotland (Mar 2016) - Mar 2016
+Player: Toni Elrick
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4946
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+1 Majesty's Fiend
+1 Mithra the Thunder Vassal
+3 Super Quantum Red Layer
+3 Domain of the True Monarchs
+1 Foolish Burial
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+3 Upstart Goblin
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Droll & Lock Bird
+2 Effect Veiler
+2 Gameciel, the Sea Turtle Kaiju
+1 Majesty's Fiend
+2 Maxx "C"
+1 Trap Eater
+1 Zaborg the Mega Monarch
+1 Dark Hole
+1 Raigeki
+1 Twin Twisters
+1 Solemn Warning
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4949 - Regional - Dudley Ireland (Mar 2016) - Mar 2016
+Player: Jack Northcore
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4949
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+2 Majesty's Fiend
+2 Chicken Game
+3 Domain of the True Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+2 Terraforming
+3 The Monarchs Stormforth
+3 Upstart Goblin
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Denko Sekka
+2 Effect Veiler
+2 Maxx "C"
+2 Vanity's Fiend
+2 Dark Hole
+3 Twin Twisters
+2 Anti-Spell Fragrance
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4950 - Regional - Belgium (Mar 2016) - Mar 2016
+Player: Florian Vanbrakel
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4950
+
+Main Deck
+1 Caius the Mega Monarch
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+2 Majesty's Fiend
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 March of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Upstart Goblin
+1 Escalation of the Monarchs
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Maxx "C"
+2 Vanity's Fiend
+1 Dark Hole
+1 Mystical Space Typhoon
+1 Raigeki
+3 Twin Twisters
+1 Breakthrough Skill
+2 Cursed Seal of the Forbidden Spell
+2 Solemn Strike
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4952 - Regional - Arlington Texas (Mar 2016) - Mar 2016
+Player: Carlos Medrano
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4952
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+2 Maxx "C"
+3 Mithra the Thunder Vassal
+3 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+1 Escalation of the Monarchs
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Caius the Mega Monarch
+2 Effect Veiler
+2 Majesty's Fiend
+2 Forbidden Chalice
+2 Mystical Space Typhoon
+2 Twin Twisters
+3 Solemn Scolding
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4958 - Regional - Arlington Texas (Mar 2016) - Mar 2016
+Player: Joshua Snyder
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4958
+
+Main Deck
+1 Angmarl the Fiendish Monarch
+2 Edea the Heavenly Squire
+2 Effect Veiler
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+1 Majesty's Fiend
+3 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Upstart Goblin
+1 Escalation of the Monarchs
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Caius the Mega Monarch
+1 Effect Veiler
+3 Maxx "C"
+1 Zaborg the Mega Monarch
+1 March of the Monarchs
+3 Twin Twisters
+2 Lose 1 Turn
+2 Quaking Mirror Force
+1 Treacherous Trap Hole
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4963 - Regional - Tulsa Oklahoma (Mar 2016) - Mar 2016
+Player: Michael Campos
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4963
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+2 Maxx "C"
+2 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 One for One
+3 Pantheism of the Monarchs
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Upstart Goblin
+1 Escalation of the Monarchs
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Fog King
+2 Majesty's Fiend
+2 Vanity's Fiend
+2 Forbidden Chalice
+1 March of the Monarchs
+1 Raigeki
+1 System Down
+2 Twin Twisters
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4974 - Regional - Manchester England (Mar 2016) - Mar 2016
+Player: Ernst Schulze
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4974
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+3 Super Quantum Red Layer
+3 Domain of the True Monarchs
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Upstart Goblin
+1 Escalation of the Monarchs
+1 Solemn Strike
+1 Solemn Warning
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+2 Maxx "C"
+1 March of the Monarchs
+3 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4984 - Regional - Tinley Park Illinois (Apr 2016) - Apr 2016
+Player: Duelist Unknown
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4984
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+1 Solemn Scolding
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Battle Fader
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Majesty's Fiend
+1 Vanity's Fiend
+2 Mystical Space Typhoon
+1 Raigeki
+1 System Down
+1 Twin Twisters
+2 Breakthrough Skill
+1 Cursed Seal of the Forbidden Spell
+1 Solemn Scolding
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4990 - Regional - Scunthorpe England (Apr 2016) - Apr 2016
+Player: Kyne L. Cooley
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4990
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+3 Maxx "C"
+2 Domain of the True Monarchs
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Twin Twisters
+3 Upstart Goblin
+1 Solemn Warning
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+3 Effect Veiler
+1 Electric Virus
+1 Majesty's Fiend
+3 Trap Eater
+2 Dark Hole
+1 Reinforcement of the Army
+2 Breakthrough Skill
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 4995 - Regional - S. Portland Maine (Apr 2016) - Apr 2016
+Player: Daniel Barbacoff
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/4995
+
+Main Deck
+1 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+1 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+2 Majesty's Fiend
+3 Mithra the Thunder Vassal
+1 Thestalos the Mega Monarch
+2 Chicken Game
+3 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+2 Terraforming
+3 The Monarchs Stormforth
+3 Upstart Goblin
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Droll & Lock Bird
+2 Effect Veiler
+1 Majesty's Fiend
+2 Maxx "C"
+1 Mystical Space Typhoon
+3 Twin Twisters
+2 Anti-Spell Fragrance
+2 Cursed Seal of the Forbidden Spell
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5017 - YCS - Houston (Apr 2016) - Apr 2016
+Player: Colby Blomstrom
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5017
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+2 Mithra the Thunder Vassal
+2 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 Frost Blast of the Monarchs
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+2 Upstart Goblin
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Caius the Mega Monarch
+2 Vanity's Fiend
+2 Demise of the Land
+1 March of the Monarchs
+1 Twin Twisters
+1 Escalation of the Monarchs
+3 Mask of Restrict
+2 Solemn Strike
+1 Solemn Warning
+1 Vanity's Emptiness
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5020 - Regional - Buford Georgia (Apr 2016) - Apr 2016
+Player: Edgar Gonzalez
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5020
+
+Main Deck
+1 Caius the Mega Monarch
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Majesty's Fiend
+1 Speedroid Taketomborg
+3 Speedroid Terrortop
+3 Domain of the True Monarchs
+1 Foolish Burial
+2 Forbidden Chalice
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+2 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Electric Virus
+2 Flying "C"
+2 Gameciel, the Sea Turtle Kaiju
+1 Majesty's Fiend
+2 Trap Eater
+1 Zaborg the Mega Monarch
+2 Magical Spring
+2 System Down
+1 The Monarchs Erupt
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5024 - Regional - Buford Georgia (Apr 2016) - Apr 2016
+Player: Zachary Parrott
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5024
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+1 Majesty's Fiend
+3 Chicken Game
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 One for One
+3 Pantheism of the Monarchs
+2 Reasoning
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Upstart Goblin
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+1 Caius the Mega Monarch
+2 Effect Veiler
+1 Fog King
+1 Majesty's Fiend
+2 Maxx "C"
+2 Trap Eater
+1 Raigeki
+3 Twin Twisters
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5031 - Regional - Leeds England (Apr 2016) - Apr 2016
+Player: Brad Wood
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5031
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+2 Erebus the Underworld Monarch
+1 Gem-Knight Garnet
+1 Ghost Ogre & Snow Rabbit
+2 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Super Quantum Blue Layer
+2 Super Quantum Red Layer
+3 Brilliant Fusion
+1 Domain of the True Monarchs
+2 Emergency Teleport
+1 Instant Fusion
+3 Pantheism of the Monarchs
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+1 Upstart Goblin
+2 The Prime Monarch
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Artifact Durendal
+1 Beatrice, Lady of the Eternal
+1 Constellar Pleiades
+1 Gaia Dragon, the Thunder Charger
+1 Gem-Knight Seraphinite
+1 Number 23: Lancelot, Dark Knight of the Underworld
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Number 61: Volcasaurus
+1 Panzer Dragon
+1 PSY-Framelord Omega
+1 Scarlight Red Dragon Archfiend
+1 Shark Fortress
+1 Super Quantal Mech Beast Magnaliger
+1 Thousand-Eyes Restrict
+
+Side Deck
+3 Effect Veiler
+2 Flying "C"
+2 Gameciel, the Sea Turtle Kaiju
+1 Majesty's Fiend
+1 Raigeki
+3 Twin Twisters
+3 Mask of Restrict
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5032 - Regional - Leeds England (Apr 2016) - Apr 2016
+Player: Jared Stone
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5032
+
+Main Deck
+1 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Gem-Knight Lazuli
+1 Jack's Knight
+3 Kuraz the Light Monarch
+1 Speedroid Taketomborg
+3 Speedroid Terrortop
+3 Brilliant Fusion
+3 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 The Prime Monarch
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Artifact Durendal
+1 Beatrice, Lady of the Eternal
+1 Constellar Pleiades
+1 Constellar Ptolemy M7
+1 Dante, Traveler of the Burning Abyss
+1 Divine Dragon Knight Felgrand
+2 Gem-Knight Seraphinite
+1 Hieratic Sun Dragon Overlord of Heliopolis
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Super Quantal Mech Beast Grampulse
+1 The Phantom Knights of Break Sword
+1 Totem Bird
+
+Side Deck
+1 Archfiend Eccentrick
+2 Artifact Lancea
+1 Artifact Moralltach
+2 Artifact Scythe
+1 Caius the Mega Monarch
+3 Artifact Ignition
+2 Twin Twisters
+3 Artifact Sanctum
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5033 - Regional - Leeds England (Apr 2016) - Apr 2016
+Player: Kyne Cooley
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5033
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+3 Maxx "C"
+3 Super Quantum Red Layer
+2 Domain of the True Monarchs
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 Twin Twisters
+1 Upstart Goblin
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+3 Effect Veiler
+2 Flying "C"
+1 Majesty's Fiend
+1 Performapal Silver Claw
+3 Trap Eater
+1 Raigeki
+2 Breakthrough Skill
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5036 - Regional - Fargo North Dakota (Apr 2016) - Apr 2016
+Player: Oscar Arreguin
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5036
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+2 Majesty's Fiend
+2 Mithra the Thunder Vassal
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 March of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+2 Solemn Scolding
+3 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Chaos Hunter
+2 Flying "C"
+2 Fog King
+2 Gameciel, the Sea Turtle Kaiju
+1 Landrobe the Rock Vassal
+2 Maxx "C"
+2 Retort
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5037 - Regional - Fargo North Dakota (Apr 2016) - Apr 2016
+Player: Ameer Mohammed
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5037
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Maxx "C"
+1 Mithra the Thunder Vassal
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+2 March of the Monarchs
+3 Pantheism of the Monarchs
+1 Reasoning
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+2 Quaking Mirror Force
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+2 Battle Fader
+2 Chaos Hunter
+2 Flying "C"
+1 Majesty's Fiend
+1 Vanity's Fiend
+1 Dark Hole
+2 Mystical Space Typhoon
+2 Chain Disappearance
+2 Mind Crush
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5040 - Regional - Tuscaloosa Alabama (Apr 2016) - Apr 2016
+Player: Tamra Tucker
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5040
+
+Main Deck
+2 Edea the Heavenly Squire
+2 Effect Veiler
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+2 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+2 Majesty's Fiend
+2 Maxx "C"
+3 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
+1 March of the Monarchs
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Upstart Goblin
+1 Escalation of the Monarchs
+2 The Prime Monarch
+1 Vanity's Emptiness
+
+Extra Deck
+
+Side Deck
+2 Battle Fader
+1 Caius the Mega Monarch
+2 Droll & Lock Bird
+2 Flying "C"
+1 Thestalos the Mega Monarch
+2 Trap Eater
+1 Frost Blast of the Monarchs
+2 Anti-Spell Fragrance
+2 Cursed Seal of the Forbidden Spell
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5042 - Regional - Newcastle England (Apr 2016) - Apr 2016
+Player: Sunny Thaicharoen
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5042
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+1 Eidos the Underworld Squire
+2 Erebus the Underworld Monarch
+3 Kuraz the Light Monarch
+2 Maxx "C"
+1 Mithra the Thunder Vassal
+1 Super Quantum Blue Layer
+2 Super Quantum Red Layer
+1 Zaborg the Mega Monarch
+1 Domain of the True Monarchs
+2 Emergency Teleport
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+1 Strike of the Monarchs
+1 Super Quantal Mech Ship Magnacarrier
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Escalation of the Monarchs
+2 The Prime Monarch
+
+Extra Deck
+1 Beatrice, Lady of the Eternal
+1 Constellar Pleiades
+1 Dante, Pilgrim of the Burning Abyss
+1 Gaia Dragon, the Thunder Charger
+1 Number 21: Frozen Lady Justice
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Number 61: Volcasaurus
+2 PSY-Framelord Omega
+1 Super Quantal Mech Beast Aeroboros
+2 Super Quantal Mech Beast Grampulse
+2 Super Quantal Mech Beast Magnaliger
+1 Super Quantal Mech King Great Magnus
+
+Side Deck
+1 Artifact Moralltach
+2 Artifact Scythe
+2 Effect Veiler
+2 Gameciel, the Sea Turtle Kaiju
+1 Raigeki
+3 Artifact Sanctum
+2 Call of the Haunted
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5047 - Regional - Cardiff Wales (Apr 2016) - Apr 2016
+Player: Matthew Mills
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5047
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+1 Eidos the Underworld Squire
+2 Erebus the Underworld Monarch
+2 Gem-Knight Crystal
+1 Ghost Ogre & Snow Rabbit
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Overdrive Teleporter
+1 Super Quantum Blue Layer
+2 Super Quantum Red Layer
+3 Brilliant Fusion
+1 Domain of the True Monarchs
+2 Emergency Teleport
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+1 Escalation of the Monarchs
+2 The Prime Monarch
+
+Extra Deck
+1 Artifact Durendal
+1 Beatrice, Lady of the Eternal
+1 Constellar Pleiades
+1 Dante, Pilgrim of the Burning Abyss
+2 Gem-Knight Seraphinite
+1 Number 15: Gimmick Puppet Giant Grinder
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Number 39: Utopia Beyond
+1 Number 61: Volcasaurus
+1 Scarlight Red Dragon Archfiend
+1 Scrap Dragon
+1 Shark Fortress
+1 Stardust Charge Warrior
+1 Super Quantal Mech Beast Magnaliger
+
+Side Deck
+2 Effect Veiler
+2 Fog King
+1 Majesty's Fiend
+3 Maxx "C"
+2 Forbidden Chalice
+1 Mystical Space Typhoon
+1 Raigeki
+3 Twin Twisters
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5049 - Regional - Columbus Ohio (May 2016) - May 2016
+Player: DaJuan Scott
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5049
+
+Main Deck
+1 Caius the Mega Monarch
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Gem-Knight Garnet
+1 Gem-Knight Sapphire
+2 Kuraz the Light Monarch
+1 Majesty's Fiend
+2 Super Quantum Red Layer
+3 Brilliant Fusion
+1 Domain of the True Monarchs
+1 Frost Blast of the Monarchs
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Chaos Trap Hole
+3 The Prime Monarch
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Artifact Durendal
+1 Constellar Pleiades
+1 Divine Dragon Knight Felgrand
+1 Gaia Dragon, the Thunder Charger
+2 Gem-Knight Seraphinite
+1 Number 23: Lancelot, Dark Knight of the Underworld
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Number 61: Volcasaurus
+1 Number 77: The Seven Sins
+1 Number 84: Pain Gainer
+1 Shark Fortress
+1 Super Quantal Mech Beast Magnaliger
+1 Wind-Up Arsenal Zenmaioh
+
+Side Deck
+1 Battle Fader
+2 Effect Veiler
+1 Flying "C"
+2 Gameciel, the Sea Turtle Kaiju
+1 Majesty's Fiend
+2 Maxx "C"
+2 System Down
+3 Twin Twisters
+1 Xyz Universe
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5052 - Regional - Columbus Ohio (May 2016) - May 2016
+Player: Phi Nguyen
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5052
+
+Main Deck
+2 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+2 Erebus the Underworld Monarch
+1 Gem-Knight Garnet
+2 Kuraz the Light Monarch
+3 Manju of the Ten Thousand Hands
+3 Maxx "C"
+1 Nekroz of Brionac
+2 Nekroz of Clausolas
+1 Nekroz of Trishula
+1 Nekroz of Unicore
+3 Nekroz of Valkyrus
+3 Brilliant Fusion
+1 Domain of the True Monarchs
+1 Nekroz Cycle
+2 Nekroz Kaleidoscope
+2 Nekroz Mirror
+3 Pantheism of the Monarchs
+1 Preparation of Rites
+1 Reinforcement of the Army
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 The Prime Monarch
+
+Extra Deck
+2 Abyss Dweller
+1 Castel, the Skyblaster Musketeer
+1 Constellar Pleiades
+1 Constellar Ptolemy M7
+2 Daigusto Emeral
+1 Diamond Dire Wolf
+1 Gem-Knight Seraphinite
+2 Herald of the Arc Light
+1 Number 106: Giant Hand
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+1 Number 61: Volcasaurus
+1 Blue-Eyes Ultimate Dragon
+
+Side Deck
+3 Effect Veiler
+1 Ghost Ogre & Snow Rabbit
+2 Speedroid Menko
+3 Mystical Space Typhoon
+1 Raigeki
+2 Breakthrough Skill
+3 Shadow-Imprisoning Mirror
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5053 - Regional - Bexleyheath England (May 2016) - May 2016
+Player: Oliver Newton
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5053
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+3 Maxx "C"
+1 Mithra the Thunder Vassal
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 One for One
+3 Pantheism of the Monarchs
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Solemn Warning
+2 The Prime Monarch
+
+Extra Deck
+
+Side Deck
+3 Effect Veiler
+2 Majesty's Fiend
+1 Mobius the Mega Monarch
+2 Mystical Space Typhoon
+1 Raigeki
+1 Twin Twisters
+1 Chaos Trap Hole
+2 Cursed Seal of the Forbidden Spell
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5057 - Nationals - New Zealand (May 2016) - May 2016
+Player: Jeffrey Chan
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5057
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Kuraz the Light Monarch
+1 Mithra the Thunder Vassal
+1 Thestalos the Mega Monarch
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 One for One
+3 Pantheism of the Monarchs
+1 Reasoning
+1 Reinforcement of the Army
+2 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+2 Twin Twisters
+1 Upstart Goblin
+3 The Prime Monarch
+1 Vanity's Emptiness
+
+Extra Deck
+
+Side Deck
+2 Battle Fader
+3 Effect Veiler
+2 Majesty's Fiend
+3 Maxx "C"
+1 Twin Twisters
+2 Breakthrough Skill
+2 Royal Royal Decree
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5060 - Regional - Kissimmee Florida (May 2016) - May 2016
+Player: Chris Abella
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5060
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+2 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+2 Gem-Knight Lazuli
+1 Jack's Knight
+1 Kuraz the Light Monarch
+2 Majesty's Fiend
+3 Maxx "C"
+3 Brilliant Fusion
+1 Domain of the True Monarchs
+1 Foolish Burial
+3 Pantheism of the Monarchs
+3 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+3 The Prime Monarch
+
+Extra Deck
+1 Adreus, Keeper of Armageddon
+1 Alsei, the Sylvan High Protector
+1 Artifact Durendal
+1 Constellar Pleiades
+1 Constellar Ptolemy M7
+1 Gaia Dragon, the Thunder Charger
+2 Gem-Knight Seraphinite
+1 Number 15: Gimmick Puppet Giant Grinder
+1 Number 38: Hope Harbinger Dragon Titanic Galaxy
+2 Number 61: Volcasaurus
+1 Shark Fortress
+1 Super Quantal Mech Beast Magnaliger
+1 Wind-Up Arsenal Zenmaioh
+
+Side Deck
+1 Effect Veiler
+3 Fog King
+1 Majesty's Fiend
+3 Mystical Space Typhoon
+1 Raigeki
+1 Chain Disappearance
+3 Chaos Trap Hole
+1 Solemn Warning
+1 Vanity's Emptiness
+
+---
+
+Deck: Monarch 2006
+Year: 2006
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 5069 - Regional - Frankfurt Germany (May 2016) - May 2016
+Player: Robin W.
+Deck Type: Monarch
+Source URL: https://www.yugiohtopdecks.org/deck/5069
+
+Main Deck
+3 Edea the Heavenly Squire
+3 Ehther the Heavenly Monarch
+3 Eidos the Underworld Squire
+3 Erebus the Underworld Monarch
+1 Kuraz the Light Monarch
+1 Majesty's Fiend
+3 Maxx "C"
+1 Mithra the Thunder Vassal
+1 Vanity's Fiend
+3 Domain of the True Monarchs
+1 Foolish Burial
+1 March of the Monarchs
+1 One for One
+3 Pantheism of the Monarchs
+1 Return of the Monarchs
+3 Tenacity of the Monarchs
+3 The Monarchs Stormforth
+1 Twin Twisters
+1 Solemn Warning
+2 The Prime Monarch
+1 Vanity's Emptiness
+
+Extra Deck
+
+Side Deck
+1 Black Luster Soldier - Envoy of the Beginning
+2 Chaos Hunter
+1 Landrobe the Rock Vassal
+1 Light and Darkness Dragon
+1 Majesty's Fiend
+1 Trap Eater
+2 Forbidden Chalice
+2 Mystical Space Typhoon
+1 Chain Disappearance
+2 Cursed Seal of the Forbidden Spell
+1 Royal Royal Decree
 
 ---
 
@@ -86524,6 +87992,621 @@ Side Deck
 1 Triple Tactics Talent
 2 Triple Tactics Thrust
 1 Dimensional Barrier
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023
+Player: Pedro Dratwa
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9611
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+3 Droll & Lock Bird
+2 Ghost Mourner & Moonlit Chill
+1 Ghost Ogre & Snow Rabbit
+2 Lady Labrynth of the Silver Castle
+1 Lilith, Lady of Lament
+1 Lovely Labrynth of the Silver Castle
+2 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Pot of Extravagance
+1 Pot of Prosperity
+3 Big Welcome Labrynth
+2 Destructive Daruma Karma Cannon
+2 Dogmatika Punishment
+3 Infinite Impermanence
+3 Trap Trick
+2 Welcome Labrynth
+
+Extra Deck
+1 Accel Synchro Stardust Dragon
+1 Baronne de Fleur
+1 Divine Arsenal AA-ZEUS - Sky Thunder
+3 Elder Entity N'tss
+2 Garura, Wings of Resonant Life
+1 Kashtira Arise-Heart
+1 Knightmare Cerberus
+2 Muckraker From the Underworld
+1 PSY-Framelord Omega
+2 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+3 Dimension Shifter
+1 Dinowrestler Pankratops
+1 Ghost Mourner & Moonlit Chill
+1 Ghost Ogre & Snow Rabbit
+2 Kashtira Fenrir
+1 Labrynth Cooclock
+1 Labrynth Stovie Torbie
+1 Dimensional Barrier
+2 Eradicator Epidemic Virus
+2 Full Force Virus
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9615 - YCS - Philadelphia Pennsylvania (May 2023) - May 2023
+Player: Hunter Lloyd
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9615
+
+Main Deck
+2 Arianna the Labrynth Servant
+2 Ash Blossom & Joyous Spring
+3 Droll & Lock Bird
+3 Effect Veiler
+2 Fallen of Albaz
+2 Ghost Ogre & Snow Rabbit
+3 Labrynth Chandraglier
+1 Labrynth Cooclock
+3 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+2 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Branded Fusion
+3 Pot of Prosperity
+3 Big Welcome Labrynth
+1 Destructive Daruma Karma Cannon
+1 Dimensional Barrier
+1 Dogmatika Punishment
+3 Infinite Impermanence
+3 Skill Drain
+2 Welcome Labrynth
+
+Extra Deck
+2 Albion the Branded Dragon
+1 Albion the Sanctifire Dragon
+1 Chaos Angel
+1 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+1 Knightmare Cerberus
+1 Knightmare Phoenix
+1 Lubellion the Searing Dragon
+2 Mirrorjade the Iceblade Dragon
+1 PSY-Framelord Omega
+1 Rindbrumm the Striking Dragon
+1 Sprind the Irondash Dragon
+1 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+1 Bystial Baldrake
+1 Bystial Druiswurm
+3 Bystial Magnamhut
+2 Lava Golem
+3 Raigeki
+1 Deck Devastation Virus
+1 Eradicator Epidemic Virus
+3 Gozen Match
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9633 - YCS - Philadelphia Pennsylvania (May 2023) - May 2023
+Player: James Kim
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9633
+
+Main Deck
+2 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+2 Ghost Ogre & Snow Rabbit
+3 Labrynth Chandraglier
+1 Labrynth Cooclock
+2 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+3 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+1 Labrynth Labyrinth
+3 Pot of Extravagance
+3 Big Welcome Labrynth
+1 Deck Devastation Virus
+1 Destructive Daruma Karma Cannon
+1 Dimensional Barrier
+1 Dogmatika Punishment
+1 Eradicator Epidemic Virus
+2 Infinite Impermanence
+3 Welcome Labrynth
+
+Extra Deck
+2 Accel Synchro Stardust Dragon
+2 Baronne de Fleur
+3 Chaos Angel
+1 Donner, Dagger Fur Hire
+2 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+2 Muckraker From the Underworld
+1 PSY-Framelord Omega
+1 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+2 Gameciel, the Sea Turtle Kaiju
+3 Ghost Belle & Haunted Mansion
+1 Ghost Ogre & Snow Rabbit
+1 Harpie's Feather Duster
+1 Infinite Impermanence
+3 Skill Drain
+3 Solemn Strike
+1 There Can Be Only One
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9663 - National Championship - UK (May 2023) - May 2023
+Player: Matt Chen
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9663
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+3 Labrynth Chandraglier
+1 Labrynth Cooclock
+3 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+3 Nibiru, the Primal Being
+1 PSY-Frame Driver
+3 PSY-Framegear Gamma
+3 Pot of Extravagance
+1 Pot of Prosperity
+3 Big Welcome Labrynth
+1 Destructive Daruma Karma Cannon
+1 Dogmatika Punishment
+3 Infinite Impermanence
+3 Skill Drain
+2 Welcome Labrynth
+
+Extra Deck
+2 Accel Synchro Stardust Dragon
+2 Baronne de Fleur
+2 Chaos Angel
+2 Elder Entity N'tss
+2 Garura, Wings of Resonant Life
+2 Muckraker From the Underworld
+1 PSY-Framelord Lambda
+2 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+1 Bystial Baldrake
+3 Bystial Magnamhut
+2 Gameciel, the Sea Turtle Kaiju
+2 Ghost Ogre & Snow Rabbit
+3 Performapal Five-Rainbow Magician
+1 Called by the Grave
+1 Xyz Encore
+1 Deck Devastation Virus
+1 Eradicator Epidemic Virus
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9684 - WCQ - Europe (Jul 2023) - Jul 2023
+Player: Joo-ho Ahn
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9684
+
+Main Deck
+3 Arianna the Labrynth Servant
+1 Ash Blossom & Joyous Spring
+1 Labrynth Cooclock
+1 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+3 Lord of the Heavenly Prison
+1 Lovely Labrynth of the Silver Castle
+2 The Winged Dragon of Ra - Sphere Mode
+3 Pot of Prosperity
+3 Super Polymerization
+3 Big Welcome Labrynth
+2 Destructive Daruma Karma Cannon
+1 Dogmatika Punishment
+1 Eradicator Epidemic Virus
+3 Gozen Match
+3 Skill Drain
+3 Solemn Strike
+1 Terrors of the Overroot
+3 Welcome Labrynth
+
+Extra Deck
+1 Borreload Furious Dragon
+1 Chaos Angel
+1 Earth Golem @Ignister
+1 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+1 Granguignol the Dusk Dragon
+1 Knightmare Phoenix
+1 Linguriboh
+1 Muckraker From the Underworld
+1 Mudragon of the Swamp
+1 Predaplant Dragostapelia
+1 Predaplant Triphyoverutum
+1 Starving Venom Fusion Dragon
+1 Tri-Brigade Arms Bucephalus II
+1 World Chalice Guardragon Almarduke
+
+Side Deck
+2 Ash Blossom & Joyous Spring
+1 Bystial Druiswurm
+3 Bystial Magnamhut
+2 Gadarla, the Mystery Dust Kaiju
+1 The Winged Dragon of Ra - Sphere Mode
+1 Dimensional Barrier
+1 Full Force Virus
+1 Heavy Storm Duster
+3 Solemn Judgment
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9685 - WCQ - Europe (Jul 2023) - Jul 2023
+Player: Jonas Koschel
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9685
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+3 Labrynth Chandraglier
+1 Labrynth Cooclock
+3 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+3 Nibiru, the Primal Being
+1 Labrynth Labyrinth
+3 Pot of Extravagance
+3 Big Welcome Labrynth
+1 Dogmatika Punishment
+3 Gozen Match
+3 Infinite Impermanence
+3 Skill Drain
+1 Terrors of the Overroot
+3 Welcome Labrynth
+
+Extra Deck
+3 Chaos Angel
+3 Elder Entity N'tss
+2 Garura, Wings of Resonant Life
+1 Linguriboh
+3 Muckraker From the Underworld
+1 Tri-Brigade Arms Bucephalus II
+2 Underworld Goddess of the Closed World
+
+Side Deck
+1 Bystial Druiswurm
+3 Bystial Magnamhut
+2 Lava Golem
+1 Harpie's Feather Duster
+1 Eradicator Epidemic Virus
+3 Evenly Matched
+1 Full Force Virus
+3 Solemn Judgment
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9706 - WCQ - Europe (Jul 2023) - Jul 2023
+Player: Dinh-kha Bui
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9706
+
+Main Deck
+3 Arianna the Labrynth Servant
+1 Ash Blossom & Joyous Spring
+1 Labrynth Cooclock
+2 Lady Labrynth of the Silver Castle
+3 Lord of the Heavenly Prison
+1 Lovely Labrynth of the Silver Castle
+2 The Winged Dragon of Ra - Sphere Mode
+3 Pot of Prosperity
+3 Super Polymerization
+3 Big Welcome Labrynth
+3 Destructive Daruma Karma Cannon
+1 Dogmatika Punishment
+1 Eradicator Epidemic Virus
+3 Gozen Match
+3 Skill Drain
+3 Solemn Strike
+1 Terrors of the Overroot
+3 Welcome Labrynth
+
+Extra Deck
+1 Borreload Furious Dragon
+1 Chaos Angel
+1 Dragon Knight Draco-Equiste
+1 Earth Golem @Ignister
+1 Elder Entity N'tss
+1 Garura, Wings of Resonant Life
+1 Granguignol the Dusk Dragon
+1 Linguriboh
+1 Muckraker From the Underworld
+1 Mudragon of the Swamp
+1 Predaplant Dragostapelia
+1 Predaplant Triphyoverutum
+1 Starving Venom Fusion Dragon
+1 Tri-Brigade Arms Bucephalus II
+1 World Chalice Guardragon Almarduke
+
+Side Deck
+2 Ash Blossom & Joyous Spring
+1 Bystial Druiswurm
+3 Bystial Magnamhut
+2 Gadarla, the Mystery Dust Kaiju
+1 The Winged Dragon of Ra - Sphere Mode
+1 Dimensional Barrier
+1 Full Force Virus
+1 Heavy Storm Duster
+3 Solemn Judgment
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9709 - WCQ - North America (Jul 2023) - Jul 2023
+Player: Brian Chen
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9709
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Ash Blossom & Joyous Spring
+3 Labrynth Chandraglier
+1 Labrynth Cooclock
+3 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+3 Nibiru, the Primal Being
+1 Labrynth Labyrinth
+3 Pot of Extravagance
+3 Big Welcome Labrynth
+1 Destructive Daruma Karma Cannon
+1 Dogmatika Punishment
+3 Gozen Match
+3 Infinite Impermanence
+3 Skill Drain
+1 Terrors of the Overroot
+2 Welcome Labrynth
+
+Extra Deck
+3 Chaos Angel
+2 Elder Entity N'tss
+2 Garura, Wings of Resonant Life
+1 Knightmare Cerberus
+1 Knightmare Phoenix
+3 Muckraker From the Underworld
+1 Number 41: Bagooska the Terribly Tired Tapir
+1 Psychic End Punisher
+1 Tri-Brigade Arms Bucephalus II
+
+Side Deck
+1 Bystial Baldrake
+1 Bystial Druiswurm
+2 Bystial Magnamhut
+1 Mudora the Sword Oracle
+1 Called by the Grave
+3 Raigeki
+1 Dimensional Barrier
+1 Eradicator Epidemic Virus
+1 Full Force Virus
+3 Solemn Judgment
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9727 - WCQ - North America (Jul 2023) - Jul 2023
+Player: Ryan Yu
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9727
+
+Main Deck
+3 Arianna the Labrynth Servant
+1 Labrynth Cooclock
+2 Lady Labrynth of the Silver Castle
+3 Lord of the Heavenly Prison
+1 Lovely Labrynth of the Silver Castle
+2 The Winged Dragon of Ra - Sphere Mode
+1 Pot of Extravagance
+3 Pot of Prosperity
+3 Super Polymerization
+3 Big Welcome Labrynth
+3 Destructive Daruma Karma Cannon
+1 Eradicator Epidemic Virus
+3 Gozen Match
+3 Skill Drain
+3 Solemn Strike
+2 Terrors of the Overroot
+3 Welcome Labrynth
+
+Extra Deck
+1 Borreload Furious Dragon
+1 Chaos Angel
+1 Curse of Dragon, the Magical Knight Dragon
+1 Despian Proskenion
+1 Dingirsu, the Orcust of the Evening Star
+1 Earth Golem @Ignister
+1 Garura, Wings of Resonant Life
+1 Granguignol the Dusk Dragon
+1 Linguriboh
+1 Muckraker From the Underworld
+1 Mudragon of the Swamp
+1 Predaplant Dragostapelia
+1 Predaplant Triphyoverutum
+1 Starving Venom Fusion Dragon
+1 World Chalice Guardragon Almarduke
+
+Side Deck
+3 Ash Blossom & Joyous Spring
+2 Dimension Shifter
+3 Gameciel, the Sea Turtle Kaiju
+1 Labrynth Chandraglier
+2 Labrynth Stovie Torbie
+1 Dimensional Barrier
+2 Eradicator Epidemic Virus
+1 Full Force Virus
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9745 - YCS - Vancouver (Sep 2023) - Sep 2023
+Player: James Zhang
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9745
+
+Main Deck
+3 Ariane the Labrynth Servant
+3 Arianna the Labrynth Servant
+1 Ash Blossom & Joyous Spring
+3 Labrynth Chandraglier
+3 Labrynth Cooclock
+3 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+1 Lovely Labrynth of the Silver Castle
+3 Nibiru, the Primal Being
+2 Tackle Crusader
+1 Unchained Soul of Sharvara
+1 Labrynth Labyrinth
+3 Pot of Extravagance
+3 Big Welcome Labrynth
+1 Destructive Daruma Karma Cannon
+1 Escape of the Unchained
+3 Infinite Impermanence
+3 Welcome Labrynth
+
+Extra Deck
+2 Chaos Angel
+1 Dharc the Dark Charmer, Gloomy
+1 Knightmare Unicorn
+1 Muckraker From the Underworld
+2 Unchained Abomination
+3 Unchained Soul Lord of Yama
+2 Unchained Soul of Anguish
+2 Unchained Soul of Rage
+1 Underworld Goddess of the Closed World
+
+Side Deck
+1 Bystial Druiswurm
+2 Bystial Magnamhut
+2 Fantastical Dragon Phantazmay
+1 Keldo the Sacred Protector
+3 Kurikara Divincarnate
+1 Mudora the Sword Oracle
+1 Called by the Grave
+1 Harpie's Feather Duster
+2 Dimensional Barrier
+1 Eradicator Epidemic Virus
+1 Full Force Virus
+
+---
+
+Deck: Labrynth 2024
+Year: 2024
+Format: Imported Format
+Status: draft
+Source: Yu-Gi-Oh! Top Decks - deck 9790 - YCS - Dortmund Germany (Oct 2023) - Oct 2023
+Player: Tom Kleinegräber
+Deck Type: Labrynth
+Source URL: https://www.yugiohtopdecks.org/deck/9790
+
+Main Deck
+3 Arianna the Labrynth Servant
+3 Dimension Shifter
+1 Labrynth Cooclock
+1 Labrynth Stovie Torbie
+2 Lady Labrynth of the Silver Castle
+3 Lord of the Heavenly Prison
+1 Lovely Labrynth of the Silver Castle
+3 Pot of Prosperity
+3 Runick Flashing Fire
+3 Big Welcome Labrynth
+3 Destructive Daruma Karma Cannon
+1 Dimensional Barrier
+1 Ice Dragon's Prison
+3 Infinite Impermanence
+3 Skill Drain
+3 Solemn Strike
+1 Terrors of the Overroot
+3 Welcome Labrynth
+
+Extra Deck
+1 Chaos Angel
+1 Dharc the Dark Charmer, Gloomy
+1 Divine Arsenal AA-ZEUS - Sky Thunder
+1 Gallant Granite
+1 Geri the Runick Fangs
+1 Hugin the Runick Wings
+1 Knightmare Unicorn
+1 Linguriboh
+1 Mirrorjade the Iceblade Dragon
+1 Muckraker From the Underworld
+1 Number 41: Bagooska the Terribly Tired Tapir
+1 Rindbrumm the Striking Dragon
+1 Unchained Abomination
+1 Unchained Soul of Anguish
+1 Unchained Soul of Rage
+
+Side Deck
+3 Ash Blossom & Joyous Spring
+2 Retaliating "C"
+3 The Winged Dragon of Ra - Sphere Mode
+3 Gravekeeper's Inscription
+1 Eradicator Epidemic Virus
+2 Evenly Matched
+1 Full Force Virus
 
 ---
 

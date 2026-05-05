@@ -19572,5 +19572,180 @@ export const importedDecks: Deck[] = [
       quantity: 1,
     }
   ],
+  },
+  {
+    id: "labrynth-2024",
+    name: "Labrynth 2024",
+    year: 2024,
+    format: "Imported Format",
+    status: "draft",
+    source: {
+      label: "Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023",
+      player: "Pedro Dratwa",
+      deckType: "Labrynth",
+      url: "https://www.yugiohtopdecks.org/deck/9611",
+    },
+    mainDeck: [
+    {
+      name: "Arianna the Labrynth Servant",
+      quantity: 3,
+    },
+    {
+      name: "Ash Blossom & Joyous Spring",
+      quantity: 3,
+    },
+    {
+      name: "Droll & Lock Bird",
+      quantity: 3,
+    },
+    {
+      name: "Ghost Mourner & Moonlit Chill",
+      quantity: 2,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 1,
+    },
+    {
+      name: "Lady Labrynth of the Silver Castle",
+      quantity: 2,
+    },
+    {
+      name: "Lilith, Lady of Lament",
+      quantity: 1,
+    },
+    {
+      name: "Lovely Labrynth of the Silver Castle",
+      quantity: 1,
+    },
+    {
+      name: "Nibiru, the Primal Being",
+      quantity: 2,
+    },
+    {
+      name: "PSY-Frame Driver",
+      quantity: 1,
+    },
+    {
+      name: "PSY-Framegear Gamma",
+      quantity: 3,
+    },
+    {
+      name: "Pot of Extravagance",
+      quantity: 3,
+    },
+    {
+      name: "Pot of Prosperity",
+      quantity: 1,
+    },
+    {
+      name: "Big Welcome Labrynth",
+      quantity: 3,
+    },
+    {
+      name: "Destructive Daruma Karma Cannon",
+      quantity: 2,
+    },
+    {
+      name: "Dogmatika Punishment",
+      quantity: 2,
+    },
+    {
+      name: "Infinite Impermanence",
+      quantity: 3,
+    },
+    {
+      name: "Trap Trick",
+      quantity: 3,
+    },
+    {
+      name: "Welcome Labrynth",
+      quantity: 2,
+    }
+  ],
+    extraDeck: [
+    {
+      name: "Accel Synchro Stardust Dragon",
+      quantity: 1,
+    },
+    {
+      name: "Baronne de Fleur",
+      quantity: 1,
+    },
+    {
+      name: "Divine Arsenal AA-ZEUS - Sky Thunder",
+      quantity: 1,
+    },
+    {
+      name: "Elder Entity N'tss",
+      quantity: 3,
+    },
+    {
+      name: "Garura, Wings of Resonant Life",
+      quantity: 2,
+    },
+    {
+      name: "Kashtira Arise-Heart",
+      quantity: 1,
+    },
+    {
+      name: "Knightmare Cerberus",
+      quantity: 1,
+    },
+    {
+      name: "Muckraker From the Underworld",
+      quantity: 2,
+    },
+    {
+      name: "PSY-Framelord Omega",
+      quantity: 1,
+    },
+    {
+      name: "Tri-Brigade Arms Bucephalus II",
+      quantity: 2,
+    }
+  ],
+    sideDeck: [
+    {
+      name: "Dimension Shifter",
+      quantity: 3,
+    },
+    {
+      name: "Dinowrestler Pankratops",
+      quantity: 1,
+    },
+    {
+      name: "Ghost Mourner & Moonlit Chill",
+      quantity: 1,
+    },
+    {
+      name: "Ghost Ogre & Snow Rabbit",
+      quantity: 1,
+    },
+    {
+      name: "Kashtira Fenrir",
+      quantity: 2,
+    },
+    {
+      name: "Labrynth Cooclock",
+      quantity: 1,
+    },
+    {
+      name: "Labrynth Stovie Torbie",
+      quantity: 1,
+    },
+    {
+      name: "Dimensional Barrier",
+      quantity: 1,
+    },
+    {
+      name: "Eradicator Epidemic Virus",
+      quantity: 2,
+    },
+    {
+      name: "Full Force Virus",
+      quantity: 2,
+    }
+  ],
   }
 ];

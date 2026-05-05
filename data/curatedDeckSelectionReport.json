@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-05T08:45:36.464Z",
+  "generatedAt": "2026-05-05T09:01:59.518Z",
   "maxDecksPerYear": 5,
-  "importedDeckCount": 91,
-  "selectedDeckCount": 77,
+  "importedDeckCount": 102,
+  "selectedDeckCount": 87,
   "yearCount": 20,
   "years": [
     {
@@ -1134,8 +1134,8 @@
     },
     {
       "year": 2017,
-      "importedDeckCount": 2,
-      "selectedDeckCount": 2,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
       "skippedDeckCount": 0,
       "selectedDecks": [
         {
@@ -1158,6 +1158,25 @@
           "deckTypeKey": "magician"
         },
         {
+          "id": "spyral-2017",
+          "name": "SPYRAL 2017",
+          "year": 2017,
+          "deckType": "SPYRAL",
+          "player": "Michael Duke",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017",
+            "player": "Michael Duke",
+            "deckType": "SPYRAL",
+            "url": "https://www.yugiohtopdecks.org/deck/5875"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "spyral"
+        },
+        {
           "id": "zoodiac-2017",
           "name": "Zoodiac 2017",
           "year": 2017,
@@ -1175,15 +1194,53 @@
           "totalCount": 60,
           "qualitySeverity": "ok",
           "deckTypeKey": "zoodiac"
+        },
+        {
+          "id": "kaiju-2017",
+          "name": "Kaiju 2017",
+          "year": 2017,
+          "deckType": "Kaiju",
+          "player": "Michael Duke",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017",
+            "player": "Michael Duke",
+            "deckType": "Kaiju",
+            "url": "https://www.yugiohtopdecks.org/deck/5883"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 14,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "kaiju"
+        },
+        {
+          "id": "synchro-2017",
+          "name": "Synchro 2017",
+          "year": 2017,
+          "deckType": "Synchro",
+          "player": "Duelist Unknown",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017",
+            "player": "Duelist Unknown",
+            "deckType": "Synchro",
+            "url": "https://www.yugiohtopdecks.org/deck/5839"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "synchro"
         }
       ],
       "skippedDecks": []
     },
     {
       "year": 2018,
-      "importedDeckCount": 3,
-      "selectedDeckCount": 3,
-      "skippedDeckCount": 0,
+      "importedDeckCount": 6,
+      "selectedDeckCount": 5,
+      "skippedDeckCount": 1,
       "selectedDecks": [
         {
           "id": "hunder-2018",
@@ -1203,6 +1260,25 @@
           "totalCount": 70,
           "qualitySeverity": "ok",
           "deckTypeKey": "hunder"
+        },
+        {
+          "id": "sky-striker-2018",
+          "name": "Sky Striker 2018",
+          "year": 2018,
+          "deckType": "Sky Striker",
+          "player": "Jakob Heher",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018",
+            "player": "Jakob Heher",
+            "deckType": "Sky Striker",
+            "url": "https://www.yugiohtopdecks.org/deck/7269"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "sky striker"
         },
         {
           "id": "thunder-2018",
@@ -1241,9 +1317,35 @@
           "totalCount": 55,
           "qualitySeverity": "ok",
           "deckTypeKey": "dragon"
+        },
+        {
+          "id": "ghostrick-2018",
+          "name": "Ghostrick 2018",
+          "year": 2018,
+          "deckType": "Ghostrick",
+          "player": "Koty Angeloff",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018",
+            "player": "Koty Angeloff",
+            "deckType": "Ghostrick",
+            "url": "https://www.yugiohtopdecks.org/deck/7274"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "ghostrick"
         }
       ],
-      "skippedDecks": []
+      "skippedDecks": [
+        {
+          "id": "knightmare-2018",
+          "name": "Knightmare 2018",
+          "deckTypeKey": "knightmare",
+          "reason": "Year already has 5 selected decks."
+        }
+      ]
     },
     {
       "year": 2019,
@@ -1579,8 +1681,8 @@
     },
     {
       "year": 2022,
-      "importedDeckCount": 3,
-      "selectedDeckCount": 3,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
       "skippedDeckCount": 0,
       "selectedDecks": [
         {
@@ -1622,6 +1724,25 @@
           "deckTypeKey": "floowandereeze"
         },
         {
+          "id": "eldlich-2022",
+          "name": "Eldlich 2022",
+          "year": 2022,
+          "deckType": "Eldlich",
+          "player": "Indi Watts",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022",
+            "player": "Indi Watts",
+            "deckType": "Eldlich",
+            "url": "https://www.yugiohtopdecks.org/deck/9141"
+          },
+          "mainDeckCount": 45,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 75,
+          "qualitySeverity": "info",
+          "deckTypeKey": "eldlich"
+        },
+        {
           "id": "runick-2022",
           "name": "Runick 2022",
           "year": 2022,
@@ -1639,14 +1760,33 @@
           "totalCount": 73,
           "qualitySeverity": "info",
           "deckTypeKey": "runick"
+        },
+        {
+          "id": "synchro-2022",
+          "name": "Synchro 2022",
+          "year": 2022,
+          "deckType": "Synchro",
+          "player": "Jordan Couture",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022",
+            "player": "Jordan Couture",
+            "deckType": "Synchro",
+            "url": "https://www.yugiohtopdecks.org/deck/9166"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "synchro"
         }
       ],
       "skippedDecks": []
     },
     {
       "year": 2023,
-      "importedDeckCount": 3,
-      "selectedDeckCount": 3,
+      "importedDeckCount": 5,
+      "selectedDeckCount": 5,
       "skippedDeckCount": 0,
       "selectedDecks": [
         {
@@ -1688,6 +1828,25 @@
           "deckTypeKey": "labrynth"
         },
         {
+          "id": "purrely-2023",
+          "name": "Purrely 2023",
+          "year": 2023,
+          "deckType": "Purrely",
+          "player": "Timoti Baggio",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023",
+            "player": "Timoti Baggio",
+            "deckType": "Purrely",
+            "url": "https://www.yugiohtopdecks.org/deck/9584"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "purrely"
+        },
+        {
           "id": "blue-eyes-2023",
           "name": "Blue-Eyes 2023",
           "year": 2023,
@@ -1705,16 +1864,54 @@
           "totalCount": 72,
           "qualitySeverity": "info",
           "deckTypeKey": "blue eyes"
+        },
+        {
+          "id": "purely-2023",
+          "name": "Purely 2023",
+          "year": 2023,
+          "deckType": "Purely",
+          "player": "Will Morrison",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023",
+            "player": "Will Morrison",
+            "deckType": "Purely",
+            "url": "https://www.yugiohtopdecks.org/deck/9565"
+          },
+          "mainDeckCount": 40,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 70,
+          "qualitySeverity": "info",
+          "deckTypeKey": "purely"
         }
       ],
       "skippedDecks": []
     },
     {
       "year": 2024,
-      "importedDeckCount": 1,
-      "selectedDeckCount": 1,
+      "importedDeckCount": 2,
+      "selectedDeckCount": 2,
       "skippedDeckCount": 0,
       "selectedDecks": [
+        {
+          "id": "labrynth-2024",
+          "name": "Labrynth 2024",
+          "year": 2024,
+          "deckType": "Labrynth",
+          "player": "Pedro Dratwa",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023",
+            "player": "Pedro Dratwa",
+            "deckType": "Labrynth",
+            "url": "https://www.yugiohtopdecks.org/deck/9611"
+          },
+          "mainDeckCount": 41,
+          "extraDeckCount": 15,
+          "sideDeckCount": 15,
+          "totalCount": 71,
+          "qualitySeverity": "ok",
+          "deckTypeKey": "labrynth"
+        },
         {
           "id": "dragon-2024",
           "name": "Dragon 2024",

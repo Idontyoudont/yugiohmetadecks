@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-05T08:51:38.404Z",
+  "generatedAt": "2026-05-05T09:01:14.836Z",
   "inputFile": "data/deckImportCollection.txt",
-  "importedDeckCount": 101,
+  "importedDeckCount": 102,
   "importerWarningCount": 0,
-  "cleanDeckCount": 78,
+  "cleanDeckCount": 79,
   "issueDeckCount": 23,
   "errorDeckCount": 0,
   "warningDeckCount": 0,
@@ -2534,6 +2534,25 @@
         "year": 2023,
         "targetName": "Purrely",
         "normalizedTargetName": "purrely"
+      }
+    },
+    {
+      "id": "labrynth-2024",
+      "name": "Labrynth 2024",
+      "year": 2024,
+      "source": {
+        "label": "Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023",
+        "player": "Pedro Dratwa",
+        "deckType": "Labrynth",
+        "url": "https://www.yugiohtopdecks.org/deck/9611"
+      },
+      "mainDeckCount": 41,
+      "extraDeckCount": 15,
+      "sideDeckCount": 15,
+      "matchingTarget": {
+        "year": 2024,
+        "targetName": "Labrynth",
+        "normalizedTargetName": "labrynth"
       }
     }
   ]
