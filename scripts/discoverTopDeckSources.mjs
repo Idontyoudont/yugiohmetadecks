@@ -25,6 +25,8 @@ const discoveryReportFilePath = path.join(
 );
 
 const DEFAULT_MAX_PAGES = 461;
+const DEFAULT_START_PAGE = 1;
+const DEFAULT_PAGE_LIMIT = 75;
 const DEFAULT_MAX_SOURCES = 50;
 const DEFAULT_CANDIDATES_PER_MISSING_SLOT = 5;
 
@@ -416,6 +418,9 @@ function getYearBudget(year, options) {
 
 async function main() {
   const maxPages = getNumberArg("max-pages", DEFAULT_MAX_PAGES);
+  const startPage = getNumberArg("start-page", DEFAULT_START_PAGE);
+  const pageLimit = getNumberArg("page-limit", DEFAULT_PAGE_LIMIT);
+  const endPage = Math.min(maxPages, startPage + pageLimit - 1);
   const maxSources = getNumberArg("max-sources", DEFAULT_MAX_SOURCES);
   const candidatesPerMissingSlot = getNumberArg(
     "candidates-per-missing-slot",
@@ -450,7 +455,10 @@ async function main() {
   console.log("Discovering Yu-Gi-Oh! Top Decks sources");
   console.log("----------------------------------------");
   console.log(`Queue targets available: ${queueItems.length}`);
-  console.log(`Max pages to scan: ${maxPages}`);
+  console.log(`Max archive pages: ${maxPages}`);
+  console.log(`Start page: ${startPage}`);
+  console.log(`Page limit: ${pageLimit}`);
+  console.log(`End page: ${endPage}`);
   console.log(`Max sources to add: ${maxSources}`);
   console.log(`Only underfilled years: ${onlyUnderfilledYears ? "yes" : "no"}`);
 
@@ -462,12 +470,14 @@ async function main() {
       .sort(([yearA], [yearB]) => yearA - yearB)
       .forEach(([year, missingDeckCount]) => {
         console.log(
-          `- ${year}: missing ${missingDeckCount}, source budget ${missingDeckCount * candidatesPerMissingSlot}`
+          `- ${year}: missing ${missingDeckCount}, source budget ${
+            missingDeckCount * candidatesPerMissingSlot
+          }`
         );
       });
   }
 
-  for (let page = 1; page <= maxPages; page += 1) {
+  for (let page = startPage; page <= endPage; page += 1) {
     if (discoveredSources.length >= maxSources) {
       break;
     }
@@ -477,7 +487,7 @@ async function main() {
         ? "https://www.yugiohtopdecks.org/decks/search"
         : `https://www.yugiohtopdecks.org/decks/search?page=${page}`;
 
-    console.log(`Scanning page ${page}/${maxPages}...`);
+    console.log(`Scanning page ${page}/${endPage}...`);
 
     try {
       const response = await fetchText(url);
@@ -585,6 +595,9 @@ async function main() {
   const discoveryReport = {
     generatedAt: new Date().toISOString(),
     maxPages,
+    startPage,
+    pageLimit,
+    endPage,
     maxSources,
     onlyUnderfilledYears,
     candidatesPerMissingSlot,
