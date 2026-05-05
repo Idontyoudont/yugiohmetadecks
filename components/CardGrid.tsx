@@ -5,6 +5,10 @@ import {
   fetchCardDetails,
   getCachedCardDetails,
 } from "../lib/fetchCardDetails";
+import {
+  getCardAvailabilityBadgeClassName,
+  getCardAvailabilityLabel,
+} from "../lib/cardAvailability";
 import type { EnrichedDeckCard } from "../types/deck";
 
 type CardGridProps = {
@@ -15,30 +19,9 @@ type CardGridProps = {
 };
 
 function getSourceBadge(card: EnrichedDeckCard) {
-  if (!card.gameSourceInfo) {
-    return {
-      label: "Missing source",
-      className: "bg-slate-700 text-slate-300",
-    };
-  }
-
-  if (card.gameSourceInfo.status === "available") {
-    return {
-      label: "Available",
-      className: "bg-emerald-500/20 text-emerald-300",
-    };
-  }
-
-  if (card.gameSourceInfo.status === "not-in-game") {
-    return {
-      label: "Not in game",
-      className: "bg-amber-500/20 text-amber-300",
-    };
-  }
-
   return {
-    label: "Unknown",
-    className: "bg-slate-700 text-slate-300",
+    label: getCardAvailabilityLabel(card),
+    className: getCardAvailabilityBadgeClassName(card),
   };
 }
 

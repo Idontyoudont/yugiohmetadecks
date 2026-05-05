@@ -1,9 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { deckVariants } from "../data/deckVariants";
+import { deckVariants as manualDeckVariants } from "../data/deckVariants";
 import { applyDeckVariant } from "../lib/applyDeckVariant";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
+import { generateSwitchDeckVariant } from "../lib/generateSwitchDeckVariant";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
 import { CardSearch } from "./CardSearch";
@@ -17,7 +18,12 @@ import { DeckValidation } from "./DeckValidation";
 import { DeckVariantChanges } from "./DeckVariantChanges";
 import { DeckVariantSelector } from "./DeckVariantSelector";
 import { MissingSourceChecklist } from "./MissingSourceChecklist";
-import type { CardGameSourceInfo, Deck, EnrichedDeckCard } from "../types/deck";
+import type {
+  CardGameSourceInfo,
+  Deck,
+  DeckVariant,
+  EnrichedDeckCard,
+} from "../types/deck";
 
 type DeckViewerProps = {
   decks: Deck[];
@@ -105,6 +111,22 @@ function getYearCounts(decks: Deck[], showSampleDecks: boolean) {
   }, {});
 }
 
+function getDeckVariants(deck: Deck) {
+  const manualVariantsForDeck = manualDeckVariants.filter(
+    (variant) => variant.deckId === deck.id
+  );
+
+  const automaticSwitchVariant = generateSwitchDeckVariant(deck);
+
+  const variants: DeckVariant[] = [...manualVariantsForDeck];
+
+  if (automaticSwitchVariant) {
+    variants.push(automaticSwitchVariant);
+  }
+
+  return variants;
+}
+
 function DeckSourceBox({ deck }: { deck: Deck }) {
   if (!deck.source) {
     return null;
@@ -175,6 +197,7 @@ function DeckSourceBox({ deck }: { deck: Deck }) {
 export function DeckViewer({ decks }: DeckViewerProps) {
   const [showSampleDecks, setShowSampleDecks] = useState(false);
   const [selectedYear, setSelectedYear] = useState<YearFilter>("all");
+  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
   const yearCounts = useMemo(
     () => getYearCounts(decks, showSampleDecks),
@@ -213,8 +236,9 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const selectedDeck =
     visibleDecks.find((deck) => deck.id === selectedDeckId) ?? fallbackDeck;
 
-  const availableVariants = deckVariants.filter(
-    (variant) => variant.deckId === selectedDeck.id
+  const availableVariants = useMemo(
+    () => getDeckVariants(selectedDeck),
+    [selectedDeck]
   );
 
   const selectedVariant =
@@ -346,35 +370,73 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedCard(card);
   }
 
-  return (
-    <div className="flex min-h-screen bg-slate-950 text-slate-100">
-      <DeckSidebar
-        decks={visibleDecks}
-        selectedDeck={selectedDeck}
-        showSampleDecks={showSampleDecks}
-        sampleDeckCount={sampleDeckCount}
-        selectedYear={selectedYear}
-        availableYears={availableYears}
-        yearCounts={yearCounts}
-        onSelectYear={handleSelectYear}
-        onToggleShowSampleDecks={handleToggleShowSampleDecks}
-        onSelectDeck={handleSelectDeck}
-      />
+  const sidebarProps = {
+    decks: visibleDecks,
+    selectedDeck,
+    showSampleDecks,
+    sampleDeckCount,
+    selectedYear,
+    availableYears,
+    yearCounts,
+    onSelectYear: handleSelectYear,
+    onToggleShowSampleDecks: handleToggleShowSampleDecks,
+    onSelectDeck: handleSelectDeck,
+  };
 
-      <main className="min-h-screen flex-1 bg-slate-950 p-8">
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-100 lg:flex">
+      <div className="hidden lg:block">
+        <DeckSidebar {...sidebarProps} />
+      </div>
+
+      {isMobileSidebarOpen ? (
+        <div className="fixed inset-0 z-50 lg:hidden">
+          <button
+            aria-label="Close deck menu"
+            onClick={() => setIsMobileSidebarOpen(false)}
+            className="absolute inset-0 h-full w-full bg-black/70"
+          />
+          <div className="absolute left-0 top-0 h-full max-w-[85vw] shadow-2xl">
+            <DeckSidebar
+              {...sidebarProps}
+              onRequestClose={() => setIsMobileSidebarOpen(false)}
+            />
+          </div>
+        </div>
+      ) : null}
+
+      <main className="min-h-screen flex-1 bg-slate-950 p-4 sm:p-6 lg:p-8">
+        <div className="mb-4 flex items-center justify-between gap-3 lg:hidden">
+          <button
+            onClick={() => setIsMobileSidebarOpen(true)}
+            className="rounded-xl bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-400"
+          >
+            Decks
+          </button>
+
+          <div className="min-w-0 text-right">
+            <p className="truncate text-sm font-semibold text-white">
+              {selectedDeck.name}
+            </p>
+            <p className="text-xs text-slate-500">
+              {selectedDeck.year} · {selectedDeck.format}
+            </p>
+          </div>
+        </div>
+
         <CardSearch
           decks={visibleDecks}
           onPreviewCard={handlePreviewCard}
           onSelectDeck={handleSelectDeck}
         />
 
-        <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-8">
+        <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6 lg:p-8">
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
             Selected deck
           </p>
 
           <div className="mt-3 flex flex-wrap items-center gap-3">
-            <h2 className="text-4xl font-bold text-white">
+            <h2 className="text-3xl font-bold text-white sm:text-4xl">
               {selectedDeck.name}
             </h2>
 

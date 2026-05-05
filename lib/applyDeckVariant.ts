@@ -9,6 +9,32 @@ function normalizeCardName(name: string) {
     .trim();
 }
 
+function mergeTags(...tagGroups: Array<string[] | undefined>) {
+  return Array.from(new Set(tagGroups.flatMap((tags) => tags ?? []))).sort();
+}
+
+function mergeDuplicateCards(cards: DeckCard[]) {
+  const cardsByName = new Map<string, DeckCard>();
+
+  cards.forEach((card) => {
+    const key = normalizeCardName(card.name);
+    const existingCard = cardsByName.get(key);
+
+    if (!existingCard) {
+      cardsByName.set(key, {
+        ...card,
+        tags: card.tags ? [...card.tags] : undefined,
+      });
+      return;
+    }
+
+    existingCard.quantity += card.quantity;
+    existingCard.tags = mergeTags(existingCard.tags, card.tags);
+  });
+
+  return Array.from(cardsByName.values());
+}
+
 function applyReplacementsToCards(
   cards: DeckCard[],
   variant: DeckVariant | null
@@ -17,7 +43,7 @@ function applyReplacementsToCards(
     return cards;
   }
 
-  return cards.map((card) => {
+  const replacedCards = cards.map((card) => {
     const replacement = variant.replacements.find(
       (item) => normalizeCardName(item.from) === normalizeCardName(card.name)
     );
@@ -26,8 +52,14 @@ function applyReplacementsToCards(
       return card;
     }
 
-    return replacement.to;
+    return {
+      ...replacement.to,
+      quantity: card.quantity,
+      tags: mergeTags(replacement.to.tags, ["replacement"]),
+    };
   });
+
+  return mergeDuplicateCards(replacedCards);
 }
 
 export function applyDeckVariant(deck: Deck, variant: DeckVariant | null) {
