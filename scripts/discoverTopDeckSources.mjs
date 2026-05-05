@@ -24,6 +24,12 @@ const discoveryReportFilePath = path.join(
   "topDeckSourceDiscoveryReport.json"
 );
 
+const scannedPagesFilePath = path.join(
+  projectRoot,
+  "data",
+  "topDeckSourceScannedPages.json"
+);
+
 const DEFAULT_MAX_PAGES = 461;
 const DEFAULT_START_PAGE = 1;
 const DEFAULT_PAGE_LIMIT = 75;
@@ -180,6 +186,64 @@ function selectQueueItems(queue, options) {
 
     return options.underfilledYearMap.has(item.year);
   });
+}
+
+function getScannedPagesState(resetScanHistory) {
+  if (resetScanHistory) {
+    return {
+      generatedAt: new Date().toISOString(),
+      scannedPages: [],
+      runs: [],
+    };
+  }
+
+  return readJsonFile(scannedPagesFilePath, {
+    generatedAt: new Date().toISOString(),
+    scannedPages: [],
+    runs: [],
+  });
+}
+
+function getScannedPageSet(scannedPagesState) {
+  return new Set((scannedPagesState.scannedPages ?? []).map(Number));
+}
+
+function buildPagesToScan({
+  maxPages,
+  startPage,
+  pageLimit,
+  resume,
+  scannedPageSet,
+}) {
+  const pages = [];
+
+  for (let page = startPage; page <= maxPages; page += 1) {
+    if (resume && scannedPageSet.has(page)) {
+      continue;
+    }
+
+    pages.push(page);
+
+    if (pages.length >= pageLimit) {
+      break;
+    }
+  }
+
+  return pages;
+}
+
+function updateScannedPagesState(scannedPagesState, runSummary) {
+  const scannedPages = new Set((scannedPagesState.scannedPages ?? []).map(Number));
+
+  runSummary.scannedPages.forEach((page) => {
+    scannedPages.add(page);
+  });
+
+  return {
+    generatedAt: new Date().toISOString(),
+    scannedPages: Array.from(scannedPages).sort((a, b) => a - b),
+    runs: [...(scannedPagesState.runs ?? []), runSummary],
+  };
 }
 
 async function fetchText(url) {
@@ -420,19 +484,30 @@ async function main() {
   const maxPages = getNumberArg("max-pages", DEFAULT_MAX_PAGES);
   const startPage = getNumberArg("start-page", DEFAULT_START_PAGE);
   const pageLimit = getNumberArg("page-limit", DEFAULT_PAGE_LIMIT);
-  const endPage = Math.min(maxPages, startPage + pageLimit - 1);
   const maxSources = getNumberArg("max-sources", DEFAULT_MAX_SOURCES);
   const candidatesPerMissingSlot = getNumberArg(
     "candidates-per-missing-slot",
     DEFAULT_CANDIDATES_PER_MISSING_SLOT
   );
   const onlyUnderfilledYears = hasFlag("only-underfilled-years");
+  const resume = hasFlag("resume");
+  const resetScanHistory = hasFlag("reset-scan-history");
 
   const queue = readJsonFile(researchQueueFilePath, []);
   const registry = readJsonFile(registryFilePath, { sources: [] });
   const intake = readJsonFile(intakeFilePath, { sources: [] });
   const curatedYearCoverageReport = readJsonFile(curatedYearCoverageFilePath, {
     years: [],
+  });
+  const scannedPagesState = getScannedPagesState(resetScanHistory);
+  const scannedPageSet = getScannedPageSet(scannedPagesState);
+
+  const pagesToScan = buildPagesToScan({
+    maxPages,
+    startPage,
+    pageLimit,
+    resume,
+    scannedPageSet,
   });
 
   const underfilledYearMap = getUnderfilledYearMap(curatedYearCoverageReport);
@@ -450,6 +525,7 @@ async function main() {
   const discoveredSources = [];
   const pageReports = [];
   const discoveredCountByYear = new Map();
+  const successfullyScannedPages = [];
 
   console.log("");
   console.log("Discovering Yu-Gi-Oh! Top Decks sources");
@@ -458,9 +534,18 @@ async function main() {
   console.log(`Max archive pages: ${maxPages}`);
   console.log(`Start page: ${startPage}`);
   console.log(`Page limit: ${pageLimit}`);
-  console.log(`End page: ${endPage}`);
+  console.log(`Resume: ${resume ? "yes" : "no"}`);
+  console.log(`Reset scan history: ${resetScanHistory ? "yes" : "no"}`);
+  console.log(`Already scanned pages: ${scannedPageSet.size}`);
+  console.log(`Pages selected for this run: ${pagesToScan.length}`);
   console.log(`Max sources to add: ${maxSources}`);
   console.log(`Only underfilled years: ${onlyUnderfilledYears ? "yes" : "no"}`);
+
+  if (pagesToScan.length > 0) {
+    console.log(
+      `Page window: ${pagesToScan[0]}-${pagesToScan[pagesToScan.length - 1]}`
+    );
+  }
 
   if (onlyUnderfilledYears) {
     console.log(`Candidates per missing slot: ${candidatesPerMissingSlot}`);
@@ -477,7 +562,7 @@ async function main() {
       });
   }
 
-  for (let page = startPage; page <= endPage; page += 1) {
+  for (const page of pagesToScan) {
     if (discoveredSources.length >= maxSources) {
       break;
     }
@@ -487,7 +572,7 @@ async function main() {
         ? "https://www.yugiohtopdecks.org/decks/search"
         : `https://www.yugiohtopdecks.org/decks/search?page=${page}`;
 
-    console.log(`Scanning page ${page}/${endPage}...`);
+    console.log(`Scanning page ${page}...`);
 
     try {
       const response = await fetchText(url);
@@ -505,6 +590,8 @@ async function main() {
         });
         continue;
       }
+
+      successfullyScannedPages.push(page);
 
       const rows = extractDeckRows(response.text);
       const relevantRows = [];
@@ -592,12 +679,38 @@ async function main() {
 
   writeJsonFile(intakeFilePath, updatedIntake);
 
+  const runSummary = {
+    ranAt: new Date().toISOString(),
+    maxPages,
+    startPage,
+    pageLimit,
+    resume,
+    resetScanHistory,
+    onlyUnderfilledYears,
+    candidatesPerMissingSlot,
+    maxSources,
+    requestedPages: pagesToScan,
+    scannedPages: successfullyScannedPages,
+    discoveredSourceCount: discoveredSources.length,
+  };
+
+  const updatedScannedPagesState = updateScannedPagesState(
+    scannedPagesState,
+    runSummary
+  );
+
+  writeJsonFile(scannedPagesFilePath, updatedScannedPagesState);
+
   const discoveryReport = {
     generatedAt: new Date().toISOString(),
     maxPages,
     startPage,
     pageLimit,
-    endPage,
+    resume,
+    resetScanHistory,
+    pagesSelectedForRun: pagesToScan.length,
+    successfullyScannedPages,
+    totalScannedPagesAfterRun: updatedScannedPagesState.scannedPages.length,
     maxSources,
     onlyUnderfilledYears,
     candidatesPerMissingSlot,
@@ -620,6 +733,10 @@ async function main() {
   console.log("Top Deck source discovery report");
   console.log("--------------------------------");
   console.log(`Discovered sources added to intake: ${discoveredSources.length}`);
+  console.log(`Successfully scanned pages: ${successfullyScannedPages.length}`);
+  console.log(
+    `Total scanned pages remembered: ${updatedScannedPagesState.scannedPages.length}`
+  );
 
   discoveredSources.forEach((source) => {
     console.log(`- ${source.year} ${source.target}: ${source.label}`);
@@ -629,6 +746,7 @@ async function main() {
   console.log("Updated:");
   console.log("data/deckSourceIntake.json");
   console.log("data/topDeckSourceDiscoveryReport.json");
+  console.log("data/topDeckSourceScannedPages.json");
 
   console.log("");
   console.log("Next:");
