@@ -10,8 +10,13 @@ const researchQueueFilePath = path.join(
 );
 
 const registryFilePath = path.join(projectRoot, "data", "deckSourceRegistry.json");
-
 const intakeFilePath = path.join(projectRoot, "data", "deckSourceIntake.json");
+
+const curatedYearCoverageFilePath = path.join(
+  projectRoot,
+  "data",
+  "curatedYearCoverageReport.json"
+);
 
 const discoveryReportFilePath = path.join(
   projectRoot,
@@ -21,6 +26,7 @@ const discoveryReportFilePath = path.join(
 
 const DEFAULT_MAX_PAGES = 461;
 const DEFAULT_MAX_SOURCES = 50;
+const DEFAULT_CANDIDATES_PER_MISSING_SLOT = 5;
 
 const targetAliases = {
   "performapal performage": ["performapal", "performage", "draco performapal"],
@@ -39,6 +45,10 @@ const targetAliases = {
   "thunder dragon": ["thunder dragon", "thunder"],
   "tenpai dragon": ["tenpai", "tenpai dragon"],
 };
+
+function hasFlag(name) {
+  return process.argv.includes(`--${name}`);
+}
 
 function getArgValue(name, fallback) {
   const arg = process.argv.find((item) => item.startsWith(`--${name}=`));
@@ -144,8 +154,30 @@ function getExistingDeckIds(registry, intake) {
   return ids;
 }
 
-function selectQueueItems(queue) {
-  return queue.filter((item) => item.populationStatus !== "imported");
+function getUnderfilledYearMap(curatedYearCoverageReport) {
+  const map = new Map();
+
+  (curatedYearCoverageReport.years ?? []).forEach((yearReport) => {
+    if (yearReport.missingDeckCount > 0) {
+      map.set(yearReport.year, yearReport.missingDeckCount);
+    }
+  });
+
+  return map;
+}
+
+function selectQueueItems(queue, options) {
+  return queue.filter((item) => {
+    if (item.populationStatus === "imported") {
+      return false;
+    }
+
+    if (!options.onlyUnderfilledYears) {
+      return true;
+    }
+
+    return options.underfilledYearMap.has(item.year);
+  });
 }
 
 async function fetchText(url) {
@@ -175,7 +207,9 @@ function extractRowsFromTableHtml(html) {
 
   while ((rowMatch = rowPattern.exec(html)) !== null) {
     const rowHtml = rowMatch[0];
-    const cellMatches = Array.from(rowHtml.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi));
+    const cellMatches = Array.from(
+      rowHtml.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)
+    );
 
     if (cellMatches.length === 0) {
       continue;
@@ -296,7 +330,10 @@ function scoreCandidate(queueItem, metadata) {
   targetTerms.forEach((term) => {
     if (normalizedArchetype === term) {
       score += 10;
-    } else if (normalizedArchetype.includes(term) || term.includes(normalizedArchetype)) {
+    } else if (
+      normalizedArchetype.includes(term) ||
+      term.includes(normalizedArchetype)
+    ) {
       score += 7;
     }
 
@@ -313,7 +350,10 @@ function scoreCandidate(queueItem, metadata) {
     score += 8;
   }
 
-  if (metadata.discoveredYear && Math.abs(metadata.discoveredYear - queueItem.year) === 1) {
+  if (
+    metadata.discoveredYear &&
+    Math.abs(metadata.discoveredYear - queueItem.year) === 1
+  ) {
     score += 2;
   }
 
@@ -364,20 +404,47 @@ function findBestTargetForRow(queueItems, metadata) {
   return scoredTargets[0] ?? null;
 }
 
+function getYearBudget(year, options) {
+  if (!options.onlyUnderfilledYears) {
+    return Infinity;
+  }
+
+  const missingDeckCount = options.underfilledYearMap.get(year) ?? 0;
+
+  return missingDeckCount * options.candidatesPerMissingSlot;
+}
+
 async function main() {
   const maxPages = getNumberArg("max-pages", DEFAULT_MAX_PAGES);
   const maxSources = getNumberArg("max-sources", DEFAULT_MAX_SOURCES);
+  const candidatesPerMissingSlot = getNumberArg(
+    "candidates-per-missing-slot",
+    DEFAULT_CANDIDATES_PER_MISSING_SLOT
+  );
+  const onlyUnderfilledYears = hasFlag("only-underfilled-years");
 
   const queue = readJsonFile(researchQueueFilePath, []);
   const registry = readJsonFile(registryFilePath, { sources: [] });
   const intake = readJsonFile(intakeFilePath, { sources: [] });
+  const curatedYearCoverageReport = readJsonFile(curatedYearCoverageFilePath, {
+    years: [],
+  });
 
-  const queueItems = selectQueueItems(queue);
+  const underfilledYearMap = getUnderfilledYearMap(curatedYearCoverageReport);
+
+  const options = {
+    onlyUnderfilledYears,
+    candidatesPerMissingSlot,
+    underfilledYearMap,
+  };
+
+  const queueItems = selectQueueItems(queue, options);
   const existingKeys = getExistingKeys(registry, intake);
   const existingDeckIds = getExistingDeckIds(registry, intake);
 
   const discoveredSources = [];
   const pageReports = [];
+  const discoveredCountByYear = new Map();
 
   console.log("");
   console.log("Discovering Yu-Gi-Oh! Top Decks sources");
@@ -385,6 +452,20 @@ async function main() {
   console.log(`Queue targets available: ${queueItems.length}`);
   console.log(`Max pages to scan: ${maxPages}`);
   console.log(`Max sources to add: ${maxSources}`);
+  console.log(`Only underfilled years: ${onlyUnderfilledYears ? "yes" : "no"}`);
+
+  if (onlyUnderfilledYears) {
+    console.log(`Candidates per missing slot: ${candidatesPerMissingSlot}`);
+    console.log("");
+    console.log("Underfilled year budgets:");
+    Array.from(underfilledYearMap.entries())
+      .sort(([yearA], [yearB]) => yearA - yearB)
+      .forEach(([year, missingDeckCount]) => {
+        console.log(
+          `- ${year}: missing ${missingDeckCount}, source budget ${missingDeckCount * candidatesPerMissingSlot}`
+        );
+      });
+  }
 
   for (let page = 1; page <= maxPages; page += 1) {
     if (discoveredSources.length >= maxSources) {
@@ -431,6 +512,10 @@ async function main() {
           continue;
         }
 
+        const targetYear = bestTarget.queueItem.year;
+        const yearBudget = getYearBudget(targetYear, options);
+        const discoveredForYear = discoveredCountByYear.get(targetYear) ?? 0;
+
         relevantRows.push({
           deckId: metadata.deckId,
           deckName: metadata.deckName,
@@ -439,10 +524,14 @@ async function main() {
           tournament: metadata.tournament,
           date: metadata.date,
           discoveredYear: metadata.discoveredYear,
-          targetYear: bestTarget.queueItem.year,
+          targetYear,
           targetName: bestTarget.queueItem.targetName,
           score: bestTarget.score,
         });
+
+        if (discoveredForYear >= yearBudget) {
+          continue;
+        }
 
         if (existingDeckIds.has(metadata.deckId)) {
           continue;
@@ -459,6 +548,7 @@ async function main() {
         existingDeckIds.add(metadata.deckId);
         discoveredSources.push(source);
         addedSources.push(source);
+        discoveredCountByYear.set(targetYear, discoveredForYear + 1);
       }
 
       pageReports.push({
@@ -496,6 +586,16 @@ async function main() {
     generatedAt: new Date().toISOString(),
     maxPages,
     maxSources,
+    onlyUnderfilledYears,
+    candidatesPerMissingSlot,
+    underfilledYears: Array.from(underfilledYearMap.entries()).map(
+      ([year, missingDeckCount]) => ({
+        year,
+        missingDeckCount,
+        sourceBudget: missingDeckCount * candidatesPerMissingSlot,
+        discoveredSourceCount: discoveredCountByYear.get(year) ?? 0,
+      })
+    ),
     discoveredSourceCount: discoveredSources.length,
     discoveredSources,
     pageReports,

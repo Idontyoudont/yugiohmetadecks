@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-05T08:10:14.895Z",
+  "generatedAt": "2026-05-05T08:26:27.680Z",
   "startYear": 2005,
   "endYear": 2025,
   "targetDecksPerYear": 5,
   "totalTargetDecks": 105,
-  "selectedDeckCount": 45,
-  "missingDeckCount": 60,
-  "completeYearCount": 5,
-  "partialYearCount": 9,
-  "emptyYearCount": 7,
+  "selectedDeckCount": 71,
+  "missingDeckCount": 34,
+  "completeYearCount": 7,
+  "partialYearCount": 13,
+  "emptyYearCount": 1,
   "years": [
     {
       "year": 2005,
@@ -34,8 +34,8 @@
     {
       "year": 2006,
       "targetDeckCount": 5,
-      "selectedDeckCount": 1,
-      "missingDeckCount": 4,
+      "selectedDeckCount": 3,
+      "missingDeckCount": 2,
       "status": "partial",
       "selectedDecks": [
         {
@@ -49,14 +49,38 @@
             "deckType": "Gadget",
             "url": "https://www.yugiohtopdecks.org/deck/43"
           }
+        },
+        {
+          "id": "monarch-2006",
+          "name": "Monarch 2006",
+          "deckType": "Monarch",
+          "player": "Lithium2300",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8686 - Konami - Remote Duel Invitational (Oct 2020) - Oct 2020",
+            "player": "Lithium2300",
+            "deckType": "Monarch",
+            "url": "https://www.yugiohtopdecks.org/deck/8686"
+          }
+        },
+        {
+          "id": "prime-monarch-2006",
+          "name": "Prime Monarch 2006",
+          "deckType": "Prime Monarch",
+          "player": "Jesse Jackson",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2577 - 2008 SJ Toronto (Jul 2008) - Jul 2008",
+            "player": "Jesse Jackson",
+            "deckType": "Prime Monarch",
+            "url": "https://www.yugiohtopdecks.org/deck/2577"
+          }
         }
       ]
     },
     {
       "year": 2007,
       "targetDeckCount": 5,
-      "selectedDeckCount": 2,
-      "missingDeckCount": 3,
+      "selectedDeckCount": 4,
+      "missingDeckCount": 1,
       "status": "partial",
       "selectedDecks": [
         {
@@ -69,6 +93,30 @@
             "player": "Christopher Gonzalez",
             "deckType": "Gadget",
             "url": "https://www.yugiohtopdecks.org/deck/483"
+          }
+        },
+        {
+          "id": "beast-2007",
+          "name": "Beast 2007",
+          "deckType": "Beast",
+          "player": "Nick Anctil",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8663 - Duelist Academy August Merch Tournament (Aug 2020) - Aug 2020",
+            "player": "Nick Anctil",
+            "deckType": "Beast",
+            "url": "https://www.yugiohtopdecks.org/deck/8663"
+          }
+        },
+        {
+          "id": "demise-otk-2007",
+          "name": "Demise OTK 2007",
+          "deckType": "Demise OTK",
+          "player": "Dan Bilbrey",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2866 - 2007 SJ Columbus (Mar 2007) - Mar 2007",
+            "player": "Dan Bilbrey",
+            "deckType": "Demise OTK",
+            "url": "https://www.yugiohtopdecks.org/deck/2866"
           }
         },
         {
@@ -88,10 +136,22 @@
     {
       "year": 2008,
       "targetDeckCount": 5,
-      "selectedDeckCount": 2,
-      "missingDeckCount": 3,
+      "selectedDeckCount": 4,
+      "missingDeckCount": 1,
       "status": "partial",
       "selectedDecks": [
+        {
+          "id": "synchro-2008",
+          "name": "Synchro 2008",
+          "deckType": "Synchro",
+          "player": "Torben Wahl",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5767 - YCS - Bochum Germany (Dec 2016) - Dec 2016",
+            "player": "Torben Wahl",
+            "deckType": "Synchro",
+            "url": "https://www.yugiohtopdecks.org/deck/5767"
+          }
+        },
         {
           "id": "beast-2008",
           "name": "Beast 2008",
@@ -102,6 +162,18 @@
             "player": "???",
             "deckType": "Beast",
             "url": "https://www.yugiohtopdecks.org/deck/1653"
+          }
+        },
+        {
+          "id": "gladiator-2008",
+          "name": "Gladiator 2008",
+          "deckType": "Gladiator",
+          "player": "Bruno Seixas",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 1181 - Regional - Lisbon Portugal (Mar 2014) - Mar 2014",
+            "player": "Bruno Seixas",
+            "deckType": "Gladiator",
+            "url": "https://www.yugiohtopdecks.org/deck/1181"
           }
         },
         {
@@ -580,8 +652,8 @@
     {
       "year": 2016,
       "targetDeckCount": 5,
-      "selectedDeckCount": 3,
-      "missingDeckCount": 2,
+      "selectedDeckCount": 4,
+      "missingDeckCount": 1,
       "status": "partial",
       "selectedDecks": [
         {
@@ -609,6 +681,18 @@
           }
         },
         {
+          "id": "kozmo-2016",
+          "name": "Kozmo 2016",
+          "deckType": "Kozmo",
+          "player": "Steve Gleason",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 4305 - UDS Invitational - Philadelphia (Aug 2015) - Aug 2015",
+            "player": "Steve Gleason",
+            "deckType": "Kozmo",
+            "url": "https://www.yugiohtopdecks.org/deck/4305"
+          }
+        },
+        {
           "id": "performapal-2016",
           "name": "Performapal 2016",
           "deckType": "Performapal",
@@ -625,8 +709,8 @@
     {
       "year": 2017,
       "targetDeckCount": 5,
-      "selectedDeckCount": 1,
-      "missingDeckCount": 4,
+      "selectedDeckCount": 2,
+      "missingDeckCount": 3,
       "status": "partial",
       "selectedDecks": [
         {
@@ -640,14 +724,26 @@
             "deckType": "Magician",
             "url": "https://www.yugiohtopdecks.org/deck/1362"
           }
+        },
+        {
+          "id": "zoodiac-2017",
+          "name": "Zoodiac 2017",
+          "deckType": "Zoodiac",
+          "player": "Emon Ghaneian",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 2835 - 2007 SJ Houston (Mar 2007) - Mar 2007",
+            "player": "Emon Ghaneian",
+            "deckType": "Zoodiac",
+            "url": "https://www.yugiohtopdecks.org/deck/2835"
+          }
         }
       ]
     },
     {
       "year": 2018,
       "targetDeckCount": 5,
-      "selectedDeckCount": 2,
-      "missingDeckCount": 3,
+      "selectedDeckCount": 3,
+      "missingDeckCount": 2,
       "status": "partial",
       "selectedDecks": [
         {
@@ -673,56 +769,278 @@
             "deckType": "Thunder",
             "url": "https://www.yugiohtopdecks.org/deck/1270"
           }
+        },
+        {
+          "id": "dragon-2018",
+          "name": "Dragon 2018",
+          "deckType": "Dragon",
+          "player": "Jan Oliver Gross",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 6307 - National Championship - Belgium (May 2017) - May 2017",
+            "player": "Jan Oliver Gross",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/6307"
+          }
         }
       ]
     },
     {
       "year": 2019,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 5,
+      "missingDeckCount": 0,
+      "status": "complete",
+      "selectedDecks": [
+        {
+          "id": "orcust-2019",
+          "name": "Orcust 2019",
+          "deckType": "Orcust",
+          "player": "Nick Mapes",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7607 - Regional - Omaha Nebraska (Feb 2019) - Feb 2019",
+            "player": "Nick Mapes",
+            "deckType": "Orcust",
+            "url": "https://www.yugiohtopdecks.org/deck/7607"
+          }
+        },
+        {
+          "id": "salamangreat-2019",
+          "name": "Salamangreat 2019",
+          "deckType": "Salamangreat",
+          "player": "Andres Torres",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7614 - Regional - Cali Colombia (Feb 2019) - Feb 2019",
+            "player": "Andres Torres",
+            "deckType": "Salamangreat",
+            "url": "https://www.yugiohtopdecks.org/deck/7614"
+          }
+        },
+        {
+          "id": "sky-striker-2019",
+          "name": "Sky Striker 2019",
+          "deckType": "Sky Striker",
+          "player": "Antony Urbano",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7580 - Regional - Lima Peru (Jan 2019) - Jan 2019",
+            "player": "Antony Urbano",
+            "deckType": "Sky Striker",
+            "url": "https://www.yugiohtopdecks.org/deck/7580"
+          }
+        },
+        {
+          "id": "subterror-2019",
+          "name": "Subterror 2019",
+          "deckType": "Subterror",
+          "player": "Mirko Conforti",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5542 - Local Legend Duelist Series September 2016 (Sep 2016) - Sep 2016",
+            "player": "Mirko Conforti",
+            "deckType": "Subterror",
+            "url": "https://www.yugiohtopdecks.org/deck/5542"
+          }
+        },
+        {
+          "id": "danger-2019",
+          "name": "Danger 2019",
+          "deckType": "Danger",
+          "player": "Ed Acepcion",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7603 - YCS - Chicago Illinois (Feb 2019) - Feb 2019",
+            "player": "Ed Acepcion",
+            "deckType": "Danger",
+            "url": "https://www.yugiohtopdecks.org/deck/7603"
+          }
+        }
+      ]
     },
     {
       "year": 2020,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 1,
+      "missingDeckCount": 4,
+      "status": "partial",
+      "selectedDecks": [
+        {
+          "id": "invoked-windwitch-2020",
+          "name": "Invoked Windwitch 2020",
+          "deckType": "Invoked Windwitch",
+          "player": "Ian Tezer",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 5996 - OTS Championships - United States (Mar 2017) - Mar 2017",
+            "player": "Ian Tezer",
+            "deckType": "Invoked Windwitch",
+            "url": "https://www.yugiohtopdecks.org/deck/5996"
+          }
+        }
+      ]
     },
     {
       "year": 2021,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 5,
+      "missingDeckCount": 0,
+      "status": "complete",
+      "selectedDecks": [
+        {
+          "id": "prank-kids-2021",
+          "name": "Prank-Kids 2021",
+          "deckType": "Prank-Kids",
+          "player": "Dinh-kha Bui",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 7538 - YCS - Milan Italy (Dec 2018) - Dec 2018",
+            "player": "Dinh-kha Bui",
+            "deckType": "Prank-Kids",
+            "url": "https://www.yugiohtopdecks.org/deck/7538"
+          }
+        },
+        {
+          "id": "dragon-2021",
+          "name": "Dragon 2021",
+          "deckType": "Dragon",
+          "player": "Gabriel Netz",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8741 - LCS X (Feb 2021) - Feb 2021",
+            "player": "Gabriel Netz",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/8741"
+          }
+        },
+        {
+          "id": "drytron-2021",
+          "name": "Drytron 2021",
+          "deckType": "Drytron",
+          "player": "Jesse Kotton",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8724 - LCS - IX (Dec 2020) - Dec 2020",
+            "player": "Jesse Kotton",
+            "deckType": "Drytron",
+            "url": "https://www.yugiohtopdecks.org/deck/8724"
+          }
+        },
+        {
+          "id": "tri-brigade-2021",
+          "name": "Tri-Brigade 2021",
+          "deckType": "Tri-Brigade",
+          "player": "Seto Merza",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8944 - Remote Duel Extravaganza (Feb 2021) - Feb 2021",
+            "player": "Seto Merza",
+            "deckType": "Tri-Brigade",
+            "url": "https://www.yugiohtopdecks.org/deck/8944"
+          }
+        },
+        {
+          "id": "virtual-2021",
+          "name": "Virtual 2021",
+          "deckType": "Virtual",
+          "player": "Ryan Sano",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8960 - RD Extravaganza - North America (Jan 2021) - Jan 2021",
+            "player": "Ryan Sano",
+            "deckType": "Virtual",
+            "url": "https://www.yugiohtopdecks.org/deck/8960"
+          }
+        }
+      ]
     },
     {
       "year": 2022,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 3,
+      "missingDeckCount": 2,
+      "status": "partial",
+      "selectedDecks": [
+        {
+          "id": "spright-2022",
+          "name": "Spright 2022",
+          "deckType": "Spright",
+          "player": "Chancy Wigglestove",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9112 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
+            "player": "Chancy Wigglestove",
+            "deckType": "Spright",
+            "url": "https://www.yugiohtopdecks.org/deck/9112"
+          }
+        },
+        {
+          "id": "floowandereeze-2022",
+          "name": "Floowandereeze 2022",
+          "deckType": "Floowandereeze",
+          "player": "Enzo Vicento",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8945 - WCQ - Dutch Nationals 2022 (Jun 2022) - Jun 2022",
+            "player": "Enzo Vicento",
+            "deckType": "Floowandereeze",
+            "url": "https://www.yugiohtopdecks.org/deck/8945"
+          }
+        },
+        {
+          "id": "runick-2022",
+          "name": "Runick 2022",
+          "deckType": "Runick",
+          "player": "Thanh Nguyen",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9109 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
+            "player": "Thanh Nguyen",
+            "deckType": "Runick",
+            "url": "https://www.yugiohtopdecks.org/deck/9109"
+          }
+        }
+      ]
     },
     {
       "year": 2023,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 2,
+      "missingDeckCount": 3,
+      "status": "partial",
+      "selectedDecks": [
+        {
+          "id": "mathmech-2023",
+          "name": "Mathmech 2023",
+          "deckType": "Mathmech",
+          "player": "Ivan Lester",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 8572 - Regional - Lenexa Kansas (Feb 2020) - Feb 2020",
+            "player": "Ivan Lester",
+            "deckType": "Mathmech",
+            "url": "https://www.yugiohtopdecks.org/deck/8572"
+          }
+        },
+        {
+          "id": "labrynth-2023",
+          "name": "Labrynth 2023",
+          "deckType": "Labrynth",
+          "player": "Herman Hansson",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 9443 - YCS - Lyon France (Feb 2023) - Feb 2023",
+            "player": "Herman Hansson",
+            "deckType": "Labrynth",
+            "url": "https://www.yugiohtopdecks.org/deck/9443"
+          }
+        }
+      ]
     },
     {
       "year": 2024,
       "targetDeckCount": 5,
-      "selectedDeckCount": 0,
-      "missingDeckCount": 5,
-      "status": "empty",
-      "selectedDecks": []
+      "selectedDeckCount": 1,
+      "missingDeckCount": 4,
+      "status": "partial",
+      "selectedDecks": [
+        {
+          "id": "dragon-2024",
+          "name": "Dragon 2024",
+          "deckType": "Dragon",
+          "player": "Miguel Vargas",
+          "source": {
+            "label": "Yu-Gi-Oh! Top Decks - deck 3850 - Guayaquil Ecuador Regional (Nov 2013) - Nov 2013",
+            "player": "Miguel Vargas",
+            "deckType": "Dragon",
+            "url": "https://www.yugiohtopdecks.org/deck/3850"
+          }
+        }
+      ]
     },
     {
       "year": 2025,
