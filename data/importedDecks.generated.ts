@@ -6,7 +6,7 @@ export const importedDecks: Deck[] = [
     name: "Monarch 2007",
     year: 2007,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks deck 2785",
       player: "Charley La",
@@ -433,7 +433,7 @@ export const importedDecks: Deck[] = [
     name: "Fire Fist 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks deck 1168",
       player: "Charlie Kip",
@@ -630,7 +630,7 @@ export const importedDecks: Deck[] = [
     name: "Burning Abyss 2015",
     year: 2015,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks deck 4319",
       player: "Calvin Tahan",
@@ -829,7 +829,7 @@ export const importedDecks: Deck[] = [
     name: "Nekroz 2015",
     year: 2015,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks deck 4520",
       player: "Ryan Levine",
@@ -1016,7 +1016,7 @@ export const importedDecks: Deck[] = [
     name: "Performapal 2016",
     year: 2016,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks deck 4843",
       player: "Rotorato Simone",
@@ -1206,7 +1206,7 @@ export const importedDecks: Deck[] = [
     name: "Chain Burn 2005",
     year: 2005,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
       player: "Bryant Tran",
@@ -1381,7 +1381,7 @@ export const importedDecks: Deck[] = [
     name: "Gadget 2006",
     year: 2006,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013",
       player: "Elijah Gersten",
@@ -1569,7 +1569,7 @@ export const importedDecks: Deck[] = [
     name: "Lightsworn 2008",
     year: 2008,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014",
       player: "Anthony Chiechi",
@@ -1717,7 +1717,7 @@ export const importedDecks: Deck[] = [
     name: "Frog 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
       player: "Jeremy Hayes",
@@ -1892,7 +1892,7 @@ export const importedDecks: Deck[] = [
     name: "Infernity 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
       player: "Chancy Wigglestove",
@@ -2076,7 +2076,7 @@ export const importedDecks: Deck[] = [
     name: "Agent 2011",
     year: 2011,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
       player: "Robert Jordan",
@@ -2290,7 +2290,7 @@ export const importedDecks: Deck[] = [
     name: "Six Samurai 2011",
     year: 2011,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
       player: "Kumar Dave",
@@ -2525,7 +2525,7 @@ export const importedDecks: Deck[] = [
     name: "Dino Rabbit 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
       player: "Isaac Canales",
@@ -2735,7 +2735,7 @@ export const importedDecks: Deck[] = [
     name: "Inzektor 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
       player: "Mikael Ibsen",
@@ -2943,7 +2943,7 @@ export const importedDecks: Deck[] = [
     name: "Wind-Up 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
       player: "Jeremy Thibeau",
@@ -3151,7 +3151,7 @@ export const importedDecks: Deck[] = [
     name: "Fire Fist 2013",
     year: 2013,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
       player: "Mike Steinman",
@@ -3344,7 +3344,7 @@ export const importedDecks: Deck[] = [
     name: "Mermail 2013",
     year: 2013,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
       player: "Steffon Bizzell",
@@ -3555,7 +3555,7 @@ export const importedDecks: Deck[] = [
     name: "Bujin 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014",
       player: "DJ Katter",
@@ -3765,7 +3765,7 @@ export const importedDecks: Deck[] = [
     name: "Mermail 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014",
       player: "Chrispother Quinones- Ortega",
@@ -3980,7 +3980,7 @@ export const importedDecks: Deck[] = [
     name: "Lightsworn 2009",
     year: 2009,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
       player: "Jake Maddox",
@@ -4205,7 +4205,7 @@ export const importedDecks: Deck[] = [
     name: "Monarch 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014",
       player: "Kevin J. Jiles",
@@ -4403,7 +4403,7 @@ export const importedDecks: Deck[] = [
     name: "Gravekeeper 2011",
     year: 2011,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
       player: "Bryant Grimminger",
@@ -4605,7 +4605,7 @@ export const importedDecks: Deck[] = [
     name: "Dragon 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
       player: "Chris Waters",
@@ -4836,7 +4836,7 @@ export const importedDecks: Deck[] = [
     name: "HERO 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
       player: "Cameron Macdonald",
@@ -5005,7 +5005,7 @@ export const importedDecks: Deck[] = [
     name: "Spellbook 2013",
     year: 2013,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
       player: "Travis Hilliard",
@@ -5218,7 +5218,7 @@ export const importedDecks: Deck[] = [
     name: "Geargia 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014",
       player: "David Knauff",
@@ -5439,7 +5439,7 @@ export const importedDecks: Deck[] = [
     name: "Karakuri 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014",
       player: "Mikhail Martinez",
@@ -5664,7 +5664,7 @@ export const importedDecks: Deck[] = [
     name: "Satellarknight 2015",
     year: 2015,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014",
       player: "Hector Candelaria",
@@ -5855,7 +5855,7 @@ export const importedDecks: Deck[] = [
     name: "Shaddoll 2015",
     year: 2015,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014",
       player: "Michael Glowacki",
@@ -6022,7 +6022,7 @@ export const importedDecks: Deck[] = [
     name: "Burning Abyss 2016",
     year: 2016,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014",
       player: "Scott Sheahan",
@@ -6225,7 +6225,7 @@ export const importedDecks: Deck[] = [
     name: "Hunder 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
       player: "Shane Loftis",
@@ -6412,7 +6412,7 @@ export const importedDecks: Deck[] = [
     name: "Gadget 2007",
     year: 2007,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
       player: "Christopher Gonzalez",
@@ -6622,7 +6622,7 @@ export const importedDecks: Deck[] = [
     name: "Plant 2011",
     year: 2011,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
       player: "Adam Hutchins",
@@ -6858,7 +6858,7 @@ export const importedDecks: Deck[] = [
     name: "Synchro 2011",
     year: 2011,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
       player: "Patrick Hoban",
@@ -7050,7 +7050,7 @@ export const importedDecks: Deck[] = [
     name: "Elemental 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013",
       player: "Justin Osbien Franklin",
@@ -7256,7 +7256,7 @@ export const importedDecks: Deck[] = [
     name: "Shaddoll 2014",
     year: 2014,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014",
       player: "Jonhathan Sebastian Vazquez Herrera",
@@ -7461,7 +7461,7 @@ export const importedDecks: Deck[] = [
     name: "Qliphort 2015",
     year: 2015,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
       player: "Oleksandr Atamanenko",
@@ -7610,7 +7610,7 @@ export const importedDecks: Deck[] = [
     name: "Beast 2008",
     year: 2008,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1653 - Regional - Seattle Washington (Jun 2013) - Jun 2013",
       player: "???",
@@ -7829,7 +7829,7 @@ export const importedDecks: Deck[] = [
     name: "Blackwing 2009",
     year: 2009,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2457 - 2009 SJ Orlando (Sep 2009) - Sep 2009",
       player: "Rodrigo Togores",
@@ -8024,7 +8024,7 @@ export const importedDecks: Deck[] = [
     name: "Beast 2009",
     year: 2009,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2354 - 2010 Championship Series - Indianapolis (Aug 2010) - Aug 2010",
       player: "Daniel LaMartina",
@@ -8254,7 +8254,7 @@ export const importedDecks: Deck[] = [
     name: "Twilight Dragon 2009",
     year: 2009,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1924 - 2012 YCS Toulouse (Apr 2012) - Apr 2012",
       player: "Peter Gross",
@@ -8449,7 +8449,7 @@ export const importedDecks: Deck[] = [
     name: "Blackwing 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1080 - Regional - Lenexa Kansas (May 2014) - May 2014",
       player: "Duelist Unknown",
@@ -8675,7 +8675,7 @@ export const importedDecks: Deck[] = [
     name: "X-Saber 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2285 - 2010 United States WCQ (Jul 2010) - Jul 2010",
       player: "Jay Hornung",
@@ -8872,7 +8872,7 @@ export const importedDecks: Deck[] = [
     name: "Lightsworn 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2307 - 2010 SJ Edison (Apr 2010) - Apr 2010",
       player: "Jarel Winston",
@@ -9090,7 +9090,7 @@ export const importedDecks: Deck[] = [
     name: "Junk 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2408 - 2010 Championship Series - Chicago (Jun 2010) - Jun 2010",
       player: "Ben Haynes",
@@ -9291,7 +9291,7 @@ export const importedDecks: Deck[] = [
     name: "Warrior 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2302 - 2010 SJ Edison (Apr 2010) - Apr 2010",
       player: "Jeff Jones",
@@ -9508,7 +9508,7 @@ export const importedDecks: Deck[] = [
     name: "Quickdraw Dandywarrior 2010",
     year: 2010,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2343 - 2010 Championship Series - Philadelphia (Oct 2010) - Oct 2010",
       player: "Kenny Kwan",
@@ -9737,7 +9737,7 @@ export const importedDecks: Deck[] = [
     name: "Chaos 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1370 - Regional - Columbus Ohio (Apr 2013) - Apr 2013",
       player: "Jeremy Ottery (sp?)",
@@ -9952,7 +9952,7 @@ export const importedDecks: Deck[] = [
     name: "Black 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1717 - National Championship - Argentina (Jun 2014) - Jun 2014",
       player: "Luciano Soto",
@@ -10187,7 +10187,7 @@ export const importedDecks: Deck[] = [
     name: "Djinn 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1759 - Mesa Arizona Regional Qualifier (Feb 2013) - Feb 2013",
       player: "Alec Beer",
@@ -10413,7 +10413,7 @@ export const importedDecks: Deck[] = [
     name: "Lightsworn 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1980 - 2012 YCS Seattle (Nov 2012) - Nov 2012",
       player: "Justin Delhon",
@@ -10638,7 +10638,7 @@ export const importedDecks: Deck[] = [
     name: "Blue-Eyes 2016",
     year: 2016,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1245 - Regional - Buenos Aires Argentina (Jan 2014) - Jan 2014",
       player: "Matias Lopez",
@@ -10870,7 +10870,7 @@ export const importedDecks: Deck[] = [
     name: "Magician 2017",
     year: 2017,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1362 - Regional - Brooklyn New York (Apr 2013) - Apr 2013",
       player: "Glang Nguyen",
@@ -11086,7 +11086,7 @@ export const importedDecks: Deck[] = [
     name: "Thunder 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1270 - Regional - Vina Del Mar Chile (Jan 2014) - Jan 2014",
       player: "Jose Castillo",
@@ -11274,7 +11274,7 @@ export const importedDecks: Deck[] = [
     name: "Prime Monarch 2006",
     year: 2006,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2577 - 2008 SJ Toronto (Jul 2008) - Jul 2008",
       player: "Jesse Jackson",
@@ -11421,7 +11421,7 @@ export const importedDecks: Deck[] = [
     name: "Monarch 2006",
     year: 2006,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8686 - Konami - Remote Duel Invitational (Oct 2020) - Oct 2020",
       player: "Lithium2300",
@@ -11543,7 +11543,7 @@ export const importedDecks: Deck[] = [
     name: "Beast 2007",
     year: 2007,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8663 - Duelist Academy August Merch Tournament (Aug 2020) - Aug 2020",
       player: "Nick Anctil",
@@ -11730,7 +11730,7 @@ export const importedDecks: Deck[] = [
     name: "Demise OTK 2007",
     year: 2007,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2866 - 2007 SJ Columbus (Mar 2007) - Mar 2007",
       player: "Dan Bilbrey",
@@ -11884,7 +11884,7 @@ export const importedDecks: Deck[] = [
     name: "Gladiator 2008",
     year: 2008,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 1181 - Regional - Lisbon Portugal (Mar 2014) - Mar 2014",
       player: "Bruno Seixas",
@@ -12090,7 +12090,7 @@ export const importedDecks: Deck[] = [
     name: "Synchro 2008",
     year: 2008,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5767 - YCS - Bochum Germany (Dec 2016) - Dec 2016",
       player: "Torben Wahl",
@@ -12280,7 +12280,7 @@ export const importedDecks: Deck[] = [
     name: "Beat 2012",
     year: 2012,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2757 - 2007 UK Nationals (Jun 2007) - Jun 2007",
       player: "James Pennicott",
@@ -12456,7 +12456,7 @@ export const importedDecks: Deck[] = [
     name: "Kozmo 2016",
     year: 2016,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 4305 - UDS Invitational - Philadelphia (Aug 2015) - Aug 2015",
       player: "Steve Gleason",
@@ -12650,7 +12650,7 @@ export const importedDecks: Deck[] = [
     name: "Zoodiac 2017",
     year: 2017,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 2835 - 2007 SJ Houston (Mar 2007) - Mar 2007",
       player: "Emon Ghaneian",
@@ -12829,7 +12829,7 @@ export const importedDecks: Deck[] = [
     name: "Dragon 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 6307 - National Championship - Belgium (May 2017) - May 2017",
       player: "Jan Oliver Gross",
@@ -12952,7 +12952,7 @@ export const importedDecks: Deck[] = [
     name: "Danger 2019",
     year: 2019,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7603 - YCS - Chicago Illinois (Feb 2019) - Feb 2019",
       player: "Ed Acepcion",
@@ -13143,7 +13143,7 @@ export const importedDecks: Deck[] = [
     name: "Orcust 2019",
     year: 2019,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7607 - Regional - Omaha Nebraska (Feb 2019) - Feb 2019",
       player: "Nick Mapes",
@@ -13338,7 +13338,7 @@ export const importedDecks: Deck[] = [
     name: "Salamangreat 2019",
     year: 2019,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7614 - Regional - Cali Colombia (Feb 2019) - Feb 2019",
       player: "Andres Torres",
@@ -13518,7 +13518,7 @@ export const importedDecks: Deck[] = [
     name: "Sky Striker 2019",
     year: 2019,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7580 - Regional - Lima Peru (Jan 2019) - Jan 2019",
       player: "Antony Urbano",
@@ -13692,7 +13692,7 @@ export const importedDecks: Deck[] = [
     name: "Subterror 2019",
     year: 2019,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5542 - Local Legend Duelist Series September 2016 (Sep 2016) - Sep 2016",
       player: "Mirko Conforti",
@@ -13875,7 +13875,7 @@ export const importedDecks: Deck[] = [
     name: "Invoked Windwitch 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5996 - OTS Championships - United States (Mar 2017) - Mar 2017",
       player: "Ian Tezer",
@@ -14064,7 +14064,7 @@ export const importedDecks: Deck[] = [
     name: "Dragon 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8741 - LCS X (Feb 2021) - Feb 2021",
       player: "Gabriel Netz",
@@ -14248,7 +14248,7 @@ export const importedDecks: Deck[] = [
     name: "Guardragon 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8974 - LCS - X (3x3) (Jan 2021) - Jan 2021",
       player: "Gabriel Netz",
@@ -14432,7 +14432,7 @@ export const importedDecks: Deck[] = [
     name: "Drytron 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8724 - LCS - IX (Dec 2020) - Dec 2020",
       player: "Jesse Kotton",
@@ -14619,7 +14619,7 @@ export const importedDecks: Deck[] = [
     name: "Prank-Kids 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7538 - YCS - Milan Italy (Dec 2018) - Dec 2018",
       player: "Dinh-kha Bui",
@@ -14762,7 +14762,7 @@ export const importedDecks: Deck[] = [
     name: "Tri-Brigade 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8944 - Remote Duel Extravaganza (Feb 2021) - Feb 2021",
       player: "Seto Merza",
@@ -14942,7 +14942,7 @@ export const importedDecks: Deck[] = [
     name: "Virtual World 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8781 - LCS X (Jan 2021) - Jan 2021",
       player: "Mike Thomas",
@@ -15105,7 +15105,7 @@ export const importedDecks: Deck[] = [
     name: "Virtual 2021",
     year: 2021,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8960 - RD Extravaganza - North America (Jan 2021) - Jan 2021",
       player: "Ryan Sano",
@@ -15270,7 +15270,7 @@ export const importedDecks: Deck[] = [
     name: "Floowandereeze 2022",
     year: 2022,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8945 - WCQ - Dutch Nationals 2022 (Jun 2022) - Jun 2022",
       player: "Enzo Vicento",
@@ -15460,7 +15460,7 @@ export const importedDecks: Deck[] = [
     name: "Runick 2022",
     year: 2022,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9109 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
       player: "Thanh Nguyen",
@@ -15632,7 +15632,7 @@ export const importedDecks: Deck[] = [
     name: "Spright 2022",
     year: 2022,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9112 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
       player: "Chancy Wigglestove",
@@ -15808,7 +15808,7 @@ export const importedDecks: Deck[] = [
     name: "Labrynth 2023",
     year: 2023,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9443 - YCS - Lyon France (Feb 2023) - Feb 2023",
       player: "Herman Hansson",
@@ -15968,7 +15968,7 @@ export const importedDecks: Deck[] = [
     name: "Mathmech 2023",
     year: 2023,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8572 - Regional - Lenexa Kansas (Feb 2020) - Feb 2020",
       player: "Ivan Lester",
@@ -16140,7 +16140,7 @@ export const importedDecks: Deck[] = [
     name: "Dragon 2024",
     year: 2024,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 3850 - Guayaquil Ecuador Regional (Nov 2013) - Nov 2013",
       player: "Miguel Vargas",
@@ -16369,7 +16369,7 @@ export const importedDecks: Deck[] = [
     name: "Performage 2016",
     year: 2016,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015",
       player: "Jake Mattern",
@@ -16589,7 +16589,7 @@ export const importedDecks: Deck[] = [
     name: "Mekk-Knight 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8423 - Regional - Shreveport Louisiana (Jan 2020) - Jan 2020",
       player: "Nicholas Pitts",
@@ -16750,7 +16750,7 @@ export const importedDecks: Deck[] = [
     name: "Shaddoll 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020",
       player: "Kevin Nephtys Semlali",
@@ -16926,7 +16926,7 @@ export const importedDecks: Deck[] = [
     name: "Dragon 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019",
       player: "Marvin Enamorado",
@@ -17156,7 +17156,7 @@ export const importedDecks: Deck[] = [
     name: "Danger 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020",
       player: "Matteo Bertulezzi",
@@ -17428,7 +17428,7 @@ export const importedDecks: Deck[] = [
     name: "World 2020",
     year: 2020,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020",
       player: "Dino Spasovski",
@@ -17624,7 +17624,7 @@ export const importedDecks: Deck[] = [
     name: "Blue-Eyes 2023",
     year: 2023,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023",
       player: "Abdur-rahman Mujaahid",
@@ -17835,7 +17835,7 @@ export const importedDecks: Deck[] = [
     name: "Synchro 2017",
     year: 2017,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017",
       player: "Duelist Unknown",
@@ -18025,7 +18025,7 @@ export const importedDecks: Deck[] = [
     name: "SPYRAL 2017",
     year: 2017,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017",
       player: "Michael Duke",
@@ -18206,7 +18206,7 @@ export const importedDecks: Deck[] = [
     name: "Kaiju 2017",
     year: 2017,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017",
       player: "Michael Duke",
@@ -18387,7 +18387,7 @@ export const importedDecks: Deck[] = [
     name: "Knightmare 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7249 - Regional - Las Vegas Nevada (May 2018) - May 2018",
       player: "Anthony Gausepohl",
@@ -18578,7 +18578,7 @@ export const importedDecks: Deck[] = [
     name: "Sky Striker 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018",
       player: "Jakob Heher",
@@ -18743,7 +18743,7 @@ export const importedDecks: Deck[] = [
     name: "Ghostrick 2018",
     year: 2018,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018",
       player: "Koty Angeloff",
@@ -18910,7 +18910,7 @@ export const importedDecks: Deck[] = [
     name: "Eldlich 2022",
     year: 2022,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022",
       player: "Indi Watts",
@@ -19077,7 +19077,7 @@ export const importedDecks: Deck[] = [
     name: "Synchro 2022",
     year: 2022,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022",
       player: "Jordan Couture",
@@ -19256,7 +19256,7 @@ export const importedDecks: Deck[] = [
     name: "Purely 2023",
     year: 2023,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023",
       player: "Will Morrison",
@@ -19407,7 +19407,7 @@ export const importedDecks: Deck[] = [
     name: "Purrely 2023",
     year: 2023,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023",
       player: "Timoti Baggio",
@@ -19578,7 +19578,7 @@ export const importedDecks: Deck[] = [
     name: "Labrynth 2024",
     year: 2024,
     format: "Imported Format",
-    status: "draft",
+    status: "complete",
     source: {
       label: "Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023",
       player: "Pedro Dratwa",

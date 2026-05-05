@@ -247,6 +247,35 @@ function cleanSource(source) {
   return Object.keys(cleanedSource).length > 0 ? cleanedSource : undefined;
 }
 
+function countCards(cards) {
+  return cards.reduce((total, card) => total + card.quantity, 0);
+}
+
+function hasValidDeckSizes(deck) {
+  const mainDeckCount = countCards(deck.mainDeck);
+  const extraDeckCount = countCards(deck.extraDeck);
+  const sideDeckCount = countCards(deck.sideDeck);
+
+  return (
+    mainDeckCount >= 40 &&
+    mainDeckCount <= 60 &&
+    extraDeckCount <= 15 &&
+    (sideDeckCount === 0 || sideDeckCount === 15)
+  );
+}
+
+function getFinalDeckStatus(parsedStatus, deck) {
+  if (parsedStatus === "sample") {
+    return "sample";
+  }
+
+  if (hasValidDeckSizes(deck)) {
+    return "complete";
+  }
+
+  return "draft";
+}
+
 function parseDeckBlock(rawText, index) {
   const lines = rawText
     .split("\n")
@@ -256,7 +285,7 @@ function parseDeckBlock(rawText, index) {
   let name = `Imported Deck ${index + 1}`;
   let year = new Date().getFullYear();
   let format = "Imported Format";
-  let status = "draft";
+  let parsedStatus = "draft";
 
   const source = {
     label: "",
@@ -316,7 +345,7 @@ function parseDeckBlock(rawText, index) {
       const normalizedStatus = deckStatus.toLowerCase();
 
       if (validStatuses.has(normalizedStatus)) {
-        status = normalizedStatus;
+        parsedStatus = normalizedStatus;
       } else {
         ignoredLines.push({
           line,
@@ -380,6 +409,8 @@ function parseDeckBlock(rawText, index) {
 
     addCard(deck[currentSection], parsedCard);
   });
+
+  const status = getFinalDeckStatus(parsedStatus, deck);
 
   return {
     originalId: slugify(name),
@@ -498,10 +529,6 @@ export const importedDecks: Deck[] = [
 ${decks.map(formatDeck).join(",\n")}
 ];
 `;
-}
-
-function countCards(cards) {
-  return cards.reduce((total, card) => total + card.quantity, 0);
 }
 
 function countTaggedCards(cards) {

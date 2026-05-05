@@ -10,39 +10,28 @@ function countCards(cards: EnrichedDeckCard[]) {
   return cards.reduce((total, card) => total + card.quantity, 0);
 }
 
+function isAvailableInGame(card: EnrichedDeckCard) {
+  return card.gameSourceInfo?.status === "available";
+}
+
 function getSourceCounts(cards: EnrichedDeckCard[]) {
   return cards.reduce(
     (counts, card) => {
-      if (!card.gameSourceInfo) {
-        return {
-          ...counts,
-          missing: counts.missing + card.quantity,
-        };
-      }
-
-      if (card.gameSourceInfo.status === "available") {
+      if (isAvailableInGame(card)) {
         return {
           ...counts,
           available: counts.available + card.quantity,
         };
       }
 
-      if (card.gameSourceInfo.status === "not-in-game") {
-        return {
-          ...counts,
-          notInGame: counts.notInGame + card.quantity,
-        };
-      }
-
       return {
         ...counts,
-        missing: counts.missing + card.quantity,
+        unavailable: counts.unavailable + card.quantity,
       };
     },
     {
       available: 0,
-      notInGame: 0,
-      missing: 0,
+      unavailable: 0,
     }
   );
 }
@@ -61,16 +50,14 @@ export function DeckSourceCoverage({
       label: "Available in game",
       value: counts.available,
       className: "border-emerald-500/40 bg-emerald-500/10 text-emerald-300",
+      description: "Known to have a mapped in-game pack source.",
     },
     {
-      label: "Not in game",
-      value: counts.notInGame,
+      label: "Unavailable / needs replacement",
+      value: counts.unavailable,
       className: "border-amber-500/40 bg-amber-500/10 text-amber-300",
-    },
-    {
-      label: "Missing source data",
-      value: counts.missing,
-      className: "border-slate-600 bg-slate-800 text-slate-300",
+      description:
+        "Either marked not in game, unknown, or missing source data. Treat these as cards that may need a playable replacement.",
     },
   ];
 
@@ -81,12 +68,12 @@ export function DeckSourceCoverage({
           In-game source coverage
         </h3>
         <p className="mt-1 text-sm text-slate-400">
-          Shows how much of this deck has known Nintendo Switch game pack source
-          data.
+          Cards without an available in-game source are grouped together as
+          unavailable, because they may need replacement for gameplay.
         </p>
       </div>
 
-      <div className="grid gap-3 lg:grid-cols-3">
+      <div className="grid gap-3 lg:grid-cols-2">
         {coverageItems.map((item) => (
           <div
             key={item.label}
@@ -95,6 +82,7 @@ export function DeckSourceCoverage({
             <p className="text-sm font-semibold">{item.label}</p>
             <p className="mt-2 text-3xl font-bold">{item.value}</p>
             <p className="mt-1 text-sm opacity-80">of {totalCards} cards</p>
+            <p className="mt-3 text-sm opacity-80">{item.description}</p>
           </div>
         ))}
       </div>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T09:37:55.718Z",
+  "generatedAt": "2026-05-05T10:28:37.470Z",
   "inputFile": "data/deckImportCollection.txt",
   "fallbackInputFile": "data/deckImportRaw.txt",
   "outputFile": "data/importedDecks.generated.ts",
@@ -15,7 +15,7 @@
       "name": "Monarch 2007",
       "year": 2007,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks deck 2785",
         "player": "Charley La",
@@ -131,7 +131,7 @@
       "name": "Fire Fist 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks deck 1168",
         "player": "Charlie Kip",
@@ -166,7 +166,7 @@
       "name": "Burning Abyss 2015",
       "year": 2015,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks deck 4319",
         "player": "Calvin Tahan",
@@ -201,7 +201,7 @@
       "name": "Nekroz 2015",
       "year": 2015,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks deck 4520",
         "player": "Ryan Levine",
@@ -236,7 +236,7 @@
       "name": "Performapal 2016",
       "year": 2016,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks deck 4843",
         "player": "Rotorato Simone",
@@ -269,7 +269,7 @@
       "name": "Chain Burn 2005",
       "year": 2005,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 15 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
         "player": "Bryant Tran",
@@ -301,7 +301,7 @@
       "name": "Gadget 2006",
       "year": 2006,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 43 - YGOverdose Constructed 7 (May 2013) - May 2013",
         "player": "Elijah Gersten",
@@ -337,7 +337,7 @@
       "name": "Lightsworn 2008",
       "year": 2008,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 55 - YGO State Championship Utah (Jul 2014) - Jul 2014",
         "player": "Anthony Chiechi",
@@ -378,7 +378,7 @@
       "name": "Frog 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 64 - YGO State Championship Tennessee (Jul 2014) - Jul 2014",
         "player": "Jeremy Hayes",
@@ -414,7 +414,7 @@
       "name": "Infernity 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1 - YGOverdose Tournament 6 (Apr 2013) - Apr 2013",
         "player": "Chancy Wigglestove",
@@ -446,7 +446,7 @@
       "name": "Agent 2011",
       "year": 2011,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 40 - YGOverdose Tournament 1 (Jan 2013) - Jan 2013",
         "player": "Robert Jordan",
@@ -486,7 +486,7 @@
       "name": "Six Samurai 2011",
       "year": 2011,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 16 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
         "player": "Kumar Dave",
@@ -521,7 +521,7 @@
       "name": "Dino Rabbit 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 29 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
         "player": "Isaac Canales",
@@ -562,7 +562,7 @@
       "name": "Inzektor 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 28 - YGOverdose Tournament 3 (Feb 2013) - Feb 2013",
         "player": "Mikael Ibsen",
@@ -597,7 +597,7 @@
       "name": "Wind-Up 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 11 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
         "player": "Jeremy Thibeau",
@@ -633,7 +633,7 @@
       "name": "Fire Fist 2013",
       "year": 2013,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 17 - YGOverdose Tournament 4 (Mar 2013) - Mar 2013",
         "player": "Mike Steinman",
@@ -666,7 +666,7 @@
       "name": "Mermail 2013",
       "year": 2013,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 10 - YGOverdose Tournament 5 (Mar 2013) - Mar 2013",
         "player": "Steffon Bizzell",
@@ -708,7 +708,7 @@
       "name": "Bujin 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 52 - YGO State Championship Utah (Jul 2014) - Jul 2014",
         "player": "DJ Katter",
@@ -748,7 +748,7 @@
       "name": "Mermail 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 53 - YGO State Championship Utah (Jul 2014) - Jul 2014",
         "player": "Chrispother Quinones- Ortega",
@@ -798,7 +798,7 @@
       "name": "Lightsworn 2009",
       "year": 2009,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 111 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
         "player": "Jake Maddox",
@@ -851,7 +851,7 @@
       "name": "Monarch 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 166 - YGO State Championship Connecticut (Jul 2014) - Jul 2014",
         "player": "Kevin J. Jiles",
@@ -891,7 +891,7 @@
       "name": "Gravekeeper 2011",
       "year": 2011,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 110 - YGO State Championship Nebraska (Jul 2014) - Jul 2014",
         "player": "Bryant Grimminger",
@@ -927,7 +927,7 @@
       "name": "Dragon 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 119 - YGO State Championship Mississippi (Jul 2014) - Jul 2014",
         "player": "Chris Waters",
@@ -988,7 +988,7 @@
       "name": "HERO 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 187 - YGO State Championship Rhode Island (Aug 2014) - Aug 2014",
         "player": "Cameron Macdonald",
@@ -1024,7 +1024,7 @@
       "name": "Spellbook 2013",
       "year": 2013,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 132 - YGO State Championship Michigan (Jul 2014) - Jul 2014",
         "player": "Travis Hilliard",
@@ -1068,7 +1068,7 @@
       "name": "Geargia 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 173 - YGO State Championship Arkansas (Jul 2014) - Jul 2014",
         "player": "David Knauff",
@@ -1108,7 +1108,7 @@
       "name": "Karakuri 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 99 - YGO State Championship Nevada (Jul 2014) - Jul 2014",
         "player": "Mikhail Martinez",
@@ -1152,7 +1152,7 @@
       "name": "Satellarknight 2015",
       "year": 2015,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 254 - YGO Open Chicago (Sep 2014) - Sep 2014",
         "player": "Hector Candelaria",
@@ -1189,7 +1189,7 @@
       "name": "Shaddoll 2015",
       "year": 2015,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 250 - YGO Open Chicago (Sep 2014) - Sep 2014",
         "player": "Michael Glowacki",
@@ -1225,7 +1225,7 @@
       "name": "Burning Abyss 2016",
       "year": 2016,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 252 - YGO Open Chicago (Sep 2014) - Sep 2014",
         "player": "Scott Sheahan",
@@ -1269,7 +1269,7 @@
       "name": "Hunder 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 222 - YGO State Championship New Mexico (Aug 2014) - Aug 2014",
         "player": "Shane Loftis",
@@ -1305,7 +1305,7 @@
       "name": "Gadget 2007",
       "year": 2007,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 483 - YCS - Chicago Illinois (Mar 2014) - Mar 2014",
         "player": "Christopher Gonzalez",
@@ -1352,7 +1352,7 @@
       "name": "Plant 2011",
       "year": 2011,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 432 - YCS - Philadelphia Pennsylvania (May 2014) - May 2014",
         "player": "Adam Hutchins",
@@ -1412,7 +1412,7 @@
       "name": "Synchro 2011",
       "year": 2011,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 562 - YCS - Meadowlands New Jersey (May 2013) - May 2013",
         "player": "Patrick Hoban",
@@ -1446,7 +1446,7 @@
       "name": "Elemental 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 613 - YCS - Austin Texas (Mar 2013) - Mar 2013",
         "player": "Justin Osbien Franklin",
@@ -1479,7 +1479,7 @@
       "name": "Shaddoll 2014",
       "year": 2014,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 366 - YCS - Anaheim California (Nov 2014) - Nov 2014",
         "player": "Jonhathan Sebastian Vazquez Herrera",
@@ -1524,7 +1524,7 @@
       "name": "Qliphort 2015",
       "year": 2015,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 333 - YCS - Milan Italy (Dec 2014) - Dec 2014",
         "player": "Oleksandr Atamanenko",
@@ -1554,7 +1554,7 @@
       "name": "Beast 2008",
       "year": 2008,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1653 - Regional - Seattle Washington (Jun 2013) - Jun 2013",
         "player": "???",
@@ -1610,7 +1610,7 @@
       "name": "Blackwing 2009",
       "year": 2009,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2457 - 2009 SJ Orlando (Sep 2009) - Sep 2009",
         "player": "Rodrigo Togores",
@@ -1653,7 +1653,7 @@
       "name": "Beast 2009",
       "year": 2009,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2354 - 2010 Championship Series - Indianapolis (Aug 2010) - Aug 2010",
         "player": "Daniel LaMartina",
@@ -1694,7 +1694,7 @@
       "name": "Twilight Dragon 2009",
       "year": 2009,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1924 - 2012 YCS Toulouse (Apr 2012) - Apr 2012",
         "player": "Peter Gross",
@@ -1740,7 +1740,7 @@
       "name": "Blackwing 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1080 - Regional - Lenexa Kansas (May 2014) - May 2014",
         "player": "Duelist Unknown",
@@ -1782,7 +1782,7 @@
       "name": "X-Saber 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2285 - 2010 United States WCQ (Jul 2010) - Jul 2010",
         "player": "Jay Hornung",
@@ -1823,7 +1823,7 @@
       "name": "Lightsworn 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2307 - 2010 SJ Edison (Apr 2010) - Apr 2010",
         "player": "Jarel Winston",
@@ -1871,7 +1871,7 @@
       "name": "Junk 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2408 - 2010 Championship Series - Chicago (Jun 2010) - Jun 2010",
         "player": "Ben Haynes",
@@ -1912,7 +1912,7 @@
       "name": "Warrior 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2302 - 2010 SJ Edison (Apr 2010) - Apr 2010",
         "player": "Jeff Jones",
@@ -1961,7 +1961,7 @@
       "name": "Quickdraw Dandywarrior 2010",
       "year": 2010,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2343 - 2010 Championship Series - Philadelphia (Oct 2010) - Oct 2010",
         "player": "Kenny Kwan",
@@ -2005,7 +2005,7 @@
       "name": "Chaos 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1370 - Regional - Columbus Ohio (Apr 2013) - Apr 2013",
         "player": "Jeremy Ottery (sp?)",
@@ -2053,7 +2053,7 @@
       "name": "Black 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1717 - National Championship - Argentina (Jun 2014) - Jun 2014",
         "player": "Luciano Soto",
@@ -2091,7 +2091,7 @@
       "name": "Djinn 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1759 - Mesa Arizona Regional Qualifier (Feb 2013) - Feb 2013",
         "player": "Alec Beer",
@@ -2136,7 +2136,7 @@
       "name": "Lightsworn 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1980 - 2012 YCS Seattle (Nov 2012) - Nov 2012",
         "player": "Justin Delhon",
@@ -2186,7 +2186,7 @@
       "name": "Blue-Eyes 2016",
       "year": 2016,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1245 - Regional - Buenos Aires Argentina (Jan 2014) - Jan 2014",
         "player": "Matias Lopez",
@@ -2247,7 +2247,7 @@
       "name": "Magician 2017",
       "year": 2017,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1362 - Regional - Brooklyn New York (Apr 2013) - Apr 2013",
         "player": "Glang Nguyen",
@@ -2293,7 +2293,7 @@
       "name": "Thunder 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1270 - Regional - Vina Del Mar Chile (Jan 2014) - Jan 2014",
         "player": "Jose Castillo",
@@ -2334,7 +2334,7 @@
       "name": "Prime Monarch 2006",
       "year": 2006,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2577 - 2008 SJ Toronto (Jul 2008) - Jul 2008",
         "player": "Jesse Jackson",
@@ -2373,7 +2373,7 @@
       "name": "Monarch 2006",
       "year": 2006,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8686 - Konami - Remote Duel Invitational (Oct 2020) - Oct 2020",
         "player": "Lithium2300",
@@ -2398,7 +2398,7 @@
       "name": "Beast 2007",
       "year": 2007,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8663 - Duelist Academy August Merch Tournament (Aug 2020) - Aug 2020",
         "player": "Nick Anctil",
@@ -2423,7 +2423,7 @@
       "name": "Demise OTK 2007",
       "year": 2007,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2866 - 2007 SJ Columbus (Mar 2007) - Mar 2007",
         "player": "Dan Bilbrey",
@@ -2457,7 +2457,7 @@
       "name": "Gladiator 2008",
       "year": 2008,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 1181 - Regional - Lisbon Portugal (Mar 2014) - Mar 2014",
         "player": "Bruno Seixas",
@@ -2491,7 +2491,7 @@
       "name": "Synchro 2008",
       "year": 2008,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5767 - YCS - Bochum Germany (Dec 2016) - Dec 2016",
         "player": "Torben Wahl",
@@ -2524,7 +2524,7 @@
       "name": "Beat 2012",
       "year": 2012,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2757 - 2007 UK Nationals (Jun 2007) - Jun 2007",
         "player": "James Pennicott",
@@ -2569,7 +2569,7 @@
       "name": "Kozmo 2016",
       "year": 2016,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 4305 - UDS Invitational - Philadelphia (Aug 2015) - Aug 2015",
         "player": "Steve Gleason",
@@ -2614,7 +2614,7 @@
       "name": "Zoodiac 2017",
       "year": 2017,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 2835 - 2007 SJ Houston (Mar 2007) - Mar 2007",
         "player": "Emon Ghaneian",
@@ -2657,7 +2657,7 @@
       "name": "Dragon 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 6307 - National Championship - Belgium (May 2017) - May 2017",
         "player": "Jan Oliver Gross",
@@ -2686,7 +2686,7 @@
       "name": "Danger 2019",
       "year": 2019,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7603 - YCS - Chicago Illinois (Feb 2019) - Feb 2019",
         "player": "Ed Acepcion",
@@ -2711,7 +2711,7 @@
       "name": "Orcust 2019",
       "year": 2019,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7607 - Regional - Omaha Nebraska (Feb 2019) - Feb 2019",
         "player": "Nick Mapes",
@@ -2736,7 +2736,7 @@
       "name": "Salamangreat 2019",
       "year": 2019,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7614 - Regional - Cali Colombia (Feb 2019) - Feb 2019",
         "player": "Andres Torres",
@@ -2763,7 +2763,7 @@
       "name": "Sky Striker 2019",
       "year": 2019,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7580 - Regional - Lima Peru (Jan 2019) - Jan 2019",
         "player": "Antony Urbano",
@@ -2792,7 +2792,7 @@
       "name": "Subterror 2019",
       "year": 2019,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5542 - Local Legend Duelist Series September 2016 (Sep 2016) - Sep 2016",
         "player": "Mirko Conforti",
@@ -2828,7 +2828,7 @@
       "name": "Invoked Windwitch 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5996 - OTS Championships - United States (Mar 2017) - Mar 2017",
         "player": "Ian Tezer",
@@ -2864,7 +2864,7 @@
       "name": "Dragon 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8741 - LCS X (Feb 2021) - Feb 2021",
         "player": "Gabriel Netz",
@@ -2894,7 +2894,7 @@
       "name": "Guardragon 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8974 - LCS - X (3x3) (Jan 2021) - Jan 2021",
         "player": "Gabriel Netz",
@@ -2924,7 +2924,7 @@
       "name": "Drytron 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8724 - LCS - IX (Dec 2020) - Dec 2020",
         "player": "Jesse Kotton",
@@ -2949,7 +2949,7 @@
       "name": "Prank-Kids 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7538 - YCS - Milan Italy (Dec 2018) - Dec 2018",
         "player": "Dinh-kha Bui",
@@ -2974,7 +2974,7 @@
       "name": "Tri-Brigade 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8944 - Remote Duel Extravaganza (Feb 2021) - Feb 2021",
         "player": "Seto Merza",
@@ -3003,7 +3003,7 @@
       "name": "Virtual World 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8781 - LCS X (Jan 2021) - Jan 2021",
         "player": "Mike Thomas",
@@ -3028,7 +3028,7 @@
       "name": "Virtual 2021",
       "year": 2021,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8960 - RD Extravaganza - North America (Jan 2021) - Jan 2021",
         "player": "Ryan Sano",
@@ -3060,7 +3060,7 @@
       "name": "Floowandereeze 2022",
       "year": 2022,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8945 - WCQ - Dutch Nationals 2022 (Jun 2022) - Jun 2022",
         "player": "Enzo Vicento",
@@ -3093,7 +3093,7 @@
       "name": "Runick 2022",
       "year": 2022,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9109 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
         "player": "Thanh Nguyen",
@@ -3122,7 +3122,7 @@
       "name": "Spright 2022",
       "year": 2022,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9112 - Yu-Gi-Oh! Championship Series Niagara Falls 2022 (Sep 2022) - Sep 2022",
         "player": "Chancy Wigglestove",
@@ -3151,7 +3151,7 @@
       "name": "Labrynth 2023",
       "year": 2023,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9443 - YCS - Lyon France (Feb 2023) - Feb 2023",
         "player": "Herman Hansson",
@@ -3179,7 +3179,7 @@
       "name": "Mathmech 2023",
       "year": 2023,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8572 - Regional - Lenexa Kansas (Feb 2020) - Feb 2020",
         "player": "Ivan Lester",
@@ -3208,7 +3208,7 @@
       "name": "Dragon 2024",
       "year": 2024,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 3850 - Guayaquil Ecuador Regional (Nov 2013) - Nov 2013",
         "player": "Miguel Vargas",
@@ -3276,7 +3276,7 @@
       "name": "Performage 2016",
       "year": 2016,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 4486 - YCS - Dallas Texas (Oct 2015) - Oct 2015",
         "player": "Jake Mattern",
@@ -3313,7 +3313,7 @@
       "name": "Mekk-Knight 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8423 - Regional - Shreveport Louisiana (Jan 2020) - Jan 2020",
         "player": "Nicholas Pitts",
@@ -3342,7 +3342,7 @@
       "name": "Shaddoll 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8513 - Cardmarket Series Paris 2020 (Feb 2020) - Feb 2020",
         "player": "Kevin Nephtys Semlali",
@@ -3371,7 +3371,7 @@
       "name": "Dragon 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8131 - Regional - Panama City Panama (Sep 2019) - Sep 2019",
         "player": "Marvin Enamorado",
@@ -3409,7 +3409,7 @@
       "name": "Danger 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8557 - YCS - Utrecht Netherlands (Feb 2020) - Feb 2020",
         "player": "Matteo Bertulezzi",
@@ -3439,7 +3439,7 @@
       "name": "World 2020",
       "year": 2020,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 8417 - YCS - Sydney Australia (Jan 2020) - Jan 2020",
         "player": "Dino Spasovski",
@@ -3467,7 +3467,7 @@
       "name": "Blue-Eyes 2023",
       "year": 2023,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9527 - Regional Knoxville Tennessee (Apr 2023) - Apr 2023",
         "player": "Abdur-rahman Mujaahid",
@@ -3492,7 +3492,7 @@
       "name": "Synchro 2017",
       "year": 2017,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5839 - Regional - Toronto Canada (Jan 2017) - Jan 2017",
         "player": "Duelist Unknown",
@@ -3526,7 +3526,7 @@
       "name": "SPYRAL 2017",
       "year": 2017,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5875 - Regional - Canberra (Jan 2017) - Jan 2017",
         "player": "Michael Duke",
@@ -3557,7 +3557,7 @@
       "name": "Kaiju 2017",
       "year": 2017,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 5883 - Regional - San Antonio Texas (Jan 2017) - Jan 2017",
         "player": "Michael Duke",
@@ -3588,7 +3588,7 @@
       "name": "Knightmare 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7249 - Regional - Las Vegas Nevada (May 2018) - May 2018",
         "player": "Anthony Gausepohl",
@@ -3613,7 +3613,7 @@
       "name": "Sky Striker 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7269 - National Championship - Austria (May 2018) - May 2018",
         "player": "Jakob Heher",
@@ -3644,7 +3644,7 @@
       "name": "Ghostrick 2018",
       "year": 2018,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 7274 - YCS - Secaucus New Jersey (Jun 2018) - Jun 2018",
         "player": "Koty Angeloff",
@@ -3669,7 +3669,7 @@
       "name": "Eldlich 2022",
       "year": 2022,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9141 - OTS Championship Qualifier - Australia (Oct 2022) - Oct 2022",
         "player": "Indi Watts",
@@ -3694,7 +3694,7 @@
       "name": "Synchro 2022",
       "year": 2022,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9166 - Regional - Moncton New Brunswick (Oct 2022) - Oct 2022",
         "player": "Jordan Couture",
@@ -3719,7 +3719,7 @@
       "name": "Purely 2023",
       "year": 2023,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9565 - Regional - Des Moines Iowa (May 2023) - May 2023",
         "player": "Will Morrison",
@@ -3744,7 +3744,7 @@
       "name": "Purrely 2023",
       "year": 2023,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9584 - National Championship - Switzerland (May 2023) - May 2023",
         "player": "Timoti Baggio",
@@ -3769,7 +3769,7 @@
       "name": "Labrynth 2024",
       "year": 2024,
       "format": "Imported Format",
-      "status": "draft",
+      "status": "complete",
       "source": {
         "label": "Yu-Gi-Oh! Top Decks - deck 9611 - YCS - Santiago Chile (May 2023) - May 2023",
         "player": "Pedro Dratwa",
