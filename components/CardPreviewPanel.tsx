@@ -4,6 +4,12 @@ import {
   fetchCardDetails,
   getCachedCardDetails,
 } from "../lib/fetchCardDetails";
+import {
+  getCardAvailabilityBadgeClassName,
+  getCardAvailabilityLabel,
+  getCardAvailabilityReason,
+  isCardAvailableInGame,
+} from "../lib/cardAvailability";
 import type { CardDetails, EnrichedDeckCard } from "../types/deck";
 
 type CardPreviewPanelProps = {
@@ -87,6 +93,7 @@ function CardPreviewContent({
   const displayCard = getCardWithApiDetails(card, apiDetails);
   const gameSourceInfo = displayCard.gameSourceInfo;
   const replacementInfo = displayCard.replacementInfo;
+  const isAvailable = isCardAvailableInGame(displayCard);
 
   function handleReplacementClick(cardName: string) {
     const replacementCard = enrichCardByName(cardName);
@@ -111,6 +118,22 @@ function CardPreviewContent({
           <span className="rounded-full bg-blue-500 px-3 py-1 text-sm font-bold text-white">
             x{displayCard.quantity}
           </span>
+        </div>
+
+        <div className="mb-5 flex flex-wrap gap-2">
+          <span
+            className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide ${getCardAvailabilityBadgeClassName(
+              displayCard
+            )}`}
+          >
+            {getCardAvailabilityLabel(displayCard)}
+          </span>
+
+          {!isAvailable ? (
+            <span className="rounded-full bg-slate-800 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-300">
+              {getCardAvailabilityReason(displayCard)}
+            </span>
+          ) : null}
         </div>
 
         {isLoadingDetails ? (
@@ -172,16 +195,15 @@ function CardPreviewContent({
               In-game source
             </p>
 
-            {!gameSourceInfo ? (
-              <p className="mt-3 text-sm text-slate-500">
-                No in-game pack source added yet for this card.
-              </p>
-            ) : null}
-
-            {gameSourceInfo?.status === "not-in-game" ? (
+            {!isAvailable ? (
               <div className="mt-3 rounded-xl border border-amber-500/30 bg-amber-500/10 p-3">
-                <p className="font-semibold text-amber-300">Not in game</p>
-                {gameSourceInfo.notes ? (
+                <p className="font-semibold text-amber-300">
+                  Unavailable / needs replacement
+                </p>
+                <p className="mt-2 text-sm text-amber-100/70">
+                  Reason: {getCardAvailabilityReason(displayCard)}
+                </p>
+                {gameSourceInfo?.notes ? (
                   <p className="mt-2 text-sm text-amber-100/70">
                     {gameSourceInfo.notes}
                   </p>
@@ -189,19 +211,8 @@ function CardPreviewContent({
               </div>
             ) : null}
 
-            {gameSourceInfo?.status === "unknown" ? (
-              <div className="mt-3 rounded-xl border border-slate-700 bg-slate-900 p-3">
-                <p className="font-semibold text-slate-300">Unknown</p>
-                {gameSourceInfo.notes ? (
-                  <p className="mt-2 text-sm text-slate-500">
-                    {gameSourceInfo.notes}
-                  </p>
-                ) : null}
-              </div>
-            ) : null}
-
-            {gameSourceInfo?.status === "available" &&
-            gameSourceInfo.sources &&
+            {isAvailable &&
+            gameSourceInfo?.sources &&
             gameSourceInfo.sources.length > 0 ? (
               <div className="mt-3 space-y-3">
                 {gameSourceInfo.sources.map((source) => (
@@ -253,8 +264,9 @@ function CardPreviewContent({
               <div className="mt-3 space-y-3">
                 {replacementInfo.suggestions.map((suggestion) => {
                   const replacementCard = enrichCardByName(suggestion.cardName);
-                  const sourceInfo = replacementCard.gameSourceInfo;
-                  const firstSource = sourceInfo?.sources?.[0];
+                  const firstSource = replacementCard.gameSourceInfo?.sources?.[0];
+                  const replacementIsAvailable =
+                    isCardAvailableInGame(replacementCard);
 
                   return (
                     <button
@@ -274,39 +286,34 @@ function CardPreviewContent({
                         </span>
                       </div>
 
-                      {sourceInfo?.status === "available" && firstSource ? (
-                        <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
-                          <span className="rounded-full bg-emerald-500/10 px-2 py-1 text-emerald-300">
-                            Available
-                          </span>
+                      <div className="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
+                        <span
+                          className={`rounded-full px-2 py-1 ${getCardAvailabilityBadgeClassName(
+                            replacementCard
+                          )}`}
+                        >
+                          {getCardAvailabilityLabel(replacementCard)}
+                        </span>
+
+                        {!replacementIsAvailable ? (
                           <span className="rounded-full bg-slate-800 px-2 py-1">
-                            {firstSource.packName}
+                            {getCardAvailabilityReason(replacementCard)}
                           </span>
-                          {firstSource.cardCategory ? (
+                        ) : null}
+
+                        {replacementIsAvailable && firstSource ? (
+                          <>
                             <span className="rounded-full bg-slate-800 px-2 py-1">
-                              {firstSource.cardCategory}
+                              {firstSource.packName}
                             </span>
-                          ) : null}
-                        </div>
-                      ) : null}
-
-                      {sourceInfo?.status === "not-in-game" ? (
-                        <div className="mt-2 inline-flex rounded-full bg-amber-500/10 px-2 py-1 text-xs text-amber-300">
-                          Not in game
-                        </div>
-                      ) : null}
-
-                      {sourceInfo?.status === "unknown" ? (
-                        <div className="mt-2 inline-flex rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
-                          Source unknown
-                        </div>
-                      ) : null}
-
-                      {!sourceInfo ? (
-                        <div className="mt-2 inline-flex rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-400">
-                          Source not mapped yet
-                        </div>
-                      ) : null}
+                            {firstSource.cardCategory ? (
+                              <span className="rounded-full bg-slate-800 px-2 py-1">
+                                {firstSource.cardCategory}
+                              </span>
+                            ) : null}
+                          </>
+                        ) : null}
+                      </div>
 
                       <p className="mt-2 text-sm text-slate-500">
                         {suggestion.reason}

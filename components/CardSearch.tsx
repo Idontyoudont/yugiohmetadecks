@@ -3,6 +3,12 @@ import { cardDetails } from "../data/cardDetails";
 import { generatedCardGameSources } from "../data/cardGameSources.generated";
 import { cardGameSources } from "../data/cardGameSources";
 import { enrichCardByName, enrichDeckCard } from "../lib/enrichDeckCard";
+import {
+  getCardAvailabilityBadgeClassName,
+  getCardAvailabilityLabel,
+  getCardAvailabilityReason,
+  isCardAvailableInGame,
+} from "../lib/cardAvailability";
 import type { Deck, DeckCard, EnrichedDeckCard } from "../types/deck";
 
 type CardSearchProps = {
@@ -155,44 +161,12 @@ function getDeckCardForPreview(entry: CardIndexEntry): DeckCard {
   };
 }
 
-function getSourceStatusLabel(card: EnrichedDeckCard) {
-  if (!card.gameSourceInfo) {
-    return "Source not mapped";
-  }
-
-  if (card.gameSourceInfo.status === "available") {
-    return "Available";
-  }
-
-  if (card.gameSourceInfo.status === "not-in-game") {
-    return "Not in game";
-  }
-
-  return "Unknown";
-}
-
-function getSourceStatusClassName(card: EnrichedDeckCard) {
-  if (!card.gameSourceInfo) {
-    return "bg-slate-800 text-slate-400";
-  }
-
-  if (card.gameSourceInfo.status === "available") {
-    return "bg-emerald-500/10 text-emerald-300";
-  }
-
-  if (card.gameSourceInfo.status === "not-in-game") {
-    return "bg-amber-500/10 text-amber-300";
-  }
-
-  return "bg-slate-800 text-slate-400";
-}
-
 function getFirstSourceLabel(card: EnrichedDeckCard) {
-  if (card.gameSourceInfo?.status !== "available") {
+  if (!isCardAvailableInGame(card)) {
     return null;
   }
 
-  return card.gameSourceInfo.sources?.[0]?.packName ?? null;
+  return card.gameSourceInfo?.sources?.[0]?.packName ?? null;
 }
 
 function isSameCardName(cardNameA: string, cardNameB: string) {
@@ -280,7 +254,7 @@ export function CardSearch({
             Search cards and pack sources
           </h2>
           <p className="mt-2 text-sm text-slate-400">
-            Search any card name to preview details, pack/source mapping, and
+            Search any card name to preview details, pack source mapping, and
             deck usage when available.
           </p>
         </div>
@@ -355,12 +329,18 @@ export function CardSearch({
 
                     <div className="mt-2 flex flex-wrap gap-2">
                       <span
-                        className={`rounded-full px-2 py-1 text-xs font-semibold ${getSourceStatusClassName(
+                        className={`rounded-full px-2 py-1 text-xs font-semibold ${getCardAvailabilityBadgeClassName(
                           result.card
                         )}`}
                       >
-                        {getSourceStatusLabel(result.card)}
+                        {getCardAvailabilityLabel(result.card)}
                       </span>
+
+                      {!isCardAvailableInGame(result.card) ? (
+                        <span className="rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-300">
+                          {getCardAvailabilityReason(result.card)}
+                        </span>
+                      ) : null}
 
                       {firstSourceLabel ? (
                         <span className="rounded-full bg-slate-800 px-2 py-1 text-xs text-slate-300">
