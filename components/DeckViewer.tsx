@@ -6,6 +6,7 @@ import { applyDeckVariant } from "../lib/applyDeckVariant";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
 import { CardGrid } from "./CardGrid";
 import { CardPreviewPanel } from "./CardPreviewPanel";
+import { CardSearch } from "./CardSearch";
 import { DeckFilters } from "./DeckFilters";
 import { DeckNotes } from "./DeckNotes";
 import { DeckPackSummary } from "./DeckPackSummary";
@@ -361,6 +362,12 @@ export function DeckViewer({ decks }: DeckViewerProps) {
       />
 
       <main className="min-h-screen flex-1 bg-slate-950 p-8">
+        <CardSearch
+          decks={visibleDecks}
+          onPreviewCard={handlePreviewCard}
+          onSelectDeck={handleSelectDeck}
+        />
+
         <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-8">
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
             Selected deck
