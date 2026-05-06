@@ -42,7 +42,7 @@ function getStoredDoneCardKeysByScope() {
   }
 
   const storedCompletion = window.localStorage.getItem(
-    CARD_COMPLETION_STORAGE_KEY
+    CARD_COMPLETION_STORAGE_KEY,
   );
 
   if (!storedCompletion) {
@@ -96,7 +96,7 @@ function getCardPackNames(card: EnrichedDeckCard) {
 
 function matchesSourceStatus(
   card: EnrichedDeckCard,
-  selectedSourceStatus: SourceStatusFilter
+  selectedSourceStatus: SourceStatusFilter,
 ) {
   if (!selectedSourceStatus) {
     return true;
@@ -120,11 +120,12 @@ function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
 function getVisibleDecks(
   decks: Deck[],
   showSampleDecks: boolean,
-  selectedYear: YearFilter
+  selectedYear: YearFilter,
 ) {
   return decks.filter((deck) => {
     const matchesSampleFilter = showSampleDecks || deck.status !== "sample";
-    const matchesYearFilter = selectedYear === "all" || deck.year === selectedYear;
+    const matchesYearFilter =
+      selectedYear === "all" || deck.year === selectedYear;
 
     return matchesSampleFilter && matchesYearFilter;
   });
@@ -143,7 +144,7 @@ function getYearCounts(decks: Deck[], showSampleDecks: boolean) {
 
 function getDeckVariants(deck: Deck) {
   const manualVariantsForDeck = manualDeckVariants.filter(
-    (variant) => variant.deckId === deck.id
+    (variant) => variant.deckId === deck.id,
   );
 
   const automaticSwitchVariant = generateSwitchDeckVariant(deck);
@@ -157,7 +158,6 @@ function getDeckVariants(deck: Deck) {
   return variants;
 }
 
-
 function getCardCompletionKey(section: CardSection, card: EnrichedDeckCard) {
   return `${section}:${card.name}`;
 }
@@ -166,7 +166,11 @@ function getCompletionScopeKey(deck: Deck, variant: DeckVariant | null) {
   return `${deck.id}::${variant?.id ?? "base"}`;
 }
 
-function getDoneCopyCount(cards: EnrichedDeckCard[], section: CardSection, doneCardKeys: Set<string>) {
+function getDoneCopyCount(
+  cards: EnrichedDeckCard[],
+  section: CardSection,
+  doneCardKeys: Set<string>,
+) {
   return cards.reduce((total, card) => {
     if (doneCardKeys.has(getCardCompletionKey(section, card))) {
       return total + card.quantity;
@@ -315,31 +319,33 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
   const yearCounts = useMemo(
     () => getYearCounts(decks, showSampleDecks),
-    [decks, showSampleDecks]
+    [decks, showSampleDecks],
   );
 
   const availableYears = useMemo(
     () =>
       Array.from(new Set(decks.map((deck) => deck.year))).sort(
-        (yearA, yearB) => yearA - yearB
+        (yearA, yearB) => yearA - yearB,
       ),
-    [decks]
+    [decks],
   );
 
   const visibleDecks = useMemo(
     () => getVisibleDecks(decks, showSampleDecks, selectedYear),
-    [decks, showSampleDecks, selectedYear]
+    [decks, showSampleDecks, selectedYear],
   );
 
   const fallbackDeck = visibleDecks[0] ?? decks[0];
-  const sampleDeckCount = decks.filter((deck) => deck.status === "sample").length;
+  const sampleDeckCount = decks.filter(
+    (deck) => deck.status === "sample",
+  ).length;
 
   const [selectedDeckId, setSelectedDeckId] = useState(fallbackDeck.id);
   const [selectedVariantId, setSelectedVariantId] = useState<string | null>(
-    null
+    null,
   );
   const [selectedCard, setSelectedCard] = useState<EnrichedDeckCard | null>(
-    null
+    null,
   );
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [selectedSourceStatus, setSelectedSourceStatus] =
@@ -358,7 +364,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
   const availableVariants = useMemo(
     () => getDeckVariants(selectedDeck),
-    [selectedDeck]
+    [selectedDeck],
   );
 
   const selectedVariant =
@@ -367,10 +373,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
   const activeCompletionScopeKey = getCompletionScopeKey(
     selectedDeck,
-    selectedVariant
+    selectedVariant,
   );
   const doneCardKeys = new Set(
-    doneCardKeysByScope[activeCompletionScopeKey] ?? []
+    doneCardKeysByScope[activeCompletionScopeKey] ?? [],
   );
 
   const activeDeckCards = applyDeckVariant(selectedDeck, selectedVariant);
@@ -405,13 +411,13 @@ export function DeckViewer({ decks }: DeckViewerProps) {
 
     window.localStorage.setItem(
       CARD_COMPLETION_STORAGE_KEY,
-      JSON.stringify(doneCardKeysByScope)
+      JSON.stringify(doneCardKeysByScope),
     );
   }, [doneCardKeysByScope, isCompletionLoaded]);
 
   const totalCardCopies = allCards.reduce(
     (total, card) => total + card.quantity,
-    0
+    0,
   );
   const doneCardCopies =
     getDoneCopyCount(enrichedMainDeck, "Main Deck", doneCardKeys) +
@@ -478,10 +484,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     const nextVisibleDecks = getVisibleDecks(
       decks,
       nextShowSampleDecks,
-      selectedYear
+      selectedYear,
     );
     const selectedDeckStillVisible = nextVisibleDecks.some(
-      (deck) => deck.id === selectedDeckId
+      (deck) => deck.id === selectedDeckId,
     );
 
     setShowSampleDecks(nextShowSampleDecks);
@@ -494,7 +500,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   function handleSelectYear(year: YearFilter) {
     const nextVisibleDecks = getVisibleDecks(decks, showSampleDecks, year);
     const selectedDeckStillVisible = nextVisibleDecks.some(
-      (deck) => deck.id === selectedDeckId
+      (deck) => deck.id === selectedDeckId,
     );
 
     setSelectedYear(year);
@@ -558,15 +564,15 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     updateDoneCards(
       new Set([
         ...enrichedMainDeck.map((card) =>
-          getCardCompletionKey("Main Deck", card)
+          getCardCompletionKey("Main Deck", card),
         ),
         ...enrichedExtraDeck.map((card) =>
-          getCardCompletionKey("Extra Deck", card)
+          getCardCompletionKey("Extra Deck", card),
         ),
         ...enrichedSideDeck.map((card) =>
-          getCardCompletionKey("Side Deck", card)
+          getCardCompletionKey("Side Deck", card),
         ),
-      ])
+      ]),
     );
   }
 
@@ -638,41 +644,66 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           onSelectDeck={handleSelectDeck}
         />
 
-        <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6 lg:p-8">
-          <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
-            Selected deck
-          </p>
+        <section className="mb-6 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6 lg:p-8">
+          <div className="flex flex-col gap-5 xl:flex-row xl:items-start xl:justify-between">
+            <div className="min-w-0">
+              <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
+                Selected deck
+              </p>
 
-          <div className="mt-3 flex flex-wrap items-center gap-3">
-            <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              {selectedDeck.name}
-            </h2>
+              <div className="mt-3 flex flex-wrap items-center gap-3">
+                <h2 className="text-3xl font-bold text-white sm:text-4xl">
+                  {selectedDeck.name}
+                </h2>
 
-            <span
-              className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide ${getDeckStatusClassName(
-                selectedDeck.status
-              )}`}
-            >
-              {getDeckStatusLabel(selectedDeck.status)}
-            </span>
+                <span
+                  className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide ${getDeckStatusClassName(
+                    selectedDeck.status,
+                  )}`}
+                >
+                  {getDeckStatusLabel(selectedDeck.status)}
+                </span>
 
-            {selectedVariant ? (
-              <span className="rounded-full border border-blue-500/40 bg-blue-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-blue-300">
-                {selectedVariant.name}
-              </span>
+                {selectedVariant ? (
+                  <span className="rounded-full border border-blue-500/40 bg-blue-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-blue-300">
+                    {selectedVariant.name}
+                  </span>
+                ) : null}
+              </div>
+
+              <p className="mt-3 text-slate-300">
+                {selectedDeck.year} · {selectedDeck.format}
+              </p>
+
+              <p className="mt-4 max-w-3xl text-slate-400">
+                The deck list is now directly below this summary. Use the pack
+                summary after the cards to plan where to find the remaining
+                copies, and open details only when you need extra diagnostics.
+              </p>
+            </div>
+
+            {selectedDeck.source ? (
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 xl:w-80">
+                <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
+                  Source
+                </p>
+                <p className="mt-2 font-semibold text-slate-200">
+                  {selectedDeck.source.label}
+                </p>
+                {selectedDeck.source.player ? (
+                  <p className="mt-1 text-sm text-slate-400">
+                    {selectedDeck.source.player}
+                  </p>
+                ) : null}
+              </div>
             ) : null}
           </div>
 
-          <p className="mt-3 text-slate-300">
-            {selectedDeck.year} · {selectedDeck.format}
-          </p>
-
-          <p className="mt-5 max-w-3xl text-slate-400">
-            Search within the selected deck, filter by custom role tags, or
-            inspect in-game source coverage, and mark cards as done as you complete them.
-          </p>
-
-          <DeckSourceBox deck={selectedDeck} />
+          <DeckStats
+            mainDeck={filteredMainDeck}
+            extraDeck={filteredExtraDeck}
+            sideDeck={filteredSideDeck}
+          />
 
           <CompletionOverview
             doneCopies={doneCardCopies}
@@ -690,48 +721,62 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           ) : null}
 
           <DeckVariantChanges variant={selectedVariant} />
+        </section>
 
-          <DeckStats
-            mainDeck={filteredMainDeck}
-            extraDeck={filteredExtraDeck}
-            sideDeck={filteredSideDeck}
-          />
+        <section className="mb-6">
+          <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
+                Deck overview
+              </p>
+              <h2 className="mt-1 text-2xl font-bold text-white">
+                Cards in this build
+              </h2>
+            </div>
 
-          <DeckValidation
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-          />
+            <p className="text-sm text-slate-500">
+              Main, Extra, and Side Deck first — before secondary tools.
+            </p>
+          </div>
 
-          <DeckSourceCoverage
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-          />
+          <div className="space-y-6">
+            <CardGrid
+              title="Main Deck"
+              cards={filteredMainDeck}
+              selectedCard={selectedCard}
+              doneCardKeys={doneCardKeys}
+              onSelectCard={setSelectedCard}
+              onToggleCardDone={handleToggleCardDone}
+            />
 
-          <DeckNotes
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-          />
+            <CardGrid
+              title="Extra Deck"
+              cards={filteredExtraDeck}
+              selectedCard={selectedCard}
+              doneCardKeys={doneCardKeys}
+              onSelectCard={setSelectedCard}
+              onToggleCardDone={handleToggleCardDone}
+            />
 
-          <DeckPackSummary
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-            selectedPack={selectedPack}
-            doneCardKeys={doneCardKeys}
-            onSelectPack={handleSelectPack}
-          />
+            <CardGrid
+              title="Side Deck"
+              cards={filteredSideDeck}
+              selectedCard={selectedCard}
+              doneCardKeys={doneCardKeys}
+              onSelectCard={setSelectedCard}
+              onToggleCardDone={handleToggleCardDone}
+            />
+          </div>
+        </section>
 
-          <MissingSourceChecklist
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-            doneCardKeys={doneCardKeys}
-            onSelectCard={setSelectedCard}
-          />
-        </div>
+        <DeckPackSummary
+          mainDeck={enrichedMainDeck}
+          extraDeck={enrichedExtraDeck}
+          sideDeck={enrichedSideDeck}
+          selectedPack={selectedPack}
+          doneCardKeys={doneCardKeys}
+          onSelectPack={handleSelectPack}
+        />
 
         <DeckFilters
           availableTags={availableTags}
@@ -748,34 +793,53 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           onSearchChange={handleSearchChange}
         />
 
-        <div className="space-y-6">
-          <CardGrid
-            title="Main Deck"
-            cards={filteredMainDeck}
-            selectedCard={selectedCard}
-            doneCardKeys={doneCardKeys}
-            onSelectCard={setSelectedCard}
-            onToggleCardDone={handleToggleCardDone}
-          />
+        <section className="rounded-3xl border border-slate-800 bg-slate-900/50 p-5 sm:p-6">
+          <div className="mb-2">
+            <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
+              Supporting details
+            </p>
+            <h2 className="mt-1 text-2xl font-bold text-white">
+              Source, notes, and diagnostics
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm text-slate-400">
+              These checks are still available, but they sit after the core deck
+              and pack planning flow so they do not compete with the primary
+              content.
+            </p>
+          </div>
 
-          <CardGrid
-            title="Extra Deck"
-            cards={filteredExtraDeck}
-            selectedCard={selectedCard}
-            doneCardKeys={doneCardKeys}
-            onSelectCard={setSelectedCard}
-            onToggleCardDone={handleToggleCardDone}
-          />
+          <div className="grid gap-6 xl:grid-cols-2">
+            <div>
+              <DeckSourceBox deck={selectedDeck} />
+              <DeckValidation
+                mainDeck={enrichedMainDeck}
+                extraDeck={enrichedExtraDeck}
+                sideDeck={enrichedSideDeck}
+              />
+              <DeckSourceCoverage
+                mainDeck={enrichedMainDeck}
+                extraDeck={enrichedExtraDeck}
+                sideDeck={enrichedSideDeck}
+              />
+            </div>
 
-          <CardGrid
-            title="Side Deck"
-            cards={filteredSideDeck}
-            selectedCard={selectedCard}
-            doneCardKeys={doneCardKeys}
-            onSelectCard={setSelectedCard}
-            onToggleCardDone={handleToggleCardDone}
-          />
-        </div>
+            <div>
+              <DeckNotes
+                mainDeck={enrichedMainDeck}
+                extraDeck={enrichedExtraDeck}
+                sideDeck={enrichedSideDeck}
+              />
+
+              <MissingSourceChecklist
+                mainDeck={enrichedMainDeck}
+                extraDeck={enrichedExtraDeck}
+                sideDeck={enrichedSideDeck}
+                doneCardKeys={doneCardKeys}
+                onSelectCard={setSelectedCard}
+              />
+            </div>
+          </div>
+        </section>
       </main>
 
       <CardPreviewPanel
