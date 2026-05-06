@@ -11,12 +11,20 @@ import {
 } from "../lib/cardAvailability";
 import type { BanlistInfo, EnrichedDeckCard } from "../types/deck";
 
+type CardSection = "Main Deck" | "Extra Deck" | "Side Deck";
+
 type CardGridProps = {
-  title: string;
+  title: CardSection;
   cards: EnrichedDeckCard[];
   selectedCard?: EnrichedDeckCard | null;
+  doneCardKeys: Set<string>;
   onSelectCard: (card: EnrichedDeckCard) => void;
+  onToggleCardDone: (section: CardSection, card: EnrichedDeckCard) => void;
 };
+
+function getCardCompletionKey(section: CardSection, card: EnrichedDeckCard) {
+  return `${section}:${card.name}`;
+}
 
 function getSourceBadge(card: EnrichedDeckCard) {
   return {
@@ -109,7 +117,9 @@ export function CardGrid({
   title,
   cards,
   selectedCard,
+  doneCardKeys,
   onSelectCard,
+  onToggleCardDone,
 }: CardGridProps) {
   const totalCards = cards.reduce((total, card) => total + card.quantity, 0);
 
@@ -137,56 +147,86 @@ export function CardGrid({
             const isSelected = selectedCard?.name === card.name;
             const sourceBadge = getSourceBadge(card);
             const banlistInfo = card.banlistInfo;
+            const isDone = doneCardKeys.has(getCardCompletionKey(title, card));
 
             return (
-              <button
+              <article
                 key={card.name}
-                onClick={() => onSelectCard(card)}
-                className={`relative min-h-36 rounded-xl border p-3 text-left text-sm text-slate-100 transition hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-700 ${
-                  isSelected
-                    ? "border-blue-400 bg-slate-700"
-                    : banlistInfo
-                      ? "border-red-500/70 bg-slate-800"
-                      : "border-slate-700 bg-slate-800"
+                className={`group relative min-h-36 rounded-xl border text-sm text-slate-100 transition hover:-translate-y-1 hover:border-blue-400 hover:bg-slate-700 ${
+                  isDone
+                    ? "border-emerald-500/70 bg-emerald-950/40"
+                    : isSelected
+                      ? "border-blue-400 bg-slate-700"
+                      : banlistInfo
+                        ? "border-red-500/70 bg-slate-800"
+                        : "border-slate-700 bg-slate-800"
                 }`}
               >
+                <button
+                  onClick={() => onToggleCardDone(title, card)}
+                  aria-pressed={isDone}
+                  aria-label={
+                    isDone
+                      ? `Mark ${card.name} as still needed`
+                      : `Mark ${card.name} as done`
+                  }
+                  className={`absolute left-2 top-2 z-20 rounded-full px-2 py-1 text-[10px] font-bold uppercase tracking-wide transition ${
+                    isDone
+                      ? "bg-emerald-400 text-slate-950 hover:bg-emerald-300"
+                      : "bg-slate-950/90 text-slate-300 hover:bg-emerald-500 hover:text-white"
+                  }`}
+                >
+                  {isDone ? "Done" : "Need"}
+                </button>
+
                 <span className="absolute right-2 top-2 z-10 rounded-full bg-blue-500 px-2 py-1 text-xs font-bold text-white">
                   x{card.quantity}
                 </span>
 
-                <ApiCardImage card={card} />
-
-                {banlistInfo ? (
-                  <span
-                    className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-black uppercase tracking-wide ${getBanlistBadgeClassName(
-                      banlistInfo
-                    )}`}
-                  >
-                    {getBanlistBadgeText(banlistInfo)}
-                  </span>
-                ) : null}
-
-                <span
-                  className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${sourceBadge.className}`}
+                <button
+                  onClick={() => onSelectCard(card)}
+                  className="h-full w-full rounded-xl p-3 pt-9 text-left transition"
                 >
-                  {sourceBadge.label}
-                </span>
+                  <ApiCardImage card={card} />
 
-                <p className="font-medium leading-snug">{card.name}</p>
+                  {banlistInfo ? (
+                    <span
+                      className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-black uppercase tracking-wide ${getBanlistBadgeClassName(
+                        banlistInfo
+                      )}`}
+                    >
+                      {getBanlistBadgeText(banlistInfo)}
+                    </span>
+                  ) : null}
 
-                {card.tags && card.tags.length > 0 ? (
-                  <div className="mt-3 flex flex-wrap gap-1">
-                    {card.tags.slice(0, 2).map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded-full bg-slate-700 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                ) : null}
-              </button>
+                  <span
+                    className={`mb-2 inline-flex rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${sourceBadge.className}`}
+                  >
+                    {sourceBadge.label}
+                  </span>
+
+                  <p
+                    className={`font-medium leading-snug ${
+                      isDone ? "text-slate-400 line-through" : "text-slate-100"
+                    }`}
+                  >
+                    {card.name}
+                  </p>
+
+                  {card.tags && card.tags.length > 0 ? (
+                    <div className="mt-3 flex flex-wrap gap-1">
+                      {card.tags.slice(0, 2).map((tag) => (
+                        <span
+                          key={tag}
+                          className="rounded-full bg-slate-700 px-2 py-1 text-[10px] uppercase tracking-wide text-slate-300"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </button>
+              </article>
             );
           })}
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { deckVariants as manualDeckVariants } from "../data/deckVariants";
 import { applyDeckVariant } from "../lib/applyDeckVariant";
 import { enrichDeckCard } from "../lib/enrichDeckCard";
@@ -31,6 +31,36 @@ type DeckViewerProps = {
 
 type SourceStatusFilter = CardGameSourceInfo["status"] | "missing" | null;
 type YearFilter = number | "all";
+type CardSection = "Main Deck" | "Extra Deck" | "Side Deck";
+type CompletionFilter = "all" | "remaining" | "done";
+
+const CARD_COMPLETION_STORAGE_KEY = "yugiohmetadecks.cardCompletion.v1";
+
+function getStoredDoneCardKeysByScope() {
+  if (typeof window === "undefined") {
+    return {};
+  }
+
+  const storedCompletion = window.localStorage.getItem(
+    CARD_COMPLETION_STORAGE_KEY
+  );
+
+  if (!storedCompletion) {
+    return {};
+  }
+
+  try {
+    const parsedCompletion = JSON.parse(storedCompletion);
+
+    if (parsedCompletion && typeof parsedCompletion === "object") {
+      return parsedCompletion as Record<string, string[]>;
+    }
+  } catch {
+    window.localStorage.removeItem(CARD_COMPLETION_STORAGE_KEY);
+  }
+
+  return {};
+}
 
 function getDeckStatusLabel(status: Deck["status"]) {
   if (status === "complete") {
@@ -125,6 +155,90 @@ function getDeckVariants(deck: Deck) {
   }
 
   return variants;
+}
+
+
+function getCardCompletionKey(section: CardSection, card: EnrichedDeckCard) {
+  return `${section}:${card.name}`;
+}
+
+function getCompletionScopeKey(deck: Deck, variant: DeckVariant | null) {
+  return `${deck.id}::${variant?.id ?? "base"}`;
+}
+
+function getDoneCopyCount(cards: EnrichedDeckCard[], section: CardSection, doneCardKeys: Set<string>) {
+  return cards.reduce((total, card) => {
+    if (doneCardKeys.has(getCardCompletionKey(section, card))) {
+      return total + card.quantity;
+    }
+
+    return total;
+  }, 0);
+}
+
+function CompletionOverview({
+  doneCopies,
+  totalCopies,
+  onMarkAllDone,
+  onResetDone,
+}: {
+  doneCopies: number;
+  totalCopies: number;
+  onMarkAllDone: () => void;
+  onResetDone: () => void;
+}) {
+  const remainingCopies = totalCopies - doneCopies;
+  const progressPercent =
+    totalCopies > 0 ? Math.round((doneCopies / totalCopies) * 100) : 0;
+
+  return (
+    <div className="mt-6 rounded-2xl border border-emerald-500/20 bg-emerald-500/10 p-5">
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+        <div>
+          <p className="text-xs uppercase tracking-[0.25em] text-emerald-300">
+            Card completion
+          </p>
+          <h3 className="mt-2 text-2xl font-bold text-white">
+            {remainingCopies} card copies still needed
+          </h3>
+          <p className="mt-1 text-sm text-emerald-100/70">
+            Mark cards as done once you own or have crafted the needed copies.
+            Progress is saved in this browser for the selected deck variant.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={onMarkAllDone}
+            className="rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400"
+          >
+            Mark deck done
+          </button>
+          <button
+            onClick={onResetDone}
+            className="rounded-full bg-slate-800 px-4 py-2 text-sm font-semibold text-slate-200 transition hover:bg-slate-700"
+          >
+            Reset deck
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-5 h-3 overflow-hidden rounded-full bg-slate-950">
+        <div
+          className="h-full rounded-full bg-emerald-400 transition-all"
+          style={{ width: `${progressPercent}%` }}
+        />
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-3 text-sm text-slate-300">
+        <span>{doneCopies} done copies</span>
+        <span>•</span>
+        <span>{totalCopies} total copies</span>
+        <span>•</span>
+        <span>{progressPercent}% complete</span>
+      </div>
+    </div>
+  );
 }
 
 function DeckSourceBox({ deck }: { deck: Deck }) {
@@ -231,7 +345,13 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const [selectedSourceStatus, setSelectedSourceStatus] =
     useState<SourceStatusFilter>(null);
   const [selectedPack, setSelectedPack] = useState<string | null>(null);
+  const [selectedCompletionFilter, setSelectedCompletionFilter] =
+    useState<CompletionFilter>("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [doneCardKeysByScope, setDoneCardKeysByScope] = useState<
+    Record<string, string[]>
+  >({});
+  const [isCompletionLoaded, setIsCompletionLoaded] = useState(false);
 
   const selectedDeck =
     visibleDecks.find((deck) => deck.id === selectedDeckId) ?? fallbackDeck;
@@ -245,6 +365,14 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     availableVariants.find((variant) => variant.id === selectedVariantId) ??
     null;
 
+  const activeCompletionScopeKey = getCompletionScopeKey(
+    selectedDeck,
+    selectedVariant
+  );
+  const doneCardKeys = new Set(
+    doneCardKeysByScope[activeCompletionScopeKey] ?? []
+  );
+
   const activeDeckCards = applyDeckVariant(selectedDeck, selectedVariant);
 
   const enrichedMainDeck = activeDeckCards.mainDeck.map(enrichDeckCard);
@@ -257,17 +385,40 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     ...enrichedSideDeck,
   ];
 
-  const availableTags = useMemo(() => {
-    const tags = allCards.flatMap((card) => card.tags ?? []);
-    return Array.from(new Set(tags)).sort();
-  }, [allCards]);
+  const tags = allCards.flatMap((card) => card.tags ?? []);
+  const availableTags = Array.from(new Set(tags)).sort();
 
-  const availablePacks = useMemo(() => {
-    const packs = allCards.flatMap(getCardPackNames);
-    return Array.from(new Set(packs)).sort();
-  }, [allCards]);
+  const packs = allCards.flatMap(getCardPackNames);
+  const availablePacks = Array.from(new Set(packs)).sort();
 
-  function filterCards(cards: EnrichedDeckCard[]) {
+  useEffect(() => {
+    queueMicrotask(() => {
+      setDoneCardKeysByScope(getStoredDoneCardKeysByScope());
+      setIsCompletionLoaded(true);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!isCompletionLoaded) {
+      return;
+    }
+
+    window.localStorage.setItem(
+      CARD_COMPLETION_STORAGE_KEY,
+      JSON.stringify(doneCardKeysByScope)
+    );
+  }, [doneCardKeysByScope, isCompletionLoaded]);
+
+  const totalCardCopies = allCards.reduce(
+    (total, card) => total + card.quantity,
+    0
+  );
+  const doneCardCopies =
+    getDoneCopyCount(enrichedMainDeck, "Main Deck", doneCardKeys) +
+    getDoneCopyCount(enrichedExtraDeck, "Extra Deck", doneCardKeys) +
+    getDoneCopyCount(enrichedSideDeck, "Side Deck", doneCardKeys);
+
+  function filterCards(cards: EnrichedDeckCard[], section: CardSection) {
     const normalizedSearchQuery = searchQuery.trim().toLowerCase();
 
     return cards.filter((card) => {
@@ -277,20 +428,39 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         : true;
       const matchesSource = matchesSourceStatus(card, selectedSourceStatus);
       const matchesSelectedPack = matchesPack(card, selectedPack);
+      const isCardDone = doneCardKeys.has(getCardCompletionKey(section, card));
+      const matchesCompletion =
+        selectedCompletionFilter === "all" ||
+        (selectedCompletionFilter === "done" && isCardDone) ||
+        (selectedCompletionFilter === "remaining" && !isCardDone);
 
-      return matchesTag && matchesSearch && matchesSource && matchesSelectedPack;
+      return (
+        matchesTag &&
+        matchesSearch &&
+        matchesSource &&
+        matchesSelectedPack &&
+        matchesCompletion
+      );
     });
   }
 
-  const filteredMainDeck = filterCards(enrichedMainDeck);
-  const filteredExtraDeck = filterCards(enrichedExtraDeck);
-  const filteredSideDeck = filterCards(enrichedSideDeck);
+  const filteredMainDeck = filterCards(enrichedMainDeck, "Main Deck");
+  const filteredExtraDeck = filterCards(enrichedExtraDeck, "Extra Deck");
+  const filteredSideDeck = filterCards(enrichedSideDeck, "Side Deck");
+  const hasActiveDeckFilters = Boolean(
+    selectedTag ||
+      selectedSourceStatus ||
+      selectedPack ||
+      selectedCompletionFilter !== "all" ||
+      searchQuery
+  );
 
   function resetFiltersAndSelection() {
     setSelectedCard(null);
     setSelectedTag(null);
     setSelectedSourceStatus(null);
     setSelectedPack(null);
+    setSelectedCompletionFilter("all");
     setSearchQuery("");
   }
 
@@ -366,6 +536,51 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     setSelectedCard(null);
   }
 
+  function handleSelectCompletionFilter(filter: CompletionFilter) {
+    setSelectedCompletionFilter(filter);
+    setSelectedCard(null);
+  }
+
+  function updateDoneCards(nextDoneCardKeys: Set<string>) {
+    setDoneCardKeysByScope((currentDoneCardKeysByScope) => ({
+      ...currentDoneCardKeysByScope,
+      [activeCompletionScopeKey]: Array.from(nextDoneCardKeys).sort(),
+    }));
+  }
+
+  function handleToggleCardDone(section: CardSection, card: EnrichedDeckCard) {
+    const nextDoneCardKeys = new Set(doneCardKeys);
+    const cardCompletionKey = getCardCompletionKey(section, card);
+
+    if (nextDoneCardKeys.has(cardCompletionKey)) {
+      nextDoneCardKeys.delete(cardCompletionKey);
+    } else {
+      nextDoneCardKeys.add(cardCompletionKey);
+    }
+
+    updateDoneCards(nextDoneCardKeys);
+  }
+
+  function handleMarkAllCardsDone() {
+    updateDoneCards(
+      new Set([
+        ...enrichedMainDeck.map((card) =>
+          getCardCompletionKey("Main Deck", card)
+        ),
+        ...enrichedExtraDeck.map((card) =>
+          getCardCompletionKey("Extra Deck", card)
+        ),
+        ...enrichedSideDeck.map((card) =>
+          getCardCompletionKey("Side Deck", card)
+        ),
+      ])
+    );
+  }
+
+  function handleResetDoneCards() {
+    updateDoneCards(new Set());
+  }
+
   function handlePreviewCard(card: EnrichedDeckCard) {
     setSelectedCard(card);
   }
@@ -384,8 +599,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 lg:flex">
-      <div className="hidden lg:block">
+    <div className="min-h-screen bg-slate-950 text-slate-100 lg:flex lg:h-screen lg:overflow-hidden">
+      <div className="hidden lg:block lg:h-screen lg:shrink-0">
         <DeckSidebar {...sidebarProps} />
       </div>
 
@@ -405,7 +620,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         </div>
       ) : null}
 
-      <main className="min-h-screen flex-1 bg-slate-950 p-4 sm:p-6 lg:p-8">
+      <main className="min-h-screen flex-1 bg-slate-950 p-4 sm:p-6 lg:h-screen lg:min-h-0 lg:overflow-y-auto lg:p-8">
         <div className="mb-4 flex items-center justify-between gap-3 lg:hidden">
           <button
             onClick={() => setIsMobileSidebarOpen(true)}
@@ -430,7 +645,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           onSelectDeck={handleSelectDeck}
         />
 
-        <div className="mb-8 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6 lg:p-8">
+        <section className="mb-6 rounded-3xl border border-slate-800 bg-slate-900 p-5 sm:p-6 lg:p-8">
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
             Selected deck
           </p>
@@ -460,11 +675,9 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           </p>
 
           <p className="mt-5 max-w-3xl text-slate-400">
-            Search within the selected deck, filter by custom role tags, or
-            inspect in-game source coverage.
+            Review the deck list first, then use pack and completion tools below
+            it to plan what to collect next.
           </p>
-
-          <DeckSourceBox deck={selectedDeck} />
 
           {availableVariants.length > 0 ? (
             <DeckVariantSelector
@@ -475,6 +688,112 @@ export function DeckViewer({ decks }: DeckViewerProps) {
           ) : null}
 
           <DeckVariantChanges variant={selectedVariant} />
+        </section>
+
+        <section className="space-y-6" aria-labelledby="deck-overview-title">
+          <div>
+            <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
+              Deck overview
+            </p>
+            <h3 id="deck-overview-title" className="mt-2 text-2xl font-bold text-white">
+              Card list
+            </h3>
+            <p className="mt-2 max-w-3xl text-sm text-slate-400">
+              This is the main deck view: mark cards as needed or done, then
+              check the pack plan immediately below.
+            </p>
+          </div>
+
+          <CardGrid
+            title="Main Deck"
+            cards={filteredMainDeck}
+            selectedCard={selectedCard}
+            doneCardKeys={doneCardKeys}
+            onSelectCard={setSelectedCard}
+            onToggleCardDone={handleToggleCardDone}
+          />
+
+          <CardGrid
+            title="Extra Deck"
+            cards={filteredExtraDeck}
+            selectedCard={selectedCard}
+            doneCardKeys={doneCardKeys}
+            onSelectCard={setSelectedCard}
+            onToggleCardDone={handleToggleCardDone}
+          />
+
+          <CardGrid
+            title="Side Deck"
+            cards={filteredSideDeck}
+            selectedCard={selectedCard}
+            doneCardKeys={doneCardKeys}
+            onSelectCard={setSelectedCard}
+            onToggleCardDone={handleToggleCardDone}
+          />
+        </section>
+
+        <DeckPackSummary
+          mainDeck={enrichedMainDeck}
+          extraDeck={enrichedExtraDeck}
+          sideDeck={enrichedSideDeck}
+          selectedPack={selectedPack}
+          doneCardKeys={doneCardKeys}
+          onSelectPack={handleSelectPack}
+        />
+
+        <details
+          open={hasActiveDeckFilters}
+          className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/70 p-5"
+        >
+          <summary className="cursor-pointer text-lg font-semibold text-white marker:text-blue-400">
+            Filters and search refinements
+          </summary>
+          <p className="mt-2 text-sm text-slate-400">
+            Filter controls are tucked away here so the deck list and pack plan
+            stay prominent. Active filters automatically keep this panel open.
+          </p>
+
+          <div className="mt-4">
+            <DeckFilters
+              availableTags={availableTags}
+              availablePacks={availablePacks}
+              selectedTag={selectedTag}
+              selectedSourceStatus={selectedSourceStatus}
+              selectedPack={selectedPack}
+              selectedCompletionFilter={selectedCompletionFilter}
+              searchQuery={searchQuery}
+              onSelectTag={handleSelectTag}
+              onSelectSourceStatus={handleSelectSourceStatus}
+              onSelectPack={handleSelectPack}
+              onSelectCompletionFilter={handleSelectCompletionFilter}
+              onSearchChange={handleSearchChange}
+            />
+          </div>
+        </details>
+
+        <CompletionOverview
+          doneCopies={doneCardCopies}
+          totalCopies={totalCardCopies}
+          onMarkAllDone={handleMarkAllCardsDone}
+          onResetDone={handleResetDoneCards}
+        />
+
+        <MissingSourceChecklist
+          mainDeck={enrichedMainDeck}
+          extraDeck={enrichedExtraDeck}
+          sideDeck={enrichedSideDeck}
+          doneCardKeys={doneCardKeys}
+          onSelectCard={setSelectedCard}
+        />
+
+        <details className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+          <summary className="cursor-pointer text-lg font-semibold text-white marker:text-blue-400">
+            Deck diagnostics and source details
+          </summary>
+          <p className="mt-2 text-sm text-slate-400">
+            Secondary checks are grouped here so the card list and pack plan stay
+            easy to reach.
+          </p>
 
           <DeckStats
             mainDeck={filteredMainDeck}
@@ -500,57 +819,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             sideDeck={enrichedSideDeck}
           />
 
-          <DeckPackSummary
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-            selectedPack={selectedPack}
-            onSelectPack={handleSelectPack}
-          />
-
-          <MissingSourceChecklist
-            mainDeck={enrichedMainDeck}
-            extraDeck={enrichedExtraDeck}
-            sideDeck={enrichedSideDeck}
-            onSelectCard={setSelectedCard}
-          />
-        </div>
-
-        <DeckFilters
-          availableTags={availableTags}
-          availablePacks={availablePacks}
-          selectedTag={selectedTag}
-          selectedSourceStatus={selectedSourceStatus}
-          selectedPack={selectedPack}
-          searchQuery={searchQuery}
-          onSelectTag={handleSelectTag}
-          onSelectSourceStatus={handleSelectSourceStatus}
-          onSelectPack={handleSelectPack}
-          onSearchChange={handleSearchChange}
-        />
-
-        <div className="space-y-6">
-          <CardGrid
-            title="Main Deck"
-            cards={filteredMainDeck}
-            selectedCard={selectedCard}
-            onSelectCard={setSelectedCard}
-          />
-
-          <CardGrid
-            title="Extra Deck"
-            cards={filteredExtraDeck}
-            selectedCard={selectedCard}
-            onSelectCard={setSelectedCard}
-          />
-
-          <CardGrid
-            title="Side Deck"
-            cards={filteredSideDeck}
-            selectedCard={selectedCard}
-            onSelectCard={setSelectedCard}
-          />
-        </div>
+          <DeckSourceBox deck={selectedDeck} />
+        </details>
       </main>
 
       <CardPreviewPanel

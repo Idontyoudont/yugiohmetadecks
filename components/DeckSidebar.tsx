@@ -75,7 +75,7 @@ export function DeckSidebar({
   }
 
   return (
-    <aside className="h-full w-80 shrink-0 overflow-y-auto border-r border-slate-800 bg-slate-950 p-6">
+    <aside className="h-full w-80 shrink-0 overflow-y-auto overscroll-contain border-r border-slate-800 bg-slate-950 p-6 lg:h-screen">
       <div className="mb-8 flex items-start justify-between gap-4">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-blue-400">

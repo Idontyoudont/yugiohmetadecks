@@ -1,17 +1,20 @@
 import type { EnrichedDeckCard } from "../types/deck";
 
+type CardSection = "Main Deck" | "Extra Deck" | "Side Deck";
+
 type DeckPackSummaryProps = {
   mainDeck: EnrichedDeckCard[];
   extraDeck: EnrichedDeckCard[];
   sideDeck: EnrichedDeckCard[];
   selectedPack: string | null;
+  doneCardKeys: Set<string>;
   onSelectPack: (packName: string | null) => void;
 };
 
 type PackCard = {
   name: string;
   quantity: number;
-  section: "Main Deck" | "Extra Deck" | "Side Deck";
+  section: CardSection;
 };
 
 type PackCount = {
@@ -31,9 +34,14 @@ function getCardPackNames(card: EnrichedDeckCard) {
 function addCardsToPackCounts(
   packCounts: Map<string, PackCount>,
   cards: EnrichedDeckCard[],
-  section: PackCard["section"]
+  section: PackCard["section"],
+  doneCardKeys: Set<string>
 ) {
   cards.forEach((card) => {
+    if (doneCardKeys.has(`${section}:${card.name}`)) {
+      return;
+    }
+
     const packNames = getCardPackNames(card);
 
     packNames.forEach((packName) => {
@@ -69,16 +77,18 @@ function getPackCounts({
   mainDeck,
   extraDeck,
   sideDeck,
+  doneCardKeys,
 }: {
   mainDeck: EnrichedDeckCard[];
   extraDeck: EnrichedDeckCard[];
   sideDeck: EnrichedDeckCard[];
+  doneCardKeys: Set<string>;
 }) {
   const packCounts = new Map<string, PackCount>();
 
-  addCardsToPackCounts(packCounts, mainDeck, "Main Deck");
-  addCardsToPackCounts(packCounts, extraDeck, "Extra Deck");
-  addCardsToPackCounts(packCounts, sideDeck, "Side Deck");
+  addCardsToPackCounts(packCounts, mainDeck, "Main Deck", doneCardKeys);
+  addCardsToPackCounts(packCounts, extraDeck, "Extra Deck", doneCardKeys);
+  addCardsToPackCounts(packCounts, sideDeck, "Side Deck", doneCardKeys);
 
   return Array.from(packCounts.values()).sort(
     (a, b) => b.count - a.count || a.packName.localeCompare(b.packName)
@@ -90,12 +100,14 @@ export function DeckPackSummary({
   extraDeck,
   sideDeck,
   selectedPack,
+  doneCardKeys,
   onSelectPack,
 }: DeckPackSummaryProps) {
   const packCounts = getPackCounts({
     mainDeck,
     extraDeck,
     sideDeck,
+    doneCardKeys,
   });
 
   return (
@@ -103,18 +115,18 @@ export function DeckPackSummary({
       <div className="mb-4">
         <h3 className="text-lg font-semibold text-white">Pack summary</h3>
         <p className="mt-1 text-sm text-slate-400">
-          Click a pack to filter the deck and see which cards come from that
-          in-game source.
+          Click a pack to filter the deck and see which still-needed cards come
+          from that in-game source. Done cards are removed from these counts.
         </p>
       </div>
 
       {packCounts.length === 0 ? (
         <div className="rounded-xl border border-dashed border-slate-700 bg-slate-900/70 p-5 text-center">
           <p className="font-medium text-slate-300">
-            No available pack sources yet.
+            No remaining available pack sources.
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Add in-game source data to cards to populate this summary.
+            Mark cards as still needed or add in-game source data to populate this summary.
           </p>
         </div>
       ) : (
@@ -147,7 +159,7 @@ export function DeckPackSummary({
                 <p className="mt-2 text-3xl font-bold text-blue-300">
                   {pack.count}
                 </p>
-                <p className="mt-1 text-sm text-slate-400">card copies</p>
+                <p className="mt-1 text-sm text-slate-400">needed card copies</p>
 
                 {isSelected ? (
                   <div className="mt-4 space-y-2 border-t border-slate-800 pt-4">
