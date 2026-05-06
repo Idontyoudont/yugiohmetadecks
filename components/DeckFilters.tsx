@@ -2,16 +2,20 @@ import type { CardGameSourceInfo } from "../types/deck";
 
 type SourceStatusFilter = CardGameSourceInfo["status"] | "missing" | null;
 
+type CompletionFilter = "all" | "remaining" | "done";
+
 type DeckFiltersProps = {
   availableTags: string[];
   availablePacks: string[];
   selectedTag: string | null;
   selectedSourceStatus: SourceStatusFilter;
   selectedPack: string | null;
+  selectedCompletionFilter: CompletionFilter;
   searchQuery: string;
   onSelectTag: (tag: string | null) => void;
   onSelectSourceStatus: (status: SourceStatusFilter) => void;
   onSelectPack: (pack: string | null) => void;
+  onSelectCompletionFilter: (filter: CompletionFilter) => void;
   onSearchChange: (query: string) => void;
 };
 
@@ -43,14 +47,20 @@ export function DeckFilters({
   selectedTag,
   selectedSourceStatus,
   selectedPack,
+  selectedCompletionFilter,
   searchQuery,
   onSelectTag,
   onSelectSourceStatus,
   onSelectPack,
+  onSelectCompletionFilter,
   onSearchChange,
 }: DeckFiltersProps) {
   const hasActiveFilters =
-    selectedTag || selectedSourceStatus || selectedPack || searchQuery;
+    selectedTag ||
+    selectedSourceStatus ||
+    selectedPack ||
+    selectedCompletionFilter !== "all" ||
+    searchQuery;
 
   return (
     <div className="mb-6 rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
@@ -68,6 +78,7 @@ export function DeckFilters({
               onSelectTag(null);
               onSelectSourceStatus(null);
               onSelectPack(null);
+              onSelectCompletionFilter("all");
               onSearchChange("");
             }}
             className="rounded-full bg-slate-800 px-3 py-1 text-sm text-slate-300 transition hover:bg-slate-700"
@@ -83,6 +94,33 @@ export function DeckFilters({
         placeholder="Search card name..."
         className="mb-4 w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-500 focus:border-blue-400"
       />
+
+
+      <div className="mb-4">
+        <p className="mb-2 text-xs uppercase tracking-[0.2em] text-slate-500">
+          Completion
+        </p>
+
+        <div className="flex flex-wrap gap-2">
+          {[
+            { label: "All cards", value: "all" as const },
+            { label: "Still needed", value: "remaining" as const },
+            { label: "Done", value: "done" as const },
+          ].map((option) => (
+            <button
+              key={option.value}
+              onClick={() => onSelectCompletionFilter(option.value)}
+              className={`rounded-full px-3 py-2 text-sm font-medium transition ${
+                selectedCompletionFilter === option.value
+                  ? "bg-blue-500 text-white"
+                  : "bg-slate-800 text-slate-300 hover:bg-slate-700"
+              }`}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      </div>
 
       <div className="mb-4">
         <p className="mb-2 text-xs uppercase tracking-[0.2em] text-slate-500">
