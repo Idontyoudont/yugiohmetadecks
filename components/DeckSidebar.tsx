@@ -5,13 +5,10 @@ type YearFilter = number | "all";
 type DeckSidebarProps = {
   decks: Deck[];
   selectedDeck: Deck;
-  showSampleDecks: boolean;
-  sampleDeckCount: number;
   selectedYear: YearFilter;
   availableYears: number[];
   yearCounts: Record<number, number>;
   onSelectYear: (year: YearFilter) => void;
-  onToggleShowSampleDecks: () => void;
   onSelectDeck: (deckId: string) => void;
   onRequestClose?: () => void;
 };
@@ -54,13 +51,10 @@ function groupDecksByYear(decks: Deck[]) {
 export function DeckSidebar({
   decks,
   selectedDeck,
-  showSampleDecks,
-  sampleDeckCount,
   selectedYear,
   availableYears,
   yearCounts,
   onSelectYear,
-  onToggleShowSampleDecks,
   onSelectDeck,
   onRequestClose,
 }: DeckSidebarProps) {
@@ -126,33 +120,6 @@ export function DeckSidebar({
         </p>
       </div>
 
-      {sampleDeckCount > 0 ? (
-        <div className="mb-5 rounded-2xl border border-slate-800 bg-slate-900 p-4">
-          <div className="mb-3">
-            <p className="font-semibold text-white">Development decks</p>
-            <p className="mt-1 text-sm text-slate-400">
-              Show unfinished sample decks in the sidebar.
-            </p>
-          </div>
-
-          <button
-            onClick={onToggleShowSampleDecks}
-            className={`w-full rounded-xl px-4 py-2 text-sm font-semibold transition ${
-              showSampleDecks
-                ? "bg-blue-500 text-white hover:bg-blue-400"
-                : "bg-slate-800 text-slate-300 hover:bg-slate-700"
-            }`}
-          >
-            {showSampleDecks ? "Hide sample decks" : "Show sample decks"}
-          </button>
-
-          <p className="mt-2 text-xs text-slate-500">
-            {sampleDeckCount} sample deck{sampleDeckCount === 1 ? "" : "s"}{" "}
-            available
-          </p>
-        </div>
-      ) : null}
-
       <nav className="space-y-5">
         {visibleYears.map((year) => (
           <section key={year}>
@@ -181,7 +148,7 @@ export function DeckSidebar({
 
                     <span
                       className={`rounded-full px-2 py-1 text-[10px] font-semibold uppercase tracking-wide ${getStatusClassName(
-                        deck.status
+                        deck.status,
                       )}`}
                     >
                       {getStatusLabel(deck.status)}

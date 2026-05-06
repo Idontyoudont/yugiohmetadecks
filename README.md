@@ -17,7 +17,6 @@ The app supports:
 - Name-based decklist importing
 - Inline and automatic card tagging for imported decklists
 - Deck source metadata
-- Hidden sample decks for development
 
 ## Live app
 
@@ -385,7 +384,7 @@ Automatic tag rules: 75
    Automatic tagged cards: 34
 ```
 
-Warnings are expected for incomplete sample decks. Real completed decks should usually have fewer warnings.
+Warnings are expected for incomplete sample decks in local validation data. Real completed decks should usually have fewer warnings.
 
 ### Recommended deck import workflow
 
@@ -426,19 +425,7 @@ sample
 draft
 ```
 
-Sample decks are hidden by default in the sidebar. To show unfinished development decks in the app, use the **Show sample decks** button in the left sidebar.
-
-This is useful for keeping the live app clean while still keeping unfinished deck data available during development.
-
-Current behavior:
-
-```text
-Default sidebar:
-Complete and draft decks
-
-After clicking Show sample decks:
-Complete, draft, and sample decks
-```
+The app sidebar shows complete and draft decks. Sample decks remain available in the data for local validation and future imports, but they are not exposed in the app UI.
 
 ## Deck variants
 
