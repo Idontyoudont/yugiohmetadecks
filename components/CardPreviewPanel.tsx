@@ -126,7 +126,7 @@ function CardPreviewContent({
   }
 
   return (
-    <div className="sticky top-6">
+    <div>
       {displayCard.imageUrl ? (
         <img
           src={displayCard.imageUrl}
@@ -401,7 +401,7 @@ export function CardPreviewPanel({
 }: CardPreviewPanelProps) {
   return (
     <>
-      <aside className="hidden w-80 border-l border-slate-800 bg-slate-950 p-6 xl:block">
+      <aside className="hidden w-80 shrink-0 overflow-y-auto overscroll-contain border-l border-slate-800 bg-slate-950 p-6 xl:block xl:h-screen">
         <CardPreviewContent card={card} onPreviewCard={onPreviewCard} />
       </aside>
 

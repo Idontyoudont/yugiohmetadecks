@@ -592,8 +592,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 lg:flex">
-      <div className="hidden lg:block">
+    <div className="min-h-screen bg-slate-950 text-slate-100 lg:flex lg:h-screen lg:overflow-hidden">
+      <div className="hidden lg:block lg:h-screen lg:shrink-0">
         <DeckSidebar {...sidebarProps} />
       </div>
 
@@ -613,7 +613,7 @@ export function DeckViewer({ decks }: DeckViewerProps) {
         </div>
       ) : null}
 
-      <main className="min-h-screen flex-1 bg-slate-950 p-4 sm:p-6 lg:p-8">
+      <main className="min-h-screen flex-1 bg-slate-950 p-4 sm:p-6 lg:h-screen lg:min-h-0 lg:overflow-y-auto lg:p-8">
         <div className="mb-4 flex items-center justify-between gap-3 lg:hidden">
           <button
             onClick={() => setIsMobileSidebarOpen(true)}
