@@ -117,23 +117,19 @@ function matchesPack(card: EnrichedDeckCard, selectedPack: string | null) {
   return getCardPackNames(card).includes(selectedPack);
 }
 
-function getVisibleDecks(
-  decks: Deck[],
-  showSampleDecks: boolean,
-  selectedYear: YearFilter,
-) {
+function getVisibleDecks(decks: Deck[], selectedYear: YearFilter) {
   return decks.filter((deck) => {
-    const matchesSampleFilter = showSampleDecks || deck.status !== "sample";
+    const matchesPublishedDeckFilter = deck.status !== "sample";
     const matchesYearFilter =
       selectedYear === "all" || deck.year === selectedYear;
 
-    return matchesSampleFilter && matchesYearFilter;
+    return matchesPublishedDeckFilter && matchesYearFilter;
   });
 }
 
-function getYearCounts(decks: Deck[], showSampleDecks: boolean) {
+function getYearCounts(decks: Deck[]) {
   return decks.reduce<Record<number, number>>((counts, deck) => {
-    if (!showSampleDecks && deck.status === "sample") {
+    if (deck.status === "sample") {
       return counts;
     }
 
@@ -313,33 +309,25 @@ function DeckSourceBox({ deck }: { deck: Deck }) {
 }
 
 export function DeckViewer({ decks }: DeckViewerProps) {
-  const [showSampleDecks, setShowSampleDecks] = useState(false);
   const [selectedYear, setSelectedYear] = useState<YearFilter>("all");
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
-  const yearCounts = useMemo(
-    () => getYearCounts(decks, showSampleDecks),
-    [decks, showSampleDecks],
-  );
+  const yearCounts = useMemo(() => getYearCounts(decks), [decks]);
 
   const availableYears = useMemo(
     () =>
-      Array.from(new Set(decks.map((deck) => deck.year))).sort(
-        (yearA, yearB) => yearA - yearB,
-      ),
-    [decks],
+      Object.keys(yearCounts)
+        .map(Number)
+        .sort((yearA, yearB) => yearA - yearB),
+    [yearCounts],
   );
 
   const visibleDecks = useMemo(
-    () => getVisibleDecks(decks, showSampleDecks, selectedYear),
-    [decks, showSampleDecks, selectedYear],
+    () => getVisibleDecks(decks, selectedYear),
+    [decks, selectedYear],
   );
 
   const fallbackDeck = visibleDecks[0] ?? decks[0];
-  const sampleDeckCount = decks.filter(
-    (deck) => deck.status === "sample",
-  ).length;
-
   const [selectedDeckId, setSelectedDeckId] = useState(fallbackDeck.id);
   const [selectedVariantId, setSelectedVariantId] = useState<string | null>(
     null,
@@ -479,26 +467,8 @@ export function DeckViewer({ decks }: DeckViewerProps) {
     resetFiltersAndSelection();
   }
 
-  function handleToggleShowSampleDecks() {
-    const nextShowSampleDecks = !showSampleDecks;
-    const nextVisibleDecks = getVisibleDecks(
-      decks,
-      nextShowSampleDecks,
-      selectedYear,
-    );
-    const selectedDeckStillVisible = nextVisibleDecks.some(
-      (deck) => deck.id === selectedDeckId,
-    );
-
-    setShowSampleDecks(nextShowSampleDecks);
-
-    if (!selectedDeckStillVisible) {
-      selectFirstVisibleDeck(nextVisibleDecks);
-    }
-  }
-
   function handleSelectYear(year: YearFilter) {
-    const nextVisibleDecks = getVisibleDecks(decks, showSampleDecks, year);
+    const nextVisibleDecks = getVisibleDecks(decks, year);
     const selectedDeckStillVisible = nextVisibleDecks.some(
       (deck) => deck.id === selectedDeckId,
     );
@@ -587,13 +557,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
   const sidebarProps = {
     decks: visibleDecks,
     selectedDeck,
-    showSampleDecks,
-    sampleDeckCount,
     selectedYear,
     availableYears,
     yearCounts,
     onSelectYear: handleSelectYear,
-    onToggleShowSampleDecks: handleToggleShowSampleDecks,
     onSelectDeck: handleSelectDeck,
   };
 
