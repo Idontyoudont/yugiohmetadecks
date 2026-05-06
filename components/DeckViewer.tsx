@@ -157,7 +157,6 @@ function getDeckVariants(deck: Deck) {
   return variants;
 }
 
-
 function getCardCompletionKey(section: CardSection, card: EnrichedDeckCard) {
   return `${section}:${card.name}`;
 }
@@ -166,7 +165,11 @@ function getCompletionScopeKey(deck: Deck, variant: DeckVariant | null) {
   return `${deck.id}::${variant?.id ?? "base"}`;
 }
 
-function getDoneCopyCount(cards: EnrichedDeckCard[], section: CardSection, doneCardKeys: Set<string>) {
+function getDoneCopyCount(
+  cards: EnrichedDeckCard[],
+  section: CardSection,
+  doneCardKeys: Set<string>
+) {
   return cards.reduce((total, card) => {
     if (doneCardKeys.has(getCardCompletionKey(section, card))) {
       return total + card.quantity;
@@ -695,7 +698,10 @@ export function DeckViewer({ decks }: DeckViewerProps) {
             <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
               Deck overview
             </p>
-            <h3 id="deck-overview-title" className="mt-2 text-2xl font-bold text-white">
+            <h3
+              id="deck-overview-title"
+              className="mt-2 text-2xl font-bold text-white"
+            >
               Card list
             </h3>
             <p className="mt-2 max-w-3xl text-sm text-slate-400">
