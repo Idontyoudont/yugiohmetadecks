@@ -1,15 +1,18 @@
 import { enrichCardByName } from "../lib/enrichDeckCard";
 import type { EnrichedDeckCard } from "../types/deck";
 
+type CardSection = "Main Deck" | "Extra Deck" | "Side Deck";
+
 type MissingSourceChecklistProps = {
   mainDeck: EnrichedDeckCard[];
   extraDeck: EnrichedDeckCard[];
   sideDeck: EnrichedDeckCard[];
+  doneCardKeys: Set<string>;
   onSelectCard: (card: EnrichedDeckCard) => void;
 };
 
 type UnavailableSourceItem = {
-  section: "Main Deck" | "Extra Deck" | "Side Deck";
+  section: CardSection;
   card: EnrichedDeckCard;
 };
 
@@ -175,13 +178,14 @@ export function MissingSourceChecklist({
   mainDeck,
   extraDeck,
   sideDeck,
+  doneCardKeys,
   onSelectCard,
 }: MissingSourceChecklistProps) {
   const unavailableSourceCards = getUnavailableSourceCards({
     mainDeck,
     extraDeck,
     sideDeck,
-  });
+  }).filter(({ section, card }) => !doneCardKeys.has(`${section}:${card.name}`));
 
   const availableCardsBySection = getAvailableCardsBySection({
     mainDeck,
@@ -196,18 +200,18 @@ export function MissingSourceChecklist({
           Unavailable card checklist
         </h3>
         <p className="mt-1 text-sm text-slate-400">
-          Cards marked not in game, unknown, or missing source data are grouped
-          together here so you can choose playable replacements.
+          Still-needed cards marked not in game, unknown, or missing source data
+          are grouped together here so you can choose playable replacements.
         </p>
       </div>
 
       {unavailableSourceCards.length === 0 ? (
         <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-5">
           <p className="font-semibold text-emerald-300">
-            No unavailable cards found
+            No remaining unavailable cards found
           </p>
           <p className="mt-2 text-sm text-emerald-100/70">
-            Every card in this deck currently has an available in-game source.
+            Every still-needed card in this deck currently has an available in-game source.
           </p>
         </div>
       ) : (
