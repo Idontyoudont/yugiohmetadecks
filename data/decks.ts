@@ -249,9 +249,9 @@ export const decks: Deck[] = [
     name: "Domain Monarch",
     year: 2020,
     format: "TCG Advanced",
-    status: "complete",
+    status: "sample",
     source: {
-      label: "Manual 2020 Monarch deck list",
+      label: "Community sample list",
       deckType: "Domain Monarch",
       notes:
         "2020 Monarch build centered on Domain of the True Monarchs; includes three copies of Pantheism of the Monarchs.",
@@ -387,9 +387,9 @@ export const decks: Deck[] = [
     name: "Extra Deck Monarch",
     year: 2020,
     format: "TCG Advanced",
-    status: "complete",
+    status: "sample",
     source: {
-      label: "Manual 2020 Monarch deck list",
+      label: "Community sample list",
       deckType: "Extra Deck Monarch",
       notes:
         "2020 Monarch build that trades the Domain lock for Isolde and Link climbing; includes three copies of Pantheism of the Monarchs.",
@@ -446,9 +446,9 @@ export const decks: Deck[] = [
     name: "True Draco Monarch",
     year: 2020,
     format: "TCG Advanced",
-    status: "complete",
+    status: "sample",
     source: {
-      label: "Manual 2020 Monarch deck list",
+      label: "Community sample list",
       deckType: "True Draco Monarch",
       notes:
         "2020 hybrid build pairing tribute-summon True Draco cards with the Monarch spell/trap engine; includes three copies of Pantheism of the Monarchs.",
@@ -490,9 +490,9 @@ export const decks: Deck[] = [
     name: "Chaos Monarch",
     year: 2020,
     format: "TCG Advanced",
-    status: "complete",
+    status: "sample",
     source: {
-      label: "Manual 2020 Monarch deck list",
+      label: "Community sample list",
       deckType: "Chaos Monarch",
       notes:
         "2020 Monarch variant using light and dark extenders to feed tribute summons and Chaos payoffs; includes three copies of Pantheism of the Monarchs.",
